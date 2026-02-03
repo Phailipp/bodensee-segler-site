@@ -461,13 +461,48 @@ function initNav() {
 
 function initMap() {
   // Leaflet provided globally
-  state.map = L.map('map', { zoomControl: false, scrollWheelZoom: false }).setView([47.58, 9.45], 10);
+  state.map = L.map('map', {
+    zoomControl: false,
+    scrollWheelZoom: false,
+    // Mobile UX: avoid accidental one-finger map panning while scrolling
+    dragging: !L.Browser.touch
+  }).setView([47.58, 9.45], 10);
+
   L.control.zoom({ position: 'topright' }).addTo(state.map);
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution: '© OpenStreetMap © CartoDB',
     maxZoom: 18
   }).addTo(state.map);
+
+  // On touch devices: enable dragging only with two fingers
+  if (L.Browser.touch) {
+    const el = state.map.getContainer();
+    let activeTouches = 0;
+
+    const update = () => {
+      if (activeTouches >= 2) state.map.dragging.enable();
+      else state.map.dragging.disable();
+    };
+
+    el.addEventListener('touchstart', (e) => {
+      activeTouches = e.touches ? e.touches.length : 0;
+      update();
+    }, { passive: true });
+
+    el.addEventListener('touchmove', (e) => {
+      activeTouches = e.touches ? e.touches.length : 0;
+      update();
+    }, { passive: true });
+
+    el.addEventListener('touchend', (e) => {
+      activeTouches = e.touches ? e.touches.length : 0;
+      update();
+    }, { passive: true });
+
+    // start disabled
+    state.map.dragging.disable();
+  }
 }
 
 function makeIcon(color, size = 14) {
