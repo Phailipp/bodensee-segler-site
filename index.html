@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bodensee Segler</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+  <nav>
+    <div class="logo">Bodensee<span>.</span></div>
+
+    <ul class="nav-links">
+      <li><a href="#karte" data-i18n="nav.map">Karte</a></li>
+      <li><a href="#haefen" data-i18n="nav.harbors">Häfen</a></li>
+      <li><a href="#anker" data-i18n="nav.anchors">Ankerplätze</a></li>
+      <li><a href="#vermietung" data-i18n="nav.rentals">Vermietung</a></li>
+      <li><a href="#gastro" data-i18n="nav.gastro">Gastro</a></li>
+      <li><a href="#service" data-i18n="nav.service">Service</a></li>
+    </ul>
+
+    <div class="lang-toggle" id="langToggle" aria-label="Language selector">
+      <button data-lang="de" class="active" aria-pressed="true">DE</button>
+      <button data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-label" data-i18n="hero.label">Segeln am Bodensee</div>
+      <h1>
+        <span data-i18n="hero.title.line1">Dein Revier.</span><br>
+        <span data-i18n="hero.title.line2">Deine Freiheit.</span>
+      </h1>
+      <p data-i18n="hero.subtitle">Häfen, Ankerplätze und alles was du brauchst — klar und auf den Punkt.</p>
+      <a href="#karte" class="hero-cta">
+        <span data-i18n="hero.cta">Karte erkunden</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 5v14M5 12l7 7 7-7"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="scroll-indicator">
+      <span data-i18n="hero.scroll">Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section id="karte" class="map-section">
+    <div class="map-header">
+      <div class="section-label" data-i18n="map.label">Interaktive Übersicht</div>
+      <h2 class="section-title" data-i18n="map.title">Karte</h2>
+    </div>
+    <div id="map"></div>
+    <div class="map-legend">
+      <div class="legend-item">
+        <div class="legend-marker harbor"></div>
+        <span data-i18n="nav.harbors">Häfen</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-marker anchor"></div>
+        <span data-i18n="nav.anchors">Ankerplätze</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-marker rental"></div>
+        <span data-i18n="nav.rentals">Vermietung</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-marker gastro"></div>
+        <span data-i18n="nav.gastro">Gastro</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="haefen">
+    <div class="section-header">
+      <div class="section-label" data-i18n="harbors.label">Marinas & Yachthäfen</div>
+      <h2 class="section-title" data-i18n="harbors.title">Häfen am See</h2>
+      <p class="section-subtitle" data-i18n="harbors.subtitle">Kuratiert, übersichtlich, ohne Lärm. Filtere nach Land, Features und Tiefgang.</p>
+    </div>
+
+    <div class="filter-bar" aria-label="Filters">
+      <input id="filterSearch" class="filter-input" data-i18n-placeholder="filter.search" placeholder="Suchen…" />
+
+      <select id="filterCountry" class="filter-select" aria-label="Country">
+        <option value="ALL" data-i18n-option="filter.any">Alle</option>
+        <option value="DE">DE</option>
+        <option value="CH">CH</option>
+        <option value="AT">AT</option>
+      </select>
+
+      <select id="filterOvernight" class="filter-select" aria-label="Overnight">
+        <option value="ANY" data-i18n-option="filter.overnight.any">Egal</option>
+        <option value="YES" data-i18n-option="filter.overnight.yes">Ja</option>
+        <option value="NO" data-i18n-option="filter.overnight.no">Nein</option>
+      </select>
+
+      <input id="filterMinDraft" class="filter-input" data-i18n-placeholder="filter.minDraft" placeholder="Min. Tiefgang" />
+      <input id="filterMinDepth" class="filter-input" data-i18n-placeholder="filter.minDepth" placeholder="Min. Tiefe" />
+    </div>
+
+    <div class="filter-chiprow" id="chips"></div>
+
+    <div class="harbors-grid" id="harborsGrid"></div>
+  </section>
+
+  <section id="anker" class="anchor-section">
+    <div class="section-header">
+      <div class="section-label" data-i18n="anchors.label">Naturerlebnis</div>
+      <h2 class="section-title" data-i18n="anchors.title">Ankerplätze</h2>
+      <p class="section-subtitle" data-i18n="anchors.subtitle">Für ruhige Stunden: Schutz, Grund, Tiefe – und ob Übernachten sinnvoll ist.</p>
+    </div>
+
+    <div class="anchor-list" id="anchorsList"></div>
+  </section>
+
+  <section id="vermietung">
+    <div class="section-header">
+      <div class="section-label" data-i18n="rentals.label">Chartern & Mieten</div>
+      <h2 class="section-title" data-i18n="rentals.title">Bootsvermietung</h2>
+      <p class="section-subtitle" data-i18n="rentals.subtitle">Premium-Auswahl für Tagestrips, Training oder mit Skipper.</p>
+    </div>
+
+    <div class="harbors-grid" id="rentalsGrid"></div>
+  </section>
+
+  <section id="gastro" class="anchor-section">
+    <div class="section-header">
+      <div class="section-label" data-i18n="gastro.label">Einkehren mit Boot</div>
+      <h2 class="section-title" data-i18n="gastro.title">Gastro mit Anleger</h2>
+      <p class="section-subtitle" data-i18n="gastro.subtitle">Wo Genuss und kurzer Weg vom Steg zusammenkommen.</p>
+    </div>
+
+    <div class="anchor-list" id="gastroList"></div>
+  </section>
+
+  <section id="service">
+    <div class="section-header">
+      <div class="section-label" data-i18n="service.label">Infrastruktur</div>
+      <h2 class="section-title" data-i18n="service.title">Service am See</h2>
+      <p class="section-subtitle" data-i18n="service.subtitle">Slip, Tankstellen, Werften – das Nötige, sauber zusammengefasst.</p>
+    </div>
+
+    <div class="service-grid" id="serviceGrid"></div>
+  </section>
+
+  <footer>
+    <div class="footer-logo">Bodensee<span>.</span></div>
+    <p class="footer-text" data-i18n="footer.disclaimer">Daten ohne Gewähr · Mit Liebe zum Segeln</p>
+    <div class="footer-links">
+      <a href="./impressum.html" data-i18n="footer.imprint">Impressum</a>
+      <a href="./datenschutz.html" data-i18n="footer.privacy">Datenschutz</a>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-label="Details">
+    <div class="modal">
+      <div class="modal-header">
+        <div class="modal-title" id="modalTitle">Details</div>
+        <button class="modal-close" id="modalClose" data-i18n="modal.close">Schließen</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>

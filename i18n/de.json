@@ -1,0 +1,82 @@
+{
+  "nav.map": "Karte",
+  "nav.harbors": "Häfen",
+  "nav.anchors": "Ankerplätze",
+  "nav.rentals": "Vermietung",
+  "nav.gastro": "Gastro",
+  "nav.service": "Service",
+
+  "hero.label": "Segeln am Bodensee",
+  "hero.title.line1": "Dein Revier.",
+  "hero.title.line2": "Deine Freiheit.",
+  "hero.subtitle": "Häfen, Ankerplätze und alles was du brauchst — klar und auf den Punkt.",
+  "hero.cta": "Karte erkunden",
+  "hero.scroll": "Scroll",
+
+  "map.label": "Interaktive Übersicht",
+  "map.title": "Karte",
+
+  "harbors.label": "Marinas & Yachthäfen",
+  "harbors.title": "Häfen am See",
+  "harbors.subtitle": "Kuratiert, übersichtlich, ohne Lärm. Filtere nach Land, Features und Tiefgang.",
+
+  "anchors.label": "Naturerlebnis",
+  "anchors.title": "Ankerplätze",
+  "anchors.subtitle": "Für ruhige Stunden: Schutz, Grund, Tiefe – und ob Übernachten sinnvoll ist.",
+
+  "rentals.label": "Chartern & Mieten",
+  "rentals.title": "Bootsvermietung",
+  "rentals.subtitle": "Premium-Auswahl für Tagestrips, Training oder mit Skipper.",
+
+  "gastro.label": "Einkehren mit Boot",
+  "gastro.title": "Gastro mit Anleger",
+  "gastro.subtitle": "Wo Genuss und kurzer Weg vom Steg zusammenkommen.",
+
+  "service.label": "Infrastruktur",
+  "service.title": "Service am See",
+  "service.subtitle": "Slip, Tankstellen, Werften – das Nötige, sauber zusammengefasst.",
+
+  "filter.search": "Suchen…",
+  "filter.country": "Land",
+  "filter.any": "Alle",
+  "filter.overnight": "Übernachten",
+  "filter.overnight.any": "Egal",
+  "filter.overnight.yes": "Ja",
+  "filter.overnight.no": "Nein",
+  "filter.minDepth": "Min. Tiefe",
+  "filter.minDraft": "Min. Tiefgang",
+
+  "stats.berths": "Plätze",
+  "stats.guest": "Gast",
+  "stats.draft": "Tiefgang",
+  "stats.depth": "Tiefe",
+  "stats.ground": "Grund",
+  "stats.price": "Preis",
+  "stats.berthing": "Anleger",
+
+  "modal.close": "Schließen",
+  "modal.actions.route": "Route",
+  "modal.actions.copy": "Koordinaten kopieren",
+
+  "modal.k.country": "Land",
+  "modal.k.region": "Region",
+  "modal.k.location": "Ort",
+  "modal.k.coords": "Koordinaten",
+  "modal.k.features": "Features",
+  "modal.k.offer": "Angebot",
+  "modal.k.highlights": "Highlights",
+  "modal.k.type": "Typ",
+  "modal.k.details": "Details",
+  "modal.k.shelter": "Schutz",
+  "modal.k.fleet": "Flotte",
+
+  "footer.disclaimer": "Daten ohne Gewähr · Mit Liebe zum Segeln",
+  "footer.imprint": "Impressum",
+  "footer.privacy": "Datenschutz",
+
+  "empty.title": "Keine Treffer",
+  "empty.body": "Filter anpassen oder Suche leeren.",
+
+  "rentals.stats.boats": "Boote"
+}
+

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "slip_konstanz",
+    "name": "Slip Konstanz-Staad",
+    "country": "DE",
+    "type": "slip",
+    "details": "Öffentlich · bis 8m · €15/Tag",
+    "lat": 47.677,
+    "lng": 9.178,
+    "url": "",
+    "source": "",
+    "lastVerified": ""
+  },
+  {
+    "id": "slip_friedrichshafen",
+    "name": "Slip Friedrichshafen",
+    "country": "DE",
+    "type": "slip",
+    "details": "Öffentlich · bis 10m · €20/Tag",
+    "lat": 47.651,
+    "lng": 9.48,
+    "url": "",
+    "source": "",
+    "lastVerified": ""
+  },
+  {
+    "id": "tankstelle_lindau",
+    "name": "Tankstelle Lindau",
+    "country": "DE",
+    "type": "fuel",
+    "details": "Diesel & Benzin · 07–19 Uhr",
+    "lat": 47.545,
+    "lng": 9.685,
+    "url": "",
+    "source": "",
+    "lastVerified": ""
+  },
+  {
+    "id": "tankstelle_romanshorn",
+    "name": "Tankstelle Romanshorn",
+    "country": "CH",
+    "type": "fuel",
+    "details": "Diesel & Benzin · 08–18 Uhr",
+    "lat": 47.565,
+    "lng": 9.38,
+    "url": "",
+    "source": "",
+    "lastVerified": ""
+  },
+  {
+    "id": "werft_bodan",
+    "name": "Werft Bodan",
+    "country": "DE",
+    "type": "yard",
+    "details": "Kressbronn · Reparatur & Wartung",
+    "lat": 47.6,
+    "lng": 9.6,
+    "url": "",
+    "source": "",
+    "lastVerified": ""
+  },
+  {
+    "id": "yachtservice_kreuzlingen",
+    "name": "Yachtservice Kreuzlingen",
+    "country": "CH",
+    "type": "rigg",
+    "details": "Segelmacher & Rigg",
+    "lat": 47.65,
+    "lng": 9.18,
+    "url": "",
+    "source": "",
+    "lastVerified": ""
+  }
+]

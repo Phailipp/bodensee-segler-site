@@ -1,0 +1,82 @@
+{
+  "nav.map": "Map",
+  "nav.harbors": "Harbors",
+  "nav.anchors": "Anchorages",
+  "nav.rentals": "Rentals",
+  "nav.gastro": "Food",
+  "nav.service": "Services",
+
+  "hero.label": "Sailing on Lake Constance",
+  "hero.title.line1": "Your waters.",
+  "hero.title.line2": "Your freedom.",
+  "hero.subtitle": "Harbors, anchorages, and everything you need — clean, curated, and to the point.",
+  "hero.cta": "Explore the map",
+  "hero.scroll": "Scroll",
+
+  "map.label": "Interactive overview",
+  "map.title": "Map",
+
+  "harbors.label": "Marinas & Yacht harbors",
+  "harbors.title": "Harbors around the lake",
+  "harbors.subtitle": "Curated and calm. Filter by country, features, and draft.",
+
+  "anchors.label": "Nature",
+  "anchors.title": "Anchorages",
+  "anchors.subtitle": "Shelter, seabed, depth — and whether overnighting makes sense.",
+
+  "rentals.label": "Charter & rent",
+  "rentals.title": "Boat rentals",
+  "rentals.subtitle": "A premium selection for day trips, training, or with a skipper.",
+
+  "gastro.label": "Dock & dine",
+  "gastro.title": "Food with berthing",
+  "gastro.subtitle": "Where good food meets an easy landing.",
+
+  "service.label": "Infrastructure",
+  "service.title": "Services",
+  "service.subtitle": "Slips, fuel, yards — essentials, neatly summarized.",
+
+  "filter.search": "Search…",
+  "filter.country": "Country",
+  "filter.any": "All",
+  "filter.overnight": "Overnight",
+  "filter.overnight.any": "Any",
+  "filter.overnight.yes": "Yes",
+  "filter.overnight.no": "No",
+  "filter.minDepth": "Min. depth",
+  "filter.minDraft": "Min. draft",
+
+  "stats.berths": "Berths",
+  "stats.guest": "Guest",
+  "stats.draft": "Draft",
+  "stats.depth": "Depth",
+  "stats.ground": "Seabed",
+  "stats.price": "Price",
+  "stats.berthing": "Berthing",
+
+  "modal.close": "Close",
+  "modal.actions.route": "Route",
+  "modal.actions.copy": "Copy coordinates",
+
+  "modal.k.country": "Country",
+  "modal.k.region": "Region",
+  "modal.k.location": "Location",
+  "modal.k.coords": "Coordinates",
+  "modal.k.features": "Features",
+  "modal.k.offer": "Offering",
+  "modal.k.highlights": "Highlights",
+  "modal.k.type": "Type",
+  "modal.k.details": "Details",
+  "modal.k.shelter": "Shelter",
+  "modal.k.fleet": "Fleet",
+
+  "footer.disclaimer": "No warranty · Made with love for sailing",
+  "footer.imprint": "Imprint",
+  "footer.privacy": "Privacy",
+
+  "empty.title": "No results",
+  "empty.body": "Try adjusting filters or clearing search.",
+
+  "rentals.stats.boats": "Boats"
+}
+
