@@ -89,29 +89,29 @@
       <p class="section-subtitle" data-i18n="harbors.subtitle">Kuratiert, übersichtlich, ohne Lärm. Filtere nach Land, Features und Tiefgang.</p>
     </div>
 
-    <div class="filter-bar" aria-label="Filters">
-      <input id="filterSearch" class="filter-input" data-i18n-placeholder="filter.search" placeholder="Suchen…" />
+    <div class="filter-bar" aria-label="Harbor filters">
+      <div class="filter-field">
+        <div class="filter-label" data-i18n="filter.search.harbor">Suche</div>
+        <input id="harborSearch" class="filter-input" data-i18n-placeholder="filter.search.harbor" placeholder="Hafen oder Ort…" />
+      </div>
 
-      <select id="filterCountry" class="filter-select" aria-label="Country">
-        <option value="ALL" data-i18n-option="filter.any">Alle</option>
-        <option value="DE">DE</option>
-        <option value="CH">CH</option>
-        <option value="AT">AT</option>
-      </select>
+      <div class="filter-field">
+        <div class="filter-label" data-i18n="filter.country">Land</div>
+        <select id="harborCountry" class="filter-select" aria-label="Country">
+          <option value="ALL" data-i18n-option="filter.any">Alle</option>
+          <option value="DE">DE</option>
+          <option value="CH">CH</option>
+          <option value="AT">AT</option>
+        </select>
+      </div>
 
-      <select id="filterOvernight" class="filter-select" aria-label="Overnight">
-        <option value="ANY" data-i18n-option="filter.overnight.any">Egal</option>
-        <option value="YES" data-i18n-option="filter.overnight.yes">Ja</option>
-        <option value="NO" data-i18n-option="filter.overnight.no">Nein</option>
-      </select>
-
-      <input id="filterMinDraft" class="filter-input" data-i18n-placeholder="filter.minDraft" placeholder="Min. Tiefgang" />
-      <input id="filterMinDepth" class="filter-input" data-i18n-placeholder="filter.minDepth" placeholder="Min. Tiefe" />
+      <div class="filter-field">
+        <div class="filter-label" data-i18n="filter.minDraft">Min. Tiefgang (m)</div>
+        <input id="harborMinDraft" class="filter-input" data-i18n-placeholder="filter.minDraft" placeholder="Min. Tiefgang (m)" inputmode="decimal" />
+      </div>
     </div>
 
-    <p class="section-subtitle" style="margin-top:-10px" data-i18n="filter.hint">Hinweis: Min. Tiefgang filtert Häfen. Übernachten & Min. Tiefe filtert Ankerplätze.</p>
-
-    <div class="filter-chiprow" id="chips"></div>
+    <div class="filter-chiprow" id="harborChips"></div>
 
     <div class="harbors-grid" id="harborsGrid"></div>
   </section>
@@ -122,6 +122,39 @@
       <h2 class="section-title" data-i18n="anchors.title">Ankerplätze</h2>
       <p class="section-subtitle" data-i18n="anchors.subtitle">Für ruhige Stunden: Schutz, Grund, Tiefe – und ob Übernachten sinnvoll ist.</p>
     </div>
+
+    <div class="filter-bar" aria-label="Anchorage filters" style="margin-bottom: 18px;">
+      <div class="filter-field">
+        <div class="filter-label" data-i18n="filter.search.anchor">Suche</div>
+        <input id="anchorSearch" class="filter-input" data-i18n-placeholder="filter.search.anchor" placeholder="Ankerplatz oder Ort…" />
+      </div>
+
+      <div class="filter-field">
+        <div class="filter-label" data-i18n="filter.country">Land</div>
+        <select id="anchorCountry" class="filter-select" aria-label="Country">
+          <option value="ALL" data-i18n-option="filter.any">Alle</option>
+          <option value="DE">DE</option>
+          <option value="CH">CH</option>
+          <option value="AT">AT</option>
+        </select>
+      </div>
+
+      <div class="filter-field">
+        <div class="filter-label" data-i18n="filter.overnight">Übernachten</div>
+        <select id="anchorOvernight" class="filter-select" aria-label="Overnight">
+          <option value="ANY" data-i18n-option="filter.overnight.any">Egal</option>
+          <option value="YES" data-i18n-option="filter.overnight.yes">Ja</option>
+          <option value="NO" data-i18n-option="filter.overnight.no">Nein</option>
+        </select>
+      </div>
+
+      <div class="filter-field">
+        <div class="filter-label" data-i18n="filter.minDepth">Min. Tiefe (m)</div>
+        <input id="anchorMinDepth" class="filter-input" data-i18n-placeholder="filter.minDepth" placeholder="Min. Tiefe (m)" inputmode="decimal" />
+      </div>
+    </div>
+
+    <div class="filter-chiprow" id="anchorChips"></div>
 
     <div class="anchor-list" id="anchorsList"></div>
   </section>

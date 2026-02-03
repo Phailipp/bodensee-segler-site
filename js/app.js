@@ -13,12 +13,16 @@ const state = {
     gastros: [],
     services: []
   },
-  filters: {
+  filtersHarbors: {
+    q: '',
+    country: 'ALL',
+    minDraft: ''
+  },
+  filtersAnchors: {
     q: '',
     country: 'ALL',
     overnight: 'ANY',
-    minDepth: '',
-    minDraft: ''
+    minDepth: ''
   },
   map: null,
   markers: { harbors: [], anchors: [], rentals: [], gastros: [] }
@@ -84,7 +88,7 @@ function matchesQuery(obj, q) {
 }
 
 function applyFilters(list, type) {
-  const f = state.filters;
+  const f = type === 'anchors' ? state.filtersAnchors : state.filtersHarbors;
   let out = list;
 
   if (f.country !== 'ALL') {
@@ -99,14 +103,14 @@ function applyFilters(list, type) {
       out = out.filter(x => !!x.overnight === val);
     }
     if (f.minDepth) {
-      const md = Number(f.minDepth);
+      const md = Number(String(f.minDepth).replace(',', '.'));
       if (!Number.isNaN(md)) out = out.filter(x => (x.depthMaxM ?? x.depthMinM ?? 0) >= md);
     }
   }
 
   if (type === 'harbors') {
     if (f.minDraft) {
-      const d = Number(f.minDraft);
+      const d = Number(String(f.minDraft).replace(',', '.'));
       if (!Number.isNaN(d)) out = out.filter(x => (x.maxDraftM ?? 0) >= d);
     }
   }
@@ -114,17 +118,27 @@ function applyFilters(list, type) {
   return out;
 }
 
-function updateChips(extra = []) {
+function updateChipsForHarbors() {
   const chips = [];
-  const f = state.filters;
+  const f = state.filtersHarbors;
+  if (f.q) chips.push(`${f.q}`);
+  if (f.country !== 'ALL') chips.push(`${t('filter.country')}: ${f.country}`);
+  if (f.minDraft) chips.push(`${t('filter.minDraft')}: ${f.minDraft}`);
+
+  const row = $('#harborChips');
+  if (!row) return;
+  row.innerHTML = chips.map(c => `<span class="chip">${escapeHtml(c)}</span>`).join('');
+}
+
+function updateChipsForAnchors() {
+  const chips = [];
+  const f = state.filtersAnchors;
   if (f.q) chips.push(`${f.q}`);
   if (f.country !== 'ALL') chips.push(`${t('filter.country')}: ${f.country}`);
   if (f.overnight !== 'ANY') chips.push(`${t('filter.overnight')}: ${f.overnight === 'YES' ? t('filter.overnight.yes') : t('filter.overnight.no')}`);
-  if (f.minDepth) chips.push(`${t('filter.minDepth')}: ${f.minDepth}m`);
-  if (f.minDraft) chips.push(`${t('filter.minDraft')}: ${f.minDraft}m`);
-  extra.forEach(x => chips.push(x));
+  if (f.minDepth) chips.push(`${t('filter.minDepth')}: ${f.minDepth}`);
 
-  const row = $('#chips');
+  const row = $('#anchorChips');
   if (!row) return;
   row.innerHTML = chips.map(c => `<span class="chip">${escapeHtml(c)}</span>`).join('');
 }
@@ -138,28 +152,44 @@ function escapeHtml(str) {
     .replaceAll("'", '&#39;');
 }
 
-function setUpFilterBar() {
-  const q = $('#filterSearch');
-  const country = $('#filterCountry');
-  const overnight = $('#filterOvernight');
-  const minDepth = $('#filterMinDepth');
-  const minDraft = $('#filterMinDraft');
+function setUpFilterBars() {
+  // Harbors
+  const hq = $('#harborSearch');
+  const hcountry = $('#harborCountry');
+  const hminDraft = $('#harborMinDraft');
 
-  const onChange = () => {
-    state.filters.q = q.value.trim();
-    state.filters.country = country.value;
-    state.filters.overnight = overnight.value;
-    state.filters.minDepth = minDepth.value;
-    state.filters.minDraft = minDraft.value;
+  const onHarborChange = () => {
+    state.filtersHarbors.q = hq.value.trim();
+    state.filtersHarbors.country = hcountry.value;
+    state.filtersHarbors.minDraft = hminDraft.value.trim();
     renderAll();
   };
 
   ['input', 'change'].forEach(evt => {
-    q.addEventListener(evt, onChange);
-    country.addEventListener(evt, onChange);
-    overnight.addEventListener(evt, onChange);
-    minDepth.addEventListener(evt, onChange);
-    minDraft.addEventListener(evt, onChange);
+    hq.addEventListener(evt, onHarborChange);
+    hcountry.addEventListener(evt, onHarborChange);
+    hminDraft.addEventListener(evt, onHarborChange);
+  });
+
+  // Anchors
+  const aq = $('#anchorSearch');
+  const acountry = $('#anchorCountry');
+  const aovernight = $('#anchorOvernight');
+  const aminDepth = $('#anchorMinDepth');
+
+  const onAnchorChange = () => {
+    state.filtersAnchors.q = aq.value.trim();
+    state.filtersAnchors.country = acountry.value;
+    state.filtersAnchors.overnight = aovernight.value;
+    state.filtersAnchors.minDepth = aminDepth.value.trim();
+    renderAll();
+  };
+
+  ['input', 'change'].forEach(evt => {
+    aq.addEventListener(evt, onAnchorChange);
+    acountry.addEventListener(evt, onAnchorChange);
+    aovernight.addEventListener(evt, onAnchorChange);
+    aminDepth.addEventListener(evt, onAnchorChange);
   });
 }
 
@@ -280,7 +310,8 @@ function renderAll() {
   const services = applyFilters(state.data.services, 'services');
   $('#serviceGrid').innerHTML = services.length ? services.map(cardService).join('') : emptyState();
 
-  updateChips();
+  updateChipsForHarbors();
+  updateChipsForAnchors();
 
   wireCardClicks();
   redrawMarkers({ harbors, anchors, rentals, gastros });
@@ -588,7 +619,7 @@ async function main() {
   // Init
   initNav();
   initModal();
-  setUpFilterBar();
+  setUpFilterBars();
   initMap();
 
   // Language default

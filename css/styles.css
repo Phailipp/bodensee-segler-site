@@ -218,10 +218,21 @@ section { padding: 120px 48px; }
   max-width: 1200px;
   margin: 0 auto 28px;
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr 0.8fr 0.8fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
-  align-items: center;
+  align-items: end;
 }
+
+.filter-field { display: flex; flex-direction: column; gap: 8px; }
+
+.filter-label {
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.65);
+}
+
+.anchor-section .filter-label { color: rgba(12,25,41,0.65); }
 
 .filter-input, .filter-select {
   width: 100%;
@@ -505,7 +516,7 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 
 /* Responsive */
 @media (max-width: 900px) {
-  .filter-bar { grid-template-columns: 1fr 1fr; }
+  .filter-bar { grid-template-columns: 1fr; }
   .modal-grid { grid-template-columns: 1fr; }
 }
 
