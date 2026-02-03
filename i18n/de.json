@@ -45,6 +45,7 @@
   "filter.overnight.no": "Nein",
   "filter.minDepth": "Min. Tiefe",
   "filter.minDraft": "Min. Tiefgang",
+  "filter.hint": "Hinweis: Min. Tiefgang filtert Häfen. Übernachten & Min. Tiefe filtert Ankerplätze.",
 
   "stats.berths": "Plätze",
   "stats.guest": "Gast",

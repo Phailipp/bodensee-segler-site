@@ -45,6 +45,7 @@
   "filter.overnight.no": "No",
   "filter.minDepth": "Min. depth",
   "filter.minDraft": "Min. draft",
+  "filter.hint": "Note: Min. draft filters harbors. Overnight & min. depth filter anchorages.",
 
   "stats.berths": "Berths",
   "stats.guest": "Guest",
