@@ -415,12 +415,38 @@ function initNav() {
     $('nav').classList.toggle('scrolled', window.scrollY > 50);
   });
 
+  // Mobile menu toggle
+  const menuBtn = $('#menuBtn');
+  if (menuBtn) {
+    menuBtn.addEventListener('click', () => {
+      const open = document.body.classList.toggle('nav-open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  }
+
+  // Smooth scroll for nav links
   $$('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       e.preventDefault();
       const target = $(this.getAttribute('href'));
       if (target) target.scrollIntoView({ behavior: 'smooth' });
+
+      // close mobile menu after navigation
+      if (document.body.classList.contains('nav-open')) {
+        document.body.classList.remove('nav-open');
+        if (menuBtn) menuBtn.setAttribute('aria-expanded', 'false');
+      }
     });
+  });
+
+  // close menu on outside click
+  document.addEventListener('click', (e) => {
+    if (!document.body.classList.contains('nav-open')) return;
+    const nav = $('#mobileNav');
+    if (!nav) return;
+    if (nav.contains(e.target) || (menuBtn && menuBtn.contains(e.target))) return;
+    document.body.classList.remove('nav-open');
+    if (menuBtn) menuBtn.setAttribute('aria-expanded', 'false');
   });
 
   // Language toggle

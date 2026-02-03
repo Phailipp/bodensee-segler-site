@@ -165,6 +165,28 @@ nav.scrolled { background: rgba(12,25,41,0.95); backdrop-filter: blur(10px); pad
   color: var(--gold-light);
 }
 
+/* Mobile menu */
+.menu-btn {
+  display: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(0,0,0,0.18);
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
+}
+
+.menu-btn span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: rgba(255,255,255,0.75);
+  border-radius: 2px;
+}
+
 /* Sections */
 section { padding: 120px 48px; }
 
@@ -488,12 +510,57 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 }
 
 @media (max-width: 768px) {
-  nav { padding: 16px 24px; }
-  .nav-links { display: none; }
-  section { padding: 80px 24px; }
+  nav { padding: 14px 16px; gap: 10px; }
+
+  .menu-btn { display: inline-flex; }
+
+  /* turn nav-links into a premium slide-down drawer */
+  .nav-links {
+    display: flex;
+    position: fixed;
+    top: 70px;
+    left: 12px;
+    right: 12px;
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px 14px;
+    background: rgba(12,25,41,0.96);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 12px;
+    backdrop-filter: blur(12px);
+    transform: translateY(-14px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 160ms ease, transform 160ms ease;
+    z-index: 150;
+  }
+
+  body.nav-open .nav-links {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .nav-links a { font-size: 0.9rem; padding: 6px 4px; }
+
+  .lang-toggle { gap: 6px; }
+  .lang-toggle button { padding: 7px 9px; font-size: 0.72rem; }
+
+  /* Hero + map feel less "huge" on mobile */
+  .hero { min-height: 560px; }
+  .hero p { margin-bottom: 22px; }
+
+  .map-section { height: 70vh; min-height: 520px; }
+
+  section { padding: 72px 16px; }
+
+  .filter-bar { grid-template-columns: 1fr; }
+
   .harbors-grid { grid-template-columns: 1fr; }
-  .anchor-item { grid-template-columns: 1fr; gap: 20px; }
+
+  .anchor-item { grid-template-columns: 1fr; gap: 18px; }
   .anchor-meta { justify-content: flex-start; text-align: left; }
-  .map-header { padding: 24px; }
-  .map-legend { left: 16px; bottom: 16px; flex-direction: column; gap: 8px; }
+
+  .map-header { padding: 18px 16px; }
+  .map-legend { left: 12px; bottom: 12px; flex-direction: column; gap: 8px; }
 }
