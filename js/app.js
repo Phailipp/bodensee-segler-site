@@ -1143,7 +1143,8 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       return false;
     }
 
-    // Build layers, then keep only the ones that are actually relevant in this view.
+    // Build layers and keep them enabled; only drop layers that are unreachable.
+    // Reason: GetFeatureInfo checks are often blocked by CORS on some providers, which made AT/DE disappear even though tiles load.
     const desired = layers.map(cfg => {
       const w = L.tileLayer.wms(cfg.wmsBaseUrl, {
         layers: cfg.wmsLayers,
@@ -1156,59 +1157,50 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       });
       w._cfg = cfg;
       w._everTileError = false;
+      w._loaded = false;
       w.on('tileerror', () => { w._everTileError = true; });
+      w.on('load', () => { w._loaded = true; });
       return w;
     });
 
-    // add all quickly (so map can start requesting)
     desired.forEach(w => w.addTo(state.map));
     state.zoneLayers = desired;
     state.zoneLayer = desired[0] || null;
 
-    // after a short wait, evaluate relevance and prune
-    setTimeout(async () => {
+    // after a short wait, drop only unreachable layers and report what is active
+    setTimeout(() => {
       const kept = [];
       const ok = [];
-      const nohit = [];
       const err = [];
 
       for (const w of desired) {
         const cfg = w._cfg || {};
-        // if tiles errored, treat as unreachable and drop
         if (w._everTileError) {
           err.push(cfg.name || cfg.id || 'WMS');
           try { w.remove(); } catch {}
           continue;
         }
-
-        const hit = await hasFeatureInView(w);
-        if (hit) {
-          kept.push(w);
-          ok.push(cfg.name || cfg.id || 'WMS');
-        } else {
-          nohit.push(cfg.name || cfg.id || 'WMS');
-          try { w.remove(); } catch {}
-        }
+        kept.push(w);
+        ok.push(cfg.name || cfg.id || 'WMS');
       }
 
       state.zoneLayers = kept;
       state.zoneLayer = kept[0] || null;
 
       if (!kept.length) {
-        const extra = err.length ? ' (einige Dienste nicht erreichbar)' : '';
-        toast('Zonen: keine Treffer im aktuellen Ausschnitt' + extra);
+        toast('Zonen: Dienste nicht erreichbar');
         return;
       }
 
-      // keep it short: just show that it now includes DE/AT when relevant
       const label = [
         ok.some(s => s.startsWith('CH:')) ? 'CH' : null,
         ok.some(s => s.startsWith('DE:')) ? 'DE' : null,
         ok.some(s => s.startsWith('AT:')) ? 'AT' : null
       ].filter(Boolean).join('+');
 
-      toast('Zonen: aktiv (' + (label || 'WMS') + ')');
-    }, 1200);
+      const extra = err.length ? ' (einige Dienste down)' : '';
+      toast('Zonen: aktiv (' + (label || 'WMS') + ')' + extra);
+    }, 1400);
 
   }
 }
