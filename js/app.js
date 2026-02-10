@@ -25,7 +25,13 @@ const state = {
     minDepth: ''
   },
   map: null,
-  markers: { harbors: [], anchors: [], rentals: [], gastros: [] }
+  markers: { harbors: [], anchors: [], rentals: [], gastros: [] },
+  mapLayers: {
+    harbors: true,
+    anchors: true,
+    rentals: true,
+    gastros: true
+  }
 };
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -355,8 +361,17 @@ function renderAll() {
   updateChipsForAnchors();
 
   wireCardClicks();
-  redrawMarkers({ harbors, anchors, rentals, gastros });
+
+  // Map layers: sync with legend toggles
+  redrawMarkers({
+    harbors: state.mapLayers.harbors ? harbors : [],
+    anchors: state.mapLayers.anchors ? anchors : [],
+    rentals: state.mapLayers.rentals ? rentals : [],
+    gastros: state.mapLayers.gastros ? gastros : []
+  });
+
   renderCoverage();
+  renderLegendToggles();
 }
 
 function emptyState(isLight = false) {
@@ -555,6 +570,47 @@ function initNav() {
   });
 }
 
+function loadLayerPrefs() {
+  try {
+    const raw = localStorage.getItem('bs_layers');
+    if (!raw) return;
+    const obj = JSON.parse(raw);
+    for (const k of ['harbors','anchors','rentals','gastros']) {
+      if (typeof obj?.[k] === 'boolean') state.mapLayers[k] = obj[k];
+    }
+  } catch {
+    // ignore
+  }
+}
+
+function saveLayerPrefs() {
+  try {
+    localStorage.setItem('bs_layers', JSON.stringify(state.mapLayers));
+  } catch {
+    // ignore
+  }
+}
+
+function renderLegendToggles() {
+  $$('.map-legend [data-layer]').forEach(btn => {
+    const layer = btn.getAttribute('data-layer');
+    const on = !!state.mapLayers[layer];
+    btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+  });
+}
+
+function initLegendToggles() {
+  $$('.map-legend [data-layer]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const layer = btn.getAttribute('data-layer');
+      state.mapLayers[layer] = !state.mapLayers[layer];
+      saveLayerPrefs();
+      renderAll();
+    });
+  });
+  renderLegendToggles();
+}
+
 function initMap() {
   // Leaflet provided globally
   state.map = L.map('map', {
@@ -685,7 +741,9 @@ async function main() {
   initNav();
   initModal();
   setUpFilterBars();
+  loadLayerPrefs();
   initMap();
+  initLegendToggles();
 
   // Language default
   const pref = localStorage.getItem('bs_lang');
