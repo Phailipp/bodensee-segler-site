@@ -15,11 +15,11 @@
   "map.label": "Interaktive Übersicht",
   "map.title": "Karte",
   "scenario.title": "Szenarien",
-  "scenario.eveningHarbor": "Heute Abend: Hafen",
+  "scenario.eveningHarbor": "Heute Abend: Gästeplatz & Restaurant",
   "scenario.safeWestwind": "Sicher bei Westwind",
   "scenario.flatRelax": "Flach & entspannt",
   "scenario.clear": "Filter zurücksetzen",
-  "scenario.hint": "Ein Klick setzt Hafen- & Anker-Filter.",
+  "scenario.hint": "Kurzfilter für typische Entscheidungen. Alles basiert nur auf Daten, die hier wirklich vorhanden sind.",
   "harbors.label": "Marinas & Yachthäfen",
   "harbors.title": "Häfen am See",
   "harbors.subtitle": "Kuratiert, übersichtlich, ohne Lärm. Filtere nach Land, Features und Tiefgang.",
@@ -170,5 +170,7 @@
   "share.en": "Englisch",
   "share.text.de": "Bodensee Segler: Häfen, Ankerplätze, Vermietung, Gastro und Service auf einer Karte. Mit Quellen und last verified, damit man nicht raten muss.\n\nLink: https://phailipp.github.io/bodensee-segler-site/\n\nWenn du einen Spot teilst: im Detailfenster auf Link kopieren tippen.",
   "detail.back": "Zurück",
-  "modal.actions.share": "Teilen"
+  "modal.actions.share": "Teilen",
+  "scenario.planBHarbor": "Plan B Hafen (20+ Gästeplätze)",
+  "scenario.quietAnchor": "Ruhig ankern (ohne Übernachten)"
 }

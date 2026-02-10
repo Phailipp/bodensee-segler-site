@@ -16,7 +16,8 @@ const state = {
   filtersHarbors: {
     q: '',
     country: 'ALL',
-    minDraft: ''
+    minDraft: '',
+    minGuestBerths: ''
   },
   filtersAnchors: {
     q: '',
@@ -229,6 +230,10 @@ function applyFilters(list, type) {
       const d = Number(String(f.minDraft).replace(',', '.'));
       if (!Number.isNaN(d)) out = out.filter(x => (x.maxDraftM ?? 0) >= d);
     }
+    if (f.minGuestBerths) {
+      const g = Number(String(f.minGuestBerths).replace(',', '.'));
+      if (!Number.isNaN(g)) out = out.filter(x => (x.guestBerths ?? 0) >= g);
+    }
   }
 
   return out;
@@ -290,17 +295,19 @@ function syncFilterInputsFromState() {
 }
 
 const scenarioPresets = {
+  // What other apps do well: pick a concrete decision moment.
+  // We only use fields we actually have today.
   eveningHarbor: {
-    harbors: { q: 'Restaurant', country: 'ALL', minDraft: '' },
+    harbors: { q: 'Restaurant', country: 'ALL', minDraft: '', minGuestBerths: '1' },
     anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
   },
-  safeWestwind: {
-    harbors: { q: '', country: 'ALL', minDraft: '2.0' },
-    anchors: { q: 'W', country: 'ALL', overnight: 'YES', minDepth: '3.0' }
+  planBHarbor: {
+    harbors: { q: '', country: 'ALL', minDraft: '1.8', minGuestBerths: '20' },
+    anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
   },
-  flatRelax: {
-    harbors: { q: '', country: 'ALL', minDraft: '1.2' },
-    anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '2.0' }
+  quietAnchor: {
+    harbors: { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' },
+    anchors: { q: '', country: 'ALL', overnight: 'NO', minDepth: '3.0' }
   }
 };
 
@@ -315,7 +322,7 @@ function setActivePreset(key) {
 
 function applyScenarioPreset(key) {
   if (key === 'clear') {
-    state.filtersHarbors = { q: '', country: 'ALL', minDraft: '' };
+    state.filtersHarbors = { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' };
     state.filtersAnchors = { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' };
     setActivePreset(null);
     syncFilterInputsFromState();

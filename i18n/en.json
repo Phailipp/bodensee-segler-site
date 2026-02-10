@@ -15,11 +15,11 @@
   "map.label": "Interactive overview",
   "map.title": "Map",
   "scenario.title": "Scenarios",
-  "scenario.eveningHarbor": "Tonight: harbor",
+  "scenario.eveningHarbor": "Tonight: guest berth + food",
   "scenario.safeWestwind": "Safe in westerly winds",
   "scenario.flatRelax": "Shallow & relaxed",
   "scenario.clear": "Reset filters",
-  "scenario.hint": "One click sets harbor & anchorage filters.",
+  "scenario.hint": "Quick filters for common decisions. Only uses fields that actually exist in this dataset.",
   "harbors.label": "Marinas & Yacht harbors",
   "harbors.title": "Harbors around the lake",
   "harbors.subtitle": "Curated and calm. Filter by country, features, and draft.",
@@ -170,5 +170,7 @@
   "share.en": "English",
   "share.text.en": "Lake Constance sailing: harbors, anchorages, rentals, food and services on one map. With sources + last verified, so you don’t have to guess.\n\nLink: https://phailipp.github.io/bodensee-segler-site/\n\nTo share a specific spot: open it and tap Copy link.",
   "detail.back": "Back",
-  "modal.actions.share": "Share"
+  "modal.actions.share": "Share",
+  "scenario.planBHarbor": "Plan B harbor (20+ guest berths)",
+  "scenario.quietAnchor": "Quiet anchoring (no overnight)"
 }
