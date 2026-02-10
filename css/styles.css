@@ -516,8 +516,9 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 80;
   padding: 32px 48px;
+  padding-top: 120px;
   background: linear-gradient(var(--navy), transparent);
   pointer-events: none;
 }
@@ -740,7 +741,7 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   .anchor-item { grid-template-columns: 1fr; gap: 18px; }
   .anchor-meta { justify-content: flex-start; text-align: left; }
 
-  .map-header { padding: 18px 16px; }
+  .map-header { padding: 18px 16px; padding-top: 96px; }
   .map-legend { left: 12px; bottom: 12px; flex-direction: column; gap: 8px; }
 }
 
