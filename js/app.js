@@ -201,6 +201,7 @@ function initUnverifiedToggle() {
   };
 
   btn.addEventListener('click', toggle);
+  btn.addEventListener('pointerup', toggle);
   // iOS Safari: sometimes needs an explicit touch handler
   btn.addEventListener('touchstart', toggle, { passive: false });
   renderUnverifiedToggle();
