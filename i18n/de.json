@@ -144,5 +144,6 @@
   "backlog.note": "Diese Einträge haben noch keine Quelle oder kein Prüfdatum. Klick öffnet ein vorbefülltes GitHub Ticket.",
   "backlog.none": "Alles verifiziert. Nice.",
   "ui.showUnverified": "Unverified anzeigen",
-  "ui.hideUnverified": "Unverified ausblenden"
+  "ui.hideUnverified": "Unverified ausblenden",
+  "ui.unverified": "Unverified"
 }

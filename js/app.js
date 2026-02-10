@@ -185,7 +185,8 @@ function renderUnverifiedToggle() {
   const text = document.getElementById('toggleUnverifiedText');
   if (!input || !text) return;
   input.checked = !!state.showUnverified;
-  text.textContent = state.showUnverified ? t('ui.hideUnverified') : t('ui.showUnverified');
+  // Keep label stable on mobile to avoid layout jumps
+  text.textContent = t('ui.unverified');
 }
 
 function initUnverifiedToggle() {

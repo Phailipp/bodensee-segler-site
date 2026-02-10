@@ -176,7 +176,7 @@ nav.scrolled { background: rgba(12,25,41,0.95); backdrop-filter: blur(10px); pad
   gap: 8px;
   user-select: none;
   box-sizing: border-box;
-  max-width: min(56vw, 280px);
+  max-width: min(44vw, 220px);
 }
 
 .pill-switch span {

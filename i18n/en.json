@@ -144,5 +144,6 @@
   "backlog.note": "These entries are missing a source or a verification date. Clicking opens a prefilled GitHub issue.",
   "backlog.none": "Everything is verified. Nice.",
   "ui.showUnverified": "Show unverified",
-  "ui.hideUnverified": "Hide unverified"
+  "ui.hideUnverified": "Hide unverified",
+  "ui.unverified": "Unverified"
 }
