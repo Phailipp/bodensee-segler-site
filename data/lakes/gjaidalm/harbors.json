@@ -1,0 +1,21 @@
+[
+  {
+    "id": "gjaidalm-steg",
+    "name": "Gjaidalm Steg (Demo)",
+    "country": "AT",
+    "region": "Dachstein",
+    "lat": 47.5072,
+    "lng": 13.6513,
+    "berths": 4,
+    "guestBerths": 1,
+    "maxDraftM": 1.2,
+    "features": ["demo"],
+    "url": null,
+    "source": null,
+    "lastVerified": null,
+    "candidateUrl": "https://en.wikipedia.org/wiki/Gjaidalm",
+    "candidateFoundAt": "2026-02-10",
+    "candidateSource": "manual-placeholder",
+    "notes": "Proof dataset only — replace with real, verified harbor sources before shipping as content."
+  }
+]

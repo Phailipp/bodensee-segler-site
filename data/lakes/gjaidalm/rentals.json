@@ -1,0 +1,20 @@
+[
+  {
+    "id": "gjaidalm-rental",
+    "name": "Gjaidalm Bootsverleih (Demo)",
+    "country": "AT",
+    "location": "Gjaidalm",
+    "lat": 47.5074,
+    "lng": 13.6521,
+    "fleetSize": 1,
+    "priceFrom": "—",
+    "features": ["demo"],
+    "url": null,
+    "source": null,
+    "lastVerified": null,
+    "candidateUrl": "https://example.com",
+    "candidateFoundAt": "2026-02-10",
+    "candidateSource": "manual-placeholder",
+    "notes": "Placeholder only. Do not treat as a verified operator."
+  }
+]

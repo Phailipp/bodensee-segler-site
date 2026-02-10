@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bodensee Segler – Details</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body class="detail-page">
+  <nav>
+    <a class="logo" href="./index.html">Bodensee<span>.</span></a>
+    <div style="flex:1"></div>
+    <a class="action-btn" href="./index.html" id="backToMap">← <span data-i18n="detail.back">Zurück</span></a>
+  </nav>
+
+  <main class="detail-wrap">
+    <div class="section-header" style="padding-top:120px">
+      <div class="section-label" id="detailType">Details</div>
+      <h1 class="section-title" id="detailName">…</h1>
+      <p class="section-subtitle" id="detailSubtitle"></p>
+    </div>
+
+    <div class="detail-card">
+      <div class="modal-grid" id="detailGrid"></div>
+      <div class="modal-actions" id="detailActions"></div>
+    </div>
+  </main>
+
+  <script type="module" src="./js/place.js"></script>
+</body>
+</html>

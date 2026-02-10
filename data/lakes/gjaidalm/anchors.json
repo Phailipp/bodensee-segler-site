@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gjaidalm-bay",
+    "name": "Gjaidalm Bucht (Demo)",
+    "country": "AT",
+    "region": "Dachstein",
+    "lat": 47.5066,
+    "lng": 13.6498,
+    "depthMinM": 3,
+    "depthMaxM": 6,
+    "ground": "mud (demo)",
+    "protection": "fair weather only (demo)",
+    "overnight": false,
+    "url": null,
+    "source": null,
+    "lastVerified": null,
+    "candidateUrl": "https://en.wikipedia.org/wiki/Gjaidalm",
+    "candidateFoundAt": "2026-02-10",
+    "candidateSource": "manual-placeholder",
+    "notes": "Demo anchor spot for multi-lake wiring."
+  }
+]

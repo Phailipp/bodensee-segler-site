@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "qa:smoke": "node scripts/qa_smoke_playwright.cjs https://phailipp.github.io/bodensee-segler-site/?v=qa-local",
-    "verify:candidates": "node tools/verify_candidates.mjs --limit 20"
+    "qa:smoke:local": "node tools/smoke.mjs",
+    "verify:candidates": "node tools/verify_candidates.mjs --limit 20",
+    "build:sitemap": "node tools/build_sitemap.mjs"
   },
   "devDependencies": {
     "playwright": "^1.58.2"

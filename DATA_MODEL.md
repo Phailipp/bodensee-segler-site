@@ -3,11 +3,17 @@
 Goal: keep the page *premium* and scalable by separating **content** (JSON) from **presentation** (HTML/CSS) and **logic** (JS).
 
 ## Files
-- `data/harbors.json`
-- `data/anchors.json`
-- `data/rentals.json`
-- `data/gastros.json`
-- `data/services.json`
+### Global
+- `data/lakes.json` (list of available lakes/regions + map defaults)
+
+### Per lake
+- `data/lakes/<slug>/harbors.json`
+- `data/lakes/<slug>/anchors.json`
+- `data/lakes/<slug>/rentals.json`
+- `data/lakes/<slug>/gastros.json`
+- `data/lakes/<slug>/services.json`
+
+> Backward compatibility: the original `data/*.json` files may still exist for older builds, but the app loads from `data/lakes/<slug>/...`. 
 
 ## Common fields
 Most items support:
@@ -15,10 +21,13 @@ Most items support:
 - `name` (string)
 - `country` ("DE"|"CH"|"AT")
 - `lat`, `lng` (number)
-- `url` (string, optional; official website)
-- `notes` (string, optional; short, premium tone)
-- `source` (string, optional; where the info comes from)
+- `url` (string, optional; **verified** official website)
+- `source` (string, optional; where the verified `url` comes from — typically the `url` itself)
 - `lastVerified` (string, optional; ISO date e.g. `2026-02-03`)
+- `candidateUrl` (string|null, optional; **unverified** website candidate)
+- `candidateFoundAt` (string|null, optional; ISO date when the candidate was found)
+- `candidateSource` (string|null, optional; where the candidate came from; note: never used as the verified `source`)
+- `notes` (string, optional; short, premium tone)
 
 ### Harbors
 `data/harbors.json` item:

@@ -1,11 +1,15 @@
 /* Bodensee Segler – premium single-page prototype
- * Data: /data/*.json
+ * Data:
+ * - config: /data/lakes.json
+ * - lake datasets: /data/lakes/<slug>/*.json
  * i18n: /i18n/{de,en}.json
  */
 
 const state = {
   lang: 'de',
   i18n: {},
+  lakes: [],
+  lake: null, // selected lake config
   data: {
     harbors: [],
     anchors: [],
@@ -185,6 +189,63 @@ async function loadJSON(url) {
   return await res.json();
 }
 
+function getParam(name) {
+  const u = new URL(window.location.href);
+  return u.searchParams.get(name);
+}
+
+function setParam(name, value) {
+  const u = new URL(window.location.href);
+  if (value == null) u.searchParams.delete(name);
+  else u.searchParams.set(name, value);
+  // keep hash
+  window.location.href = u.toString();
+}
+
+function lakeDataUrl(slug, file) {
+  return `./data/lakes/${encodeURIComponent(slug)}/${file}`;
+}
+
+function applyLakeToUI() {
+  // nav logo
+  const logo = document.querySelector('nav .logo');
+  if (logo && state.lake?.name) {
+    // preserve the dot span if present
+    const dot = logo.querySelector('span');
+    logo.textContent = state.lake.name;
+    if (dot) logo.appendChild(dot);
+  }
+
+  const lakeSelect = document.getElementById('lakeSelect');
+  if (lakeSelect) {
+    lakeSelect.value = state.lake?.slug || '';
+  }
+
+  // hero label (best-effort; keep i18n if present)
+  const heroLabel = document.querySelector('.hero-label');
+  if (heroLabel && state.lake?.name) {
+    const prefix = (state.lang === 'en') ? 'Sailing on' : 'Segeln am';
+    heroLabel.textContent = `${prefix} ${state.lake.name}`;
+  }
+}
+
+async function loadLakeData() {
+  const slug = state.lake.slug;
+  const [harbors, anchors, rentals, gastros, services] = await Promise.all([
+    loadJSON(lakeDataUrl(slug, 'harbors.json')),
+    loadJSON(lakeDataUrl(slug, 'anchors.json')),
+    loadJSON(lakeDataUrl(slug, 'rentals.json')),
+    loadJSON(lakeDataUrl(slug, 'gastros.json')),
+    loadJSON(lakeDataUrl(slug, 'services.json'))
+  ]);
+
+  state.data.harbors = harbors;
+  state.data.anchors = anchors;
+  state.data.rentals = rentals;
+  state.data.gastros = gastros;
+  state.data.services = services;
+}
+
 function formatCountry(code) {
   if (!code) return '';
   return code.toUpperCase();
@@ -268,7 +329,6 @@ function escapeHtml(str) {
     .replaceAll("'", '&#39;');
 }
 
-
 function syncFilterInputsFromState() {
   // Harbors
   const hq = $('#harborSearch');
@@ -333,6 +393,7 @@ function applyScenarioPreset(key) {
   syncFilterInputsFromState();
   renderAll();
 
+  // UX: bring results into view
   const harborsSection = $('#haefen');
   if (harborsSection) harborsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
@@ -594,6 +655,8 @@ function renderAll() {
   const services = applyFilters(state.data.services, 'services');
   $('#serviceGrid').innerHTML = services.length ? services.map(cardService).join('') : emptyState();
 
+  renderBacklog();
+
   updateChipsForHarbors();
   updateChipsForAnchors();
 
@@ -658,6 +721,9 @@ function openModal(type, item) {
   if (item.region) rows.push(kv(t('modal.k.region'), item.region));
   if (item.location) rows.push(kv(t('modal.k.location'), item.location));
   if (coords) rows.push(kv(t('modal.k.coords'), coords));
+  if (item.url) rows.push(kv(t('modal.k.website'), item.url));
+  if (!item.url && item.candidateUrl) rows.push(kv(t('modal.k.candidate'), item.candidateUrl));
+  if (item.lastVerified) rows.push(kv(t('modal.k.lastVerified'), item.lastVerified));
 
   if (type === 'harbor') {
     rows.push(kv(t('stats.berths'), item.berths ?? '—'));
@@ -706,6 +772,10 @@ function openModal(type, item) {
 
   const actions = [];
   if (item.id) actions.push(`<button class="action-btn" id="copyLinkBtn">${t('modal.actions.link')}</button>`);
+  if (state.lake?.slug) {
+    const detailUrl = `./place.html?lake=${encodeURIComponent(state.lake.slug)}&type=${encodeURIComponent(type)}&id=${encodeURIComponent(item.id)}`;
+    actions.push(`<a class="action-btn" href="${detailUrl}">${t('modal.actions.details')}</a>`);
+  }
   if (item.url) {
     actions.push(`<a class="action-btn" href="${item.url}" target="_blank" rel="noreferrer">${t('modal.actions.website')}</a>`);
   } else if (item.candidateUrl) {
@@ -825,12 +895,28 @@ function initNav() {
     if (menuBtn) menuBtn.setAttribute('aria-expanded', 'false');
   });
 
+  // Lake selector
+  const lakeSelect = $('#lakeSelect');
+  if (lakeSelect && state.lakes?.length) {
+    lakeSelect.innerHTML = state.lakes
+      .map(l => `<option value="${escapeHtml(l.slug)}">${escapeHtml(l.name)}</option>`)
+      .join('');
+    lakeSelect.value = state.lake?.slug || state.lakes[0].slug;
+
+    lakeSelect.addEventListener('change', () => {
+      const slug = lakeSelect.value;
+      localStorage.setItem('bs_lake', slug);
+      setParam('lake', slug);
+    });
+  }
+
   // Language toggle
   $$('#langToggle button').forEach(btn => {
     btn.addEventListener('click', async () => {
       const lang = btn.dataset.lang;
       state.i18n = await loadJSON(`./i18n/${lang}.json`);
       setLang(lang);
+      applyLakeToUI();
     });
   });
 }
@@ -883,7 +969,11 @@ function initMap() {
     scrollWheelZoom: false,
     // Mobile UX: avoid accidental one-finger map panning while scrolling
     dragging: !L.Browser.touch
-  }).setView([47.58, 9.45], 10);
+  });
+
+  const center = state.lake?.center || { lat: 47.58, lng: 9.45 };
+  const zoom = state.lake?.zoom ?? 10;
+  state.map.setView([center.lat, center.lng], zoom);
 
   L.control.zoom({ position: 'topright' }).addTo(state.map);
 
@@ -987,20 +1077,18 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
 }
 
 async function main() {
-  // Data
-  const [harbors, anchors, rentals, gastros, services] = await Promise.all([
-    loadJSON('./data/harbors.json'),
-    loadJSON('./data/anchors.json'),
-    loadJSON('./data/rentals.json'),
-    loadJSON('./data/gastros.json'),
-    loadJSON('./data/services.json')
-  ]);
+  // Lakes config
+  state.lakes = await loadJSON('./data/lakes.json');
 
-  state.data.harbors = harbors;
-  state.data.anchors = anchors;
-  state.data.rentals = rentals;
-  state.data.gastros = gastros;
-  state.data.services = services;
+  const slugFromUrl = getParam('lake');
+  const slugFromStorage = localStorage.getItem('bs_lake');
+  const wanted = slugFromUrl || slugFromStorage || 'bodensee';
+
+  state.lake = state.lakes.find(l => l.slug === wanted) || state.lakes[0];
+  localStorage.setItem('bs_lake', state.lake.slug);
+
+  // Data
+  await loadLakeData();
 
   // Init
   initNav();
@@ -1048,6 +1136,8 @@ async function main() {
     // allow back/forward deep-links
     handleDeepLinkOpen();
   });
+
+  applyLakeToUI();
 }
 
 main().catch(err => {

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "winzerstube",
+    "name": "Wirtshaus zur Winzerstube",
+    "country": "DE",
+    "location": "Meersburg, Hafen",
+    "lat": 47.694,
+    "lng": 9.271,
+    "price": "€€",
+    "berthing": "~6 Plätze",
+    "features": [
+      "Regionalküche",
+      "Fischgerichte",
+      "Steg im Hafen"
+    ],
+    "url": "",
+    "source": "",
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
+  },
+  {
+    "id": "seehof_langenargen",
+    "name": "Seehof Langenargen",
+    "country": "DE",
+    "location": "Langenargen, direkt am Hafen",
+    "lat": 47.6,
+    "lng": 9.545,
+    "price": "€€",
+    "berthing": "~10 Plätze",
+    "features": [
+      "Biergarten",
+      "Seeterrasse",
+      "Eigener Steg"
+    ],
+    "url": "",
+    "source": "",
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
+  },
+  {
+    "id": "strandbar_immenstaad",
+    "name": "Strandbar Immenstaad",
+    "country": "DE",
+    "location": "Immenstaad",
+    "lat": 47.665,
+    "lng": 9.365,
+    "price": "€",
+    "berthing": "~8 Plätze",
+    "features": [
+      "Cocktails",
+      "Snacks",
+      "Bojen vor Ort"
+    ],
+    "url": "",
+    "source": "",
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
+  },
+  {
+    "id": "seegarten_allensbach",
+    "name": "Restaurant Seegarten",
+    "country": "DE",
+    "location": "Allensbach",
+    "lat": 47.715,
+    "lng": 9.075,
+    "price": "€€€",
+    "berthing": "~4 Plätze",
+    "features": [
+      "Gehobene Küche",
+      "Fisch",
+      "Anleger reservieren"
+    ],
+    "url": "",
+    "source": "",
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
+  },
+  {
+    "id": "bootshuette_lindau",
+    "name": "Bootshütte Lindau",
+    "country": "DE",
+    "location": "Lindau Insel, Hafen",
+    "lat": 47.545,
+    "lng": 9.685,
+    "price": "€",
+    "berthing": "Hafen",
+    "features": [
+      "Brotzeiten",
+      "Bier",
+      "Im Hafen"
+    ],
+    "url": "",
+    "source": "",
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
+  },
+  {
+    "id": "hafenrestaurant_rorschach",
+    "name": "Hafenrestaurant Rorschach",
+    "country": "CH",
+    "location": "Rorschach",
+    "lat": 47.478,
+    "lng": 9.492,
+    "price": "CHF €€",
+    "berthing": "~8 Plätze",
+    "features": [
+      "Schweizer Küche",
+      "Seeterrasse",
+      "Direkt am Steg"
+    ],
+    "url": "",
+    "source": "",
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
+  },
+  {
+    "id": "strandcafe_hagnau",
+    "name": "Strandcafé Hagnau",
+    "country": "DE",
+    "location": "Hagnau",
+    "lat": 47.678,
+    "lng": 9.317,
+    "price": "€",
+    "berthing": "Ankern + Dinghy",
+    "features": [
+      "Kaffee & Kuchen",
+      "Leichte Küche",
+      "Ankern + Dinghy"
+    ],
+    "url": "",
+    "source": "",
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
+  },
+  {
+    "id": "seerestaurant_bregenz",
+    "name": "Seerestaurant Bregenz",
+    "country": "AT",
+    "location": "Bregenz, Hafen",
+    "lat": 47.503,
+    "lng": 9.742,
+    "price": "€€",
+    "berthing": "~5 Plätze",
+    "features": [
+      "Österreichisch",
+      "Fischspezialitäten",
+      "Hafensteg"
+    ],
+    "url": "",
+    "source": "",
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
+  }
+]
