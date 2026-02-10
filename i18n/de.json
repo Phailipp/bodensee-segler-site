@@ -137,5 +137,6 @@
   "nav.sources": "Quellen",
   "coverage.title": "Datenabdeckung",
   "coverage.note": "Verifiziert bedeutet: Quelle und Datum sind vorhanden. Unverifiziert heißt nicht falsch, nur noch nicht sauber belegt.",
-  "sources.links.title": "Links"
+  "sources.links.title": "Links",
+  "map.layers.hint": "Tip: Tippe die Legende zum Ein Ausblenden."
 }

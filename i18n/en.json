@@ -137,5 +137,6 @@
   "nav.sources": "Sources",
   "coverage.title": "Data coverage",
   "coverage.note": "Verified means: a source and date are present. Unverified does not mean wrong, just not yet properly referenced.",
-  "sources.links.title": "Links"
+  "sources.links.title": "Links",
+  "map.layers.hint": "Tip: Tap the legend to show or hide layers."
 }
