@@ -142,5 +142,7 @@
   "modal.actions.search": "Suchen",
   "backlog.title": "Offene Datenpunkte",
   "backlog.note": "Diese Einträge haben noch keine Quelle oder kein Prüfdatum. Klick öffnet ein vorbefülltes GitHub Ticket.",
-  "backlog.none": "Alles verifiziert. Nice."
+  "backlog.none": "Alles verifiziert. Nice.",
+  "ui.showUnverified": "Unverified anzeigen",
+  "ui.hideUnverified": "Unverified ausblenden"
 }

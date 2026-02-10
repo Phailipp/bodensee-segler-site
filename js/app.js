@@ -31,7 +31,8 @@ const state = {
     anchors: true,
     rentals: true,
     gastros: true
-  }
+  },
+  showUnverified: false
 };
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -91,6 +92,10 @@ function matchesQuery(obj, q) {
     .join(' ')
     .toLowerCase();
   return hay.includes(q.toLowerCase());
+}
+
+function isVerified(item) {
+  return !!((item?.source || '').trim() && (item?.lastVerified || '').trim());
 }
 
 function applyFilters(list, type) {
@@ -156,6 +161,41 @@ function escapeHtml(str) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#39;');
+}
+
+function loadUnverifiedPref() {
+  try {
+    const raw = localStorage.getItem('bs_show_unverified');
+    if (raw === '1') state.showUnverified = true;
+  } catch {
+    // ignore
+  }
+}
+
+function saveUnverifiedPref() {
+  try {
+    localStorage.setItem('bs_show_unverified', state.showUnverified ? '1' : '0');
+  } catch {
+    // ignore
+  }
+}
+
+function renderUnverifiedToggle() {
+  const btn = document.getElementById('toggleUnverified');
+  if (!btn) return;
+  btn.setAttribute('aria-pressed', state.showUnverified ? 'true' : 'false');
+  btn.textContent = state.showUnverified ? t('ui.hideUnverified') : t('ui.showUnverified');
+}
+
+function initUnverifiedToggle() {
+  const btn = document.getElementById('toggleUnverified');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    state.showUnverified = !state.showUnverified;
+    saveUnverifiedPref();
+    renderAll();
+  });
+  renderUnverifiedToggle();
 }
 
 function setUpFilterBars() {
@@ -381,23 +421,28 @@ function coverageItem(label, c) {
 
 function renderAll() {
   // Harbors
-  const harbors = applyFilters(state.data.harbors, 'harbors');
+  const harborsBase = state.showUnverified ? state.data.harbors : state.data.harbors.filter(isVerified);
+  const harbors = applyFilters(harborsBase, 'harbors');
   $('#harborsGrid').innerHTML = harbors.length ? harbors.map(cardHarbor).join('') : emptyState();
 
   // Anchors
-  const anchors = applyFilters(state.data.anchors, 'anchors');
+  const anchorsBase = state.showUnverified ? state.data.anchors : state.data.anchors.filter(isVerified);
+  const anchors = applyFilters(anchorsBase, 'anchors');
   $('#anchorsList').innerHTML = anchors.length ? anchors.map(rowAnchor).join('') : emptyState(true);
 
   // Rentals
-  const rentals = applyFilters(state.data.rentals, 'rentals');
+  const rentalsBase = state.showUnverified ? state.data.rentals : state.data.rentals.filter(isVerified);
+  const rentals = applyFilters(rentalsBase, 'rentals');
   $('#rentalsGrid').innerHTML = rentals.length ? rentals.map(cardRental).join('') : emptyState();
 
   // Gastro
-  const gastros = applyFilters(state.data.gastros, 'gastros');
+  const gastrosBase = state.showUnverified ? state.data.gastros : state.data.gastros.filter(isVerified);
+  const gastros = applyFilters(gastrosBase, 'gastros');
   $('#gastroList').innerHTML = gastros.length ? gastros.map(rowGastro).join('') : emptyState(true);
 
   // Service
-  const services = applyFilters(state.data.services, 'services');
+  const servicesBase = state.showUnverified ? state.data.services : state.data.services.filter(isVerified);
+  const services = applyFilters(servicesBase, 'services');
   $('#serviceGrid').innerHTML = services.length ? services.map(cardService).join('') : emptyState();
 
   updateChipsForHarbors();
@@ -415,6 +460,7 @@ function renderAll() {
 
   renderCoverage();
   renderLegendToggles();
+  renderUnverifiedToggle();
 }
 
 function emptyState(isLight = false) {
@@ -789,8 +835,10 @@ async function main() {
   initModal();
   setUpFilterBars();
   loadLayerPrefs();
+  loadUnverifiedPref();
   initMap();
   initLegendToggles();
+  initUnverifiedToggle();
 
   // Language default
   const pref = localStorage.getItem('bs_lang');

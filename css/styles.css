@@ -147,6 +147,30 @@ nav.scrolled { background: rgba(12,25,41,0.95); backdrop-filter: blur(10px); pad
 
 .nav-links a:hover { opacity: 1; color: var(--gold); }
 
+/* Nav tools */
+.nav-tools {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.pill-btn {
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(0,0,0,0.18);
+  color: rgba(255,255,255,0.7);
+  padding: 8px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+.pill-btn[aria-pressed="true"] {
+  border-color: rgba(201,169,98,0.55);
+  background: rgba(201,169,98,0.12);
+  color: var(--gold-light);
+}
+
 /* Language toggle */
 .lang-toggle { display: inline-flex; gap: 8px; align-items: center; }
 .lang-toggle button {
