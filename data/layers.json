@@ -8,7 +8,8 @@
     "wmsFormat": "image/png",
     "wmsTransparent": true,
     "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
-    "lastVerified": "2026-02-10"
+    "lastVerified": "2026-02-10",
+    "wmsVersion": "1.3.0"
   },
   {
     "id": "ch_bird_reserves",
@@ -19,7 +20,8 @@
     "wmsFormat": "image/png",
     "wmsTransparent": true,
     "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
-    "lastVerified": "2026-02-10"
+    "lastVerified": "2026-02-10",
+    "wmsVersion": "1.3.0"
   },
   {
     "id": "ch_floodplains",
@@ -30,7 +32,8 @@
     "wmsFormat": "image/png",
     "wmsTransparent": true,
     "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
-    "lastVerified": "2026-02-10"
+    "lastVerified": "2026-02-10",
+    "wmsVersion": "1.3.0"
   },
   {
     "id": "ch_moorlands",
@@ -41,7 +44,8 @@
     "wmsFormat": "image/png",
     "wmsTransparent": true,
     "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
-    "lastVerified": "2026-02-10"
+    "lastVerified": "2026-02-10",
+    "wmsVersion": "1.3.0"
   },
   {
     "id": "at_vorarlberg_protected",
@@ -52,7 +56,8 @@
     "wmsFormat": "image/png",
     "wmsTransparent": true,
     "source": "https://vogis.cnv.at/geoserver/vogis/schutzgebiete_naturschutz/wms?service=wms&request=Getcapabilities",
-    "lastVerified": "2026-02-10"
+    "lastVerified": "2026-02-10",
+    "wmsVersion": "1.3.0"
   },
   {
     "id": "de_bw_inspire_protected",
@@ -63,6 +68,7 @@
     "wmsFormat": "image/png",
     "wmsTransparent": true,
     "source": "https://rips-gdi.lubw.baden-wuerttemberg.de/arcgis/services/GDI/INSPIRE_Schutzgebiete/MapServer/WMSServer?request=GetCapabilities&service=WMS",
-    "lastVerified": ""
+    "lastVerified": "",
+    "wmsVersion": "1.3.0"
   }
 ]

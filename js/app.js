@@ -1083,23 +1083,34 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
         const map = state.map;
         const point = map.latLngToContainerPoint(latlng, map.getZoom());
         const size = map.getSize();
+        const version = layer?.wmsParams?.version || '1.3.0';
+        const is130 = String(version).startsWith('1.3');
+
         const params = {
           request: 'GetFeatureInfo',
           service: 'WMS',
+          version,
+          // keep it simple; most services accept EPSG:4326
+          crs: 'EPSG:4326',
           srs: 'EPSG:4326',
           styles: layer.wmsParams.styles,
           transparent: layer.wmsParams.transparent,
-          version: layer.wmsParams.version,
           format: layer.wmsParams.format,
           bbox: map.getBounds().toBBoxString(),
           height: size.y,
           width: size.x,
           layers: layer.wmsParams.layers,
           query_layers: layer.wmsParams.layers,
-          info_format: 'text/plain',
-          i: Math.round(point.x),
-          j: Math.round(point.y)
+          info_format: 'text/plain'
         };
+        if (is130) {
+          params.i = Math.round(point.x);
+          params.j = Math.round(point.y);
+        } else {
+          params.x = Math.round(point.x);
+          params.y = Math.round(point.y);
+        }
+
         const url = layer._url + L.Util.getParamString(params, layer._url, true);
         return url;
       } catch {
@@ -1107,15 +1118,23 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       }
     }
 
-    async function hasFeatureAtCenter() {
-      const center = state.map.getCenter();
-      for (const layer of state.zoneLayers) {
-        const u = wmsFeatureInfoUrl(layer, center);
+    async function hasFeatureInView(layer) {
+      // sample a few points inside the current view
+      const b = state.map.getBounds();
+      const pts = [
+        state.map.getCenter(),
+        b.getNorthWest(),
+        b.getNorthEast(),
+        b.getSouthWest(),
+        b.getSouthEast()
+      ];
+
+      for (const p of pts) {
+        const u = wmsFeatureInfoUrl(layer, p);
         if (!u) continue;
         try {
           const res = await fetch(u, { cache: 'no-store' });
           const txt = await res.text();
-          // geo.admin returns short text for empty hits; treat any longer response as a hit
           if (txt && txt.trim().length > 40) return true;
         } catch {
           // ignore
@@ -1124,34 +1143,73 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       return false;
     }
 
-    let loadedOnce = false;
-    layers.forEach((cfg, idx) => {
+    // Build layers, then keep only the ones that are actually relevant in this view.
+    const desired = layers.map(cfg => {
       const w = L.tileLayer.wms(cfg.wmsBaseUrl, {
         layers: cfg.wmsLayers,
         format: cfg.wmsFormat || 'image/png',
         transparent: cfg.wmsTransparent !== false,
-        attribution: '© geo.admin.ch',
+        attribution: '© ' + (cfg.wmsBaseUrl.includes('geo.admin.ch') ? 'geo.admin.ch' : (cfg.wmsBaseUrl.includes('vogis') ? 'VOGIS' : 'WMS')),
         pane: 'zonesPane',
-        opacity: 0.92
+        opacity: 0.92,
+        version: cfg.wmsVersion || '1.3.0'
       });
-      w.on('load', async () => {
-        if (loadedOnce) return;
-        loadedOnce = true;
-        toast('Zonen: aktiv (CH geo.admin)');
-        // If nothing is visible at current view, tell the user why
-        setTimeout(async () => {
-          const hit = await hasFeatureAtCenter();
-          if (!hit) toast('Zonen: hier evtl. keine Treffer (zoome Richtung CH Ufer)');
-        }, 400);
-      });
-      w.on('tileerror', () => {
-        if (loadedOnce) return;
-        toast('Zonen: Fehler beim Laden');
-      });
-      w.addTo(state.map);
-      state.zoneLayers.push(w);
-      if (idx === 0) state.zoneLayer = w;
+      w._cfg = cfg;
+      w._everTileError = false;
+      w.on('tileerror', () => { w._everTileError = true; });
+      return w;
     });
+
+    // add all quickly (so map can start requesting)
+    desired.forEach(w => w.addTo(state.map));
+    state.zoneLayers = desired;
+    state.zoneLayer = desired[0] || null;
+
+    // after a short wait, evaluate relevance and prune
+    setTimeout(async () => {
+      const kept = [];
+      const ok = [];
+      const nohit = [];
+      const err = [];
+
+      for (const w of desired) {
+        const cfg = w._cfg || {};
+        // if tiles errored, treat as unreachable and drop
+        if (w._everTileError) {
+          err.push(cfg.name || cfg.id || 'WMS');
+          try { w.remove(); } catch {}
+          continue;
+        }
+
+        const hit = await hasFeatureInView(w);
+        if (hit) {
+          kept.push(w);
+          ok.push(cfg.name || cfg.id || 'WMS');
+        } else {
+          nohit.push(cfg.name || cfg.id || 'WMS');
+          try { w.remove(); } catch {}
+        }
+      }
+
+      state.zoneLayers = kept;
+      state.zoneLayer = kept[0] || null;
+
+      if (!kept.length) {
+        const extra = err.length ? ' (einige Dienste nicht erreichbar)' : '';
+        toast('Zonen: keine Treffer im aktuellen Ausschnitt' + extra);
+        return;
+      }
+
+      // keep it short: just show that it now includes DE/AT when relevant
+      const label = [
+        ok.some(s => s.startsWith('CH:')) ? 'CH' : null,
+        ok.some(s => s.startsWith('DE:')) ? 'DE' : null,
+        ok.some(s => s.startsWith('AT:')) ? 'AT' : null
+      ].filter(Boolean).join('+');
+
+      toast('Zonen: aktiv (' + (label || 'WMS') + ')');
+    }, 1200);
+
   }
 }
 
