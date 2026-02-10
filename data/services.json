@@ -7,9 +7,9 @@
     "details": "Öffentlich · bis 8m · €15/Tag",
     "lat": 47.677,
     "lng": 9.178,
-    "url": "",
-    "source": "",
-    "lastVerified": ""
+    "url": "https://www.shs-staad.de/hafenordnung.html",
+    "source": "https://www.shs-staad.de/hafenordnung.html",
+    "lastVerified": "2026-02-10"
   },
   {
     "id": "slip_friedrichshafen",
@@ -67,8 +67,8 @@
     "details": "Segelmacher & Rigg",
     "lat": 47.65,
     "lng": 9.18,
-    "url": "",
-    "source": "",
-    "lastVerified": ""
+    "url": "https://www.segelmacher.ch/",
+    "source": "https://www.segelmacher.ch/",
+    "lastVerified": "2026-02-10"
   }
 ]
