@@ -289,6 +289,47 @@ function cardService(s) {
   `;
 }
 
+function computeCoverage(list) {
+  const total = list.length;
+  const verified = list.filter(x => (x.source || '').trim() && (x.lastVerified || '').trim()).length;
+  const pct = total ? Math.round((verified / total) * 100) : 0;
+  return { total, verified, pct };
+}
+
+function renderCoverage() {
+  const el = document.getElementById('coverageStats');
+  if (!el) return;
+
+  const c = {
+    harbors: computeCoverage(state.data.harbors),
+    anchors: computeCoverage(state.data.anchors),
+    rentals: computeCoverage(state.data.rentals),
+    gastros: computeCoverage(state.data.gastros),
+    services: computeCoverage(state.data.services)
+  };
+
+  el.innerHTML = `
+    <div class="coverage-grid">
+      ${coverageItem(t('nav.harbors'), c.harbors)}
+      ${coverageItem(t('nav.anchors'), c.anchors)}
+      ${coverageItem(t('nav.rentals'), c.rentals)}
+      ${coverageItem(t('nav.gastro'), c.gastros)}
+      ${coverageItem(t('nav.service'), c.services)}
+    </div>
+    <p class="coverage-note">${escapeHtml(t('coverage.note'))}</p>
+  `;
+}
+
+function coverageItem(label, c) {
+  return `
+    <div class="coverage-item">
+      <div class="coverage-label">${escapeHtml(label)}</div>
+      <div class="coverage-value">${c.verified}/${c.total}</div>
+      <div class="coverage-sub">${c.pct}%</div>
+    </div>
+  `;
+}
+
 function renderAll() {
   // Harbors
   const harbors = applyFilters(state.data.harbors, 'harbors');
@@ -315,6 +356,7 @@ function renderAll() {
 
   wireCardClicks();
   redrawMarkers({ harbors, anchors, rentals, gastros });
+  renderCoverage();
 }
 
 function emptyState(isLight = false) {

@@ -134,5 +134,8 @@
   "modal.k.dataQuality": "Data status",
   "modal.v.dataQuality.unverified": "Unverified (missing source or date)",
   "modal.v.dataQuality.verified": "Verified (source and date present)",
-  "nav.sources": "Sources"
+  "nav.sources": "Sources",
+  "coverage.title": "Data coverage",
+  "coverage.note": "Verified means: a source and date are present. Unverified does not mean wrong, just not yet properly referenced.",
+  "sources.links.title": "Links"
 }
