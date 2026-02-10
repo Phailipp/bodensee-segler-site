@@ -172,5 +172,6 @@
   "share.de": "Deutsch",
   "share.en": "Englisch",
   "share.text.de": "Bodensee Segler: Häfen, Ankerplätze, Vermietung, Gastro und Service auf einer Karte. Mit Quellen und last verified, damit man nicht raten muss.\n\nLink: https://phailipp.github.io/bodensee-segler-site/\n\nWenn du einen Spot teilst: im Detailfenster auf Link kopieren tippen.",
-  "detail.back": "Zurück"
+  "detail.back": "Zurück",
+  "modal.actions.share": "Teilen"
 }

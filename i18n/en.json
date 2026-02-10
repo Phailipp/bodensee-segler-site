@@ -172,5 +172,6 @@
   "share.de": "German",
   "share.en": "English",
   "share.text.en": "Lake Constance sailing: harbors, anchorages, rentals, food and services on one map. With sources + last verified, so you don’t have to guess.\n\nLink: https://phailipp.github.io/bodensee-segler-site/\n\nTo share a specific spot: open it and tap Copy link.",
-  "detail.back": "Back"
+  "detail.back": "Back",
+  "modal.actions.share": "Share"
 }

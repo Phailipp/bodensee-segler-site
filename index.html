@@ -32,7 +32,6 @@
       <li><a href="#vermietung" data-i18n="nav.rentals">Vermietung</a></li>
       <li><a href="#gastro" data-i18n="nav.gastro">Gastro</a></li>
       <li><a href="#service" data-i18n="nav.service">Service</a></li>
-      <li><a href="#share" data-i18n="nav.share">Teilen</a></li>
       <li><a href="#sources" data-i18n="nav.sources">Quellen</a></li>
       <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
     </ul>
@@ -104,57 +103,6 @@
         <div class="callout-title" data-i18n="guide.callout.title">Schnellstart</div>
         <p data-i18n="guide.callout.text">Wenn du heute noch aufs Wasser willst: nutze den kuratierten Artikel und teile einzelne Spots als Link (öffnet direkt das passende Detailfenster).</p>
         <p><a class="action-btn" href="./artikel/hafen-heute-abend/" data-i18n="guide.callout.cta">Hafen heute Abend</a></p>
-      </div>
-    </div>
-  </section>
-
-  <section id="share" class="share-section" aria-label="Share">
-    <div class="section-header">
-      <div class="section-label" data-i18n="share.label">Teilen</div>
-      <h2 class="section-title" data-i18n="share.title">Weitergeben (WhatsApp / Facebook)</h2>
-      <p class="section-subtitle" data-i18n="share.subtitle">Zwei fertige Texte zum Kopieren — plus ein kurzer "Warum verifiziert?"-Absatz.</p>
-    </div>
-
-    <div class="share-grid">
-      <div class="share-card">
-        <div class="share-card-head">
-          <h3>DE · WhatsApp/Facebook</h3>
-          <button class="copy-btn" type="button" data-copy-target="shareTextDe" data-i18n="share.copy">Kopieren</button>
-        </div>
-        <textarea id="shareTextDe" class="share-text" readonly rows="7">Bodensee Segler – kuratierte Karte & Listen für Häfen, Ankerplätze, Vermietung, Gastro & Service am Bodensee.
-
-Mit Quellen + „last verified“ dort, wo es geht – trotzdem bitte vor Ort/amtlich gegenchecken.
-
-Link: https://phailipp.github.io/bodensee-segler-site/
-Feedback/Fehler (gern mit Quelle + Datum): https://github.com/Phailipp/bodensee-segler-site</textarea>
-        <div class="copy-status" aria-live="polite"></div>
-      </div>
-
-      <div class="share-card">
-        <div class="share-card-head">
-          <h3>EN · WhatsApp/Facebook</h3>
-          <button class="copy-btn" type="button" data-copy-target="shareTextEn" data-i18n="share.copy">Copy</button>
-        </div>
-        <textarea id="shareTextEn" class="share-text" readonly rows="7">Bodensee Segler – a curated map + lists for harbors, anchorages, rentals, food spots & marine services on Lake Constance.
-
-Where possible we show sources + a “last verified” date — still: please double-check locally / with official info.
-
-Link: https://phailipp.github.io/bodensee-segler-site/
-Feedback / corrections (ideally with source + date): https://github.com/Phailipp/bodensee-segler-site</textarea>
-        <div class="copy-status" aria-live="polite"></div>
-      </div>
-
-      <div class="share-card">
-        <div class="share-card-head">
-          <h3 data-i18n="share.about.title">About / Why “verified”?</h3>
-          <div class="share-about-buttons">
-            <button class="copy-btn" type="button" data-copy-target="shareAboutDe">DE</button>
-            <button class="copy-btn" type="button" data-copy-target="shareAboutEn">EN</button>
-          </div>
-        </div>
-        <textarea id="shareAboutDe" class="share-text" readonly rows="5">„Verifiziert“ heißt hier: Für den Eintrag ist eine Quelle verlinkt und ein „last verified“-Datum hinterlegt. Fehlt das, behandle es als Hinweis – nicht als Zusage. Regeln/Wetter/Hafenordnungen bitte immer offiziell bzw. vor Ort prüfen.</textarea>
-        <textarea id="shareAboutEn" class="share-text" readonly rows="5" style="margin-top:12px;">“Verified” here means: the entry has a linked source and a “last verified” date. If either is missing, treat it as a hint — not a promise. Always confirm rules/weather/harbor regulations with official/local information.</textarea>
-        <div class="copy-status" aria-live="polite"></div>
       </div>
     </div>
   </section>
@@ -396,25 +344,7 @@ Feedback / corrections (ideally with source + date): https://github.com/Phailipp
     <div class="prose" aria-label="Backlog">
       <div id="backlogStats"></div>
     </div>
-
-    <div class="prose" aria-label="Share">
-      <h3 data-i18n="share.title">Teilen</h3>
-      <p class="coverage-note" data-i18n="share.note">Fertige Texte zum Kopieren für Gruppen. Links zu einzelnen Spots bekommst du direkt im Detailfenster per „Link kopieren“.</p>
-      <div class="share-grid">
-        <div class="share-card">
-          <div class="share-label" data-i18n="share.de">Deutsch</div>
-          <textarea class="share-box" id="shareTextDe" readonly></textarea>
-          <button class="action-btn" type="button" data-copy-from="shareTextDe" data-i18n="share.copy">Kopieren</button>
-        </div>
-        <div class="share-card">
-          <div class="share-label" data-i18n="share.en">Englisch</div>
-          <textarea class="share-box" id="shareTextEn" readonly></textarea>
-          <button class="action-btn" type="button" data-copy-from="shareTextEn" data-i18n="share.copy">Copy</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="prose" aria-label="Links">
+<div class="prose" aria-label="Links">
       <h3 data-i18n="sources.links.title">Links</h3>
       <p>
         <a href="https://www.bodenseekreis.de/verkehr-wirtschaft/schifffahrt/aktuelles-wissenswertes/wetterinformation/sturmwetter/" target="_blank" rel="noreferrer">Sturmwarnung Bodensee (Bodenseekreis)</a><br>

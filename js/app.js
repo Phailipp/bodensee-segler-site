@@ -771,7 +771,7 @@ function openModal(type, item) {
   }
 
   const actions = [];
-  if (item.id) actions.push(`<button class="action-btn" id="copyLinkBtn">${t('modal.actions.link')}</button>`);
+  if (item.id) actions.push(`<button class="action-btn" id="shareBtn">${t('modal.actions.share')}</button>`);
   if (state.lake?.slug) {
     const detailUrl = `./place.html?lake=${encodeURIComponent(state.lake.slug)}&type=${encodeURIComponent(type)}&id=${encodeURIComponent(item.id)}`;
     actions.push(`<a class="action-btn" href="${detailUrl}">${t('modal.actions.details')}</a>`);
@@ -817,17 +817,28 @@ function openModal(type, item) {
     });
   }
 
-  // Copy share link
-  const copyLinkBtn = $('#copyLinkBtn');
-  if (copyLinkBtn) {
-    copyLinkBtn.addEventListener('click', async () => {
+  // Share (native if available; fallback: copy deep link)
+  const shareBtn = $('#shareBtn');
+  if (shareBtn) {
+    shareBtn.addEventListener('click', async () => {
+      const title = item?.name || 'Bodensee Segler';
+      const text = item?.location ? `${item.name} – ${item.location}` : item?.name;
       try {
-        await navigator.clipboard.writeText(shareAbs);
-        copyLinkBtn.textContent = '✓';
-        setTimeout(() => (copyLinkBtn.textContent = t('modal.actions.link')), 900);
+        if (navigator.share) {
+          await navigator.share({ title, text, url: shareAbs });
+        } else {
+          await navigator.clipboard.writeText(shareAbs);
+          shareBtn.textContent = '✓';
+          setTimeout(() => (shareBtn.textContent = t('modal.actions.share')), 900);
+        }
       } catch {
-        // fallback: open the link
-        window.location.href = share;
+        try {
+          await navigator.clipboard.writeText(shareAbs);
+          shareBtn.textContent = '✓';
+          setTimeout(() => (shareBtn.textContent = t('modal.actions.share')), 900);
+        } catch {
+          window.location.href = share;
+        }
       }
     });
   }
@@ -1105,30 +1116,6 @@ async function main() {
   const lang = (pref === 'en' || pref === 'de') ? pref : 'de';
   state.i18n = await loadJSON(`./i18n/${lang}.json`);
   setLang(lang);
-
-  // Fill share texts
-  const shareDe = document.getElementById('shareTextDe');
-  if (shareDe) shareDe.value = t('share.text.de');
-  const shareEn = document.getElementById('shareTextEn');
-  if (shareEn) shareEn.value = t('share.text.en');
-
-  // Copy buttons for share texts
-  document.querySelectorAll('[data-copy-from]').forEach(btn => {
-    btn.addEventListener('click', async () => {
-      const id = btn.getAttribute('data-copy-from');
-      const el = document.getElementById(id);
-      if (!el) return;
-      try {
-        await navigator.clipboard.writeText(el.value || el.textContent || '');
-        const prev = btn.textContent;
-        btn.textContent = '✓';
-        setTimeout(() => (btn.textContent = prev), 900);
-      } catch {
-        // ignore
-      }
-    });
-  });
-
   // Deep link open
   handleDeepLinkOpen();
 
