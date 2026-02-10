@@ -521,7 +521,11 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 .footer-links a:hover { color: var(--gold); }
 
 /* Map */
+#karte { scroll-margin-top: 96px; }
 .map-section { padding: 0; height: 100vh; min-height: 600px; position: relative; }
+
+/* Leaflet controls should not sit under the fixed nav */
+.map-section .leaflet-top { top: 96px; }
 
 .map-header {
   position: absolute;
@@ -910,6 +914,8 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 }
 
 @media (max-width: 900px) {
+  #karte { scroll-margin-top: 76px; }
+  .map-section .leaflet-top { top: 76px; }
   .map-legend-hint { left: 12px; bottom: 92px; }
 }
 
