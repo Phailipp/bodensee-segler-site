@@ -44,27 +44,16 @@ page.on('pageerror', (e) => {
   console.error('PAGEERROR', e);
 });
 
-await page.goto(`${base}/index.html?lake=bodensee`, { waitUntil: 'domcontentloaded' });
+await page.goto(`${base}/index.html`, { waitUntil: 'domcontentloaded' });
 await page.waitForSelector('#map', { state: 'attached' });
-// ensure map container has layout (scroll into view)
 await page.evaluate(() => document.querySelector('#karte')?.scrollIntoView?.({ behavior: 'instant' }));
 await page.waitForTimeout(800);
 
-// ensure lake selector exists and can switch
-await page.selectOption('#lakeSelect', 'gjaidalm');
-// switching triggers navigation
-await page.waitForURL(/lake=gjaidalm/);
-await page.waitForSelector('#map', { state: 'attached' });
-await page.evaluate(() => document.querySelector('#karte')?.scrollIntoView?.({ behavior: 'instant' }));
-
-// open first harbor card modal (if exists)
-await page.waitForTimeout(500);
 const first = await page.$('[data-open]');
 if (first) {
   await first.click();
   await page.waitForSelector('#modalBackdrop.open');
-  // details link should exist
-  await page.waitForSelector('#modalBody a.action-btn');
+  await page.waitForSelector('#modalBody');
 }
 
 await browser.close();

@@ -197,18 +197,6 @@ nav.scrolled { background: rgba(12,25,41,0.95); backdrop-filter: blur(10px); pad
   border-color: rgba(201,169,98,0.55);
   background: rgba(201,169,98,0.12);
   color: var(--gold-light);
-
-/* Lake toggle */
-.lake-toggle { display: inline-flex; align-items: center; margin-right: 10px; }
-.lake-toggle select {
-  border: 1px solid rgba(255,255,255,0.18);
-  background: rgba(0,0,0,0.18);
-  color: rgba(255,255,255,0.85);
-  padding: 8px 12px;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  letter-spacing: 0.04em;
-  outline: none;
 }
 
 /* Language toggle */
