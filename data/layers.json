@@ -60,15 +60,15 @@
     "wmsVersion": "1.3.0"
   },
   {
-    "id": "de_bw_inspire_protected",
-    "name": "DE: BW Schutzgebiete (LUBW INSPIRE)",
+    "id": "de_by_protected",
+    "name": "DE: Bayern Schutzgebiete (LfU WMS)",
     "kind": "wms",
-    "wmsBaseUrl": "https://rips-gdi.lubw.baden-wuerttemberg.de/arcgis/services/GDI/INSPIRE_Schutzgebiete/MapServer/WMSServer",
-    "wmsLayers": "INSPIRE_Schutzgebiete",
+    "wmsBaseUrl": "https://www.lfu.bayern.de/gdi/wms/natur/schutzgebiete",
+    "wmsLayers": "schutzgebiete_naturschutz",
     "wmsFormat": "image/png",
     "wmsTransparent": true,
-    "source": "https://rips-gdi.lubw.baden-wuerttemberg.de/arcgis/services/GDI/INSPIRE_Schutzgebiete/MapServer/WMSServer?request=GetCapabilities&service=WMS",
-    "lastVerified": "",
-    "wmsVersion": "1.3.0"
+    "wmsVersion": "1.3.0",
+    "source": "https://www.lfu.bayern.de/umweltdaten/geodatendienste/index_detail.htm?id=1e025cc4-d4b1-378e-9924-45950aef2334&profil=WMS",
+    "lastVerified": "2026-02-10"
   }
 ]
