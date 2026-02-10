@@ -1078,6 +1078,52 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
 
     toast('Zonen: lädt…');
 
+    function wmsFeatureInfoUrl(layer, latlng) {
+      try {
+        const map = state.map;
+        const point = map.latLngToContainerPoint(latlng, map.getZoom());
+        const size = map.getSize();
+        const params = {
+          request: 'GetFeatureInfo',
+          service: 'WMS',
+          srs: 'EPSG:4326',
+          styles: layer.wmsParams.styles,
+          transparent: layer.wmsParams.transparent,
+          version: layer.wmsParams.version,
+          format: layer.wmsParams.format,
+          bbox: map.getBounds().toBBoxString(),
+          height: size.y,
+          width: size.x,
+          layers: layer.wmsParams.layers,
+          query_layers: layer.wmsParams.layers,
+          info_format: 'text/plain',
+          i: Math.round(point.x),
+          j: Math.round(point.y)
+        };
+        const url = layer._url + L.Util.getParamString(params, layer._url, true);
+        return url;
+      } catch {
+        return null;
+      }
+    }
+
+    async function hasFeatureAtCenter() {
+      const center = state.map.getCenter();
+      for (const layer of state.zoneLayers) {
+        const u = wmsFeatureInfoUrl(layer, center);
+        if (!u) continue;
+        try {
+          const res = await fetch(u, { cache: 'no-store' });
+          const txt = await res.text();
+          // geo.admin returns short text for empty hits; treat any longer response as a hit
+          if (txt && txt.trim().length > 40) return true;
+        } catch {
+          // ignore
+        }
+      }
+      return false;
+    }
+
     let loadedOnce = false;
     layers.forEach((cfg, idx) => {
       const w = L.tileLayer.wms(cfg.wmsBaseUrl, {
@@ -1086,13 +1132,17 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
         transparent: cfg.wmsTransparent !== false,
         attribution: '© geo.admin.ch',
         pane: 'zonesPane',
-        opacity: 0.75
+        opacity: 0.92
       });
-      // first successful tile load will confirm it works
-      w.on('load', () => {
+      w.on('load', async () => {
         if (loadedOnce) return;
         loadedOnce = true;
         toast('Zonen: aktiv (CH geo.admin)');
+        // If nothing is visible at current view, tell the user why
+        setTimeout(async () => {
+          const hit = await hasFeatureAtCenter();
+          if (!hit) toast('Zonen: hier evtl. keine Treffer (zoome Richtung CH Ufer)');
+        }, 400);
       });
       w.on('tileerror', () => {
         if (loadedOnce) return;
