@@ -535,7 +535,13 @@ function renderBacklog() {
     const missing = s.items.filter(x => !((x.source || '').trim() && (x.lastVerified || '').trim()));
     if (!missing.length) return '';
 
-    const lines = missing.slice(0, 8).map(item => {
+    // show candidate-first
+    missing.sort((a, b) => (b.candidateUrl ? 1 : 0) - (a.candidateUrl ? 1 : 0));
+
+    const withCandidate = missing.filter(x => (x.candidateUrl || '').trim());
+    const withoutCandidate = missing.filter(x => !((x.candidateUrl || '').trim()));
+
+    function line(item) {
       const coords = (item.lat != null && item.lng != null) ? `${item.lat.toFixed(5)}, ${item.lng.toFixed(5)}` : '';
       const issueTitle = encodeURIComponent(`Add source: ${item.name}`);
       const issueBody = encodeURIComponent(
@@ -545,13 +551,19 @@ function renderBacklog() {
       const candidate = item.candidateUrl
         ? `<a class="candidate-link" href="${escapeHtml(item.candidateUrl)}" target="_blank" rel="noreferrer">Candidate</a>`
         : '';
-      return `<li><a href="${issueUrl}" target="_blank" rel="noreferrer">${escapeHtml(item.name)}</a>${candidate ? ` ${candidate}` : ''}</li>`;
-    }).join('');
+      const open = item.id ? `<a class="candidate-link" href="./?open=${encodeURIComponent(s.key + ':' + item.id)}">Open</a>` : '';
+      return `<li><a href="${issueUrl}" target="_blank" rel="noreferrer">${escapeHtml(item.name)}</a>${candidate ? ` ${candidate}` : ''}${open ? ` ${open}` : ''}</li>`;
+    }
+
+    const lines1 = withCandidate.slice(0, 8).map(line).join('');
+    const lines2 = withoutCandidate.slice(0, 6).map(line).join('');
 
     return `
       <div class="backlog-block">
         <div class="backlog-title">${escapeHtml(s.label)}</div>
-        <ul class="backlog-list">${lines}</ul>
+        <div class="coverage-note">Candidates: ${withCandidate.length} · Missing candidate: ${withoutCandidate.length}</div>
+        ${lines1 ? `<ul class="backlog-list">${lines1}</ul>` : ''}
+        ${lines2 ? `<div class="coverage-note" style="margin-top:10px">Missing candidate URL</div><ul class="backlog-list">${lines2}</ul>` : ''}
       </div>
     `;
   }).join('');

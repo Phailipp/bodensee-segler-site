@@ -1,0 +1,27 @@
+name: QA
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Smoke QA (Playwright)
+        run: node scripts/qa_smoke_playwright.cjs "https://phailipp.github.io/bodensee-segler-site/?v=ci"
