@@ -5,6 +5,7 @@
   "nav.rentals": "Vermietung",
   "nav.gastro": "Gastro",
   "nav.service": "Service",
+  "nav.share": "Teilen",
   "hero.label": "Segeln am Bodensee",
   "hero.title.line1": "Dein Revier.",
   "hero.title.line2": "Deine Freiheit.",
@@ -153,5 +154,19 @@
   "ui.hideUnverified": "Unverified ausblenden",
   "ui.unverified": "Unverified",
   "modal.actions.link": "Link kopieren",
-  "modal.actions.candidate": "Link (Kandidat)"
+  "modal.actions.candidate": "Link (Kandidat)",
+  "share.label": "Teilen",
+  "share.title": "Teilen",
+  "share.subtitle": "Zwei fertige Texte zum Kopieren — plus ein kurzer \"Warum verifiziert?\"-Absatz.",
+  "share.copy": "Kopieren",
+  "share.copied": "Kopiert.",
+  "share.copyFailed": "Kopieren fehlgeschlagen – bitte markieren und manuell kopieren.",
+  "share.about.title": "Über die Daten / Warum \"verifiziert\"?",
+  "guide.callout.title": "Schnellstart",
+  "guide.callout.text": "Wenn du heute noch aufs Wasser willst: nutze den kuratierten Artikel und teile einzelne Spots als Link (öffnet direkt das passende Detailfenster).",
+  "guide.callout.cta": "Hafen heute Abend",
+  "share.note": "Fertige Texte zum Kopieren für Gruppen. Links zu einzelnen Spots bekommst du direkt im Detailfenster per „Link kopieren“.",
+  "share.de": "Deutsch",
+  "share.en": "Englisch",
+  "share.text.de": "Bodensee Segler: Häfen, Ankerplätze, Vermietung, Gastro und Service auf einer Karte. Mit Quellen und last verified, damit man nicht raten muss.\n\nLink: https://phailipp.github.io/bodensee-segler-site/\n\nWenn du einen Spot teilst: im Detailfenster auf Link kopieren tippen."
 }

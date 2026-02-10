@@ -43,6 +43,63 @@ function t(key) {
   return state.i18n?.[key] ?? key;
 }
 
+async function copyTextToClipboard(text) {
+  if (!text) return false;
+
+  // Modern async clipboard
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch {
+    // fall back
+  }
+
+  // Fallback (older browsers)
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.top = '-1000px';
+    ta.style.left = '-1000px';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    const ok = document.execCommand('copy');
+    document.body.removeChild(ta);
+    return ok;
+  } catch {
+    return false;
+  }
+}
+
+function initShareSection() {
+  const buttons = $$('[data-copy-target]');
+  if (!buttons.length) return;
+
+  let timer = null;
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const id = btn.getAttribute('data-copy-target');
+      const el = id ? document.getElementById(id) : null;
+      if (!el) return;
+
+      const card = btn.closest('.share-card') || el.closest('.share-card');
+      const status = card ? $('.copy-status', card) : null;
+
+      const ok = await copyTextToClipboard(el.value || el.textContent || '');
+      if (status) {
+        status.textContent = ok ? t('share.copied') : t('share.copyFailed');
+        if (timer) clearTimeout(timer);
+        timer = setTimeout(() => { status.textContent = ''; }, 2400);
+      }
+    });
+  });
+}
+
 function parseOpenParam() {
   try {
     const p = new URLSearchParams(window.location.search);
@@ -953,12 +1010,36 @@ async function main() {
   loadLayerPrefs();
   initMap();
   initLegendToggles();
+  initShareSection();
 
   // Language default
   const pref = localStorage.getItem('bs_lang');
   const lang = (pref === 'en' || pref === 'de') ? pref : 'de';
   state.i18n = await loadJSON(`./i18n/${lang}.json`);
   setLang(lang);
+
+  // Fill share texts
+  const shareDe = document.getElementById('shareTextDe');
+  if (shareDe) shareDe.value = t('share.text.de');
+  const shareEn = document.getElementById('shareTextEn');
+  if (shareEn) shareEn.value = t('share.text.en');
+
+  // Copy buttons for share texts
+  document.querySelectorAll('[data-copy-from]').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const id = btn.getAttribute('data-copy-from');
+      const el = document.getElementById(id);
+      if (!el) return;
+      try {
+        await navigator.clipboard.writeText(el.value || el.textContent || '');
+        const prev = btn.textContent;
+        btn.textContent = '✓';
+        setTimeout(() => (btn.textContent = prev), 900);
+      } catch {
+        // ignore
+      }
+    });
+  });
 
   // Deep link open
   handleDeepLinkOpen();

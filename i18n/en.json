@@ -5,6 +5,7 @@
   "nav.rentals": "Rentals",
   "nav.gastro": "Food",
   "nav.service": "Services",
+  "nav.share": "Share",
   "hero.label": "Sailing on Lake Constance",
   "hero.title.line1": "Your waters.",
   "hero.title.line2": "Your freedom.",
@@ -153,5 +154,19 @@
   "ui.hideUnverified": "Hide unverified",
   "ui.unverified": "Unverified",
   "modal.actions.link": "Copy link",
-  "modal.actions.candidate": "Link (candidate)"
+  "modal.actions.candidate": "Link (candidate)",
+  "share.label": "Share",
+  "share.title": "Share",
+  "share.subtitle": "Two ready-to-copy texts — plus a short \"Why verified?\" snippet.",
+  "share.copy": "Copy",
+  "share.copied": "Copied.",
+  "share.copyFailed": "Copy failed — please select and copy manually.",
+  "share.about.title": "About the data / Why \"verified\"?",
+  "guide.callout.title": "Quick start",
+  "guide.callout.text": "If you want to get on the water today: use the curated article and share individual spots as a link (opens the right detail modal).",
+  "guide.callout.cta": "Tonight: harbor",
+  "share.note": "Ready-to-copy texts for groups. For individual spots, use “Copy link” in the detail modal.",
+  "share.de": "German",
+  "share.en": "English",
+  "share.text.en": "Lake Constance sailing: harbors, anchorages, rentals, food and services on one map. With sources + last verified, so you don’t have to guess.\n\nLink: https://phailipp.github.io/bodensee-segler-site/\n\nTo share a specific spot: open it and tap Copy link."
 }
