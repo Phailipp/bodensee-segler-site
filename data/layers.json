@@ -1,13 +1,13 @@
 [
   {
-    "id": "lake_zones",
-    "name": "Zonen / Hinweise",
-    "kind": "geojson",
-    "path": "data/layers/lake_zones.geojson",
-    "source": "",
-    "lastVerified": "",
-    "candidateUrl": "",
-    "candidateFoundAt": "",
-    "candidateSource": ""
+    "id": "ramsar",
+    "name": "Schutzgebiet (Ramsar)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://wms.geo.admin.ch/",
+    "wmsLayers": "ch.bafu.schutzgebiete-ramsar",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
+    "lastVerified": "2026-02-10"
   }
 ]

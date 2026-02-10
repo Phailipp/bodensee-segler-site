@@ -993,7 +993,7 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
   if (!state.map) return;
   clearMarkers();
 
-  // Zones layer (GeoJSON)
+  // Zones layer
   try {
     if (state.zoneLayer) {
       state.zoneLayer.remove();
@@ -1050,21 +1050,15 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
 
   // Add zones overlay if enabled
   if (state.mapLayers.zones) {
-    const cfg = (state.data.layers || []).find(x => x.id === 'lake_zones');
-    const rel = cfg?.path || 'data/layers/lake_zones.geojson';
-    loadJSON(`./${rel}`).then(fc => {
-      if (!state.mapLayers.zones || !state.map) return;
-      state.zoneLayer = L.geoJSON(fc, {
-        style: {
-          color: '#60a5fa',
-          weight: 2,
-          fillColor: '#60a5fa',
-          fillOpacity: 0.12
-        }
+    const cfg = (state.data.layers || [])[0];
+    if (cfg?.kind === 'wms' && cfg?.wmsBaseUrl && cfg?.wmsLayers) {
+      state.zoneLayer = L.tileLayer.wms(cfg.wmsBaseUrl, {
+        layers: cfg.wmsLayers,
+        format: cfg.wmsFormat || 'image/png',
+        transparent: cfg.wmsTransparent !== false,
+        attribution: '© geo.admin.ch'
       }).addTo(state.map);
-    }).catch(() => {
-      // ignore
-    });
+    }
   }
 }
 
