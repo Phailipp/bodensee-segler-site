@@ -5,37 +5,29 @@
   "nav.rentals": "Vermietung",
   "nav.gastro": "Gastro",
   "nav.service": "Service",
-
   "hero.label": "Segeln am Bodensee",
   "hero.title.line1": "Dein Revier.",
   "hero.title.line2": "Deine Freiheit.",
   "hero.subtitle": "Häfen, Ankerplätze und alles was du brauchst — klar und auf den Punkt.",
   "hero.cta": "Karte erkunden",
   "hero.scroll": "Scroll",
-
   "map.label": "Interaktive Übersicht",
   "map.title": "Karte",
-
   "harbors.label": "Marinas & Yachthäfen",
   "harbors.title": "Häfen am See",
   "harbors.subtitle": "Kuratiert, übersichtlich, ohne Lärm. Filtere nach Land, Features und Tiefgang.",
-
   "anchors.label": "Naturerlebnis",
   "anchors.title": "Ankerplätze",
   "anchors.subtitle": "Für ruhige Stunden: Schutz, Grund, Tiefe – und ob Übernachten sinnvoll ist.",
-
   "rentals.label": "Chartern & Mieten",
   "rentals.title": "Bootsvermietung",
   "rentals.subtitle": "Premium-Auswahl für Tagestrips, Training oder mit Skipper.",
-
   "gastro.label": "Einkehren mit Boot",
   "gastro.title": "Gastro mit Anleger",
   "gastro.subtitle": "Wo Genuss und kurzer Weg vom Steg zusammenkommen.",
-
   "service.label": "Infrastruktur",
   "service.title": "Service am See",
   "service.subtitle": "Slip, Tankstellen, Werften – das Nötige, sauber zusammengefasst.",
-
   "filter.search.harbor": "Hafen oder Ort…",
   "filter.search.anchor": "Ankerplatz oder Ort…",
   "filter.country": "Land",
@@ -46,7 +38,6 @@
   "filter.overnight.no": "Nein",
   "filter.minDepth": "Min. Tiefe (m)",
   "filter.minDraft": "Min. Tiefgang (m)",
-
   "stats.berths": "Plätze",
   "stats.guest": "Gast",
   "stats.draft": "Tiefgang",
@@ -54,11 +45,9 @@
   "stats.ground": "Grund",
   "stats.price": "Preis",
   "stats.berthing": "Anleger",
-
   "modal.close": "Schließen",
   "modal.actions.route": "Route",
   "modal.actions.copy": "Koordinaten kopieren",
-
   "modal.k.country": "Land",
   "modal.k.region": "Region",
   "modal.k.location": "Ort",
@@ -70,14 +59,37 @@
   "modal.k.details": "Details",
   "modal.k.shelter": "Schutz",
   "modal.k.fleet": "Flotte",
-
   "footer.disclaimer": "Daten ohne Gewähr · Mit Liebe zum Segeln",
   "footer.imprint": "Impressum",
   "footer.privacy": "Datenschutz",
-
   "empty.title": "Keine Treffer",
   "empty.body": "Filter anpassen oder Suche leeren.",
-
-  "rentals.stats.boats": "Boote"
+  "rentals.stats.boats": "Boote",
+  "nav.guide": "Guide",
+  "nav.faq": "FAQ",
+  "guide.label": "Revierwissen",
+  "guide.title": "Der Bodensee, kurz erklärt",
+  "guide.subtitle": "Damit du schneller aufs Wasser kommst: die wichtigsten Regeln, Muster und Entscheidungen in einem klaren Überblick.",
+  "guide.card1.title": "Navigation und Realität",
+  "guide.card1.text": "Der Bodensee wirkt klein, verhält sich aber wie ein echtes Binnenmeer: lokale Winddreher, kurze Welle und viel Verkehr. Plane mit Reserve und halte Ausweichhäfen im Kopf.",
+  "guide.card2.title": "Ankern ist kein Standard",
+  "guide.card2.text": "Viele Bereiche sind sensibel oder eingeschränkt. Ein guter Ankerplatz ist nicht nur Tiefe, sondern auch Abstand, Schutz, Grund und die Frage, ob Übernachten praktisch und erlaubt ist.",
+  "guide.card3.title": "Grenzen und Zuständigkeiten",
+  "guide.card3.text": "Am See treffen DE, CH und AT aufeinander. Regeln, Funk, Hafenordnungen und Gebühren sind nicht überall gleich. Prüfe im Zweifel die offiziellen Seiten, bevor du dich darauf verlässt.",
+  "guide.how.title": "So nutzt du die Seite",
+  "guide.how.p1": "Erst Karte: verschaffe dir ein Gefühl für Distanzen, Häfen und Alternativen. Dann filtere in den Listen nach Land und Tiefgang. Wenn du einen Eintrag öffnest, siehst du Details, Hinweise und die Quelle, sofern vorhanden.",
+  "guide.how.p2": "Die Idee ist nicht Vollständigkeit um jeden Preis, sondern ein ruhiger, verlässlicher Startpunkt. Wenn dir etwas fehlt oder nicht stimmt, melde es gern über GitHub.",
+  "faq.label": "Antworten",
+  "faq.title": "FAQ",
+  "faq.subtitle": "Kurze, ehrliche Antworten auf die Fragen, die am See immer wieder auftauchen.",
+  "faq.q1": "Kann ich überall ankern?",
+  "faq.a1": "Nein. Es gibt Schutzgebiete, Verkehrsräume und lokale Regeln. Nutze die Ankerplatz-Liste als Startpunkt und prüfe vor Ort die offiziellen Hinweise und Beschilderung.",
+  "faq.q2": "Sind die Tiefenangaben garantiert?",
+  "faq.a2": "Nein. Wasserstände ändern sich, und Daten können veralten. Wenn ein Eintrag kritisch ist, plane konservativ und verifiziere mit aktuellen Karten und lokalen Infos.",
+  "faq.q3": "Wie aktuell sind die Daten?",
+  "faq.a3": "Wo möglich führen wir eine Quelle und ein last verified Datum. Wenn beides fehlt, behandle den Eintrag als Hinweis, nicht als Zusage.",
+  "faq.q4": "Kann ich beitragen?",
+  "faq.a4": "Ja. Am schnellsten über GitHub: Link öffnen, Issue schreiben oder direkt einen kleinen Fix vorschlagen. Je konkreter Quelle und Datum, desto besser.",
+  "faq.disclaimer.title": "Daten und Haftung",
+  "faq.disclaimer.text": "Diese Seite ersetzt keine amtlichen Karten, Hafenordnungen oder Sicherheitsinfos. Sie ist eine kuratierte Übersicht für Planung und Inspiration. Verantwortung bleibt beim Skipper."
 }
-

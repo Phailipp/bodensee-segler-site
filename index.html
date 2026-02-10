@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bodensee Segler</title>
+  <meta name="description" content="Kuratiert und klar: Häfen, Ankerplätze, Vermietung, Gastro und Service am Bodensee. Interaktive Karte, Filter und Detailinfos." />
+  <meta property="og:title" content="Bodensee Segler" />
+  <meta property="og:description" content="Kuratiert und klar: Häfen, Ankerplätze, Vermietung, Gastro und Service am Bodensee." />
+  <meta property="og:type" content="website" />
 
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -21,11 +25,13 @@
 
     <ul class="nav-links" id="mobileNav">
       <li><a href="#karte" data-i18n="nav.map">Karte</a></li>
+      <li><a href="#guide" data-i18n="nav.guide">Guide</a></li>
       <li><a href="#haefen" data-i18n="nav.harbors">Häfen</a></li>
       <li><a href="#anker" data-i18n="nav.anchors">Ankerplätze</a></li>
       <li><a href="#vermietung" data-i18n="nav.rentals">Vermietung</a></li>
       <li><a href="#gastro" data-i18n="nav.gastro">Gastro</a></li>
       <li><a href="#service" data-i18n="nav.service">Service</a></li>
+      <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
     </ul>
 
     <div class="lang-toggle" id="langToggle" aria-label="Language selector">
@@ -53,6 +59,35 @@
     <div class="scroll-indicator">
       <span data-i18n="hero.scroll">Scroll</span>
       <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section id="guide" class="guide-section">
+    <div class="section-header">
+      <div class="section-label" data-i18n="guide.label">Revierwissen</div>
+      <h2 class="section-title" data-i18n="guide.title">Der Bodensee, kurz erklärt</h2>
+      <p class="section-subtitle" data-i18n="guide.subtitle">Damit du schneller aufs Wasser kommst: die wichtigsten Regeln, Muster und Entscheidungen in einem klaren Überblick.</p>
+    </div>
+
+    <div class="value-grid" aria-label="Guide highlights">
+      <div class="value-card">
+        <h3 data-i18n="guide.card1.title">Navigation und Realität</h3>
+        <p data-i18n="guide.card1.text">Der Bodensee wirkt klein, verhält sich aber wie ein echtes Binnenmeer: lokale Winddreher, kurze Welle und viel Verkehr. Plane mit Reserve und halte Ausweichhäfen im Kopf.</p>
+      </div>
+      <div class="value-card">
+        <h3 data-i18n="guide.card2.title">Ankern ist kein Standard</h3>
+        <p data-i18n="guide.card2.text">Viele Bereiche sind sensibel oder eingeschränkt. Ein guter Ankerplatz ist nicht nur Tiefe, sondern auch Abstand, Schutz, Grund und die Frage, ob Übernachten praktisch und erlaubt ist.</p>
+      </div>
+      <div class="value-card">
+        <h3 data-i18n="guide.card3.title">Grenzen und Zuständigkeiten</h3>
+        <p data-i18n="guide.card3.text">Am See treffen DE, CH und AT aufeinander. Regeln, Funk, Hafenordnungen und Gebühren sind nicht überall gleich. Prüfe im Zweifel die offiziellen Seiten, bevor du dich darauf verlässt.</p>
+      </div>
+    </div>
+
+    <div class="prose" aria-label="How to use">
+      <h3 data-i18n="guide.how.title">So nutzt du die Seite</h3>
+      <p data-i18n="guide.how.p1">Erst Karte: verschaffe dir ein Gefühl für Distanzen, Häfen und Alternativen. Dann filtere in den Listen nach Land und Tiefgang. Wenn du einen Eintrag öffnest, siehst du Details, Hinweise und die Quelle, sofern vorhanden.</p>
+      <p data-i18n="guide.how.p2">Die Idee ist nicht Vollständigkeit um jeden Preis, sondern ein ruhiger, verlässlicher Startpunkt. Wenn dir etwas fehlt oder nicht stimmt, melde es gern über GitHub.</p>
     </div>
   </section>
 
@@ -187,6 +222,38 @@
     </div>
 
     <div class="service-grid" id="serviceGrid"></div>
+  </section>
+
+  <section id="faq" class="faq-section">
+    <div class="section-header">
+      <div class="section-label" data-i18n="faq.label">Antworten</div>
+      <h2 class="section-title" data-i18n="faq.title">FAQ</h2>
+      <p class="section-subtitle" data-i18n="faq.subtitle">Kurze, ehrliche Antworten auf die Fragen, die am See immer wieder auftauchen.</p>
+    </div>
+
+    <div class="faq-grid" aria-label="Frequently asked questions">
+      <div class="faq-item">
+        <h3 data-i18n="faq.q1">Kann ich überall ankern?</h3>
+        <p data-i18n="faq.a1">Nein. Es gibt Schutzgebiete, Verkehrsräume und lokale Regeln. Nutze die Ankerplatz-Liste als Startpunkt und prüfe vor Ort die offiziellen Hinweise und Beschilderung.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-i18n="faq.q2">Sind die Tiefenangaben garantiert?</h3>
+        <p data-i18n="faq.a2">Nein. Wasserstände ändern sich, und Daten können veralten. Wenn ein Eintrag kritisch ist, plane konservativ und verifiziere mit aktuellen Karten und lokalen Infos.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-i18n="faq.q3">Wie aktuell sind die Daten?</h3>
+        <p data-i18n="faq.a3">Wo möglich führen wir eine Quelle und ein last verified Datum. Wenn beides fehlt, behandle den Eintrag als Hinweis, nicht als Zusage.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-i18n="faq.q4">Kann ich beitragen?</h3>
+        <p data-i18n="faq.a4">Ja. Am schnellsten über GitHub: Link öffnen, Issue schreiben oder direkt einen kleinen Fix vorschlagen. Je konkreter Quelle und Datum, desto besser.</p>
+      </div>
+    </div>
+
+    <div class="prose" aria-label="Data disclaimer">
+      <h3 data-i18n="faq.disclaimer.title">Daten und Haftung</h3>
+      <p data-i18n="faq.disclaimer.text">Diese Seite ersetzt keine amtlichen Karten, Hafenordnungen oder Sicherheitsinfos. Sie ist eine kuratierte Übersicht für Planung und Inspiration. Verantwortung bleibt beim Skipper.</p>
+    </div>
   </section>
 
   <footer>

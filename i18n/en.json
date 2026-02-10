@@ -5,37 +5,29 @@
   "nav.rentals": "Rentals",
   "nav.gastro": "Food",
   "nav.service": "Services",
-
   "hero.label": "Sailing on Lake Constance",
   "hero.title.line1": "Your waters.",
   "hero.title.line2": "Your freedom.",
   "hero.subtitle": "Harbors, anchorages, and everything you need — clean, curated, and to the point.",
   "hero.cta": "Explore the map",
   "hero.scroll": "Scroll",
-
   "map.label": "Interactive overview",
   "map.title": "Map",
-
   "harbors.label": "Marinas & Yacht harbors",
   "harbors.title": "Harbors around the lake",
   "harbors.subtitle": "Curated and calm. Filter by country, features, and draft.",
-
   "anchors.label": "Nature",
   "anchors.title": "Anchorages",
   "anchors.subtitle": "Shelter, seabed, depth — and whether overnighting makes sense.",
-
   "rentals.label": "Charter & rent",
   "rentals.title": "Boat rentals",
   "rentals.subtitle": "A premium selection for day trips, training, or with a skipper.",
-
   "gastro.label": "Dock & dine",
   "gastro.title": "Food with berthing",
   "gastro.subtitle": "Where good food meets an easy landing.",
-
   "service.label": "Infrastructure",
   "service.title": "Services",
   "service.subtitle": "Slips, fuel, yards — essentials, neatly summarized.",
-
   "filter.search.harbor": "Harbor or location…",
   "filter.search.anchor": "Anchorage or location…",
   "filter.country": "Country",
@@ -46,7 +38,6 @@
   "filter.overnight.no": "No",
   "filter.minDepth": "Min. depth (m)",
   "filter.minDraft": "Min. draft (m)",
-
   "stats.berths": "Berths",
   "stats.guest": "Guest",
   "stats.draft": "Draft",
@@ -54,11 +45,9 @@
   "stats.ground": "Seabed",
   "stats.price": "Price",
   "stats.berthing": "Berthing",
-
   "modal.close": "Close",
   "modal.actions.route": "Route",
   "modal.actions.copy": "Copy coordinates",
-
   "modal.k.country": "Country",
   "modal.k.region": "Region",
   "modal.k.location": "Location",
@@ -70,14 +59,37 @@
   "modal.k.details": "Details",
   "modal.k.shelter": "Shelter",
   "modal.k.fleet": "Fleet",
-
   "footer.disclaimer": "No warranty · Made with love for sailing",
   "footer.imprint": "Imprint",
   "footer.privacy": "Privacy",
-
   "empty.title": "No results",
   "empty.body": "Try adjusting filters or clearing search.",
-
-  "rentals.stats.boats": "Boats"
+  "rentals.stats.boats": "Boats",
+  "nav.guide": "Guide",
+  "nav.faq": "FAQ",
+  "guide.label": "Local knowledge",
+  "guide.title": "Lake Constance, in brief",
+  "guide.subtitle": "Get on the water faster: the key patterns, decisions, and caveats in a calm overview.",
+  "guide.card1.title": "Navigation vs. reality",
+  "guide.card1.text": "It looks small but behaves like a real inland sea: local wind shifts, short waves, and busy traffic. Plan with margin and keep alternatives in mind.",
+  "guide.card2.title": "Anchoring is not the default",
+  "guide.card2.text": "Many areas are sensitive or restricted. A good spot is not just depth: think shelter, seabed, distance, and whether overnighting is practical and allowed.",
+  "guide.card3.title": "Borders and jurisdictions",
+  "guide.card3.text": "DE, CH, and AT meet on the lake. Rules, radio, marina regulations, and fees can differ. When it matters, verify via official sources.",
+  "guide.how.title": "How to use this site",
+  "guide.how.p1": "Start with the map for distances and alternatives. Then filter the lists by country and draft. Open any entry to see details, notes, and sources when available.",
+  "guide.how.p2": "The goal is not completeness at all costs, but a calm and useful starting point. If something is missing or wrong, report it via GitHub.",
+  "faq.label": "Answers",
+  "faq.title": "FAQ",
+  "faq.subtitle": "Short, honest answers to the questions that come up again and again.",
+  "faq.q1": "Can I anchor anywhere?",
+  "faq.a1": "No. There are protected areas, traffic lanes, and local rules. Use the list as a starting point and verify official notices on site.",
+  "faq.q2": "Are depth values guaranteed?",
+  "faq.a2": "No. Levels change and data can go stale. If it is critical, plan conservatively and verify with up-to-date charts and local information.",
+  "faq.q3": "How current is the data?",
+  "faq.a3": "Where possible we include a source and a last-verified date. If missing, treat it as a hint, not a promise.",
+  "faq.q4": "Can I contribute?",
+  "faq.a4": "Yes. The fastest way is via GitHub: open the repo, file an issue, or propose a small fix. Sources and dates help a lot.",
+  "faq.disclaimer.title": "Data and responsibility",
+  "faq.disclaimer.text": "This site does not replace official charts, marina rules, or safety information. It is a curated overview for planning and inspiration. Responsibility stays with the skipper."
 }
-
