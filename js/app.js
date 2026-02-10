@@ -190,20 +190,25 @@ function renderUnverifiedToggle() {
 function initUnverifiedToggle() {
   const btn = document.getElementById('toggleUnverified');
   if (!btn) return;
+  let lastToggleMs = 0;
   const toggle = (e) => {
+    // Avoid double-trigger on mobile browsers (touchstart + click, pointer events, etc.)
+    const now = Date.now();
+    if (now - lastToggleMs < 600) return;
+    lastToggleMs = now;
+
     if (e) {
       e.preventDefault();
       e.stopPropagation();
     }
+
     state.showUnverified = !state.showUnverified;
     saveUnverifiedPref();
     renderAll();
   };
 
+  // Use click as the single source of truth (works across desktop + mobile)
   btn.addEventListener('click', toggle);
-  btn.addEventListener('pointerup', toggle);
-  // iOS Safari: sometimes needs an explicit touch handler
-  btn.addEventListener('touchstart', toggle, { passive: false });
   renderUnverifiedToggle();
 }
 
