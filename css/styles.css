@@ -992,3 +992,25 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   font-size: 0.75rem;
   margin-bottom: 8px;
 }
+
+/* Toast (debug / feedback) */
+.toast {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  z-index: var(--z-map-ui);
+  background: rgba(12,25,41,0.92);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.85);
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  opacity: 0;
+  transform: translateY(6px);
+  pointer-events: none;
+  transition: opacity 140ms ease, transform 140ms ease;
+}
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}

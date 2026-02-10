@@ -29,6 +29,7 @@ const state = {
   map: null,
   markers: { harbors: [], anchors: [], rentals: [], gastros: [] },
   zoneLayer: null,
+  zoneLayers: [],
   mapLayers: {
     harbors: true,
     anchors: true,
@@ -45,6 +46,15 @@ const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
 function t(key) {
   return state.i18n?.[key] ?? key;
+}
+
+function toast(msg, ms = 1800) {
+  const el = document.getElementById('toast');
+  if (!el) return;
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(el._t);
+  el._t = setTimeout(() => el.classList.remove('show'), ms);
 }
 
 async function copyTextToClipboard(text) {
@@ -993,8 +1003,10 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
   if (!state.map) return;
   clearMarkers();
 
-  // Zones layer
+  // Zones layers
   try {
+    (state.zoneLayers || []).forEach(l => l.remove());
+    state.zoneLayers = [];
     if (state.zoneLayer) {
       state.zoneLayer.remove();
       state.zoneLayer = null;
@@ -1051,14 +1063,44 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
   // Add zones overlay if enabled
   if (state.mapLayers.zones) {
     const layers = (state.data.layers || []).filter(x => x.kind === 'wms' && x.wmsBaseUrl && x.wmsLayers);
-    layers.forEach(cfg => {
-      // stack multiple official layers
-      state.zoneLayer = L.tileLayer.wms(cfg.wmsBaseUrl, {
+    if (!layers.length) {
+      toast('Zonen: keine Layer konfiguriert');
+      return;
+    }
+
+    // make sure zones are above basemap + markers but below modal/nav
+    try {
+      if (!state.map.getPane('zonesPane')) state.map.createPane('zonesPane');
+      state.map.getPane('zonesPane').style.zIndex = '350';
+    } catch {
+      // ignore
+    }
+
+    toast('Zonen: lädt…');
+
+    let loadedOnce = false;
+    layers.forEach((cfg, idx) => {
+      const w = L.tileLayer.wms(cfg.wmsBaseUrl, {
         layers: cfg.wmsLayers,
         format: cfg.wmsFormat || 'image/png',
         transparent: cfg.wmsTransparent !== false,
-        attribution: '© geo.admin.ch'
-      }).addTo(state.map);
+        attribution: '© geo.admin.ch',
+        pane: 'zonesPane',
+        opacity: 0.75
+      });
+      // first successful tile load will confirm it works
+      w.on('load', () => {
+        if (loadedOnce) return;
+        loadedOnce = true;
+        toast('Zonen: aktiv (CH geo.admin)');
+      });
+      w.on('tileerror', () => {
+        if (loadedOnce) return;
+        toast('Zonen: Fehler beim Laden');
+      });
+      w.addTo(state.map);
+      state.zoneLayers.push(w);
+      if (idx === 0) state.zoneLayer = w;
     });
   }
 }
