@@ -146,5 +146,5 @@
   "ui.showUnverified": "Show unverified",
   "ui.hideUnverified": "Hide unverified",
   "ui.unverified": "Unverified",
-  "modal.actions.link": "Link"
+  "modal.actions.link": "Copy link"
 }

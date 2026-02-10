@@ -42,6 +42,53 @@ function t(key) {
   return state.i18n?.[key] ?? key;
 }
 
+function parseOpenParam() {
+  try {
+    const p = new URLSearchParams(window.location.search);
+    const raw = (p.get('open') || '').trim();
+    if (!raw) return null;
+    const [type, id] = raw.split(':');
+    if (!type || !id) return null;
+    return { type, id };
+  } catch {
+    return null;
+  }
+}
+
+function findItemByTypeAndId(type, id) {
+  const list = {
+    harbor: state.data.harbors,
+    anchor: state.data.anchors,
+    rental: state.data.rentals,
+    gastro: state.data.gastros,
+    service: state.data.services
+  }[type];
+  if (!list) return null;
+  return list.find(x => x.id === id) || null;
+}
+
+function handleDeepLinkOpen() {
+  const o = parseOpenParam();
+  if (!o) return;
+  const item = findItemByTypeAndId(o.type, o.id);
+  if (!item) return;
+
+  const sectionId = {
+    harbor: 'haefen',
+    anchor: 'anker',
+    rental: 'vermietung',
+    gastro: 'gastro',
+    service: 'service'
+  }[o.type];
+
+  if (sectionId) {
+    const el = document.getElementById(sectionId);
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  setTimeout(() => openModal(o.type, item), 250);
+}
+
 function setLang(lang) {
   state.lang = lang;
   localStorage.setItem('bs_lang', lang);
@@ -466,6 +513,7 @@ function openModal(type, item) {
 
   // Shareable deep link back into the main page
   const share = `./?open=${encodeURIComponent(type + ':' + (item.id || ''))}`;
+  const shareAbs = `${window.location.origin}${window.location.pathname}?open=${encodeURIComponent(type + ':' + (item.id || ''))}`;
 
   const rows = [];
   rows.push(kv(t('modal.k.country'), formatCountry(item.country || '')));
@@ -519,7 +567,7 @@ function openModal(type, item) {
   }
 
   const actions = [];
-  if (item.id) actions.push(`<a class="action-btn" href="${share}">${t('modal.actions.link')}</a>`);
+  if (item.id) actions.push(`<button class="action-btn" id="copyLinkBtn">${t('modal.actions.link')}</button>`);
   if (item.url) actions.push(`<a class="action-btn" href="${item.url}" target="_blank" rel="noreferrer">${t('modal.actions.website')}</a>`);
   if (gm) actions.push(`<a class="action-btn" href="${gm}" target="_blank" rel="noreferrer">${t('modal.actions.route')}</a>`);
   if (coords) actions.push(`<button class="action-btn" id="copyCoordsBtn">${t('modal.actions.copy')}</button>`);
@@ -543,7 +591,7 @@ function openModal(type, item) {
 
   backdrop.classList.add('open');
 
-  // Copy
+  // Copy coords
   const copyBtn = $('#copyCoordsBtn');
   if (copyBtn) {
     copyBtn.addEventListener('click', async () => {
@@ -553,6 +601,21 @@ function openModal(type, item) {
         setTimeout(() => (copyBtn.textContent = t('modal.actions.copy')), 900);
       } catch {
         // ignore
+      }
+    });
+  }
+
+  // Copy share link
+  const copyLinkBtn = $('#copyLinkBtn');
+  if (copyLinkBtn) {
+    copyLinkBtn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(shareAbs);
+        copyLinkBtn.textContent = '✓';
+        setTimeout(() => (copyLinkBtn.textContent = t('modal.actions.link')), 900);
+      } catch {
+        // fallback: open the link
+        window.location.href = share;
       }
     });
   }
@@ -810,6 +873,14 @@ async function main() {
   const lang = (pref === 'en' || pref === 'de') ? pref : 'de';
   state.i18n = await loadJSON(`./i18n/${lang}.json`);
   setLang(lang);
+
+  // Deep link open
+  handleDeepLinkOpen();
+
+  window.addEventListener('popstate', () => {
+    // allow back/forward deep-links
+    handleDeepLinkOpen();
+  });
 }
 
 main().catch(err => {
