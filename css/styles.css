@@ -121,7 +121,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2147483647;
+  z-index: 2147483000;
   padding: 24px 48px;
   transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
@@ -603,7 +603,7 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   display: none;
   align-items: center;
   justify-content: center;
-  z-index: 2000;
+  z-index: 2147483647;
   padding: 24px;
 }
 
