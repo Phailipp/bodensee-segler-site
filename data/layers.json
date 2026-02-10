@@ -1,7 +1,7 @@
 [
   {
-    "id": "ramsar",
-    "name": "Schutzgebiet (Ramsar)",
+    "id": "ch_ramsar",
+    "name": "CH: Schutzgebiet (Ramsar)",
     "kind": "wms",
     "wmsBaseUrl": "https://wms.geo.admin.ch/",
     "wmsLayers": "ch.bafu.schutzgebiete-ramsar",
@@ -11,8 +11,8 @@
     "lastVerified": "2026-02-10"
   },
   {
-    "id": "bird_reserves",
-    "name": "Vogelreservate (Bundesinventar)",
+    "id": "ch_bird_reserves",
+    "name": "CH: Vogelreservate (Bundesinventar)",
     "kind": "wms",
     "wmsBaseUrl": "https://wms.geo.admin.ch/",
     "wmsLayers": "ch.bafu.bundesinventare-vogelreservate",
@@ -22,8 +22,8 @@
     "lastVerified": "2026-02-10"
   },
   {
-    "id": "floodplains",
-    "name": "Auen (Bundesinventar)",
+    "id": "ch_floodplains",
+    "name": "CH: Auen (Bundesinventar)",
     "kind": "wms",
     "wmsBaseUrl": "https://wms.geo.admin.ch/",
     "wmsLayers": "ch.bafu.bundesinventare-auen",
@@ -33,8 +33,8 @@
     "lastVerified": "2026-02-10"
   },
   {
-    "id": "moorlands",
-    "name": "Moorlandschaften (Bundesinventar)",
+    "id": "ch_moorlands",
+    "name": "CH: Moorlandschaften (Bundesinventar)",
     "kind": "wms",
     "wmsBaseUrl": "https://wms.geo.admin.ch/",
     "wmsLayers": "ch.bafu.bundesinventare-moorlandschaften",
@@ -42,5 +42,27 @@
     "wmsTransparent": true,
     "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
     "lastVerified": "2026-02-10"
+  },
+  {
+    "id": "at_vorarlberg_protected",
+    "name": "AT: Vorarlberg Schutzgebiete (Naturschutzgesetz)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://vogis.cnv.at/geoserver/vogis/schutzgebiete_naturschutz/wms",
+    "wmsLayers": "schutzgebiete_naturschutz",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "source": "https://vogis.cnv.at/geoserver/vogis/schutzgebiete_naturschutz/wms?service=wms&request=Getcapabilities",
+    "lastVerified": "2026-02-10"
+  },
+  {
+    "id": "de_bw_inspire_protected",
+    "name": "DE: BW Schutzgebiete (LUBW INSPIRE)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://rips-gdi.lubw.baden-wuerttemberg.de/arcgis/services/GDI/INSPIRE_Schutzgebiete/MapServer/WMSServer",
+    "wmsLayers": "INSPIRE_Schutzgebiete",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "source": "https://rips-gdi.lubw.baden-wuerttemberg.de/arcgis/services/GDI/INSPIRE_Schutzgebiete/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+    "lastVerified": ""
   }
 ]
