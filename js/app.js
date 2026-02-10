@@ -392,7 +392,13 @@ function openModal(type, item) {
     rows.push(kv(t('modal.k.details'), item.details ?? '—'));
   }
 
+  // Common extras
+  if (item.notes) rows.push(kv(t('modal.k.notes'), item.notes));
+  if (item.source) rows.push(kv(t('modal.k.source'), item.source));
+  if (item.lastVerified) rows.push(kv(t('modal.k.lastVerified'), item.lastVerified));
+
   const actions = [];
+  if (item.url) actions.push(`<a class="action-btn" href="${item.url}" target="_blank" rel="noreferrer">${t('modal.actions.website')}</a>`);
   if (gm) actions.push(`<a class="action-btn" href="${gm}" target="_blank" rel="noreferrer">${t('modal.actions.route')}</a>`);
   if (coords) actions.push(`<button class="action-btn" id="copyCoordsBtn">${t('modal.actions.copy')}</button>`);
 

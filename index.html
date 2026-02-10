@@ -26,6 +26,7 @@
     <ul class="nav-links" id="mobileNav">
       <li><a href="#karte" data-i18n="nav.map">Karte</a></li>
       <li><a href="#guide" data-i18n="nav.guide">Guide</a></li>
+      <li><a href="#safety" data-i18n="nav.safety">Sicherheit</a></li>
       <li><a href="#haefen" data-i18n="nav.harbors">Häfen</a></li>
       <li><a href="#anker" data-i18n="nav.anchors">Ankerplätze</a></li>
       <li><a href="#vermietung" data-i18n="nav.rentals">Vermietung</a></li>
@@ -88,6 +89,34 @@
       <h3 data-i18n="guide.how.title">So nutzt du die Seite</h3>
       <p data-i18n="guide.how.p1">Erst Karte: verschaffe dir ein Gefühl für Distanzen, Häfen und Alternativen. Dann filtere in den Listen nach Land und Tiefgang. Wenn du einen Eintrag öffnest, siehst du Details, Hinweise und die Quelle, sofern vorhanden.</p>
       <p data-i18n="guide.how.p2">Die Idee ist nicht Vollständigkeit um jeden Preis, sondern ein ruhiger, verlässlicher Startpunkt. Wenn dir etwas fehlt oder nicht stimmt, melde es gern über GitHub.</p>
+    </div>
+  </section>
+
+  <section id="safety" class="guide-section">
+    <div class="section-header">
+      <div class="section-label" data-i18n="safety.label">Sicherheit</div>
+      <h2 class="section-title" data-i18n="safety.title">Wetter, Warnsystem, Entscheidungen</h2>
+      <p class="section-subtitle" data-i18n="safety.subtitle">Am Bodensee passieren die meisten schlechten Tage nicht wegen „fehlender Segeltechnik“, sondern wegen Timing. Diese Basics helfen beim Entscheiden.</p>
+    </div>
+
+    <div class="value-grid" aria-label="Safety highlights">
+      <div class="value-card">
+        <h3 data-i18n="safety.card1.title">Starkwindwarnung</h3>
+        <p data-i18n="safety.card1.text">40 orange Blitze pro Minute: Gefahr von Böen 25 bis 33 kn. Spätestens jetzt Kurs und Plan anpassen.</p>
+      </div>
+      <div class="value-card">
+        <h3 data-i18n="safety.card2.title">Sturmwarnung</h3>
+        <p data-i18n="safety.card2.text">90 orange Blitze pro Minute: Gefahr von Wind ab 34 kn. Schutz suchen, früh reduzieren, nicht diskutieren.</p>
+      </div>
+      <div class="value-card">
+        <h3 data-i18n="safety.card3.title">Traffic und Fähren</h3>
+        <p data-i18n="safety.card3.text">Rund um Häfen, Querungen und Uferlinien ist viel Verkehr. Plane Ansteuerungen defensiv und rechne mit Kursänderungen anderer.</p>
+      </div>
+    </div>
+
+    <div class="prose" aria-label="Safety sources">
+      <h3 data-i18n="safety.sources.title">Quellen</h3>
+      <p data-i18n="safety.sources.text">Die Werte zur Sturmwarnung (40 und 90 Blitze pro Minute) sind offiziell beschrieben. Links findest du unten in der Quellenliste.</p>
     </div>
   </section>
 
@@ -222,6 +251,22 @@
     </div>
 
     <div class="service-grid" id="serviceGrid"></div>
+  </section>
+
+  <section id="sources" class="guide-section">
+    <div class="section-header">
+      <div class="section-label" data-i18n="sources.label">Quellen</div>
+      <h2 class="section-title" data-i18n="sources.title">Weiterlesen</h2>
+      <p class="section-subtitle" data-i18n="sources.subtitle">Offizielle und hilfreiche Seiten für Regeln, Warnungen und aktuelle Infos. Wenn etwas wichtig ist, hier verifizieren.</p>
+    </div>
+
+    <div class="prose" aria-label="Links">
+      <p>
+        <a href="https://www.bodenseekreis.de/verkehr-wirtschaft/schifffahrt/aktuelles-wissenswertes/wetterinformation/sturmwetter/" target="_blank" rel="noreferrer">Sturmwarnung Bodensee (Bodenseekreis)</a><br>
+        <a href="https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011484" target="_blank" rel="noreferrer">Bodensee-Schifffahrts-Ordnung (RIS Österreich)</a><br>
+        <a href="https://github.com/Phailipp/bodensee-segler-site" target="_blank" rel="noreferrer">Projekt auf GitHub (Fehler melden, beitragen)</a>
+      </p>
+    </div>
   </section>
 
   <section id="faq" class="faq-section">
