@@ -394,13 +394,30 @@ function openModal(type, item) {
 
   // Common extras
   if (item.notes) rows.push(kv(t('modal.k.notes'), item.notes));
-  if (item.source) rows.push(kv(t('modal.k.source'), item.source));
-  if (item.lastVerified) rows.push(kv(t('modal.k.lastVerified'), item.lastVerified));
+
+  const hasSource = !!(item.source && String(item.source).trim());
+  const hasVerified = !!(item.lastVerified && String(item.lastVerified).trim());
+  if (hasSource) rows.push(kv(t('modal.k.source'), item.source));
+  if (hasVerified) rows.push(kv(t('modal.k.lastVerified'), item.lastVerified));
+
+  if (!hasSource || !hasVerified) {
+    rows.push(kv(t('modal.k.dataQuality'), t('modal.v.dataQuality.unverified')));
+  } else {
+    rows.push(kv(t('modal.k.dataQuality'), t('modal.v.dataQuality.verified')));
+  }
 
   const actions = [];
   if (item.url) actions.push(`<a class="action-btn" href="${item.url}" target="_blank" rel="noreferrer">${t('modal.actions.website')}</a>`);
   if (gm) actions.push(`<a class="action-btn" href="${gm}" target="_blank" rel="noreferrer">${t('modal.actions.route')}</a>`);
   if (coords) actions.push(`<button class="action-btn" id="copyCoordsBtn">${t('modal.actions.copy')}</button>`);
+
+  // Report / contribute
+  const issueTitle = encodeURIComponent(`Data fix: ${item.name}`);
+  const issueBody = encodeURIComponent(
+    `Type: ${type}\nID: ${item.id || ''}\nName: ${item.name}\nCountry: ${item.country || ''}\nCoords: ${coords}\n\nWhat is wrong / what should be improved?\n- \n\nSource link (official if possible):\n- `
+  );
+  const issueUrl = `https://github.com/Phailipp/bodensee-segler-site/issues/new?title=${issueTitle}&body=${issueBody}`;
+  actions.push(`<a class="action-btn" href="${issueUrl}" target="_blank" rel="noreferrer">${t('modal.actions.report')}</a>`);
 
   body.innerHTML = `
     <div class="modal-grid">${rows.join('')}</div>

@@ -129,5 +129,10 @@
   "safety.checklists.anchor.title": "Wenn du ankern willst",
   "safety.checklists.anchor.i1": "Nur bei passenden Bedingungen: Schutz, Tiefe, Grund, Abstand, Verkehr.",
   "safety.checklists.anchor.i2": "Konservativ planen: mehr Kette/Leine, mehr Reserve, früher abbrechen.",
-  "safety.checklists.anchor.i3": "Regeln/Schutzgebiete vor Ort verifizieren (Quellen unten)."
+  "safety.checklists.anchor.i3": "Regeln/Schutzgebiete vor Ort verifizieren (Quellen unten).",
+  "modal.actions.report": "Fehler melden",
+  "modal.k.dataQuality": "Datenstatus",
+  "modal.v.dataQuality.unverified": "Unverifiziert (Quelle oder Datum fehlt)",
+  "modal.v.dataQuality.verified": "Verifiziert (Quelle und Datum vorhanden)",
+  "nav.sources": "Quellen"
 }

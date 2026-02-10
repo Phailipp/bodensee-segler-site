@@ -129,5 +129,10 @@
   "safety.checklists.anchor.title": "If you want to anchor",
   "safety.checklists.anchor.i1": "Only in suitable conditions: shelter, depth, seabed, clearance, traffic.",
   "safety.checklists.anchor.i2": "Plan conservatively: more rode, more margin, abort earlier.",
-  "safety.checklists.anchor.i3": "Verify rules/protected areas locally (sources below)."
+  "safety.checklists.anchor.i3": "Verify rules/protected areas locally (sources below).",
+  "modal.actions.report": "Report",
+  "modal.k.dataQuality": "Data status",
+  "modal.v.dataQuality.unverified": "Unverified (missing source or date)",
+  "modal.v.dataQuality.verified": "Verified (source and date present)",
+  "nav.sources": "Sources"
 }
