@@ -172,5 +172,18 @@
   "detail.back": "Back",
   "modal.actions.share": "Share",
   "scenario.planBHarbor": "Plan B harbor (20+ guest berths)",
-  "scenario.quietAnchor": "Quiet anchoring (no overnight)"
+  "scenario.quietAnchor": "Quiet anchoring (no overnight)",
+  "modal.k.vhf": "VHF",
+  "modal.k.phone": "Phone",
+  "modal.k.email": "Email",
+  "modal.k.hours": "Hours",
+  "modal.k.prices": "Prices",
+  "modal.k.maxLength": "Max length",
+  "modal.k.maxBeam": "Max beam",
+  "modal.k.amenities": "Amenities",
+  "modal.k.guestPolicy": "Guest policy",
+  "modal.k.holding": "Holding",
+  "modal.k.swell": "Swell",
+  "modal.k.restrictions": "Notes/Restrictions",
+  "map.layers.zones": "Zones"
 }

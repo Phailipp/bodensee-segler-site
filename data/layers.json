@@ -1,0 +1,13 @@
+[
+  {
+    "id": "lake_zones",
+    "name": "Zonen / Hinweise",
+    "kind": "geojson",
+    "path": "data/layers/lake_zones.geojson",
+    "source": "",
+    "lastVerified": "",
+    "candidateUrl": "",
+    "candidateFoundAt": "",
+    "candidateSource": ""
+  }
+]

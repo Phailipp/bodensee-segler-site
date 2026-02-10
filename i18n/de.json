@@ -172,5 +172,18 @@
   "detail.back": "Zurück",
   "modal.actions.share": "Teilen",
   "scenario.planBHarbor": "Plan B Hafen (20+ Gästeplätze)",
-  "scenario.quietAnchor": "Ruhig ankern (ohne Übernachten)"
+  "scenario.quietAnchor": "Ruhig ankern (ohne Übernachten)",
+  "modal.k.vhf": "VHF",
+  "modal.k.phone": "Telefon",
+  "modal.k.email": "E-Mail",
+  "modal.k.hours": "Öffnungszeiten",
+  "modal.k.prices": "Preise",
+  "modal.k.maxLength": "Max. Länge",
+  "modal.k.maxBeam": "Max. Breite",
+  "modal.k.amenities": "Ausstattung",
+  "modal.k.guestPolicy": "Gästeplätze",
+  "modal.k.holding": "Halt",
+  "modal.k.swell": "Schwell",
+  "modal.k.restrictions": "Hinweise/Einschränkungen",
+  "map.layers.zones": "Zonen"
 }

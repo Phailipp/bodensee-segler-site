@@ -18,7 +18,10 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": ""
   },
   {
     "id": "sail_fun",
@@ -39,7 +42,10 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": ""
   },
   {
     "id": "thurgau_sail",
@@ -59,7 +65,10 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": ""
   },
   {
     "id": "sailpoint_bregenz",
@@ -80,7 +89,10 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": ""
   },
   {
     "id": "bodensee_yachting",
@@ -101,7 +113,10 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": ""
   },
   {
     "id": "segelschule_ueberlingen",
@@ -122,6 +137,9 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": ""
   }
 ]

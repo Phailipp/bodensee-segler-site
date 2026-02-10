@@ -17,7 +17,10 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "holding": "",
+    "swell": "",
+    "restrictions": ""
   },
   {
     "id": "bodman",
@@ -37,7 +40,10 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "holding": "",
+    "swell": "",
+    "restrictions": ""
   },
   {
     "id": "dingelsdorf",
@@ -57,7 +63,10 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "holding": "",
+    "swell": "",
+    "restrictions": ""
   },
   {
     "id": "wasserburg",
@@ -77,7 +86,10 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "holding": "",
+    "swell": "",
+    "restrictions": ""
   },
   {
     "id": "reichenau_s",
@@ -97,7 +109,10 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "holding": "",
+    "swell": "",
+    "restrictions": ""
   },
   {
     "id": "hagnau",
@@ -117,7 +132,10 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "holding": "",
+    "swell": "",
+    "restrictions": ""
   },
   {
     "id": "altnau",
@@ -137,7 +155,10 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "holding": "",
+    "swell": "",
+    "restrictions": ""
   },
   {
     "id": "rorschach_bucht",
@@ -157,6 +178,9 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "holding": "",
+    "swell": "",
+    "restrictions": ""
   }
 ]

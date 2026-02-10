@@ -11,7 +11,8 @@ const state = {
     anchors: [],
     rentals: [],
     gastros: [],
-    services: []
+    services: [],
+    layers: []
   },
   filtersHarbors: {
     q: '',
@@ -27,11 +28,13 @@ const state = {
   },
   map: null,
   markers: { harbors: [], anchors: [], rentals: [], gastros: [] },
+  zoneLayer: null,
   mapLayers: {
     harbors: true,
     anchors: true,
     rentals: true,
-    gastros: true
+    gastros: true,
+    zones: false
   },
   showUnverified: false,
   activePreset: null
@@ -712,6 +715,26 @@ function openModal(type, item) {
   // Common extras
   if (item.notes) rows.push(kv(t('modal.k.notes'), item.notes));
 
+  // Contact / ops fields (show only if present)
+  if (item.vhf) rows.push(kv(t('modal.k.vhf'), item.vhf));
+  if (item.phone) rows.push(kv(t('modal.k.phone'), item.phone));
+  if (item.email) rows.push(kv(t('modal.k.email'), item.email));
+  if (item.hours) rows.push(kv(t('modal.k.hours'), item.hours));
+  if (item.prices) rows.push(kv(t('modal.k.prices'), item.prices));
+
+  if (type === 'harbor') {
+    if (item.maxLengthM != null) rows.push(kv(t('modal.k.maxLength'), `${item.maxLengthM}m`));
+    if (item.maxBeamM != null) rows.push(kv(t('modal.k.maxBeam'), `${item.maxBeamM}m`));
+    if (item.amenities?.length) rows.push(kv(t('modal.k.amenities'), item.amenities.join(' · ')));
+    if (item.guestPolicy) rows.push(kv(t('modal.k.guestPolicy'), item.guestPolicy));
+  }
+
+  if (type === 'anchor') {
+    if (item.holding) rows.push(kv(t('modal.k.holding'), item.holding));
+    if (item.swell) rows.push(kv(t('modal.k.swell'), item.swell));
+    if (item.restrictions) rows.push(kv(t('modal.k.restrictions'), item.restrictions));
+  }
+
   const hasSource = !!(item.source && String(item.source).trim());
   const hasVerified = !!(item.lastVerified && String(item.lastVerified).trim());
   if (hasSource) rows.push(kv(t('modal.k.source'), item.source));
@@ -870,7 +893,7 @@ function loadLayerPrefs() {
     const raw = localStorage.getItem('bs_layers');
     if (!raw) return;
     const obj = JSON.parse(raw);
-    for (const k of ['harbors','anchors','rentals','gastros']) {
+    for (const k of ['harbors','anchors','rentals','gastros','zones']) {
       if (typeof obj?.[k] === 'boolean') state.mapLayers[k] = obj[k];
     }
   } catch {
@@ -970,6 +993,16 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
   if (!state.map) return;
   clearMarkers();
 
+  // Zones layer (GeoJSON)
+  try {
+    if (state.zoneLayer) {
+      state.zoneLayer.remove();
+      state.zoneLayer = null;
+    }
+  } catch {
+    // ignore
+  }
+
   const harborIcon = makeIcon('#c9a962', 16);
   const anchorIcon = makeIcon('#4ade80', 14);
   const rentalIcon = makeIcon('#f472b6', 14);
@@ -1014,16 +1047,36 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
     m.on('click', () => openModal('gastro', g));
     state.markers.gastros.push(m);
   });
+
+  // Add zones overlay if enabled
+  if (state.mapLayers.zones) {
+    const cfg = (state.data.layers || []).find(x => x.id === 'lake_zones');
+    const rel = cfg?.path || 'data/layers/lake_zones.geojson';
+    loadJSON(`./${rel}`).then(fc => {
+      if (!state.mapLayers.zones || !state.map) return;
+      state.zoneLayer = L.geoJSON(fc, {
+        style: {
+          color: '#60a5fa',
+          weight: 2,
+          fillColor: '#60a5fa',
+          fillOpacity: 0.12
+        }
+      }).addTo(state.map);
+    }).catch(() => {
+      // ignore
+    });
+  }
 }
 
 async function main() {
   // Data
-  const [harbors, anchors, rentals, gastros, services] = await Promise.all([
+  const [harbors, anchors, rentals, gastros, services, layersCfg] = await Promise.all([
     loadJSON('./data/harbors.json'),
     loadJSON('./data/anchors.json'),
     loadJSON('./data/rentals.json'),
     loadJSON('./data/gastros.json'),
-    loadJSON('./data/services.json')
+    loadJSON('./data/services.json'),
+    loadJSON('./data/layers.json').catch(() => [])
   ]);
 
   state.data.harbors = harbors;
@@ -1031,6 +1084,7 @@ async function main() {
   state.data.rentals = rentals;
   state.data.gastros = gastros;
   state.data.services = services;
+  state.data.layers = layersCfg;
 
   // Init
   initNav();

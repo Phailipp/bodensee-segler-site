@@ -18,7 +18,9 @@
     "lastVerified": "2026-02-10",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "hours": ""
   },
   {
     "id": "seehof_langenargen",
@@ -39,7 +41,9 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "hours": ""
   },
   {
     "id": "strandbar_immenstaad",
@@ -60,7 +64,9 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "hours": ""
   },
   {
     "id": "seegarten_allensbach",
@@ -81,7 +87,9 @@
     "lastVerified": "",
     "candidateUrl": "https://www.seegarten-ermatingen.ch/",
     "candidateFoundAt": "2026-02-10",
-    "candidateSource": "osm"
+    "candidateSource": "osm",
+    "phone": "",
+    "hours": ""
   },
   {
     "id": "bootshuette_lindau",
@@ -102,7 +110,9 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "hours": ""
   },
   {
     "id": "hafenrestaurant_rorschach",
@@ -123,7 +133,9 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "hours": ""
   },
   {
     "id": "strandcafe_hagnau",
@@ -144,7 +156,9 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "hours": ""
   },
   {
     "id": "seerestaurant_bregenz",
@@ -165,6 +179,8 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "hours": ""
   }
 ]

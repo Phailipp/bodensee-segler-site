@@ -12,7 +12,11 @@
     "lastVerified": "2026-02-10",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "prices": ""
   },
   {
     "id": "slip_friedrichshafen",
@@ -27,7 +31,11 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "prices": ""
   },
   {
     "id": "tankstelle_lindau",
@@ -42,7 +50,11 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "prices": ""
   },
   {
     "id": "tankstelle_romanshorn",
@@ -57,7 +69,11 @@
     "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "prices": ""
   },
   {
     "id": "werft_bodan",
@@ -72,7 +88,11 @@
     "lastVerified": "2026-02-10",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "prices": ""
   },
   {
     "id": "yachtservice_kreuzlingen",
@@ -87,6 +107,10 @@
     "lastVerified": "2026-02-10",
     "candidateUrl": null,
     "candidateFoundAt": null,
-    "candidateSource": null
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "prices": ""
   }
 ]
