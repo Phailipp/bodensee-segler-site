@@ -138,5 +138,9 @@
   "coverage.title": "Datenabdeckung",
   "coverage.note": "Verifiziert bedeutet: Quelle und Datum sind vorhanden. Unverifiziert heißt nicht falsch, nur noch nicht sauber belegt.",
   "sources.links.title": "Links",
-  "map.layers.hint": "Tip: Tippe die Legende zum Ein Ausblenden."
+  "map.layers.hint": "Tip: Tippe die Legende zum Ein Ausblenden.",
+  "modal.actions.search": "Suchen",
+  "backlog.title": "Offene Datenpunkte",
+  "backlog.note": "Diese Einträge haben noch keine Quelle oder kein Prüfdatum. Klick öffnet ein vorbefülltes GitHub Ticket.",
+  "backlog.none": "Alles verifiziert. Nice."
 }

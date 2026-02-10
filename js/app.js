@@ -324,6 +324,49 @@ function renderCoverage() {
     </div>
     <p class="coverage-note">${escapeHtml(t('coverage.note'))}</p>
   `;
+
+  renderBacklog();
+}
+
+function renderBacklog() {
+  const el = document.getElementById('backlogStats');
+  if (!el) return;
+
+  const sections = [
+    { key: 'harbor', label: t('nav.harbors'), items: state.data.harbors },
+    { key: 'anchor', label: t('nav.anchors'), items: state.data.anchors },
+    { key: 'rental', label: t('nav.rentals'), items: state.data.rentals },
+    { key: 'gastro', label: t('nav.gastro'), items: state.data.gastros },
+    { key: 'service', label: t('nav.service'), items: state.data.services }
+  ];
+
+  const blocks = sections.map(s => {
+    const missing = s.items.filter(x => !((x.source || '').trim() && (x.lastVerified || '').trim()));
+    if (!missing.length) return '';
+
+    const lines = missing.slice(0, 8).map(item => {
+      const coords = (item.lat != null && item.lng != null) ? `${item.lat.toFixed(5)}, ${item.lng.toFixed(5)}` : '';
+      const issueTitle = encodeURIComponent(`Add source: ${item.name}`);
+      const issueBody = encodeURIComponent(
+        `Type: ${s.key}\nID: ${item.id || ''}\nName: ${item.name}\nCountry: ${item.country || ''}\nCoords: ${coords}\n\nOfficial source link:\n- \n\nLast verified (YYYY-MM-DD):\n- `
+      );
+      const issueUrl = `https://github.com/Phailipp/bodensee-segler-site/issues/new?title=${issueTitle}&body=${issueBody}`;
+      return `<li><a href="${issueUrl}" target="_blank" rel="noreferrer">${escapeHtml(item.name)}</a></li>`;
+    }).join('');
+
+    return `
+      <div class="backlog-block">
+        <div class="backlog-title">${escapeHtml(s.label)}</div>
+        <ul class="backlog-list">${lines}</ul>
+      </div>
+    `;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="backlog-header">${escapeHtml(t('backlog.title'))}</div>
+    <p class="coverage-note">${escapeHtml(t('backlog.note'))}</p>
+    <div class="backlog-grid">${blocks || `<div class="coverage-note">${escapeHtml(t('backlog.none'))}</div>`}</div>
+  `;
 }
 
 function coverageItem(label, c) {
@@ -468,10 +511,14 @@ function openModal(type, item) {
   if (gm) actions.push(`<a class="action-btn" href="${gm}" target="_blank" rel="noreferrer">${t('modal.actions.route')}</a>`);
   if (coords) actions.push(`<button class="action-btn" id="copyCoordsBtn">${t('modal.actions.copy')}</button>`);
 
-  // Report / contribute
+  // Search + report / contribute
+  const q = [item.name, item.location, item.region, 'Bodensee'].filter(Boolean).join(' ');
+  const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(q)}`;
+  actions.push(`<a class="action-btn" href="${searchUrl}" target="_blank" rel="noreferrer">${t('modal.actions.search')}</a>`);
+
   const issueTitle = encodeURIComponent(`Data fix: ${item.name}`);
   const issueBody = encodeURIComponent(
-    `Type: ${type}\nID: ${item.id || ''}\nName: ${item.name}\nCountry: ${item.country || ''}\nCoords: ${coords}\n\nWhat is wrong / what should be improved?\n- \n\nSource link (official if possible):\n- `
+    `Type: ${type}\nID: ${item.id || ''}\nName: ${item.name}\nCountry: ${item.country || ''}\nCoords: ${coords}\n\nWhat is wrong / what should be improved?\n- \n\nOfficial source link (best):\n- \n\nOptional notes:\n- `
   );
   const issueUrl = `https://github.com/Phailipp/bodensee-segler-site/issues/new?title=${issueTitle}&body=${issueBody}`;
   actions.push(`<a class="action-btn" href="${issueUrl}" target="_blank" rel="noreferrer">${t('modal.actions.report')}</a>`);

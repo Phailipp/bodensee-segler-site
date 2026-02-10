@@ -138,5 +138,9 @@
   "coverage.title": "Data coverage",
   "coverage.note": "Verified means: a source and date are present. Unverified does not mean wrong, just not yet properly referenced.",
   "sources.links.title": "Links",
-  "map.layers.hint": "Tip: Tap the legend to show or hide layers."
+  "map.layers.hint": "Tip: Tap the legend to show or hide layers.",
+  "modal.actions.search": "Search",
+  "backlog.title": "Open data tasks",
+  "backlog.note": "These entries are missing a source or a verification date. Clicking opens a prefilled GitHub issue.",
+  "backlog.none": "Everything is verified. Nice."
 }
