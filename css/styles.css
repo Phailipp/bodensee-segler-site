@@ -363,14 +363,22 @@ section { padding: 120px 48px; }
 .service-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1px;
-  background: rgba(255,255,255,0.1);
+  gap: 16px;
+  background: transparent;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.service-item { background: var(--navy); padding: 40px; transition: background 0.3s ease; }
-.service-item:hover { background: var(--navy-light); }
+.service-item {
+  background: var(--navy);
+  border: 1px solid rgba(255,255,255,0.10);
+  padding: 40px;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+.service-item:hover {
+  background: var(--navy-light);
+  border-color: rgba(201,169,98,0.25);
+}
 .service-icon { width: 48px; height: 48px; margin-bottom: 20px; color: var(--gold); }
 .service-name { font-family: 'Playfair Display', serif; font-size: 1.25rem; margin-bottom: 8px; }
 .service-detail { color: var(--text-light); font-size: 0.875rem; }
