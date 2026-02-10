@@ -24,6 +24,22 @@ async function run(url, viewport) {
   if (await firstHarbor.count()) {
     await firstHarbor.click({ force: true });
     await page.waitForSelector('#modalBackdrop.open', { timeout: 10000 });
+
+    // Regression guard: modal must be above fixed nav (Safari/Leaflet stacking issues)
+    const topHit = await page.evaluate(() => {
+      const el = document.elementFromPoint(10, 10);
+      const nav = document.querySelector('nav');
+      const backdrop = document.querySelector('#modalBackdrop');
+      return {
+        id: el ? el.id : null,
+        inNav: nav && el ? nav.contains(el) : false,
+        navZ: nav ? getComputedStyle(nav).zIndex : null,
+        backdropZ: backdrop ? getComputedStyle(backdrop).zIndex : null
+      };
+    });
+    if (topHit.inNav) throw new Error(`Nav is above modal (navZ=${topHit.navZ}, backdropZ=${topHit.backdropZ})`);
+    if (topHit.id !== 'modalBackdrop') throw new Error('Expected modal backdrop to be on top at (10,10)');
+
     // close via Escape
     await page.keyboard.press('Escape');
     await page.waitForTimeout(150);
