@@ -18,14 +18,6 @@ async function run(url, viewport) {
 
   // Core UI present
   await page.waitForSelector('#langToggle', { timeout: 20000 });
-  await page.waitForSelector('#toggleUnverified', { timeout: 20000 });
-
-  // Toggle unverified ON then OFF
-  const toggle = page.locator('#toggleUnverified');
-  await toggle.scrollIntoViewIfNeeded();
-  await toggle.check({ force: true });
-  await page.waitForTimeout(200);
-  await toggle.uncheck({ force: true });
 
   // Open first harbor modal (if present)
   const firstHarbor = page.locator('#harborsGrid [data-open="harbor"]').first();

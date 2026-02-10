@@ -464,6 +464,9 @@ function openModal(type, item) {
   const coords = (lat != null && lng != null) ? `${lat.toFixed(5)}, ${lng.toFixed(5)}` : '';
   const gm = coords ? `https://www.google.com/maps?q=${encodeURIComponent(coords)}` : '';
 
+  // Shareable deep link back into the main page
+  const share = `./?open=${encodeURIComponent(type + ':' + (item.id || ''))}`;
+
   const rows = [];
   rows.push(kv(t('modal.k.country'), formatCountry(item.country || '')));
   if (item.region) rows.push(kv(t('modal.k.region'), item.region));
@@ -516,6 +519,7 @@ function openModal(type, item) {
   }
 
   const actions = [];
+  if (item.id) actions.push(`<a class="action-btn" href="${share}">${t('modal.actions.link')}</a>`);
   if (item.url) actions.push(`<a class="action-btn" href="${item.url}" target="_blank" rel="noreferrer">${t('modal.actions.website')}</a>`);
   if (gm) actions.push(`<a class="action-btn" href="${gm}" target="_blank" rel="noreferrer">${t('modal.actions.route')}</a>`);
   if (coords) actions.push(`<button class="action-btn" id="copyCoordsBtn">${t('modal.actions.copy')}</button>`);

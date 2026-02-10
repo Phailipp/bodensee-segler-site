@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://phailipp.github.io/bodensee-segler-site/sitemap.xml

@@ -145,5 +145,6 @@
   "backlog.none": "Alles verifiziert. Nice.",
   "ui.showUnverified": "Unverified anzeigen",
   "ui.hideUnverified": "Unverified ausblenden",
-  "ui.unverified": "Unverified"
+  "ui.unverified": "Unverified",
+  "modal.actions.link": "Link"
 }
