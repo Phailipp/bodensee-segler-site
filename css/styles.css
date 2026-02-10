@@ -32,7 +32,7 @@ body {
   justify-content: center;
   background:
     linear-gradient(180deg, rgba(12,25,41,0.3) 0%, rgba(12,25,41,0.8) 100%),
-    url('https://images.unsplash.com/photo-1540946485063-a40da27545f8?w=1920&q=80') center/cover;
+    url('../assets/hero-bodensee.jpg') center/cover;
 }
 
 .hero::before {
