@@ -1062,7 +1062,7 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
 
   // Add zones overlay if enabled
   if (state.mapLayers.zones) {
-    const layers = (state.data.layers || []).filter(x => x.kind === 'wms' && x.wmsBaseUrl && x.wmsLayers);
+    const layers = (state.data.layers || []).filter(x => (x.kind === 'wms' && x.wmsBaseUrl && x.wmsLayers) || (x.kind === 'geojson' && x.path));
     if (!layers.length) {
       toast('Zonen: keine Layer konfiguriert');
       return;
@@ -1146,6 +1146,29 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
     // Build layers and keep them enabled; only drop layers that are unreachable.
     // Reason: GetFeatureInfo checks are often blocked by CORS on some providers, which made AT/DE disappear even though tiles load.
     const desired = layers.map(cfg => {
+      if (cfg.kind === 'geojson') {
+        const layer = L.geoJSON(null, {
+          pane: 'zonesPane',
+          style: {
+            color: '#60a5fa',
+            weight: 2,
+            fillColor: '#60a5fa',
+            fillOpacity: 0.18
+          }
+        });
+        layer._cfg = cfg;
+        layer._everTileError = false;
+        layer._loaded = false;
+        // async load
+        loadJSON(`./${cfg.path}`).then(fc => {
+          layer.addData(fc);
+          layer._loaded = true;
+        }).catch(() => {
+          layer._everTileError = true;
+        });
+        return layer;
+      }
+
       const w = L.tileLayer.wms(cfg.wmsBaseUrl, {
         layers: cfg.wmsLayers,
         format: cfg.wmsFormat || 'image/png',
