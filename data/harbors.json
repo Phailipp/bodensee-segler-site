@@ -55,7 +55,7 @@
     "lng": 9.3797,
     "berths": 280,
     "guestBerths": 40,
-    "maxDraftM": 3.0,
+    "maxDraftM": 3,
     "features": [
       "WLAN",
       "Winterlager",
@@ -147,7 +147,7 @@
     "lng": 9.1758,
     "berths": 150,
     "guestBerths": 20,
-    "maxDraftM": 2.0,
+    "maxDraftM": 2,
     "features": [
       "WLAN",
       "Strom"
