@@ -1,4 +1,11 @@
 {
+  "name": "bodensee-segler-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "qa:smoke": "node scripts/qa_smoke_playwright.cjs https://phailipp.github.io/bodensee-segler-site/?v=qa-local",
+    "verify:candidates": "node tools/verify_candidates.mjs --limit 20"
+  },
   "devDependencies": {
     "playwright": "^1.58.2"
   }

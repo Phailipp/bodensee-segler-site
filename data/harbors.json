@@ -18,7 +18,10 @@
     "notes": "Guter Ausgangspunkt für den Seerhein und kurze Schläge in den Obersee. In der Saison früh anfragen.",
     "url": "https://www.konstanzer-yacht-club.de/hafen/",
     "source": "Konstanzer Yacht Club (Hafen)",
-    "lastVerified": "2026-02-03"
+    "lastVerified": "2026-02-03",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "wyc",
@@ -38,7 +41,10 @@
     "notes": "Gastliegeplätze mit Strom und Wasser; in der Saison früh anfragen.",
     "url": "https://www.wyc-fn.de/hafen-jollengelaende",
     "source": "Württembergischer Yacht-Club (Hafen)",
-    "lastVerified": "2026-02-10"
+    "lastVerified": "2026-02-10",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "romanshorn",
@@ -58,7 +64,10 @@
     "notes": "Gute Option auf CH-Seite mit kurzen Wegen nach Kreuzlingen/Arbon. Gebühren vorher checken.",
     "url": "https://www.sscro.com/hafen/",
     "source": "https://www.sscro.com/hafen/",
-    "lastVerified": "2026-02-10"
+    "lastVerified": "2026-02-10",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "bregenz_sc",
@@ -78,7 +87,10 @@
     "notes": "",
     "url": "https://www.bsc.or.at/",
     "source": "Bregenzer Segel-Club",
-    "lastVerified": "2026-02-03"
+    "lastVerified": "2026-02-03",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "lindau_sc",
@@ -98,7 +110,10 @@
     "notes": "",
     "url": "https://www.lsc.de/",
     "source": "https://www.lsc.de/",
-    "lastVerified": "2026-02-10"
+    "lastVerified": "2026-02-10",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "ueberlingen",
@@ -118,7 +133,10 @@
     "notes": "",
     "url": "https://www.ueberlingen.de/sportboothafen-ost",
     "source": "https://www.ueberlingen.de/sportboothafen-ost",
-    "lastVerified": "2026-02-10"
+    "lastVerified": "2026-02-10",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "kreuzlingen",
@@ -137,7 +155,10 @@
     "notes": "",
     "url": "https://www.kreuzlingen.ch/erlebnis/haefen",
     "source": "Stadt Kreuzlingen – Häfen",
-    "lastVerified": "2026-02-03"
+    "lastVerified": "2026-02-03",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "arbon",
@@ -156,6 +177,9 @@
     "notes": "",
     "url": "https://www.hafen-arbon.ch/",
     "source": "Hafen Arbon",
-    "lastVerified": "2026-02-03"
+    "lastVerified": "2026-02-03",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   }
 ]

@@ -13,6 +13,12 @@
   "hero.scroll": "Scroll",
   "map.label": "Interactive overview",
   "map.title": "Map",
+  "scenario.title": "Scenarios",
+  "scenario.eveningHarbor": "Tonight: harbor",
+  "scenario.safeWestwind": "Safe in westerly winds",
+  "scenario.flatRelax": "Shallow & relaxed",
+  "scenario.clear": "Reset filters",
+  "scenario.hint": "One click sets harbor & anchorage filters.",
   "harbors.label": "Marinas & Yacht harbors",
   "harbors.title": "Harbors around the lake",
   "harbors.subtitle": "Curated and calm. Filter by country, features, and draft.",
@@ -146,5 +152,6 @@
   "ui.showUnverified": "Show unverified",
   "ui.hideUnverified": "Hide unverified",
   "ui.unverified": "Unverified",
-  "modal.actions.link": "Copy link"
+  "modal.actions.link": "Copy link",
+  "modal.actions.candidate": "Link (candidate)"
 }

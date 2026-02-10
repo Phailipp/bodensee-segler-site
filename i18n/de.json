@@ -13,6 +13,12 @@
   "hero.scroll": "Scroll",
   "map.label": "Interaktive Übersicht",
   "map.title": "Karte",
+  "scenario.title": "Szenarien",
+  "scenario.eveningHarbor": "Heute Abend: Hafen",
+  "scenario.safeWestwind": "Sicher bei Westwind",
+  "scenario.flatRelax": "Flach & entspannt",
+  "scenario.clear": "Filter zurücksetzen",
+  "scenario.hint": "Ein Klick setzt Hafen- & Anker-Filter.",
   "harbors.label": "Marinas & Yachthäfen",
   "harbors.title": "Häfen am See",
   "harbors.subtitle": "Kuratiert, übersichtlich, ohne Lärm. Filtere nach Land, Features und Tiefgang.",
@@ -146,5 +152,6 @@
   "ui.showUnverified": "Unverified anzeigen",
   "ui.hideUnverified": "Unverified ausblenden",
   "ui.unverified": "Unverified",
-  "modal.actions.link": "Link kopieren"
+  "modal.actions.link": "Link kopieren",
+  "modal.actions.candidate": "Link (Kandidat)"
 }

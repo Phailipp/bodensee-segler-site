@@ -15,7 +15,10 @@
     ],
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "seehof_langenargen",
@@ -33,7 +36,10 @@
     ],
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "strandbar_immenstaad",
@@ -51,7 +57,10 @@
     ],
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "seegarten_allensbach",
@@ -90,7 +99,10 @@
     ],
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "hafenrestaurant_rorschach",
@@ -108,7 +120,10 @@
     ],
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "strandcafe_hagnau",
@@ -126,7 +141,10 @@
     ],
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "seerestaurant_bregenz",
@@ -144,6 +162,9 @@
     ],
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   }
 ]

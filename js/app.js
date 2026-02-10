@@ -32,7 +32,8 @@ const state = {
     rentals: true,
     gastros: true
   },
-  showUnverified: false
+  showUnverified: false,
+  activePreset: null
 };
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -211,6 +212,84 @@ function escapeHtml(str) {
 }
 
 
+function syncFilterInputsFromState() {
+  // Harbors
+  const hq = $('#harborSearch');
+  const hcountry = $('#harborCountry');
+  const hminDraft = $('#harborMinDraft');
+  if (hq) hq.value = state.filtersHarbors.q;
+  if (hcountry) hcountry.value = state.filtersHarbors.country;
+  if (hminDraft) hminDraft.value = state.filtersHarbors.minDraft;
+
+  // Anchors
+  const aq = $('#anchorSearch');
+  const acountry = $('#anchorCountry');
+  const aovernight = $('#anchorOvernight');
+  const aminDepth = $('#anchorMinDepth');
+  if (aq) aq.value = state.filtersAnchors.q;
+  if (acountry) acountry.value = state.filtersAnchors.country;
+  if (aovernight) aovernight.value = state.filtersAnchors.overnight;
+  if (aminDepth) aminDepth.value = state.filtersAnchors.minDepth;
+}
+
+const scenarioPresets = {
+  eveningHarbor: {
+    harbors: { q: 'Restaurant', country: 'ALL', minDraft: '' },
+    anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
+  },
+  safeWestwind: {
+    harbors: { q: '', country: 'ALL', minDraft: '2.0' },
+    anchors: { q: 'W', country: 'ALL', overnight: 'YES', minDepth: '3.0' }
+  },
+  flatRelax: {
+    harbors: { q: '', country: 'ALL', minDraft: '1.2' },
+    anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '2.0' }
+  }
+};
+
+function setActivePreset(key) {
+  state.activePreset = key;
+  $$('#scenarioButtons .scenario-btn').forEach(btn => {
+    const isActive = key && btn.dataset.preset === key;
+    btn.classList.toggle('active', isActive);
+    btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+  });
+}
+
+function applyScenarioPreset(key) {
+  if (key === 'clear') {
+    state.filtersHarbors = { q: '', country: 'ALL', minDraft: '' };
+    state.filtersAnchors = { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' };
+    setActivePreset(null);
+    syncFilterInputsFromState();
+    renderAll();
+    return;
+  }
+
+  const preset = scenarioPresets[key];
+  if (!preset) return;
+
+  state.filtersHarbors = { ...state.filtersHarbors, ...preset.harbors };
+  state.filtersAnchors = { ...state.filtersAnchors, ...preset.anchors };
+
+  setActivePreset(key);
+  syncFilterInputsFromState();
+  renderAll();
+
+  const harborsSection = $('#haefen');
+  if (harborsSection) harborsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function initScenarioPresets() {
+  const wrap = $('#scenarioButtons');
+  if (!wrap) return;
+  wrap.addEventListener('click', (e) => {
+    const btn = e.target?.closest?.('button[data-preset]');
+    if (!btn) return;
+    applyScenarioPreset(btn.dataset.preset);
+  });
+}
+
 function setUpFilterBars() {
   // Harbors
   const hq = $('#harborSearch');
@@ -221,6 +300,7 @@ function setUpFilterBars() {
     state.filtersHarbors.q = hq.value.trim();
     state.filtersHarbors.country = hcountry.value;
     state.filtersHarbors.minDraft = hminDraft.value.trim();
+    setActivePreset(null);
     renderAll();
   };
 
@@ -241,6 +321,7 @@ function setUpFilterBars() {
     state.filtersAnchors.country = acountry.value;
     state.filtersAnchors.overnight = aovernight.value;
     state.filtersAnchors.minDepth = aminDepth.value.trim();
+    setActivePreset(null);
     renderAll();
   };
 
@@ -568,7 +649,11 @@ function openModal(type, item) {
 
   const actions = [];
   if (item.id) actions.push(`<button class="action-btn" id="copyLinkBtn">${t('modal.actions.link')}</button>`);
-  if (item.url) actions.push(`<a class="action-btn" href="${item.url}" target="_blank" rel="noreferrer">${t('modal.actions.website')}</a>`);
+  if (item.url) {
+    actions.push(`<a class="action-btn" href="${item.url}" target="_blank" rel="noreferrer">${t('modal.actions.website')}</a>`);
+  } else if (item.candidateUrl) {
+    actions.push(`<a class="action-btn" href="${item.candidateUrl}" target="_blank" rel="noreferrer">${t('modal.actions.candidate')}</a>`);
+  }
   if (gm) actions.push(`<a class="action-btn" href="${gm}" target="_blank" rel="noreferrer">${t('modal.actions.route')}</a>`);
   if (coords) actions.push(`<button class="action-btn" id="copyCoordsBtn">${t('modal.actions.copy')}</button>`);
 
@@ -864,6 +949,7 @@ async function main() {
   initNav();
   initModal();
   setUpFilterBars();
+  initScenarioPresets();
   loadLayerPrefs();
   initMap();
   initLegendToggles();

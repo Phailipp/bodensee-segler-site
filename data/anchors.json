@@ -14,7 +14,10 @@
     "notes": "",
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "bodman",
@@ -31,7 +34,10 @@
     "notes": "Bei viel Verkehr defensiv ankern und Abstand halten. Übernachten nur wenn Bedingungen passen.",
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "dingelsdorf",
@@ -48,7 +54,10 @@
     "notes": "",
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "wasserburg",
@@ -65,7 +74,10 @@
     "notes": "",
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "reichenau_s",
@@ -82,7 +94,10 @@
     "notes": "",
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "hagnau",
@@ -99,7 +114,10 @@
     "notes": "",
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "altnau",
@@ -116,7 +134,10 @@
     "notes": "",
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "rorschach_bucht",
@@ -133,6 +154,9 @@
     "notes": "",
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   }
 ]

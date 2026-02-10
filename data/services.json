@@ -9,7 +9,10 @@
     "lng": 9.178,
     "url": "https://www.shs-staad.de/hafenordnung.html",
     "source": "https://www.shs-staad.de/hafenordnung.html",
-    "lastVerified": "2026-02-10"
+    "lastVerified": "2026-02-10",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "slip_friedrichshafen",
@@ -21,7 +24,10 @@
     "lng": 9.48,
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "tankstelle_lindau",
@@ -33,7 +39,10 @@
     "lng": 9.685,
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "tankstelle_romanshorn",
@@ -45,7 +54,10 @@
     "lng": 9.38,
     "url": "",
     "source": "",
-    "lastVerified": ""
+    "lastVerified": "",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "werft_bodan",
@@ -57,7 +69,10 @@
     "lng": 9.6,
     "url": "https://www.bodan-fuh.com/",
     "source": "https://www.bodan-fuh.com/",
-    "lastVerified": "2026-02-10"
+    "lastVerified": "2026-02-10",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   },
   {
     "id": "yachtservice_kreuzlingen",
@@ -69,6 +84,9 @@
     "lng": 9.18,
     "url": "https://www.segelmacher.ch/",
     "source": "https://www.segelmacher.ch/",
-    "lastVerified": "2026-02-10"
+    "lastVerified": "2026-02-10",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null
   }
 ]
