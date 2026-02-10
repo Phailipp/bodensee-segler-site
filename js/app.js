@@ -339,7 +339,7 @@ function wireCardClicks() {
         || state.data.gastros.find(x => x.id === id)
         || state.data.services.find(x => x.id === id);
       if (item) openModal(type, item);
-    }, { once: true });
+    });
   });
 }
 
