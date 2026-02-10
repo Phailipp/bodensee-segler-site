@@ -155,14 +155,21 @@ nav.scrolled { background: rgba(12,25,41,0.95); backdrop-filter: blur(10px); pad
 }
 
 .pill-btn {
+  -webkit-appearance: none;
+  appearance: none;
   border: 1px solid rgba(255,255,255,0.18);
   background: rgba(0,0,0,0.18);
   color: rgba(255,255,255,0.7);
   padding: 8px 10px;
   border-radius: 999px;
   font-size: 0.75rem;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   cursor: pointer;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pill-btn[aria-pressed="true"] {

@@ -190,11 +190,19 @@ function renderUnverifiedToggle() {
 function initUnverifiedToggle() {
   const btn = document.getElementById('toggleUnverified');
   if (!btn) return;
-  btn.addEventListener('click', () => {
+  const toggle = (e) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
     state.showUnverified = !state.showUnverified;
     saveUnverifiedPref();
     renderAll();
-  });
+  };
+
+  btn.addEventListener('click', toggle);
+  // iOS Safari: sometimes needs an explicit touch handler
+  btn.addEventListener('touchstart', toggle, { passive: false });
   renderUnverifiedToggle();
 }
 
