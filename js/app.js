@@ -1172,6 +1172,7 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       const kept = [];
       const ok = [];
       const err = [];
+      const pending = [];
 
       for (const w of desired) {
         const cfg = w._cfg || {};
@@ -1182,6 +1183,7 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
         }
         kept.push(w);
         ok.push(cfg.name || cfg.id || 'WMS');
+        if (!w._loaded) pending.push(cfg.name || cfg.id || 'WMS');
       }
 
       state.zoneLayers = kept;
@@ -1198,9 +1200,9 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
         ok.some(s => s.startsWith('AT:')) ? 'AT' : null
       ].filter(Boolean).join('+');
 
-      const extra = err.length ? ' (einige Dienste down)' : '';
+      const extra = err.length ? ' (einige Dienste down)' : (pending.length ? ' (lädt noch…)': '');
       toast('Zonen: aktiv (' + (label || 'WMS') + ')' + extra);
-    }, 1400);
+    }, 1600);
 
   }
 }
