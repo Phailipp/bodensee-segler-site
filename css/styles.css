@@ -175,12 +175,22 @@ nav.scrolled { background: rgba(12,25,41,0.95); backdrop-filter: blur(10px); pad
   justify-content: center;
   gap: 8px;
   user-select: none;
+  box-sizing: border-box;
+  max-width: min(56vw, 280px);
+}
+
+.pill-switch span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
 }
 
 .pill-switch input {
   width: 34px;
   height: 20px;
   margin: 0;
+  flex: 0 0 auto;
 }
 
 .pill-switch:has(input:checked) {
@@ -643,7 +653,7 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   .nav-links a { font-size: 0.9rem; padding: 6px 4px; }
 
   .nav-tools { gap: 6px; flex-direction: column; align-items: flex-end; }
-  .pill-switch { padding: 7px 9px; font-size: 0.72rem; white-space: nowrap; }
+  .pill-switch { padding: 7px 9px; font-size: 0.72rem; }
 
   .lang-toggle { gap: 6px; }
   .lang-toggle button { padding: 7px 9px; font-size: 0.72rem; }
