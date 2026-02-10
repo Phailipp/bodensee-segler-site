@@ -156,14 +156,10 @@ nav.scrolled { background: rgba(12,25,41,0.95); backdrop-filter: blur(10px); pad
 }
 
 #toggleUnverified {
-  position: relative;
-  z-index: 200;
   pointer-events: auto;
 }
 
-.pill-btn {
-  -webkit-appearance: none;
-  appearance: none;
+.pill-switch {
   border: 1px solid rgba(255,255,255,0.18);
   background: rgba(0,0,0,0.18);
   color: rgba(255,255,255,0.7);
@@ -177,9 +173,17 @@ nav.scrolled { background: rgba(12,25,41,0.95); backdrop-filter: blur(10px); pad
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
+  user-select: none;
 }
 
-.pill-btn[aria-pressed="true"] {
+.pill-switch input {
+  width: 34px;
+  height: 20px;
+  margin: 0;
+}
+
+.pill-switch:has(input:checked) {
   border-color: rgba(201,169,98,0.55);
   background: rgba(201,169,98,0.12);
   color: var(--gold-light);
@@ -639,7 +643,7 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   .nav-links a { font-size: 0.9rem; padding: 6px 4px; }
 
   .nav-tools { gap: 6px; flex-direction: column; align-items: flex-end; }
-  .pill-btn { padding: 7px 9px; font-size: 0.72rem; white-space: nowrap; }
+  .pill-switch { padding: 7px 9px; font-size: 0.72rem; white-space: nowrap; }
 
   .lang-toggle { gap: 6px; }
   .lang-toggle button { padding: 7px 9px; font-size: 0.72rem; }

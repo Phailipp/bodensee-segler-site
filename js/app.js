@@ -181,34 +181,21 @@ function saveUnverifiedPref() {
 }
 
 function renderUnverifiedToggle() {
-  const btn = document.getElementById('toggleUnverified');
-  if (!btn) return;
-  btn.setAttribute('aria-pressed', state.showUnverified ? 'true' : 'false');
-  btn.textContent = state.showUnverified ? t('ui.hideUnverified') : t('ui.showUnverified');
+  const input = document.getElementById('toggleUnverified');
+  const text = document.getElementById('toggleUnverifiedText');
+  if (!input || !text) return;
+  input.checked = !!state.showUnverified;
+  text.textContent = state.showUnverified ? t('ui.hideUnverified') : t('ui.showUnverified');
 }
 
 function initUnverifiedToggle() {
-  const btn = document.getElementById('toggleUnverified');
-  if (!btn) return;
-  let lastToggleMs = 0;
-  const toggle = (e) => {
-    // Avoid double-trigger on mobile browsers (touchstart + click, pointer events, etc.)
-    const now = Date.now();
-    if (now - lastToggleMs < 600) return;
-    lastToggleMs = now;
-
-    if (e) {
-      e.preventDefault();
-      e.stopPropagation();
-    }
-
-    state.showUnverified = !state.showUnverified;
+  const input = document.getElementById('toggleUnverified');
+  if (!input) return;
+  input.addEventListener('change', () => {
+    state.showUnverified = !!input.checked;
     saveUnverifiedPref();
     renderAll();
-  };
-
-  // Use click as the single source of truth (works across desktop + mobile)
-  btn.addEventListener('click', toggle);
+  });
   renderUnverifiedToggle();
 }
 
