@@ -121,8 +121,12 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1500;
+  z-index: 2147483647;
   padding: 24px 48px;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  will-change: transform;
+  isolation: isolate;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -510,7 +514,8 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 
 /* Map */
 #karte { scroll-margin-top: 96px; }
-.map-section { padding: 0; height: 100vh; min-height: 600px; position: relative; }
+.map-section { padding: 0; height: 100vh; min-height: 600px; position: relative; z-index: 0; }
+#map { position: relative; z-index: 0; }
 
 /* Leaflet controls should not sit under the fixed nav */
 .map-section .leaflet-top { top: 96px; }
