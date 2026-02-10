@@ -1050,15 +1050,16 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
 
   // Add zones overlay if enabled
   if (state.mapLayers.zones) {
-    const cfg = (state.data.layers || [])[0];
-    if (cfg?.kind === 'wms' && cfg?.wmsBaseUrl && cfg?.wmsLayers) {
+    const layers = (state.data.layers || []).filter(x => x.kind === 'wms' && x.wmsBaseUrl && x.wmsLayers);
+    layers.forEach(cfg => {
+      // stack multiple official layers
       state.zoneLayer = L.tileLayer.wms(cfg.wmsBaseUrl, {
         layers: cfg.wmsLayers,
         format: cfg.wmsFormat || 'image/png',
         transparent: cfg.wmsTransparent !== false,
         attribution: '© geo.admin.ch'
       }).addTo(state.map);
-    }
+    });
   }
 }
 

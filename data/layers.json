@@ -9,5 +9,38 @@
     "wmsTransparent": true,
     "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
     "lastVerified": "2026-02-10"
+  },
+  {
+    "id": "bird_reserves",
+    "name": "Vogelreservate (Bundesinventar)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://wms.geo.admin.ch/",
+    "wmsLayers": "ch.bafu.bundesinventare-vogelreservate",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
+    "lastVerified": "2026-02-10"
+  },
+  {
+    "id": "floodplains",
+    "name": "Auen (Bundesinventar)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://wms.geo.admin.ch/",
+    "wmsLayers": "ch.bafu.bundesinventare-auen",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
+    "lastVerified": "2026-02-10"
+  },
+  {
+    "id": "moorlands",
+    "name": "Moorlandschaften (Bundesinventar)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://wms.geo.admin.ch/",
+    "wmsLayers": "ch.bafu.bundesinventare-moorlandschaften",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
+    "lastVerified": "2026-02-10"
   }
 ]
