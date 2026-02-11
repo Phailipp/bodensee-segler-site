@@ -36,6 +36,10 @@ for LAKE in ${LAKES}; do
   # 2b) Apply candidate URLs to existing entries (strict: only candidate* fields)
   CHANGED=$(python3 scripts/apply_candidates.py --lake "${LAKE}" --candidates "${OUT}" | tail -n 1 | tr -d '\r')
 
+  # 2c) Sanitize URLs + dedup for this lake
+  python3 scripts/sanitize_urls.py --lake "${LAKE}" >/dev/null || true
+  python3 scripts/dedup_lake.py --lake "${LAKE}" >/dev/null || true
+
   echo "ADDED_${LAKE}=${ADDED}"
   echo "CHANGED_${LAKE}=${CHANGED}"
 
@@ -47,9 +51,7 @@ for LAKE in ${LAKES}; do
   fi
 done
 
-# 2) Sanitize URLs + dedup (conservative) + rebuild sitemap/detail pages
-python3 scripts/sanitize_urls.py --lake "${LAKE}" >/dev/null || true
-python3 scripts/dedup_lake.py --lake "${LAKE}" >/dev/null || true
+# 3) Rebuild sitemap/detail pages
 python3 scripts/gen_detail_pages.py >/dev/null || true
 
 # 3) Commit + push if anything changed

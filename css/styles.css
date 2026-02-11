@@ -1115,3 +1115,8 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   font-size: 0.82rem;
   line-height: 1.35;
 }
+
+.candidate-kind {
+  color: rgba(255,255,255,0.55);
+  font-size: 0.78em;
+}

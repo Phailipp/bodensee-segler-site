@@ -48,12 +48,20 @@
     ],
     "links": [
       {
-        "label": "Projekt auf GitHub (Fehler melden, beitragen)",
-        "url": "https://github.com/Phailipp/bodensee-segler-site"
+        "label": "Kanton Zürich: Schifffahrt (Zulassung, Regeln)",
+        "url": "https://www.zh.ch/de/mobilitaet/schifffahrt.html"
       },
       {
-        "label": "OpenStreetMap (Datenquelle)",
-        "url": "https://www.openstreetmap.org/"
+        "label": "ZSG: Informationen Zürichsee (Anlegestellen etc.)",
+        "url": "https://www.zsg.ch/de/informationen/"
+      },
+      {
+        "label": "MeteoSwiss: Wetterwarnungen",
+        "url": "https://www.meteoswiss.admin.ch/wetter/wetter-und-klima-von-a-bis-z/wetterwarnungen.html"
+      },
+      {
+        "label": "Projekt auf GitHub (Fehler melden, beitragen)",
+        "url": "https://github.com/Phailipp/bodensee-segler-site"
       }
     ]
   },
@@ -73,12 +81,24 @@
     ],
     "links": [
       {
-        "label": "Projekt auf GitHub (Fehler melden, beitragen)",
-        "url": "https://github.com/Phailipp/bodensee-segler-site"
+        "label": "Kanton Luzern: Schifffahrt",
+        "url": "https://strassenverkehrsamt.lu.ch/schifffahrt"
       },
       {
-        "label": "OpenStreetMap (Datenquelle)",
-        "url": "https://www.openstreetmap.org/"
+        "label": "SRL LU: Verordnung über die Schifffahrt",
+        "url": "https://srl.lu.ch/app/de/texts_of_law/787"
+      },
+      {
+        "label": "Lake Lucerne Navigation Company (Fahrplan/Infos)",
+        "url": "https://www.lakelucerne.ch/de/"
+      },
+      {
+        "label": "MeteoSwiss: Wetterwarnungen",
+        "url": "https://www.meteoswiss.admin.ch/wetter/wetter-und-klima-von-a-bis-z/wetterwarnungen.html"
+      },
+      {
+        "label": "Projekt auf GitHub (Fehler melden, beitragen)",
+        "url": "https://github.com/Phailipp/bodensee-segler-site"
       }
     ]
   },
@@ -98,12 +118,20 @@
     ],
     "links": [
       {
-        "label": "Projekt auf GitHub (Fehler melden, beitragen)",
-        "url": "https://github.com/Phailipp/bodensee-segler-site"
+        "label": "admin.ch: Règlement de la navigation sur le Léman (RS 0.747.221.11)",
+        "url": "https://www.admin.ch/ch/f/rs/c0_747_221_11.html"
       },
       {
-        "label": "OpenStreetMap (Datenquelle)",
-        "url": "https://www.openstreetmap.org/"
+        "label": "CGN (Compagnie Générale de Navigation)",
+        "url": "https://www.cgn.ch/"
+      },
+      {
+        "label": "MeteoSwiss: Wetterwarnungen",
+        "url": "https://www.meteoswiss.admin.ch/wetter/wetter-und-klima-von-a-bis-z/wetterwarnungen.html"
+      },
+      {
+        "label": "Projekt auf GitHub (Fehler melden, beitragen)",
+        "url": "https://github.com/Phailipp/bodensee-segler-site"
       }
     ]
   },
@@ -123,12 +151,20 @@
     ],
     "links": [
       {
-        "label": "Projekt auf GitHub (Fehler melden, beitragen)",
-        "url": "https://github.com/Phailipp/bodensee-segler-site"
+        "label": "Kanton Bern: Schifffahrt (SVSA)",
+        "url": "https://www.svsa.sid.be.ch/de/start/schifffahrt.html"
       },
       {
-        "label": "OpenStreetMap (Datenquelle)",
-        "url": "https://www.openstreetmap.org/"
+        "label": "SVSA Bern: Aktuell (Verbote, Hochwasser etc.)",
+        "url": "https://www.svsa.pom.be.ch/svsa_pom/de/index/navi/index/organisation/aktuell.html"
+      },
+      {
+        "label": "MeteoSwiss: Wetterwarnungen",
+        "url": "https://www.meteoswiss.admin.ch/wetter/wetter-und-klima-von-a-bis-z/wetterwarnungen.html"
+      },
+      {
+        "label": "Projekt auf GitHub (Fehler melden, beitragen)",
+        "url": "https://github.com/Phailipp/bodensee-segler-site"
       }
     ]
   },
@@ -148,12 +184,20 @@
     ],
     "links": [
       {
-        "label": "Projekt auf GitHub (Fehler melden, beitragen)",
-        "url": "https://github.com/Phailipp/bodensee-segler-site"
+        "label": "Kanton Zug: Schifffahrt",
+        "url": "https://zg.ch/de/mobilitaet-reisen/schifffahrt"
       },
       {
-        "label": "OpenStreetMap (Datenquelle)",
-        "url": "https://www.openstreetmap.org/"
+        "label": "Zugersee Schifffahrt (Service, Webcams)",
+        "url": "https://www.zugersee-schifffahrt.ch/service"
+      },
+      {
+        "label": "MeteoSwiss: Wetterwarnungen",
+        "url": "https://www.meteoswiss.admin.ch/wetter/wetter-und-klima-von-a-bis-z/wetterwarnungen.html"
+      },
+      {
+        "label": "Projekt auf GitHub (Fehler melden, beitragen)",
+        "url": "https://github.com/Phailipp/bodensee-segler-site"
       }
     ]
   },
@@ -173,12 +217,20 @@
     ],
     "links": [
       {
-        "label": "Projekt auf GitHub (Fehler melden, beitragen)",
-        "url": "https://github.com/Phailipp/bodensee-segler-site"
+        "label": "Provincia di Varese: Disciplina navigazione acque interne",
+        "url": "https://oldsite.provincia.va.it/code/14570/Disciplina-della-navigazione-nelle-acque-interne-della-Provincia-di-Varese"
       },
       {
-        "label": "OpenStreetMap (Datenquelle)",
-        "url": "https://www.openstreetmap.org/"
+        "label": "Convenzione Italia Svizzera (PDF) navigazione Laghi Maggiore/Lugano",
+        "url": "https://www.pno.camcom.it/sites/default/files/contenuto_redazione/Registro%20Imprese/Convenzione%20fra%20Italia%20e%20Svizzera.pdf"
+      },
+      {
+        "label": "MeteoSwiss: Wetterwarnungen",
+        "url": "https://www.meteoswiss.admin.ch/wetter/wetter-und-klima-von-a-bis-z/wetterwarnungen.html"
+      },
+      {
+        "label": "Projekt auf GitHub (Fehler melden, beitragen)",
+        "url": "https://github.com/Phailipp/bodensee-segler-site"
       }
     ]
   }

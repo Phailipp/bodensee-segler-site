@@ -277,6 +277,13 @@ function isVerified(item) {
   return !!((item?.source || '').trim() && (item?.lastVerified || '').trim());
 }
 
+function candidateHint(item) {
+  const k = (item?.candidateUrlKind || '').trim();
+  if (k === 'social') return 'Hinweis: Candidate Link ist Social (oft nicht verifizierbar als Quelle).';
+  if (k === 'aggregator') return 'Hinweis: Candidate Link ist Aggregator (nicht als offizielle Quelle).';
+  return '';
+}
+
 function applyFilters(list, type) {
   const f = type === 'anchors' ? state.filtersAnchors : state.filtersHarbors;
   let out = list;
@@ -629,7 +636,7 @@ function renderBacklog() {
       );
       const issueUrl = `https://github.com/Phailipp/bodensee-segler-site/issues/new?title=${issueTitle}&body=${issueBody}`;
       const candidate = item.candidateUrl
-        ? `<a class="candidate-link" href="${escapeHtml(item.candidateUrl)}" target="_blank" rel="noreferrer">Candidate</a>`
+        ? `<a class="candidate-link" href="${escapeHtml(item.candidateUrl)}" target="_blank" rel="noreferrer">Candidate</a>${item.candidateUrlKind ? ` <span class=\"candidate-kind\">(${escapeHtml(item.candidateUrlKind)})</span>` : ''}`
         : '';
       const open = item.id ? `<a class="candidate-link" href="./?lake=${encodeURIComponent(state.lakeId || '')}&open=${encodeURIComponent(s.key + ':' + item.id)}#karte">Open</a>` : '';
       return `<li><a href="${issueUrl}" target="_blank" rel="noreferrer">${escapeHtml(item.name)}</a>${candidate ? ` ${candidate}` : ''}${open ? ` ${open}` : ''}</li>`;
