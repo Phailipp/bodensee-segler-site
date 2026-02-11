@@ -167,10 +167,15 @@
     <div id="map"></div>
     <div id="toast" class="toast" aria-live="polite"></div>
         <div class="map-legend" aria-label="Map layers">
-      <button class="legend-item" type="button" data-layer="zones" aria-pressed="false">
-        <div class="legend-marker" style="background:#60a5fa"></div>
-        <span data-i18n="map.layers.zones">Zonen</span>
-      </button>
+      <div class="legend-item legend-zones" role="group" aria-label="Zones controls">
+        <button class="legend-main" type="button" data-layer="zones" aria-pressed="false">
+          <div class="legend-marker" style="background:#60a5fa"></div>
+          <span data-i18n="map.layers.zones">Zonen</span>
+        </button>
+        <button class="legend-info" type="button" id="zonesInfoBtn" aria-label="Info">
+          i
+        </button>
+      </div>
       <button class="legend-item" type="button" data-layer="harbors" aria-pressed="true">
         <div class="legend-marker harbor"></div>
         <span data-i18n="nav.harbors">Häfen</span>
@@ -188,7 +193,7 @@
         <span data-i18n="nav.gastro">Gastro</span>
       </button>
     </div>
-    <div id="zonesLegend" class="zones-legend" aria-label="Zonen Legende" hidden></div>
+    <div id="zonesInfo" class="zones-info" role="dialog" aria-modal="false" hidden></div>
   </section>
 
   <section class="scenario-section" aria-label="Scenario presets">

@@ -925,42 +925,54 @@ function renderLegendToggles() {
     const on = !!state.mapLayers[layer];
     btn.setAttribute('aria-pressed', on ? 'true' : 'false');
   });
-  renderZonesLegend();
 }
 
-function renderZonesLegend() {
-  const el = document.getElementById('zonesLegend');
-  if (!el) return;
 
-  if (!state.mapLayers.zones) {
-    el.hidden = true;
-    return;
+
+function initZonesInfo() {
+  const btn = document.getElementById('zonesInfoBtn');
+  const box = document.getElementById('zonesInfo');
+  if (!btn || !box) return;
+
+  function close() {
+    box.hidden = true;
   }
 
-  const active = (state.zoneLayers || []).map(l => l?._cfg).filter(Boolean);
-  const items = active.map(cfg => {
-    const name = cfg.name || cfg.id;
-    const src = cfg.source || '';
-    return { name, src };
+  function open() {
+    const active = (state.zoneLayers || []).map(l => l?._cfg).filter(Boolean);
+    const label = [
+      active.some(s => (s.name || '').startsWith('CH:')) ? 'CH' : null,
+      active.some(s => (s.name || '').startsWith('DE:')) ? 'DE' : null,
+      active.some(s => (s.name || '').startsWith('AT:')) ? 'AT' : null
+    ].filter(Boolean).join('+');
+
+    box.innerHTML = `
+      <button class="zi-close" type="button" aria-label="Close">x</button>
+      <div class="zi-title">Zonen</div>
+      <div>Blau markiert Schutzgebiete und Natura 2000 aus offiziellen Quellen (CH, DE, AT). Aktuell aktiv: ${escapeHtml(label || '—')}.</div>
+      <div style="margin-top:8px">Details und Links: <a href="#sources">Quellen</a></div>
+    `;
+    box.hidden = false;
+    const c = box.querySelector('.zi-close');
+    if (c) c.onclick = close;
+  }
+
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (box.hidden) open();
+    else close();
   });
 
-  el.hidden = false;
-  const rows = items.length
-    ? items.slice(0, 6).map(it => `
-      <div class="zl-row">
-        <div class="zl-dot"></div>
-        <div class="zl-text">${escapeHtml(it.name)}</div>
-      </div>
-    `).join('')
-    : `<div class="zl-row"><div class="zl-dot"></div><div class="zl-text">Zonen aktiv. In diesem Ausschnitt ggf. keine Treffer.</div></div>`;
+  document.addEventListener('click', (e) => {
+    if (box.hidden) return;
+    if (box.contains(e.target) || btn.contains(e.target)) return;
+    close();
+  });
 
-  el.innerHTML = `
-    <div class="zl-title">Zonen</div>
-    ${rows}
-    <div class="zl-row" style="margin-top:8px;opacity:0.85">
-      <div class="zl-text">Blau markiert Schutzgebiete und Natura 2000 (offizielle Quellen).</div>
-    </div>
-  `;
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') close();
+  });
 }
 
 function initLegendToggles() {
@@ -1292,6 +1304,7 @@ async function main() {
   loadLayerPrefs();
   initMap();
   initLegendToggles();
+  initZonesInfo();
   initShareSection();
 
   // Language default
