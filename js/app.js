@@ -946,11 +946,26 @@ function initZonesInfo() {
       active.some(s => (s.name || '').startsWith('AT:')) ? 'AT' : null
     ].filter(Boolean).join('+');
 
+    function legendImg(cfg) {
+      if (!cfg) return '';
+      if (cfg.kind === 'geojson') {
+        return `<div class="zi-legend-chip"><span class="zi-swatch" style="background:#60a5fa"></span><span>GeoJSON: blau markiert Natura 2000 / Schutzgebiete</span></div>`;
+      }
+      if (cfg.kind !== 'wms' || !cfg.wmsBaseUrl || !cfg.wmsLayers) return '';
+      const base = cfg.wmsBaseUrl.replace(/\?+.*/, '').replace(/\/$/, '') + '/';
+      const ver = encodeURIComponent(cfg.wmsVersion || '1.3.0');
+      const layer = encodeURIComponent(cfg.wmsLayers.split(',')[0]);
+      const url = `${base}?SERVICE=WMS&REQUEST=GetLegendGraphic&VERSION=${ver}&FORMAT=image%2Fpng&LAYER=${layer}`;
+      return `<div class="zi-legend-row"><div class="zi-legend-name">${escapeHtml(cfg.name || cfg.id)}</div><img class="zi-legend-img" src="${url}" alt="Legend" loading="lazy" /></div>`;
+    }
+
+    const legends = active.slice(0, 6).map(legendImg).filter(Boolean).join('');
+
     box.innerHTML = `
       <button class="zi-close" type="button" aria-label="Close">x</button>
       <div class="zi-title">Zonen</div>
-      <div>Das sind amtliche Schutzgebiets Layer (CH, DE, AT) inkl. Natura 2000. Aktuell aktiv: ${escapeHtml(label || '—')}.</div>
-      <div style="margin-top:8px">Farben: je Quelle/Layer unterschiedlich (die Ämter liefern eigene Styles). Wenn du es einheitlich willst, müssen wir pro Layer explizite Styles definieren.</div>
+      <div>Amtliche Schutzgebiets Layer (CH, DE, AT) inkl. Natura 2000. Aktuell aktiv: ${escapeHtml(label || '—')}.</div>
+      ${legends ? `<div class="zi-sub">Legenden (Farben bedeuten je Layer das, was hier gezeigt wird):</div>${legends}` : `<div class="zi-sub">Legende konnte nicht geladen werden.</div>`}
       <div style="margin-top:8px">Details und Links: <a href="#sources">Quellen</a></div>
     `;
     box.hidden = false;
