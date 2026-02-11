@@ -10,7 +10,9 @@
     "candidateOsmId": 105459350,
     "candidateUrl": "https://www.zeughauskeller.ch/",
     "candidatePhone": "+41 44 220 15 15",
-    "candidateHours": "Mo-Su 11:30-23:00"
+    "candidateHours": "Mo-Su 11:30-23:00",
+    "source": "https://www.zeughauskeller.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-105460220-sprüngli-caf-bar",
@@ -33,7 +35,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 242557373,
-    "candidateUrl": "https://www.roesslibeiz.ch"
+    "candidateUrl": "https://www.roesslibeiz.ch",
+    "source": "https://www.roesslibeiz.ch",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-262594347-thai-orchid",
@@ -44,7 +48,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 262594347,
-    "candidateUrl": "https://www.thai-orchid.ch/"
+    "candidateUrl": "https://www.thai-orchid.ch/",
+    "source": "https://www.thai-orchid.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-268467807-kronenhalle",
@@ -57,7 +63,9 @@
     "candidateOsmId": 268467807,
     "candidateUrl": "https://www.kronenhalle.com",
     "candidatePhone": "+41 44 262 99 00",
-    "candidateHours": "Mo-Su 12:00-24:00"
+    "candidateHours": "Mo-Su 12:00-24:00",
+    "source": "https://www.kronenhalle.com",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-268467884-terrasse-restaurant",
@@ -82,7 +90,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 268468109,
     "candidateUrl": "https://odeon.ch/",
-    "candidateHours": "Mo-Th 07:00-24:00, Fr-Sa 07:00-02:00, Su 09:00-24:00"
+    "candidateHours": "Mo-Th 07:00-24:00, Fr-Sa 07:00-02:00, Su 09:00-24:00",
+    "source": "https://odeon.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-268468215-rosaly-s",
@@ -94,7 +104,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 268468215,
     "candidateUrl": "https://www.rosalys.ch/",
-    "candidateHours": "Mo-Fr 11:30-14:30, 17:00-24:00; Sa 17:00-01:00; Su 17:00-24:00"
+    "candidateHours": "Mo-Fr 11:30-14:30, 17:00-24:00; Sa 17:00-01:00; Su 17:00-24:00",
+    "source": "https://www.rosalys.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-268468702-yume-ramen",
@@ -119,7 +131,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 269913252,
     "candidateUrl": "https://www.weissero.se",
-    "candidateHours": "Tu-Sa 17:00+; PH closed"
+    "candidateHours": "Tu-Sa 17:00+; PH closed",
+    "source": "https://www.weissero.se",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-270799836-blockhus",

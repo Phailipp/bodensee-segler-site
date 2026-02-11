@@ -9,7 +9,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1854708269,
     "candidateUrl": "http://www.yachthafen.ch",
-    "candidatePhone": "+41 44 482 99 44"
+    "candidatePhone": "+41 44 482 99 44",
+    "source": "https://www.faul.ch/ueber-uns/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-way-98633716-hafen-rietliau",

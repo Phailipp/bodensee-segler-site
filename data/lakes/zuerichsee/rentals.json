@@ -9,7 +9,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 356752345,
     "candidateUrl": "https://www.lago-zuerich.ch/",
-    "candidatePhone": "+41 44 262 22 20"
+    "candidatePhone": "+41 44 262 22 20",
+    "source": "https://www.lago-zuerich.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-383931354-pedalo-vermietung-ceccotorenas",
@@ -22,7 +24,9 @@
     "candidateOsmId": 383931354,
     "candidateUrl": "https://www.ceccotorenas.ch/",
     "candidatePhone": "+41 76 383 66 58",
-    "candidateHours": "Tu-Fr 13:30-18:00, Sa-Su 10:00-18:00"
+    "candidateHours": "Tu-Fr 13:30-18:00, Sa-Su 10:00-18:00",
+    "source": "https://www.ceccotorenas.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-4950969614-bootsvermietung-rytz-kreuzer",
@@ -34,7 +38,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 4950969614,
     "candidateUrl": "https://bootsvermietung-seefeld.ch/pedalo/",
-    "candidatePhone": "+41 79 673 58 38"
+    "candidatePhone": "+41 79 673 58 38",
+    "source": "https://bootsvermietung-seefeld.ch/pedalo/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-4952465430-pedalo-und-ruderbootvermietung-richterswil",
@@ -47,7 +53,9 @@
     "candidateOsmId": 4952465430,
     "candidateUrl": "https://www.vvrs.ch/",
     "candidatePhone": "+41 76 229 96 10",
-    "candidateHours": "We 13:00-19:00; Sa-Su 10:00-19:00"
+    "candidateHours": "We 13:00-19:00; Sa-Su 10:00-19:00",
+    "source": "https://www.vvrs.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-4961249010-bootsvermietung-enge",
@@ -60,7 +68,9 @@
     "candidateOsmId": 4961249010,
     "candidateUrl": "http://www.bootsvermietung-zuerich.ch",
     "candidatePhone": "+41 44 211 22 62",
-    "candidateHours": "Mar,Apr,Oct: Mo-Fr 13:00-18:00; Mar,Apr,Oct: Sa-Su 11:30-18:30; May,Sep: Mo-Fr 13:00-19:00; May,Sep: Sa-Su 11:30-19:00; Jun,Jul,Aug: Mo-Fr 13:00-20:00; Jun,Jul,Aug: Sa-Su 10:00-20:00"
+    "candidateHours": "Mar,Apr,Oct: Mo-Fr 13:00-18:00; Mar,Apr,Oct: Sa-Su 11:30-18:30; May,Sep: Mo-Fr 13:00-19:00; May,Sep: Sa-Su 11:30-19:00; Jun,Jul,Aug: Mo-Fr 13:00-20:00; Jun,Jul,Aug: Sa-Su 10:00-20:00",
+    "source": "http://www.bootsvermietung-zuerich.ch",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-4961460153-badi-feldbach",
@@ -85,7 +95,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 11292495102,
     "candidateUrl": "https://www.booti.ch/",
-    "candidatePhone": "+41 44 950 15 03"
+    "candidatePhone": "+41 44 950 15 03",
+    "source": "https://www.booti.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-way-38098979-pier-7",
@@ -97,6 +109,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 38098979,
     "candidateUrl": "https://www.pier7.ch/Charter-mit-Skipper/",
-    "candidatePhone": "+41 44 261 70 56"
+    "candidatePhone": "+41 44 261 70 56",
+    "source": "https://www.pier7.ch/Charter-mit-Skipper/",
+    "lastVerified": "2026-02-11"
   }
 ]
