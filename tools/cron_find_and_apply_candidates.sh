@@ -22,8 +22,19 @@ for LAKE in ${LAKES}; do
   OUT="/tmp/osm_candidates_${LAKE}.json"
   # Overpass can hang; put a hard cap per lake.
   timeout 220s python3 scripts/find_candidates_osm.py --lake "${LAKE}" > "${OUT}" || true
+
+  # 2a) Bootstrap new entries from OSM (new lakes start empty)
+  ADDED=$(python3 scripts/import_osm_candidates.py --lake "${LAKE}" --candidates "${OUT}" | python3 -c "import sys, json; j=json.load(sys.stdin); print(j.get('added',0))")
+
+  # 2b) Apply candidate URLs to existing entries (strict: only candidate* fields)
   CHANGED=$(python3 scripts/apply_candidates.py --lake "${LAKE}" --candidates "${OUT}" | tail -n 1 | tr -d '\r')
+
+  echo "ADDED_${LAKE}=${ADDED}"
   echo "CHANGED_${LAKE}=${CHANGED}"
+
+  if [[ "${ADDED}" != "0" ]]; then
+    TOTAL=$((TOTAL + ADDED))
+  fi
   if [[ "${CHANGED}" != "0" ]]; then
     TOTAL=$((TOTAL + CHANGED))
   fi

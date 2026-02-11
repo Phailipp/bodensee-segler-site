@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "id": "osm-node-356752345-lago",
+    "name": "Lago",
+    "lat": 47.3639403,
+    "lng": 8.5455549,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 356752345,
+    "candidateUrl": "https://www.lago-zuerich.ch/",
+    "candidatePhone": "+41 44 262 22 20"
+  },
+  {
+    "id": "osm-node-383931354-pedalo-vermietung-ceccotorenas",
+    "name": "Pedalo Vermietung Ceccotorenas",
+    "lat": 47.2389928,
+    "lng": 8.7175744,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 383931354,
+    "candidateUrl": "https://www.ceccotorenas.ch/",
+    "candidatePhone": "+41 76 383 66 58",
+    "candidateHours": "Tu-Fr 13:30-18:00, Sa-Su 10:00-18:00"
+  },
+  {
+    "id": "osm-node-4950969614-bootsvermietung-rytz-kreuzer",
+    "name": "Bootsvermietung Rytz+Kreuzer",
+    "lat": 47.360624,
+    "lng": 8.5471234,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 4950969614,
+    "candidateUrl": "https://bootsvermietung-seefeld.ch/pedalo/",
+    "candidatePhone": "+41 79 673 58 38"
+  },
+  {
+    "id": "osm-node-4952465430-pedalo-und-ruderbootvermietung-richterswil",
+    "name": "Pedalo- und Ruderbootvermietung Richterswil",
+    "lat": 47.2104417,
+    "lng": 8.7060183,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 4952465430,
+    "candidateUrl": "https://www.vvrs.ch/",
+    "candidatePhone": "+41 76 229 96 10",
+    "candidateHours": "We 13:00-19:00; Sa-Su 10:00-19:00"
+  },
+  {
+    "id": "osm-node-4961249010-bootsvermietung-enge",
+    "name": "Bootsvermietung Enge",
+    "lat": 47.3613066,
+    "lng": 8.5362801,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 4961249010,
+    "candidateUrl": "http://www.bootsvermietung-zuerich.ch",
+    "candidatePhone": "+41 44 211 22 62",
+    "candidateHours": "Mar,Apr,Oct: Mo-Fr 13:00-18:00; Mar,Apr,Oct: Sa-Su 11:30-18:30; May,Sep: Mo-Fr 13:00-19:00; May,Sep: Sa-Su 11:30-19:00; Jun,Jul,Aug: Mo-Fr 13:00-20:00; Jun,Jul,Aug: Sa-Su 10:00-20:00"
+  },
+  {
+    "id": "osm-node-4961460153-badi-feldbach",
+    "name": "Badi Feldbach",
+    "lat": 47.2355411,
+    "lng": 8.7889674,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 4961460153,
+    "candidateUrl": "https://www.badifeldbach.ch/",
+    "candidatePhone": "+41 55 244 27 59",
+    "candidateHours": "May-Sep Mo-Su 09:00-sunset"
+  },
+  {
+    "id": "osm-node-11292495102-bootsvermietung-am-pfäffikersee",
+    "name": "Bootsvermietung am Pfäffikersee",
+    "lat": 47.3645352,
+    "lng": 8.781493,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 11292495102,
+    "candidateUrl": "https://www.booti.ch/",
+    "candidatePhone": "+41 44 950 15 03"
+  },
+  {
+    "id": "osm-way-38098979-pier-7",
+    "name": "Pier 7",
+    "lat": 47.3677716,
+    "lng": 8.5435613,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "way",
+    "candidateOsmId": 38098979,
+    "candidateUrl": "https://www.pier7.ch/Charter-mit-Skipper/",
+    "candidatePhone": "+41 44 261 70 56"
+  }
+]

@@ -62,8 +62,6 @@ def collect(query: str, kind: str):
                     continue
                 website = tags.get("website") or tags.get("contact:website")
                 website = norm_url(website)
-                if not website:
-                    continue
 
                 lat = el.get("lat")
                 lon = el.get("lon")
@@ -75,7 +73,7 @@ def collect(query: str, kind: str):
                 out.append(
                     {
                         "name": name,
-                        "website": website,
+                        "website": website or '',
                         "kind": kind,
                         "osmType": el.get("type"),
                         "osmId": el.get("id"),
@@ -83,6 +81,10 @@ def collect(query: str, kind: str):
                             "amenity": tags.get("amenity"),
                             "leisure": tags.get("leisure"),
                             "waterway": tags.get("waterway"),
+                            "seamark:type": tags.get("seamark:type"),
+                            "addr:country": tags.get("addr:country"),
+                            "contact:phone": tags.get("contact:phone") or tags.get("phone"),
+                            "opening_hours": tags.get("opening_hours"),
                         },
                         "lat": lat,
                         "lng": lon,

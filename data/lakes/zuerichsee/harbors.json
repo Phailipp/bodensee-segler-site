@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "osm-node-1854708269-wollishofen",
+    "name": "Wollishofen",
+    "lat": 47.339586,
+    "lng": 8.5397758,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 1854708269,
+    "candidateUrl": "http://www.yachthafen.ch",
+    "candidatePhone": "+41 44 482 99 44"
+  },
+  {
+    "id": "osm-way-98633716-hafen-rietliau",
+    "name": "Hafen Rietliau",
+    "lat": 47.2379425,
+    "lng": 8.661606,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "way",
+    "candidateOsmId": 98633716,
+    "candidateUrl": "https://www.hafengenossenschaft-waedenswil.ch"
+  }
+]
