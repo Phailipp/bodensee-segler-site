@@ -28,6 +28,7 @@ const state = {
   },
   map: null,
   markers: { harbors: [], anchors: [], rentals: [], gastros: [] },
+  markerClusters: { harbors: null, anchors: null, rentals: null, gastros: null },
   zoneLayer: null,
   zoneLayers: [],
   mapLayers: {
@@ -615,7 +616,7 @@ function renderBacklog() {
       const candidate = item.candidateUrl
         ? `<a class="candidate-link" href="${escapeHtml(item.candidateUrl)}" target="_blank" rel="noreferrer">Candidate</a>`
         : '';
-      const open = item.id ? `<a class="candidate-link" href="./?open=${encodeURIComponent(s.key + ':' + item.id)}">Open</a>` : '';
+      const open = item.id ? `<a class="candidate-link" href="./?lake=${encodeURIComponent(state.lakeId || '')}&open=${encodeURIComponent(s.key + ':' + item.id)}#karte">Open</a>` : '';
       return `<li><a href="${issueUrl}" target="_blank" rel="noreferrer">${escapeHtml(item.name)}</a>${candidate ? ` ${candidate}` : ''}${open ? ` ${open}` : ''}</li>`;
     }
 
@@ -733,8 +734,8 @@ function openModal(type, item) {
   const gm = coords ? `https://www.google.com/maps?q=${encodeURIComponent(coords)}` : '';
 
   // Shareable deep link back into the main page
-  const share = `./?open=${encodeURIComponent(type + ':' + (item.id || ''))}`;
-  const shareAbs = `${window.location.origin}${window.location.pathname}?open=${encodeURIComponent(type + ':' + (item.id || ''))}`;
+  const share = `./?lake=${encodeURIComponent(state.lakeId || '')}&open=${encodeURIComponent(type + ':' + (item.id || ''))}#karte`;
+  const shareAbs = `${window.location.origin}${window.location.pathname}?lake=${encodeURIComponent(state.lakeId || '')}&open=${encodeURIComponent(type + ':' + (item.id || ''))}#karte`;
 
   const rows = [];
   rows.push(kv(t('modal.k.country'), formatCountry(item.country || '')));
@@ -1217,8 +1218,30 @@ function makeIcon(color, size = 14) {
 }
 
 function clearMarkers() {
-  Object.values(state.markers).flat().forEach(m => m.remove());
+  // remove individual markers
+  Object.values(state.markers).flat().forEach(m => { try { m.remove(); } catch {} });
   state.markers = { harbors: [], anchors: [], rentals: [], gastros: [] };
+
+  // remove cluster layers
+  try {
+    Object.values(state.markerClusters || {}).forEach(g => { if (g && state.map) state.map.removeLayer(g); });
+  } catch {}
+  state.markerClusters = { harbors: null, anchors: null, rentals: null, gastros: null };
+}
+
+function makeClusterGroup() {
+  // If markercluster is not available, return null and we will fall back to plain markers.
+  try {
+    if (!window.L || !L.markerClusterGroup) return null;
+    return L.markerClusterGroup({
+      showCoverageOnHover: false,
+      spiderfyOnMaxZoom: true,
+      maxClusterRadius: 46,
+      chunkedLoading: true
+    });
+  } catch {
+    return null;
+  }
 }
 
 function redrawMarkers({ harbors, anchors, rentals, gastros }) {
@@ -1238,6 +1261,16 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
   }
 
   const harborIcon = makeIcon('#c9a962', 16);
+  const harborGroup = makeClusterGroup();
+  const anchorGroup = makeClusterGroup();
+  const rentalGroup = makeClusterGroup();
+  const gastroGroup = makeClusterGroup();
+
+  if (harborGroup) { harborGroup.addTo(state.map); state.markerClusters.harbors = harborGroup; }
+  if (anchorGroup) { anchorGroup.addTo(state.map); state.markerClusters.anchors = anchorGroup; }
+  if (rentalGroup) { rentalGroup.addTo(state.map); state.markerClusters.rentals = rentalGroup; }
+  if (gastroGroup) { gastroGroup.addTo(state.map); state.markerClusters.gastros = gastroGroup; }
+
   const anchorIcon = makeIcon('#4ade80', 14);
   const rentalIcon = makeIcon('#f472b6', 14);
   const gastroIcon = makeIcon('#fb923c', 14);
@@ -1247,7 +1280,8 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       <div class="popup-name">${escapeHtml(h.name)}</div>
       <div class="popup-location">${escapeHtml(h.region || '')}</div>
     `;
-    const m = L.marker([h.lat, h.lng], { icon: harborIcon }).addTo(state.map).bindPopup(popup, { maxWidth: 280 });
+    const m = L.marker([h.lat, h.lng], { icon: harborIcon }).bindPopup(popup, { maxWidth: 280 });
+    if (harborGroup) harborGroup.addLayer(m); else m.addTo(state.map);
     m.on('click', () => openModal('harbor', h));
     state.markers.harbors.push(m);
   });
@@ -1257,7 +1291,8 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       <div class="popup-name">${escapeHtml(a.name)}</div>
       <div class="popup-location">${escapeHtml(a.region || '')}</div>
     `;
-    const m = L.marker([a.lat, a.lng], { icon: anchorIcon }).addTo(state.map).bindPopup(popup, { maxWidth: 280 });
+    const m = L.marker([a.lat, a.lng], { icon: anchorIcon }).bindPopup(popup, { maxWidth: 280 });
+    if (anchorGroup) anchorGroup.addLayer(m); else m.addTo(state.map);
     m.on('click', () => openModal('anchor', a));
     state.markers.anchors.push(m);
   });
@@ -1267,7 +1302,8 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       <div class="popup-name">${escapeHtml(r.name)}</div>
       <div class="popup-location">${escapeHtml(r.location || '')}</div>
     `;
-    const m = L.marker([r.lat, r.lng], { icon: rentalIcon }).addTo(state.map).bindPopup(popup, { maxWidth: 280 });
+    const m = L.marker([r.lat, r.lng], { icon: rentalIcon }).bindPopup(popup, { maxWidth: 280 });
+    if (rentalGroup) rentalGroup.addLayer(m); else m.addTo(state.map);
     m.on('click', () => openModal('rental', r));
     state.markers.rentals.push(m);
   });
@@ -1277,7 +1313,8 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       <div class="popup-name">${escapeHtml(g.name)}</div>
       <div class="popup-location">${escapeHtml(g.location || '')}</div>
     `;
-    const m = L.marker([g.lat, g.lng], { icon: gastroIcon }).addTo(state.map).bindPopup(popup, { maxWidth: 280 });
+    const m = L.marker([g.lat, g.lng], { icon: gastroIcon }).bindPopup(popup, { maxWidth: 280 });
+    if (gastroGroup) gastroGroup.addLayer(m); else m.addTo(state.map);
     m.on('click', () => openModal('gastro', g));
     state.markers.gastros.push(m);
   });

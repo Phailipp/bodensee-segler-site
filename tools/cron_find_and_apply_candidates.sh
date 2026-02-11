@@ -40,7 +40,8 @@ for LAKE in ${LAKES}; do
   fi
 done
 
-# 2) Rebuild sitemap/detail pages if needed (safe even if no changes)
+# 2) Dedup (conservative) + rebuild sitemap/detail pages
+python3 scripts/dedup_lake.py --lake "${LAKE}" >/dev/null || true
 python3 scripts/gen_detail_pages.py >/dev/null || true
 
 # 3) Commit + push if anything changed
