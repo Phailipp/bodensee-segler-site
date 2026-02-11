@@ -984,3 +984,34 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Zones legend (bottom of map) */
+.zones-legend {
+  position: absolute;
+  left: 48px;
+  bottom: 120px;
+  z-index: var(--z-map-ui);
+  background: rgba(12,25,41,0.9);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 12px;
+  padding: 12px 14px;
+  max-width: min(520px, calc(100vw - 96px));
+  color: rgba(255,255,255,0.78);
+  font-size: 0.85rem;
+}
+
+.zones-legend .zl-title {
+  color: rgba(255,255,255,0.85);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.zones-legend .zl-row { display: flex; gap: 10px; align-items: flex-start; margin: 6px 0; }
+.zones-legend .zl-dot { width: 10px; height: 10px; border-radius: 3px; background: #60a5fa; margin-top: 4px; flex: 0 0 auto; }
+.zones-legend .zl-text { line-height: 1.35; }
+
+@media (max-width: 900px) {
+  .zones-legend { left: 12px; bottom: 120px; max-width: calc(100vw - 24px); }
+}

@@ -925,6 +925,42 @@ function renderLegendToggles() {
     const on = !!state.mapLayers[layer];
     btn.setAttribute('aria-pressed', on ? 'true' : 'false');
   });
+  renderZonesLegend();
+}
+
+function renderZonesLegend() {
+  const el = document.getElementById('zonesLegend');
+  if (!el) return;
+
+  if (!state.mapLayers.zones) {
+    el.hidden = true;
+    return;
+  }
+
+  const active = (state.zoneLayers || []).map(l => l?._cfg).filter(Boolean);
+  const items = active.map(cfg => {
+    const name = cfg.name || cfg.id;
+    const src = cfg.source || '';
+    return { name, src };
+  });
+
+  el.hidden = false;
+  const rows = items.length
+    ? items.slice(0, 6).map(it => `
+      <div class="zl-row">
+        <div class="zl-dot"></div>
+        <div class="zl-text">${escapeHtml(it.name)}</div>
+      </div>
+    `).join('')
+    : `<div class="zl-row"><div class="zl-dot"></div><div class="zl-text">Zonen aktiv. In diesem Ausschnitt ggf. keine Treffer.</div></div>`;
+
+  el.innerHTML = `
+    <div class="zl-title">Zonen</div>
+    ${rows}
+    <div class="zl-row" style="margin-top:8px;opacity:0.85">
+      <div class="zl-text">Blau markiert Schutzgebiete und Natura 2000 (offizielle Quellen).</div>
+    </div>
+  `;
 }
 
 function initLegendToggles() {
