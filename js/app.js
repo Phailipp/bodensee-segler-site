@@ -921,7 +921,8 @@ function initLakeSelector() {
     const u = new URL(window.location.href);
     u.searchParams.set('lake', id);
     if (pref) u.searchParams.set('lang', pref);
-    u.hash = '#karte';
+    // Stay at the top after switching lakes (hero first).
+    u.hash = '';
     window.location.href = u.toString();
   });
 }

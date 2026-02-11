@@ -25,10 +25,6 @@
 
     <ul class="nav-links" id="mobileNav">
       <li><a href="#karte" data-i18n="nav.map">Karte</a></li>
-      <li class="lake-switch">
-        <label for="lakeSelect" data-i18n="nav.lake">See</label>
-        <select id="lakeSelect" aria-label="Lake selector"></select>
-      </li>
       <li><a href="#guide" data-i18n="nav.guide">Guide</a></li>
       <li><a href="#safety" data-i18n="nav.safety">Sicherheit</a></li>
       <li><a href="#haefen" data-i18n="nav.harbors">Häfen</a></li>
@@ -41,6 +37,9 @@
     </ul>
 
     <div class="nav-tools" aria-label="Tools">
+      <div class="lake-switch-fixed" aria-label="See wählen">
+        <select id="lakeSelect" aria-label="Lake selector"></select>
+      </div>
       <div class="lang-toggle" id="langToggle" aria-label="Language selector">
         <button data-lang="de" class="active" aria-pressed="true">DE</button>
         <button data-lang="en" aria-pressed="false">EN</button>
