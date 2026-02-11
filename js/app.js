@@ -61,6 +61,37 @@ function t(key) {
   return state.i18n?.[key] ?? key;
 }
 
+
+function replaceAllStrings(obj, from, to) {
+  try {
+    for (const k of Object.keys(obj || {})) {
+      if (typeof obj[k] === 'string') obj[k] = obj[k].split(from).join(to);
+    }
+  } catch {}
+  return obj;
+}
+
+function applyLakeBranding() {
+  const name = state.lakeMeta?.name || 'Bodensee';
+
+  // Title + OG
+  const title = `${name} Segler`;
+  document.title = title;
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.setAttribute('content', title);
+
+  // Description: keep template, swap lake name
+  const descTpl = `Kuratiert und klar: Häfen, Ankerplätze, Vermietung, Gastro und Service am ${name}. Interaktive Karte, Filter und Detailinfos.`;
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) metaDesc.setAttribute('content', descTpl);
+  const ogDesc = document.querySelector('meta[property="og:description"]');
+  if (ogDesc) ogDesc.setAttribute('content', descTpl.replace('Interaktive Karte, Filter und Detailinfos.', ''));
+
+  // Logo already handled by selector, but keep it safe
+  const logo = document.getElementById('lakeLogo');
+  if (logo) logo.textContent = name;
+}
+
 function toast(msg, ms = 1800) {
   const el = document.getElementById('toast');
   if (!el) return;
@@ -1474,7 +1505,12 @@ async function main() {
   const pick = (urlLang === 'en' || urlLang === 'de') ? urlLang : pref;
   const lang = (pick === 'en' || pick === 'de') ? pick : 'de';
   state.i18n = await loadJSON(`./i18n/${lang}.json`);
+  // Make core copy lake-aware by swapping the lake name in i18n strings
+  const lakeName = state.lakeMeta?.name || 'Bodensee';
+  if (lang === 'de') replaceAllStrings(state.i18n, 'Bodensee', lakeName);
+  if (lang === 'en') replaceAllStrings(state.i18n, 'Lake Constance', lakeName);
   setLang(lang);
+  applyLakeBranding();
   // Deep link open
   handleDeepLinkOpen();
 
