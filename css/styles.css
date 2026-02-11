@@ -1060,8 +1060,5 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 
 /* Zones info legend items */
 .zones-info .zi-sub { margin-top: 10px; color: rgba(255,255,255,0.65); font-size: 0.82rem; }
-.zones-info .zi-legend-row { margin-top: 10px; }
-.zones-info .zi-legend-name { font-size: 0.8rem; color: rgba(255,255,255,0.75); margin-bottom: 6px; }
-.zones-info .zi-legend-img { max-width: 100%; border-radius: 10px; border: 1px solid rgba(255,255,255,0.10); background: rgba(0,0,0,0.2); }
-.zones-info .zi-legend-chip { margin-top: 10px; display:flex; align-items:center; gap:10px; color: rgba(255,255,255,0.75); font-size: 0.82rem; }
-.zones-info .zi-swatch { width: 12px; height: 12px; border-radius: 3px; display:inline-block; }
+.zones-info .zi-legend-chip { margin-top: 10px; display:flex; align-items:center; gap:10px; color: rgba(255,255,255,0.78); font-size: 0.82rem; }
+.zones-info .zi-swatch { width: 12px; height: 12px; border-radius: 3px; display:inline-block; box-shadow: 0 0 0 1px rgba(255,255,255,0.10); }
