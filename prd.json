@@ -1,0 +1,41 @@
+{
+  "project": "bodensee-segler-site",
+  "updatedAt": "2026-02-11T00:00:00Z",
+  "stories": [
+    {
+      "id": "S1",
+      "title": "Fix data pipeline: ensure per-lake sanitize+dedup always run and are committed by cron",
+      "priority": 10,
+      "passes": true,
+      "qa": "node scripts/qa_smoke_playwright.cjs https://phailipp.github.io/bodensee-segler-site/?v=qa-ralph"
+    },
+    {
+      "id": "S2",
+      "title": "Improve unverifiable workflow: accept WhatsApp reply 'ok' or 'source <url>' and apply to entry automatically",
+      "priority": 9,
+      "passes": false,
+      "qa": "node scripts/qa_smoke_playwright.cjs https://phailipp.github.io/bodensee-segler-site/?v=qa-ralph"
+    },
+    {
+      "id": "S3",
+      "title": "Auto-verify: persist search cache file and use it to reduce rate limits",
+      "priority": 8,
+      "passes": true,
+      "qa": "node scripts/qa_smoke_playwright.cjs https://phailipp.github.io/bodensee-segler-site/?v=qa-ralph"
+    },
+    {
+      "id": "S4",
+      "title": "Deep-link reliability: when open is set, wait for map+data and always open modal; keep lake+hash in all generated links",
+      "priority": 7,
+      "passes": false,
+      "qa": "node scripts/qa_smoke_playwright.cjs https://phailipp.github.io/bodensee-segler-site/?v=qa-ralph"
+    },
+    {
+      "id": "S5",
+      "title": "Add status dashboard page (status.html) showing PRD progress and last run result",
+      "priority": 6,
+      "passes": false,
+      "qa": "node scripts/qa_smoke_playwright.cjs https://phailipp.github.io/bodensee-segler-site/?v=qa-ralph"
+    }
+  ]
+}

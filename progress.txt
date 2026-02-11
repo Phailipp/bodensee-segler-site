@@ -1,0 +1,3 @@
+Ralph-lite progress log for bodensee-segler-site
+
+Rules: one story per run. Commit only if QA passes. Append-only.
