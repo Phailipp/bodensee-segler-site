@@ -83,7 +83,9 @@
     "candidateOsmId": 4961460153,
     "candidateUrl": "https://www.badifeldbach.ch/",
     "candidatePhone": "+41 55 244 27 59",
-    "candidateHours": "May-Sep Mo-Su 09:00-sunset"
+    "candidateHours": "May-Sep Mo-Su 09:00-sunset",
+    "source": "https://verkehrsverein-hombi.ch/angebote/vermietung/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-11292495102-bootsvermietung-am-pfäffikersee",

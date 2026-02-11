@@ -78,7 +78,9 @@
     "candidateOsmId": 268467884,
     "candidateUrl": "https://www.bindella.ch/de/terrasse-restaurant.html",
     "candidatePhone": "+41 44 251 10 74",
-    "candidateHours": "Mo-Th 11:30-23:00; Fr-Sa 11:30-24:00; Su 10:00-14:00 \"Brunch\", 14:15-23:00"
+    "candidateHours": "Mo-Th 11:30-23:00; Fr-Sa 11:30-24:00; Su 10:00-14:00 \"Brunch\", 14:15-23:00",
+    "source": "https://www.bindella.ch/gastronomie/terrasse-restaurant",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-268468109-caf-bar-odeon",
@@ -146,7 +148,9 @@
     "candidateOsmId": 270799836,
     "candidateUrl": "https://restaurant-blockhus.ch/",
     "candidatePhone": "+41 44 252 14 53",
-    "candidateHours": "Mo-Tu 11:30-14:00,17:30-23:00; We-Sa 11:30-24:00"
+    "candidateHours": "Mo-Tu 11:30-14:00,17:30-23:00; We-Sa 11:30-24:00",
+    "source": "https://restaurant-blockhus.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-270799850-hotel-hechtplatz-bar",
@@ -169,7 +173,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 270800540,
     "candidateUrl": "https://weisserwind.ch/",
-    "candidateHours": "Mo-Fr 11:30-14:00,17:30-23:00; Sa 12:00-23:00"
+    "candidateHours": "Mo-Fr 11:30-14:00,17:30-23:00; Sa 12:00-23:00",
+    "source": "https://weisserwind.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-270800553-oberdorf-beck",
@@ -194,7 +200,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 270800743,
     "candidateUrl": "https://www.papajoes.ch/de/Restaurants/",
-    "candidateHours": "Fr-Sa 11:30-01:00; Su-Th 11:30-23:00"
+    "candidateHours": "Fr-Sa 11:30-01:00; Su-Th 11:30-23:00",
+    "source": "https://www.papajoes.ch/de/Restaurants/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-270800785-molino",
@@ -206,7 +214,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 270800785,
     "candidateUrl": "https://molino.ch/de/pizzeria-ristorante-molino-select",
-    "candidateHours": "10:00-23:00"
+    "candidateHours": "10:00-23:00",
+    "source": "https://molino.ch/de/pizzeria-ristorante-molino-select",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-270803256-zunfthaus-zur-meisen",
@@ -217,7 +227,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 270803256,
-    "candidateUrl": "https://www.zunfthaus-zur-meisen.ch/"
+    "candidateUrl": "https://www.zunfthaus-zur-meisen.ch/",
+    "source": "https://www.zunfthaus-zur-meisen.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-270938312-orsini",
@@ -262,7 +274,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 270938371,
     "candidateUrl": "https://zunfthaus-zur-waag.ch/",
-    "candidateHours": "Mo-Sa 11:30-14:00, 18:00-22:00; Nov-Dec Su 11:30-14:00"
+    "candidateHours": "Mo-Sa 11:30-14:00, 18:00-22:00; Nov-Dec Su 11:30-14:00",
+    "source": "https://zunfthaus-zur-waag.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-270938393-münsterhöfli",
@@ -274,7 +288,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 270938393,
     "candidateUrl": "https://www.muensterhoefli.ch/",
-    "candidateHours": "Mo-Fr 11:30-14:00,18:00-24:00, Sa 11:30-24:00"
+    "candidateHours": "Mo-Fr 11:30-14:00,18:00-24:00, Sa 11:30-24:00",
+    "source": "https://www.muensterhoefli.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-270938652-n-n",
@@ -286,7 +302,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 270938652,
     "candidateUrl": "https://www.anan.ch/",
-    "candidateHours": "Mo-Th 10:00-23:00; Fr,Sa 10:00-00:00"
+    "candidateHours": "Mo-Th 10:00-23:00; Fr,Sa 10:00-00:00",
+    "source": "https://www.anan.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-270938706-milchbar",
@@ -297,7 +315,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 270938706,
-    "candidateUrl": "https://www.milchbar.ch/"
+    "candidateUrl": "https://www.milchbar.ch/",
+    "source": "https://www.milchbar.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-270938826-old-fashion-bar",
@@ -310,7 +330,9 @@
     "candidateOsmId": 270938826,
     "candidateUrl": "https://old-fashion-bar.ch/",
     "candidatePhone": "+41 44 225 18 86",
-    "candidateHours": "Mo 11:30-24:00; Tu 11:30-01:00; We-Sa 11:30-02:00"
+    "candidateHours": "Mo 11:30-24:00; Tu 11:30-01:00; We-Sa 11:30-02:00",
+    "source": "https://old-fashion-bar.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-271203888-bar-lounge-tietzes",
@@ -333,7 +355,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 272354078,
     "candidateUrl": "https://www.belcafe.ch/",
-    "candidateHours": "Mo-Fr 06:00-21:00; Sa 07:00-21:00"
+    "candidateHours": "Mo-Fr 06:00-21:00; Sa 07:00-21:00",
+    "source": "https://www.belcafe.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-281384749-horn",
@@ -366,7 +390,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 289669633,
     "candidateUrl": "https://www.l-altro.ch/",
-    "candidateHours": "Mo-Fr 11:30-14:30,18:00-24:00"
+    "candidateHours": "Mo-Fr 11:30-14:30,18:00-24:00",
+    "source": "https://www.l-altro.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-297747293-seebad-enge",
