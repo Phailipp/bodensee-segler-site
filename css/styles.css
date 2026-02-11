@@ -989,13 +989,15 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 .zones-legend {
   position: absolute;
   left: 48px;
-  bottom: 120px;
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
   z-index: var(--z-map-ui);
-  background: rgba(12,25,41,0.9);
+  background: rgba(12,25,41,0.92);
   border: 1px solid rgba(255,255,255,0.10);
   border-radius: 12px;
   padding: 12px 14px;
   max-width: min(520px, calc(100vw - 96px));
+  max-height: 38vh;
+  overflow: auto;
   color: rgba(255,255,255,0.78);
   font-size: 0.85rem;
 }
@@ -1013,5 +1015,10 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 .zones-legend .zl-text { line-height: 1.35; }
 
 @media (max-width: 900px) {
-  .zones-legend { left: 12px; bottom: 120px; max-width: calc(100vw - 24px); }
+  .zones-legend {
+    left: 12px;
+    right: 12px;
+    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    max-width: none;
+  }
 }
