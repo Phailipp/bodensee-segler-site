@@ -10,7 +10,7 @@ CHANGED=$(python3 scripts/apply_candidates.py | tail -n 1 | tr -d '\r')
 
 # 3) Rebuild sitemap/detail pages if needed (safe even if no changes)
 python3 scripts/gen_detail_pages.py >/dev/null || true
-node tools/build_sitemap.mjs >/dev/null || true
+# build_sitemap.mjs was removed; gen_detail_pages.py writes sitemap.xml
 
 # 4) Commit + push if anything changed
 if [[ "${CHANGED}" != "0" ]]; then
