@@ -17,7 +17,12 @@
 </head>
 <body>
   <nav>
-    <div class="logo"><span id="lakeLogo">Bodensee</span><span>.</span></div>
+    <div class="logo logo-stack">
+      <div class="logo-title"><span id="lakeLogo">Bodensee</span><span>.</span></div>
+      <div class="lake-switch-under" aria-label="See wählen">
+        <select id="lakeSelect" aria-label="Lake selector"></select>
+      </div>
+    </div>
 
     <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false" aria-controls="mobileNav">
       <span></span><span></span><span></span>
@@ -37,9 +42,6 @@
     </ul>
 
     <div class="nav-tools" aria-label="Tools">
-      <div class="lake-switch-fixed" aria-label="See wählen">
-        <select id="lakeSelect" aria-label="Lake selector"></select>
-      </div>
       <div class="lang-toggle" id="langToggle" aria-label="Language selector">
         <button data-lang="de" class="active" aria-pressed="true">DE</button>
         <button data-lang="en" aria-pressed="false">EN</button>
