@@ -10,7 +10,9 @@
     "candidateOsmId": 391015242,
     "candidateUrl": "https://www.hafenrestaurant.ch/",
     "candidatePhone": "+41 41 711 90 70",
-    "candidateHours": "Mo-Su 08:00-24:00"
+    "candidateHours": "Mo-Su 08:00-24:00",
+    "source": "https://www.hafenrestaurant.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-391015244-podium-41",
@@ -75,7 +77,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 8003883998,
-    "candidateUrl": "https://www.quai-pasa.ch/"
+    "candidateUrl": "https://www.quai-pasa.ch/",
+    "source": "https://www.quai-pasa.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-11807005399-b70-music-bar",
@@ -112,7 +116,9 @@
     "candidateOsmId": 317289167,
     "candidateUrl": "https://www.brandenberg.ch/",
     "candidatePhone": "+41 41 711 95 96",
-    "candidateHours": "Tu-Sa 08:00-24:00"
+    "candidateHours": "Tu-Sa 08:00-24:00",
+    "source": "https://www.brandenberg.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-way-385368424-da-nino",

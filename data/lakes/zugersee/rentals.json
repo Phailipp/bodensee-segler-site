@@ -9,6 +9,8 @@
     "candidateOsmType": "node",
     "candidateOsmId": 13015128894,
     "candidateUrl": "https://war.ch/service#vermietung",
-    "candidatePhone": "+41 41 850 58 55"
+    "candidatePhone": "+41 41 850 58 55",
+    "source": "https://war.ch/service#vermietung",
+    "lastVerified": "2026-02-11"
   }
 ]
