@@ -1117,9 +1117,14 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
     }
 
     // make sure zones are above basemap + markers but below modal/nav
+    // and force a consistent visual language (providers use different default colors)
     try {
       if (!state.map.getPane('zonesPane')) state.map.createPane('zonesPane');
-      state.map.getPane('zonesPane').style.zIndex = '350';
+      const pane = state.map.getPane('zonesPane');
+      pane.style.zIndex = '350';
+      // Recolor WMS tiles into a unified "blue zones" look (Safari/iOS friendly)
+      pane.style.filter = 'grayscale(1) contrast(1.1) brightness(1.15) sepia(1) hue-rotate(185deg) saturate(3)';
+      pane.style.mixBlendMode = 'screen';
     } catch {
       // ignore
     }
