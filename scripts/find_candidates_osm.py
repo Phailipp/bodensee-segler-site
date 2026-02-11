@@ -116,12 +116,17 @@ def main():
 );
 out center tags;
 """
-
     gastro_query = f"""
 [out:json][timeout:120];
 (
-  nwr[\"amenity\"=\"restaurant\"][\"website\"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
-  nwr[\"amenity\"=\"restaurant\"][\"contact:website\"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
+  // Restaurants and cafes that are plausibly reachable by boat:
+  // take marinas/harbors first, then fetch nearby gastronomy within ~300m.
+  nwr["leisure"="marina"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
+  nwr["seamark:type"="harbour"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
+  nwr["harbour"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
+)->.h;
+(
+  nwr["amenity"~"^(restaurant|cafe|bar|pub)$"](around.h:300);
 );
 out center tags;
 """
