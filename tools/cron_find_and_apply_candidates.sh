@@ -4,13 +4,18 @@ cd "$(dirname "$0")/.."
 
 # 1) Find + apply candidates per lake
 TOTAL=0
-LAKES=$(python3 - <<'PY'
+
+if [[ "$#" -gt 0 ]]; then
+  LAKES="$*"
+else
+  LAKES=$(python3 - <<'PY'
 import json
 from pathlib import Path
 l=json.loads(Path('data/lakes.json').read_text(encoding='utf-8'))
 print(' '.join([x['id'] for x in l]))
 PY
 )
+fi
 
 for LAKE in ${LAKES}; do
   echo "LAKE=${LAKE}"
