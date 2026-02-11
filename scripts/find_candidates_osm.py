@@ -119,14 +119,21 @@ out center tags;
     gastro_query = f"""
 [out:json][timeout:120];
 (
-  // Restaurants and cafes that are plausibly reachable by boat:
-  // take marinas/harbors first, then fetch nearby gastronomy within ~300m.
+  // Boat-reachable gastronomy: start from harbors/marinas, then fetch nearby restaurants.
   nwr["leisure"="marina"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
   nwr["seamark:type"="harbour"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
   nwr["harbour"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
 )->.h;
 (
-  nwr["amenity"~"^(restaurant|cafe|bar|pub)$"](around.h:300);
+  nwr["amenity"="restaurant"](around.h:150);
+)->.r;
+(
+  // quality signal: keep only entries with some contact/ops tag
+  nwr.r["website"];
+  nwr.r["contact:website"];
+  nwr.r["contact:phone"];
+  nwr.r["phone"];
+  nwr.r["opening_hours"];
 );
 out center tags;
 """

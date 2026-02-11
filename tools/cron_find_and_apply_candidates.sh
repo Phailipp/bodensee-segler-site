@@ -23,6 +23,13 @@ for LAKE in ${LAKES}; do
   # Overpass can hang; put a hard cap per lake.
   timeout 220s python3 scripts/find_candidates_osm.py --lake "${LAKE}" > "${OUT}" || true
 
+  # Skip if the candidate file is empty or invalid (e.g., timeout / overpass error)
+  if [[ ! -s "${OUT}" ]]; then
+    echo "ADDED_${LAKE}=0"
+    echo "CHANGED_${LAKE}=0"
+    continue
+  fi
+
   # 2a) Bootstrap new entries from OSM (new lakes start empty)
   ADDED=$(python3 scripts/import_osm_candidates.py --lake "${LAKE}" --candidates "${OUT}" | python3 -c "import sys, json; j=json.load(sys.stdin); print(j.get('added',0))")
 

@@ -15,60 +15,6 @@
     "lastVerified": "2026-02-11"
   },
   {
-    "id": "osm-node-391015244-podium-41",
-    "name": "Podium 41",
-    "lat": 47.1731574,
-    "lng": 8.506438,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 391015244,
-    "candidatePhone": "+41 41 710 53 83"
-  },
-  {
-    "id": "osm-node-1411264447-min-kang-yuan",
-    "name": "Min Kang Yuan",
-    "lat": 47.0816773,
-    "lng": 8.4332823,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 1411264447,
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-4877012129-würlitzer",
-    "name": "Würlitzer",
-    "lat": 47.0827646,
-    "lng": 8.4375582,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 4877012129
-  },
-  {
-    "id": "osm-node-6466432327-cafe-plaza",
-    "name": "Cafe Plaza",
-    "lat": 47.0829485,
-    "lng": 8.4376904,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 6466432327,
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-7792137002-bahnhöfli",
-    "name": "Bahnhöfli",
-    "lat": 47.0831264,
-    "lng": 8.4352381,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 7792137002,
-    "candidatePhone": "+41 41 850 11 38"
-  },
-  {
     "id": "osm-node-8003883998-quai-pasa",
     "name": "Quai Pasa",
     "lat": 47.1714328,
@@ -80,30 +26,6 @@
     "candidateUrl": "https://www.quai-pasa.ch/",
     "source": "https://www.quai-pasa.ch/",
     "lastVerified": "2026-02-11"
-  },
-  {
-    "id": "osm-node-11807005399-b70-music-bar",
-    "name": "B70 Music Bar",
-    "lat": 47.0834933,
-    "lng": 8.4334882,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 11807005399,
-    "candidatePhone": "+41 78 691 15 83",
-    "candidateHours": "Tu-Th 17:00-22:00; Fr-Sa 17:00-25:00",
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-12698821315-schwyzerhof-bar",
-    "name": "Schwyzerhof Bar",
-    "lat": 47.0823611,
-    "lng": 8.4382391,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 12698821315,
-    "candidateUrl": ""
   },
   {
     "id": "osm-way-317289167-brandenberg",
@@ -119,15 +41,5 @@
     "candidateHours": "Tu-Sa 08:00-24:00",
     "source": "https://www.brandenberg.ch/",
     "lastVerified": "2026-02-11"
-  },
-  {
-    "id": "osm-way-385368424-da-nino",
-    "name": "Da Nino",
-    "lat": 47.0840221,
-    "lng": 8.4358417,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "way",
-    "candidateOsmId": 385368424
   }
 ]
