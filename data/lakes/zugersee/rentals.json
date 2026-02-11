@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "osm-node-13015128894-war",
+    "name": "WAR",
+    "lat": 47.0792281,
+    "lng": 8.4393104,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 13015128894,
+    "candidateUrl": "https://war.ch/service#vermietung",
+    "candidatePhone": "+41 41 850 58 55"
+  }
+]

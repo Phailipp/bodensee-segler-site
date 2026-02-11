@@ -1,1 +1,73 @@
-[]
+[
+  {
+    "id": "osm-node-3656305150-bootsverleih",
+    "name": "Bootsverleih",
+    "lat": 47.1343546,
+    "lng": 8.1891855,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 3656305150,
+    "candidateUrl": "https://bootshaussempach.ch/"
+  },
+  {
+    "id": "osm-node-3926683571-riviera-boote-boat-rental",
+    "name": "Riviera Boote - Boat Rental",
+    "lat": 46.9932914,
+    "lng": 8.5194906,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 3926683571,
+    "candidateUrl": "https://riviera-boote.ch/rio-400-ole/",
+    "candidatePhone": "+41418281268"
+  },
+  {
+    "id": "osm-node-6371617106-riviera-boote",
+    "name": "Riviera Boote",
+    "lat": 46.9909502,
+    "lng": 8.5279883,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 6371617106,
+    "candidateUrl": "https://riviera-boote.ch"
+  },
+  {
+    "id": "osm-node-8293034772-swiss-classic-boats",
+    "name": "Swiss Classic Boats",
+    "lat": 47.0326108,
+    "lng": 8.3383041,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 8293034772,
+    "candidateUrl": "https://swissclassicboats.com/",
+    "candidateHours": "Mo-Su 09:00-18:00"
+  },
+  {
+    "id": "osm-node-13015128894-war",
+    "name": "WAR",
+    "lat": 47.0792281,
+    "lng": 8.4393104,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 13015128894,
+    "candidateUrl": "https://war.ch/service#vermietung",
+    "candidatePhone": "+41 41 850 58 55"
+  },
+  {
+    "id": "osm-way-826985621-herzog-bootsvermietung",
+    "name": "Herzog Bootsvermietung",
+    "lat": 47.0544354,
+    "lng": 8.3156566,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "way",
+    "candidateOsmId": 826985621,
+    "candidateUrl": "https://www.herzog.ch/",
+    "candidatePhone": "+41 41 410 43 33",
+    "candidateHours": "Apr-Oct"
+  }
+]
