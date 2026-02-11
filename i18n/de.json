@@ -185,5 +185,6 @@
   "modal.k.holding": "Halt",
   "modal.k.swell": "Schwell",
   "modal.k.restrictions": "Hinweise/Einschränkungen",
-  "map.layers.zones": "Zonen"
+  "map.layers.zones": "Zonen",
+  "map.layers.location": "Standort"
 }

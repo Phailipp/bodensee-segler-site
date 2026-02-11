@@ -35,7 +35,8 @@ const state = {
     anchors: true,
     rentals: true,
     gastros: true,
-    zones: false
+    zones: false,
+    location: false
   },
   showUnverified: false,
   activePreset: null
@@ -641,7 +642,14 @@ function renderAll() {
 
   renderCoverage();
   renderLegendToggles();
+  // My location overlay
+  if (state.mapLayers.location) {
+    if (typeof state._locEnable === 'function') state._locEnable();
+  } else {
+    if (typeof state._locDisable === 'function') state._locDisable();
+  }
 }
+
 
 function emptyState(isLight = false) {
   const color = isLight ? 'rgba(12,25,41,0.65)' : 'rgba(255,255,255,0.65)';
@@ -999,6 +1007,74 @@ function initZonesInfo() {
   });
 }
 
+
+function initLocationLayer() {
+  if (!navigator.geolocation) return;
+  state._loc = state._loc || { watchId: null, marker: null, circle: null };
+
+  async function enable() {
+    try {
+      toast('Standort: frage Berechtigung…', 1400);
+      if (state._loc.watchId != null) return;
+      state._loc.watchId = navigator.geolocation.watchPosition((pos) => {
+        const { latitude, longitude, accuracy } = pos.coords;
+        const latlng = [latitude, longitude];
+        if (!state._loc.marker) {
+          const icon = makeIcon('#93c5fd', 14);
+          state._loc.marker = L.marker(latlng, { icon }).addTo(state.map);
+        } else {
+          state._loc.marker.setLatLng(latlng);
+        }
+
+        if (!state._loc.circle) {
+          state._loc.circle = L.circle(latlng, {
+            radius: Math.max(accuracy || 20, 20),
+            color: '#93c5fd',
+            weight: 2,
+            fillColor: '#93c5fd',
+            fillOpacity: 0.10
+          }).addTo(state.map);
+        } else {
+          state._loc.circle.setLatLng(latlng);
+          state._loc.circle.setRadius(Math.max(accuracy || 20, 20));
+        }
+      }, (err) => {
+        toast('Standort: nicht erlaubt', 2000);
+        state.mapLayers.location = false;
+        saveLayerPrefs();
+        renderLegendToggles();
+        disable();
+      }, { enableHighAccuracy: true, maximumAge: 15000, timeout: 10000 });
+    } catch {
+      toast('Standort: Fehler', 2000);
+    }
+  }
+
+  function disable() {
+    try {
+      if (state._loc.watchId != null) {
+        navigator.geolocation.clearWatch(state._loc.watchId);
+        state._loc.watchId = null;
+      }
+      if (state._loc.marker) { state._loc.marker.remove(); state._loc.marker = null; }
+      if (state._loc.circle) { state._loc.circle.remove(); state._loc.circle = null; }
+    } catch {}
+  }
+
+  // Hook into layer toggles
+  const orig = renderAll;
+  if (!state._loc._patched) {
+    state._loc._patched = true;
+    window.requestAnimationFrame(() => {
+      // no-op, just ensure patching happens after init
+    });
+  }
+
+  // expose for renderAll usage
+  state._locEnable = enable;
+  state._locDisable = disable;
+}
+
 function initLegendToggles() {
   $$('.map-legend [data-layer]').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -1146,9 +1222,7 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       if (!state.map.getPane('zonesPane')) state.map.createPane('zonesPane');
       const pane = state.map.getPane('zonesPane');
       pane.style.zIndex = '350';
-      // Recolor WMS tiles into a unified "blue zones" look (Safari/iOS friendly)
-      pane.style.filter = 'grayscale(1) contrast(1.1) brightness(1.15) sepia(1) hue-rotate(185deg) saturate(3)';
-      pane.style.mixBlendMode = 'screen';
+      // No global recolor/filter here: provider styles are shown as-is.
     } catch {
       // ignore
     }
@@ -1252,7 +1326,7 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
         transparent: cfg.wmsTransparent !== false,
         attribution: '© ' + (cfg.wmsBaseUrl.includes('geo.admin.ch') ? 'geo.admin.ch' : (cfg.wmsBaseUrl.includes('vogis') ? 'VOGIS' : 'WMS')),
         pane: 'zonesPane',
-        opacity: 0.92,
+        opacity: 0.75,
         version: cfg.wmsVersion || '1.3.0'
       });
       w._cfg = cfg;
@@ -1334,6 +1408,7 @@ async function main() {
   initMap();
   initLegendToggles();
   initZonesInfo();
+  initLocationLayer();
   initShareSection();
 
   // Language default
