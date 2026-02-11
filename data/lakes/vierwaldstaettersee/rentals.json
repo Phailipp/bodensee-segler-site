@@ -43,7 +43,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 8293034772,
     "candidateUrl": "https://swissclassicboats.com/",
-    "candidateHours": "Mo-Su 09:00-18:00"
+    "candidateHours": "Mo-Su 09:00-18:00",
+    "source": "https://swissclassicboats.com/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-13015128894-war",
@@ -55,7 +57,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 13015128894,
     "candidateUrl": "https://war.ch/service#vermietung",
-    "candidatePhone": "+41 41 850 58 55"
+    "candidatePhone": "+41 41 850 58 55",
+    "source": "https://war.ch/service#vermietung",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-way-826985621-herzog-bootsvermietung",
@@ -68,6 +72,8 @@
     "candidateOsmId": 826985621,
     "candidateUrl": "https://www.herzog.ch/",
     "candidatePhone": "+41 41 410 43 33",
-    "candidateHours": "Apr-Oct"
+    "candidateHours": "Apr-Oct",
+    "source": "https://www.herzog.ch/",
+    "lastVerified": "2026-02-11"
   }
 ]

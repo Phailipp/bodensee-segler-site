@@ -20,7 +20,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1587149289,
     "candidateUrl": "https://www.bootshafen-hergiswil.ch/",
-    "candidatePhone": "+41 41 631 07 74"
+    "candidatePhone": "+41 41 631 07 74",
+    "source": "https://www.bootshafen-hergiswil.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-1838168777-marina-fallenbach-brunnen",
@@ -32,7 +34,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1838168777,
     "candidateUrl": "https://www.marina-fallenbach.ch/",
-    "candidatePhone": "+41 41 8256557"
+    "candidatePhone": "+41 41 8256557",
+    "source": "https://www.marina-fallenbach.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-1912141554-bootshafen-rütenen",
@@ -44,7 +48,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1912141554,
     "candidateUrl": "https://bootshafen.ch/",
-    "candidatePhone": "+41 41 6207075"
+    "candidatePhone": "+41 41 6207075",
+    "source": "https://bootshafen.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-1939897970-motorboothafen-luzern",
@@ -79,7 +85,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 2146366561,
     "candidateUrl": "https://www.bootshafen-fluelen.ch/",
-    "candidatePhone": "+41 79 782 72 87"
+    "candidatePhone": "+41 79 782 72 87",
+    "source": "https://www.bootshafen-fluelen.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-way-405653318-bootshafen-sisikon",
@@ -91,7 +99,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 405653318,
     "candidateUrl": "https://www.bhs.swiss/",
-    "candidatePhone": "+41 41 820 33 45"
+    "candidatePhone": "+41 41 820 33 45",
+    "source": "https://www.bhs.swiss/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-way-406517074-bootshafen-stansstad",
@@ -115,7 +125,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 871464490,
     "candidateUrl": "https://www.igf-brunnen.ch/",
-    "candidatePhone": "+41 79 356 87 77"
+    "candidatePhone": "+41 79 356 87 77",
+    "source": "https://www.igf-brunnen.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-way-1284714428-bootshafen-hostatt-kehrsiten",

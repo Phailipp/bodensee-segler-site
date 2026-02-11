@@ -31,7 +31,9 @@
     "candidateOsmId": 391015242,
     "candidateUrl": "https://www.hafenrestaurant.ch/",
     "candidatePhone": "+41 41 711 90 70",
-    "candidateHours": "Mo-Su 08:00-24:00"
+    "candidateHours": "Mo-Su 08:00-24:00",
+    "source": "https://www.hafenrestaurant.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-391015244-podium-41",
@@ -54,7 +56,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 506889674,
     "candidateUrl": "https://www.lucerestaurant.ch/",
-    "candidateHours": "Mo-Fr 06:30-10:00, Sa,Su 06:30-10:30, Mo-Fr 12:00-14:00, Mo-Sa 18:00-21:30"
+    "candidateHours": "Mo-Fr 06:30-10:00, Sa,Su 06:30-10:30, Mo-Fr 12:00-14:00, Mo-Sa 18:00-21:30",
+    "source": "https://www.lucerestaurant.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-506889676-nectar-bar",
@@ -109,7 +113,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 1120153532,
-    "candidateUrl": "http://www.notencafe.ch/"
+    "candidateUrl": "http://www.notencafe.ch/",
+    "source": "http://www.notencafe.ch/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-1411264447-min-kang-yuan",
@@ -131,7 +137,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 1476489738,
-    "candidateUrl": "https://losteria.net/"
+    "candidateUrl": "https://losteria.net/",
+    "source": "https://losteria.net/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-1573053928-seebar",
@@ -189,7 +197,9 @@
     "candidateOsmId": 1906137695,
     "candidateUrl": "https://restaurant-zum-beck.ch/stansstad-restaurant/",
     "candidatePhone": "+41 41 610 12 68",
-    "candidateHours": "Mo-Sa 06:30-23:00; Su 07:00-17:00"
+    "candidateHours": "Mo-Sa 06:30-23:00; Su 07:00-17:00",
+    "source": "https://restaurant-zum-beck.ch/stansstad-restaurant/",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-1927890017-linde",
@@ -213,7 +223,9 @@
     "candidateOsmId": 1927890020,
     "candidateUrl": "https://deranker.ch",
     "candidatePhone": "+41 41 871 30 30",
-    "candidateHours": "Tu-Sa 19:00+"
+    "candidateHours": "Tu-Sa 19:00+",
+    "source": "https://deranker.ch",
+    "lastVerified": "2026-02-11"
   },
   {
     "id": "osm-node-1927890173-schützenstube",
