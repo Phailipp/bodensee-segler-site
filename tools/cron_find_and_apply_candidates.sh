@@ -13,9 +13,12 @@ PY
 )
 
 for LAKE in ${LAKES}; do
+  echo "LAKE=${LAKE}"
   OUT="/tmp/osm_candidates_${LAKE}.json"
-  python3 scripts/find_candidates_osm.py --lake "${LAKE}" > "${OUT}" || true
+  # Overpass can hang; put a hard cap per lake.
+  timeout 220s python3 scripts/find_candidates_osm.py --lake "${LAKE}" > "${OUT}" || true
   CHANGED=$(python3 scripts/apply_candidates.py --lake "${LAKE}" --candidates "${OUT}" | tail -n 1 | tr -d '\r')
+  echo "CHANGED_${LAKE}=${CHANGED}"
   if [[ "${CHANGED}" != "0" ]]; then
     TOTAL=$((TOTAL + CHANGED))
   fi
