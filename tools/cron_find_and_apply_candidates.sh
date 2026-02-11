@@ -40,7 +40,8 @@ for LAKE in ${LAKES}; do
   fi
 done
 
-# 2) Dedup (conservative) + rebuild sitemap/detail pages
+# 2) Sanitize URLs + dedup (conservative) + rebuild sitemap/detail pages
+python3 scripts/sanitize_urls.py --lake "${LAKE}" >/dev/null || true
 python3 scripts/dedup_lake.py --lake "${LAKE}" >/dev/null || true
 python3 scripts/gen_detail_pages.py >/dev/null || true
 

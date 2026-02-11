@@ -72,6 +72,23 @@ function replaceAllStrings(obj, from, to) {
   return obj;
 }
 
+
+function renderLakeLinks() {
+  const box = document.getElementById('lakeLinks');
+  if (!box) return;
+  const links = state.lakeMeta && Array.isArray(state.lakeMeta.links) ? state.lakeMeta.links : [];
+  if (!links.length) {
+    box.innerHTML = '';
+    return;
+  }
+  const html = links.map(l => {
+    const url = escapeHtml(l.url || '');
+    const label = escapeHtml(l.label || l.url || '');
+    return `<a href="${url}" target="_blank" rel="noreferrer">${label}</a>`;
+  }).join('<br>');
+  box.innerHTML = `<p>${html}</p>`;
+}
+
 function applyLakeBranding() {
   const name = state.lakeMeta?.name || 'Bodensee';
 
@@ -187,24 +204,22 @@ function findItemByTypeAndId(type, id) {
 function handleDeepLinkOpen() {
   const o = parseOpenParam();
   if (!o) return;
-  const item = findItemByTypeAndId(o.type, o.id);
-  if (!item) return;
 
-  const sectionId = {
-    harbor: 'haefen',
-    anchor: 'anker',
-    rental: 'vermietung',
-    gastro: 'gastro',
-    service: 'service'
-  }[o.type];
+  const mapEl = document.getElementById('karte');
+  if (mapEl) mapEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
-  if (sectionId) {
-    const el = document.getElementById(sectionId);
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
-  }
-
-  setTimeout(() => openModal(o.type, item), 250);
+  const start = Date.now();
+  const tryOpen = () => {
+    const item = findItemByTypeAndId(o.type, o.id);
+    if (item) {
+      setTimeout(() => openModal(o.type, item), 250);
+      return;
+    }
+    if (Date.now() - start < 3500) return setTimeout(tryOpen, 250);
+  };
+  tryOpen();
 }
+
 
 function setLang(lang) {
   state.lang = lang;
@@ -686,6 +701,7 @@ function renderAll() {
 
   renderCoverage();
   renderLegendToggles();
+  hideZonesIfUnavailable();
   // My location overlay
   if (state.mapLayers.location) {
     if (typeof state._locEnable === 'function') state._locEnable();
@@ -819,7 +835,7 @@ function openModal(type, item) {
   if (coords) actions.push(`<button class="action-btn" id="copyCoordsBtn">${t('modal.actions.copy')}</button>`);
 
   // Search + report / contribute
-  const q = [item.name, item.location, item.region, 'Bodensee'].filter(Boolean).join(' ');
+  const q = [item.name, item.location, item.region, (state.lakeMeta?.name || '')].filter(Boolean).join(' ');
   const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(q)}`;
   actions.push(`<a class="action-btn" href="${searchUrl}" target="_blank" rel="noreferrer">${t('modal.actions.search')}</a>`);
 
@@ -1114,6 +1130,7 @@ function initLocationLayer() {
         state.mapLayers.location = false;
         saveLayerPrefs();
         renderLegendToggles();
+  hideZonesIfUnavailable();
         disable();
       }, { enableHighAccuracy: true, maximumAge: 15000, timeout: 10000 });
     } catch {
@@ -1146,6 +1163,24 @@ function initLocationLayer() {
   state._locDisable = disable;
 }
 
+function hideZonesIfUnavailable() {
+  try {
+    const has = Array.isArray(state.data.layers) && state.data.layers.length;
+    const zoneControls = document.querySelector('.zones-controls');
+    if (zoneControls) zoneControls.style.display = has ? '' : 'none';
+    if (!has) {
+      state.mapLayers.zones = false;
+      try {
+        (state.zoneLayers || []).forEach(l => l.remove());
+        state.zoneLayers = [];
+        if (state.zoneLayer) { state.zoneLayer.remove(); state.zoneLayer = null; }
+      } catch {}
+      const info = document.getElementById('zonesInfo');
+      if (info) info.hidden = true;
+    }
+  } catch {}
+}
+
 function initLegendToggles() {
   $$('.map-legend [data-layer]').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -1156,6 +1191,7 @@ function initLegendToggles() {
     });
   });
   renderLegendToggles();
+  hideZonesIfUnavailable();
 }
 
 function initMap() {
@@ -1549,6 +1585,7 @@ async function main() {
   if (lang === 'en') replaceAllStrings(state.i18n, 'Lake Constance', lakeName);
   setLang(lang);
   applyLakeBranding();
+  renderLakeLinks();
   // Deep link open
   handleDeepLinkOpen();
 
