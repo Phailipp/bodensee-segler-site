@@ -10,14 +10,27 @@ Design: best-effort. Overpass is flaky; return partial results rather than faili
 
 import json
 import time
+import argparse
+from pathlib import Path
 from datetime import date
 
 import requests
 
-BBOX = (47.30, 8.70, 47.90, 10.20)  # south, west, north, east
-
 # Prefer one stable endpoint to avoid long failovers.
 ENDPOINT = "https://overpass.kumi.systems/api/interpreter"
+
+
+def load_bbox(lake_id: str):
+    try:
+        lakes = json.loads(Path('data/lakes.json').read_text(encoding='utf-8'))
+        for l in lakes:
+            if l.get('id') == lake_id:
+                return tuple(l.get('bbox'))
+    except Exception:
+        pass
+    # fallback Bodensee
+    return (47.30, 8.70, 47.90, 10.20)
+
 
 
 def norm_url(u: str) -> str:
@@ -87,11 +100,17 @@ def collect(query: str, kind: str):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--lake", default="bodensee")
+    args = ap.parse_args()
+    lake_id = (args.lake or "bodensee").strip()
+    bbox = load_bbox(lake_id)
+
     marina_query = f"""
 [out:json][timeout:120];
 (
-  nwr[\"leisure\"=\"marina\"][\"website\"]({BBOX[0]},{BBOX[1]},{BBOX[2]},{BBOX[3]});
-  nwr[\"leisure\"=\"marina\"][\"contact:website\"]({BBOX[0]},{BBOX[1]},{BBOX[2]},{BBOX[3]});
+  nwr[\"leisure\"=\"marina\"][\"website\"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
+  nwr[\"leisure\"=\"marina\"][\"contact:website\"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
 );
 out center tags;
 """
@@ -99,8 +118,8 @@ out center tags;
     gastro_query = f"""
 [out:json][timeout:120];
 (
-  nwr[\"amenity\"=\"restaurant\"][\"website\"]({BBOX[0]},{BBOX[1]},{BBOX[2]},{BBOX[3]});
-  nwr[\"amenity\"=\"restaurant\"][\"contact:website\"]({BBOX[0]},{BBOX[1]},{BBOX[2]},{BBOX[3]});
+  nwr[\"amenity\"=\"restaurant\"][\"website\"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
+  nwr[\"amenity\"=\"restaurant\"][\"contact:website\"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
 );
 out center tags;
 """
@@ -108,8 +127,8 @@ out center tags;
     rental_query = f"""
 [out:json][timeout:120];
 (
-  nwr[\"amenity\"=\"boat_rental\"][\"website\"]({BBOX[0]},{BBOX[1]},{BBOX[2]},{BBOX[3]});
-  nwr[\"amenity\"=\"boat_rental\"][\"contact:website\"]({BBOX[0]},{BBOX[1]},{BBOX[2]},{BBOX[3]});
+  nwr[\"amenity\"=\"boat_rental\"][\"website\"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
+  nwr[\"amenity\"=\"boat_rental\"][\"contact:website\"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
 );
 out center tags;
 """

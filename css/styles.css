@@ -1062,3 +1062,29 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 .zones-info .zi-sub { margin-top: 10px; color: rgba(255,255,255,0.65); font-size: 0.82rem; }
 .zones-info .zi-legend-chip { margin-top: 10px; display:flex; align-items:center; gap:10px; color: rgba(255,255,255,0.78); font-size: 0.82rem; }
 .zones-info .zi-swatch { width: 12px; height: 12px; border-radius: 3px; display:inline-block; box-shadow: 0 0 0 1px rgba(255,255,255,0.10); }
+
+
+/* Lake switch (mobile nav) */
+.lake-switch {
+  display: none;
+}
+@media (max-width: 900px) {
+  .lake-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+  }
+  .lake-switch label {
+    color: rgba(255,255,255,0.75);
+    font-size: 0.85rem;
+  }
+  .lake-switch select {
+    flex: 1;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(0,0,0,0.12);
+    color: rgba(255,255,255,0.9);
+    padding: 8px 10px;
+  }
+}

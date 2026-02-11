@@ -8,6 +8,7 @@ Matching: simple token overlap on name.
 
 import json
 import re
+import argparse
 from pathlib import Path
 
 CAND_PATH = Path('/tmp/osm_candidates.json')
@@ -23,13 +24,20 @@ def tokens(s: str):
 
 
 def main():
-    cand = json.loads(CAND_PATH.read_text(encoding='utf-8'))['candidates']
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--lake", default="bodensee")
+    ap.add_argument("--candidates", default=str(CAND_PATH))
+    args = ap.parse_args()
+    lake_id = (args.lake or "bodensee").strip()
+    cand_path = Path(args.candidates)
+
+    cand = json.loads(cand_path.read_text(encoding='utf-8')).get('candidates', [])
     # index by name tokens
     idx = []
     for c in cand:
         idx.append((tokens(c['name']), c))
 
-    data_dir = Path('data')
+    data_dir = Path('data') / 'lakes' / lake_id
     changed = 0
     for p in sorted(data_dir.glob('*.json')):
         items = json.loads(p.read_text(encoding='utf-8'))

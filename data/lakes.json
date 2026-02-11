@@ -1,0 +1,51 @@
+[
+  {
+    "id": "bodensee",
+    "name": "Bodensee",
+    "center": [47.58, 9.45],
+    "zoom": 10,
+    "bbox": [47.30, 8.70, 47.90, 10.20]
+  },
+  {
+    "id": "zuerichsee",
+    "name": "Zürichsee",
+    "center": [47.28, 8.55],
+    "zoom": 11,
+    "bbox": [47.17, 8.40, 47.40, 8.80]
+  },
+  {
+    "id": "vierwaldstaettersee",
+    "name": "Vierwaldstättersee",
+    "center": [47.03, 8.42],
+    "zoom": 11,
+    "bbox": [46.86, 8.17, 47.20, 8.70]
+  },
+  {
+    "id": "genfersee",
+    "name": "Genfersee",
+    "center": [46.45, 6.60],
+    "zoom": 10,
+    "bbox": [46.30, 6.05, 46.55, 7.00]
+  },
+  {
+    "id": "thunersee",
+    "name": "Thunersee",
+    "center": [46.70, 7.67],
+    "zoom": 12,
+    "bbox": [46.62, 7.55, 46.76, 7.82]
+  },
+  {
+    "id": "zugersee",
+    "name": "Zugersee",
+    "center": [47.12, 8.52],
+    "zoom": 12,
+    "bbox": [47.05, 8.43, 47.18, 8.58]
+  },
+  {
+    "id": "lago-maggiore",
+    "name": "Lago Maggiore",
+    "center": [46.10, 8.74],
+    "zoom": 11,
+    "bbox": [45.86, 8.45, 46.26, 9.05]
+  }
+]

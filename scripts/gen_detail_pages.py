@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate static, indexable detail pages for POIs.
 
-Creates detail/<type>/<id>/index.html and a sitemap.xml.
+Creates detail/<lake>/<type>/<id>/index.html and a sitemap.xml.
 Strict: uses existing data only; does not invent facts.
 """
 
@@ -15,11 +15,11 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE_BASE = "https://phailipp.github.io/bodensee-segler-site"
 
 TYPES = {
-    "harbor": "data/harbors.json",
-    "anchor": "data/anchors.json",
-    "rental": "data/rentals.json",
-    "gastro": "data/gastros.json",
-    "service": "data/services.json",
+    'harbor': 'harbors.json',
+    'anchor': 'anchors.json',
+    'rental': 'rentals.json',
+    'gastro': 'gastros.json',
+    'service': 'services.json',
 }
 
 
@@ -48,36 +48,50 @@ def main() -> None:
     urls = []
     today = date.today().isoformat()
 
-    for typ, rel in TYPES.items():
-        data = json.loads((ROOT / rel).read_text(encoding="utf-8"))
-        for it in data:
-            pid = it.get("id")
-            name = it.get("name") or pid
-            if not pid:
+    lakes = []
+    try:
+        lakes = json.loads((ROOT / 'data/lakes.json').read_text(encoding='utf-8'))
+    except Exception:
+        lakes = [{'id': 'bodensee', 'name': 'Bodensee'}]
+
+    for lake in lakes:
+        lake_id = lake.get('id') or 'bodensee'
+        lake_name = lake.get('name') or lake_id
+        base_dir = ROOT / 'data' / 'lakes' / lake_id
+
+        for typ, fname in TYPES.items():
+            pth = base_dir / fname
+            if not pth.exists():
                 continue
+            data = json.loads(pth.read_text(encoding='utf-8'))
+            for it in data:
+                pid = it.get("id")
+                name = it.get("name") or pid
+                if not pid:
+                    continue
 
-            ver = is_verified(it)
-            # premium site: only publish verified pages for indexability
-            if not ver:
-                continue
+                ver = is_verified(it)
+                # premium site: only publish verified pages for indexability
+                if not ver:
+                    continue
 
-            country = label_country(it.get("country"))
-            region = it.get("region") or it.get("location") or ""
-            coords = ""
-            if it.get("lat") is not None and it.get("lng") is not None:
-                coords = f"{it['lat']:.5f}, {it['lng']:.5f}"
+                country = label_country(it.get("country"))
+                region = it.get("region") or it.get("location") or ""
+                coords = ""
+                if it.get("lat") is not None and it.get("lng") is not None:
+                    coords = f"{it['lat']:.5f}, {it['lng']:.5f}"
 
-            source = (it.get("source") or "").strip()
-            lastv = (it.get("lastVerified") or "").strip()
-            title = f"{name} – Bodensee Segler"
-            desc = f"Verified entry: {name}. Official source and last verified date included." if name else "Verified entry with official source."
+                source = (it.get("source") or "").strip()
+                lastv = (it.get("lastVerified") or "").strip()
+                title = f"{name} – {lake_name}"
+                desc = f"Verified entry: {name}. Official source and last verified date included." if name else "Verified entry with official source."
 
-            page_dir = out_root / typ / pid
-            page_dir.mkdir(parents=True, exist_ok=True)
-            url = f"{SITE_BASE}/detail/{typ}/{pid}/"
-            urls.append(url)
+                page_dir = out_root / lake_id / typ / pid
+                page_dir.mkdir(parents=True, exist_ok=True)
+                url = f"{SITE_BASE}/detail/{lake_id}/{typ}/{pid}/"
+                urls.append(url)
 
-            html = f"""<!doctype html>
+                html = f"""<!doctype html>
 <html lang=\"de\">
 <head>
   <meta charset=\"utf-8\" />
@@ -92,12 +106,12 @@ def main() -> None:
 </head>
 <body>
   <nav>
-    <div class=\"logo\">Bodensee<span>.</span></div>
+    <div class=\"logo\">{esc(lake_name)}<span>.</span></div>
     <div class=\"nav-tools\" aria-label=\"Tools\">
-      <a class=\"pill-switch\" href=\"{SITE_BASE}/?open={typ}:{pid}\" style=\"text-decoration:none\">Open on map</a>
+      <a class=\"pill-switch\" href=\"{SITE_BASE}/?lake={lake_id}&open={typ}:{pid}\" style=\"text-decoration:none\">Open on map</a>
       <div class=\"lang-toggle\" aria-label=\"Language selector\">
-        <a class=\"pill-switch\" href=\"{SITE_BASE}/detail/{typ}/{pid}/\" style=\"text-decoration:none\">DE</a>
-        <a class=\"pill-switch\" href=\"{SITE_BASE}/detail/{typ}/{pid}/\" style=\"text-decoration:none\">EN</a>
+        <a class=\"pill-switch\" href=\"{SITE_BASE}/detail/{lake_id}/{typ}/{pid}/\" style=\"text-decoration:none\">DE</a>
+        <a class=\"pill-switch\" href=\"{SITE_BASE}/detail/{lake_id}/{typ}/{pid}/\" style=\"text-decoration:none\">EN</a>
       </div>
     </div>
   </nav>
@@ -116,14 +130,14 @@ def main() -> None:
       <p><span class=\"k\">Last verified</span><br><span class=\"v\">{esc(lastv)}</span></p>
 
       <p style=\"margin-top:24px\">
-        <a class=\"hero-cta\" href=\"{SITE_BASE}/?open={typ}:{pid}\">Open on the map</a>
+        <a class=\"hero-cta\" href=\"{SITE_BASE}/?lake={lake_id}&open={typ}:{pid}\">Open on the map</a>
       </p>
     </div>
   </section>
 </body>
 </html>
 """
-            (page_dir / "index.html").write_text(html, encoding="utf-8")
+                (page_dir / "index.html").write_text(html, encoding="utf-8")
 
     # robots + sitemap
     (ROOT / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: " + SITE_BASE + "/sitemap.xml\n", encoding="utf-8")

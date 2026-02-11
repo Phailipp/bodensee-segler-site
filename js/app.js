@@ -39,11 +39,23 @@ const state = {
     location: false
   },
   showUnverified: false,
-  activePreset: null
+  activePreset: null,
+  lakeId: null,
+  lakeMeta: null,
+  lakesIndex: []
 };
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+
+function getUrlParam(k) {
+  try {
+    const u = new URL(window.location.href);
+    return u.searchParams.get(k);
+  } catch {
+    return null;
+  }
+}
 
 function t(key) {
   return state.i18n?.[key] ?? key;
@@ -857,6 +869,32 @@ function initModal() {
   });
 }
 
+function initLakeSelector() {
+  const sel = document.getElementById('lakeSelect');
+  const logo = document.getElementById('lakeLogo');
+  if (!sel) return;
+
+  const lakes = state.lakesIndex || [];
+  sel.innerHTML = lakes.map(l => `<option value="${escapeHtml(l.id)}">${escapeHtml(l.name)}</option>`).join('');
+  if (state.lakeId) sel.value = state.lakeId;
+
+  const setLogo = () => {
+    const current = lakes.find(x => x.id === sel.value) || state.lakeMeta;
+    if (logo && current?.name) logo.textContent = current.name;
+  };
+  setLogo();
+
+  sel.addEventListener('change', () => {
+    const id = sel.value;
+    const pref = localStorage.getItem('bs_lang');
+    const u = new URL(window.location.href);
+    u.searchParams.set('lake', id);
+    if (pref) u.searchParams.set('lang', pref);
+    u.hash = '#karte';
+    window.location.href = u.toString();
+  });
+}
+
 function initNav() {
   window.addEventListener('scroll', () => {
     $('nav').classList.toggle('scrolled', window.scrollY > 50);
@@ -1094,7 +1132,11 @@ function initMap() {
     scrollWheelZoom: false,
     // Mobile UX: avoid accidental one-finger map panning while scrolling
     dragging: !L.Browser.touch
-  }).setView([47.58, 9.45], 10);
+  });
+
+  const c = state.lakeMeta?.center || [47.58, 9.45];
+  const z = state.lakeMeta?.zoom || 10;
+  state.map.setView(c, z);
 
   L.control.zoom({ position: 'topright' }).addTo(state.map);
 
@@ -1382,14 +1424,28 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
 }
 
 async function main() {
-  // Data
+  // Lakes
+  const lakesIndex = await loadJSON('./data/lakes.json').catch(() => []);
+  state.lakesIndex = lakesIndex;
+
+  const requested = (getUrlParam('lake') || 'bodensee').toLowerCase();
+  const lake = lakesIndex.find(l => l.id === requested)
+    || lakesIndex.find(l => l.id === 'bodensee')
+    || lakesIndex[0]
+    || { id: 'bodensee', name: 'Bodensee', center: [47.58, 9.45], zoom: 10 };
+
+  state.lakeId = lake.id;
+  state.lakeMeta = lake;
+
+  // Data (per lake)
+  const base = `./data/lakes/${lake.id}`;
   const [harbors, anchors, rentals, gastros, services, layersCfg] = await Promise.all([
-    loadJSON('./data/harbors.json'),
-    loadJSON('./data/anchors.json'),
-    loadJSON('./data/rentals.json'),
-    loadJSON('./data/gastros.json'),
-    loadJSON('./data/services.json'),
-    loadJSON('./data/layers.json').catch(() => [])
+    loadJSON(`${base}/harbors.json`).catch(() => []),
+    loadJSON(`${base}/anchors.json`).catch(() => []),
+    loadJSON(`${base}/rentals.json`).catch(() => []),
+    loadJSON(`${base}/gastros.json`).catch(() => []),
+    loadJSON(`${base}/services.json`).catch(() => []),
+    loadJSON(`${base}/layers.json`).catch(() => [])
   ]);
 
   state.data.harbors = harbors;
@@ -1401,6 +1457,7 @@ async function main() {
 
   // Init
   initNav();
+  initLakeSelector();
   initModal();
   setUpFilterBars();
   initScenarioPresets();
@@ -1412,8 +1469,10 @@ async function main() {
   initShareSection();
 
   // Language default
+  const urlLang = getUrlParam('lang');
   const pref = localStorage.getItem('bs_lang');
-  const lang = (pref === 'en' || pref === 'de') ? pref : 'de';
+  const pick = (urlLang === 'en' || urlLang === 'de') ? urlLang : pref;
+  const lang = (pick === 'en' || pick === 'de') ? pick : 'de';
   state.i18n = await loadJSON(`./i18n/${lang}.json`);
   setLang(lang);
   // Deep link open

@@ -17,7 +17,7 @@
 </head>
 <body>
   <nav>
-    <div class="logo">Bodensee<span>.</span></div>
+    <div class="logo"><span id="lakeLogo">Bodensee</span><span>.</span></div>
 
     <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false" aria-controls="mobileNav">
       <span></span><span></span><span></span>
@@ -25,6 +25,10 @@
 
     <ul class="nav-links" id="mobileNav">
       <li><a href="#karte" data-i18n="nav.map">Karte</a></li>
+      <li class="lake-switch">
+        <label for="lakeSelect" data-i18n="nav.lake">See</label>
+        <select id="lakeSelect" aria-label="Lake selector"></select>
+      </li>
       <li><a href="#guide" data-i18n="nav.guide">Guide</a></li>
       <li><a href="#safety" data-i18n="nav.safety">Sicherheit</a></li>
       <li><a href="#haefen" data-i18n="nav.harbors">Häfen</a></li>

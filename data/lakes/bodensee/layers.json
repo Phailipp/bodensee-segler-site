@@ -1,0 +1,94 @@
+[
+  {
+    "id": "ch_ramsar",
+    "name": "CH: Schutzgebiet (Ramsar)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://wms.geo.admin.ch/",
+    "wmsLayers": "ch.bafu.schutzgebiete-ramsar",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
+    "lastVerified": "2026-02-10",
+    "wmsVersion": "1.3.0"
+  },
+  {
+    "id": "ch_bird_reserves",
+    "name": "CH: Vogelreservate (Bundesinventar)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://wms.geo.admin.ch/",
+    "wmsLayers": "ch.bafu.bundesinventare-vogelreservate",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
+    "lastVerified": "2026-02-10",
+    "wmsVersion": "1.3.0"
+  },
+  {
+    "id": "ch_floodplains",
+    "name": "CH: Auen (Bundesinventar)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://wms.geo.admin.ch/",
+    "wmsLayers": "ch.bafu.bundesinventare-auen",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
+    "lastVerified": "2026-02-10",
+    "wmsVersion": "1.3.0"
+  },
+  {
+    "id": "ch_moorlands",
+    "name": "CH: Moorlandschaften (Bundesinventar)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://wms.geo.admin.ch/",
+    "wmsLayers": "ch.bafu.bundesinventare-moorlandschaften",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "source": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities",
+    "lastVerified": "2026-02-10",
+    "wmsVersion": "1.3.0"
+  },
+  {
+    "id": "at_vorarlberg_protected",
+    "name": "AT: Vorarlberg Schutzgebiete (Naturschutzgesetz)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://vogis.cnv.at/geoserver/vogis/schutzgebiete_naturschutz/wms",
+    "wmsLayers": "schutzgebiete_naturschutz",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "source": "https://vogis.cnv.at/geoserver/vogis/schutzgebiete_naturschutz/wms?service=wms&request=Getcapabilities",
+    "lastVerified": "2026-02-10",
+    "wmsVersion": "1.3.0"
+  },
+  {
+    "id": "de_by_protected",
+    "name": "DE: Bayern Schutzgebiete (LfU WMS)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://www.lfu.bayern.de/gdi/wms/natur/schutzgebiete",
+    "wmsLayers": "schutzgebiete_naturschutz",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "wmsVersion": "1.3.0",
+    "source": "https://www.lfu.bayern.de/umweltdaten/geodatendienste/index_detail.htm?id=1e025cc4-d4b1-378e-9924-45950aef2334&profil=WMS",
+    "lastVerified": "2026-02-10"
+  },
+  {
+    "id": "de_bw_lubw_inspire",
+    "name": "DE: BW Schutzgebiete (LUBW INSPIRE)",
+    "kind": "wms",
+    "wmsBaseUrl": "https://rips-gdi.lubw.baden-wuerttemberg.de/arcgis/services/GDI/INSPIRE_Schutzgebiete/MapServer/WMSServer",
+    "wmsLayers": "0",
+    "wmsFormat": "image/png",
+    "wmsTransparent": true,
+    "wmsVersion": "1.3.0",
+    "source": "https://rips-gdi.lubw.baden-wuerttemberg.de/arcgis/services/GDI/INSPIRE_Schutzgebiete/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+    "lastVerified": ""
+  },
+  {
+    "id": "eu_natura2000_bodensee",
+    "name": "DE/EU: Natura 2000 (EEA, Bodensee Ausschnitt)",
+    "kind": "geojson",
+    "path": "data/layers/de_natura2000.geojson",
+    "source": "https://natura2000.eea.europa.eu/ (data via https://nest.discomap.eea.europa.eu/ arcgis FeatureServer Layman_Sites)",
+    "lastVerified": "2026-02-10"
+  }
+]
