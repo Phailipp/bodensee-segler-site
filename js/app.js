@@ -949,7 +949,8 @@ function initZonesInfo() {
     box.innerHTML = `
       <button class="zi-close" type="button" aria-label="Close">x</button>
       <div class="zi-title">Zonen</div>
-      <div>Blau markiert Schutzgebiete und Natura 2000 aus offiziellen Quellen (CH, DE, AT). Aktuell aktiv: ${escapeHtml(label || '—')}.</div>
+      <div>Das sind amtliche Schutzgebiets Layer (CH, DE, AT) inkl. Natura 2000. Aktuell aktiv: ${escapeHtml(label || '—')}.</div>
+      <div style="margin-top:8px">Farben: je Quelle/Layer unterschiedlich (die Ämter liefern eigene Styles). Wenn du es einheitlich willst, müssen wir pro Layer explizite Styles definieren.</div>
       <div style="margin-top:8px">Details und Links: <a href="#sources">Quellen</a></div>
     `;
     box.hidden = false;
