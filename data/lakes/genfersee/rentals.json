@@ -1,1 +1,61 @@
-[]
+[
+  {
+    "id": "osm-node-5779364314-nyon-bateaux",
+    "name": "Nyon Bateaux",
+    "lat": 46.3828687,
+    "lng": 6.2442892,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 5779364314,
+    "candidateUrl": "https://nyonbateaux.ch/"
+  },
+  {
+    "id": "osm-node-6367370985-frogs-rafting",
+    "name": "Frogs Rafting",
+    "lat": 46.3621034,
+    "lng": 6.5201451,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 6367370985,
+    "candidateUrl": "https://www.frogsrafting.com/",
+    "candidatePhone": "+33609308077",
+    "candidateHours": "Mo-Su 09:00-17:00"
+  },
+  {
+    "id": "osm-way-32651088-surf-shop",
+    "name": "Surf Shop",
+    "lat": 46.5129508,
+    "lng": 6.5283356,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "way",
+    "candidateOsmId": 32651088,
+    "candidateUrl": "https://www.surfshop.ch/",
+    "candidateHours": "\"Weather dependent, check online or call\""
+  },
+  {
+    "id": "osm-way-368148599-passion-kayak",
+    "name": "Passion Kayak",
+    "lat": 46.502707,
+    "lng": 6.4895822,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "way",
+    "candidateOsmId": 368148599,
+    "candidateUrl": "http://www.passion-kayak.ch/",
+    "candidatePhone": "+41 79 898 17 05"
+  },
+  {
+    "id": "osm-way-723529613-gal-re-la-libert",
+    "name": "Galère la liberté",
+    "lat": 46.5131882,
+    "lng": 6.510404,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "way",
+    "candidateOsmId": 723529613,
+    "candidateUrl": "https://lagalere.ch/contact/"
+  }
+]

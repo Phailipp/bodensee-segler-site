@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "osm-node-8762345630-bootvermietung-thunersee",
+    "name": "Bootvermietung Thunersee",
+    "lat": 46.7403816,
+    "lng": 7.6308952,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 8762345630,
+    "candidateUrl": "https://bootvermietungthunersee.ch/reservation/"
+  },
+  {
+    "id": "osm-node-8763945584-honu-sup-center",
+    "name": "Honu SUP Center",
+    "lat": 46.7382419,
+    "lng": 7.6318818,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 8763945584,
+    "candidateUrl": "https://www.honu.ch/",
+    "candidatePhone": "+41 79 349 61 99",
+    "candidateHours": "Mo-Fr 10:00-20:00; Sa 10:00-19:00"
+  }
+]

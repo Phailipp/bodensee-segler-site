@@ -1,1 +1,49 @@
-[]
+[
+  {
+    "id": "osm-node-2272921549-ambra",
+    "name": "Ambra",
+    "lat": 46.005361,
+    "lng": 8.9693148,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 2272921549,
+    "candidateUrl": "https://www.ambrataxi.ch/",
+    "candidatePhone": "+41 79 6716288"
+  },
+  {
+    "id": "osm-node-9108921476-nautica-costantini",
+    "name": "Nautica Costantini",
+    "lat": 45.8809375,
+    "lng": 8.5988036,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 9108921476,
+    "candidateUrl": "https://www.nauticacostantini.it",
+    "candidatePhone": "+39 3484424051"
+  },
+  {
+    "id": "osm-node-10596448197-noleggi-casa-vela",
+    "name": "Noleggi Casa&Vela",
+    "lat": 45.9994373,
+    "lng": 8.6565451,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 10596448197,
+    "candidateUrl": "https://www.casaevela.com/noleggi-nautici/"
+  },
+  {
+    "id": "osm-node-11121525566-nautica-bego",
+    "name": "Nautica Bego",
+    "lat": 45.9294113,
+    "lng": 8.568709,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-11",
+    "candidateOsmType": "node",
+    "candidateOsmId": 11121525566,
+    "candidateUrl": "https://www.nauticabego.com/",
+    "candidatePhone": "+39 0323 404544"
+  }
+]
