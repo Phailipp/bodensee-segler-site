@@ -13,8 +13,10 @@
       "id": "S2",
       "title": "Improve unverifiable workflow: accept WhatsApp reply 'ok' or 'source <url>' and apply to entry automatically",
       "priority": 9,
-      "passes": false,
-      "qa": "node scripts/qa_smoke_playwright.cjs https://phailipp.github.io/bodensee-segler-site/?v=qa-ralph"
+      "passes": true,
+      "qa": "node scripts/qa_smoke_playwright.cjs https://phailipp.github.io/bodensee-segler-site/?v=qa-ralph",
+      "lastResult": "ok",
+      "completedAt": "2026-02-17T06:19:10+00:00"
     },
     {
       "id": "S3",

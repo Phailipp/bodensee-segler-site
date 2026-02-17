@@ -2,3 +2,4 @@ Ralph-lite progress log for bodensee-segler-site
 
 Rules: one story per run. Commit only if QA passes. Append-only.
 [2026-02-17T06:16:33+00:00] START S2 Improve unverifiable workflow: accept WhatsApp reply 'ok' or 'source <url>' and apply to entry automatically
+[2026-02-17T06:19:10+00:00] FINISH S2 result=ok notes=QA ok; committed and pushed
