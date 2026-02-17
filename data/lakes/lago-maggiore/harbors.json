@@ -9,7 +9,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 560849534,
     "candidateUrl": "https://portolago.com/SpondaPiemontese/Ghiffa/Porti/DescrizionePorto.html",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://portolago.com/SpondaPiemontese/Ghiffa/Porti/DescrizionePorto.html",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-node-2885571214-scuola-nautica-mike",
@@ -22,7 +24,9 @@
     "candidateOsmId": 2885571214,
     "candidateUrl": "https://www.snmike.ch/",
     "candidatePhone": "+41 76 8177277",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.snmike.ch/",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-node-4043767492-porto-ticino-brissago",
@@ -47,7 +51,9 @@
     "candidateOsmId": 10035932668,
     "candidateUrl": "https://www.portolocarno.com",
     "candidatePhone": "+41 91 752 30 40",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.portolocarno.com",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-node-10035932670-centro-nautico-di-domenico-sa",
@@ -60,7 +66,9 @@
     "candidateOsmId": 10035932670,
     "candidateUrl": "https://www.didomenico.ch/",
     "candidatePhone": "+41 91 752 16 63",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.didomenico.ch/",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-way-222274951-marina-portolabieno",
@@ -85,7 +93,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 271854672,
     "candidateUrl": "https://www.morcote.ch/index.php?node=337&lng=1&rif=e4624a1800",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.morcote.ch/index.php?node=337&lng=1&rif=e4624a1800",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-way-289214139-porto-marinestar",
@@ -134,7 +144,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 289222861,
     "candidateUrl": "https://www.portolago.com/SpondaLombarda/Calde-Castelveccana/Porti/DescrizionePorto.html",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.portolago.com/SpondaLombarda/Calde-Castelveccana/Porti/DescrizionePorto.html",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-way-289227894-porto-comunale-di-laveno-mombello",
@@ -158,7 +170,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 309837331,
     "candidateUrl": "https://www.portoascona.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.portoascona.ch/",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-way-337003498-porto-alla-resiga",
@@ -183,7 +197,9 @@
     "candidateOsmId": 339011844,
     "candidateUrl": "https://cvll.ch/",
     "candidatePhone": "+41 91 9710975",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://cvll.ch/",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-way-390452949-porto-vecchio",
