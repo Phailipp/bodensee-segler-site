@@ -1,0 +1,16 @@
+{
+  "updatedAt": "2026-02-17T06:16:33+00:00",
+  "state": "in_progress",
+  "summary": {
+    "total": 5,
+    "done": 2,
+    "blocked": 0,
+    "open": 3
+  },
+  "current": {
+    "id": "S2",
+    "title": "Improve unverifiable workflow: accept WhatsApp reply 'ok' or 'source <url>' and apply to entry automatically",
+    "priority": 9,
+    "qa": "node scripts/qa_smoke_playwright.cjs https://phailipp.github.io/bodensee-segler-site/?v=qa-ralph"
+  }
+}
