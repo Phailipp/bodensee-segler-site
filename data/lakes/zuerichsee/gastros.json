@@ -12,7 +12,8 @@
     "candidatePhone": "+41 44 220 15 15",
     "candidateHours": "Mo-Su 11:30-23:00",
     "source": "https://www.zeughauskeller.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-242557373-rössli",
@@ -25,7 +26,8 @@
     "candidateOsmId": 242557373,
     "candidateUrl": "https://www.roesslibeiz.ch",
     "source": "https://www.roesslibeiz.ch",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-262594347-thai-orchid",
@@ -38,7 +40,8 @@
     "candidateOsmId": 262594347,
     "candidateUrl": "https://www.thai-orchid.ch/",
     "source": "https://www.thai-orchid.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-268467807-kronenhalle",
@@ -53,7 +56,8 @@
     "candidatePhone": "+41 44 262 99 00",
     "candidateHours": "Mo-Su 12:00-24:00",
     "source": "https://www.kronenhalle.com",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-268467884-terrasse-restaurant",
@@ -68,7 +72,8 @@
     "candidatePhone": "+41 44 251 10 74",
     "candidateHours": "Mo-Th 11:30-23:00; Fr-Sa 11:30-24:00; Su 10:00-14:00 \"Brunch\", 14:15-23:00",
     "source": "https://www.bindella.ch/gastronomie/terrasse-restaurant",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-268468109-caf-bar-odeon",
@@ -82,7 +87,8 @@
     "candidateUrl": "https://odeon.ch/",
     "candidateHours": "Mo-Th 07:00-24:00, Fr-Sa 07:00-02:00, Su 09:00-24:00",
     "source": "https://odeon.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-268468215-rosaly-s",
@@ -96,7 +102,8 @@
     "candidateUrl": "https://www.rosalys.ch/",
     "candidateHours": "Mo-Fr 11:30-14:30, 17:00-24:00; Sa 17:00-01:00; Su 17:00-24:00",
     "source": "https://www.rosalys.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-269913252-weisse-rose",
@@ -110,7 +117,8 @@
     "candidateUrl": "https://www.weissero.se",
     "candidateHours": "Tu-Sa 17:00+; PH closed",
     "source": "https://www.weissero.se",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-270799836-blockhus",
@@ -125,7 +133,8 @@
     "candidatePhone": "+41 44 252 14 53",
     "candidateHours": "Mo-Tu 11:30-14:00,17:30-23:00; We-Sa 11:30-24:00",
     "source": "https://restaurant-blockhus.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-270800540-weisser-wind",
@@ -139,7 +148,8 @@
     "candidateUrl": "https://weisserwind.ch/",
     "candidateHours": "Mo-Fr 11:30-14:00,17:30-23:00; Sa 12:00-23:00",
     "source": "https://weisserwind.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-270800743-papa-joe-s-zürich",
@@ -153,7 +163,8 @@
     "candidateUrl": "https://www.papajoes.ch/de/Restaurants/",
     "candidateHours": "Fr-Sa 11:30-01:00; Su-Th 11:30-23:00",
     "source": "https://www.papajoes.ch/de/Restaurants/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-270800785-molino",
@@ -167,7 +178,8 @@
     "candidateUrl": "https://molino.ch/de/pizzeria-ristorante-molino-select",
     "candidateHours": "10:00-23:00",
     "source": "https://molino.ch/de/pizzeria-ristorante-molino-select",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-270803256-zunfthaus-zur-meisen",
@@ -180,7 +192,8 @@
     "candidateOsmId": 270803256,
     "candidateUrl": "https://www.zunfthaus-zur-meisen.ch/",
     "source": "https://www.zunfthaus-zur-meisen.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-270938371-zunfthaus-zur-waag",
@@ -194,7 +207,8 @@
     "candidateUrl": "https://zunfthaus-zur-waag.ch/",
     "candidateHours": "Mo-Sa 11:30-14:00, 18:00-22:00; Nov-Dec Su 11:30-14:00",
     "source": "https://zunfthaus-zur-waag.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-270938393-münsterhöfli",
@@ -208,7 +222,8 @@
     "candidateUrl": "https://www.muensterhoefli.ch/",
     "candidateHours": "Mo-Fr 11:30-14:00,18:00-24:00, Sa 11:30-24:00",
     "source": "https://www.muensterhoefli.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-270938652-n-n",
@@ -222,7 +237,8 @@
     "candidateUrl": "https://www.anan.ch/",
     "candidateHours": "Mo-Th 10:00-23:00; Fr,Sa 10:00-00:00",
     "source": "https://www.anan.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-270938706-milchbar",
@@ -235,7 +251,8 @@
     "candidateOsmId": 270938706,
     "candidateUrl": "https://www.milchbar.ch/",
     "source": "https://www.milchbar.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-270938826-old-fashion-bar",
@@ -250,7 +267,8 @@
     "candidatePhone": "+41 44 225 18 86",
     "candidateHours": "Mo 11:30-24:00; Tu 11:30-01:00; We-Sa 11:30-02:00",
     "source": "https://old-fashion-bar.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-272354078-belcafe",
@@ -264,7 +282,8 @@
     "candidateUrl": "https://www.belcafe.ch/",
     "candidateHours": "Mo-Fr 06:00-21:00; Sa 07:00-21:00",
     "source": "https://www.belcafe.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-289669633-l-altro",
@@ -278,6 +297,566 @@
     "candidateUrl": "https://www.l-altro.ch/",
     "candidateHours": "Mo-Fr 11:30-14:30,18:00-24:00",
     "source": "https://www.l-altro.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-308131133-du-lac",
+    "name": "Du Lac",
+    "lat": 47.2284429,
+    "lng": 8.6752832,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 308131133,
+    "candidateUrl": "https://dulac-waedenswil.ch/",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-373522259-frohsinn",
+    "name": "Frohsinn",
+    "lat": 47.239119,
+    "lng": 8.7195317,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 373522259,
+    "candidateUrl": "https://www.frohsinn-staefa.ch/",
+    "candidatePhone": "+41 44 926 13 40",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-383891068-seeperle",
+    "name": "Seeperle",
+    "lat": 47.2393879,
+    "lng": 8.7182767,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 383891068,
+    "candidateUrl": "https://seeperle.ch",
+    "candidatePhone": "+41 44 926 12 31",
+    "candidateHours": "Tu - Sa 17:00 - 23:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-383931304-kunming-garten",
+    "name": "Kunming Garten",
+    "lat": 47.2393541,
+    "lng": 8.7183933,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 383931304,
+    "candidateUrl": "https://kunminggarten.ch/",
+    "candidatePhone": "+41 43 818 05 21",
+    "candidateHours": "Tu-Fr 11:30-14:00, 17:30-22:30; Su 11:30-14:00, 17:30-22:30; Sa 17:30-22:30",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-391015242-hafenrestaurant",
+    "name": "Hafenrestaurant",
+    "lat": 47.1727745,
+    "lng": 8.5046063,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 391015242,
+    "candidateUrl": "https://www.hafenrestaurant.ch/",
+    "candidatePhone": "+41 41 711 90 70",
+    "candidateHours": "Mo-Su 08:00-24:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-391015244-podium-41",
+    "name": "Podium 41",
+    "lat": 47.1731574,
+    "lng": 8.506438,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 391015244,
+    "candidatePhone": "+41 41 710 53 83"
+  },
+  {
+    "id": "osm-node-471352741-ristorante-da-mamma-lisetta",
+    "name": "Ristorante da Mamma Lisetta",
+    "lat": 47.2526815,
+    "lng": 8.6916103,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 471352741,
+    "candidateUrl": "https://www.damammalisetta.ch",
+    "candidatePhone": "+41 44 542 37 74",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-781864510-gasthof-seefeld",
+    "name": "Gasthof Seefeld",
+    "lat": 47.2093645,
+    "lng": 8.7956786,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 781864510,
+    "candidateUrl": "https://www.gasthofseefeld.ch/",
+    "candidateHours": "Mo-Th 17:00-24:00; Fr 17:00-02:00; Sa 16:00-02:00; Su 16:00-23:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-1333805241-gasthaus-zum-rathaus",
+    "name": "Gasthaus zum Rathaus",
+    "lat": 47.2058815,
+    "lng": 8.7748146,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 1333805241,
+    "candidateUrl": "https://www.zumrathaus.ch/",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-1666425551-gartenhof-testarossa",
+    "name": "Gartenhof Testarossa",
+    "lat": 47.2066966,
+    "lng": 8.7086953,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 1666425551,
+    "candidateHours": "Mo 08:45-24:00; We-Fr 08:45-24:00; Sa 10:00-24:00; Su 10:00-22:30",
+    "candidateUrl": ""
+  },
+  {
+    "id": "osm-node-1828780522-suan-long",
+    "name": "Suan Long",
+    "lat": 47.2294853,
+    "lng": 8.6743778,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 1828780522,
+    "candidateUrl": "https://suan-long.ch/suanlong/",
+    "candidatePhone": "+41 43 477 86 86",
+    "candidateHours": "Tu-Su 11:30-22:00; Sa 09:00-17:00; PH closed",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-2728409574-schützenhaus",
+    "name": "Schützenhaus",
+    "lat": 47.2388812,
+    "lng": 8.7186631,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 2728409574,
+    "candidateUrl": "https://www.schuetzenhaus-staefa.ch/",
+    "candidatePhone": "+41 44 926 13 58",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-3327477870-big-burger",
+    "name": "Big Burger",
+    "lat": 47.2531404,
+    "lng": 8.6899729,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 3327477870,
+    "candidateUrl": "https://bigburger.ch/diner-maennedorf/",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-3875945857-metropol",
+    "name": "Metropol",
+    "lat": 47.3684217,
+    "lng": 8.5411604,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 3875945857,
+    "candidateUrl": "https://metropol-restaurant.ch/",
+    "candidateHours": "Mo-Sa 11:00-23:00; PH,Su closed",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-4362133521-seerestaurant-steinburg",
+    "name": "Seerestaurant Steinburg",
+    "lat": 47.3204337,
+    "lng": 8.5786242,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 4362133521,
+    "candidateUrl": "https://seerestaurant-steinburg.ch/",
+    "candidatePhone": "+41449100638",
+    "candidateHours": "Tu-Sa 17:30-23:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-4602150493-sea-thai-take-away",
+    "name": "Sea Thai Take Away",
+    "lat": 47.2274918,
+    "lng": 8.6756562,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 4602150493,
+    "candidateUrl": "https://www.seathai.ch/",
+    "candidatePhone": "+41 43 477 92 53",
+    "candidateHours": "Mo-Th 11:00-14:00,18:00-21:00; Fr 11:00-14:00,18:00-23:00; Sa 18:00-23:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-4833061571-restaurant-kiosk",
+    "name": "Restaurant Kiosk",
+    "lat": 47.358135,
+    "lng": 8.5478933,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 4833061571,
+    "candidateUrl": "https://restaurant-kiosk.ch/",
+    "candidateHours": "Mo-Su 10:00-17:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-5107045693-sonne",
+    "name": "Sonne",
+    "lat": 47.2394606,
+    "lng": 8.718053,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 5107045693,
+    "candidateUrl": "https://www.sonnestaefa.ch/",
+    "candidatePhone": "+41 43 477 10 10",
+    "candidateHours": "Tu-Sa 07:00-14:00, 18:00-22:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-5301253159-spice-village",
+    "name": "Spice Village",
+    "lat": 47.2571539,
+    "lng": 8.6838301,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 5301253159,
+    "candidateUrl": "https://spicevillage.ch/",
+    "candidatePhone": "+41 43 539 51 10",
+    "candidateHours": "Mo-Fr 11:00-14:00,17:30-23:00; Sa-Su 17:00-23:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-5732101244-sonnengalerie",
+    "name": "Sonnengalerie",
+    "lat": 47.3191884,
+    "lng": 8.578779,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 5732101244,
+    "candidateUrl": "https://sonne.ch/de/Restaurant-und-Bar#gourmetrestaurant",
+    "candidatePhone": "+41 44 914 18 18",
+    "candidateHours": "12:00-13:45,18:00-22:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-5732101245-sonne-gaststuben",
+    "name": "Sonne Gaststuben",
+    "lat": 47.3191284,
+    "lng": 8.578846,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 5732101245,
+    "candidateUrl": "https://sonne.ch/de/Restaurant-und-Bar#gaststube",
+    "candidatePhone": "+41 44 914 18 18",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-6657221623-indigo",
+    "name": "Indigo",
+    "lat": 47.3269647,
+    "lng": 8.5744946,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 6657221623,
+    "candidateUrl": "https://www.zfv.ch/de/essen-gehen/restaurant-indigo",
+    "candidatePhone": "+41 44 991 32 40",
+    "candidateHours": "Mo-Fr 08:00-14:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-7530276499-schiffstation",
+    "name": "Schiffstation",
+    "lat": 47.2528858,
+    "lng": 8.6889906,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 7530276499,
+    "candidateUrl": "https://www.schiffstation.ch/",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-7628821083-rico-s",
+    "name": "Rico's",
+    "lat": 47.3155127,
+    "lng": 8.5799829,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 7628821083,
+    "candidateUrl": "https://www.ricozandonella.ch",
+    "candidateHours": "Tu-Sa 12:00-14:00,19:00-22:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-9063937841-dapura-mia",
+    "name": "Dapura Mia",
+    "lat": 47.208746,
+    "lng": 8.7063103,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 9063937841,
+    "candidateUrl": "https://www.dapuramia.ch/",
+    "candidatePhone": "+41 44 578 48 58",
+    "candidateHours": "Mo off; Tu-Th 11:30-14:00,17:30-22:30; Fr 11:30-14:00,17:30-23:30; Sa 17:30-23:30; Su 17:30-22:30",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-9414760018-nunzio-s-pizza",
+    "name": "Nunzio's Pizza",
+    "lat": 47.229644,
+    "lng": 8.6737032,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 9414760018,
+    "candidateUrl": "https://www.nunzios-pizza.ch",
+    "candidatePhone": "+41 44 594 11 00",
+    "candidateHours": "Mo-Su 11:00-22:00; PH open",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-9863681273-sonne-am-see",
+    "name": "Sonne am See",
+    "lat": 47.3190697,
+    "lng": 8.5785293,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 9863681273,
+    "candidateUrl": "https://sonneamsee.ch/",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-11710850798-olivo",
+    "name": "Olivo",
+    "lat": 47.2612529,
+    "lng": 8.5964733,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 11710850798,
+    "candidateUrl": "https://ristorante-olivo.ch",
+    "candidatePhone": "+41 44 534 99 99",
+    "candidateHours": "Mo-Fr 06:00-00:00; Sa 07:00-00:00; Su PH 08:00-00:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-11959590083-alegria-ceviche-bar",
+    "name": "Alegria Ceviche Bar",
+    "lat": 47.2291302,
+    "lng": 8.6757997,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 11959590083,
+    "candidateUrl": "https://www.ceviche-bar.ch/menue",
+    "candidatePhone": "+41795840902",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-13272576587-im-schilf",
+    "name": "Im Schilf",
+    "lat": 47.3432656,
+    "lng": 8.6908841,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 13272576587,
+    "candidateUrl": "https://www.schilf.ch/",
+    "candidateHours": "Mo-Su 09:00-22:30",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-24388757-löwen",
+    "name": "Löwen",
+    "lat": 47.2680541,
+    "lng": 8.6404825,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 24388757,
+    "candidateUrl": "https://www.loewen-meilen.ch/",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-25926028-jade-garden",
+    "name": "Jade Garden",
+    "lat": 47.2597221,
+    "lng": 8.6761571,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 25926028,
+    "candidateUrl": "https://www.jadegarden.ch/",
+    "candidatePhone": "+41 43 277 02 66",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-30320466-hirschen-am-see",
+    "name": "Hirschen am See",
+    "lat": 47.264364,
+    "lng": 8.6559945,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 30320466,
+    "candidateUrl": "https://www.hirschen-meilen.ch/",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-30320469-zum-trauben",
+    "name": "zum Trauben",
+    "lat": 47.2648765,
+    "lng": 8.6552263,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 30320469,
+    "candidateUrl": "https://www.trauben-meilen.ch/",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-31967333-pier-7",
+    "name": "Pier 7",
+    "lat": 47.3679451,
+    "lng": 8.5434919,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 31967333,
+    "candidateUrl": "https://www.pier7.ch/Pier-7-Club/Club-Restaurant/",
+    "candidatePhone": "+41 44 261 70 55",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-38091305-samigo",
+    "name": "Samigo",
+    "lat": 47.3588576,
+    "lng": 8.5369556,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 38091305,
+    "candidateUrl": "https://samigo.ch/",
+    "candidateHours": "Tu-Th 19:00-00:00; Fr,Sa 19:00-03:00; Su 10:00-16:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-38098975-bauschänzli",
+    "name": "Bauschänzli",
+    "lat": 47.3678613,
+    "lng": 8.5423935,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 38098975,
+    "candidateUrl": "https://bauschaenzli.com/",
+    "candidatePhone": "+41 44 212 49 19",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-38176803-seerose",
+    "name": "Seerose",
+    "lat": 47.3383977,
+    "lng": 8.5405188,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 38176803,
+    "candidateUrl": "https://www.seerose.dinning.ch/",
+    "candidatePhone": "+41 44 481 63 83",
+    "candidateHours": "Mo-Su 09:00-24:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-92696361-bahnhof-post",
+    "name": "Bahnhof Post",
+    "lat": 47.2533368,
+    "lng": 8.6916646,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 92696361,
+    "candidateHours": "Mo-Fr 08:00-23:00; Sa 10:30-22:00; Su off",
+    "candidateUrl": ""
+  },
+  {
+    "id": "osm-way-99899136-restaurant-namaste-schiffli",
+    "name": "Restaurant Namaste Schiffli",
+    "lat": 47.2084813,
+    "lng": 8.7066971,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 99899136,
+    "candidateHours": "Mo-Fr 10:00-14:00,17:00-23:00; Sa 11:00-14:30,17:00-23:00; Su 17:00-22:00",
+    "candidateUrl": ""
+  },
+  {
+    "id": "osm-way-152042075-il-faro",
+    "name": "Il Faro",
+    "lat": 47.2836458,
+    "lng": 8.6100948,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 152042075,
+    "candidateUrl": "https://ilfaro.ch/index.php?page=herrliberg",
+    "candidateHours": "Mo-Su 11:00-23:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-296932543-seerosen-bar",
+    "name": "Seerosen-Bar",
+    "lat": 47.2054166,
+    "lng": 8.7737495,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 296932543,
+    "candidateHours": "Mo-Th 11:30-14:30,17:00-01:00, Fr 11:30-14:30,16:00-02:00, Sa 16:00-02:00, Su 14:00-24:00",
+    "candidateUrl": ""
+  },
+  {
+    "id": "osm-way-378113675-portofino",
+    "name": "Portofino",
+    "lat": 47.2939333,
+    "lng": 8.5701292,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 378113675,
+    "candidateUrl": "https://www.portofino-am-see.ch/",
+    "candidatePhone": "+41 44 720 32 40",
+    "candidateUrlKind": "web"
   }
 ]

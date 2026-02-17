@@ -9,7 +9,8 @@
     "candidateOsmType": "node",
     "candidateOsmId": 2272921549,
     "candidateUrl": "https://www.ambrataxi.ch/",
-    "candidatePhone": "+41 79 6716288"
+    "candidatePhone": "+41 79 6716288",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-9108921476-nautica-costantini",
@@ -21,7 +22,8 @@
     "candidateOsmType": "node",
     "candidateOsmId": 9108921476,
     "candidateUrl": "https://www.nauticacostantini.it",
-    "candidatePhone": "+39 3484424051"
+    "candidatePhone": "+39 3484424051",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-10596448197-noleggi-casa-vela",
@@ -32,7 +34,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 10596448197,
-    "candidateUrl": "https://www.casaevela.com/noleggi-nautici/"
+    "candidateUrl": "https://www.casaevela.com/noleggi-nautici/",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-11121525566-nautica-bego",
@@ -44,6 +47,7 @@
     "candidateOsmType": "node",
     "candidateOsmId": 11121525566,
     "candidateUrl": "https://www.nauticabego.com/",
-    "candidatePhone": "+39 0323 404544"
+    "candidatePhone": "+39 0323 404544",
+    "candidateUrlKind": "web"
   }
 ]

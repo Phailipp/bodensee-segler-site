@@ -8,7 +8,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 3656305150,
-    "candidateUrl": "https://bootshaussempach.ch/"
+    "candidateUrl": "https://bootshaussempach.ch/",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-3926683571-riviera-boote-boat-rental",
@@ -20,7 +21,8 @@
     "candidateOsmType": "node",
     "candidateOsmId": 3926683571,
     "candidateUrl": "https://riviera-boote.ch/rio-400-ole/",
-    "candidatePhone": "+41418281268"
+    "candidatePhone": "+41418281268",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-6371617106-riviera-boote",
@@ -31,7 +33,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 6371617106,
-    "candidateUrl": "https://riviera-boote.ch"
+    "candidateUrl": "https://riviera-boote.ch",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-8293034772-swiss-classic-boats",
@@ -45,7 +48,8 @@
     "candidateUrl": "https://swissclassicboats.com/",
     "candidateHours": "Mo-Su 09:00-18:00",
     "source": "https://swissclassicboats.com/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-13015128894-war",
@@ -59,7 +63,8 @@
     "candidateUrl": "https://war.ch/service#vermietung",
     "candidatePhone": "+41 41 850 58 55",
     "source": "https://war.ch/service#vermietung",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-826985621-herzog-bootsvermietung",
@@ -74,6 +79,7 @@
     "candidatePhone": "+41 41 410 43 33",
     "candidateHours": "Apr-Oct",
     "source": "https://www.herzog.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   }
 ]

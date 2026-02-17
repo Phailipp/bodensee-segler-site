@@ -9,7 +9,8 @@
     "candidateOsmType": "node",
     "candidateOsmId": 9908963185,
     "candidateUrl": "https://www.morges.ch/vivre-a-morges/loisirs/ports/port-du-bief-8615",
-    "candidatePhone": "+41 21 694 33 55"
+    "candidatePhone": "+41 21 694 33 55",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-164810958-port-des-mouettes",
@@ -21,7 +22,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 164810958,
     "candidateUrl": "https://ville-evian.fr/fr/loisirs/port-de-plaisance",
-    "candidatePhone": "+33 4 50 75 36 10"
+    "candidatePhone": "+33 4 50 75 36 10",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-208958743-port-de-taillecou",
@@ -33,7 +35,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 208958743,
     "candidateUrl": "https://secure.i-web.ch/gemweb/saintprex/fr/toolbar/rechercher/?sl_q=Port&x=0&y=0",
-    "candidatePhone": "+41 79 510 81 79"
+    "candidatePhone": "+41 79 510 81 79",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-286986333-port-de-la-tour-de-peilz",
@@ -45,7 +48,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 286986333,
     "candidateUrl": "https://www.la-tour-de-peilz.ch/administration/cpages.php?id_page_b=30",
-    "candidatePhone": "+41 21 977 01 25"
+    "candidatePhone": "+41 21 977 01 25",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-296762158-port-de-la-baie-de-l-glise",
@@ -57,7 +61,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 296762158,
     "candidateUrl": "https://www.morges.ch/vivre-a-morges/loisirs/ports/port-de-la-baie-de-l-eglise-8614",
-    "candidatePhone": "+41 79 325 97 06"
+    "candidatePhone": "+41 79 325 97 06",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-298856883-port-de-plaisance-de-sciez",
@@ -68,8 +73,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 298856883,
-    "candidateUrl": "http://port-de-sciez.com/",
-    "candidatePhone": "+33 4 50 72 60 33"
+    "candidateUrl": "https://port-de-sciez.com/",
+    "candidatePhone": "+33 4 50 72 60 33",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-299128154-port-lugrin-tourronde",
@@ -81,7 +87,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 299128154,
     "candidateUrl": "https://www.mairie-lugrin.fr/index.php/2015-01-26-08-42-35/tourisme/plan-de-la-ville/joomlannuaire/fiche/72-port-de-lugrin/4-infrastructures-municipales",
-    "candidatePhone": "+33 4 50 76 00 38"
+    "candidatePhone": "+33 4 50 76 00 38",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-305943726-port-de-amphion-publier",
@@ -93,7 +100,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 305943726,
     "candidateUrl": "https://www.ville-publier.fr/mairie/port.htm",
-    "candidatePhone": "+33 4 50 70 82 14"
+    "candidatePhone": "+33 4 50 70 82 14",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-375735257-port-vidoli",
@@ -104,8 +112,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 375735257,
-    "candidateUrl": "http://www.portvidoli.ch/",
-    "candidatePhone": "+41 22 776 91 25"
+    "candidateUrl": "https://www.portvidoli.ch/",
+    "candidatePhone": "+41 22 776 91 25",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-375735258-port-de-crans",
@@ -117,7 +126,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 375735258,
     "candidateUrl": "https://cncrans.ch/le-port-de-crans/",
-    "candidatePhone": "+41 79 952 79 49"
+    "candidatePhone": "+41 79 952 79 49",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-375735259-port-de-nyon",
@@ -129,7 +139,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 375735259,
     "candidateUrl": "https://www.nyon.ch/vivre-a-nyon/loisirs-sport-et-nature/port-et-activites-lacustres-1599",
-    "candidatePhone": "+41 22 363 82 42"
+    "candidatePhone": "+41 22 363 82 42",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-375735260-port-des-aberiaux",
@@ -141,7 +152,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 375735260,
     "candidateUrl": "https://prangins.ch/prangins-officiel/administration/batiment-environnement-espaces-verts-et-travaux-sebie/port-communal/",
-    "candidatePhone": "+41 79 321 52 59"
+    "candidatePhone": "+41 79 321 52 59",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-428087530-port-de-rolle",
@@ -153,7 +165,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 428087530,
     "candidateUrl": "https://www.rolle.ch/net/Net_Rolle.asp?NoOFS=5861&Sty=&NumStr=52",
-    "candidatePhone": "+41 21 825 28 60"
+    "candidatePhone": "+41 21 825 28 60",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-428087545-port-des-vernes",
@@ -165,7 +178,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 428087545,
     "candidateUrl": "https://www.rolle.ch/N431/ports.html",
-    "candidatePhone": "+41 79 515 49 43"
+    "candidatePhone": "+41 79 515 49 43",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-954069244-port-du-clos-de-chillon",
@@ -177,7 +191,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 954069244,
     "candidateUrl": "https://veytaux.ch/port-du-clos-de-chillon",
-    "candidatePhone": "+41 21 966 05 55"
+    "candidatePhone": "+41 21 966 05 55",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1080912330-port-de-c-ligny",
@@ -189,7 +204,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 1080912330,
     "candidateUrl": "https://www.ge.ch/navigation-capitainerie/ports",
-    "candidatePhone": "+41 22 388 55 50"
+    "candidatePhone": "+41 22 388 55 50",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1080912334-vieux-port",
@@ -201,7 +217,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 1080912334,
     "candidateUrl": "https://www.ge.ch/navigation-capitainerie/ports",
-    "candidatePhone": "+41 22 388 55 50"
+    "candidatePhone": "+41 22 388 55 50",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1081021590-port-du-ch-teau",
@@ -213,7 +230,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 1081021590,
     "candidateUrl": "https://www.morges.ch/vivre-a-morges/loisirs/ports/port-du-chateau-vieux-port-8613",
-    "candidatePhone": "+41 79 325 97 06"
+    "candidatePhone": "+41 79 325 97 06",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1081079209-port-de-territet",
@@ -225,7 +243,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 1081079209,
     "candidateUrl": "https://www.montreux.ch/habiter-et-decouvrir/territoire/ports/",
-    "candidatePhone": "+41 79 622 76 11"
+    "candidatePhone": "+41 79 622 76 11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1081150641-port-du-basset",
@@ -237,7 +256,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 1081150641,
     "candidateUrl": "https://www.montreux.ch/habiter-et-decouvrir/territoire/ports",
-    "candidatePhone": "+41 79 622 76 11"
+    "candidatePhone": "+41 79 622 76 11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1081150642-port-de-coppet",
@@ -249,7 +269,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 1081150642,
     "candidateUrl": "https://www.coppet.ch/demarchesadministratives/26383",
-    "candidatePhone": "+41 22 960 87 05"
+    "candidatePhone": "+41 22 960 87 05",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-relation-1230905-port-des-pierrettes",
@@ -261,7 +282,8 @@
     "candidateOsmType": "relation",
     "candidateOsmId": 1230905,
     "candidateUrl": "https://portdespierrettes.ch/",
-    "candidatePhone": "+41 79 863 89 43"
+    "candidatePhone": "+41 79 863 89 43",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-relation-1232067-port-de-paudex",
@@ -272,7 +294,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "relation",
     "candidateOsmId": 1232067,
-    "candidateUrl": "https://www.paudex.ch/port-de-paudex-fr4145.html"
+    "candidateUrl": "https://www.paudex.ch/port-de-paudex-fr4145.html",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-relation-1232070-port-du-vieux-stand",
@@ -284,7 +307,8 @@
     "candidateOsmType": "relation",
     "candidateOsmId": 1232070,
     "candidateUrl": "https://www.portduvieuxstand.ch/",
-    "candidatePhone": "+41 21 792 11 68"
+    "candidatePhone": "+41 21 792 11 68",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-relation-1232073-port-d-ouchy",
@@ -296,7 +320,8 @@
     "candidateOsmType": "relation",
     "candidateOsmId": 1232073,
     "candidateUrl": "https://www.lausanne.ch/recherche.html?query=port&type=lausanne",
-    "candidatePhone": "+41 21 315 32 35"
+    "candidatePhone": "+41 21 315 32 35",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-relation-1232074-port-de-pully",
@@ -308,7 +333,8 @@
     "candidateOsmType": "relation",
     "candidateOsmId": 1232074,
     "candidateUrl": "https://www.pully.ch/fr/vivre-a-pully/sports-et-loisirs/le-port/",
-    "candidatePhone": "+41 21 721 35 39"
+    "candidatePhone": "+41 21 721 35 39",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-relation-1288033-port-du-petit-bois",
@@ -320,7 +346,8 @@
     "candidateOsmType": "relation",
     "candidateOsmId": 1288033,
     "candidateUrl": "https://www.morges.ch/vivre-a-morges/loisirs/ports/port-du-petit-bois-nouveau-port-8612",
-    "candidatePhone": "+41 79 325 97 06"
+    "candidatePhone": "+41 79 325 97 06",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-relation-2194474-port-de-la-pichette-est",
@@ -331,8 +358,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "relation",
     "candidateOsmId": 2194474,
-    "candidateUrl": "http://www.port-pichette-est.ch/",
-    "candidatePhone": "+41 79 378 52 16"
+    "candidateUrl": "https://www.port-pichette-est.ch/",
+    "candidatePhone": "+41 79 378 52 16",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-relation-2196645-port-du-bouveret",
@@ -344,7 +372,8 @@
     "candidateOsmType": "relation",
     "candidateOsmId": 2196645,
     "candidateUrl": "https://www.port-valais.ch/fr/port-bouveret-1457.html",
-    "candidatePhone": "+41 79 397 67 71"
+    "candidatePhone": "+41 79 397 67 71",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-relation-13753798-port-de-plaisance-de-rives",
@@ -356,7 +385,8 @@
     "candidateOsmType": "relation",
     "candidateOsmId": 13753798,
     "candidateUrl": "https://www.ville-thonon.fr/annuaire/10/97-port-de-plaisance-de-rives-et-sa-capitainerie.htm",
-    "candidatePhone": "+33 4 50 71 24 00"
+    "candidatePhone": "+33 4 50 71 24 00",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-relation-13767405-port-de-plaisance-d-yvoire",
@@ -368,7 +398,8 @@
     "candidateOsmType": "relation",
     "candidateOsmId": 13767405,
     "candidateUrl": "https://espace-plaisancier.fr/yvoire",
-    "candidatePhone": "+33 4 50 72 83 28"
+    "candidatePhone": "+33 4 50 72 83 28",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-relation-18420256-port-de-l-ouchettaz",
@@ -380,6 +411,7 @@
     "candidateOsmType": "relation",
     "candidateOsmId": 18420256,
     "candidateUrl": "https://www.villeneuve.ch/net/Net_Villeneuve.asp?NoOFS=5414&Sty=&NumStr=37",
-    "candidatePhone": "+41 21 967 09 82"
+    "candidatePhone": "+41 21 967 09 82",
+    "candidateUrlKind": "web"
   }
 ]

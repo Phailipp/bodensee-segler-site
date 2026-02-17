@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "id": "osm-node-903623437-holiday",
+    "name": "Holiday",
+    "lat": 46.7412342,
+    "lng": 7.6280138,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 903623437,
+    "candidateHours": "Mo-Sa 08:00-21:30; Su 08:00-17:00"
+  },
+  {
+    "id": "osm-node-1346658181-strandbad-thun",
+    "name": "Strandbad Thun",
+    "lat": 46.7397391,
+    "lng": 7.6314961,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 1346658181,
+    "candidateUrl": "https://www.strandbadthun.ch/",
+    "candidatePhone": "+41 33 335 25 80",
+    "candidateHours": "May-Sep: 07:00-20:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-3334262587-möve",
+    "name": "Möve",
+    "lat": 46.6677011,
+    "lng": 7.7189267,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 3334262587,
+    "candidateUrl": "https://www.moeve.ch/",
+    "candidatePhone": "+41 33 654 68 66",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-6766535819-restaurant-belair",
+    "name": "Restaurant BelAir",
+    "lat": 46.6963141,
+    "lng": 7.7374745,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 6766535819,
+    "candidateUrl": "https://www.beatus.ch/",
+    "candidatePhone": "+41 33 252 81 81",
+    "candidateHours": "daily",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-217478287-alpha",
+    "name": "Alpha",
+    "lat": 46.7406469,
+    "lng": 7.6272767,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 217478287,
+    "candidateUrl": "https://www.alpha-thun.ch",
+    "candidatePhone": "+41 33 223 73 47",
+    "candidateHours": "Mo-Sa 11:30-23:30",
+    "candidateUrlKind": "web"
+  }
+]

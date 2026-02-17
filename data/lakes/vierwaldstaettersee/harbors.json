@@ -8,7 +8,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 1485039266,
-    "candidateUrl": "https://bootshafen-luzern.ch/"
+    "candidateUrl": "https://bootshafen-luzern.ch/",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-1587149289-gemeindebootshafen-hergiswil",
@@ -22,7 +23,8 @@
     "candidateUrl": "https://www.bootshafen-hergiswil.ch/",
     "candidatePhone": "+41 41 631 07 74",
     "source": "https://www.bootshafen-hergiswil.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-1838168777-marina-fallenbach-brunnen",
@@ -36,7 +38,8 @@
     "candidateUrl": "https://www.marina-fallenbach.ch/",
     "candidatePhone": "+41 41 8256557",
     "source": "https://www.marina-fallenbach.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-1912141554-bootshafen-rütenen",
@@ -50,7 +53,8 @@
     "candidateUrl": "https://bootshafen.ch/",
     "candidatePhone": "+41 41 6207075",
     "source": "https://bootshafen.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-1939897970-motorboothafen-luzern",
@@ -61,7 +65,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 1939897970,
-    "candidateUrl": "https://bootshafen-luzern.ch/"
+    "candidateUrl": "https://bootshafen-luzern.ch/",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-2146366559-bootshafen-vitznau",
@@ -73,7 +78,8 @@
     "candidateOsmType": "node",
     "candidateOsmId": 2146366559,
     "candidateUrl": "https://www.vitznau.ch/xml_1/internet/de/application/d15/f345.cfm",
-    "candidatePhone": "+41 41 3971707"
+    "candidatePhone": "+41 41 3971707",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-2146366561-genossenschaft-bootshafen-flüelen",
@@ -87,7 +93,8 @@
     "candidateUrl": "https://www.bootshafen-fluelen.ch/",
     "candidatePhone": "+41 79 782 72 87",
     "source": "https://www.bootshafen-fluelen.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-405653318-bootshafen-sisikon",
@@ -101,7 +108,8 @@
     "candidateUrl": "https://www.bhs.swiss/",
     "candidatePhone": "+41 41 820 33 45",
     "source": "https://www.bhs.swiss/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-406517074-bootshafen-stansstad",
@@ -113,7 +121,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 406517074,
     "candidateUrl": "https://www.stansstad.ch/de/tourismus/gemeindebootshafen/",
-    "candidatePhone": "+41 41 6104769"
+    "candidatePhone": "+41 41 6104769",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-871464490-föhnhafen-brunnen",
@@ -127,7 +136,8 @@
     "candidateUrl": "https://www.igf-brunnen.ch/",
     "candidatePhone": "+41 79 356 87 77",
     "source": "https://www.igf-brunnen.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1284714428-bootshafen-hostatt-kehrsiten",
@@ -139,6 +149,7 @@
     "candidateOsmType": "way",
     "candidateOsmId": 1284714428,
     "candidateUrl": "https://www.bootshafenkehrsiten.ch/",
-    "candidatePhone": "+41 41 4293090"
+    "candidatePhone": "+41 41 4293090",
+    "candidateUrlKind": "web"
   }
 ]

@@ -8,7 +8,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 5779364314,
-    "candidateUrl": "https://nyonbateaux.ch/"
+    "candidateUrl": "https://nyonbateaux.ch/",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-6367370985-frogs-rafting",
@@ -21,7 +22,8 @@
     "candidateOsmId": 6367370985,
     "candidateUrl": "https://www.frogsrafting.com/",
     "candidatePhone": "+33609308077",
-    "candidateHours": "Mo-Su 09:00-17:00"
+    "candidateHours": "Mo-Su 09:00-17:00",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-32651088-surf-shop",
@@ -33,7 +35,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 32651088,
     "candidateUrl": "https://www.surfshop.ch/",
-    "candidateHours": "\"Weather dependent, check online or call\""
+    "candidateHours": "\"Weather dependent, check online or call\"",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-368148599-passion-kayak",
@@ -44,8 +47,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 368148599,
-    "candidateUrl": "http://www.passion-kayak.ch/",
-    "candidatePhone": "+41 79 898 17 05"
+    "candidateUrl": "https://www.passion-kayak.ch/",
+    "candidatePhone": "+41 79 898 17 05",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-723529613-gal-re-la-libert",
@@ -56,6 +60,7 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 723529613,
-    "candidateUrl": "https://lagalere.ch/contact/"
+    "candidateUrl": "https://lagalere.ch/contact/",
+    "candidateUrlKind": "web"
   }
 ]

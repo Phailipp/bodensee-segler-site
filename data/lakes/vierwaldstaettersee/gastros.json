@@ -12,7 +12,8 @@
     "candidatePhone": "+41 41 711 90 70",
     "candidateHours": "Mo-Su 08:00-24:00",
     "source": "https://www.hafenrestaurant.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-506889674-luce",
@@ -26,7 +27,8 @@
     "candidateUrl": "https://www.lucerestaurant.ch/",
     "candidateHours": "Mo-Fr 06:30-10:00, Sa,Su 06:30-10:30, Mo-Fr 12:00-14:00, Mo-Sa 18:00-21:30",
     "source": "https://www.lucerestaurant.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-1120153532-notencaf",
@@ -37,9 +39,10 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 1120153532,
-    "candidateUrl": "http://www.notencafe.ch/",
+    "candidateUrl": "https://www.notencafe.ch/",
     "source": "http://www.notencafe.ch/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-1476489738-l-osteria",
@@ -52,7 +55,8 @@
     "candidateOsmId": 1476489738,
     "candidateUrl": "https://losteria.net/",
     "source": "https://losteria.net/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-1906137695-zum-beck",
@@ -67,7 +71,8 @@
     "candidatePhone": "+41 41 610 12 68",
     "candidateHours": "Mo-Sa 06:30-23:00; Su 07:00-17:00",
     "source": "https://restaurant-zum-beck.ch/stansstad-restaurant/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-1927890020-anker",
@@ -82,6 +87,175 @@
     "candidatePhone": "+41 41 871 30 30",
     "candidateHours": "Tu-Sa 19:00+",
     "source": "https://deranker.ch",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-391015244-podium-41",
+    "name": "Podium 41",
+    "lat": 47.1731574,
+    "lng": 8.506438,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 391015244,
+    "candidatePhone": "+41 41 710 53 83"
+  },
+  {
+    "id": "osm-node-2146366617-lüchttürmli",
+    "name": "Lüchttürmli",
+    "lat": 47.0315498,
+    "lng": 8.4296184,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 2146366617,
+    "candidateUrl": "https://www.lüchttürmli.ch",
+    "candidatePhone": "+41 76 298 39 68",
+    "candidateHours": "We-Mo 10:00-23:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-2388806411-seeland-restaurant",
+    "name": "Seeland Restaurant",
+    "lat": 47.1257402,
+    "lng": 8.1900383,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 2388806411,
+    "candidateUrl": "https://www.seelandsempach.ch/",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-2628290278-hallenbad-restaurant",
+    "name": "Hallenbad Restaurant",
+    "lat": 46.9950396,
+    "lng": 8.5989276,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 2628290278,
+    "candidateHours": "We,Th 09:00-23:00; Fr,Sa 09:00-24:00; Su 09:00-22:00",
+    "candidateUrl": ""
+  },
+  {
+    "id": "osm-node-7792137002-bahnhöfli",
+    "name": "Bahnhöfli",
+    "lat": 47.0831264,
+    "lng": 8.4352381,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 7792137002,
+    "candidatePhone": "+41 41 850 11 38"
+  },
+  {
+    "id": "osm-node-8994121848-restaurant-seeblick",
+    "name": "Restaurant Seeblick",
+    "lat": 46.9803942,
+    "lng": 8.3372819,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 8994121848,
+    "candidateUrl": "https://www.winkelried.ch/restaurant",
+    "candidatePhone": "+41 41 618 23 23",
+    "candidateHours": "Mo-Su,PH 09:00-21:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-node-9050846771-restaurant-viktoria",
+    "name": "Restaurant Viktoria",
+    "lat": 46.9952009,
+    "lng": 8.6003423,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "node",
+    "candidateOsmId": 9050846771,
+    "candidateUrl": "https://restaurant-viktoria.ch/",
+    "candidatePhone": "+41 41 820 35 35",
+    "candidateHours": "Mo-Su 10:00-14:00,17:00-23:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-194089032-tell-am-see",
+    "name": "Tell am See",
+    "lat": 47.0025036,
+    "lng": 8.379253,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 194089032,
+    "candidateUrl": "https://www.tellamsee.ch/",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-194089079-mathisli",
+    "name": "Mathisli",
+    "lat": 47.0021571,
+    "lng": 8.3717624,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 194089079,
+    "candidateUrl": "https://www.mathisli.ch/",
+    "candidatePhone": "+41 41 610 81 81",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-204644984-beaufort",
+    "name": "beaufort",
+    "lat": 47.0008701,
+    "lng": 8.58035,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 204644984,
+    "candidateUrl": "https://www.restaurant-beaufort.ch/",
+    "candidatePhone": "+41418200505",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-263965381-hafenrestaurant",
+    "name": "Hafenrestaurant",
+    "lat": 46.9807323,
+    "lng": 8.3365304,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 263965381,
+    "candidateUrl": "https://www.winkelried.ch/pizzeria",
+    "candidatePhone": "+41 41 618 23 23",
+    "candidateHours": "Mo-Fr 11:30-14:00,17:30-22:00; Sa,Su,PH 11:30-22:00",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-376674872-hotel-restaurant-rössli-stansstad",
+    "name": "Hotel Restaurant Rössli Stansstad",
+    "lat": 46.9798885,
+    "lng": 8.3375978,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 376674872,
+    "candidateUrl": "https://www.roessli-stansstad.ch",
+    "candidatePhone": "+41 41 619 15 15",
+    "candidateHours": "Mo-Sa 07:00 - 23:00; PH off",
+    "candidateUrlKind": "web"
+  },
+  {
+    "id": "osm-way-546069693-studenhütte",
+    "name": "Studenhütte",
+    "lat": 47.133808,
+    "lng": 8.6082294,
+    "candidateSource": "osm",
+    "candidateFoundAt": "2026-02-17",
+    "candidateOsmType": "way",
+    "candidateOsmId": 546069693,
+    "candidateUrl": "https://studenhuette.ch/",
+    "candidatePhone": "+41 79 703 13 16",
+    "candidateHours": "Apr-Oct Mo-Su,PH 10:00-23:00 open \"nur bei schönem Wetter\"",
+    "candidateUrlKind": "web"
   }
 ]

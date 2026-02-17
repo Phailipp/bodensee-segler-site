@@ -8,10 +8,11 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 1854708269,
-    "candidateUrl": "http://www.yachthafen.ch",
+    "candidateUrl": "https://www.yachthafen.ch",
     "candidatePhone": "+41 44 482 99 44",
     "source": "https://www.faul.ch/ueber-uns/",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-98633716-hafen-rietliau",
@@ -24,6 +25,7 @@
     "candidateOsmId": 98633716,
     "candidateUrl": "https://www.hafengenossenschaft-waedenswil.ch",
     "source": "https://www.skipperguide.de/wiki/Z%C3%BCrichsee",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   }
 ]

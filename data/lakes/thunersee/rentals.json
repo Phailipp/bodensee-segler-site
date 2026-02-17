@@ -8,7 +8,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 8762345630,
-    "candidateUrl": "https://bootvermietungthunersee.ch/reservation/"
+    "candidateUrl": "https://bootvermietungthunersee.ch/reservation/",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-8763945584-honu-sup-center",
@@ -21,6 +22,7 @@
     "candidateOsmId": 8763945584,
     "candidateUrl": "https://www.honu.ch/",
     "candidatePhone": "+41 79 349 61 99",
-    "candidateHours": "Mo-Fr 10:00-20:00; Sa 10:00-19:00"
+    "candidateHours": "Mo-Fr 10:00-20:00; Sa 10:00-19:00",
+    "candidateUrlKind": "web"
   }
 ]

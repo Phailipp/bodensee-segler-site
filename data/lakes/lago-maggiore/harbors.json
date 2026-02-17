@@ -8,7 +8,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 560849534,
-    "candidateUrl": "https://portolago.com/SpondaPiemontese/Ghiffa/Porti/DescrizionePorto.html"
+    "candidateUrl": "https://portolago.com/SpondaPiemontese/Ghiffa/Porti/DescrizionePorto.html",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-2885571214-scuola-nautica-mike",
@@ -20,7 +21,8 @@
     "candidateOsmType": "node",
     "candidateOsmId": 2885571214,
     "candidateUrl": "https://www.snmike.ch/",
-    "candidatePhone": "+41 76 8177277"
+    "candidatePhone": "+41 76 8177277",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-4043767492-porto-ticino-brissago",
@@ -31,7 +33,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 4043767492,
-    "candidateUrl": "https://www.yachtsport-resort.com/YachtsportResort/page/harbourInstallation?language=2"
+    "candidateUrl": "https://www.yachtsport-resort.com/YachtsportResort/page/harbourInstallation?language=2",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-10035932668-porto-regionale-di-locarno",
@@ -42,8 +45,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 10035932668,
-    "candidateUrl": "http://www.portolocarno.com",
-    "candidatePhone": "+41 91 752 30 40"
+    "candidateUrl": "https://www.portolocarno.com",
+    "candidatePhone": "+41 91 752 30 40",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-10035932670-centro-nautico-di-domenico-sa",
@@ -55,7 +59,8 @@
     "candidateOsmType": "node",
     "candidateOsmId": 10035932670,
     "candidateUrl": "https://www.didomenico.ch/",
-    "candidatePhone": "+41 91 752 16 63"
+    "candidatePhone": "+41 91 752 16 63",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-222274951-marina-portolabieno",
@@ -66,8 +71,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 222274951,
-    "candidateUrl": "http://www.portolabieno.com",
-    "candidatePhone": "+39 333 2899977"
+    "candidateUrl": "https://www.portolabieno.com",
+    "candidatePhone": "+39 333 2899977",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-271854672-porto-comunale-vedo-arbostora",
@@ -78,7 +84,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 271854672,
-    "candidateUrl": "https://www.morcote.ch/index.php?node=337&lng=1&rif=e4624a1800"
+    "candidateUrl": "https://www.morcote.ch/index.php?node=337&lng=1&rif=e4624a1800",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-289214139-porto-marinestar",
@@ -89,8 +96,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 289214139,
-    "candidateUrl": "http://www.marinestar.it",
-    "candidatePhone": "+39 332 531169"
+    "candidateUrl": "https://www.marinestar.it",
+    "candidatePhone": "+39 332 531169",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-289214146-porto-lido",
@@ -101,7 +109,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 289214146,
-    "candidateUrl": "http://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html"
+    "candidateUrl": "https://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-289214196-porto-nuovo",
@@ -112,7 +121,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 289214196,
-    "candidateUrl": "http://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html"
+    "candidateUrl": "https://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-289222861-porto-comunale-cald",
@@ -123,7 +133,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 289222861,
-    "candidateUrl": "http://www.portolago.com/SpondaLombarda/Calde-Castelveccana/Porti/DescrizionePorto.html"
+    "candidateUrl": "https://www.portolago.com/SpondaLombarda/Calde-Castelveccana/Porti/DescrizionePorto.html",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-289227894-porto-comunale-di-laveno-mombello",
@@ -134,7 +145,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 289227894,
-    "candidateUrl": "http://portolago.com/SpondaLombarda/Laveno/Porti/DescrizionePorti.htm"
+    "candidateUrl": "https://portolago.com/SpondaLombarda/Laveno/Porti/DescrizionePorti.htm",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-309837331-porto-patriziale-ascona",
@@ -145,7 +157,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 309837331,
-    "candidateUrl": "https://www.portoascona.ch/"
+    "candidateUrl": "https://www.portoascona.ch/",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-337003498-porto-alla-resiga",
@@ -156,7 +169,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 337003498,
-    "candidateUrl": "https://www.brissago.ch/index.php?node=370&lng=1&rif=1d68f07bc4&cnt=Cerca%20nel%20sito"
+    "candidateUrl": "https://www.brissago.ch/index.php?node=370&lng=1&rif=1d68f07bc4&cnt=Cerca%20nel%20sito",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-339011844-circolo-velico-lago-di-lugano",
@@ -168,7 +182,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 339011844,
     "candidateUrl": "https://cvll.ch/",
-    "candidatePhone": "+41 91 9710975"
+    "candidatePhone": "+41 91 9710975",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-390452949-porto-vecchio",
@@ -179,7 +194,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 390452949,
-    "candidateUrl": "http://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html"
+    "candidateUrl": "https://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1131704994-porto-turistico-portobello",
@@ -190,7 +206,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 1131704994,
-    "candidateUrl": "https://www.nauticabego.com/news/portobello-cannero/"
+    "candidateUrl": "https://www.nauticabego.com/news/portobello-cannero/",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1135790031-porto-comunale-di-verbania-intra",
@@ -201,7 +218,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 1135790031,
-    "candidateUrl": "http://portolago.com/SpondaPiemontese/Intra/Porti/DescrizionePorto.html"
+    "candidateUrl": "https://portolago.com/SpondaPiemontese/Intra/Porti/DescrizionePorto.html",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1156339304-nuovo-porto-di-stresa",
@@ -212,7 +230,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 1156339304,
-    "candidateUrl": "http://www.portolago.com/SpondaPiemontese/Stresa/Porti/DescrizionePorti.htm"
+    "candidateUrl": "https://www.portolago.com/SpondaPiemontese/Stresa/Porti/DescrizionePorti.htm",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1183972693-porto-della-madonnina",
@@ -223,7 +242,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 1183972693,
-    "candidateUrl": "http://www.portolago.com/SpondaLombarda/Maccagno/Porti/DescrizionePorto.html"
+    "candidateUrl": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/DescrizionePorto.html",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1198049623-nuovo-porto-la-gabella",
@@ -234,7 +254,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 1198049623,
-    "candidateUrl": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/NuovoPortoGabella.htm"
+    "candidateUrl": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/NuovoPortoGabella.htm",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1198049624-porto-della-gabella",
@@ -245,7 +266,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 1198049624,
-    "candidateUrl": "http://www.portolago.com/SpondaLombarda/Maccagno/Porti/PortoDellaGabella.htm"
+    "candidateUrl": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/PortoDellaGabella.htm",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1198052119-vecchio-porto-comunale-di-porto-valtravaglia",
@@ -256,7 +278,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 1198052119,
-    "candidateUrl": "http://www.portolago.com/SpondaLombarda/PortoValtravaglia/Porti/DescrizionePorto.html"
+    "candidateUrl": "https://www.portolago.com/SpondaLombarda/PortoValtravaglia/Porti/DescrizionePorto.html",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1198896322-porto-turistico-comunale-di-feriolo-di-baveno",
@@ -267,7 +290,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 1198896322,
-    "candidateUrl": "http://portolago.com/SpondaPiemontese/Feriolo/Porti/PontiliGalleggianti.html"
+    "candidateUrl": "https://portolago.com/SpondaPiemontese/Feriolo/Porti/PontiliGalleggianti.html",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-way-1432286296-nuovo-porto-turistico-di-porto-valtravaglia",
@@ -278,7 +302,8 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 1432286296,
-    "candidateUrl": "http://www.portolago.com/SpondaLombarda/PortoValtravaglia/Porti/DescrizionePorto.html"
+    "candidateUrl": "https://www.portolago.com/SpondaLombarda/PortoValtravaglia/Porti/DescrizionePorto.html",
+    "candidateUrlKind": "web"
   },
   {
     "id": "osm-relation-14299735-porto-comunale-san-dazio",
@@ -289,6 +314,7 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "relation",
     "candidateOsmId": 14299735,
-    "candidateUrl": "http://portolago.com/SpondaPiemontese/Pallanza/Porti/DescrizionePorto.html"
+    "candidateUrl": "https://portolago.com/SpondaPiemontese/Pallanza/Porti/DescrizionePorto.html",
+    "candidateUrlKind": "web"
   }
 ]

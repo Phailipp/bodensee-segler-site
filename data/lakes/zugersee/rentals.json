@@ -11,6 +11,7 @@
     "candidateUrl": "https://war.ch/service#vermietung",
     "candidatePhone": "+41 41 850 58 55",
     "source": "https://war.ch/service#vermietung",
-    "lastVerified": "2026-02-11"
+    "lastVerified": "2026-02-11",
+    "candidateUrlKind": "web"
   }
 ]
