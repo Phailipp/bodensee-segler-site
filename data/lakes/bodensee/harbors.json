@@ -265,7 +265,9 @@
     "candidateOsmId": 482794547,
     "candidateUrl": "https://www.lsc.de/",
     "candidatePhone": "+49 160 96669311",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.lsc.de/",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-node-1314526554-segelhafen-tsg-lindau-zech",
@@ -278,7 +280,9 @@
     "candidateOsmId": 1314526554,
     "candidateUrl": "https://www.tsg-wassersport.de/",
     "candidatePhone": "+49 171 1764328",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.tsg-wassersport.de/",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-node-1400960446-yacht-club-lindau",
@@ -290,7 +294,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1400960446,
     "candidateUrl": "https://yacht-club-lindau.de/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://yacht-club-lindau.de/",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-node-1734986804-hafen-am-rheinspitz",
@@ -302,7 +308,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1734986804,
     "candidateUrl": "https://www.rheinunternehmen.ch/index.php?id=34",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.rheinunternehmen.ch/index.php?id=34",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-node-1784645818-dsmc-deutsch-schweizerischer-motorboot-club",
@@ -328,7 +336,9 @@
     "candidateOsmId": 2116185027,
     "candidateUrl": "https://www.buehler-segelfreunde.de/",
     "candidatePhone": "+49 8323 4655",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.buehler-segelfreunde.de/",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-node-2116185176-segelclub-alpsee-immenstadt",
@@ -341,7 +351,9 @@
     "candidateOsmId": 2116185176,
     "candidateUrl": "https://scai.immenstadt.de/",
     "candidatePhone": "+49 8323 3373",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.scai.bayern/verein/",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-node-2116185184-segelclub-trieblings-immenstadt-scti",
@@ -354,7 +366,9 @@
     "candidateOsmId": 2116185184,
     "candidateUrl": "https://www.scti.de/",
     "candidatePhone": "+49 8327 394",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://segelclub-bodman.eu/hafen",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-node-2116185191-wassersportschule-oberallgäu",
@@ -367,7 +381,9 @@
     "candidateOsmId": 2116185191,
     "candidateUrl": "https://www.wassersportschule-oberallgaeu.de/",
     "candidatePhone": "+49 8323 52200",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.wassersportschule-oberallgaeu.de/",
+    "lastVerified": "2026-02-17"
   },
   {
     "id": "osm-node-2135894087-wassersportclub-montfort",
