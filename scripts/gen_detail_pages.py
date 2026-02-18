@@ -108,7 +108,7 @@ def main() -> None:
   <nav>
     <div class=\"logo\">{esc(lake_name)}<span>.</span></div>
     <div class=\"nav-tools\" aria-label=\"Tools\">
-      <a class=\"pill-switch\" href=\"{SITE_BASE}/?lake={lake_id}&open={typ}:{pid}\" style=\"text-decoration:none\">Open on map</a>
+      <a class=\"pill-switch\" href=\"{SITE_BASE}/?lake={lake_id}&open={typ}:{pid}#karte\" style=\"text-decoration:none\">Open on map</a>
       <div class=\"lang-toggle\" aria-label=\"Language selector\">
         <a class=\"pill-switch\" href=\"{SITE_BASE}/detail/{lake_id}/{typ}/{pid}/\" style=\"text-decoration:none\">DE</a>
         <a class=\"pill-switch\" href=\"{SITE_BASE}/detail/{lake_id}/{typ}/{pid}/\" style=\"text-decoration:none\">EN</a>
@@ -130,7 +130,7 @@ def main() -> None:
       <p><span class=\"k\">Last verified</span><br><span class=\"v\">{esc(lastv)}</span></p>
 
       <p style=\"margin-top:24px\">
-        <a class=\"hero-cta\" href=\"{SITE_BASE}/?lake={lake_id}&open={typ}:{pid}\">Open on the map</a>
+        <a class=\"hero-cta\" href=\"{SITE_BASE}/?lake={lake_id}&open={typ}:{pid}#karte\">Open on the map</a>
       </p>
     </div>
   </section>

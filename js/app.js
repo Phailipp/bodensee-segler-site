@@ -190,33 +190,71 @@ function parseOpenParam() {
 }
 
 function findItemByTypeAndId(type, id) {
+  const d = state.data || {};
   const list = {
-    harbor: state.data.harbors,
-    anchor: state.data.anchors,
-    rental: state.data.rentals,
-    gastro: state.data.gastros,
-    service: state.data.services
+    harbor: d.harbors,
+    anchor: d.anchors,
+    rental: d.rentals,
+    gastro: d.gastros,
+    service: d.services
   }[type];
-  if (!list) return null;
+  if (!Array.isArray(list)) return null;
   return list.find(x => x.id === id) || null;
+}
+
+function resolveOpenTarget({ type, id }) {
+  // Happy path: explicit type matches.
+  const direct = findItemByTypeAndId(type, id);
+  if (direct) return { type, item: direct };
+
+  // Robustness: if type is unknown/misspelled, still try to locate by id.
+  const d = state.data || {};
+  const buckets = [
+    ['harbor', d.harbors],
+    ['anchor', d.anchors],
+    ['rental', d.rentals],
+    ['gastro', d.gastros],
+    ['service', d.services]
+  ];
+  for (const [t, list] of buckets) {
+    if (!Array.isArray(list)) continue;
+    const hit = list.find(x => x.id === id);
+    if (hit) return { type: t, item: hit };
+  }
+  return null;
 }
 
 function handleDeepLinkOpen() {
   const o = parseOpenParam();
   if (!o) return;
 
+  // If the URL requests an item to open, make the target area stable and predictable.
+  try {
+    if (!window.location.hash) window.location.hash = '#karte';
+  } catch {}
+
   const mapEl = document.getElementById('karte');
   if (mapEl) mapEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
   const start = Date.now();
   const tryOpen = () => {
-    const item = findItemByTypeAndId(o.type, o.id);
-    if (item) {
-      setTimeout(() => openModal(o.type, item), 250);
-      return;
+    // Wait for the essentials: data loaded, modal DOM present, and Leaflet map created.
+    const modalReady = !!(document.getElementById('modalBackdrop') && document.getElementById('modalBody'));
+    const mapReady = !!state.map;
+    const dataReady = !!(state.data && (state.data.harbors || state.data.anchors || state.data.rentals || state.data.gastros || state.data.services));
+
+    if (modalReady && mapReady && dataReady) {
+      const target = resolveOpenTarget(o);
+      if (target?.item) {
+        // No artificial delay: if we can open, we open.
+        openModal(target.type, target.item);
+        return;
+      }
     }
-    if (Date.now() - start < 3500) return setTimeout(tryOpen, 250);
+
+    if (Date.now() - start < 6500) return setTimeout(tryOpen, 180);
   };
+
   tryOpen();
 }
 
