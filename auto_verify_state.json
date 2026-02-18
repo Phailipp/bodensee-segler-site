@@ -1,5 +1,7 @@
 {
-  "nextLakeIndex": 8,
+  "nextLakeIndex": 1,
   "lastRun": "2026-02-17T06:13:10+00:00",
-  "status": "ok"
+  "status": "ok",
+  "lastLakeId": "bodensee",
+  "lastLakeName": "Bodensee"
 }

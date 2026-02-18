@@ -396,7 +396,9 @@
     "candidateOsmId": 2135894087,
     "candidateUrl": "https://www.wscm-ev.de/",
     "candidatePhone": "+49 7543 912541",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.wscm-ev.de/",
+    "lastVerified": "2026-02-18"
   },
   {
     "id": "osm-node-2136074828-yachthafen-wassersport-gemeinschaft-konstanz-egg",
@@ -409,7 +411,9 @@
     "candidateOsmId": 2136074828,
     "candidateUrl": "https://www.wg-egg.de/",
     "candidatePhone": "+49 7531 55273",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.wg-egg.de/",
+    "lastVerified": "2026-02-18"
   },
   {
     "id": "osm-node-2364829496-alter-hafen-am-grethaus",
@@ -421,7 +425,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 2364829496,
     "candidateUrl": "https://www.skipperguide.de/wiki/Ludwigshafen/Bodensee#Alter_Hafen_am_Grethaus",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.skipperguide.de/wiki/Ludwigshafen/Bodensee#Alter_Hafen_am_Grethaus",
+    "lastVerified": "2026-02-18"
   },
   {
     "id": "osm-node-2463692272-hafen-feldbach-steckborn",
@@ -433,7 +439,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 2463692272,
     "candidateUrl": "https://www.steckborn.ch/index.php?id=67",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.steckborn.ch/index.php?id=67",
+    "lastVerified": "2026-02-18"
   },
   {
     "id": "osm-way-32645361-lochau-osthafen",
@@ -446,7 +454,9 @@
     "candidateOsmId": 32645361,
     "candidateUrl": "https://gemeinde.lochau.at/hafen.html",
     "candidatePhone": "+43 5574 42168 212",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://gemeinde.lochau.at/hafen.html",
+    "lastVerified": "2026-02-18"
   },
   {
     "id": "osm-way-37978752-gemeindehafen-bottighofen",
@@ -459,7 +469,9 @@
     "candidateOsmId": 37978752,
     "candidateUrl": "https://www.svb-bottighofen.ch/",
     "candidatePhone": "+41 71 6884168",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.svb-bottighofen.ch/",
+    "lastVerified": "2026-02-18"
   },
   {
     "id": "osm-way-48531302-yachthafen-radolfzell",
@@ -472,7 +484,9 @@
     "candidateOsmId": 48531302,
     "candidateUrl": "https://www.ycra.de/",
     "candidatePhone": "+49 7732 988081",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ycra.de/",
+    "lastVerified": "2026-02-18"
   },
   {
     "id": "osm-way-76032579-hafen-am-rohrspitz",
@@ -498,7 +512,9 @@
     "candidateOsmId": 82470103,
     "candidateUrl": "https://www.marinarheinhof.ch/",
     "candidatePhone": "+41 71 8555555",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.marinarheinhof.ch/",
+    "lastVerified": "2026-02-18"
   },
   {
     "id": "osm-way-83200835-bregenzer-sporthafen",
