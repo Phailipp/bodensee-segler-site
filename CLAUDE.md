@@ -3,7 +3,7 @@
 ## Git Workflow
 
 - **Arbeite auf `main`** – alle Commits lokal auf main machen
-- **Am Ende der Arbeit:** PR erstellen damit der User die Änderungen reviewen kann
+- **Am Ende IMMER pushen** – damit der User die Änderungen live gehen lassen kann
   1. Neuen Branch von main erstellen: `claude/<kurze-beschreibung>`
   2. Branch pushen
   3. PR öffnen mit Zusammenfassung
@@ -41,5 +41,4 @@
 ## Offene Punkte
 
 - robots.txt Domain anpassen (wenn Hosting-Domain final)
-- og:image erstellen und einbinden
 - Impressum + Datenschutz mit echten Daten füllen
