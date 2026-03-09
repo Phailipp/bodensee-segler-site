@@ -55,16 +55,5 @@
     "candidateOsmType": "node",
     "candidateOsmId": 391015244,
     "candidatePhone": "+41 41 710 53 83"
-  },
-  {
-    "id": "osm-node-7792137002-bahnhöfli",
-    "name": "Bahnhöfli",
-    "lat": 47.0831264,
-    "lng": 8.4352381,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 7792137002,
-    "candidatePhone": "+41 41 850 11 38"
   }
 ]
