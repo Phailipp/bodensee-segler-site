@@ -1141,7 +1141,7 @@ function initZonesInfo() {
       if (id.includes('bird')) return '#a78bfa';
       if (id.includes('floodplains') || id.includes('auen')) return '#22d3ee';
       if (id.includes('moor')) return '#f472b6';
-      if (id.includes('vorarlberg') || id.startswith?.('at_')) return '#34d399';
+      if (id.includes('vorarlberg') || id.startsWith?.('at_')) return '#34d399';
       if (id.includes('bayern') || id.includes('de_by')) return '#fca5a5';
       if (id.includes('lubw') || id.includes('de_bw')) return '#fbbf24';
       if (id.includes('natura2000') || id.includes('eu_natura')) return '#60a5fa';
