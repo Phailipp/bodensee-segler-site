@@ -1375,6 +1375,13 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
   if (!state.map) return;
   clearMarkers();
 
+  // Skip entries without valid coordinates
+  const hasCoords = x => x.lat != null && x.lng != null && isFinite(x.lat) && isFinite(x.lng);
+  harbors = harbors.filter(hasCoords);
+  anchors = anchors.filter(hasCoords);
+  rentals = rentals.filter(hasCoords);
+  gastros = gastros.filter(hasCoords);
+
   // Zones layers
   try {
     (state.zoneLayers || []).forEach(l => l.remove());
