@@ -711,24 +711,26 @@ function coverageItem(label, c) {
 }
 
 function renderAll() {
+  const vFilter = state.showUnverified ? (x => true) : isVerified;
+
   // Harbors
-  const harbors = applyFilters(state.data.harbors, 'harbors');
+  const harbors = applyFilters(state.data.harbors, 'harbors').filter(vFilter);
   $('#harborsGrid').innerHTML = harbors.length ? harbors.map(cardHarbor).join('') : emptyState();
 
   // Anchors
-  const anchors = applyFilters(state.data.anchors, 'anchors');
+  const anchors = applyFilters(state.data.anchors, 'anchors').filter(vFilter);
   $('#anchorsList').innerHTML = anchors.length ? anchors.map(rowAnchor).join('') : emptyState(true);
 
   // Rentals
-  const rentals = applyFilters(state.data.rentals, 'rentals');
+  const rentals = applyFilters(state.data.rentals, 'rentals').filter(vFilter);
   $('#rentalsGrid').innerHTML = rentals.length ? rentals.map(cardRental).join('') : emptyState();
 
   // Gastro
-  const gastros = applyFilters(state.data.gastros, 'gastros');
+  const gastros = applyFilters(state.data.gastros, 'gastros').filter(vFilter);
   $('#gastroList').innerHTML = gastros.length ? gastros.map(rowGastro).join('') : emptyState(true);
 
   // Service
-  const services = applyFilters(state.data.services, 'services');
+  const services = applyFilters(state.data.services, 'services').filter(vFilter);
   $('#serviceGrid').innerHTML = services.length ? services.map(cardService).join('') : emptyState();
 
   updateChipsForHarbors();
