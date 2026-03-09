@@ -1,21 +1,5 @@
 [
   {
-    "id": "osm-node-391015242-hafenrestaurant",
-    "name": "Hafenrestaurant",
-    "lat": 47.1727745,
-    "lng": 8.5046063,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 391015242,
-    "candidateUrl": "https://www.hafenrestaurant.ch/",
-    "candidatePhone": "+41 41 711 90 70",
-    "candidateHours": "Mo-Su 08:00-24:00",
-    "source": "https://www.hafenrestaurant.ch/",
-    "lastVerified": "2026-02-11",
-    "candidateUrlKind": "web"
-  },
-  {
     "id": "osm-node-506889674-luce",
     "name": "Luce",
     "lat": 47.0482188,
@@ -89,17 +73,6 @@
     "source": "https://deranker.ch",
     "lastVerified": "2026-02-11",
     "candidateUrlKind": "web"
-  },
-  {
-    "id": "osm-node-391015244-podium-41",
-    "name": "Podium 41",
-    "lat": 47.1731574,
-    "lng": 8.506438,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 391015244,
-    "candidatePhone": "+41 41 710 53 83"
   },
   {
     "id": "osm-node-2146366617-lüchttürmli",

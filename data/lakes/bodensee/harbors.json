@@ -255,21 +255,6 @@
     "guestPolicy": ""
   },
   {
-    "id": "osm-node-482794547-lindauer-segler-club",
-    "name": "Lindauer Segler-Club",
-    "lat": 47.5440712,
-    "lng": 9.6875634,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 482794547,
-    "candidateUrl": "https://www.lsc.de/",
-    "candidatePhone": "+49 160 96669311",
-    "candidateUrlKind": "web",
-    "source": "https://www.lsc.de/",
-    "lastVerified": "2026-02-17"
-  },
-  {
     "id": "osm-node-1314526554-segelhafen-tsg-lindau-zech",
     "name": "Segelhafen TSG Lindau - Zech",
     "lat": 47.5343583,

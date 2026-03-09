@@ -823,18 +823,6 @@
     "candidateUrlKind": "web"
   },
   {
-    "id": "osm-node-1435360099-krone",
-    "name": "Krone",
-    "lat": 47.6739041,
-    "lng": 9.0848525,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 1435360099,
-    "candidateUrl": "https://krone-ermatingen.ch",
-    "candidateUrlKind": "web"
-  },
-  {
     "id": "osm-node-1435963809-krone",
     "name": "Krone",
     "lat": 47.6646813,
@@ -2354,19 +2342,6 @@
     "candidateOsmId": 142820928,
     "candidateUrl": "https://www.fischerhuette-kressbronn.de",
     "candidatePhone": "+49 7543 952111",
-    "candidateUrlKind": "web"
-  },
-  {
-    "id": "osm-way-172379593-krone",
-    "name": "Krone",
-    "lat": 47.5973365,
-    "lng": 9.5395794,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "way",
-    "candidateOsmId": 172379593,
-    "candidateUrl": "https://www.hotel-krone-langenargen.de/",
-    "candidatePhone": "+49 7543 93430",
     "candidateUrlKind": "web"
   },
   {
