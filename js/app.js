@@ -323,6 +323,7 @@ function candidateHint(item) {
 }
 
 function applyFilters(list, type) {
+  if (type !== 'anchors' && type !== 'harbors') return list;
   const f = type === 'anchors' ? state.filtersAnchors : state.filtersHarbors;
   let out = list;
 
@@ -1257,7 +1258,7 @@ function initLocationLayer() {
 function hideZonesIfUnavailable() {
   try {
     const has = Array.isArray(state.data.layers) && state.data.layers.length;
-    const zoneControls = document.querySelector('.zones-controls');
+    const zoneControls = document.querySelector('.legend-zones');
     if (zoneControls) zoneControls.style.display = has ? '' : 'none';
     if (!has) {
       state.mapLayers.zones = false;
