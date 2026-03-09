@@ -796,20 +796,6 @@
     "candidateUrlKind": "web"
   },
   {
-    "id": "osm-node-1364565967-hu-bin",
-    "name": "Hu Bin",
-    "lat": 47.4651245,
-    "lng": 9.5939514,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 1364565967,
-    "candidateUrl": "https://hubin.at/",
-    "candidatePhone": "+43557871211",
-    "candidateHours": "Mo-Tu off; We-Sa 11:30-14:30,17:30-23:00; Su 11:00-21:00",
-    "candidateUrlKind": "web"
-  },
-  {
     "id": "osm-node-1384432646-steinacher-hafen-treff",
     "name": "Steinacher Hafen-Treff",
     "lat": 47.5023164,
@@ -936,32 +922,6 @@
     "candidatePhone": "+49 7541 22644",
     "candidateHours": "Apr-Oct: 11:00-22:00; Nov-Mar: We-Su 11:00-14:00,18:00-21:00",
     "candidateUrlKind": "web"
-  },
-  {
-    "id": "osm-node-1835235404-roberto-s-pizzeria-caf",
-    "name": "Roberto's Pizzeria Café",
-    "lat": 47.4648806,
-    "lng": 9.5945591,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 1835235404,
-    "candidateUrl": "https://robertos.at/",
-    "candidatePhone": "+43 664 20 67 958",
-    "candidateHours": "Tu-Su 10:00-21:00",
-    "candidateUrlKind": "web"
-  },
-  {
-    "id": "osm-node-1835245137-zur-traube-herberts-imbissstube",
-    "name": "Zur Traube (Herberts Imbissstube)",
-    "lat": 47.4648132,
-    "lng": 9.5957208,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 1835245137,
-    "candidateHours": "Mo-Sa 16:00-23:00, PH,Sa,Su 10:00-13:00,16:00-21:00",
-    "candidateUrl": ""
   },
   {
     "id": "osm-node-1916294051-gasthaus-schiff",
@@ -1715,20 +1675,6 @@
     "candidateUrlKind": "web"
   },
   {
-    "id": "osm-node-5337603121-unterhof",
-    "name": "Unterhof",
-    "lat": 47.6901847,
-    "lng": 8.7478302,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 5337603121,
-    "candidateUrl": "https://www.unterhof.ch/",
-    "candidatePhone": "+41 52 646 38 83",
-    "candidateHours": "Mo,We,Th,Fr,Sa,Su 09:30-23:00",
-    "candidateUrlKind": "web"
-  },
-  {
     "id": "osm-node-5893677980-fischhaus-am-fährhafen",
     "name": "Fischhaus am Fährhafen",
     "lat": 47.6812461,
@@ -1793,19 +1739,6 @@
     "candidateOsmId": 7157254526,
     "candidatePhone": "+41 71 544 17 99",
     "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-7243229988-gasthaus-zum-alpsee",
-    "name": "Gasthaus zum Alpsee",
-    "lat": 47.570087,
-    "lng": 10.1934783,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 7243229988,
-    "candidateUrl": "https://www.gasthauszumalpsee.de",
-    "candidateHours": "Mo,Th,Fr 17:00-22:00; Sa 11:00-22:00; Su,PH 10:00-22:00; Tu,We off",
-    "candidateUrlKind": "web"
   },
   {
     "id": "osm-node-7315801711-steg-11",

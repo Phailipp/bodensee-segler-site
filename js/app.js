@@ -965,30 +965,74 @@ function initModal() {
 }
 
 function initLakeSelector() {
-  const sel = document.getElementById('lakeSelect');
+  const wrapper = document.getElementById('lakeSelector');
+  const btn = document.getElementById('lakeSelectorBtn');
+  const label = document.getElementById('lakeSelectorLabel');
+  const menu = document.getElementById('lakeSelectorMenu');
   const logo = document.getElementById('lakeLogo');
-  if (!sel) return;
+  if (!wrapper || !btn || !menu) return;
 
   const lakes = state.lakesIndex || [];
-  sel.innerHTML = lakes.map(l => `<option value="${escapeHtml(l.id)}">${escapeHtml(l.name)}</option>`).join('');
-  if (state.lakeId) sel.value = state.lakeId;
 
-  const setLogo = () => {
-    const current = lakes.find(x => x.id === sel.value) || state.lakeMeta;
-    if (logo && current?.name) logo.textContent = current.name;
-  };
-  setLogo();
+  // Build menu items
+  menu.innerHTML = lakes.map(l =>
+    `<li role="option" data-lake="${escapeHtml(l.id)}"${l.id === state.lakeId ? ' aria-selected="true"' : ''}>${escapeHtml(l.name)}</li>`
+  ).join('');
 
-  sel.addEventListener('change', () => {
-    const id = sel.value;
+  // Set initial label + logo
+  const current = lakes.find(x => x.id === state.lakeId) || lakes[0];
+  if (label && current) label.textContent = current.name;
+  if (logo && current?.name) logo.textContent = current.name;
+
+  const open = () => { wrapper.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); };
+  const close = () => { wrapper.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); };
+  const isOpen = () => wrapper.classList.contains('open');
+
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    isOpen() ? close() : open();
+  });
+
+  menu.addEventListener('click', (e) => {
+    const li = e.target.closest('li[data-lake]');
+    if (!li) return;
+    const id = li.dataset.lake;
+    close();
     const pref = localStorage.getItem('bs_lang');
     const u = new URL(window.location.href);
     u.searchParams.set('lake', id);
     if (pref) u.searchParams.set('lang', pref);
-    // Stay at the top after switching lakes (hero first).
     u.hash = '';
     window.location.href = u.toString();
   });
+
+  // Close on outside click
+  document.addEventListener('click', (e) => {
+    if (isOpen() && !wrapper.contains(e.target)) close();
+  });
+
+  // Keyboard support
+  btn.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') close();
+    if ((e.key === 'ArrowDown' || e.key === 'Enter' || e.key === ' ') && !isOpen()) {
+      e.preventDefault();
+      open();
+      const first = menu.querySelector('li');
+      if (first) first.focus();
+    }
+  });
+
+  menu.addEventListener('keydown', (e) => {
+    const items = [...menu.querySelectorAll('li')];
+    const idx = items.indexOf(document.activeElement);
+    if (e.key === 'ArrowDown') { e.preventDefault(); items[(idx + 1) % items.length]?.focus(); }
+    if (e.key === 'ArrowUp') { e.preventDefault(); items[(idx - 1 + items.length) % items.length]?.focus(); }
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); document.activeElement?.click(); }
+    if (e.key === 'Escape') { close(); btn.focus(); }
+  });
+
+  // Make items focusable
+  menu.querySelectorAll('li').forEach(li => li.setAttribute('tabindex', '-1'));
 }
 
 function initNav() {

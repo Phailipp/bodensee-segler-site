@@ -22,8 +22,12 @@
   <nav>
     <div class="logo logo-stack">
       <div class="logo-title"><span id="lakeLogo">Bodensee</span><span>.</span></div>
-      <div class="lake-switch-under" aria-label="See wählen">
-        <select id="lakeSelect" aria-label="Lake selector"></select>
+      <div class="lake-selector" id="lakeSelector" aria-label="See wählen">
+        <button class="lake-selector-btn" id="lakeSelectorBtn" aria-haspopup="listbox" aria-expanded="false">
+          <span class="lake-selector-label" id="lakeSelectorLabel">Bodensee</span>
+          <svg class="lake-selector-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <ul class="lake-selector-menu" id="lakeSelectorMenu" role="listbox" tabindex="-1"></ul>
       </div>
     </div>
 
