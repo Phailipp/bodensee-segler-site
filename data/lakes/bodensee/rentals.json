@@ -351,19 +351,6 @@
     "candidateUrlKind": "web"
   },
   {
-    "id": "osm-node-11292495102-bootsvermietung-am-pfäffikersee",
-    "name": "Bootsvermietung am Pfäffikersee",
-    "lat": 47.3645352,
-    "lng": 8.781493,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 11292495102,
-    "candidateUrl": "https://www.booti.ch/",
-    "candidatePhone": "+41 44 950 15 03",
-    "candidateUrlKind": "web"
-  },
-  {
     "id": "osm-node-12947346548-kayakomat-sipplingen-naturbadestrand",
     "name": "Kayakomat Sipplingen Naturbadestrand",
     "lat": 47.7964938,

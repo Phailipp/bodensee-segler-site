@@ -1064,7 +1064,7 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 .zones-info .zi-swatch { width: 12px; height: 12px; border-radius: 3px; display:inline-block; box-shadow: 0 0 0 1px rgba(255,255,255,0.10); }
 
 
-/* Lake switch (under logo) */
+/* Lake selector (custom dropdown under logo) */
 .logo-stack {
   display: inline-flex;
   flex-direction: column;
@@ -1072,38 +1072,139 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   gap: 6px;
 }
 
-.lake-switch-under select {
-  -webkit-appearance: none;
-  appearance: none;
-  border: 1px solid rgba(255,255,255,0.18);
-  background: rgba(0,0,0,0.18);
-  color: rgba(255,255,255,0.85);
-  padding: 7px 30px 7px 10px;
+.lake-selector {
+  position: relative;
+}
+
+.lake-selector-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(201,169,98,0.25);
+  background: rgba(201,169,98,0.06);
+  color: var(--gold-light);
+  padding: 8px 14px 8px 16px;
   border-radius: 999px;
-  font-size: 0.70rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   line-height: 1;
   cursor: pointer;
-  max-width: min(58vw, 240px);
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>');
-  background-repeat: no-repeat;
-  background-position: right 10px center;
+  transition: all 0.25s ease;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  white-space: nowrap;
 }
 
-.lake-switch-under select:hover {
-  border-color: rgba(201,169,98,0.45);
+.lake-selector-btn:hover {
+  border-color: rgba(201,169,98,0.5);
+  color: var(--gold);
+  background: rgba(201,169,98,0.12);
 }
 
-.lake-switch-under select:focus {
+.lake-selector-btn:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(201,169,98,0.18);
-  border-color: rgba(201,169,98,0.55);
+  box-shadow: 0 0 0 2px rgba(201,169,98,0.35);
+  border-color: rgba(201,169,98,0.6);
 }
 
-@media (max-width: 900px) {
-  .lake-switch-under select {
-    max-width: min(62vw, 240px);
+.lake-selector-chevron {
+  opacity: 0.7;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  flex-shrink: 0;
+}
+
+.lake-selector.open .lake-selector-chevron {
+  transform: rotate(180deg);
+  opacity: 1;
+}
+
+.lake-selector-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  min-width: 220px;
+  background: rgba(12,22,38,0.97);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(201,169,98,0.15);
+  border-radius: 14px;
+  padding: 8px;
+  margin: 0;
+  list-style: none;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,255,255,0.04) inset;
+  z-index: calc(var(--z-nav) + 1);
+  animation: lakeMenuIn 0.2s ease;
+}
+
+.lake-selector.open .lake-selector-menu {
+  display: block;
+}
+
+@keyframes lakeMenuIn {
+  from { opacity: 0; transform: translateY(-8px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.lake-selector-menu li {
+  padding: 11px 16px;
+  font-size: 0.82rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: rgba(255,255,255,0.75);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  line-height: 1.35;
+}
+
+.lake-selector-menu li:hover {
+  background: rgba(201,169,98,0.14);
+  color: var(--gold-light);
+}
+
+.lake-selector-menu li[aria-selected="true"] {
+  color: var(--gold);
+  font-weight: 500;
+  background: rgba(201,169,98,0.1);
+  position: relative;
+}
+
+.lake-selector-menu li[aria-selected="true"]::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 14px;
+  background: var(--gold);
+  border-radius: 2px;
+}
+
+.lake-selector-menu li:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(201,169,98,0.35) inset;
+}
+
+@media (max-width: 768px) {
+  .lake-selector-btn {
+    padding: 10px 16px 10px 18px;
+    font-size: 0.78rem;
+  }
+
+  .lake-selector-menu {
+    min-width: 200px;
+    left: 0;
+    right: auto;
+  }
+
+  .lake-selector-menu li {
+    padding: 13px 18px;
+    font-size: 0.85rem;
   }
 }
 
