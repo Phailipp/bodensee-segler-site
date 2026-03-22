@@ -156,33 +156,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-1374163195-la-cambuse",
-    "name": "La Cambuse",
-    "lat": 46.4892628,
-    "lng": 6.7396115,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 1374163195,
-    "candidatePhone": "+41217992279",
-    "source": "http://www.cambuse-cully.ch/",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-1420920378-le-major-davel",
-    "name": "Le Major Davel",
-    "lat": 46.4879104,
-    "lng": 6.7314557,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 1420920378,
-    "candidateUrl": "https://www.major-davel.ch/",
-    "candidateUrlKind": "web",
-    "source": "https://www.major-davel.ch/",
-    "lastVerified": "2026-03-22"
-  },
-  {
     "id": "osm-node-1433812389-cafe-du-vieil-ouchy",
     "name": "Cafe du Vieil Ouchy",
     "lat": 46.5071861,
@@ -274,22 +247,6 @@
     "candidatePhone": "+41 21 801 72 89",
     "candidateUrlKind": "web",
     "source": "https://www.sushizen.shop/francais/shop-page/sushizen-morges",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-2398768793-bellevue",
-    "name": "Bellevue",
-    "lat": 46.3939552,
-    "lng": 6.8053968,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 2398768793,
-    "candidateUrl": "https://info@bellevue-restaurant.ch",
-    "candidatePhone": "+41 24 481 62 72",
-    "candidateHours": "Mo-Su 09:00-23:00",
-    "candidateUrlKind": "web",
-    "source": "https://info@bellevue-restaurant.ch",
     "lastVerified": "2026-03-22"
   },
   {
@@ -761,21 +718,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-12953528813-le-rivage-chez-monmon",
-    "name": "Le Rivage \"Chez Monmon\"",
-    "lat": 46.393693,
-    "lng": 6.805511,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 12953528813,
-    "candidatePhone": "+41 24 482 70 32",
-    "candidateHours": "Mo-Th 08:00-14:30; Fr-Su 08:00-22:00",
-    "candidateUrl": "",
-    "source": "https://rivage.ch/",
-    "lastVerified": "2026-03-22"
-  },
-  {
     "id": "osm-node-12959830001-la-brasserie-du-chalet-du-port",
     "name": "La Brasserie du Chalet du Port",
     "lat": 46.3402339,
@@ -976,21 +918,6 @@
     "candidateHours": "Mo-Su 10:00-15:00, 18:30-00:00",
     "candidateUrlKind": "web",
     "source": "https://la-barca.ch/",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-way-197270705-les-figuiers",
-    "name": "Les Figuiers",
-    "lat": 46.348863,
-    "lng": 6.2777305,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "way",
-    "candidateOsmId": 197270705,
-    "candidateUrl": "https://les-figuiers.eresto.net/",
-    "candidatePhone": "+33 4 50 94 34 68",
-    "candidateUrlKind": "web",
-    "source": "https://les-figuiers.eresto.net/",
     "lastVerified": "2026-03-22"
   },
   {
