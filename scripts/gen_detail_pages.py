@@ -82,6 +82,7 @@ def main() -> None:
                     coords = f"{it['lat']:.5f}, {it['lng']:.5f}"
 
                 source = (it.get("source") or "").strip()
+                source_url = (it.get("url") or "").strip() or source
                 lastv = (it.get("lastVerified") or "").strip()
                 title = f"{name} – {lake_name}"
                 desc = f"Verified entry: {name}. Official source and last verified date included." if name else "Verified entry with official source."
@@ -126,7 +127,7 @@ def main() -> None:
     <div class=\"prose\" aria-label=\"Details\" style=\"max-width:900px;margin:0 auto\">
       <p><span class=\"k\">Type</span><br><span class=\"v\">{esc(typ)}</span></p>
       {f"<p><span class='k'>Coordinates</span><br><span class='v'>{esc(coords)}</span></p>" if coords else ""}
-      <p><span class=\"k\">Source</span><br><span class=\"v\"><a href=\"{esc(source)}\" target=\"_blank\" rel=\"noreferrer\">{esc(source)}</a></span></p>
+      <p><span class=\"k\">Source</span><br><span class=\"v\"><a href=\"{esc(source_url)}\" target=\"_blank\" rel=\"noreferrer\">{esc(source)}</a></span></p>
       <p><span class=\"k\">Last verified</span><br><span class=\"v\">{esc(lastv)}</span></p>
 
       <p style=\"margin-top:24px\">
