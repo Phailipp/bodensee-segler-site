@@ -313,19 +313,6 @@
     "candidateUrlKind": "web"
   },
   {
-    "id": "osm-node-373522259-frohsinn",
-    "name": "Frohsinn",
-    "lat": 47.239119,
-    "lng": 8.7195317,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 373522259,
-    "candidateUrl": "https://www.frohsinn-staefa.ch/",
-    "candidatePhone": "+41 44 926 13 40",
-    "candidateUrlKind": "web"
-  },
-  {
     "id": "osm-node-383891068-seeperle",
     "name": "Seeperle",
     "lat": 47.2393879,
@@ -337,7 +324,9 @@
     "candidateUrl": "https://seeperle.ch",
     "candidatePhone": "+41 44 926 12 31",
     "candidateHours": "Tu - Sa 17:00 - 23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://seeperle.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-383931304-kunming-garten",
@@ -351,7 +340,9 @@
     "candidateUrl": "https://kunminggarten.ch/",
     "candidatePhone": "+41 43 818 05 21",
     "candidateHours": "Tu-Fr 11:30-14:00, 17:30-22:30; Su 11:30-14:00, 17:30-22:30; Sa 17:30-22:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://kunminggarten.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-471352741-ristorante-da-mamma-lisetta",
@@ -364,7 +355,9 @@
     "candidateOsmId": 471352741,
     "candidateUrl": "https://www.damammalisetta.ch",
     "candidatePhone": "+41 44 542 37 74",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.damammalisetta.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-781864510-gasthof-seefeld",
@@ -377,7 +370,9 @@
     "candidateOsmId": 781864510,
     "candidateUrl": "https://www.gasthofseefeld.ch/",
     "candidateHours": "Mo-Th 17:00-24:00; Fr 17:00-02:00; Sa 16:00-02:00; Su 16:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.gasthofseefeld.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1333805241-gasthaus-zum-rathaus",
@@ -389,7 +384,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1333805241,
     "candidateUrl": "https://www.zumrathaus.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.zumrathaus.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1666425551-gartenhof-testarossa",
@@ -401,7 +398,10 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1666425551,
     "candidateHours": "Mo 08:45-24:00; We-Fr 08:45-24:00; Sa 10:00-24:00; Su 10:00-22:30",
-    "candidateUrl": ""
+    "candidateUrl": "https://www.restaurantgartenhof.ch/",
+    "candidateUrlKind": "web",
+    "source": "https://www.restaurantgartenhof.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1828780522-suan-long",
@@ -415,7 +415,9 @@
     "candidateUrl": "https://suan-long.ch/suanlong/",
     "candidatePhone": "+41 43 477 86 86",
     "candidateHours": "Tu-Su 11:30-22:00; Sa 09:00-17:00; PH closed",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://suan-long.ch/suanlong/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2728409574-schützenhaus",
@@ -428,7 +430,9 @@
     "candidateOsmId": 2728409574,
     "candidateUrl": "https://www.schuetzenhaus-staefa.ch/",
     "candidatePhone": "+41 44 926 13 58",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.schuetzenhaus-staefa.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3327477870-big-burger",
@@ -440,7 +444,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 3327477870,
     "candidateUrl": "https://bigburger.ch/diner-maennedorf/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://bigburger.ch/diner-maennedorf/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3875945857-metropol",
@@ -453,7 +459,9 @@
     "candidateOsmId": 3875945857,
     "candidateUrl": "https://metropol-restaurant.ch/",
     "candidateHours": "Mo-Sa 11:00-23:00; PH,Su closed",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://metropol-restaurant.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4362133521-seerestaurant-steinburg",
@@ -467,7 +475,9 @@
     "candidateUrl": "https://seerestaurant-steinburg.ch/",
     "candidatePhone": "+41449100638",
     "candidateHours": "Tu-Sa 17:30-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://seerestaurant-steinburg.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4602150493-sea-thai-take-away",
@@ -481,7 +491,9 @@
     "candidateUrl": "https://www.seathai.ch/",
     "candidatePhone": "+41 43 477 92 53",
     "candidateHours": "Mo-Th 11:00-14:00,18:00-21:00; Fr 11:00-14:00,18:00-23:00; Sa 18:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.seathai.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4833061571-restaurant-kiosk",
@@ -494,7 +506,9 @@
     "candidateOsmId": 4833061571,
     "candidateUrl": "https://restaurant-kiosk.ch/",
     "candidateHours": "Mo-Su 10:00-17:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://restaurant-kiosk.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-5107045693-sonne",
@@ -508,7 +522,9 @@
     "candidateUrl": "https://www.sonnestaefa.ch/",
     "candidatePhone": "+41 43 477 10 10",
     "candidateHours": "Tu-Sa 07:00-14:00, 18:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.sonnestaefa.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-5301253159-spice-village",
@@ -522,7 +538,9 @@
     "candidateUrl": "https://spicevillage.ch/",
     "candidatePhone": "+41 43 539 51 10",
     "candidateHours": "Mo-Fr 11:00-14:00,17:30-23:00; Sa-Su 17:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://spicevillage.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-5732101244-sonnengalerie",
@@ -536,7 +554,9 @@
     "candidateUrl": "https://sonne.ch/de/Restaurant-und-Bar#gourmetrestaurant",
     "candidatePhone": "+41 44 914 18 18",
     "candidateHours": "12:00-13:45,18:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://sonne.ch/de/Restaurant-und-Bar#gourmetrestaurant",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-5732101245-sonne-gaststuben",
@@ -549,7 +569,9 @@
     "candidateOsmId": 5732101245,
     "candidateUrl": "https://sonne.ch/de/Restaurant-und-Bar#gaststube",
     "candidatePhone": "+41 44 914 18 18",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://sonne.ch/de/Restaurant-und-Bar#gaststube",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6657221623-indigo",
@@ -563,7 +585,9 @@
     "candidateUrl": "https://www.zfv.ch/de/essen-gehen/restaurant-indigo",
     "candidatePhone": "+41 44 991 32 40",
     "candidateHours": "Mo-Fr 08:00-14:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.zfv.ch/de/essen-gehen/restaurant-indigo",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-7530276499-schiffstation",
@@ -575,7 +599,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 7530276499,
     "candidateUrl": "https://www.schiffstation.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.schiffstation.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-7628821083-rico-s",
@@ -588,7 +614,9 @@
     "candidateOsmId": 7628821083,
     "candidateUrl": "https://www.ricozandonella.ch",
     "candidateHours": "Tu-Sa 12:00-14:00,19:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ricozandonella.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9063937841-dapura-mia",
@@ -602,7 +630,9 @@
     "candidateUrl": "https://www.dapuramia.ch/",
     "candidatePhone": "+41 44 578 48 58",
     "candidateHours": "Mo off; Tu-Th 11:30-14:00,17:30-22:30; Fr 11:30-14:00,17:30-23:30; Sa 17:30-23:30; Su 17:30-22:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.dapuramia.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9414760018-nunzio-s-pizza",
@@ -616,7 +646,9 @@
     "candidateUrl": "https://www.nunzios-pizza.ch",
     "candidatePhone": "+41 44 594 11 00",
     "candidateHours": "Mo-Su 11:00-22:00; PH open",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.nunzios-pizza.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9863681273-sonne-am-see",
@@ -628,7 +660,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 9863681273,
     "candidateUrl": "https://sonneamsee.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://sonneamsee.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-11710850798-olivo",
@@ -642,7 +676,9 @@
     "candidateUrl": "https://ristorante-olivo.ch",
     "candidatePhone": "+41 44 534 99 99",
     "candidateHours": "Mo-Fr 06:00-00:00; Sa 07:00-00:00; Su PH 08:00-00:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://ristorante-olivo.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-11959590083-alegria-ceviche-bar",
@@ -655,7 +691,9 @@
     "candidateOsmId": 11959590083,
     "candidateUrl": "https://www.ceviche-bar.ch/menue",
     "candidatePhone": "+41795840902",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ceviche-bar.ch/menue",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-13272576587-im-schilf",
@@ -668,7 +706,9 @@
     "candidateOsmId": 13272576587,
     "candidateUrl": "https://www.schilf.ch/",
     "candidateHours": "Mo-Su 09:00-22:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.schilf.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-24388757-löwen",
@@ -680,7 +720,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 24388757,
     "candidateUrl": "https://www.loewen-meilen.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.loewen-meilen.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-25926028-jade-garden",
@@ -693,7 +735,9 @@
     "candidateOsmId": 25926028,
     "candidateUrl": "https://www.jadegarden.ch/",
     "candidatePhone": "+41 43 277 02 66",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.jadegarden.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-30320466-hirschen-am-see",
@@ -705,7 +749,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 30320466,
     "candidateUrl": "https://www.hirschen-meilen.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hirschen-meilen.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-30320469-zum-trauben",
@@ -717,7 +763,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 30320469,
     "candidateUrl": "https://www.trauben-meilen.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.trauben-meilen.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-31967333-pier-7",
@@ -730,7 +778,9 @@
     "candidateOsmId": 31967333,
     "candidateUrl": "https://www.pier7.ch/Pier-7-Club/Club-Restaurant/",
     "candidatePhone": "+41 44 261 70 55",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.pier7.ch/Pier-7-Club/Club-Restaurant/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-38091305-samigo",
@@ -743,7 +793,9 @@
     "candidateOsmId": 38091305,
     "candidateUrl": "https://samigo.ch/",
     "candidateHours": "Tu-Th 19:00-00:00; Fr,Sa 19:00-03:00; Su 10:00-16:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://samigo.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-38098975-bauschänzli",
@@ -756,7 +808,9 @@
     "candidateOsmId": 38098975,
     "candidateUrl": "https://bauschaenzli.com/",
     "candidatePhone": "+41 44 212 49 19",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://bauschaenzli.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-38176803-seerose",
@@ -770,7 +824,9 @@
     "candidateUrl": "https://www.seerose.dinning.ch/",
     "candidatePhone": "+41 44 481 63 83",
     "candidateHours": "Mo-Su 09:00-24:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.seerose.dinning.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-92696361-bahnhof-post",
@@ -782,7 +838,10 @@
     "candidateOsmType": "way",
     "candidateOsmId": 92696361,
     "candidateHours": "Mo-Fr 08:00-23:00; Sa 10:30-22:00; Su off",
-    "candidateUrl": ""
+    "candidateUrl": "https://bahnhof-post-pizzeria.digitalone.site/",
+    "candidateUrlKind": "web",
+    "source": "https://bahnhof-post-pizzeria.digitalone.site/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-99899136-restaurant-namaste-schiffli",
@@ -794,7 +853,10 @@
     "candidateOsmType": "way",
     "candidateOsmId": 99899136,
     "candidateHours": "Mo-Fr 10:00-14:00,17:00-23:00; Sa 11:00-14:30,17:00-23:00; Su 17:00-22:00",
-    "candidateUrl": ""
+    "candidateUrl": "https://namaste-schiffli.ch/",
+    "candidateUrlKind": "web",
+    "source": "https://namaste-schiffli.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-152042075-il-faro",
@@ -807,7 +869,9 @@
     "candidateOsmId": 152042075,
     "candidateUrl": "https://ilfaro.ch/index.php?page=herrliberg",
     "candidateHours": "Mo-Su 11:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://ilfaro.ch/index.php?page=herrliberg",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-296932543-seerosen-bar",
@@ -819,7 +883,10 @@
     "candidateOsmType": "way",
     "candidateOsmId": 296932543,
     "candidateHours": "Mo-Th 11:30-14:30,17:00-01:00, Fr 11:30-14:30,16:00-02:00, Sa 16:00-02:00, Su 14:00-24:00",
-    "candidateUrl": ""
+    "candidateUrl": "https://www.schiff-pfaeffikon.ch/en/seerosenbar",
+    "candidateUrlKind": "web",
+    "source": "https://www.schiff-pfaeffikon.ch/en/seerosenbar",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-378113675-portofino",
@@ -832,6 +899,8 @@
     "candidateOsmId": 378113675,
     "candidateUrl": "https://www.portofino-am-see.ch/",
     "candidatePhone": "+41 44 720 32 40",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.portofino-am-see.ch/",
+    "lastVerified": "2026-03-22"
   }
 ]
