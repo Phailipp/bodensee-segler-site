@@ -21,6 +21,21 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script defer data-domain="phailipp.github.io/bodensee-segler-site" src="https://plausible.io/js/script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Bodensee Segler",
+    "url": "https://phailipp.github.io/bodensee-segler-site/",
+    "description": "Kuratiert und klar: Häfen, Ankerplätze, Vermietung, Gastro und Service an Schweizer Seen. Interaktive Karte mit verifizierten Daten.",
+    "inLanguage": ["de", "en"],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://phailipp.github.io/bodensee-segler-site/?lake={lake}#karte",
+      "query-input": "required name=lake"
+    }
+  }
+  </script>
 </head>
 <body>
   <nav>
@@ -395,6 +410,7 @@
     <div class="footer-links">
       <a href="./impressum.html" data-i18n="footer.imprint">Impressum</a>
       <a href="./datenschutz.html" data-i18n="footer.privacy">Datenschutz</a>
+      <a href="./premium.html" data-i18n="footer.premium">Für Betreiber</a>
     </div>
   </footer>
 

@@ -1,21 +1,5 @@
 [
   {
-    "id": "osm-node-367028639-ristorante-seven-lugano",
-    "name": "Ristorante Seven Lugano",
-    "lat": 46.0039026,
-    "lng": 8.9551141,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 367028639,
-    "candidateUrl": "https://www.seven.ch/restaurants/seven-lugano-restaurant",
-    "candidatePhone": "+41 912 90 77 77",
-    "candidateHours": "Mo-Su 12:00-15:00,19:30-01:00",
-    "candidateUrlKind": "web",
-    "source": "https://www.seven.ch/restaurants/seven-lugano-restaurant",
-    "lastVerified": "2026-03-22"
-  },
-  {
     "id": "osm-node-663870157-porto-ronco-beach-club",
     "name": "Porto Ronco Beach Club",
     "lat": 46.1332318,
@@ -255,22 +239,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-2288142607-pane-e-zucchero",
-    "name": "Pane e Zucchero",
-    "lat": 46.0061878,
-    "lng": 8.9655999,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 2288142607,
-    "candidateUrl": "https://spaghettigastrogroup.com/home/pane-e-zucchero",
-    "candidatePhone": "+41 91 9701000",
-    "candidateHours": "Mo-Th 07:00-24:00, Fr 07:00-01:00, Sa 15:30-01:00, Su off",
-    "candidateUrlKind": "web",
-    "source": "https://spaghettigastrogroup.com/home/pane-e-zucchero",
-    "lastVerified": "2026-03-22"
-  },
-  {
     "id": "osm-node-2299811474-la-tentazione",
     "name": "La Tentazione",
     "lat": 45.9213259,
@@ -311,35 +279,6 @@
     "candidateUrl": "https://www.lapprodo.ch/",
     "candidateUrlKind": "web",
     "source": "https://www.lapprodo.ch/",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-3293054568-ristorante-svizzero",
-    "name": "Ristorante Svizzero",
-    "lat": 45.9043598,
-    "lng": 8.9793763,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 3293054568,
-    "candidateUrl": "https://www.albergoristorantesvizzero.com/",
-    "candidatePhone": "+41 91 648 19 75",
-    "candidateUrlKind": "web",
-    "source": "https://www.albergoristorantesvizzero.com/",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-3524352038-ristorante-pizzeria-san-giorgio",
-    "name": "Ristorante Pizzeria San Giorgio",
-    "lat": 45.9218656,
-    "lng": 8.9297439,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 3524352038,
-    "candidateUrl": "https://www.chaletsangiorgio.ch/",
-    "candidateUrlKind": "web",
-    "source": "https://www.chaletsangiorgio.ch/",
     "lastVerified": "2026-03-22"
   },
   {
@@ -466,22 +405,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-4760805623-breva",
-    "name": "Breva",
-    "lat": 46.006052,
-    "lng": 8.966219,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 4760805623,
-    "candidateUrl": "https://pizzeriabreva.ch/",
-    "candidatePhone": "+41 91 976 07 07",
-    "candidateHours": "Tu-Th 07:00-00:00; Fr-Sa 08:00-01:00; Su 08:00-00:00",
-    "candidateUrlKind": "web",
-    "source": "https://pizzeriabreva.ch/",
-    "lastVerified": "2026-03-22"
-  },
-  {
     "id": "osm-node-4935784743-lo-stornello",
     "name": "Lo Stornello",
     "lat": 45.8840503,
@@ -522,35 +445,6 @@
     "candidatePhone": "+39 0332 666975",
     "candidateUrl": "",
     "source": "https://www.hostariadelgolfo.com/",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-5834921401-autentiko-gusto-napoletano",
-    "name": "Autentiko - Gusto Napoletano",
-    "lat": 46.0037799,
-    "lng": 8.9547911,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 5834921401,
-    "candidateUrl": "https://autentiko.it",
-    "candidateHours": "Mo-Th 11:30-15:00; Mo-Th 18:30-22:00; Fr-Su 11:30-22:00; Su,PH 11:30-22:00",
-    "candidateUrlKind": "web",
-    "source": "https://autentiko.it",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-6227647535-grotto-sassalto",
-    "name": "Grotto Sassalto",
-    "lat": 45.9649689,
-    "lng": 8.8846055,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 6227647535,
-    "candidatePhone": "+41 91 600 90 94",
-    "candidateUrl": "",
-    "source": "http://www.grottosassalto.ch",
     "lastVerified": "2026-03-22"
   },
   {
@@ -645,21 +539,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-9153014798-luini6",
-    "name": "Luini6",
-    "lat": 45.9993553,
-    "lng": 8.9481663,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 9153014798,
-    "candidateUrl": "https://luini6.ch/",
-    "candidatePhone": "+41 91 208 31 07",
-    "candidateUrlKind": "web",
-    "source": "https://luini6.ch/",
-    "lastVerified": "2026-03-22"
-  },
-  {
     "id": "osm-node-9862600455-ascona-square-garden",
     "name": "Ascona Square Garden",
     "lat": 46.1559598,
@@ -701,22 +580,6 @@
     "candidateHours": "Mo-Su 12:00-22:00",
     "candidateUrlKind": "web",
     "source": "https://www.villaporta.style/en/tiffany-restaurant/",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-10887427388-ristorante-vistalago",
-    "name": "Ristorante Vistalago",
-    "lat": 46.003766,
-    "lng": 8.9546385,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 10887427388,
-    "candidateUrl": "https://ristorantevistalago.ch",
-    "candidatePhone": "+41919211048",
-    "candidateHours": "Mo-Su 08:00-23:00",
-    "candidateUrlKind": "web",
-    "source": "https://ristorantevistalago.ch",
     "lastVerified": "2026-03-22"
   },
   {
@@ -803,21 +666,6 @@
     "candidatePhone": "+39 0323 73 97 91",
     "candidateUrl": "",
     "source": "https://lidobeachlounge.com/",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-way-917794543-antica-osteria-del-porto",
-    "name": "Antica Osteria del Porto",
-    "lat": 46.003353,
-    "lng": 8.9617151,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "way",
-    "candidateOsmId": 917794543,
-    "candidateUrl": "https://anticaosteriadelporto.ch/",
-    "candidatePhone": "+41 91 971 42 00",
-    "candidateUrlKind": "web",
-    "source": "https://anticaosteriadelporto.ch/",
     "lastVerified": "2026-03-22"
   },
   {

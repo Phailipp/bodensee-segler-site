@@ -983,21 +983,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-2365787029-stars-and-stripes-american-bar-restaurant",
-    "name": "Stars and Stripes American Bar & Restaurant",
-    "lat": 47.4784068,
-    "lng": 9.4905045,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 2365787029,
-    "candidateUrl": "https://www.starsandstripes.ch/rorschach/",
-    "candidatePhone": "+4171 841 82 82",
-    "candidateUrlKind": "web",
-    "source": "https://www.starsandstripes.ch/rorschach/",
-    "lastVerified": "2026-03-22"
-  },
-  {
     "id": "osm-node-2426652589-delphi",
     "name": "Delphi",
     "lat": 47.6494367,
@@ -1209,49 +1194,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-3340097422-mariaberg",
-    "name": "Mariaberg",
-    "lat": 47.4779741,
-    "lng": 9.4939603,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 3340097422,
-    "candidateUrl": "https://restaurant-mariaberg.ch/",
-    "candidatePhone": "+4171 870 08 08",
-    "candidateUrlKind": "web",
-    "source": "https://restaurant-mariaberg.ch/",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-3346119610-coop-restaurant",
-    "name": "Coop Restaurant",
-    "lat": 47.4781098,
-    "lng": 9.4911334,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 3346119610,
-    "candidatePhone": "+4171 844 60 21",
-    "candidateUrl": "",
-    "source": "https://www.coop-restaurant.ch/",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-3347586797-münzhof",
-    "name": "Münzhof",
-    "lat": 47.4781888,
-    "lng": 9.4914783,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 3347586797,
-    "candidatePhone": "+4171 841 06 00",
-    "candidateHours": "Mo-Th 08:30-22:30; Fr 08:30-23:00; Sa 09:00-23:00; Su 09:00-22:30",
-    "source": "https://www.muenzhof-rorschach.ch/",
-    "lastVerified": "2026-03-22"
-  },
-  {
     "id": "osm-node-3391758455-kommodore-im-wyc",
     "name": "Kommodore im WYC",
     "lat": 47.6513326,
@@ -1265,20 +1207,6 @@
     "candidateHours": "Mo-Sa 11:00-22:00; Su 11:00-21:00",
     "candidateUrlKind": "web",
     "source": "https://kommodore-wyc.de/",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-3406878814-the-ami",
-    "name": "The Ami",
-    "lat": 47.4783138,
-    "lng": 9.4948024,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 3406878814,
-    "candidateUrl": "https://theami.ch/",
-    "candidateUrlKind": "web",
-    "source": "https://theami.ch/",
     "lastVerified": "2026-03-22"
   },
   {
@@ -1473,19 +1401,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-3973979298-roma",
-    "name": "Roma",
-    "lat": 47.4783712,
-    "lng": 9.4930102,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 3973979298,
-    "candidatePhone": "+4171 841 90 80",
-    "source": "https://www.roma-pizzeria.ch/",
-    "lastVerified": "2026-03-22"
-  },
-  {
     "id": "osm-node-4040499148-sutterluty-gusto",
     "name": "Sutterluty Gusto",
     "lat": 47.5061976,
@@ -1592,20 +1507,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-4713542155-mamma-mia",
-    "name": "Mamma Mia",
-    "lat": 47.4777208,
-    "lng": 9.4931582,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 4713542155,
-    "candidatePhone": "+4171 841 12 78",
-    "candidateUrl": "",
-    "source": "https://www.mammamia-rorschach.com/",
-    "lastVerified": "2026-03-22"
-  },
-  {
     "id": "osm-node-4825710918-clubhaus-lände",
     "name": "Clubhaus Lände",
     "lat": 47.6819687,
@@ -1679,22 +1580,6 @@
     "candidateHours": "Tu-Fr 11:00-22:00; Sa,Su 10:00-22:00; May-Aug: Tu-Fr 11:00-23:00; May-Aug: Sa,Su 10:00-24:00; Nov-Feb: off",
     "candidateUrlKind": "web",
     "source": "https://www.blue-marina.com",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-5034139345-pfeffermühle",
-    "name": "Pfeffermühle",
-    "lat": 47.4774314,
-    "lng": 9.4983475,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 5034139345,
-    "candidateUrl": "https://www.pfeffermühle-rorschach.ch/",
-    "candidatePhone": "+4171 845 22 55",
-    "candidateHours": "Mo off; Tu-Th 09:00-14:00,17:00-23:00; Fr-Sa 09:00-14:00,17:00-24:00; Su off",
-    "candidateUrlKind": "web",
-    "source": "https://www.pfeffermühle-rorschach.ch/",
     "lastVerified": "2026-03-22"
   },
   {
@@ -2063,22 +1948,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-way-60733625-casa-mia",
-    "name": "Casa Mia",
-    "lat": 47.7147096,
-    "lng": 9.067477,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "way",
-    "candidateOsmId": 60733625,
-    "candidateUrl": "https://casamia-bodensee.de/",
-    "candidatePhone": "+49 7531 9405275",
-    "candidateHours": "Tu-Su 11:00-22:00; Sa 11:00-23:00",
-    "candidateUrlKind": "web",
-    "source": "https://casamia-bodensee.de/",
-    "lastVerified": "2026-03-22"
-  },
-  {
     "id": "osm-way-67307037-pizzeria-ristorante-del-lago",
     "name": "Pizzeria-Ristorante Del Lago",
     "lat": 47.4962685,
@@ -2094,38 +1963,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-way-72670567-alet-stüble",
-    "name": "Alet-Stüble",
-    "lat": 47.715276,
-    "lng": 9.0675097,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "way",
-    "candidateOsmId": 72670567,
-    "candidateUrl": "https://www.aletstueble.de",
-    "candidatePhone": "+4975332199",
-    "candidateHours": "Th,Fr 17:00-22:00; Sa,Su 11:30-14:30,17:00-22:00",
-    "candidateUrlKind": "web",
-    "source": "https://www.aletstueble.de",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-way-72670569-asia-wok-weinstube-wehrle",
-    "name": "Asia-Wok (Weinstube Wehrle)",
-    "lat": 47.7155425,
-    "lng": 9.0668653,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "way",
-    "candidateOsmId": 72670569,
-    "candidateUrl": "https://www.asiawok-allensbach.de/",
-    "candidatePhone": "+49 7533 5495",
-    "candidateHours": "Mo-Sa 11:30-22:00; Su 13:00-22:00",
-    "candidateUrlKind": "web",
-    "source": "https://www.asiawok-allensbach.de/",
-    "lastVerified": "2026-03-22"
-  },
-  {
     "id": "osm-way-72761747-hohenegg",
     "name": "Hohenegg",
     "lat": 47.686348,
@@ -2136,21 +1973,6 @@
     "candidateOsmId": 72761747,
     "candidateHours": "Mo-Su 11:00-24:00",
     "source": "https://www.restaurant-hohenegg.de/",
-    "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-way-72856776-scharfes-eck",
-    "name": "Scharfes Eck",
-    "lat": 47.7158247,
-    "lng": 9.0662757,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "way",
-    "candidateOsmId": 72856776,
-    "candidatePhone": "+49 7533 2901",
-    "candidateHours": "Mo-Fr 11:00-23:00; Tu,We off",
-    "candidateUrl": "",
-    "source": "https://scharfeseck.ch/",
     "lastVerified": "2026-03-22"
   },
   {
