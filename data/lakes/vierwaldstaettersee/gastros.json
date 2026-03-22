@@ -91,18 +91,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-2628290278-hallenbad-restaurant",
-    "name": "Hallenbad Restaurant",
-    "lat": 46.9950396,
-    "lng": 8.5989276,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 2628290278,
-    "candidateHours": "We,Th 09:00-23:00; Fr,Sa 09:00-24:00; Su 09:00-22:00",
-    "candidateUrl": ""
-  },
-  {
     "id": "osm-node-7792137002-bahnhöfli",
     "name": "Bahnhöfli",
     "lat": 47.0831264,

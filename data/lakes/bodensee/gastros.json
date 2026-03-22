@@ -23,75 +23,6 @@
     "hours": ""
   },
   {
-    "id": "seehof_langenargen",
-    "name": "Seehof Langenargen",
-    "country": "DE",
-    "location": "Langenargen, direkt am Hafen",
-    "lat": 47.6,
-    "lng": 9.545,
-    "price": "€€",
-    "berthing": "~10 Plätze",
-    "features": [
-      "Biergarten",
-      "Seeterrasse",
-      "Eigener Steg"
-    ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
-    "candidateUrl": null,
-    "candidateFoundAt": null,
-    "candidateSource": null,
-    "phone": "",
-    "hours": ""
-  },
-  {
-    "id": "strandbar_immenstaad",
-    "name": "Strandbar Immenstaad",
-    "country": "DE",
-    "location": "Immenstaad",
-    "lat": 47.665,
-    "lng": 9.365,
-    "price": "€",
-    "berthing": "~8 Plätze",
-    "features": [
-      "Cocktails",
-      "Snacks",
-      "Bojen vor Ort"
-    ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
-    "candidateUrl": null,
-    "candidateFoundAt": null,
-    "candidateSource": null,
-    "phone": "",
-    "hours": ""
-  },
-  {
-    "id": "bootshuette_lindau",
-    "name": "Bootshütte Lindau",
-    "country": "DE",
-    "location": "Lindau Insel, Hafen",
-    "lat": 47.545,
-    "lng": 9.685,
-    "price": "€",
-    "berthing": "Hafen",
-    "features": [
-      "Brotzeiten",
-      "Bier",
-      "Im Hafen"
-    ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
-    "candidateUrl": null,
-    "candidateFoundAt": null,
-    "candidateSource": null,
-    "phone": "",
-    "hours": ""
-  },
-  {
     "id": "hafenrestaurant_rorschach",
     "name": "Hafenrestaurant Rorschach",
     "country": "CH",
@@ -108,29 +39,6 @@
     "url": "",
     "source": "https://www.hafenbuffet.ch/",
     "lastVerified": "2026-03-22",
-    "candidateUrl": null,
-    "candidateFoundAt": null,
-    "candidateSource": null,
-    "phone": "",
-    "hours": ""
-  },
-  {
-    "id": "strandcafe_hagnau",
-    "name": "Strandcafé Hagnau",
-    "country": "DE",
-    "location": "Hagnau",
-    "lat": 47.678,
-    "lng": 9.317,
-    "price": "€",
-    "berthing": "Ankern + Dinghy",
-    "features": [
-      "Kaffee & Kuchen",
-      "Leichte Küche",
-      "Ankern + Dinghy"
-    ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
     "candidateUrl": null,
     "candidateFoundAt": null,
     "candidateSource": null,
@@ -553,32 +461,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-683852532-alte-werft",
-    "name": "Alte Werft",
-    "lat": 47.5451554,
-    "lng": 9.6857535,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 683852532,
-    "candidatePhone": "+49 8382 5224",
-    "candidateHours": "Mo-Su 10:00-22:00",
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-687476436-osteria-shardana",
-    "name": "Osteria Shardana",
-    "lat": 47.5453455,
-    "lng": 9.6832341,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 687476436,
-    "candidatePhone": "+49 8382 2737827",
-    "candidateHours": "Tu-Sa 11:30-14:00,17:00-21:00",
-    "candidateUrl": ""
-  },
-  {
     "id": "osm-node-729165060-seeküche-am-campingplatz-allensbach",
     "name": "Seeküche am Campingplatz Allensbach",
     "lat": 47.7100778,
@@ -824,19 +706,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-1330637250-pizzeria-de-marchi",
-    "name": "Pizzeria de Marchi",
-    "lat": 47.597416,
-    "lng": 9.5397715,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 1330637250,
-    "candidatePhone": "+49 7543 1826",
-    "candidateHours": "Mo-Su 11:30-14:00, 17:30-22:00",
-    "candidateUrl": ""
-  },
-  {
     "id": "osm-node-1352226995-al-lago",
     "name": "Al Lago",
     "lat": 47.7655801,
@@ -956,17 +825,6 @@
     "candidateUrlKind": "web",
     "source": "https://www.rheinspitz.ch",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-1668439907-lido",
-    "name": "Lido",
-    "lat": 47.495865,
-    "lng": 9.4634638,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 1668439907,
-    "candidatePhone": "+4171 841 42 73"
   },
   {
     "id": "osm-node-1754681455-schlosshotel-und-restaurant-tribeli",
@@ -1261,18 +1119,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-2867196693-schiff",
-    "name": "Schiff",
-    "lat": 47.6734295,
-    "lng": 9.088103,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 2867196693,
-    "candidatePhone": "+41 71 664 30 27",
-    "candidateHours": "Th-Sa 14:00-23:00; Su 13:00-20:00"
-  },
-  {
     "id": "osm-node-2906966201-schlosshotel-wasserburg",
     "name": "SchlossHotel Wasserburg",
     "lat": 47.5673604,
@@ -1404,18 +1250,6 @@
     "candidateHours": "Mo-Th 08:30-22:30; Fr 08:30-23:00; Sa 09:00-23:00; Su 09:00-22:30",
     "source": "https://www.muenzhof-rorschach.ch/",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-3387478325-weinkeller-stadtmauer",
-    "name": "Weinkeller Stadtmauer",
-    "lat": 47.6492544,
-    "lng": 9.4804365,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 3387478325,
-    "candidatePhone": "+49 7541 22757",
-    "candidateUrl": ""
   },
   {
     "id": "osm-node-3391758455-kommodore-im-wyc",
@@ -1727,17 +1561,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-4252265815-silo",
-    "name": "Silo",
-    "lat": 47.6433853,
-    "lng": 9.2093869,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 4252265815,
-    "candidateHours": "Mo-Fr 09:00-22:00; Sa 14:00-24:00; Su 10:00-17:00"
-  },
-  {
     "id": "osm-node-4349039787-ahoi",
     "name": "AHOI",
     "lat": 47.5860815,
@@ -1935,18 +1758,6 @@
     "candidateUrlKind": "web",
     "source": "https://alti-badi.ch/",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-7157254526-rosticceria-la-bont",
-    "name": "Rosticceria La Bontà",
-    "lat": 47.4781143,
-    "lng": 9.4945302,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 7157254526,
-    "candidatePhone": "+41 71 544 17 99",
-    "candidateUrl": ""
   },
   {
     "id": "osm-node-7315801711-steg-11",
@@ -2315,18 +2126,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-way-72670570-nane",
-    "name": "Nane",
-    "lat": 47.7153661,
-    "lng": 9.0676927,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "way",
-    "candidateOsmId": 72670570,
-    "candidatePhone": "+49 7533 6307",
-    "candidateHours": "11:00-14:00; 17:00-23:00"
-  },
-  {
     "id": "osm-way-72761747-hohenegg",
     "name": "Hohenegg",
     "lat": 47.686348,
@@ -2431,19 +2230,6 @@
     "candidateUrlKind": "web",
     "source": "https://www.grillhaus-schussen.de/",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-way-102382479-gasthaus-käth-r",
-    "name": "Gasthaus Käth'r",
-    "lat": 47.4902292,
-    "lng": 9.6862142,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "way",
-    "candidateOsmId": 102382479,
-    "candidatePhone": "+43 5574 87588",
-    "candidateHours": "Tu-Sa 09:30-24:00; Su 09:30-15:00",
-    "candidateUrl": ""
   },
   {
     "id": "osm-way-114229487-staader-fährhaus",
@@ -2626,18 +2412,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-way-129428187-seeräuber",
-    "name": "Seeräuber",
-    "lat": 47.7008341,
-    "lng": 9.0628316,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "way",
-    "candidateOsmId": 129428187,
-    "candidatePhone": "+49 7534 999655",
-    "candidateHours": "PH,Mo-Su 11:00-22:00"
-  },
-  {
     "id": "osm-way-142820928-fischerhütte",
     "name": "Fischerhütte",
     "lat": 47.5891623,
@@ -2651,17 +2425,6 @@
     "candidateUrlKind": "web",
     "source": "https://www.fischerhuette-kressbronn.de",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-way-203491340-hafeglöggli",
-    "name": "Hafeglöggli",
-    "lat": 47.5622152,
-    "lng": 9.3819475,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "way",
-    "candidateOsmId": 203491340,
-    "candidatePhone": "+41 79 235 14 81"
   },
   {
     "id": "osm-way-209079036-buchhorner-pavillon-am-see",
@@ -2693,18 +2456,6 @@
     "candidateUrlKind": "web",
     "source": "https://www.mediterra-bodensee.com/",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-way-219242367-al-gusto-caf-restaurant",
-    "name": "Al Gusto, Café Restaurant",
-    "lat": 47.7242357,
-    "lng": 9.2298396,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "way",
-    "candidateOsmId": 219242367,
-    "candidateHours": "Mo-Su 10:00-00:00",
-    "candidateUrl": ""
   },
   {
     "id": "osm-way-219242385-hotel-mainaublick",
