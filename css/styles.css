@@ -1219,3 +1219,31 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   color: rgba(255,255,255,0.55);
   font-size: 0.78em;
 }
+
+/* Premium entries */
+.harbor-card.premium {
+  border: 1px solid var(--gold);
+  position: relative;
+}
+.anchor-item.premium {
+  border-left: 3px solid var(--gold);
+  padding-left: 16px;
+}
+.premium-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background: var(--gold);
+  color: var(--navy);
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.action-btn.affiliate {
+  background: var(--gold);
+  color: var(--navy);
+  font-weight: 500;
+}

@@ -186,5 +186,6 @@
   "modal.k.swell": "Schwell",
   "modal.k.restrictions": "Hinweise/Einschränkungen",
   "map.layers.zones": "Zonen",
-  "map.layers.location": "Standort"
+  "map.layers.location": "Standort",
+  "modal.actions.book": "Jetzt buchen"
 }
