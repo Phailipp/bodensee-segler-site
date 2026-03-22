@@ -301,18 +301,6 @@
     "candidateUrlKind": "web"
   },
   {
-    "id": "osm-node-308131133-du-lac",
-    "name": "Du Lac",
-    "lat": 47.2284429,
-    "lng": 8.6752832,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 308131133,
-    "candidateUrl": "https://dulac-waedenswil.ch/",
-    "candidateUrlKind": "web"
-  },
-  {
     "id": "osm-node-383891068-seeperle",
     "name": "Seeperle",
     "lat": 47.2393879,
