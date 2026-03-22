@@ -228,17 +228,15 @@ function handleDeepLinkOpen() {
   const o = parseOpenParam();
   if (!o) return;
 
-  // If the URL requests an item to open, make the target area stable and predictable.
+  // Scroll to map section so the modal appears in view.
   try {
     if (!window.location.hash) window.location.hash = '#karte';
   } catch {}
-
   const mapEl = document.getElementById('karte');
   if (mapEl) mapEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
   const start = Date.now();
   const tryOpen = () => {
-    // Wait for the essentials: data loaded, modal DOM present, and Leaflet map created.
     const modalReady = !!(document.getElementById('modalBackdrop') && document.getElementById('modalBody'));
     const mapReady = !!state.map;
     const dataReady = !!(state.data && (state.data.harbors || state.data.anchors || state.data.rentals || state.data.gastros || state.data.services));
@@ -246,13 +244,13 @@ function handleDeepLinkOpen() {
     if (modalReady && mapReady && dataReady) {
       const target = resolveOpenTarget(o);
       if (target?.item) {
-        // No artificial delay: if we can open, we open.
         openModal(target.type, target.item);
         return;
       }
     }
 
-    if (Date.now() - start < 6500) return setTimeout(tryOpen, 180);
+    // Retry for up to 10 seconds (covers slow connections).
+    if (Date.now() - start < 10000) return setTimeout(tryOpen, 200);
   };
 
   tryOpen();
