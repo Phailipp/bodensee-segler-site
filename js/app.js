@@ -516,14 +516,16 @@ function setUpFilterBars() {
 
 function cardHarbor(h) {
   const features = (h.features || []).slice(0, 6);
+  const prem = h.premium ? ' premium' : '';
+  const badge = h.premium ? '<span class="premium-badge">Premium</span>' : '';
   return `
-    <div class="harbor-card" data-open="harbor" data-id="${h.id}">
+    <div class="harbor-card${prem}" data-open="harbor" data-id="${h.id}">
       <div class="harbor-image">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 20 L12 4 L22 20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
         <span class="harbor-country">${formatCountry(h.country)}</span>
       </div>
       <div class="harbor-content">
-        <h3 class="harbor-name">${escapeHtml(h.name)}</h3>
+        <h3 class="harbor-name">${escapeHtml(h.name)}${badge}</h3>
         <p class="harbor-location">${escapeHtml(h.region || '')}</p>
         <div class="harbor-stats">
           <div class="stat"><div class="stat-value">${h.berths ?? '—'}</div><div class="stat-label">${t('stats.berths')}</div></div>
@@ -559,14 +561,16 @@ function rowAnchor(a) {
 }
 
 function cardRental(r) {
+  const prem = r.premium ? ' premium' : '';
+  const badge = r.premium ? '<span class="premium-badge">Premium</span>' : '';
   return `
-    <div class="harbor-card" data-open="rental" data-id="${r.id}">
+    <div class="harbor-card${prem}" data-open="rental" data-id="${r.id}">
       <div class="harbor-image" style="background: linear-gradient(135deg, #1a2d42 0%, #2d1a42 100%);">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 20 L12 4 L22 20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
         <span class="harbor-country">${formatCountry(r.country)}</span>
       </div>
       <div class="harbor-content">
-        <h3 class="harbor-name">${escapeHtml(r.name)}</h3>
+        <h3 class="harbor-name">${escapeHtml(r.name)}${badge}</h3>
         <p class="harbor-location">${escapeHtml(r.location || '')}</p>
         <div class="harbor-stats">
           <div class="stat"><div class="stat-value">${r.fleetSize ?? '—'}</div><div class="stat-label">${t('rentals.stats.boats')}</div></div>
@@ -581,10 +585,12 @@ function cardRental(r) {
 }
 
 function rowGastro(g) {
+  const prem = g.premium ? ' premium' : '';
+  const badge = g.premium ? '<span class="premium-badge">Premium</span>' : '';
   return `
-    <div class="anchor-item" data-open="gastro" data-id="${g.id}">
+    <div class="anchor-item${prem}" data-open="gastro" data-id="${g.id}">
       <div>
-        <h3 class="anchor-name">${escapeHtml(g.name)}</h3>
+        <h3 class="anchor-name">${escapeHtml(g.name)}${badge}</h3>
         <p class="anchor-location">${escapeHtml(g.location || '')}</p>
         <div class="anchor-tags">
           ${(g.features || []).slice(0,3).map(f => `<span class="anchor-tag">${escapeHtml(f)}</span>`).join('')}
@@ -876,6 +882,10 @@ function openModal(type, item) {
     actions.push(`<a class="action-btn" href="${item.url}" target="_blank" rel="noreferrer">${t('modal.actions.website')}</a>`);
   } else if (item.candidateUrl) {
     actions.push(`<a class="action-btn" href="${item.candidateUrl}" target="_blank" rel="noreferrer">${t('modal.actions.candidate')}</a>`);
+  }
+  if (item.affiliateUrl) {
+    const affLabel = item.affiliateLabel || t('modal.actions.book');
+    actions.push(`<a class="action-btn affiliate" href="${item.affiliateUrl}" target="_blank" rel="noreferrer">${escapeHtml(affLabel)}</a>`);
   }
   if (gm) actions.push(`<a class="action-btn" href="${gm}" target="_blank" rel="noreferrer">${t('modal.actions.route')}</a>`);
   if (coords) actions.push(`<button class="action-btn" id="copyCoordsBtn">${t('modal.actions.copy')}</button>`);

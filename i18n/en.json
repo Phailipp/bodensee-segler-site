@@ -186,5 +186,6 @@
   "modal.k.swell": "Swell",
   "modal.k.restrictions": "Notes/Restrictions",
   "map.layers.zones": "Zones",
-  "map.layers.location": "My location"
+  "map.layers.location": "My location",
+  "modal.actions.book": "Book now"
 }
