@@ -206,7 +206,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1859270971,
     "candidatePhone": "+39 0323 934475",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "http://www.lidrovolante.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1869124525-laguna-blu",
@@ -248,7 +250,9 @@
     "candidateFoundAt": "2026-02-17",
     "candidateOsmType": "node",
     "candidateOsmId": 2178946419,
-    "candidatePhone": "+39 0323 28568"
+    "candidatePhone": "+39 0323 28568",
+    "source": "http://www.ristorantevistaqua.it/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2288142607-pane-e-zucchero",
@@ -466,7 +470,9 @@
     "candidateOsmId": 3725482746,
     "candidatePhone": "+39 0332 628041",
     "candidateHours": "Mo,We-Su 12:00-15:00,19:00-23:30; Tu off",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://amysushi.it/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4177090216-calianna",
@@ -622,7 +628,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 4959781127,
     "candidatePhone": "+39 0332 666975",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://www.hostariadelgolfo.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-5155823121-osteria-della-luna-piena",
@@ -673,7 +681,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 6227647535,
     "candidatePhone": "+41 91 600 90 94",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "http://www.grottosassalto.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6443935786-il-calderone",
@@ -998,7 +1008,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 12951101203,
     "candidatePhone": "+41 91 7435198",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://www.trattoriadellago.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-13108835201-il-rifugio-sagl",
@@ -1065,7 +1077,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 171530861,
     "candidatePhone": "+39 0323 73 97 91",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://lidobeachlounge.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-202367896-acquadulza-live-food-bar",
