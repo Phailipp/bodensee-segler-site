@@ -308,7 +308,9 @@
     "candidateOsmId": 1784645818,
     "candidateUrl": "https://www.dsmc.de",
     "candidatePhone": "+49 7531 26658",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.dsmc.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2135894087-wassersportclub-montfort",
@@ -424,7 +426,9 @@
     "candidateOsmId": 76032579,
     "candidateUrl": "https://www.salzmann.at/hafen/",
     "candidatePhone": "+43 5578 75708",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.salzmann.at/hafen/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-82470103-marina-rheinhof",
@@ -452,7 +456,9 @@
     "candidateOsmId": 83200835,
     "candidateUrl": "https://www.hafen-bregenz.at/inhalt/at/41.htm",
     "candidatePhone": "+43 5574 410 1165",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hafen-bregenz.at/inhalt/at/41.htm",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-83200836-hafen-bregenz",
@@ -465,7 +471,9 @@
     "candidateOsmId": 83200836,
     "candidateUrl": "https://www.hafen-bregenz.at/",
     "candidatePhone": "+43 5574 79160; +43 664 4762273",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hafen-bregenz.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-83200839-lochau-westhafen",
@@ -478,7 +486,9 @@
     "candidateOsmId": 83200839,
     "candidateUrl": "https://gemeinde.lochau.at/hafen.html",
     "candidatePhone": "+43 5574 42168 212",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://gemeinde.lochau.at/hafen.html",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-92873407-bodensee-yacht-club-überlingen-bycü",
@@ -491,7 +501,9 @@
     "candidateOsmId": 92873407,
     "candidateUrl": "https://www.bycue.de/",
     "candidatePhone": "+49 7551 9459606",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bycue.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-92873411-sportboothafen-ost",
@@ -504,7 +516,9 @@
     "candidateOsmId": 92873411,
     "candidateUrl": "https://www.ueberlingen.de/haefen",
     "candidatePhone": "+49 7551 915510",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ueberlingen.de/haefen",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-93183658-städtischer-seglerhafen-waschplätzle",
@@ -517,7 +531,9 @@
     "candidateOsmId": 93183658,
     "candidateUrl": "https://www.skipperguide.de/wiki/Meersburg",
     "candidatePhone": "+49 7532 5655",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.skipperguide.de/wiki/Meersburg",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-96625284-gemeindehafen-romanshorn",
@@ -530,7 +546,9 @@
     "candidateOsmId": 96625284,
     "candidateUrl": "https://www.romanshorn.ch/verwaltung/anlagen-und-betriebe/hafen.html/135",
     "candidatePhone": "+41 58 346 84 10",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.romanshorn.ch/verwaltung/anlagen-und-betriebe/hafen.html/135",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-96681044-sbs-jachthafen-romanshorn",
@@ -543,7 +561,9 @@
     "candidateOsmId": 96681044,
     "candidateUrl": "https://www.sscro.com/hafen/",
     "candidatePhone": "+41 71 463 62 21",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.sscro.com/hafen/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-105299710-yachthafen-schloss-kirchberg",
@@ -555,7 +575,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 105299710,
     "candidateUrl": "https://www.sunwind.ch/de/ysk/index.html",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.sunwind.ch/de/ysk/index.html",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-105299711-yachthafen-schloss-helmsdorf",
@@ -567,7 +589,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 105299711,
     "candidateUrl": "https://www.schlosshelmsdorf.de/de/segeln/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.schlosshelmsdorf.de/de/segeln/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-105299712-yci-yachtclub-immenstaad",
@@ -580,7 +604,9 @@
     "candidateOsmId": 105299712,
     "candidateUrl": "https://www.ycimmenstaad.de/",
     "candidatePhone": "+49 7545 6021",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ycimmenstaad.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-123257314-konstanzer-yacht-club",
@@ -593,7 +619,9 @@
     "candidateOsmId": 123257314,
     "candidateUrl": "https://www.konstanzer-yacht-club.de/",
     "candidatePhone": "+49 7531 959813",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.konstanzer-yacht-club.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-127209320-martin-hafen",
@@ -605,7 +633,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 127209320,
     "candidateUrl": "https://motoryachtclub-radolfzell.de/hafen/martin-hafen",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://motoryachtclub-radolfzell.de/hafen/martin-hafen",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-127349025-hafen-bregenz-marina",
@@ -618,7 +648,9 @@
     "candidateOsmId": 127349025,
     "candidateUrl": "https://www.hafen-bregenz.at/",
     "candidatePhone": "+43 5574 79160; +43 664 4762273",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hafen-bregenz.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-127418867-bootshafen-seegarten-kreuzlingen",
@@ -630,7 +662,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 127418867,
     "candidateUrl": "https://www.svk-kreuzlingen.ch/Startseite/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.svk-kreuzlingen.ch/Startseite/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-127418885-gemeindehafen-höchst-fischerinsel",
@@ -643,7 +677,9 @@
     "candidateOsmId": 127418885,
     "candidateUrl": "https://www.wassersportfreunde-fischerinsel.at",
     "candidatePhone": "+43 664 2221956",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.wassersportfreunde-fischerinsel.at",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-127496891-wassersportverein-friedrichshafen-fischbach-e-v",
@@ -656,7 +692,9 @@
     "candidateOsmId": 127496891,
     "candidateUrl": "https://www.wvfischbach.de/",
     "candidatePhone": "+49 7544 7425990",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.wvfischbach.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-127496900-württembergischer-yacht-club",
@@ -668,7 +706,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 127496900,
     "candidateUrl": "https://www.wyc-fn.de/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.wyc-fn.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-127496901-bmk-yachthafen-langenargen",
@@ -681,7 +721,9 @@
     "candidateOsmId": 127496901,
     "candidateUrl": "https://www.bmk-yachthafen.de/",
     "candidatePhone": "+49 174 3489296",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bmk-yachthafen.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-127496902-ultramarin-die-meichle-mohr-marina",
@@ -694,7 +736,9 @@
     "candidateOsmId": 127496902,
     "candidateUrl": "https://www.ultramarin.com/",
     "candidatePhone": "+49 7543 96600",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ultramarin.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-127497728-yachthafen-haltnau-yacht-club-meersburg",
@@ -707,7 +751,9 @@
     "candidateOsmId": 127497728,
     "candidateUrl": "https://www.yachtclub-meersburg.de/",
     "candidatePhone": "+49 7532 9002",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.yachtclub-meersburg.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-127502094-seglerhafen-staad",
@@ -719,7 +765,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 127502094,
     "candidateUrl": "https://www.segler-verein-staad.de/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.segler-verein-staad.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-127502095-sportboothafen-staad",
@@ -731,7 +779,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 127502095,
     "candidateUrl": "https://www.shs-staad.de/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.shs-staad.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-127506121-sportboothafen-uhldingen",
@@ -744,7 +794,9 @@
     "candidateOsmId": 127506121,
     "candidateUrl": "https://www.segelclub-unteruhldingen.de/",
     "candidatePhone": "+49 7556 6668",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.segelclub-unteruhldingen.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-128382838-bodan-werft-freizeit-und-hafen",
@@ -756,7 +808,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 128382838,
     "candidateUrl": "https://www.bodan-fuh.com/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bodan-fuh.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-128382839-gemeindehafen-langenargen",
@@ -769,7 +823,9 @@
     "candidateOsmId": 128382839,
     "candidateUrl": "https://www.langenargen-tourismus.de/urlaubsthemen/erlebnis-wasser/haefen/gemeindehafen-langenargen.html",
     "candidatePhone": "+49 7543 9618331",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.langenargen-tourismus.de/urlaubsthemen/erlebnis-wasser/haefen/gemeindehafen-langenargen.html",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-179054565-gemeindehafen-moos",
@@ -782,7 +838,9 @@
     "candidateOsmId": 179054565,
     "candidateUrl": "https://www.scmb-moos.de/index.html",
     "candidatePhone": "+49 7732 52180",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.scmb-moos.de/index.html",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-179231645-hafen-wäschbruck-radolfzell",
@@ -795,7 +853,9 @@
     "candidateOsmId": 179231645,
     "candidateUrl": "https://www.wwra.de/hafen/",
     "candidatePhone": "+49 7732 3458",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.wwra.de/hafen/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-207942788-camping-luxburg",
@@ -808,7 +868,9 @@
     "candidateOsmId": 207942788,
     "candidateUrl": "https://camping-luxburg.ch/",
     "candidatePhone": "+41 79 567 16 28",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://camping-luxburg.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-572101356-yachthafen-ludwigshafen",
@@ -821,7 +883,9 @@
     "candidateOsmId": 572101356,
     "candidateUrl": "https://www.ylb.de/ylb/index.php",
     "candidatePhone": "+49 7773 920740",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ylb.de/ylb/index.php",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-937387060-hafen-rohner",
@@ -834,7 +898,9 @@
     "candidateOsmId": 937387060,
     "candidateUrl": "https://hafen-rohner.at/",
     "candidatePhone": "+43 5578 75320",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://hafen-rohner.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-937387065-motorboot-segelsportverein-schwedenschanze",
@@ -847,7 +913,9 @@
     "candidateOsmId": 937387065,
     "candidateUrl": "https://www.mbsv.at/",
     "candidatePhone": "+43 5578 726580",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.mbsv.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-937387067-yacht-club-rheindelta-hörnle",
@@ -859,7 +927,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 937387067,
     "candidateUrl": "https://www.ycrhd.com",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ycrhd.com",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-1307842120-yachthafen-wallhausen",
@@ -872,7 +942,9 @@
     "candidateOsmId": 1307842120,
     "candidateUrl": "https://www.yachthafen-wallhausen.de/",
     "candidatePhone": "+49 7533 6848",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.yachthafen-wallhausen.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-1307842121-steganlage-sv-dingelsdorf",
@@ -885,7 +957,9 @@
     "candidateOsmId": 1307842121,
     "candidateUrl": "https://www.sv-dingelsdorf.de/text/262/de/wassersport.html?",
     "candidatePhone": "+49 7533 3801",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.sv-dingelsdorf.de/text/262/de/wassersport.html?",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-1348733820-gemeindehafen-horn",
@@ -897,6 +971,8 @@
     "candidateOsmType": "way",
     "candidateOsmId": 1348733820,
     "candidateUrl": "https://ycho.de/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://ycho.de/",
+    "lastVerified": "2026-03-22"
   }
 ]

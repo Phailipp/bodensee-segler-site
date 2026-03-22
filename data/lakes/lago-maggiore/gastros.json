@@ -11,7 +11,9 @@
     "candidateUrl": "https://www.seven.ch/restaurants/seven-lugano-restaurant",
     "candidatePhone": "+41 912 90 77 77",
     "candidateHours": "Mo-Su 12:00-15:00,19:30-01:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.seven.ch/restaurants/seven-lugano-restaurant",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-663870157-porto-ronco-beach-club",
@@ -23,7 +25,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 663870157,
     "candidateUrl": "https://portoroncobeach.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://portoroncobeach.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-664833749-grotto-baldoria",
@@ -36,7 +40,9 @@
     "candidateOsmId": 664833749,
     "candidateUrl": "https://www.grottobaldoria.ch/",
     "candidateHours": "Mo-Su 12:00-14:00, 18:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.grottobaldoria.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-664906634-sensi",
@@ -49,7 +55,9 @@
     "candidateOsmId": 664906634,
     "candidateUrl": "https://www.ristoranti-ff.ch/it/ristorante-sensi-muralto",
     "candidatePhone": "+41 91 743 17 17",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ristoranti-ff.ch/it/ristorante-sensi-muralto",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-798528549-100-cento",
@@ -63,7 +71,9 @@
     "candidateUrl": "https://ristorante100.ch/",
     "candidatePhone": "+41 91 795 12 12",
     "candidateHours": "Mo-Fr 06:00-23:00; Sa-Su 07:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://ristorante100.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-806521348-seven",
@@ -75,7 +85,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 806521348,
     "candidateUrl": "https://seven.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://seven.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-832079499-al-torchio",
@@ -88,7 +100,9 @@
     "candidateOsmId": 832079499,
     "candidateUrl": "https://www.altorchio.ch/",
     "candidatePhone": "+41 91 743 43 77",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.altorchio.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-892455573-seven-asia",
@@ -101,7 +115,9 @@
     "candidateOsmId": 892455573,
     "candidateUrl": "https://seven.ch",
     "candidatePhone": "+41 91 786 96 76",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://seven.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1264080929-europa",
@@ -115,7 +131,9 @@
     "candidateUrl": "https://www.europa-ristorante.com/de/",
     "candidatePhone": "+39 0323 788292",
     "candidateHours": "10:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.europa-ristorante.com/de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1264080949-park-hotel-italia",
@@ -128,7 +146,9 @@
     "candidateOsmId": 1264080949,
     "candidateUrl": "https://www.parkhotelitalia.com",
     "candidatePhone": "+39 0323 788488",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.parkhotelitalia.com",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1264080952-magnolia",
@@ -141,7 +161,9 @@
     "candidateOsmId": 1264080952,
     "candidateUrl": "https://www.ristorantemagnolia.it/",
     "candidatePhone": "+39 323 788066",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ristorantemagnolia.it/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1264080955-cannero",
@@ -154,7 +176,9 @@
     "candidateOsmId": 1264080955,
     "candidateUrl": "https://www.hotelcannero.com/",
     "candidatePhone": "+39 0323 788046",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hotelcannero.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1807078778-lago",
@@ -168,7 +192,9 @@
     "candidateUrl": "https://ristorantepizzerialago.it",
     "candidatePhone": "+393883619935",
     "candidateHours": "Mo-Su 12:00-14:30,18:30-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://ristorantepizzerialago.it",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1859270971-l-idrovolante-caf",
@@ -180,7 +206,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1859270971,
     "candidatePhone": "+39 0323 934475",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "http://www.lidrovolante.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1869124525-laguna-blu",
@@ -194,7 +222,9 @@
     "candidateUrl": "https://www.bistrotlagunablu.it/",
     "candidatePhone": "+39 332 647545",
     "candidateHours": "We-Mo 09:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bistrotlagunablu.it/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1893978349-bistrot-imbarcadero",
@@ -207,7 +237,9 @@
     "candidateOsmId": 1893978349,
     "candidateUrl": "https://bistrotimbarcadero.it/",
     "candidatePhone": "+39 0332 157 3849",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://bistrotimbarcadero.it/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2178946419-vistaqua",
@@ -218,7 +250,9 @@
     "candidateFoundAt": "2026-02-17",
     "candidateOsmType": "node",
     "candidateOsmId": 2178946419,
-    "candidatePhone": "+39 0323 28568"
+    "candidatePhone": "+39 0323 28568",
+    "source": "http://www.ristorantevistaqua.it/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2288142607-pane-e-zucchero",
@@ -232,7 +266,9 @@
     "candidateUrl": "https://spaghettigastrogroup.com/home/pane-e-zucchero",
     "candidatePhone": "+41 91 9701000",
     "candidateHours": "Mo-Th 07:00-24:00, Fr 07:00-01:00, Sa 15:30-01:00, Su off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://spaghettigastrogroup.com/home/pane-e-zucchero",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2299811432-la-lanterna",
@@ -255,7 +291,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 2299811474,
     "candidateUrl": "https://www.hotelnovara.com/ristorante/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hotelnovara.com/ristorante/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2299811539-osteria-antica-il-monte-rosso",
@@ -268,7 +306,9 @@
     "candidateOsmId": 2299811539,
     "candidateUrl": "https://www.osteriamonterosso.com/",
     "candidatePhone": "+39 0323 506056",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.osteriamonterosso.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2446125421-dai-monelli",
@@ -341,7 +381,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 3106072685,
     "candidateUrl": "https://www.lapprodo.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.lapprodo.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3293054568-ristorante-svizzero",
@@ -354,7 +396,9 @@
     "candidateOsmId": 3293054568,
     "candidateUrl": "https://www.albergoristorantesvizzero.com/",
     "candidatePhone": "+41 91 648 19 75",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.albergoristorantesvizzero.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3524352038-ristorante-pizzeria-san-giorgio",
@@ -366,7 +410,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 3524352038,
     "candidateUrl": "https://www.chaletsangiorgio.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.chaletsangiorgio.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3627591053-arancioamaro",
@@ -379,7 +425,9 @@
     "candidateOsmId": 3627591053,
     "candidateUrl": "https://www.arancioamaro.it/",
     "candidatePhone": "+39 339 8318937",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.arancioamaro.it/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3660525257-ristorante-al-gabbiano",
@@ -391,7 +439,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 3660525257,
     "candidateUrl": "https://www.ristorantealgabbiano.ch",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ristorantealgabbiano.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3716878601-dam-a-traa",
@@ -405,7 +455,9 @@
     "candidateUrl": "https://damatraa.it",
     "candidatePhone": "+39 0323 557152",
     "candidateHours": "Tu-Su 11:00-15:00,18:00-26:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://damatraa.it",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3725482746-amy-sushi",
@@ -418,7 +470,9 @@
     "candidateOsmId": 3725482746,
     "candidatePhone": "+39 0332 628041",
     "candidateHours": "Mo,We-Su 12:00-15:00,19:00-23:30; Tu off",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://amysushi.it/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4177090216-calianna",
@@ -442,7 +496,9 @@
     "candidateOsmId": 4213596926,
     "candidateUrl": "https://www.ristorantelimbuto.it",
     "candidatePhone": "+39 0323 70026",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ristorantelimbuto.it",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4447882190-taverna-concordia",
@@ -456,7 +512,9 @@
     "candidateUrl": "https://concordialaveno.it/",
     "candidatePhone": "+39 0332 666320",
     "candidateHours": "Sa 11:00-15:30,17:00-01:00; Su 11:00-16:00,17:30-22:30; We-Th 17:00-24:00; Fr 17:00-01:00; Mo-Tu closed; PH closed",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://concordialaveno.it/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4485648844-il-burchiello",
@@ -470,7 +528,9 @@
     "candidateUrl": "https://ristoranteilburchiello.eatbu.com",
     "candidatePhone": "+39 0332 316390",
     "candidateHours": "Mo-Su 11:00-15:30,18:00-23:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://ristoranteilburchiello.eatbu.com",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4485648845-kopi-club",
@@ -484,7 +544,9 @@
     "candidateUrl": "https://www.theoldkopiclub.com/",
     "candidatePhone": "+39 0332 669776",
     "candidateHours": "Mo-Tu,Th-Su 10:00-22:30; We 09:00-22:30; PH closed",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.theoldkopiclub.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4760805623-breva",
@@ -498,7 +560,9 @@
     "candidateUrl": "https://pizzeriabreva.ch/",
     "candidatePhone": "+41 91 976 07 07",
     "candidateHours": "Tu-Th 07:00-00:00; Fr-Sa 08:00-01:00; Su 08:00-00:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://pizzeriabreva.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4761601722-come-a-casa",
@@ -535,7 +599,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 4935784743,
     "candidateUrl": "https://www.ristorantelostornello-stresa.it/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ristorantelostornello-stresa.it/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4936420561-trattoria-la-botte",
@@ -548,7 +614,9 @@
     "candidateOsmId": 4936420561,
     "candidateUrl": "https://www.trattorialabottestresa.it/",
     "candidatePhone": "+39 0323 30462",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.trattorialabottestresa.it/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4959781127-hostaria-del-golfo",
@@ -560,7 +628,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 4959781127,
     "candidatePhone": "+39 0332 666975",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://www.hostariadelgolfo.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-5155823121-osteria-della-luna-piena",
@@ -585,7 +655,9 @@
     "candidateOsmId": 5834921401,
     "candidateUrl": "https://autentiko.it",
     "candidateHours": "Mo-Th 11:30-15:00; Mo-Th 18:30-22:00; Fr-Su 11:30-22:00; Su,PH 11:30-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://autentiko.it",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6137632810-skipper-kebab-pizza-d-asporto",
@@ -609,7 +681,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 6227647535,
     "candidatePhone": "+41 91 600 90 94",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "http://www.grottosassalto.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6443935786-il-calderone",
@@ -632,7 +706,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 6671271687,
     "candidateUrl": "https://www.osteriacastello.com/en/home-uk/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.osteriacastello.com/en/home-uk/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6687555923-il-portale",
@@ -646,7 +722,9 @@
     "candidateUrl": "https://www.ristoranteilportale.it/",
     "candidatePhone": "+39 0323 505486",
     "candidateHours": "Mo-Su 12:00-14:30,19:30-22:30; Tu-We 12:00-14:30 off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ristoranteilportale.it/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6796947687-la-barca",
@@ -682,7 +760,9 @@
     "candidateOsmId": 7950521585,
     "candidateUrl": "https://www.fioredilatte.it",
     "candidatePhone": "+39032380630",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.fioredilatte.it",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8809050404-ristorante-la-veranda-del-sole",
@@ -695,7 +775,9 @@
     "candidateOsmId": 8809050404,
     "candidateUrl": "https://www.hoteldelsolelagomaggiore.com/",
     "candidatePhone": "+39 0332 547747",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hoteldelsolelagomaggiore.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9056803317-locanda-81",
@@ -708,7 +790,9 @@
     "candidateOsmId": 9056803317,
     "candidateUrl": "https://locanda81.business.site/",
     "candidatePhone": "+390323361528",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://locanda81.business.site/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9067056917-la-casera",
@@ -722,7 +806,9 @@
     "candidateUrl": "https://www.formaggidieros.it",
     "candidatePhone": "+39 0323 581123",
     "candidateHours": "Mo,Tu,Th-Sa 09:00-22:00; We 09:00-19:00; Su off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.formaggidieros.it",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9153014798-luini6",
@@ -735,7 +821,9 @@
     "candidateOsmId": 9153014798,
     "candidateUrl": "https://luini6.ch/",
     "candidatePhone": "+41 91 208 31 07",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://luini6.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9359227034-shun",
@@ -759,7 +847,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 9862600455,
     "candidateUrl": "https://asconasquaregarden.com",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://asconasquaregarden.com",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9903930041-osteria-cantinone-elvezia",
@@ -771,7 +861,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 9903930041,
     "candidateUrl": "https://osteria-cantinone-elvezia.business.site/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://osteria-cantinone-elvezia.business.site/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-10065125328-trattoria-cannobio-da-ale-vale",
@@ -797,7 +889,9 @@
     "candidateUrl": "https://www.villaporta.style/en/tiffany-restaurant/",
     "candidatePhone": "+39 0332 510855",
     "candidateHours": "Mo-Su 12:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.villaporta.style/en/tiffany-restaurant/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-10887427388-ristorante-vistalago",
@@ -811,7 +905,9 @@
     "candidateUrl": "https://ristorantevistalago.ch",
     "candidatePhone": "+41919211048",
     "candidateHours": "Mo-Su 08:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://ristorantevistalago.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-10908308390-bar-caff-tre-re",
@@ -873,7 +969,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 12613395981,
     "candidateUrl": "https://seven.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://seven.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-12613623827-riva",
@@ -885,7 +983,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 12613623827,
     "candidateUrl": "https://seven.ch/de/restaurants/riva-ascona",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://seven.ch/de/restaurants/riva-ascona",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-12744982869-le-rive",
@@ -908,7 +1008,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 12951101203,
     "candidatePhone": "+41 91 7435198",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://www.trattoriadellago.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-13108835201-il-rifugio-sagl",
@@ -934,7 +1036,9 @@
     "candidateOsmId": 13151050503,
     "candidateUrl": "https://www.cantinazanello.it/en/i-filari/",
     "candidatePhone": "+393398831952",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.cantinazanello.it/en/i-filari/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-13151156102-lido-di-luino",
@@ -959,7 +1063,9 @@
     "candidateOsmId": 13158727401,
     "candidateUrl": "https://albergopescatore.com/",
     "candidatePhone": "+3900332549530",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://albergopescatore.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-171530861-lido-beach-lounge",
@@ -971,7 +1077,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 171530861,
     "candidatePhone": "+39 0323 73 97 91",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://lidobeachlounge.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-202367896-acquadulza-live-food-bar",
@@ -1021,7 +1129,9 @@
     "candidateOsmId": 917794543,
     "candidateUrl": "https://anticaosteriadelporto.ch/",
     "candidatePhone": "+41 91 971 42 00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://anticaosteriadelporto.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-1078048761-osteria-pizzeria-colibri",
@@ -1046,6 +1156,8 @@
     "candidateOsmId": 1432115156,
     "candidateUrl": "https://www.molo54.it/",
     "candidatePhone": "+39 0323 350142",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.molo54.it/",
+    "lastVerified": "2026-03-22"
   }
 ]

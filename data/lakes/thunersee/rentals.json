@@ -8,8 +8,12 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 8762345630,
-    "candidateUrl": "https://bootvermietungthunersee.ch/reservation/",
-    "candidateUrlKind": "web"
+    "candidateUrl": "https://bootvermietungthunersee.ch/",
+    "candidatePhone": "+41 79 432 97 25",
+    "candidateHours": "May-Sep",
+    "candidateUrlKind": "web",
+    "source": "https://bootvermietungthunersee.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8763945584-honu-sup-center",
@@ -22,7 +26,9 @@
     "candidateOsmId": 8763945584,
     "candidateUrl": "https://www.honu.ch/",
     "candidatePhone": "+41 79 349 61 99",
-    "candidateHours": "Mo-Fr 10:00-20:00; Sa 10:00-19:00",
-    "candidateUrlKind": "web"
+    "candidateHours": "Mo-Fr 10:00-20:00; Sa-Su 10:00-19:00",
+    "candidateUrlKind": "web",
+    "source": "https://www.honu.ch/",
+    "lastVerified": "2026-03-22"
   }
 ]
