@@ -148,6 +148,8 @@ def main() -> None:
         "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">",
         f"  <url><loc>{SITE_BASE}/</loc><lastmod>{today}</lastmod></url>",
         f"  <url><loc>{SITE_BASE}/artikel/hafen-heute-abend/</loc><lastmod>{today}</lastmod></url>",
+        f"  <url><loc>{SITE_BASE}/artikel/beste-ankerplaetze-bodensee/</loc><lastmod>{today}</lastmod></url>",
+        f"  <url><loc>{SITE_BASE}/premium.html</loc><lastmod>{today}</lastmod></url>",
     ]
     for u in sorted(set(urls)):
         sm.append(f"  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>")
