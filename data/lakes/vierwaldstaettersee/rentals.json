@@ -1,17 +1,5 @@
 [
   {
-    "id": "osm-node-3656305150-bootsverleih",
-    "name": "Bootsverleih",
-    "lat": 47.1343546,
-    "lng": 8.1891855,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 3656305150,
-    "candidateUrl": "https://bootshaussempach.ch/",
-    "candidateUrlKind": "web"
-  },
-  {
     "id": "osm-node-3926683571-riviera-boote-boat-rental",
     "name": "Riviera Boote - Boat Rental",
     "lat": 46.9932914,
@@ -20,9 +8,11 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 3926683571,
-    "candidateUrl": "https://riviera-boote.ch/rio-400-ole/",
-    "candidatePhone": "+41418281268",
-    "candidateUrlKind": "web"
+    "candidateUrl": "https://riviera-boote.ch/",
+    "candidatePhone": "+41 41 828 12 68",
+    "candidateUrlKind": "web",
+    "source": "https://riviera-boote.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6371617106-riviera-boote",
@@ -33,8 +23,10 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 6371617106,
-    "candidateUrl": "https://riviera-boote.ch",
-    "candidateUrlKind": "web"
+    "candidateUrl": "https://riviera-boote.ch/",
+    "candidateUrlKind": "web",
+    "source": "https://riviera-boote.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8293034772-swiss-classic-boats",
