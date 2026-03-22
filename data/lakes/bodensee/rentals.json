@@ -13,104 +13,9 @@
       "Katamarane",
       "Mit Skipper"
     ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
-    "candidateUrl": null,
-    "candidateFoundAt": null,
-    "candidateSource": null,
-    "phone": "",
-    "email": "",
-    "hours": ""
-  },
-  {
-    "id": "sail_fun",
-    "name": "Sail & Fun",
-    "country": "DE",
-    "location": "Friedrichshafen",
-    "lat": 47.65,
-    "lng": 9.485,
-    "fleetSize": 8,
-    "priceFrom": "ab €150/Tag",
-    "features": [
-      "Jollen",
-      "Segelyachten",
-      "Kurse"
-    ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
-    "candidateUrl": null,
-    "candidateFoundAt": null,
-    "candidateSource": null,
-    "phone": "",
-    "email": "",
-    "hours": ""
-  },
-  {
-    "id": "thurgau_sail",
-    "name": "Thurgau Sail",
-    "country": "CH",
-    "location": "Romanshorn",
-    "lat": 47.562,
-    "lng": 9.375,
-    "fleetSize": 6,
-    "priceFrom": "ab CHF 200/Tag",
-    "features": [
-      "Segelyachten",
-      "Bareboat"
-    ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
-    "candidateUrl": null,
-    "candidateFoundAt": null,
-    "candidateSource": null,
-    "phone": "",
-    "email": "",
-    "hours": ""
-  },
-  {
-    "id": "sailpoint_bregenz",
-    "name": "Sailpoint Bregenz",
-    "country": "AT",
-    "location": "Bregenz",
-    "lat": 47.502,
-    "lng": 9.745,
-    "fleetSize": 10,
-    "priceFrom": "ab €120/Tag",
-    "features": [
-      "Jollen",
-      "Katamarane",
-      "SUP"
-    ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
-    "candidateUrl": null,
-    "candidateFoundAt": null,
-    "candidateSource": null,
-    "phone": "",
-    "email": "",
-    "hours": ""
-  },
-  {
-    "id": "bodensee_yachting",
-    "name": "Bodensee Yachting",
-    "country": "DE",
-    "location": "Lindau",
-    "lat": 47.542,
-    "lng": 9.688,
-    "fleetSize": 15,
-    "priceFrom": "ab €200/Tag",
-    "features": [
-      "Segelyachten",
-      "Motorboote",
-      "Events"
-    ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
+    "url": "https://www.yachtcharter-konstanz.de/",
+    "source": "https://www.yachtcharter-konstanz.de/",
+    "lastVerified": "2026-03-22",
     "candidateUrl": null,
     "candidateFoundAt": null,
     "candidateSource": null,
@@ -132,9 +37,9 @@
       "Schulung",
       "Patente"
     ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
+    "url": "https://segelschule-ueberlingen.de/",
+    "source": "https://segelschule-ueberlingen.de/",
+    "lastVerified": "2026-03-22",
     "candidateUrl": null,
     "candidateFoundAt": null,
     "candidateSource": null,
@@ -153,7 +58,11 @@
     "candidateOsmId": 829903752,
     "candidateUrl": "https://bootsverleih-lindau.de/",
     "candidatePhone": "+49 8382 297771",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://bootsverleih-lindau.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://bootsverleih-lindau.de/",
+    "phone": "+49 8382 297771"
   },
   {
     "id": "osm-node-2426658722-bootsverleih-friedrichshafen",
@@ -167,7 +76,12 @@
     "candidateUrl": "https://www.bootsvermietung-christiane.de/",
     "candidatePhone": "+49 176 802 453 06",
     "candidateHours": "Apr-Sep: 09:00-20:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bootsvermietung-christiane.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.bootsvermietung-christiane.de/",
+    "phone": "+49 176 802 453 06",
+    "hours": "Apr-Sep: 09:00-20:00"
   },
   {
     "id": "osm-node-2688573734-bootsverleih-hard",
@@ -179,7 +93,10 @@
     "candidateOsmType": "node",
     "candidateOsmId": 2688573734,
     "candidateUrl": "https://www.bootsverleih-hard.at/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bootsverleih-hard.at/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.bootsverleih-hard.at/"
   },
   {
     "id": "osm-node-3626495586-cap-rotach-la-canoa",
@@ -192,7 +109,11 @@
     "candidateOsmId": 3626495586,
     "candidateUrl": "https://www.lacanoa.com/",
     "candidatePhone": "+49 7541 70077777",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.lacanoa.com/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.lacanoa.com/",
+    "phone": "+49 7541 70077777"
   },
   {
     "id": "osm-node-3666025669-urs-grob-bootsbetrieb",
@@ -205,7 +126,11 @@
     "candidateOsmId": 3666025669,
     "candidateUrl": "https://www.grob-bootsbetrieb.ch/",
     "candidatePhone": "+4171 841 44 44",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.grob-bootsbetrieb.ch/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.grob-bootsbetrieb.ch/",
+    "phone": "+4171 841 44 44"
   },
   {
     "id": "osm-node-4331363664-micha-s-paddeloase",
@@ -219,7 +144,12 @@
     "candidateUrl": "https://paddeloase.de/",
     "candidatePhone": "+49 171 1245596",
     "candidateHours": "May-Oct",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://paddeloase.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://paddeloase.de/",
+    "phone": "+49 171 1245596",
+    "hours": "May-Oct"
   },
   {
     "id": "osm-node-4394446079-bootsvermietung-friedrichshafen-marc-fluck",
@@ -233,7 +163,12 @@
     "candidateUrl": "https://bootsvermietung-friedrichshafen.vpweb.de/",
     "candidatePhone": "+49 7541 21746",
     "candidateHours": "Mo-Fr 11:00-20:00; Sa,Su 10:00-19:00; Oct 16-Mar 24 off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://bootsvermietung-friedrichshafen.vpweb.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://bootsvermietung-friedrichshafen.vpweb.de/",
+    "phone": "+49 7541 21746",
+    "hours": "Mo-Fr 11:00-20:00; Sa,Su 10:00-19:00; Oct 16-Mar 24 off"
   },
   {
     "id": "osm-node-4865580144-wassersport-schattmaier",
@@ -246,7 +181,11 @@
     "candidateOsmId": 4865580144,
     "candidateUrl": "https://schattmaier.com/",
     "candidatePhone": "+49 7543 60540",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://schattmaier.com/",
+    "lastVerified": "2026-03-22",
+    "url": "https://schattmaier.com/",
+    "phone": "+49 7543 60540"
   },
   {
     "id": "osm-node-4938854291-bootsvermietung-christiane",
@@ -259,7 +198,11 @@
     "candidateOsmId": 4938854291,
     "candidateUrl": "https://www.bootsvermietung-christiane.de/bootsverleih-langenargen.html",
     "candidatePhone": "+49 176 80120626",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bootsvermietung-christiane.de/bootsverleih-langenargen.html",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.bootsvermietung-christiane.de/bootsverleih-langenargen.html",
+    "phone": "+49 176 80120626"
   },
   {
     "id": "osm-node-5792112656-bodenseepiraten",
@@ -272,7 +215,11 @@
     "candidateOsmId": 5792112656,
     "candidateUrl": "https://bodensee-piraten.net",
     "candidateHours": "Mo-Su,PH 10:00-19:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://bodensee-piraten.net",
+    "lastVerified": "2026-03-22",
+    "url": "https://bodensee-piraten.net",
+    "hours": "Mo-Su,PH 10:00-19:00"
   },
   {
     "id": "osm-node-6759193842-yachtcharter-konstanz",
@@ -285,7 +232,11 @@
     "candidateOsmId": 6759193842,
     "candidateUrl": "https://yachtcharter-konstanz.de",
     "candidatePhone": "+49 7531 3633970",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://yachtcharter-konstanz.de",
+    "lastVerified": "2026-03-22",
+    "url": "https://yachtcharter-konstanz.de",
+    "phone": "+49 7531 3633970"
   },
   {
     "id": "osm-node-7096582317-wasserspass-bodensee",
@@ -298,7 +249,11 @@
     "candidateOsmId": 7096582317,
     "candidateUrl": "https://www.wasserspass-bodensee.de/",
     "candidatePhone": "+49 7541 40 69 33 9",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.wasserspass-bodensee.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.wasserspass-bodensee.de/",
+    "phone": "+49 7541 40 69 33 9"
   },
   {
     "id": "osm-node-7592335222-vdws-surfschule",
@@ -310,7 +265,10 @@
     "candidateOsmType": "node",
     "candidateOsmId": 7592335222,
     "candidateUrl": "https://www.surfschulelindau.de/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.surfschulelindau.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.surfschulelindau.de/"
   },
   {
     "id": "osm-node-8584147508-die-paddler-sup-bodensee",
@@ -322,7 +280,10 @@
     "candidateOsmType": "node",
     "candidateOsmId": 8584147508,
     "candidateUrl": "https://www.diepaddler.de/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.diepaddler.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.diepaddler.de/"
   },
   {
     "id": "osm-node-8673029452-bootsvermietung-hagnau",
@@ -335,7 +296,11 @@
     "candidateOsmId": 8673029452,
     "candidateUrl": "https://www.hagnau-bootsvermietung.de/",
     "candidatePhone": "+497532446372",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hagnau-bootsvermietung.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.hagnau-bootsvermietung.de/",
+    "phone": "+497532446372"
   },
   {
     "id": "osm-node-8889638963-la-canoa",
@@ -348,7 +313,11 @@
     "candidateOsmId": 8889638963,
     "candidateUrl": "https://www.kanuverleih-wallhausen.de/",
     "candidatePhone": "+49 7531 959548",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.kanuverleih-wallhausen.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.kanuverleih-wallhausen.de/",
+    "phone": "+49 7531 959548"
   },
   {
     "id": "osm-node-12947346548-kayakomat-sipplingen-naturbadestrand",
@@ -361,7 +330,11 @@
     "candidateOsmId": 12947346548,
     "candidateUrl": "https://www.kayakomat.com/de/location/669631f8e8d8b96f97c5a9e1",
     "candidateHours": "24/7",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.kayakomat.com/de/location/669631f8e8d8b96f97c5a9e1",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.kayakomat.com/de/location/669631f8e8d8b96f97c5a9e1",
+    "hours": "24/7"
   },
   {
     "id": "osm-node-12957260931-kayakomat",
@@ -374,7 +347,11 @@
     "candidateOsmId": 12957260931,
     "candidateUrl": "https://www.kayakomat.com/",
     "candidateHours": "Mo-Su,PH 00:00-00:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.kayakomat.com/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.kayakomat.com/",
+    "hours": "Mo-Su,PH 00:00-00:00"
   },
   {
     "id": "osm-node-13098142297-bootsvermietung-bregenz",
@@ -387,7 +364,11 @@
     "candidateOsmId": 13098142297,
     "candidateUrl": "https://www.bootsvermietung-bregenz.at",
     "candidateHours": "Apr-Oct: Mo-Su 09:00-sunset",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bootsvermietung-bregenz.at",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.bootsvermietung-bregenz.at",
+    "hours": "Apr-Oct: Mo-Su 09:00-sunset"
   },
   {
     "id": "osm-way-120664150-segelschule-insel-reichenau",
@@ -401,7 +382,12 @@
     "candidateUrl": "https://www.segelschule-insel-reichenau.de/",
     "candidatePhone": "+49 7534 799054",
     "candidateHours": "\"Nach vereinbarung\"",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.segelschule-insel-reichenau.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.segelschule-insel-reichenau.de/",
+    "phone": "+49 7534 799054",
+    "hours": "\"Nach vereinbarung\""
   },
   {
     "id": "osm-way-128269035-surfschule-bodensee",
@@ -414,7 +400,11 @@
     "candidateOsmId": 128269035,
     "candidateUrl": "https://surfschulebodensee.de/",
     "candidatePhone": "+49 174 6286981",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://surfschulebodensee.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://surfschulebodensee.de/",
+    "phone": "+49 174 6286981"
   },
   {
     "id": "osm-way-234814856-bootsvermietung-lindau",
@@ -428,7 +418,12 @@
     "candidateUrl": "https://www.bootsvermietung-lindau.de/",
     "candidatePhone": "+49 8382 9890882",
     "candidateHours": "\"Geöffnet bei schönem Wetter\"",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bootsvermietung-lindau.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.bootsvermietung-lindau.de/",
+    "phone": "+49 8382 9890882",
+    "hours": "\"Geöffnet bei schönem Wetter\""
   },
   {
     "id": "osm-way-376079793-bootsverleih-giess",
@@ -441,7 +436,11 @@
     "candidateOsmId": 376079793,
     "candidateUrl": "https://www.bootsverleih-giess.de/",
     "candidatePhone": "+49 171 8100138",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bootsverleih-giess.de/",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.bootsverleih-giess.de/",
+    "phone": "+49 171 8100138"
   },
   {
     "id": "osm-way-715099637-bootsverleih",
@@ -454,7 +453,11 @@
     "candidateOsmId": 715099637,
     "candidateUrl": "https://www.frey-meersburger-bootsbetriebe.de/bootsvermietung",
     "candidatePhone": "+49 7532 6824",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.frey-meersburger-bootsbetriebe.de/bootsvermietung",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.frey-meersburger-bootsbetriebe.de/bootsvermietung",
+    "phone": "+49 7532 6824"
   },
   {
     "id": "osm-way-1197589320-bootsverleih-lang",
@@ -466,7 +469,10 @@
     "candidateOsmType": "way",
     "candidateOsmId": 1197589320,
     "candidateUrl": "https://www.gaienhofen.de/attraktion/bootsverleih-lang-db1e6bd1ac",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.gaienhofen.de/attraktion/bootsverleih-lang-db1e6bd1ac",
+    "lastVerified": "2026-03-22",
+    "url": "https://www.gaienhofen.de/attraktion/bootsverleih-lang-db1e6bd1ac"
   },
   {
     "id": "osm-way-1267324154-marc-fluck-bootsvermietung",
@@ -479,7 +485,11 @@
     "candidateOsmId": 1267324154,
     "candidateUrl": "https://regiostars.de/Profil/fluck_bootsvermietung_konstanz",
     "candidateHours": "Apr-Jun,Sep-Oct: Mo-Fr 11:00-19:00; Apr-Jun,Sep-Oct: Sa,Su,PH 11:00-19:00; Jul-Aug: Mo-Su,PH 11:00-19:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://regiostars.de/Profil/fluck_bootsvermietung_konstanz",
+    "lastVerified": "2026-03-22",
+    "url": "https://regiostars.de/Profil/fluck_bootsvermietung_konstanz",
+    "hours": "Apr-Jun,Sep-Oct: Mo-Fr 11:00-19:00; Apr-Jun,Sep-Oct: Sa,Su,PH 11:00-19:00; Jul-Aug: Mo-Su,PH 11:00-19:00"
   },
   {
     "id": "osm-way-1346181337-bootsvermietung-wasserburg",
@@ -492,6 +502,10 @@
     "candidateOsmId": 1346181337,
     "candidateUrl": "https://bootsvermietung-wasserburg.de",
     "candidatePhone": "+49 8382 998117",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://bootsvermietung-wasserburg.de",
+    "lastVerified": "2026-03-22",
+    "url": "https://bootsvermietung-wasserburg.de",
+    "phone": "+49 8382 998117"
   }
 ]
