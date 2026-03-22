@@ -271,17 +271,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-2299811432-la-lanterna",
-    "name": "La Lanterna",
-    "lat": 45.9298175,
-    "lng": 8.5418125,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 2299811432,
-    "candidatePhone": "+39 0323 506070"
-  },
-  {
     "id": "osm-node-2299811474-la-tentazione",
     "name": "La Tentazione",
     "lat": 45.9213259,
@@ -309,67 +298,6 @@
     "candidateUrlKind": "web",
     "source": "https://www.osteriamonterosso.com/",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-2446125421-dai-monelli",
-    "name": "Dai Monelli",
-    "lat": 46.0041586,
-    "lng": 8.7433686,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 2446125421,
-    "candidatePhone": "+39 329 3988055",
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-2446201010-ristorante-duescale",
-    "name": "Ristorante Duescale",
-    "lat": 46.0034199,
-    "lng": 8.7431534,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 2446201010,
-    "candidatePhone": "+39 0332 158 5870",
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-2495227338-miralago",
-    "name": "Miralago",
-    "lat": 46.0243511,
-    "lng": 8.751761,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 2495227338,
-    "candidatePhone": "+39 332532140",
-    "candidateHours": "Mo-Su 18:30-22:00"
-  },
-  {
-    "id": "osm-node-2934629304-pizza-pasta-e-basta",
-    "name": "Pizza pasta e basta",
-    "lat": 45.9467633,
-    "lng": 8.661473,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 2934629304,
-    "candidatePhone": "+39 337 105 7903",
-    "candidateHours": "Mo-Su 12:00-24:00",
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-2937984344-osteria-la-riva",
-    "name": "Osteria La Riva",
-    "lat": 46.1734125,
-    "lng": 8.8193074,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 2937984344,
-    "candidatePhone": "+41917432093",
-    "candidateUrl": ""
   },
   {
     "id": "osm-node-3106072685-ristorante-l-approdo",
@@ -475,17 +403,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-4177090216-calianna",
-    "name": "Calianna",
-    "lat": 45.9116993,
-    "lng": 8.6185761,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 4177090216,
-    "candidatePhone": "+39 0332 667315"
-  },
-  {
     "id": "osm-node-4213596926-l-imbuto",
     "name": "l'imbuto",
     "lat": 46.0609338,
@@ -565,31 +482,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-4761601722-come-a-casa",
-    "name": "Come a Casa",
-    "lat": 45.9104782,
-    "lng": 8.6186941,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 4761601722,
-    "candidatePhone": "+39 0332 666001",
-    "candidateHours": "Tu-Th,Su 12:00-14:00,19:00-21:30+; Fr-Sa 12:00-14:00,19:00-22:00+; Mo closed; PH closed",
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-4795307627-la-nuova-sella-d-oro",
-    "name": "La Nuova Sella d'Oro",
-    "lat": 45.9535859,
-    "lng": 8.8761943,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 4795307627,
-    "candidatePhone": "+39 0332 523450",
-    "candidateUrl": ""
-  },
-  {
     "id": "osm-node-4935784743-lo-stornello",
     "name": "Lo Stornello",
     "lat": 45.8840503,
@@ -633,18 +525,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-5155823121-osteria-della-luna-piena",
-    "name": "Osteria della Luna Piena",
-    "lat": 45.9352782,
-    "lng": 8.573349,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 5155823121,
-    "candidatePhone": "+39 0323 404145",
-    "candidateUrl": ""
-  },
-  {
     "id": "osm-node-5834921401-autentiko-gusto-napoletano",
     "name": "Autentiko - Gusto Napoletano",
     "lat": 46.0037799,
@@ -660,18 +540,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-6137632810-skipper-kebab-pizza-d-asporto",
-    "name": "Skipper kebab & pizza d'asporto",
-    "lat": 45.92216,
-    "lng": 8.5534316,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 6137632810,
-    "candidatePhone": "+39 0323 557068",
-    "candidateUrl": ""
-  },
-  {
     "id": "osm-node-6227647535-grotto-sassalto",
     "name": "Grotto Sassalto",
     "lat": 45.9649689,
@@ -684,17 +552,6 @@
     "candidateUrl": "",
     "source": "http://www.grottosassalto.ch",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-6443935786-il-calderone",
-    "name": "Il Calderone",
-    "lat": 45.9469533,
-    "lng": 8.6612815,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 6443935786,
-    "candidatePhone": "+39 380 492 1728"
   },
   {
     "id": "osm-node-6671271687-osteria-del-castello",
@@ -725,29 +582,6 @@
     "candidateUrlKind": "web",
     "source": "https://www.ristoranteilportale.it/",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-6796947687-la-barca",
-    "name": "La Barca",
-    "lat": 46.1671302,
-    "lng": 8.8028329,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 6796947687,
-    "candidateHours": "We 16:00-00:00; Th-Fr 11:00-00:00; Sa-Su 10:00-00:00"
-  },
-  {
-    "id": "osm-node-7096311754-ristorante-dal-pescatore",
-    "name": "Ristorante dal Pescatore",
-    "lat": 45.9588994,
-    "lng": 8.8724149,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 7096311754,
-    "candidatePhone": "+39 0332 550165",
-    "candidateUrl": ""
   },
   {
     "id": "osm-node-7950521585-pizzeria-fiore-di-latte",
@@ -826,18 +660,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-9359227034-shun",
-    "name": "Shun",
-    "lat": 45.9988234,
-    "lng": 8.7359661,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 9359227034,
-    "candidatePhone": "+39 0332 511940",
-    "candidateHours": "We-Mo 11:00-14:30,18:00-23:30; Tu off"
-  },
-  {
     "id": "osm-node-9862600455-ascona-square-garden",
     "name": "Ascona Square Garden",
     "lat": 46.1559598,
@@ -864,18 +686,6 @@
     "candidateUrlKind": "web",
     "source": "https://osteria-cantinone-elvezia.business.site/",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-10065125328-trattoria-cannobio-da-ale-vale",
-    "name": "Trattoria Cannobio da Ale & Vale",
-    "lat": 46.0616279,
-    "lng": 8.7000335,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 10065125328,
-    "candidateHours": "PH,Th-Tu 12:00-14:00,18:00-21:30",
-    "candidateUrl": ""
   },
   {
     "id": "osm-node-10587562887-tiffany-villa-porta",
@@ -910,56 +720,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-10908308390-bar-caff-tre-re",
-    "name": "Bar Caffè Tre Re",
-    "lat": 46.0224237,
-    "lng": 8.6858272,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 10908308390,
-    "candidatePhone": "+39 0323 787122",
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-11528060631-porto-bello",
-    "name": "Porto Bello!",
-    "lat": 46.0027601,
-    "lng": 8.9621682,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 11528060631,
-    "candidatePhone": "+41 91 9728888",
-    "candidateHours": "Tu-Su 09:00-00:00",
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-11939974745-osteria-la-tiella",
-    "name": "Osteria La Tiella",
-    "lat": 45.9350382,
-    "lng": 8.5719262,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 11939974745,
-    "candidateHours": "Mo-Fr 10:00-14:00,18:30-22:00; Sa 09:00-14:00,18:30-23:00; Su off",
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-12047744569-fatti-di-pizza",
-    "name": "Fatti di Pizza",
-    "lat": 45.9607106,
-    "lng": 8.6810941,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 12047744569,
-    "candidatePhone": "+39 3516713059",
-    "candidateHours": "Tu-Su 18:00-22:00",
-    "candidateUrl": ""
-  },
-  {
     "id": "osm-node-12613395981-asia",
     "name": "Asia",
     "lat": 46.1547093,
@@ -988,17 +748,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-12744982869-le-rive",
-    "name": "LE RIVE",
-    "lat": 45.9533902,
-    "lng": 8.953827,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 12744982869,
-    "candidatePhone": "+41 91 261 52 00"
-  },
-  {
     "id": "osm-node-12951101203-trattoria-del-lago",
     "name": "Trattoria del Lago",
     "lat": 46.1717131,
@@ -1011,19 +760,6 @@
     "candidateUrl": "",
     "source": "https://www.trattoriadellago.ch/",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-13108835201-il-rifugio-sagl",
-    "name": "IL RIFUGIO SAGL",
-    "lat": 45.9986301,
-    "lng": 8.9481816,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 13108835201,
-    "candidatePhone": "+41 91 994 35 51",
-    "candidateHours": "Mo-Fr 06:30-19:00; Sa 09:00-17:00",
-    "candidateUrl": ""
   },
   {
     "id": "osm-node-13151050503-i-filari",
@@ -1039,18 +775,6 @@
     "candidateUrlKind": "web",
     "source": "https://www.cantinazanello.it/en/i-filari/",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-13151156102-lido-di-luino",
-    "name": "Lido di Luino",
-    "lat": 45.996633,
-    "lng": 8.7315724,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 13151156102,
-    "candidatePhone": "+393520429223",
-    "candidateUrl": ""
   },
   {
     "id": "osm-node-13158727401-il-pescatore",
@@ -1082,43 +806,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-way-202367896-acquadulza-live-food-bar",
-    "name": "Acquadulza Live Food Bar",
-    "lat": 46.0435095,
-    "lng": 8.7326805,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "way",
-    "candidateOsmId": 202367896,
-    "candidateHours": "closed",
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-way-220908698-dal",
-    "name": "Dalì",
-    "lat": 45.9356545,
-    "lng": 8.575466,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "way",
-    "candidateOsmId": 220908698,
-    "candidatePhone": "+39 340 533 7581",
-    "candidateHours": "Mo-Su 07:30-02:00"
-  },
-  {
-    "id": "osm-way-257779304-ristorante-pizzeria-la-concordia",
-    "name": "Ristorante Pizzeria La Concordia",
-    "lat": 46.0375385,
-    "lng": 8.7408911,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "way",
-    "candidateOsmId": 257779304,
-    "candidatePhone": "+39 0332 560218",
-    "candidateHours": "Mo-Su 12:00-14:15,18:00-22:30",
-    "candidateUrl": ""
-  },
-  {
     "id": "osm-way-917794543-antica-osteria-del-porto",
     "name": "Antica Osteria del Porto",
     "lat": 46.003353,
@@ -1132,18 +819,6 @@
     "candidateUrlKind": "web",
     "source": "https://anticaosteriadelporto.ch/",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-way-1078048761-osteria-pizzeria-colibri",
-    "name": "Osteria Pizzeria Colibri",
-    "lat": 46.1174617,
-    "lng": 8.7088188,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "way",
-    "candidateOsmId": 1078048761,
-    "candidatePhone": "+41 91 793 14 53",
-    "candidateUrl": ""
   },
   {
     "id": "osm-way-1432115156-molo-54",

@@ -339,18 +339,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-3478655521-club-house",
-    "name": "Club House",
-    "lat": 46.4011943,
-    "lng": 6.5077874,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 3478655521,
-    "candidatePhone": "+33 4 50 26 09 91",
-    "candidateUrl": ""
-  },
-  {
     "id": "osm-node-3784187099-la-nautique",
     "name": "La Nautique",
     "lat": 46.3792388,
@@ -407,28 +395,6 @@
     "lastVerified": "2026-03-22"
   },
   {
-    "id": "osm-node-4299082593-pizzeria-la-d-me",
-    "name": "Pizzeria La Dîme",
-    "lat": 46.3702514,
-    "lng": 6.3274849,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 4299082593,
-    "candidatePhone": "+33 4 50 72 89 87"
-  },
-  {
-    "id": "osm-node-4299094800-la-perche",
-    "name": "La Perche",
-    "lat": 46.3702772,
-    "lng": 6.327316,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 4299094800,
-    "candidatePhone": "+33 4 50 72 89 30"
-  },
-  {
     "id": "osm-node-4299096806-restaurant-des-p-cheurs",
     "name": "Restaurant des Pêcheurs",
     "lat": 46.3700185,
@@ -457,40 +423,6 @@
     "candidateUrlKind": "web",
     "source": "https://www.hotelrestaurantduport-yvoire.com/fr/index.php",
     "lastVerified": "2026-03-22"
-  },
-  {
-    "id": "osm-node-4395835227-le-quai-gourmand",
-    "name": "Le Quai Gourmand",
-    "lat": 46.507661,
-    "lng": 6.6252438,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 4395835227,
-    "candidateHours": "Mo-Fr 07:30-18:30; Sa,Su 07:30-18:00",
-    "candidateUrl": ""
-  },
-  {
-    "id": "osm-node-4684280354-le-toscane",
-    "name": "Le Toscane",
-    "lat": 46.3948198,
-    "lng": 6.543143,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 4684280354,
-    "candidatePhone": "+33 4 50 81 43 62"
-  },
-  {
-    "id": "osm-node-4684322969-le-brizolon",
-    "name": "Le Brizolon",
-    "lat": 46.3949335,
-    "lng": 6.5424603,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-17",
-    "candidateOsmType": "node",
-    "candidateOsmId": 4684322969,
-    "candidatePhone": "+33 4 50 81 49 31"
   },
   {
     "id": "osm-node-4827468821-restaurant-le-l-man",
