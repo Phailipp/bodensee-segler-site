@@ -15,6 +15,14 @@
 - `lastVerified` als ISO-Datum: `YYYY-MM-DD`
 - Eintrag gilt als **verifiziert** wenn sowohl `source` als auch `lastVerified` nicht-leer sind
 - Alle externen Links mit `target="_blank" rel="noreferrer"`
+- **Vollständige Daten sind PFLICHT** – kein Eintrag ohne Kerndaten:
+  - **Häfen:** `berths`, `guestBerths`, `maxDraftM`, `features` (mind. 2), `notes`
+  - **Ankerplätze:** `depthMinM`, `depthMaxM`, `ground`, `protection`, `overnight`
+  - **Vermietungen:** `fleetSize`, `priceFrom`, `features` (mind. 1)
+  - **Gastro:** `price`, `features` (mind. 1). Nur Restaurants direkt am Wasser/Hafen (max. 500m Luftlinie)
+  - **Services:** `type`, `details`
+  - Für ALLE Typen Pflicht: `name`, `lat`, `lng`, `url`, `source`, `lastVerified`
+  - Einträge ohne Kerndaten dürfen NICHT committed werden – erst recherchieren, dann eintragen
 - **Koordinaten-Validierung ist PFLICHT** bei jeder Datenänderung:
   - ALLE Koordinaten müssen auf dem jeweiligen See liegen (nicht an Land, nicht auf anderem See)
   - Jeder neue/geänderte Eintrag: lat/lng gegen die Bounding Box des Sees prüfen (aus `lakes.json`)
