@@ -867,7 +867,11 @@ function openModal(type, item) {
 
   const hasSource = !!(item.source && String(item.source).trim());
   const hasVerified = !!(item.lastVerified && String(item.lastVerified).trim());
-  if (hasSource) rows.push(kv(t('modal.k.source'), item.source));
+  if (hasSource && item.url) {
+    rows.push(`<div class="kv"><div class="k">${escapeHtml(t('modal.k.source'))}</div><div class="v"><a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer" style="color:var(--gold-light);text-decoration:underline">${escapeHtml(item.source)}</a></div></div>`);
+  } else if (hasSource) {
+    rows.push(kv(t('modal.k.source'), item.source));
+  }
   if (hasVerified) rows.push(kv(t('modal.k.lastVerified'), item.lastVerified));
 
   if (!hasSource || !hasVerified) {
@@ -1308,6 +1312,31 @@ function initMap() {
   state.map.setView(c, z);
 
   L.control.zoom({ position: 'topright' }).addTo(state.map);
+
+  // Desktop: Ctrl+Scroll to zoom the map
+  if (!L.Browser.touch) {
+    const mapEl = state.map.getContainer();
+    let hintTimer;
+    const hint = document.createElement('div');
+    hint.className = 'map-scroll-hint';
+    hint.textContent = 'Strg + Scrollen zum Zoomen';
+    hint.style.cssText = 'position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,0.75);color:#fff;padding:10px 18px;border-radius:8px;font-size:0.85rem;pointer-events:none;opacity:0;transition:opacity 0.3s;z-index:1000;';
+    mapEl.style.position = 'relative';
+    mapEl.appendChild(hint);
+
+    mapEl.addEventListener('wheel', (e) => {
+      if (e.ctrlKey || e.metaKey) {
+        e.preventDefault();
+        state.map.scrollWheelZoom.enable();
+        clearTimeout(hintTimer);
+        hintTimer = setTimeout(() => state.map.scrollWheelZoom.disable(), 800);
+      } else {
+        hint.style.opacity = '1';
+        clearTimeout(hintTimer);
+        hintTimer = setTimeout(() => { hint.style.opacity = '0'; }, 1500);
+      }
+    }, { passive: false });
+  }
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution: '© OpenStreetMap © CartoDB',
