@@ -11,7 +11,9 @@
     "candidateUrl": "https://www.casinomorges.ch/",
     "candidatePhone": "+41 21 802 62 15",
     "candidateHours": "Tu-Sa 10:00-24:00, Su 10:00-17:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.casinomorges.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-292183798-fu-yiu",
@@ -24,7 +26,9 @@
     "candidateOsmId": 292183798,
     "candidateUrl": "https://fuyiu.simdif.com/",
     "candidatePhone": "+41 21 801 15 01",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://fuyiu.simdif.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-497304844-boccalino",
@@ -38,7 +42,9 @@
     "candidateUrl": "https://www.boccalino.ch/",
     "candidatePhone": "+41 21 616 35 39",
     "candidateHours": "Mo-Fr 11:30-14:00, 18:00-22:00; Sa 11:30-22:00; Su 09:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.boccalino.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1078573246-ristorante-il-lido",
@@ -52,7 +58,9 @@
     "candidateUrl": "https://www.il-lido.ch/",
     "candidatePhone": "+41 21 601 11 61",
     "candidateHours": "Mo-Su 08:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.il-lido.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1104546246-restaurant-du-l-man",
@@ -66,7 +74,9 @@
     "candidateUrl": "https://restaurant-leleman.ch",
     "candidatePhone": "+41 21 801 33 51",
     "candidateHours": "Tu-Fr 10:00-22:00; Sa 10:00-23:00; Su 11:00-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://restaurant-leleman.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1125363572-le-pavois",
@@ -79,7 +89,9 @@
     "candidateOsmId": 1125363572,
     "candidateUrl": "https://www.hotel-mont-blanc.ch/fr/page/pavois",
     "candidatePhone": "+41 21 804 87 87",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hotel-mont-blanc.ch/fr/page/pavois",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1207862096-fukuoka",
@@ -93,7 +105,9 @@
     "candidateUrl": "https://lefukuoka.ch",
     "candidatePhone": "+41 21 801 26 87",
     "candidateHours": "Tu-Sa 11:30-14:00, 18:30-22:00; Su 11:30-14:30, 18:30-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://lefukuoka.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1230806994-la-riviera",
@@ -107,7 +121,9 @@
     "candidateUrl": "https://www.brasserieriviera.com",
     "candidatePhone": "+41 21 616 53 09",
     "candidateHours": "Mo-Su 10:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.brasserieriviera.com",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1230808910-ch-teau-d-ouchy",
@@ -120,7 +136,9 @@
     "candidateOsmId": 1230808910,
     "candidateUrl": "https://www.chateaudouchy.ch/en/restaurants-bars/",
     "candidatePhone": "+41 21 331 32 32",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.chateaudouchy.ch/en/restaurants-bars/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1265612841-ch-teau-de-coudr-e",
@@ -133,7 +151,9 @@
     "candidateOsmId": 1265612841,
     "candidateUrl": "https://www.chateau-hotel-coudree.com/",
     "candidatePhone": "+33 4 50 72 62 33",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.chateau-hotel-coudree.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1374163195-la-cambuse",
@@ -144,7 +164,9 @@
     "candidateFoundAt": "2026-02-17",
     "candidateOsmType": "node",
     "candidateOsmId": 1374163195,
-    "candidatePhone": "+41217992279"
+    "candidatePhone": "+41217992279",
+    "source": "http://www.cambuse-cully.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1420920378-le-major-davel",
@@ -156,7 +178,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1420920378,
     "candidateUrl": "https://www.major-davel.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.major-davel.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1433812389-cafe-du-vieil-ouchy",
@@ -170,7 +194,9 @@
     "candidateUrl": "https://www.vieilouchy.ch/",
     "candidatePhone": "+41 21 616 21 94",
     "candidateHours": "Mo-Fr 10:00-00:00; Sa, Su 09:00-00:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.vieilouchy.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1433812390-l-accademia",
@@ -184,7 +210,9 @@
     "candidateUrl": "https://www.angleterre-residence.ch/restaurants/laccademia/",
     "candidatePhone": "+41 21 613 39 74",
     "candidateHours": "Mo-Su 12:00-14:00,19:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.angleterre-residence.ch/restaurants/laccademia/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1433812391-cr-perie-d-ouchy",
@@ -198,7 +226,9 @@
     "candidateUrl": "https://www.ouchycrep.ch",
     "candidatePhone": "+41 21 616 26 07",
     "candidateHours": "Mo-Fr 12:00-21:00; Sa,Su 11:30-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ouchycrep.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1555717295-restaurant-de-l-union",
@@ -211,7 +241,9 @@
     "candidateOsmId": 1555717295,
     "candidateUrl": "https://www.hotelsavoie.ch/restaurant/",
     "candidatePhone": "+41 21 801 21 55",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hotelsavoie.ch/restaurant/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1555726142-club-nautique",
@@ -225,7 +257,9 @@
     "candidateUrl": "https://www.restaurant-cnm.ch/",
     "candidatePhone": "+41 21 801 51 51",
     "candidateHours": "Su-Th 09:00-23:00; Fr-Sa 09:00-00:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.restaurant-cnm.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1625189968-sushi-zen",
@@ -238,7 +272,9 @@
     "candidateOsmId": 1625189968,
     "candidateUrl": "https://www.sushizen.shop/francais/shop-page/sushizen-morges",
     "candidatePhone": "+41 21 801 72 89",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.sushizen.shop/francais/shop-page/sushizen-morges",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2398768793-bellevue",
@@ -252,7 +288,9 @@
     "candidateUrl": "https://info@bellevue-restaurant.ch",
     "candidatePhone": "+41 24 481 62 72",
     "candidateHours": "Mo-Su 09:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://info@bellevue-restaurant.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2470176477-hong-kong-city",
@@ -265,7 +303,9 @@
     "candidateOsmId": 2470176477,
     "candidateUrl": "https://www.hongkongcity.ch/",
     "candidatePhone": "+41 21 944 21 71",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hongkongcity.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3152678361-tha-au-lac",
@@ -279,7 +319,9 @@
     "candidateUrl": "https://thaiaulac.ch/",
     "candidatePhone": "+41 21 601 10 00",
     "candidateHours": "Mo-Fr, Su 11:30-14:30, 18:30-23:30; Sa 18:30-23:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://thaiaulac.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3390849438-le-contretemps",
@@ -292,7 +334,9 @@
     "candidateOsmId": 3390849438,
     "candidateUrl": "https://le-contretemps.ch/",
     "candidateHours": "We-Fr 11:30-14:30, 18:00-23:00; Sa 11:00-14:30, 18:00-23:00; Su 11:00-16:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://le-contretemps.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3478655521-club-house",
@@ -316,7 +360,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 3784187099,
     "candidateUrl": "https://snny.ch/societe/restaurant/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://snny.ch/societe/restaurant/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4079640992-l-abri",
@@ -328,7 +374,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 4079640992,
     "candidateUrl": "https://www.labri-nyon.com",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.labri-nyon.com",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4261011250-chez-pitch",
@@ -340,7 +388,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 4261011250,
     "candidateHours": "We-Su 10:00-15:00, 18:00-00:00",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://chezpitch.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4293099689-bistrot-du-petit-port",
@@ -352,7 +402,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 4293099689,
     "candidateHours": "PH,Mo-Su 09:00-23:00",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://petitport.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4299082593-pizzeria-la-d-me",
@@ -387,7 +439,9 @@
     "candidateOsmId": 4299096806,
     "candidateUrl": "https://restaurantdespecheurs.fr",
     "candidatePhone": "+33 4 50 72 80 26",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://restaurantdespecheurs.fr",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4299109611-restaurant-du-port",
@@ -400,7 +454,9 @@
     "candidateOsmId": 4299109611,
     "candidateUrl": "https://www.hotelrestaurantduport-yvoire.com/fr/index.php",
     "candidatePhone": "+33 4 50 72 80 17",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hotelrestaurantduport-yvoire.com/fr/index.php",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4395835227-le-quai-gourmand",
@@ -447,7 +503,9 @@
     "candidateOsmId": 4827468821,
     "candidatePhone": "+41 79 668 53 33",
     "candidateUrl": "https://restaurant-leleman.ch",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://restaurant-leleman.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-5345601307-le-table-du-lac",
@@ -459,7 +517,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 5345601307,
     "candidateUrl": "https://www.la-table-du-lac.com/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.la-table-du-lac.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6380531802-caf-restaurant-du-port",
@@ -472,7 +532,9 @@
     "candidateOsmId": 6380531802,
     "candidateUrl": "https://www.cafeduport.ch/",
     "candidatePhone": "+41 21 921 20 50",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.cafeduport.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6470909506-rapha-l-vionnet",
@@ -485,7 +547,9 @@
     "candidateOsmId": 6470909506,
     "candidateUrl": "https://raphaelvionnet.fr/",
     "candidatePhone": "+33 4 50 72 24 61",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://raphaelvionnet.fr/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6501212358-terrasse-d-ouchy",
@@ -499,7 +563,9 @@
     "candidateUrl": "https://www.terrasse-ouchy.ch/",
     "candidatePhone": "+41 21 617 42 24",
     "candidateHours": "Mo-Su 10:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.terrasse-ouchy.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6547616005-la-terrasse-du-port",
@@ -513,7 +579,9 @@
     "candidateUrl": "https://laterrasseduport.ch/",
     "candidatePhone": "+41 24 481 27 42",
     "candidateHours": "Sep 18-May 14 Mo-Su 08:00-23:00; May 15-Sep 15 Mo-Su 09:00-24:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://laterrasseduport.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-7501688641-filum",
@@ -527,7 +595,9 @@
     "candidateUrl": "https://filume.ch",
     "candidatePhone": "+41 21 921 66 10",
     "candidateHours": "Mo 11:30-15:00; We-Su 11:30-15:00, 18:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://filume.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-7837055886-le-chamarel-restaurant",
@@ -541,7 +611,9 @@
     "candidateUrl": "https://www.lechamarelresto.ch/",
     "candidatePhone": "+41 21 711 14 87",
     "candidateHours": "Tu-Su 10:00-18:00; Jun 20-Sep 21: Mo-Su 09:00-20:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.lechamarelresto.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-7914061130-tomsab-thai-restaurant",
@@ -555,7 +627,9 @@
     "candidateUrl": "https://www.tomsab.ch",
     "candidatePhone": "+41 21 922 42 42",
     "candidateHours": "Su-Fr 10:30-14:00,17:30-21:00; Sa 17:30-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.tomsab.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-7968064194-villa-c-cile",
@@ -568,7 +642,9 @@
     "candidateOsmId": 7968064194,
     "candidateUrl": "https://www.villacecile.com/fr/index.php",
     "candidatePhone": "+33 4 50 72 27 40",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.villacecile.com/fr/index.php",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8131580931-hoian",
@@ -581,7 +657,9 @@
     "candidateOsmId": 8131580931,
     "candidateUrl": "https://hoianbbq.com",
     "candidateHours": "Mo-Su 11:00-15:00,18:00-24:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://hoianbbq.com",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8717999889-happy-bowl",
@@ -595,7 +673,9 @@
     "candidateUrl": "https://morges.happybowl.ch/",
     "candidatePhone": "+41 21 552 25 55",
     "candidateHours": "Mo-Su 10:00-14:00, Mo-Su 18:00-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://morges.happybowl.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8933246617-taverne-de-la-tour",
@@ -609,7 +689,9 @@
     "candidateUrl": "https://tavernedelatourbouveret.ch/",
     "candidatePhone": "+41 24 481 37 28",
     "candidateHours": "Mo-Su 10:00-24:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://tavernedelatourbouveret.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8933246717-la-bateli-re",
@@ -623,7 +705,9 @@
     "candidateUrl": "https://la-bateliere.ch/",
     "candidatePhone": "+41 24 481 23 71",
     "candidateHours": "Mo-Sa 07:30-23:00; Su 07:30-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://la-bateliere.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8968972018-la-v-randa",
@@ -634,7 +718,9 @@
     "candidateFoundAt": "2026-02-17",
     "candidateOsmType": "node",
     "candidateOsmId": 8968972018,
-    "candidatePhone": "+41 21 801 82 82"
+    "candidatePhone": "+41 21 801 82 82",
+    "source": "https://www.restaurant-la-veranda.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9026784689-auberge-du-bacouni",
@@ -647,7 +733,9 @@
     "candidateOsmId": 9026784689,
     "candidateUrl": "https://www.bacouni.com/html/",
     "candidatePhone": "+33 4 50 72 85 67",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bacouni.com/html/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9140649754-restaurant-du-lac",
@@ -661,7 +749,9 @@
     "candidateUrl": "https://www.restaurantdulac.net/",
     "candidatePhone": "+33 4 50 72 80 52",
     "candidateHours": "Mo-Tu 12:00-14:00; We off; Th-Fr 12:00-14:30, 19:00-21:00; Sa-Su 12:00-14:30, 19:00-21:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.restaurantdulac.net/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9687476717-villa-malfi",
@@ -675,7 +765,9 @@
     "candidateUrl": "https://villamalfi.ch/",
     "candidatePhone": "+41 21 791 07 25",
     "candidateHours": "Mo-Su 11:45-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://villamalfi.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9838532083-la-nautica",
@@ -687,7 +779,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 9838532083,
     "candidateUrl": "https://lanautica.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://lanautica.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-12365580801-smaggy-burgers-branch",
@@ -701,7 +795,9 @@
     "candidateUrl": "https://www.smaggy.ch/",
     "candidatePhone": "+41 21 543 61 04",
     "candidateHours": "Tu-We 11:00-14:00, 18:00-22:00; Th-Sa 11:00-14:00, 18:00-23:00; Su 10:00-14:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.smaggy.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-12613592220-emotions-by-guy-ravet",
@@ -713,7 +809,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 12613592220,
     "candidateUrl": "https://www.ghdl.ch/fr/restaurants-bars/emotions-guy-ravet/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ghdl.ch/fr/restaurants-bars/emotions-guy-ravet/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-12737458464-le-pirate",
@@ -726,7 +824,9 @@
     "candidateOsmId": 12737458464,
     "candidateUrl": "https://www.restaurant-le-pirate-yvoire.com/",
     "candidatePhone": "+33450728361",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.restaurant-le-pirate-yvoire.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-12953528813-le-rivage-chez-monmon",
@@ -739,7 +839,9 @@
     "candidateOsmId": 12953528813,
     "candidatePhone": "+41 24 482 70 32",
     "candidateHours": "Mo-Th 08:00-14:30; Fr-Su 08:00-22:00",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://rivage.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-12959830001-la-brasserie-du-chalet-du-port",
@@ -752,7 +854,9 @@
     "candidateOsmId": 12959830001,
     "candidateUrl": "https://labrasserieduchaletduport.fr/",
     "candidatePhone": "+33 6 87 13 28 49",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://labrasserieduchaletduport.fr/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-12959830101-le-noeud-de-8",
@@ -766,7 +870,9 @@
     "candidateUrl": "https://au-noeud-de-8.odoo.com/",
     "candidatePhone": "+33 4 50 17 30 73",
     "candidateHours": "Fr-We 12:00-21:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://au-noeud-de-8.odoo.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-13555636801-le-bornan",
@@ -780,7 +886,9 @@
     "candidateUrl": "https://www.lebornan.ch/",
     "candidatePhone": "+41 79 719 54 85",
     "candidateHours": "24/7",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.lebornan.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-44157827-le-carrousel-de-vidy",
@@ -794,7 +902,9 @@
     "candidateUrl": "https://www.restaurant-carrousel-vidy.ch/",
     "candidatePhone": "+41 21 601 40 30",
     "candidateHours": "Tu-Su 11:00-24:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.restaurant-carrousel-vidy.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-44772670-le-lacustre",
@@ -808,7 +918,9 @@
     "candidateUrl": "https://www.thelacustre.com",
     "candidatePhone": "+41 21 617 42 00",
     "candidateHours": "We 14:00-00:00; Th 14:00-01:00; Fr 14:00-02:00; Sa 11:00-02:00; Su 11:00-00:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.thelacustre.com",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-66976720-la-voile",
@@ -822,7 +934,9 @@
     "candidateUrl": "https://www.la-voile.fr/",
     "candidatePhone": "+33 4 50 75 53 84",
     "candidateHours": "Th-Tu 10:00-18:00; We off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.la-voile.fr/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-69011800-la-vieille-porte",
@@ -835,7 +949,9 @@
     "candidateOsmId": 69011800,
     "candidateUrl": "https://la-vieille-porte.com/",
     "candidatePhone": "+33 4 50 72 80 14",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://la-vieille-porte.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-69051233-le-jolla",
@@ -848,7 +964,9 @@
     "candidateOsmId": 69051233,
     "candidateUrl": "https://www.lejolla.com/",
     "candidatePhone": "+33 4 50 72 63 06",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.lejolla.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-69052604-les-cygnes",
@@ -861,7 +979,9 @@
     "candidateOsmId": 69052604,
     "candidateUrl": "https://www.restaurant-les-cygnes-chez-jules.fr/",
     "candidatePhone": "+33 4 50 72 63 10",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.restaurant-les-cygnes-chez-jules.fr/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-69053174-sechex-nous",
@@ -875,7 +995,9 @@
     "candidateUrl": "https://www.sechex-nous.com/",
     "candidatePhone": "+33 4 50 72 48 81",
     "candidateHours": "Mo off; Tu 19:15-21:30; We-Sa 12:15-13:45, 19:15-21:30; Su 12:15-13:45",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.sechex-nous.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-69053607-le-l-man",
@@ -888,7 +1010,9 @@
     "candidateOsmId": 69053607,
     "candidateUrl": "https://www.restaurant-le-leman.fr/",
     "candidatePhone": "+33 4 50 72 63 16",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.restaurant-le-leman.fr/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-89292468-wagyu",
@@ -902,7 +1026,9 @@
     "candidateUrl": "https://wagyu.cover.page",
     "candidatePhone": "+41217931888",
     "candidateHours": "Mo, We-Su 11:30-14:30, 18:30-22:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://wagyu.cover.page",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-89480083-la-barca",
@@ -916,7 +1042,9 @@
     "candidateUrl": "https://la-barca.ch/",
     "candidatePhone": "+41 21 791 59 43",
     "candidateHours": "Mo-Su 10:00-15:00, 18:30-00:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://la-barca.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-197270705-les-figuiers",
@@ -929,7 +1057,9 @@
     "candidateOsmId": 197270705,
     "candidateUrl": "https://les-figuiers.eresto.net/",
     "candidatePhone": "+33 4 50 94 34 68",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://les-figuiers.eresto.net/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-268477476-aux-d-lices-du-lac",
@@ -942,7 +1072,9 @@
     "candidateOsmId": 268477476,
     "candidateUrl": "https://www.aux-delices-du-lac.ch/",
     "candidatePhone": "+41 21 801 87 37",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.aux-delices-du-lac.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-298638473-le-jardin",
@@ -955,6 +1087,8 @@
     "candidateOsmId": 298638473,
     "candidateUrl": "https://www.hotel-mont-blanc.ch/fr/page/terrasse",
     "candidatePhone": "+41 21 804 87 87",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hotel-mont-blanc.ch/fr/page/terrasse",
+    "lastVerified": "2026-03-22"
   }
 ]
