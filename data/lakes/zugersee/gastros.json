@@ -54,6 +54,11 @@
     "candidateFoundAt": "2026-02-17",
     "candidateOsmType": "node",
     "candidateOsmId": 391015244,
-    "candidatePhone": "+41 41 710 53 83"
+    "candidatePhone": "+41 41 710 53 83",
+    "candidateUrl": "https://ggzatwork.ch/gaeste/gastronomie/podium-41",
+    "candidateHours": "Tu-Su 10:00-22:00",
+    "candidateUrlKind": "web",
+    "source": "https://ggzatwork.ch/gaeste/gastronomie/podium-41",
+    "lastVerified": "2026-03-22"
   }
 ]

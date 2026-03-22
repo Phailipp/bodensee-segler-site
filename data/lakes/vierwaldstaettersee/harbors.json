@@ -8,8 +8,11 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 1485039266,
-    "candidateUrl": "https://bootshafen-luzern.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrl": "https://bootshafen-luzern.ch/segelboothafen/",
+    "candidatePhone": "+41 41 360 76 56",
+    "candidateUrlKind": "web",
+    "source": "https://bootshafen-luzern.ch/segelboothafen/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1587149289-gemeindebootshafen-hergiswil",
@@ -65,8 +68,11 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 1939897970,
-    "candidateUrl": "https://bootshafen-luzern.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrl": "https://bootshafen-luzern.ch/motorboothafen/",
+    "candidatePhone": "+41 41 360 76 56",
+    "candidateUrlKind": "web",
+    "source": "https://bootshafen-luzern.ch/motorboothafen/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2146366559-bootshafen-vitznau",
@@ -77,9 +83,11 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 2146366559,
-    "candidateUrl": "https://www.vitznau.ch/xml_1/internet/de/application/d15/f345.cfm",
-    "candidatePhone": "+41 41 3971707",
-    "candidateUrlKind": "web"
+    "candidateUrl": "https://www.vitznau.ch/bootshafen",
+    "candidatePhone": "+41 79 208 78 30",
+    "candidateUrlKind": "web",
+    "source": "https://www.vitznau.ch/bootshafen",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2146366561-genossenschaft-bootshafen-flüelen",
@@ -120,9 +128,11 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 406517074,
-    "candidateUrl": "https://www.stansstad.ch/de/tourismus/gemeindebootshafen/",
-    "candidatePhone": "+41 41 6104769",
-    "candidateUrlKind": "web"
+    "candidateUrl": "https://www.stansstad-bootshafen.ch/",
+    "candidatePhone": "+41 79 351 06 69",
+    "candidateUrlKind": "web",
+    "source": "https://www.stansstad-bootshafen.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-871464490-föhnhafen-brunnen",
@@ -149,7 +159,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 1284714428,
     "candidateUrl": "https://www.bootshafenkehrsiten.ch/",
-    "candidatePhone": "+41 41 4293090",
-    "candidateUrlKind": "web"
+    "candidatePhone": "+41 41 429 30 90",
+    "candidateUrlKind": "web",
+    "source": "https://www.bootshafenkehrsiten.ch/",
+    "lastVerified": "2026-03-22"
   }
 ]

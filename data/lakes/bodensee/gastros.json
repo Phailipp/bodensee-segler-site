@@ -172,7 +172,9 @@
     "candidateUrl": "https://www.nepal-haus.com/",
     "candidatePhone": "+49 7732 9598 199",
     "candidateHours": "Mo-Su 11:30-14:00,17:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.nepal-haus.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-289454312-bistro-panem",
@@ -185,7 +187,9 @@
     "candidateOsmId": 289454312,
     "candidateUrl": "https://panem.ch",
     "candidatePhone": "+41715303030",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://panem.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-295016780-ammos",
@@ -199,7 +203,9 @@
     "candidateUrl": "https://www.ammos-fn.de/",
     "candidatePhone": "+4975419549962",
     "candidateHours": "Mo-Su 09:00-24:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ammos-fn.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-295484096-das-blümchen",
@@ -212,7 +218,9 @@
     "candidateOsmId": 295484096,
     "candidateUrl": "https://bluemchen.restaurant/friedrichshafen/",
     "candidateHours": "Mo-Sa 11:00-23:00; Su 11:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://bluemchen.restaurant/friedrichshafen/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-298868284-grüter-am-see",
@@ -226,7 +234,9 @@
     "candidateUrl": "https://grueter-am-see.de/",
     "candidatePhone": "+4975415871070",
     "candidateHours": "11:30-20:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://grueter-am-see.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-309021739-blauer-affe",
@@ -240,7 +250,9 @@
     "candidateUrl": "https://www.blaueraffe-restaurant.de/",
     "candidatePhone": "+49 7773 938373",
     "candidateHours": "We-Su 17:30-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.blaueraffe-restaurant.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-355871193-hafenmeisterei",
@@ -253,7 +265,9 @@
     "candidateOsmId": 355871193,
     "candidateUrl": "https://hafenmeisterei.de/",
     "candidatePhone": "+49 7531 3697212",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://hafenmeisterei.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-360755708-asien-imbiss-c-n",
@@ -280,7 +294,9 @@
     "candidateUrl": "https://www.seehalde.de",
     "candidatePhone": "+49755692210",
     "candidateHours": "Th-Mo 12:00-14:00,18:00-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.seehalde.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-382008725-solo-sole",
@@ -294,7 +310,9 @@
     "candidateUrl": "https://solo-sole.de/",
     "candidatePhone": "+4975419388350",
     "candidateHours": "Tu-Su 09:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://solo-sole.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-413436166-häfele-by-sommerfeld",
@@ -308,7 +326,9 @@
     "candidateUrl": "https://www.haefelebysommerfeld.de",
     "candidatePhone": "+49 7545 9492322",
     "candidateHours": "Mo-Th off; Fr 16:00-22:30; Sa-Su 12:00-22:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.haefelebysommerfeld.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-415935028-sarahs-restaurant-bar-caf",
@@ -322,7 +342,9 @@
     "candidateUrl": "https://sarahs-restaurant.de/",
     "candidatePhone": "+49 7543 3088970",
     "candidateHours": "Tu 07:30-10:00; Mo,We-Su 07:30-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://sarahs-restaurant.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-420069115-beach-club",
@@ -336,7 +358,9 @@
     "candidateUrl": "https://www.beachclub-fn.de/",
     "candidatePhone": "+49 175 2444132",
     "candidateHours": "11:00-23:45; Sa,Su 11:00-00:45; Nov-Apr off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.beachclub-fn.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-473095596-konzil-konstanz-restaurant",
@@ -350,7 +374,9 @@
     "candidateUrl": "https://www.konzil-konstanz.de/de/restaurant.html",
     "candidatePhone": "+49 7531 21221",
     "candidateHours": "Mo-Su 09:30-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.konzil-konstanz.de/de/restaurant.html",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-493378041-anglerstuben",
@@ -364,7 +390,9 @@
     "candidateUrl": "https://anglerstuben.com/",
     "candidatePhone": "+49 7531 8180487",
     "candidateHours": "Tu-Fr 11:30-14:00,18:00-23:00; Sa 18:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://anglerstuben.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-549128668-seeliebe-beach",
@@ -377,7 +405,9 @@
     "candidateOsmId": 549128668,
     "candidateUrl": "https://hotelseeliebe.de/en/beach-club/",
     "candidatePhone": "+49 7551 63 211",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://hotelseeliebe.de/en/beach-club/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-618778076-bangkok-am-see",
@@ -391,7 +421,9 @@
     "candidateUrl": "https://www.bangkok-fn.de/",
     "candidatePhone": "+49 7541 3747874",
     "candidateHours": "Mo-Su 11:30-22:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bangkok-fn.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-639255790-gutsschänke",
@@ -405,7 +437,9 @@
     "candidateUrl": "https://www.gutsschaenke-meersburg.de/",
     "candidatePhone": "+49 7532 807630",
     "candidateHours": "We-Su 12:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.gutsschaenke-meersburg.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-648936908-restaurant-pilgerhof",
@@ -419,7 +453,9 @@
     "candidateUrl": "https://www.hotel-pilgerhof.de",
     "candidatePhone": "+49 7556 9390",
     "candidateHours": "Tu-Su 12:00-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hotel-pilgerhof.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-648936921-rebmannshof",
@@ -433,7 +469,9 @@
     "candidateUrl": "https://www.hotel-pilgerhof.de",
     "candidatePhone": "+49 7556 9390",
     "candidateHours": "Tu-Su 12:00-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hotel-pilgerhof.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-656334693-fischerstüble",
@@ -447,7 +485,9 @@
     "candidateUrl": "https://fischerstueble.at/",
     "candidatePhone": "+435578 75750",
     "candidateHours": "Mo-Sa 09:00-00:00; Su 09:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://fischerstueble.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-659261825-lindauer-hof",
@@ -460,7 +500,9 @@
     "candidateOsmId": 659261825,
     "candidateUrl": "https://www.lindauerhof.de/",
     "candidatePhone": "+49 8382 4064",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.lindauerhof.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-663451914-hotel-weinstube-zum-bengel",
@@ -486,7 +528,9 @@
     "candidateUrl": "https://www.cafewalker.de/",
     "candidatePhone": "+49 7551 63492",
     "candidateHours": "Mo-Su 11:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.cafewalker.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-676078818-restaurant-ochsen",
@@ -500,7 +544,9 @@
     "candidateUrl": "https://www.hotel-ochsen-ueberlingen.de",
     "candidatePhone": "+49 7551 919960",
     "candidateHours": "Mo,We-Su,PH 11:30-14:30,17:30-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hotel-ochsen-ueberlingen.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-683852532-alte-werft",
@@ -540,7 +586,9 @@
     "candidateUrl": "https://seekueche.com",
     "candidatePhone": "+49 7533 9976565",
     "candidateHours": "Mar 15-Jun 06 Mo-We 11:00-19:00; Mar 15-Jun 06 Th-Su 11:00-20:00; Jun 07-Sep 14 11:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://seekueche.com",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-738865658-weinstube-restaurant-zum-lieben-augustin",
@@ -553,7 +601,9 @@
     "candidateOsmId": 738865658,
     "candidateUrl": "https://www.zum-lieben-augustin.de/",
     "candidatePhone": "+49 7532 65111",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.zum-lieben-augustin.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-738865661-pizzeria-la-taverna",
@@ -566,7 +616,9 @@
     "candidateOsmId": 738865661,
     "candidateUrl": "https://www.hotel-iris-meersburg.de",
     "candidatePhone": "+49 7532 6537",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hotel-iris-meersburg.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-771761199-phönix-hard",
@@ -580,7 +632,9 @@
     "candidateUrl": "https://phoenix-hard.at/",
     "candidatePhone": "+43 5574 72324",
     "candidateHours": "Mo-Su 12:00-14:30,18:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://phoenix-hard.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-778243096-pizzeria-gusto",
@@ -607,7 +661,9 @@
     "candidateUrl": "https://thaihouse-lindau.de/",
     "candidatePhone": "+49 8382 275 345",
     "candidateHours": "Mo-Su 11:00-14:30, 17:30-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://thaihouse-lindau.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-845842210-kornmesser",
@@ -621,7 +677,9 @@
     "candidateUrl": "https://kornmesser.at/",
     "candidatePhone": "+43 5574 54854",
     "candidateHours": "Tu-Su 09:00-24:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://kornmesser.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-884205113-aquarama",
@@ -634,7 +692,9 @@
     "candidateOsmId": 884205113,
     "candidateUrl": "https://ristorante-aquarama.de/",
     "candidateHours": "Mo-Su 11:30-23:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://ristorante-aquarama.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-945213943-mediterraneo-mittelmeerspezialitäten",
@@ -648,7 +708,9 @@
     "candidateUrl": "https://www.mediterraneo-lindau.de",
     "candidatePhone": "+49 8382 2759184",
     "candidateHours": "Mo-Su 11:45-14:30,17:30-24:00; We off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.mediterraneo-lindau.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1146355705-restaurant-zur-alten-post",
@@ -661,7 +723,9 @@
     "candidateOsmId": 1146355705,
     "candidateUrl": "https://www.altepost-online.de/",
     "candidatePhone": "+4975327811",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.altepost-online.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1146502685-markgräflich-badische-weinstube",
@@ -674,7 +738,9 @@
     "candidateOsmId": 1146502685,
     "candidateUrl": "https://www.badische-weinstube.com/",
     "candidatePhone": "+49 7532 49642",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.badische-weinstube.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1157972583-restaurant-seehotel-zur-münz",
@@ -687,7 +753,9 @@
     "candidateOsmId": 1157972583,
     "candidateUrl": "https://www.seehotel-zur-muenz.de/",
     "candidatePhone": "+49 7532 43590",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.seehotel-zur-muenz.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1157972721-restaurant-valentino",
@@ -699,7 +767,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1157972721,
     "candidateUrl": "https://www.valentino-meersburg.de",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.valentino-meersburg.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1157972778-hotel-la-perla",
@@ -712,7 +782,9 @@
     "candidateOsmId": 1157972778,
     "candidateUrl": "https://hotel-laperla.de/",
     "candidatePhone": "+49 7532 6191",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://hotel-laperla.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1262300905-segelclubheim",
@@ -725,7 +797,9 @@
     "candidateOsmId": 1262300905,
     "candidateUrl": "https://www.instagram.com/cafe.bar.restaurant.scu",
     "candidateHours": "Mo,We-Su 12:00-22:00",
-    "candidateUrlKind": "social"
+    "candidateUrlKind": "social",
+    "source": "https://www.instagram.com/cafe.bar.restaurant.scu",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1325374781-gaststätte-am-fließhorn-thai-restaurant-am-see",
@@ -739,7 +813,9 @@
     "candidateUrl": "https://www.gaststaette-fliesshorn.de/",
     "candidatePhone": "+49 7533 2066",
     "candidateHours": "12:00 - 21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.gaststaette-fliesshorn.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1330637250-pizzeria-de-marchi",
@@ -766,7 +842,9 @@
     "candidateUrl": "https://www.ristorante-pizzeria-al-lago.de",
     "candidatePhone": "+49 7551 838666",
     "candidateHours": "Tu-Sa 11:30-14:30,17:00-21:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.ristorante-pizzeria-al-lago.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1363299830-la-vita",
@@ -780,7 +858,9 @@
     "candidateUrl": "https://lavita-ueberlingen.de/",
     "candidatePhone": "+49 7551 9493545",
     "candidateHours": "Tu-Su 11:30-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://lavita-ueberlingen.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1363468079-guten-taco",
@@ -793,7 +873,9 @@
     "candidateOsmId": 1363468079,
     "candidateUrl": "https://gutentaco.de/",
     "candidateHours": "We-Su 17:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://gutentaco.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1384432646-steinacher-hafen-treff",
@@ -807,7 +889,9 @@
     "candidateUrl": "https://hafen-treff.ch",
     "candidatePhone": "+41714403267",
     "candidateHours": "Mo 10:00-21:00; Tu 09:00-24:00; We-Su 10:00-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://hafen-treff.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1425312942-seerestaurant-adler",
@@ -820,7 +904,9 @@
     "candidateOsmId": 1425312942,
     "candidateUrl": "https://www.seerestaurant-adler.de/",
     "candidatePhone": "+49 7773933950",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.seerestaurant-adler.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1435963809-krone",
@@ -834,7 +920,9 @@
     "candidateUrl": "https://www.gottlieber-hotel-krone.ch",
     "candidatePhone": "+41 71 666 80 60",
     "candidateHours": "May 01-Sep 30 We-Mo 09:00-24:00; Oct 01-Apr 30 We-Su 12:00-14:30, 18:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.gottlieber-hotel-krone.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1486945375-jägerhaus",
@@ -857,7 +945,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 1486950450,
     "candidateUrl": "https://www.rheinspitz.ch",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.rheinspitz.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1668439907-lido",
@@ -882,7 +972,9 @@
     "candidateUrl": "https://www.schlossromanshorn.ch/",
     "candidatePhone": "+41 71 466 78 00",
     "candidateHours": "We-Fr 10:00-14:00,17:00-22:00; Sa-Su 10:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.schlossromanshorn.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1757185653-hotelrestaurant-seehof",
@@ -895,7 +987,9 @@
     "candidateOsmId": 1757185653,
     "candidateUrl": "https://seehof-hotel.de/RESTAURANT-1-4.htm",
     "candidatePhone": "+49 7545 9360",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://seehof-hotel.de/RESTAURANT-1-4.htm",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1796619003-bella-vista",
@@ -909,7 +1003,9 @@
     "candidateUrl": "https://www.bellavista-fn.de/",
     "candidatePhone": "+49 7541 22644",
     "candidateHours": "Apr-Oct: 11:00-22:00; Nov-Mar: We-Su 11:00-14:00,18:00-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bellavista-fn.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1916294051-gasthaus-schiff",
@@ -922,7 +1018,9 @@
     "candidateOsmId": 1916294051,
     "candidateUrl": "https://schiff-moos.de/",
     "candidatePhone": "+49 7732 99080",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://schiff-moos.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1972938921-hafenbuffet",
@@ -936,7 +1034,9 @@
     "candidateUrl": "https://www.hafenbuffet.ch/",
     "candidatePhone": "+4171 841 08 08",
     "candidateHours": "Mo,Tu off; We,Th,Su 10:00-23:00; Fr,Sa 10:00-24:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hafenbuffet.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2047043387-zur-mole",
@@ -950,7 +1050,9 @@
     "candidateUrl": "https://www.moleromanshorn.ch/",
     "candidatePhone": "+41 78 769 30 90",
     "candidateHours": "We-Su 10:00-19:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.moleromanshorn.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2082481690-hafencaf-taki-taki-yachthafen-schloss-kirchberg",
@@ -964,7 +1066,9 @@
     "candidateUrl": "https://www.immenstaad-tourismus.de/gastronomie/hafencafe-schloss-kirchberg-21b7d18838",
     "candidatePhone": "+49 7545 9492120",
     "candidateHours": "Mo-Su 11:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.immenstaad-tourismus.de/gastronomie/hafencafe-schloss-kirchberg-21b7d18838",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2135058179-seerestaurant-rorschach",
@@ -991,7 +1095,9 @@
     "candidateUrl": "https://www.tsg-wassersport.de/hafenrestaurant",
     "candidatePhone": "+49 8382 8998137",
     "candidateHours": "Mo-Su 10:30-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.tsg-wassersport.de/hafenrestaurant",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2340171327-bodano-ex-kern-s-restaurant",
@@ -1004,7 +1110,9 @@
     "candidateOsmId": 2340171327,
     "candidateUrl": "https://www.bodano.de",
     "candidatePhone": "+49 7773 9599805",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bodano.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2365787029-stars-and-stripes-american-bar-restaurant",
@@ -1017,7 +1125,9 @@
     "candidateOsmId": 2365787029,
     "candidateUrl": "https://www.starsandstripes.ch/rorschach/",
     "candidatePhone": "+4171 841 82 82",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.starsandstripes.ch/rorschach/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2426652589-delphi",
@@ -1031,7 +1141,9 @@
     "candidateUrl": "https://delphi-restaurant.eatbu.com/",
     "candidatePhone": "+49 7541 22160",
     "candidateHours": "Mo-Su 11:00-22:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://delphi-restaurant.eatbu.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2428029551-spitalkeller",
@@ -1045,7 +1157,9 @@
     "candidateUrl": "https://www.spitalkeller-fn.de/",
     "candidatePhone": "+49 7541 3 17 33",
     "candidateHours": "11:30-14:00,18:00-22:00; Nov-Feb: Su off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.spitalkeller-fn.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2435453714-kub-caf",
@@ -1071,7 +1185,9 @@
     "candidateUrl": "https://viva-cantina.com",
     "candidatePhone": "+43557442288",
     "candidateHours": "We-Su 17:00-01:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://viva-cantina.com",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2442705906-manga",
@@ -1096,7 +1212,9 @@
     "candidateUrl": "https://www.wvfischbach.de/clubrestaurant",
     "candidatePhone": "+49 7541 41665",
     "candidateHours": "We-Su 11:00-14:30,17:00-23:00; Mo,Tu off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.wvfischbach.de/clubrestaurant",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2681232695-pizzeria-lago-mio",
@@ -1110,7 +1228,9 @@
     "candidateUrl": "https://pizzerialagomio.ch",
     "candidatePhone": "+41 55 242 10 00",
     "candidateHours": "We-Su 09:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://pizzerialagomio.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2824308523-hafen-kebab",
@@ -1147,7 +1267,9 @@
     "candidateOsmId": 2906966201,
     "candidateUrl": "https://www.schloss-hotel-wasserburg.de/",
     "candidatePhone": "+49 8382 2733300",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.schloss-hotel-wasserburg.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2999845319-comturey",
@@ -1171,7 +1293,9 @@
     "candidateOsmId": 2999913562,
     "candidateUrl": "https://hagnauer-seeperle.de/restaurant/",
     "candidatePhone": "+49 7532 4349950",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://hagnauer-seeperle.de/restaurant/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3021614047-hafen-grill",
@@ -1185,7 +1309,9 @@
     "candidateUrl": "https://www.hafengrill-kn.de",
     "candidatePhone": "+49 7533 3421",
     "candidateHours": "We-Mo 12:00-19:00; Tu off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hafengrill-kn.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3051460509-centrale",
@@ -1199,7 +1325,9 @@
     "candidateUrl": "https://www.centrale-fn.de/",
     "candidatePhone": "+49 7541 377755",
     "candidateHours": "Mo-Sa 10:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.centrale-fn.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3099254086-rebstöckle",
@@ -1212,7 +1340,9 @@
     "candidateOsmId": 3099254086,
     "candidateUrl": "https://www.hotel-rebstoeckle.de/Restaurant",
     "candidateHours": "Th 17:00-22:00; Fr-Sa 17:00-22:00; Su 11:30-14:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hotel-rebstoeckle.de/Restaurant",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3340097422-mariaberg",
@@ -1225,7 +1355,9 @@
     "candidateOsmId": 3340097422,
     "candidateUrl": "https://restaurant-mariaberg.ch/",
     "candidatePhone": "+4171 870 08 08",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://restaurant-mariaberg.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3346119610-coop-restaurant",
@@ -1275,7 +1407,9 @@
     "candidateUrl": "https://kommodore-wyc.de/",
     "candidatePhone": "+49 7541 9537636",
     "candidateHours": "Mo-Sa 11:00-22:00; Su 11:00-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://kommodore-wyc.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3406878814-the-ami",
@@ -1287,7 +1421,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 3406878814,
     "candidateUrl": "https://theami.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://theami.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3422316884-buchhorner-stuben",
@@ -1301,7 +1437,9 @@
     "candidateUrl": "https://www.buchhornerstuben.de/",
     "candidatePhone": "+49 7541 9789281",
     "candidateHours": "07:00-10:00,12:00-14:00,18:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.buchhornerstuben.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3529048489-ufer-39",
@@ -1315,7 +1453,9 @@
     "candidateUrl": "https://ufer39.de/",
     "candidatePhone": "+49 7533 9977134",
     "candidateHours": "We-Sa 12:00-22:00; Su 12:00-21:00; Mo,Tu off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://ufer39.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3608604869-pier-69",
@@ -1329,7 +1469,9 @@
     "candidateUrl": "https://www.pier69.at/",
     "candidatePhone": "+43 5574 43202",
     "candidateHours": "Mo-Su 09:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.pier69.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3611264527-hafen",
@@ -1343,7 +1485,9 @@
     "candidateUrl": "https://restaurant-hafen.ch",
     "candidatePhone": "+41 71 466 78 48",
     "candidateHours": "Mo-Su 08:30-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://restaurant-hafen.ch",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3611264532-s-wirtshaus",
@@ -1357,7 +1501,9 @@
     "candidateUrl": "https://www.swirtshaus.de/",
     "candidatePhone": "+49 7541 3885989",
     "candidateHours": "09:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.swirtshaus.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3618437560-steghaus",
@@ -1371,7 +1517,9 @@
     "candidateUrl": "https://www.steghaus-hagnau.de/",
     "candidatePhone": "+49 7532 442939",
     "candidateHours": "11:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.steghaus-hagnau.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3663404426-frohsinn",
@@ -1385,7 +1533,9 @@
     "candidateUrl": "https://www.frohsinn-steckborn.ch/",
     "candidatePhone": "+41 52 761 11 61",
     "candidateHours": "Fr-Tu 08:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.frohsinn-steckborn.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3666031013-pavillon-am-see",
@@ -1398,7 +1548,9 @@
     "candidateOsmId": 3666031013,
     "candidateUrl": "https://www.stadthof-rorschach.ch/",
     "candidatePhone": "+4171 841 10 90",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.stadthof-rorschach.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3730360482-laguna",
@@ -1412,7 +1564,9 @@
     "candidateUrl": "https://laguna-friedrichshafen.de/",
     "candidatePhone": "+49 7541 9817272",
     "candidateHours": "Tu 17:30-22:00; We,Th 11:30-14:00,17:30-22:00; Fr 17:30-22:30; Sa 11:30-22:30; PH 11:00-22:00; Su,Mo off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://laguna-friedrichshafen.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3743297740-tressbrüder-museumsrestaurant",
@@ -1426,7 +1580,9 @@
     "candidateUrl": "https://www.tressbrueder.de/bio-restaurants/bio-museumsrestaurant-in-friedrichshafen/",
     "candidatePhone": "+4973839498800",
     "candidateHours": "Tu-Su 11:00-17:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.tressbrueder.de/bio-restaurants/bio-museumsrestaurant-in-friedrichshafen/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3775692465-zur-schiffslände",
@@ -1440,7 +1596,9 @@
     "candidateUrl": "https://zur-schiffslaen.de/",
     "candidatePhone": "+49 7534 9955822",
     "candidateHours": "Mo-Su 11:30-21:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://zur-schiffslaen.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3790442881-gasthof-engel",
@@ -1454,7 +1612,9 @@
     "candidateUrl": "https://engelueberlingen.de",
     "candidatePhone": "+49 7551 9494054",
     "candidateHours": "Th-Mo 11:30-14:00,17:30-21:00; Tu,We off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://engelueberlingen.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3973979298-roma",
@@ -1491,7 +1651,9 @@
     "candidateUrl": "https://konstanzer-buergerstuben.de",
     "candidatePhone": "+49 7531 24662",
     "candidateHours": "Mo-Th 09:00-23:00; Fr-Sa 09:00-01:00; Su 09:45-23:45",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://konstanzer-buergerstuben.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4197193646-hanoi",
@@ -1504,7 +1666,9 @@
     "candidateOsmId": 4197193646,
     "candidateUrl": "https://www.hanoi-sushi.de/",
     "candidateHours": "Mo, Tu, Th, Fr 11:30-14:30, 17:30-21:30; Sa, Su 12:30-15:00, 17:30-21:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hanoi-sushi.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4223820089-kajüte",
@@ -1530,7 +1694,9 @@
     "candidateUrl": "https://www.zur-winzerstube.de/restaurant.html",
     "candidatePhone": "+49 7532 494860",
     "candidateHours": "Mar 15-Nov 05 12:00-21:00; Mo off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.zur-winzerstube.de/restaurant.html",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4252265815-silo",
@@ -1554,7 +1720,9 @@
     "candidateOsmId": 4349039787,
     "candidateUrl": "https://schattmaier.com/restaurant",
     "candidatePhone": "+49 7543 60540",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://schattmaier.com/restaurant",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4498266303-wittkoop-alte-bank",
@@ -1568,7 +1736,9 @@
     "candidateUrl": "https://www.burger-bodensee.de/",
     "candidatePhone": "+49 7532 2019012",
     "candidateHours": "11:30-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.burger-bodensee.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4713542155-mamma-mia",
@@ -1594,7 +1764,9 @@
     "candidateUrl": "https://www.clubhaus-laende-staad.de/",
     "candidatePhone": "+49 7531 3615441",
     "candidateHours": "11:30-22:00; Mo 17:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.clubhaus-laende-staad.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4828483121-chen-s",
@@ -1619,7 +1791,9 @@
     "candidateUrl": "https://noonandmoon.de/",
     "candidatePhone": "+49 7541 3748777",
     "candidateHours": "Su–Th 09:00-01:00; Fr–Sa 09:00-03:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://noonandmoon.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4857287794-valeron",
@@ -1632,7 +1806,9 @@
     "candidateOsmId": 4857287794,
     "candidateUrl": "https://valeron-restaurant.de/",
     "candidateHours": "Mo-Su 11:30-21:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://valeron-restaurant.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4865563399-blue-marina",
@@ -1646,7 +1822,9 @@
     "candidateUrl": "https://www.blue-marina.com",
     "candidatePhone": "+49 7543 547213",
     "candidateHours": "Tu-Fr 11:00-22:00; Sa,Su 10:00-22:00; May-Aug: Tu-Fr 11:00-23:00; May-Aug: Sa,Su 10:00-24:00; Nov-Feb: off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.blue-marina.com",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-5034139345-pfeffermühle",
@@ -1660,7 +1838,9 @@
     "candidateUrl": "https://www.pfeffermühle-rorschach.ch/",
     "candidatePhone": "+4171 845 22 55",
     "candidateHours": "Mo off; Tu-Th 09:00-14:00,17:00-23:00; Fr-Sa 09:00-14:00,17:00-24:00; Su off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.pfeffermühle-rorschach.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-5893677980-fischhaus-am-fährhafen",
@@ -1674,7 +1854,9 @@
     "candidateUrl": "https://www.fischhaus-konstanz.de/",
     "candidatePhone": "+49 7531 8076961",
     "candidateHours": "Tu-Sa 11:00-21:00; Su 12:00-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.fischhaus-konstanz.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6533442142-hafenhalle",
@@ -1687,7 +1869,9 @@
     "candidateOsmId": 6533442142,
     "candidateUrl": "https://www.hafenhalle.com/",
     "candidatePhone": "+49 7531 21126",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hafenhalle.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6939991546-rebgut-haltnau",
@@ -1701,7 +1885,9 @@
     "candidateUrl": "https://www.rebgut-haltnau.de/",
     "candidatePhone": "+49 75 32 97 32",
     "candidateHours": "12:00-21:00; Th off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.rebgut-haltnau.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-6982716026-alti-badi-hafen-restaurant",
@@ -1714,7 +1900,9 @@
     "candidateOsmId": 6982716026,
     "candidateUrl": "https://alti-badi.ch/",
     "candidatePhone": "+41 71 672 8080",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://alti-badi.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-7157254526-rosticceria-la-bont",
@@ -1740,7 +1928,9 @@
     "candidateUrl": "https://www.steg11.de",
     "candidatePhone": "+49 7732 4478",
     "candidateHours": "Tu-Sa 11:30-23:00; Su 11:30-21:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.steg11.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-7781464686-werft1919",
@@ -1754,7 +1944,9 @@
     "candidateUrl": "https://www.werft1919.com/",
     "candidatePhone": "+49 7543 9631919",
     "candidateHours": "Fr-Su 13:00-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.werft1919.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-7831886129-schuppen-13",
@@ -1768,7 +1960,9 @@
     "candidateUrl": "https://www.schuppen13.de/",
     "candidatePhone": "+49 7543 1577",
     "candidateHours": "Tu-Su 12:00-14:00, 18:00-21:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.schuppen13.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8148318713-restaurant-da-salvatore",
@@ -1781,7 +1975,9 @@
     "candidateOsmId": 8148318713,
     "candidateUrl": "https://dasalvatore-wasserburg.de/",
     "candidatePhone": "+49 8382 2792000",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://dasalvatore-wasserburg.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8148318715-restaurant-daniel-s",
@@ -1794,7 +1990,9 @@
     "candidateOsmId": 8148318715,
     "candidateUrl": "https://www.restaurant-daniels.de/",
     "candidatePhone": "+49 8382 9885550",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.restaurant-daniels.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8180640718-gourmetrestaurant-ophelia",
@@ -1806,7 +2004,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 8180640718,
     "candidateUrl": "https://www.restaurant-ophelia.de",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.restaurant-ophelia.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8243873055-hafenmauer-1826",
@@ -1819,7 +2019,9 @@
     "candidateOsmId": 8243873055,
     "candidateUrl": "https://www.blaueraffe-hafenmauer.de/hafenmauer/",
     "candidateHours": "\"Bei guter Witterung: Mo-Di 11.00—22.00, Mi-So 9.00—22.00\"",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.blaueraffe-hafenmauer.de/hafenmauer/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8584197752-myco",
@@ -1832,7 +2034,9 @@
     "candidateOsmId": 8584197752,
     "candidateUrl": "https://www.myco-restaurant.de/",
     "candidatePhone": "+49 7543 602 9020",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.myco-restaurant.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-8622050391-mole-3",
@@ -1846,7 +2050,9 @@
     "candidateUrl": "https://www.mole3.de",
     "candidatePhone": "+49 8382 2749289",
     "candidateHours": "We-Mo,PH 10:00-22:00; Tu off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.mole3.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-9705198419-cafe-hasler",
@@ -1860,7 +2066,9 @@
     "candidateUrl": "https://www.cafe-hasler.de/",
     "candidatePhone": "+49 7773 930 70",
     "candidateHours": "Tu-Su 08:00-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.cafe-hasler.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-10095103696-hafenbeiz-dockeins",
@@ -1872,7 +2080,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 10095103696,
     "candidateUrl": "https://dockeins.ch/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://dockeins.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-11170454335-reiners-schäpfle-restaurant",
@@ -1886,7 +2096,9 @@
     "candidateUrl": "https://www.facebook.com/reinersschaepfle/",
     "candidatePhone": "+49 7551 9899715",
     "candidateHours": "Th-Tu 11:00-22:00",
-    "candidateUrlKind": "social"
+    "candidateUrlKind": "social",
+    "source": "https://www.facebook.com/reinersschaepfle/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-11778412107-bangkok-sushi",
@@ -1900,7 +2112,9 @@
     "candidateUrl": "https://bangkok-fn.de/unsere-restaurants-authentisch-und-lecker/bangkok-sushi/",
     "candidatePhone": "+49 7541 3747874",
     "candidateHours": "Mo-Fr 16:00-22:30; Sa,Su,PH 11:30-22:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://bangkok-fn.de/unsere-restaurants-authentisch-und-lecker/bangkok-sushi/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-11833972106-pinus",
@@ -1936,7 +2150,9 @@
     "candidateUrl": "https://zurboje-kressbronn.de/",
     "candidatePhone": "+49 7543 952598",
     "candidateHours": "Fr-We 11:30-14:00,17:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://zurboje-kressbronn.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-36329386-meersburger-weinstube",
@@ -1949,7 +2165,9 @@
     "candidateOsmId": 36329386,
     "candidateUrl": "https://www.meersburger-weinstube.de/",
     "candidateHours": "Mo-Tu 14:00-23:30; Th-Su 12:00-23:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.meersburger-weinstube.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-39183311-wirtshaus-am-see",
@@ -1963,7 +2181,9 @@
     "candidateUrl": "https://www.wirtshausamsee.at/",
     "candidatePhone": "+43 5574 42210",
     "candidateHours": "PH,Mo-Su 09:00-24:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.wirtshausamsee.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-42375602-restaurant-seegarten",
@@ -1977,7 +2197,9 @@
     "candidateUrl": "https://www.seegarten-restaurant.de/",
     "candidatePhone": "+49 7533 9330011",
     "candidateHours": "Mo-Su 09:30-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.seegarten-restaurant.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-54437456-rezeption-restaurant-schiffle",
@@ -2003,7 +2225,9 @@
     "candidateUrl": "https://casamia-bodensee.de/",
     "candidatePhone": "+49 7531 9405275",
     "candidateHours": "Tu-Su 11:00-22:00; Sa 11:00-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://casamia-bodensee.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-67307037-pizzeria-ristorante-del-lago",
@@ -2030,7 +2254,9 @@
     "candidateUrl": "https://www.aletstueble.de",
     "candidatePhone": "+4975332199",
     "candidateHours": "Th,Fr 17:00-22:00; Sa,Su 11:30-14:30,17:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.aletstueble.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-72670569-asia-wok-weinstube-wehrle",
@@ -2044,7 +2270,9 @@
     "candidateUrl": "https://www.asiawok-allensbach.de/",
     "candidatePhone": "+49 7533 5495",
     "candidateHours": "Mo-Sa 11:30-22:00; Su 13:00-22:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.asiawok-allensbach.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-72670570-nane",
@@ -2093,7 +2321,9 @@
     "candidateOsmId": 74342005,
     "candidateUrl": "https://www.salzmann.at/",
     "candidatePhone": "+43 5578 75708",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.salzmann.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-77512488-ristorante-pizzeria-gnadensee",
@@ -2106,7 +2336,9 @@
     "candidateOsmId": 77512488,
     "candidateUrl": "https://www.restaurant-gnadensee.de",
     "candidatePhone": "+49 7533 3349",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.restaurant-gnadensee.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-81153649-schwedenschanze",
@@ -2120,7 +2352,9 @@
     "candidateUrl": "https://www.restaurant-schwedenschanze.at",
     "candidatePhone": "+43 5578 75638",
     "candidateHours": "\"see website\"",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.restaurant-schwedenschanze.at",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-81153675-mövenblick",
@@ -2134,7 +2368,9 @@
     "candidateUrl": "https://www.moevenblick.at/",
     "candidatePhone": "+43 5578 75646",
     "candidateHours": "Th-Fr 15:00-00:00; Sa-Su 10:00-00:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.moevenblick.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-97758873-schussen-grillhaus-am-see",
@@ -2148,7 +2384,9 @@
     "candidateUrl": "https://www.grillhaus-schussen.de/",
     "candidatePhone": "+49 7541 9999596",
     "candidateHours": "11:30-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.grillhaus-schussen.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-102382479-gasthaus-käth-r",
@@ -2175,7 +2413,9 @@
     "candidateUrl": "https://staaderfaehrhaus.de/",
     "candidatePhone": "+49 7531 3616763",
     "candidateHours": "Mo-Su 12:00-14:30,18:00-22:00; Tu off; We off; Th off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://staaderfaehrhaus.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-117375059-gasthaus-pension-seeschau",
@@ -2188,7 +2428,9 @@
     "candidateOsmId": 117375059,
     "candidateUrl": "https://www.gasthaus-seeschau.de/",
     "candidatePhone": "+4975335190",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.gasthaus-seeschau.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-117375068-gasthof-hotel-anker",
@@ -2212,7 +2454,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 118351156,
     "candidateUrl": "https://www.patagonia.at/",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.patagonia.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-118760660-bosporus-hafen-restaurant",
@@ -2226,7 +2470,9 @@
     "candidateUrl": "https://bosporus-hafen-bregenz.at",
     "candidatePhone": "+43 5574 43997",
     "candidateHours": "Mo-Su 10:00-01:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://bosporus-hafen-bregenz.at",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-120053646-bad-hotel-überlingen",
@@ -2239,7 +2485,9 @@
     "candidateOsmId": 120053646,
     "candidateUrl": "https://www.bad-hotel-ueberlingen.de/",
     "candidatePhone": "+49 7551 8370",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.bad-hotel-ueberlingen.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-122708525-orangerie",
@@ -2264,7 +2512,9 @@
     "candidateOsmId": 122924791,
     "candidateUrl": "https://seegarten-ueberlingen-bodensee.de",
     "candidatePhone": "+49 7551 91889-0",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://seegarten-ueberlingen-bodensee.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-122924809-mykonos",
@@ -2278,7 +2528,9 @@
     "candidateUrl": "https://mykonos-ueberlingen.de/",
     "candidatePhone": "+49 7551 64710",
     "candidateHours": "Mo-Su 11:30-22:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://mykonos-ueberlingen.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-125814121-schloss-helmsdorf",
@@ -2291,7 +2543,9 @@
     "candidateOsmId": 125814121,
     "candidateUrl": "https://www.schlosshelmsdorf.de/de",
     "candidatePhone": "+49 7545 6252",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.schlosshelmsdorf.de/de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-126190263-hotel-restaurant-amelia",
@@ -2304,7 +2558,9 @@
     "candidateOsmId": 126190263,
     "candidateUrl": "https://amelia-hotel.com/",
     "candidatePhone": "+49 7534 9995991",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://amelia-hotel.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-126190266-strandhotel-löchnerhaus",
@@ -2317,7 +2573,9 @@
     "candidateOsmId": 126190266,
     "candidateUrl": "https://www.loechnerhaus.de/",
     "candidatePhone": "+49 7534 8030",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.loechnerhaus.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-129428187-seeräuber",
@@ -2342,7 +2600,9 @@
     "candidateOsmId": 142820928,
     "candidateUrl": "https://www.fischerhuette-kressbronn.de",
     "candidatePhone": "+49 7543 952111",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.fischerhuette-kressbronn.de",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-203491340-hafeglöggli",
@@ -2367,7 +2627,9 @@
     "candidateUrl": "https://www.buchhornerpavillonamsee.de/",
     "candidatePhone": "+49 7541 9789282",
     "candidateHours": "Mo-Sa 17:00-24:00; Su,PH 11:30-24:00; Nov-Feb off",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.buchhornerpavillonamsee.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-219101832-mediterra-hotel-und-restaurant",
@@ -2380,7 +2642,9 @@
     "candidateOsmId": 219101832,
     "candidateUrl": "https://www.mediterra-bodensee.com/",
     "candidatePhone": "+49 7556 93490",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.mediterra-bodensee.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-219242367-al-gusto-caf-restaurant",
@@ -2406,7 +2670,9 @@
     "candidateUrl": "https://www.hotel-mainaublick.de/",
     "candidatePhone": "+49 7556 92130",
     "candidateHours": "Mo-Tu,Th-Su 17:00+",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.hotel-mainaublick.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-368350260-zur-alten-fähre",
@@ -2419,7 +2685,9 @@
     "candidateOsmId": 368350260,
     "candidateUrl": "https://tourismus.lochau.at/fahre-lochau-178.html",
     "candidateHours": "Mo-Su 10:30-23:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://tourismus.lochau.at/fahre-lochau-178.html",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-457096132-heinzler-am-see",
@@ -2433,7 +2701,9 @@
     "candidateUrl": "https://www.heinzleramsee.de/de/home",
     "candidatePhone": "+49 7545 93190",
     "candidateHours": "Mo-Su,PH 12:00-14:00,17:30-21:00",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://www.heinzleramsee.de/de/home",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-1014923918-mole",
@@ -2447,6 +2717,8 @@
     "candidateUrl": "https://mole-radolfzell.de/",
     "candidatePhone": "+49 7732 8902099",
     "candidateHours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 09:00-20:30,09:00-11:30",
-    "candidateUrlKind": "web"
+    "candidateUrlKind": "web",
+    "source": "https://mole-radolfzell.de/",
+    "lastVerified": "2026-03-22"
   }
 ]
