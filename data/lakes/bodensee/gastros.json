@@ -106,8 +106,8 @@
       "Direkt am Steg"
     ],
     "url": "",
-    "source": "",
-    "lastVerified": "",
+    "source": "https://www.hafenbuffet.ch/",
+    "lastVerified": "2026-03-22",
     "candidateUrl": null,
     "candidateFoundAt": null,
     "candidateSource": null,
@@ -152,8 +152,8 @@
       "Hafensteg"
     ],
     "url": "",
-    "source": "",
-    "lastVerified": "",
+    "source": "http://www.seerestaurant-bregenz.at/",
+    "lastVerified": "2026-03-22",
     "candidateUrl": null,
     "candidateFoundAt": null,
     "candidateSource": null,
@@ -280,7 +280,9 @@
     "candidateOsmId": 360755708,
     "candidatePhone": "+49 7541 378442",
     "candidateHours": "Mo-Sa 11:00-19:00",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://asienimbisscn.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-371374298-restaurant-seehalde",
@@ -514,7 +516,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 663451914,
     "candidatePhone": "+49 7532 6060",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://www.hotel-bengel.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-676075941-cafe-walker",
@@ -647,7 +651,9 @@
     "candidateOsmId": 778243096,
     "candidatePhone": "+43 5574 63616",
     "candidateHours": "Mo-Su 11:00-14:00,17:00-23:00",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://ristorante-gusto.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-829903666-thai-house",
@@ -933,7 +939,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 1486945375,
-    "candidateHours": "Mo,Tu,Th 09:00-22:30; We off; Fr 09:00-23:00; Sa 09:00-23:00; Su 09:30-21:00"
+    "candidateHours": "Mo,Tu,Th 09:00-22:30; We off; Fr 09:00-23:00; Sa 09:00-23:00; Su 09:30-21:00",
+    "source": "https://jaegerhaus-altenrhein.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-1486950450-rheinspitz",
@@ -1081,7 +1089,9 @@
     "candidateOsmId": 2135058179,
     "candidatePhone": "+4171 858 39 80",
     "candidateHours": "09:00-00:00",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://www.seerestaurantrorschach.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2135894024-hafenrestaurant-lindau-zech",
@@ -1171,7 +1181,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 2435453714,
     "candidateHours": "Tu-Sa 08:00-01:00, Su,Mo 08:00-18:00",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://www.kunsthaus-bregenz.at/en/visit/kub-cafe-bar",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2442704855-viva",
@@ -1198,7 +1210,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 2442705906,
-    "candidateHours": "Mo-Th 11:30-14:30,17:30-23:30; Fr-Su 11:30-23:30"
+    "candidateHours": "Mo-Th 11:30-14:30,17:30-23:30; Fr-Su 11:30-23:30",
+    "source": "https://manga-restaurant.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2495033062-wvf-clubrestaurant",
@@ -1242,7 +1256,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 2824308523,
     "candidatePhone": "+41 71 845 25 80",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://www.hafen-kebab-rorschach.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2867196693-schiff",
@@ -1280,7 +1296,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 2999845319,
-    "candidateHours": "11:00-17:00"
+    "candidateHours": "11:00-17:00",
+    "source": "https://www.mainau.de/de/restaurants-detail/restaurant/restaurant-comturey.html",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-2999913562-hagnauer-seeperle",
@@ -1369,7 +1387,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 3346119610,
     "candidatePhone": "+4171 844 60 21",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://www.coop-restaurant.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3347586797-münzhof",
@@ -1381,7 +1401,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 3347586797,
     "candidatePhone": "+4171 841 06 00",
-    "candidateHours": "Mo-Th 08:30-22:30; Fr 08:30-23:00; Sa 09:00-23:00; Su 09:00-22:30"
+    "candidateHours": "Mo-Th 08:30-22:30; Fr 08:30-23:00; Sa 09:00-23:00; Su 09:00-22:30",
+    "source": "https://www.muenzhof-rorschach.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-3387478325-weinkeller-stadtmauer",
@@ -1625,7 +1647,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 3973979298,
-    "candidatePhone": "+4171 841 90 80"
+    "candidatePhone": "+4171 841 90 80",
+    "source": "https://www.roma-pizzeria.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4040499148-sutterluty-gusto",
@@ -1637,7 +1661,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 4040499148,
     "candidateHours": "Mo-Fr 07:00-19:00; Sa 08:00-18:00; Su 08:00-14:00",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://www.sutterluety.at/maerkte/bregenz/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4116061810-konstanzer-bürgerstuben",
@@ -1680,7 +1706,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 4223820089,
     "candidatePhone": "+49 7531 3616260",
-    "candidateHours": "Mo-Fr 17:00-23:00; PH off"
+    "candidateHours": "Mo-Fr 17:00-23:00; PH off",
+    "source": "https://restaurant-zur-kajuete.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4248998547-zur-winzerstube",
@@ -1750,7 +1778,9 @@
     "candidateOsmType": "node",
     "candidateOsmId": 4713542155,
     "candidatePhone": "+4171 841 12 78",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://www.mammamia-rorschach.com/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4825710918-clubhaus-lände",
@@ -1777,7 +1807,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 4828483121,
-    "candidateHours": "PH,Mo-Su 11:30-22:00"
+    "candidateHours": "PH,Mo-Su 11:30-22:00",
+    "source": "https://chensbregenz.newasia.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-4852612808-noon-moon",
@@ -2125,7 +2157,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 11833972106,
-    "candidateHours": "We-Su 12:00-21:00"
+    "candidateHours": "We-Su 12:00-21:00",
+    "source": "https://www.seegut-zeppelin.de/kulinarik/restaurant-pinus/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-11920512223-seensucht",
@@ -2136,7 +2170,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "node",
     "candidateOsmId": 11920512223,
-    "candidateHours": "07:00-10:30; 18:00-22:00"
+    "candidateHours": "07:00-10:30; 18:00-22:00",
+    "source": "https://www.hoeri-am-bodensee.de/en/restaurant/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-node-12905279838-zur-boje",
@@ -2211,7 +2247,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 54437456,
     "candidateHours": "Tu-Su 8:00-11:00, 15:00-21:30",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://www.camping-fischbach.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-60733625-casa-mia",
@@ -2240,7 +2278,9 @@
     "candidateOsmId": 67307037,
     "candidatePhone": "+43 5574 79320",
     "candidateHours": "Mo-We 11:30-14:00; Mo-Sa 17:00-23:00; Su 11:30-23:00",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "http://www.margarita-sul-lago.at/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-72670567-alet-stüble",
@@ -2295,7 +2335,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 72761747,
-    "candidateHours": "Mo-Su 11:00-24:00"
+    "candidateHours": "Mo-Su 11:00-24:00",
+    "source": "https://www.restaurant-hohenegg.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-72856776-scharfes-eck",
@@ -2308,7 +2350,9 @@
     "candidateOsmId": 72856776,
     "candidatePhone": "+49 7533 2901",
     "candidateHours": "Mo-Fr 11:00-23:00; Tu,We off",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://scharfeseck.ch/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-74342005-seerestaurant-salzmann",
@@ -2442,7 +2486,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 117375068,
     "candidatePhone": "+49 7533 6220",
-    "candidateUrl": ""
+    "candidateUrl": "",
+    "source": "https://ankerdingelsdorf.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-118351156-steakhaus-patagonia",
@@ -2499,7 +2545,9 @@
     "candidateOsmType": "way",
     "candidateOsmId": 122708525,
     "candidatePhone": "+49 7533 933855",
-    "candidateHours": "Mo,Tu,Th,Fr 09:00-24:00, Sa,Su 09:00-01:00; We off"
+    "candidateHours": "Mo,Tu,Th,Fr 09:00-24:00, Sa,Su 09:00-01:00; We off",
+    "source": "http://www.orangerie-wallhausen.de/",
+    "lastVerified": "2026-03-22"
   },
   {
     "id": "osm-way-122924791-hotel-seegarten",
