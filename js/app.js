@@ -723,10 +723,14 @@ function renderBacklog() {
     `;
   }).join('');
 
+  if (!blocks) {
+    el.innerHTML = '';
+    return;
+  }
   el.innerHTML = `
     <div class="backlog-header">${escapeHtml(t('backlog.title'))}</div>
     <p class="coverage-note">${escapeHtml(t('backlog.note'))}</p>
-    <div class="backlog-grid">${blocks || `<div class="coverage-note">${escapeHtml(t('backlog.none'))}</div>`}</div>
+    <div class="backlog-grid">${blocks}</div>
   `;
 }
 
