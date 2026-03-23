@@ -1393,9 +1393,7 @@ function initMap() {
   // Leaflet provided globally
   state.map = L.map('map', {
     zoomControl: false,
-    scrollWheelZoom: false,
-    // Mobile UX: avoid accidental one-finger map panning while scrolling
-    dragging: !L.Browser.touch
+    gestureHandling: true
   });
 
   const c = state.lakeMeta?.center || [47.58, 9.45];
@@ -1404,70 +1402,10 @@ function initMap() {
 
   L.control.zoom({ position: 'topright' }).addTo(state.map);
 
-  // Desktop: Ctrl+Scroll to zoom the map
-  if (!L.Browser.touch) {
-    const mapEl = state.map.getContainer();
-    let hintTimer;
-    const hint = document.createElement('div');
-    hint.className = 'map-scroll-hint';
-    hint.textContent = 'Strg + Scrollen zum Zoomen';
-    hint.style.cssText = 'position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,0.75);color:#fff;padding:10px 18px;border-radius:8px;font-size:0.85rem;pointer-events:none;opacity:0;transition:opacity 0.3s;z-index:1000;';
-    mapEl.style.position = 'relative';
-    mapEl.appendChild(hint);
-
-    // Must listen on document level to intercept browser's Ctrl+scroll
-    // page zoom before it happens — element-level preventDefault is too late
-    document.addEventListener('wheel', (e) => {
-      if (!(e.ctrlKey || e.metaKey)) return;
-      if (!mapEl.contains(e.target)) return;
-      e.preventDefault();
-      if (e.deltaY < 0) state.map.zoomIn();
-      else if (e.deltaY > 0) state.map.zoomOut();
-      hint.style.opacity = '0';
-      clearTimeout(hintTimer);
-    }, { passive: false });
-
-    mapEl.addEventListener('wheel', (e) => {
-      if (e.ctrlKey || e.metaKey) return; // handled above
-      hint.style.opacity = '1';
-      clearTimeout(hintTimer);
-      hintTimer = setTimeout(() => { hint.style.opacity = '0'; }, 1500);
-    }, { passive: true });
-  }
-
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution: '© OpenStreetMap © CartoDB',
     maxZoom: 18
   }).addTo(state.map);
-
-  // On touch devices: enable dragging only with two fingers
-  if (L.Browser.touch) {
-    const el = state.map.getContainer();
-    let activeTouches = 0;
-
-    const update = () => {
-      if (activeTouches >= 2) state.map.dragging.enable();
-      else state.map.dragging.disable();
-    };
-
-    el.addEventListener('touchstart', (e) => {
-      activeTouches = e.touches ? e.touches.length : 0;
-      update();
-    }, { passive: true });
-
-    el.addEventListener('touchmove', (e) => {
-      activeTouches = e.touches ? e.touches.length : 0;
-      update();
-    }, { passive: true });
-
-    el.addEventListener('touchend', (e) => {
-      activeTouches = e.touches ? e.touches.length : 0;
-      update();
-    }, { passive: true });
-
-    // start disabled
-    state.map.dragging.disable();
-  }
 }
 
 function makeIcon(color, size = 14) {
