@@ -1418,9 +1418,10 @@ function initMap() {
     mapEl.addEventListener('wheel', (e) => {
       if (e.ctrlKey || e.metaKey) {
         e.preventDefault();
-        state.map.scrollWheelZoom.enable();
+        if (e.deltaY < 0) state.map.zoomIn();
+        else if (e.deltaY > 0) state.map.zoomOut();
+        hint.style.opacity = '0';
         clearTimeout(hintTimer);
-        hintTimer = setTimeout(() => state.map.scrollWheelZoom.disable(), 800);
       } else {
         hint.style.opacity = '1';
         clearTimeout(hintTimer);
