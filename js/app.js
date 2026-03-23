@@ -91,6 +91,7 @@ function renderLakeLinks() {
 
 function applyLakeBranding() {
   const name = state.lakeMeta?.name || 'Bodensee';
+  const lakeId = state.lakeId || 'bodensee';
 
   // Title + OG
   const title = `${name} Segler`;
@@ -104,6 +105,14 @@ function applyLakeBranding() {
   if (metaDesc) metaDesc.setAttribute('content', descTpl);
   const ogDesc = document.querySelector('meta[property="og:description"]');
   if (ogDesc) ogDesc.setAttribute('content', descTpl.replace('Interaktive Karte, Filter und Detailinfos.', ''));
+
+  // Hero image per lake
+  const hero = document.querySelector('.hero');
+  if (hero) {
+    const img = new Image();
+    img.src = `assets/hero-${lakeId}.jpg`;
+    img.onload = () => hero.style.setProperty('--hero-bg', `url('assets/hero-${lakeId}.jpg')`);
+  }
 
   // Logo already handled by selector, but keep it safe
   const logo = document.getElementById('lakeLogo');

@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "harbor_bootsvermietung_zug",
+    "name": "Harbor Bootsvermietung Zug",
+    "country": "CH",
+    "location": "Zug",
+    "lat": 47.1718,
+    "lng": 8.5125,
+    "fleetSize": 10,
+    "priceFrom": "auf Anfrage",
+    "features": [
+      "Motorboote",
+      "Pedalos",
+      "Ohne Führerschein möglich"
+    ],
+    "url": "https://www.bootsvermietungzug.com/",
+    "source": "https://www.bootsvermietungzug.com/",
+    "lastVerified": "2026-03-23",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null,
+    "phone": "+41 78 421 53 66",
+    "email": "info@bootsvermietungzug.ch",
+    "hours": "April–Oktober"
+  },
+  {
+    "id": "rentalboats_zugersee",
+    "name": "Rentalboats Zugersee",
+    "country": "CH",
+    "location": "Zug",
+    "lat": 47.170,
+    "lng": 8.515,
+    "fleetSize": 8,
+    "priceFrom": "ab CHF stundenweise",
+    "features": [
+      "Segelyachten",
+      "Motorboote",
+      "Events mit Skipper"
+    ],
+    "url": "https://rentalboats.jimdo.com/motorboote/mieten-zugersee/",
+    "source": "Rentalboats / Zug Tourismus",
+    "lastVerified": "2026-03-23",
+    "candidateUrl": null,
+    "candidateFoundAt": null,
+    "candidateSource": null,
+    "phone": "",
+    "email": "",
+    "hours": "Saison"
+  }
+]

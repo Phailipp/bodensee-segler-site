@@ -38,7 +38,7 @@ body {
   justify-content: center;
   background:
     linear-gradient(180deg, rgba(12,25,41,0.3) 0%, rgba(12,25,41,0.8) 100%),
-    url('../assets/hero-bodensee.jpg') center/cover;
+    var(--hero-bg, url('../assets/hero-bodensee.jpg')) center/cover;
 }
 
 .hero::before {
