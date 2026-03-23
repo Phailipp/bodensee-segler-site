@@ -36,12 +36,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image:
-    linear-gradient(180deg, rgba(12,25,41,0.3) 0%, rgba(12,25,41,0.8) 100%),
-    url('../assets/hero-bodensee.jpg');
-  background-position: center, center;
-  background-size: auto, cover;
-  background-repeat: no-repeat, no-repeat;
+  background-image: linear-gradient(180deg, rgba(12,25,41,0.3) 0%, rgba(12,25,41,0.8) 100%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero::before {
@@ -1207,25 +1205,10 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
     font-size: 0.78rem;
   }
 
+  /* On mobile, the regular menu is hidden — JS uses #lakeSelectorSheet instead */
   .lake-selector-menu {
-    position: fixed;
-    top: auto;
-    left: 12px;
-    right: 12px;
-    bottom: 12px;
-    min-width: auto;
-    max-height: 60vh;
-    overflow-y: auto;
-    border-radius: 16px;
-    padding: 10px;
+    display: none !important;
   }
-
-  .lake-selector-menu li {
-    padding: 15px 18px;
-    font-size: 0.95rem;
-  }
-
-  /* Backdrop handled by JS #lakeSelectorBackdrop */
 }
 
 .lake-selector-backdrop {
@@ -1233,10 +1216,69 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.5);
-  z-index: calc(var(--z-nav) - 1);
+  z-index: calc(var(--z-modal) - 2);
 }
 .lake-selector-backdrop.active {
   display: block;
+}
+
+/* Mobile bottom-sheet (portalled to body, outside nav) */
+.lake-selector-sheet {
+  display: none;
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  z-index: calc(var(--z-modal) - 1);
+  background: rgba(12,22,38,0.97);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(201,169,98,0.15);
+  border-radius: 16px;
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.55);
+  max-height: 60vh;
+  overflow-y: auto;
+  animation: lakeMenuIn 0.2s ease;
+}
+.lake-selector-sheet.active {
+  display: block;
+}
+.lake-selector-sheet li {
+  padding: 15px 18px;
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: rgba(255,255,255,0.75);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  line-height: 1.35;
+}
+.lake-selector-sheet li:hover,
+.lake-selector-sheet li:active {
+  background: rgba(201,169,98,0.14);
+  color: var(--gold-light);
+}
+.lake-selector-sheet li[aria-selected="true"] {
+  color: var(--gold);
+  font-weight: 500;
+  background: rgba(201,169,98,0.1);
+  position: relative;
+  padding-left: 22px;
+}
+.lake-selector-sheet li[aria-selected="true"]::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 14px;
+  background: var(--gold);
+  border-radius: 2px;
 }
 
 /* Modal footnote */
