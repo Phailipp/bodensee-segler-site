@@ -85,6 +85,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "cafe_hasler_bodman",
+    "name": "Café & Restaurant Hasler",
+    "country": "DE",
+    "location": "Bodman",
+    "lat": 47.8108,
+    "lng": 9.0423,
+    "price": "€€",
+    "features": [
+      "Café",
+      "Regionale Küche",
+      "Direkt am See"
+    ],
+    "url": "https://www.cafe-hasler.de/",
+    "source": "https://www.cafe-hasler.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "constanzer_wirtshaus",
     "name": "Constanzer Wirtshaus",
     "country": "DE",
@@ -271,6 +288,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "hafenmauer_ludwigshafen",
+    "name": "Hafenmauer 1826",
+    "country": "DE",
+    "location": "Ludwigshafen, Seepromenade",
+    "lat": 47.8131,
+    "lng": 9.0658,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Seeterrasse",
+      "Cocktails"
+    ],
+    "url": "https://www.hafenmauer-ludwigshafen.de/",
+    "source": "https://www.hafenmauer-ludwigshafen.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "hafenmeisterei_konstanz",
     "name": "Hafenmeisterei",
     "country": "DE",
@@ -318,6 +352,23 @@
     ],
     "url": "https://hausamsee-nonnenhorn.de/",
     "source": "https://hausamsee-nonnenhorn.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "heimathafen_gaienhofen",
+    "name": "Heimathafen Gaienhofen",
+    "country": "DE",
+    "location": "Gaienhofen, Uferanlage",
+    "lat": 47.6876,
+    "lng": 9.0009,
+    "price": "€€",
+    "features": [
+      "Bar",
+      "Cocktails",
+      "Direkt am See"
+    ],
+    "url": "https://heimathafen-gaienhofen.de/",
+    "source": "https://heimathafen-gaienhofen.de/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -423,6 +474,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "pavillon_am_see_rorschach",
+    "name": "Pavillon am See",
+    "country": "CH",
+    "location": "Rorschach, Seeufer",
+    "lat": 47.4774,
+    "lng": 9.4901,
+    "price": "CHF €€",
+    "features": [
+      "Schweizer Küche",
+      "Seeterrasse",
+      "Direkt am See"
+    ],
+    "url": "https://www.stadthof-rorschach.ch/",
+    "source": "https://www.stadthof-rorschach.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "pier69_bregenz",
     "name": "Pier 69",
     "country": "AT",
@@ -437,6 +505,23 @@
     ],
     "url": "https://www.pier69.at/",
     "source": "https://www.pier69.at/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "plaetzle_am_see_hemmenhofen",
+    "name": "Plätzle am See 2.0",
+    "country": "DE",
+    "location": "Hemmenhofen, Höri",
+    "lat": 47.6938,
+    "lng": 8.9889,
+    "price": "€",
+    "features": [
+      "Café/Bistro",
+      "Seeblick",
+      "Direkt am Ufer"
+    ],
+    "url": "https://www.splaetzleamsee.de/",
+    "source": "https://www.splaetzleamsee.de/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -491,6 +576,22 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "seegarten_arbon",
+    "name": "Restaurant Seegarten Arbon",
+    "country": "CH",
+    "location": "Arbon, Hafen",
+    "lat": 47.5163,
+    "lng": 9.4319,
+    "price": "CHF €€",
+    "features": [
+      "Fischgerichte",
+      "Seeterrasse"
+    ],
+    "url": "https://www.seegarten-arbon.ch/",
+    "source": "https://www.seegarten-arbon.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "seegarten_ermatingen",
     "name": "Restaurant Seegarten Ermatingen",
     "country": "CH",
@@ -538,6 +639,23 @@
     ],
     "url": "https://www.seehotel-zur-muenz.de/",
     "source": "https://www.seehotel-zur-muenz.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "seehoernle_gaienhofen",
+    "name": "Restaurant Seehörnle",
+    "country": "DE",
+    "location": "Gaienhofen-Horn, Höri",
+    "lat": 47.6926,
+    "lng": 8.9733,
+    "price": "€€",
+    "features": [
+      "Bio-Küche",
+      "Sonnenterrasse",
+      "Direkt am See"
+    ],
+    "url": "https://www.seehoernle.de/de/gastronomie",
+    "source": "https://www.seehoernle.de/de/gastronomie",
     "lastVerified": "2026-03-23"
   },
   {
