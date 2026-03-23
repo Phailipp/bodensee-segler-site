@@ -464,6 +464,22 @@ function applyScenarioPreset(key) {
 function initScenarioPresets() {
   const wrap = $('#scenarioButtons');
   if (!wrap) return;
+
+  // Hide scenario buttons that can't return results for the current lake
+  const hasHarbors = state.data.harbors.length > 0;
+  const hasAnchors = state.data.anchors.length > 0;
+  wrap.querySelectorAll('.scenario-btn[data-preset]').forEach(btn => {
+    const p = btn.dataset.preset;
+    if (p === 'clear') return; // always show
+    if ((p === 'eveningHarbor' || p === 'planBHarbor') && !hasHarbors) btn.style.display = 'none';
+    if (p === 'quietAnchor' && !hasAnchors) btn.style.display = 'none';
+  });
+
+  // Hide entire scenario section if no presets are visible
+  const visiblePresets = wrap.querySelectorAll('.scenario-btn[data-preset]:not([style*="display: none"]):not(.scenario-clear)');
+  const section = wrap.closest('.scenario-section');
+  if (section && visiblePresets.length === 0) section.style.display = 'none';
+
   wrap.addEventListener('click', (e) => {
     const btn = e.target?.closest?.('button[data-preset]');
     if (!btn) return;
@@ -1696,31 +1712,32 @@ async function main() {
   state.data.services = services;
   state.data.layers = layersCfg;
 
-  // Init
-  initNav();
-  initLakeSelector();
-  initModal();
-  setUpFilterBars();
-  initScenarioPresets();
-  loadLayerPrefs();
-  initMap();
-  initLegendToggles();
-  initZonesInfo();
-  initLocationLayer();
-  initShareSection();
-
-  // Language default
+  // Language + i18n FIRST (before UI init, so translations are always available)
   const urlLang = getUrlParam('lang');
   const pref = localStorage.getItem('bs_lang');
   const pick = (urlLang === 'en' || urlLang === 'de') ? urlLang : pref;
   const lang = (pick === 'en' || pick === 'de') ? pick : 'de';
-  state.i18n = await loadJSON(`./i18n/${lang}.json`);
-  // Make core copy lake-aware by swapping the lake name in i18n strings
+  state.i18n = await loadJSON(`./i18n/${lang}.json`).catch(() => ({}));
   const lakeName = state.lakeMeta?.name || 'Bodensee';
   if (lang === 'de') replaceAllStrings(state.i18n, 'Bodensee', lakeName);
   if (lang === 'en') replaceAllStrings(state.i18n, 'Lake Constance', lakeName);
   setLang(lang);
   applyLakeBranding();
+
+  // Init UI (each wrapped in try-catch so one failure doesn't break the rest)
+  const safeInit = (fn, name) => { try { fn(); } catch (e) { console.error(`${name} failed:`, e); } };
+  safeInit(initNav, 'initNav');
+  safeInit(initLakeSelector, 'initLakeSelector');
+  safeInit(initModal, 'initModal');
+  safeInit(setUpFilterBars, 'setUpFilterBars');
+  safeInit(initScenarioPresets, 'initScenarioPresets');
+  safeInit(loadLayerPrefs, 'loadLayerPrefs');
+  safeInit(initMap, 'initMap');
+  safeInit(initLegendToggles, 'initLegendToggles');
+  safeInit(initZonesInfo, 'initZonesInfo');
+  safeInit(initLocationLayer, 'initLocationLayer');
+  safeInit(initShareSection, 'initShareSection');
+
   renderLakeLinks();
   // Deep link open
   handleDeepLinkOpen();
@@ -1732,5 +1749,5 @@ async function main() {
 }
 
 main().catch(err => {
-  console.error(err);
+  console.error('App init failed:', err);
 });
