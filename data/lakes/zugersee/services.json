@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "kran_arth",
+    "name": "Kran Marina Arth",
+    "country": "CH",
+    "type": "crane",
+    "details": "7t-Kran · KIBAG Marina Arth",
+    "lat": 47.063,
+    "lng": 8.527,
+    "url": "https://www.kibagmarina.ch/de/standorte/marina_arth.html",
+    "source": "https://www.kibagmarina.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "slip_zug",
+    "name": "Slip Zug",
+    "country": "CH",
+    "type": "slip",
+    "details": "Sliprampe am Zuger Seeufer · Einwasserungsbewilligung erforderlich",
+    "lat": 47.168,
+    "lng": 8.517,
+    "url": "https://zg.ch/de/mobilitaet-reisen/schifffahrt/schiffszulassung",
+    "source": "https://zg.ch/de/mobilitaet-reisen/schifffahrt/",
+    "lastVerified": "2026-03-23"
+  }
+]
