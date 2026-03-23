@@ -17,6 +17,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "bad_horn_restaurant",
+    "name": "Bad Horn Hotel & Spa Restaurant",
+    "country": "CH",
+    "location": "Horn, Hafen",
+    "lat": 47.4891,
+    "lng": 9.4632,
+    "price": "CHF €€€",
+    "features": [
+      "Gourmet",
+      "Seeterrasse",
+      "Bootsanleger"
+    ],
+    "url": "https://www.badhorn.ch/",
+    "source": "https://www.badhorn.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "bangkok_am_see_fn",
     "name": "Bangkok am See",
     "country": "DE",
@@ -68,6 +85,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "constanzer_wirtshaus",
+    "name": "Constanzer Wirtshaus",
+    "country": "DE",
+    "location": "Konstanz, Seerhein",
+    "lat": 47.6647,
+    "lng": 9.1725,
+    "price": "€€",
+    "features": [
+      "Schwäbische Küche",
+      "Biergarten",
+      "Direkt am Rhein"
+    ],
+    "url": "https://www.constanzer-wirtshaus.de/",
+    "source": "https://www.constanzer-wirtshaus.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "da_salvatore_wasserburg",
     "name": "Da Salvatore",
     "country": "DE",
@@ -82,6 +116,23 @@
     ],
     "url": "https://dasalvatore-wasserburg.de/",
     "source": "https://dasalvatore-wasserburg.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "fischerhaus_kreuzlingen",
+    "name": "Fischerhaus",
+    "country": "CH",
+    "location": "Kreuzlingen, Seeufer",
+    "lat": 47.6505,
+    "lng": 9.1843,
+    "price": "CHF €€-€€€",
+    "features": [
+      "Fischgerichte",
+      "Biergarten",
+      "Direkt am See"
+    ],
+    "url": "https://fischerhaus.ch/",
+    "source": "https://fischerhaus.ch/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -200,6 +251,23 @@
     ],
     "url": "https://www.hafenhalle.com/",
     "source": "https://www.hafenhalle.com/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "hafenlounge_romanshorn",
+    "name": "Hafenlounge Romanshorn",
+    "country": "CH",
+    "location": "Romanshorn, Hafen",
+    "lat": 47.5655,
+    "lng": 9.3795,
+    "price": "CHF €€",
+    "features": [
+      "Strandbar",
+      "Cocktails",
+      "Hafenblick"
+    ],
+    "url": "https://www.moleromanshorn.ch/",
+    "source": "https://www.moleromanshorn.ch/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -405,6 +473,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "silo5_bottighofen",
+    "name": "SILO 5",
+    "country": "CH",
+    "location": "Bottighofen, Hafen",
+    "lat": 47.6442,
+    "lng": 9.2103,
+    "price": "CHF €€",
+    "features": [
+      "Burger",
+      "Saisonale Küche",
+      "Direkt am Hafen"
+    ],
+    "url": "http://www.silo5.ch/",
+    "source": "http://www.silo5.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "schlosshotel_wasserburg",
     "name": "SchlossHotel Wasserburg",
     "country": "DE",
@@ -523,6 +608,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "tinos_mole3_lindau",
+    "name": "Tino's Mole 3",
+    "country": "DE",
+    "location": "Lindau, Seglerhafen",
+    "lat": 47.5451,
+    "lng": 9.6841,
+    "price": "€€",
+    "features": [
+      "Mediterran",
+      "Fischgerichte",
+      "Direkt am Seglerhafen"
+    ],
+    "url": "https://tinos-mole3.de/",
+    "source": "https://tinos-mole3.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "tressbrueder_fn",
     "name": "TressBrüder Museumsrestaurant",
     "country": "DE",
@@ -553,6 +655,40 @@
     ],
     "url": "https://ufer39.de/",
     "source": "https://ufer39.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "werft1919_kressbronn",
+    "name": "Werft1919",
+    "country": "DE",
+    "location": "Kressbronn, Bodan-Werft",
+    "lat": 47.5875,
+    "lng": 9.5905,
+    "price": "€€",
+    "features": [
+      "Schwäbisches Soulfood",
+      "Seebühne",
+      "Direkt am See"
+    ],
+    "url": "https://werft1919.com/",
+    "source": "https://werft1919.com/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "wirtshaus_am_see_bregenz",
+    "name": "Wirtshaus am See",
+    "country": "AT",
+    "location": "Bregenz, Seepromenade",
+    "lat": 47.5037,
+    "lng": 9.7413,
+    "price": "€€",
+    "features": [
+      "Österreichisch",
+      "Seeterrasse",
+      "Direkt am See"
+    ],
+    "url": "https://www.wirtshausamsee.at/",
+    "source": "https://www.wirtshausamsee.at/",
     "lastVerified": "2026-03-23"
   },
   {
