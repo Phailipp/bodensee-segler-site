@@ -94,6 +94,10 @@ body {
 
 .hero-cta:hover { background: var(--gold); color: var(--navy); }
 
+.hero-compact { height: auto; min-height: 340px; padding: 100px 0 48px; }
+.hero-compact .hero-content { padding: 0 24px; }
+.hero-compact .scroll-indicator { display: none; }
+
 .scroll-indicator {
   position: absolute;
   bottom: 48px;
@@ -731,6 +735,7 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 
   /* Hero + map feel less "huge" on mobile */
   .hero { min-height: 560px; }
+  .hero-compact { min-height: 260px; padding: 80px 0 32px; }
   .hero p { margin-bottom: 22px; }
 
   .map-section { height: 70vh; min-height: 520px; }
