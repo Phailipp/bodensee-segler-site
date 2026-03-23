@@ -18,19 +18,19 @@
   },
   {
     "id": "ristorante_giardino_ascona",
-    "name": "Ristorante Giardino",
+    "name": "Ristorante Giardino Lago",
     "country": "CH",
-    "location": "Ascona, Lungolago",
-    "lat": 46.1546,
-    "lng": 8.7744,
+    "location": "Minusio/Locarno, Lungolago",
+    "lat": 46.178,
+    "lng": 8.807,
     "price": "CHF €€€",
     "features": [
       "Gourmet",
       "Seeterrasse",
       "Mediterran"
     ],
-    "url": "https://www.giardino.ch/",
-    "source": "https://www.giardino.ch/",
+    "url": "https://restaurant.giardino-lago.ch/en/",
+    "source": "https://restaurant.giardino-lago.ch/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -47,23 +47,6 @@
     ],
     "url": "https://www.grottobaldoria.ch/",
     "source": "https://www.grottobaldoria.ch/",
-    "lastVerified": "2026-03-23"
-  },
-  {
-    "id": "lungolago_locarno",
-    "name": "Ristorante Lungolago",
-    "country": "CH",
-    "location": "Locarno, Seepromenade",
-    "lat": 46.1644,
-    "lng": 8.7978,
-    "price": "CHF €€",
-    "features": [
-      "Italienisch",
-      "Seeterrasse",
-      "Seeblick"
-    ],
-    "url": "https://www.lungolago-locarno.ch/",
-    "source": "https://www.lungolago-locarno.ch/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -96,8 +79,8 @@
       "Direkt an der Marina",
       "Seeblick"
     ],
-    "url": "https://www.portobellocannero.it/",
-    "source": "https://www.portobellocannero.it/",
+    "url": "https://www.nauticabego.com/news/portobello-cannero/",
+    "source": "https://www.nauticabego.com/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -130,8 +113,8 @@
       "Inselrestaurant",
       "Panorama"
     ],
-    "url": "https://www.hotelverbano.it/",
-    "source": "https://www.hotelverbano.it/",
+    "url": "https://ilverbano.com/en/restaurant/",
+    "source": "https://ilverbano.com/",
     "lastVerified": "2026-03-23"
   },
   {
