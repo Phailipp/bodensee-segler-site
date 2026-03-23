@@ -36,9 +36,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background:
+  background-image:
     linear-gradient(180deg, rgba(12,25,41,0.3) 0%, rgba(12,25,41,0.8) 100%),
-    var(--hero-bg, url('../assets/hero-bodensee.jpg')) center/cover;
+    var(--hero-bg, url('../assets/hero-bodensee.jpg'));
+  background-position: center, center;
+  background-size: auto, cover;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .hero::before {
@@ -735,7 +738,8 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 
   /* Hero + map feel less "huge" on mobile */
   .hero { min-height: 560px; }
-  .hero-compact { min-height: 260px; padding: 80px 0 32px; }
+  .hero::before { height: 120px; }
+  .hero-compact { min-height: 300px; padding: 80px 0 32px; }
   .hero p { margin-bottom: 22px; }
 
   .map-section { height: 70vh; min-height: 520px; }
@@ -1204,14 +1208,30 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   }
 
   .lake-selector-menu {
-    min-width: 200px;
-    left: 0;
-    right: auto;
+    position: fixed;
+    top: auto;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    min-width: auto;
+    max-height: 60vh;
+    overflow-y: auto;
+    border-radius: 16px;
+    padding: 10px;
   }
 
   .lake-selector-menu li {
-    padding: 13px 18px;
-    font-size: 0.85rem;
+    padding: 15px 18px;
+    font-size: 0.95rem;
+  }
+
+  /* Backdrop when dropdown is open on mobile */
+  .lake-selector.open::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -1;
   }
 }
 
