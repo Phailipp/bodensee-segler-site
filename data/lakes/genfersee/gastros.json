@@ -84,7 +84,7 @@
   },
   {
     "id": "hotel_angleterre_lausanne",
-    "name": "Restaurant Le Léman",
+    "name": "L'Accademia (Hôtel Angleterre)",
     "country": "CH",
     "location": "Lausanne-Ouchy",
     "lat": 46.5068,
@@ -94,8 +94,8 @@
       "Französische Küche",
       "Seeterrasse"
     ],
-    "url": "https://www.angleterre-lausanne.ch/",
-    "source": "https://www.angleterre-lausanne.ch/",
+    "url": "https://www.hotelangleterre.ch/en/dining/laccademia/",
+    "source": "https://www.hotelangleterre.ch/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -127,25 +127,8 @@
       "Seeblick",
       "Mittelalterliches Dorf"
     ],
-    "url": "https://www.restaurant-du-port-yvoire.fr/",
-    "source": "https://www.restaurant-du-port-yvoire.fr/",
-    "lastVerified": "2026-03-23"
-  },
-  {
-    "id": "le_deck_montreux",
-    "name": "Le Deck",
-    "country": "CH",
-    "location": "Montreux, Ufer",
-    "lat": 46.4346,
-    "lng": 6.9107,
-    "price": "CHF €€€",
-    "features": [
-      "Gourmet",
-      "Seeterrasse",
-      "Direkt am See"
-    ],
-    "url": "https://www.fairmont.com/le-montreux-palace/dining/le-deck/",
-    "source": "https://www.fairmont.com/le-montreux-palace/",
+    "url": "https://hdpy.fr/en/restaurant.html",
+    "source": "https://hdpy.fr/en/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -166,7 +149,7 @@
   },
   {
     "id": "hotel_du_port_rolle",
-    "name": "Hôtel du Port Rolle",
+    "name": "Le Resto Rolle",
     "country": "CH",
     "location": "Rolle, Hafen",
     "lat": 46.4524,
@@ -177,8 +160,8 @@
       "Seeterrasse",
       "Am Hafen"
     ],
-    "url": "https://www.hotelduportrolle.ch/",
-    "source": "https://www.hotelduportrolle.ch/",
+    "url": "https://leresto-rolle.com/en/",
+    "source": "https://leresto-rolle.com/",
     "lastVerified": "2026-03-23"
   },
   {
