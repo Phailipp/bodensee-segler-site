@@ -153,6 +153,39 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "fischerheim_hard",
+    "name": "Fischerheim am Schleienloch",
+    "country": "AT",
+    "location": "Hard",
+    "lat": 47.4972,
+    "lng": 9.7062,
+    "price": "€€-€€€",
+    "features": [
+      "Fischspezialitäten",
+      "Direkt am See"
+    ],
+    "url": "https://www.fischerheim.at",
+    "source": "https://www.fischerheim.at",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "fischerstueble_fussach",
+    "name": "Fischerstüble",
+    "country": "AT",
+    "location": "Fussach, Hafen",
+    "lat": 47.4891,
+    "lng": 9.6397,
+    "price": "€€",
+    "features": [
+      "Fischgerichte",
+      "Mediterran",
+      "Direkt am Hafen"
+    ],
+    "url": "https://fischerstueble.at/",
+    "source": "https://www.bodensee-vorarlberg.com/en/fischerstueble",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "fischhaus_konstanz",
     "name": "Fischhaus am Fährhafen",
     "country": "DE",
@@ -559,6 +592,22 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "schwedenschanze_fussach",
+    "name": "Restaurant Schwedenschanze",
+    "country": "AT",
+    "location": "Fussach, Marina",
+    "lat": 47.4896,
+    "lng": 9.6395,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Direkt an der Marina"
+    ],
+    "url": "https://www.restaurant-schwedenschanze.at/",
+    "source": "https://www.restaurant-schwedenschanze.at/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "seegarten_allensbach",
     "name": "Restaurant Seegarten",
     "country": "DE",
@@ -609,6 +658,22 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "seegarten_radolfzell",
+    "name": "Restaurant Seegarten Radolfzell",
+    "country": "DE",
+    "location": "Radolfzell, Mettnau",
+    "lat": 47.7389,
+    "lng": 8.9579,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Seeterrasse"
+    ],
+    "url": "https://www.seegarten-radolfzell.de/",
+    "source": "https://www.seegarten-radolfzell.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "seehalde_birnau",
     "name": "Restaurant Seehalde",
     "country": "DE",
@@ -656,6 +721,22 @@
     ],
     "url": "https://www.seehoernle.de/de/gastronomie",
     "source": "https://www.seehoernle.de/de/gastronomie",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "strandbad_steckborn",
+    "name": "Restaurant Strandbad Steckborn",
+    "country": "CH",
+    "location": "Steckborn, Strandbad",
+    "lat": 47.6656,
+    "lng": 8.9812,
+    "price": "CHF €",
+    "features": [
+      "Strandbar",
+      "Direkt am See"
+    ],
+    "url": "https://www.strandbad-steckborn.ch/",
+    "source": "https://www.strandbad-steckborn.ch/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -777,6 +858,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "glashaus_hoechst",
+    "name": "Seerestaurant Glashaus",
+    "country": "AT",
+    "location": "Höchst, Rheindelta",
+    "lat": 47.4842,
+    "lng": 9.5923,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Seeterrasse",
+      "Seeblick"
+    ],
+    "url": "https://www.seerestaurant-glashaus.at/",
+    "source": "https://www.seerestaurant-glashaus.at/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "rheinspitz_altenrhein",
     "name": "Seerestaurant Rheinspitz",
     "country": "CH",
@@ -791,6 +889,23 @@
     ],
     "url": "https://www.rheinspitz.com/",
     "source": "https://www.rheinspitz.com/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "seerestaurant_rorschach",
+    "name": "Seerestaurant Rorschach",
+    "country": "CH",
+    "location": "Rorschach, Yachthafen",
+    "lat": 47.4776,
+    "lng": 9.4892,
+    "price": "CHF €€-€€€",
+    "features": [
+      "Fischgerichte",
+      "Panorama",
+      "Am Yachthafen"
+    ],
+    "url": "https://www.seerestaurantrorschach.ch/",
+    "source": "https://www.seerestaurantrorschach.ch/",
     "lastVerified": "2026-03-23"
   },
   {
