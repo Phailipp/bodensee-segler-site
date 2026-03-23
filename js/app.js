@@ -431,168 +431,146 @@ function syncFilterInputsFromState() {
   if (aminDepth) aminDepth.value = state.filtersAnchors.minDepth;
 }
 
-// Build scenario presets dynamically based on actual lake data
-function buildScenarioPresets() {
-  const presets = [];
-  const harbors = state.data.harbors;
-  const anchors = state.data.anchors;
-  const gastros = state.data.gastros;
-  const rentals = state.data.rentals;
+// Quick filter chips — Google Maps style category toggles
+const QF_COLORS = { harbors: 'var(--gold)', anchors: '#4ade80', gastros: '#fb923c', rentals: '#f472b6' };
 
-  const harborsWithGuests = harbors.filter(h => (h.guestBerths || 0) >= 1);
+function buildQuickFilters() {
+  const chips = [];
+  const d = state.data;
 
-  // 1) "Abend am See" — harbors with guest berths + gastro data exists
-  if (harborsWithGuests.length > 0 && gastros.length > 0) {
-    presets.push({
-      key: 'eveningSail',
-      label: t('scenario.eveningSail'),
-      filters: {
-        harbors: { q: '', country: 'ALL', minDraft: '', minGuestBerths: '1' },
-        anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
-      },
-      layers: { harbors: true, gastros: true, anchors: false, rentals: false },
-      scrollTo: '#haefen'
+  if (d.harbors.length > 0) {
+    const withGuests = d.harbors.filter(h => (h.guestBerths || 0) >= 1).length;
+    chips.push({
+      key: 'harbors', layer: 'harbors',
+      label: t('qf.harbors'), count: d.harbors.length,
+      color: QF_COLORS.harbors, scrollTo: '#haefen'
     });
-  }
-
-  // 2) "Großer Hafen" — dynamic threshold: top ~25% of guest berths
-  if (harborsWithGuests.length >= 3) {
-    const sorted = harborsWithGuests.map(h => h.guestBerths || 0).sort((a, b) => b - a);
-    const topIdx = Math.max(0, Math.floor(sorted.length * 0.25) - 1);
-    const threshold = sorted[topIdx] || sorted[0];
-    // Round to nice number
-    const niceThreshold = threshold >= 20 ? Math.floor(threshold / 10) * 10 : threshold >= 5 ? Math.floor(threshold / 5) * 5 : threshold;
-    const matching = harbors.filter(h => (h.guestBerths || 0) >= niceThreshold);
-    if (matching.length >= 2 && niceThreshold >= 2) {
-      presets.push({
-        key: 'bigHarbor',
-        label: t('scenario.bigHarbor').replace('{n}', niceThreshold),
-        filters: {
-          harbors: { q: '', country: 'ALL', minDraft: '', minGuestBerths: String(niceThreshold) },
-          anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
-        },
-        layers: { harbors: true, anchors: false, gastros: false, rentals: false },
-        scrollTo: '#haefen'
+    // "Gastplätze" — only harbors with guest berths, as a sub-filter
+    if (withGuests >= 3) {
+      chips.push({
+        key: 'guestBerths', layer: 'harbors',
+        label: t('qf.guestBerths'),
+        count: withGuests,
+        color: QF_COLORS.harbors, scrollTo: '#haefen',
+        filter: { harbors: { minGuestBerths: '1' } }
       });
     }
   }
 
-  // 3) "Ruhig ankern" — only if anchor data with overnight=false exists
-  const dayAnchors = anchors.filter(a => !a.overnight);
-  if (dayAnchors.length >= 1) {
-    presets.push({
-      key: 'quietAnchor',
-      label: t('scenario.quietAnchor'),
-      filters: {
-        harbors: { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' },
-        anchors: { q: '', country: 'ALL', overnight: 'NO', minDepth: '' }
-      },
-      layers: { harbors: false, anchors: true, gastros: false, rentals: false },
-      scrollTo: '#anker'
+  if (d.anchors.length > 0) {
+    chips.push({
+      key: 'anchors', layer: 'anchors',
+      label: t('qf.anchors'), count: d.anchors.length,
+      color: QF_COLORS.anchors, scrollTo: '#anker'
     });
   }
 
-  // 4) "Essen am Wasser" — when plenty of gastro data, even without harbor data
-  if (gastros.length >= 5) {
-    presets.push({
-      key: 'waterDining',
-      label: t('scenario.waterDining'),
-      filters: {
-        harbors: { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' },
-        anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
-      },
-      layers: { harbors: false, anchors: false, gastros: true, rentals: false },
-      scrollTo: '#gastro'
+  if (d.gastros.length > 0) {
+    chips.push({
+      key: 'gastros', layer: 'gastros',
+      label: t('qf.gastros'), count: d.gastros.length,
+      color: QF_COLORS.gastros, scrollTo: '#gastro'
     });
   }
 
-  // 5) "Boot mieten" — when rental data exists
-  if (rentals.length >= 2) {
-    presets.push({
-      key: 'boatRental',
-      label: t('scenario.boatRental'),
-      filters: {
-        harbors: { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' },
-        anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
-      },
-      layers: { harbors: false, anchors: false, gastros: false, rentals: true },
-      scrollTo: '#vermietung'
+  if (d.rentals.length > 0) {
+    chips.push({
+      key: 'rentals', layer: 'rentals',
+      label: t('qf.rentals'), count: d.rentals.length,
+      color: QF_COLORS.rentals, scrollTo: '#vermietung'
     });
   }
 
-  return presets;
+  return chips;
 }
 
 function setActivePreset(key) {
+  // Legacy compat — called from filter bars to clear active state
   state.activePreset = key;
-  $$('#scenarioButtons .scenario-btn').forEach(btn => {
-    const isActive = key && btn.dataset.preset === key;
+  syncQuickFilterUI();
+}
+
+function syncQuickFilterUI() {
+  $$('#quickFilters .qf-chip').forEach(btn => {
+    const key = btn.dataset.qf;
+    const chip = state._quickFilters?.find(c => c.key === key);
+    if (!chip) return;
+    const isActive = key === state.activePreset;
     btn.classList.toggle('active', isActive);
     btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
   });
 }
 
-function applyScenarioPreset(key) {
-  if (key === 'clear') {
+function applyQuickFilter(key) {
+  const chip = state._quickFilters?.find(c => c.key === key);
+  if (!chip) return;
+
+  // Toggle: clicking same chip again deactivates
+  if (state.activePreset === key) {
     state.filtersHarbors = { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' };
     state.filtersAnchors = { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' };
-    // Reset map layers to default (all visible)
     state.mapLayers.harbors = true;
     state.mapLayers.anchors = true;
     state.mapLayers.gastros = true;
     state.mapLayers.rentals = true;
-    setActivePreset(null);
+    state.activePreset = null;
+    syncQuickFilterUI();
     syncFilterInputsFromState();
     renderAll();
     return;
   }
 
-  const preset = state._scenarioPresets?.find(p => p.key === key);
-  if (!preset) return;
+  // Reset filters first
+  state.filtersHarbors = { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' };
+  state.filtersAnchors = { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' };
 
-  state.filtersHarbors = { ...state.filtersHarbors, ...preset.filters.harbors };
-  state.filtersAnchors = { ...state.filtersAnchors, ...preset.filters.anchors };
-
-  // Focus map layers on what matters for this scenario
-  if (preset.layers) {
-    state.mapLayers.harbors = preset.layers.harbors;
-    state.mapLayers.anchors = preset.layers.anchors;
-    state.mapLayers.gastros = preset.layers.gastros;
-    state.mapLayers.rentals = preset.layers.rentals;
+  // Apply chip-specific filter if any
+  if (chip.filter?.harbors) {
+    Object.assign(state.filtersHarbors, chip.filter.harbors);
+  }
+  if (chip.filter?.anchors) {
+    Object.assign(state.filtersAnchors, chip.filter.anchors);
   }
 
-  setActivePreset(key);
+  // Focus map on the relevant layer
+  state.mapLayers.harbors = chip.layer === 'harbors';
+  state.mapLayers.anchors = chip.layer === 'anchors';
+  state.mapLayers.gastros = chip.layer === 'gastros';
+  state.mapLayers.rentals = chip.layer === 'rentals';
+
+  state.activePreset = key;
+  syncQuickFilterUI();
   syncFilterInputsFromState();
   renderAll();
 
-  const target = $(preset.scrollTo);
+  const target = $(chip.scrollTo);
   if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-function initScenarioPresets() {
-  const wrap = $('#scenarioButtons');
+function initQuickFilters() {
+  const wrap = $('#quickFilters');
   if (!wrap) return;
 
-  const presets = buildScenarioPresets();
-  state._scenarioPresets = presets;
+  const chips = buildQuickFilters();
+  state._quickFilters = chips;
 
-  if (presets.length === 0) {
-    const section = wrap.closest('.scenario-section');
-    if (section) section.style.display = 'none';
+  if (chips.length === 0) {
+    wrap.style.display = 'none';
     return;
   }
 
-  // Generate buttons dynamically
-  let html = presets.map(p =>
-    `<button class="scenario-btn" data-preset="${p.key}" aria-pressed="false">${escapeHtml(p.label)}</button>`
+  wrap.innerHTML = chips.map(c =>
+    `<button class="qf-chip" data-qf="${c.key}" aria-pressed="false">` +
+      `<span class="qf-dot" style="background:${c.color}"></span>` +
+      `${escapeHtml(c.label)}` +
+      `<span class="qf-count">${c.count}</span>` +
+    `</button>`
   ).join('');
-  html += `<button class="scenario-btn scenario-clear" data-preset="clear" aria-pressed="false">${escapeHtml(t('scenario.clear'))}</button>`;
-  wrap.innerHTML = html;
 
   wrap.addEventListener('click', (e) => {
-    const btn = e.target?.closest?.('button[data-preset]');
+    const btn = e.target?.closest?.('.qf-chip[data-qf]');
     if (!btn) return;
-    applyScenarioPreset(btn.dataset.preset);
+    applyQuickFilter(btn.dataset.qf);
   });
 }
 
@@ -1838,7 +1816,7 @@ async function main() {
   safeInit(initLakeSelector, 'initLakeSelector');
   safeInit(initModal, 'initModal');
   safeInit(setUpFilterBars, 'setUpFilterBars');
-  safeInit(initScenarioPresets, 'initScenarioPresets');
+  safeInit(initQuickFilters, 'initQuickFilters');
   safeInit(loadLayerPrefs, 'loadLayerPrefs');
   safeInit(initMap, 'initMap');
   safeInit(initLegendToggles, 'initLegendToggles');
