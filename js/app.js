@@ -431,22 +431,97 @@ function syncFilterInputsFromState() {
   if (aminDepth) aminDepth.value = state.filtersAnchors.minDepth;
 }
 
-const scenarioPresets = {
-  // What other apps do well: pick a concrete decision moment.
-  // We only use fields we actually have today.
-  eveningHarbor: {
-    harbors: { q: 'Restaurant', country: 'ALL', minDraft: '', minGuestBerths: '1' },
-    anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
-  },
-  planBHarbor: {
-    harbors: { q: '', country: 'ALL', minDraft: '1.8', minGuestBerths: '20' },
-    anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
-  },
-  quietAnchor: {
-    harbors: { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' },
-    anchors: { q: '', country: 'ALL', overnight: 'NO', minDepth: '3.0' }
+// Build scenario presets dynamically based on actual lake data
+function buildScenarioPresets() {
+  const presets = [];
+  const harbors = state.data.harbors;
+  const anchors = state.data.anchors;
+  const gastros = state.data.gastros;
+  const rentals = state.data.rentals;
+
+  const harborsWithGuests = harbors.filter(h => (h.guestBerths || 0) >= 1);
+
+  // 1) "Abend am See" — harbors with guest berths + gastro data exists
+  if (harborsWithGuests.length > 0 && gastros.length > 0) {
+    presets.push({
+      key: 'eveningSail',
+      label: t('scenario.eveningSail'),
+      filters: {
+        harbors: { q: '', country: 'ALL', minDraft: '', minGuestBerths: '1' },
+        anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
+      },
+      layers: { harbors: true, gastros: true, anchors: false, rentals: false },
+      scrollTo: '#haefen'
+    });
   }
-};
+
+  // 2) "Großer Hafen" — dynamic threshold: top ~25% of guest berths
+  if (harborsWithGuests.length >= 3) {
+    const sorted = harborsWithGuests.map(h => h.guestBerths || 0).sort((a, b) => b - a);
+    const topIdx = Math.max(0, Math.floor(sorted.length * 0.25) - 1);
+    const threshold = sorted[topIdx] || sorted[0];
+    // Round to nice number
+    const niceThreshold = threshold >= 20 ? Math.floor(threshold / 10) * 10 : threshold >= 5 ? Math.floor(threshold / 5) * 5 : threshold;
+    const matching = harbors.filter(h => (h.guestBerths || 0) >= niceThreshold);
+    if (matching.length >= 2 && niceThreshold >= 2) {
+      presets.push({
+        key: 'bigHarbor',
+        label: t('scenario.bigHarbor').replace('{n}', niceThreshold),
+        filters: {
+          harbors: { q: '', country: 'ALL', minDraft: '', minGuestBerths: String(niceThreshold) },
+          anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
+        },
+        layers: { harbors: true, anchors: false, gastros: false, rentals: false },
+        scrollTo: '#haefen'
+      });
+    }
+  }
+
+  // 3) "Ruhig ankern" — only if anchor data with overnight=false exists
+  const dayAnchors = anchors.filter(a => !a.overnight);
+  if (dayAnchors.length >= 1) {
+    presets.push({
+      key: 'quietAnchor',
+      label: t('scenario.quietAnchor'),
+      filters: {
+        harbors: { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' },
+        anchors: { q: '', country: 'ALL', overnight: 'NO', minDepth: '' }
+      },
+      layers: { harbors: false, anchors: true, gastros: false, rentals: false },
+      scrollTo: '#anker'
+    });
+  }
+
+  // 4) "Essen am Wasser" — when plenty of gastro data, even without harbor data
+  if (gastros.length >= 5) {
+    presets.push({
+      key: 'waterDining',
+      label: t('scenario.waterDining'),
+      filters: {
+        harbors: { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' },
+        anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
+      },
+      layers: { harbors: false, anchors: false, gastros: true, rentals: false },
+      scrollTo: '#gastro'
+    });
+  }
+
+  // 5) "Boot mieten" — when rental data exists
+  if (rentals.length >= 2) {
+    presets.push({
+      key: 'boatRental',
+      label: t('scenario.boatRental'),
+      filters: {
+        harbors: { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' },
+        anchors: { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' }
+      },
+      layers: { harbors: false, anchors: false, gastros: false, rentals: true },
+      scrollTo: '#vermietung'
+    });
+  }
+
+  return presets;
+}
 
 function setActivePreset(key) {
   state.activePreset = key;
@@ -461,44 +536,58 @@ function applyScenarioPreset(key) {
   if (key === 'clear') {
     state.filtersHarbors = { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' };
     state.filtersAnchors = { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' };
+    // Reset map layers to default (all visible)
+    state.mapLayers.harbors = true;
+    state.mapLayers.anchors = true;
+    state.mapLayers.gastros = true;
+    state.mapLayers.rentals = true;
     setActivePreset(null);
     syncFilterInputsFromState();
     renderAll();
     return;
   }
 
-  const preset = scenarioPresets[key];
+  const preset = state._scenarioPresets?.find(p => p.key === key);
   if (!preset) return;
 
-  state.filtersHarbors = { ...state.filtersHarbors, ...preset.harbors };
-  state.filtersAnchors = { ...state.filtersAnchors, ...preset.anchors };
+  state.filtersHarbors = { ...state.filtersHarbors, ...preset.filters.harbors };
+  state.filtersAnchors = { ...state.filtersAnchors, ...preset.filters.anchors };
+
+  // Focus map layers on what matters for this scenario
+  if (preset.layers) {
+    state.mapLayers.harbors = preset.layers.harbors;
+    state.mapLayers.anchors = preset.layers.anchors;
+    state.mapLayers.gastros = preset.layers.gastros;
+    state.mapLayers.rentals = preset.layers.rentals;
+  }
 
   setActivePreset(key);
   syncFilterInputsFromState();
   renderAll();
 
-  const harborsSection = $('#haefen');
-  if (harborsSection) harborsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const target = $(preset.scrollTo);
+  if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function initScenarioPresets() {
   const wrap = $('#scenarioButtons');
   if (!wrap) return;
 
-  // Hide scenario buttons that can't return results for the current lake
-  const hasHarbors = state.data.harbors.length > 0;
-  const hasAnchors = state.data.anchors.length > 0;
-  wrap.querySelectorAll('.scenario-btn[data-preset]').forEach(btn => {
-    const p = btn.dataset.preset;
-    if (p === 'clear') return; // always show
-    if ((p === 'eveningHarbor' || p === 'planBHarbor') && !hasHarbors) btn.style.display = 'none';
-    if (p === 'quietAnchor' && !hasAnchors) btn.style.display = 'none';
-  });
+  const presets = buildScenarioPresets();
+  state._scenarioPresets = presets;
 
-  // Hide entire scenario section if no presets are visible
-  const visiblePresets = wrap.querySelectorAll('.scenario-btn[data-preset]:not([style*="display: none"]):not(.scenario-clear)');
-  const section = wrap.closest('.scenario-section');
-  if (section && visiblePresets.length === 0) section.style.display = 'none';
+  if (presets.length === 0) {
+    const section = wrap.closest('.scenario-section');
+    if (section) section.style.display = 'none';
+    return;
+  }
+
+  // Generate buttons dynamically
+  let html = presets.map(p =>
+    `<button class="scenario-btn" data-preset="${p.key}" aria-pressed="false">${escapeHtml(p.label)}</button>`
+  ).join('');
+  html += `<button class="scenario-btn scenario-clear" data-preset="clear" aria-pressed="false">${escapeHtml(t('scenario.clear'))}</button>`;
+  wrap.innerHTML = html;
 
   wrap.addEventListener('click', (e) => {
     const btn = e.target?.closest?.('button[data-preset]');
