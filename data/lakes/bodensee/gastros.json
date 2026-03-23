@@ -17,6 +17,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "bad_horn_restaurant",
+    "name": "Bad Horn Hotel & Spa Restaurant",
+    "country": "CH",
+    "location": "Horn, Hafen",
+    "lat": 47.4891,
+    "lng": 9.4632,
+    "price": "CHF €€€",
+    "features": [
+      "Gourmet",
+      "Seeterrasse",
+      "Bootsanleger"
+    ],
+    "url": "https://www.badhorn.ch/",
+    "source": "https://www.badhorn.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "bangkok_am_see_fn",
     "name": "Bangkok am See",
     "country": "DE",
@@ -68,6 +85,40 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "cafe_hasler_bodman",
+    "name": "Café & Restaurant Hasler",
+    "country": "DE",
+    "location": "Bodman",
+    "lat": 47.8108,
+    "lng": 9.0423,
+    "price": "€€",
+    "features": [
+      "Café",
+      "Regionale Küche",
+      "Direkt am See"
+    ],
+    "url": "https://www.cafe-hasler.de/",
+    "source": "https://www.cafe-hasler.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "constanzer_wirtshaus",
+    "name": "Constanzer Wirtshaus",
+    "country": "DE",
+    "location": "Konstanz, Seerhein",
+    "lat": 47.6647,
+    "lng": 9.1725,
+    "price": "€€",
+    "features": [
+      "Schwäbische Küche",
+      "Biergarten",
+      "Direkt am Rhein"
+    ],
+    "url": "https://www.constanzer-wirtshaus.de/",
+    "source": "https://www.constanzer-wirtshaus.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "da_salvatore_wasserburg",
     "name": "Da Salvatore",
     "country": "DE",
@@ -82,6 +133,56 @@
     ],
     "url": "https://dasalvatore-wasserburg.de/",
     "source": "https://dasalvatore-wasserburg.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "fischerhaus_kreuzlingen",
+    "name": "Fischerhaus",
+    "country": "CH",
+    "location": "Kreuzlingen, Seeufer",
+    "lat": 47.6505,
+    "lng": 9.1843,
+    "price": "CHF €€-€€€",
+    "features": [
+      "Fischgerichte",
+      "Biergarten",
+      "Direkt am See"
+    ],
+    "url": "https://fischerhaus.ch/",
+    "source": "https://fischerhaus.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "fischerheim_hard",
+    "name": "Fischerheim am Schleienloch",
+    "country": "AT",
+    "location": "Hard",
+    "lat": 47.4972,
+    "lng": 9.7062,
+    "price": "€€-€€€",
+    "features": [
+      "Fischspezialitäten",
+      "Direkt am See"
+    ],
+    "url": "https://www.fischerheim.at",
+    "source": "https://www.fischerheim.at",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "fischerstueble_fussach",
+    "name": "Fischerstüble",
+    "country": "AT",
+    "location": "Fussach, Hafen",
+    "lat": 47.4891,
+    "lng": 9.6397,
+    "price": "€€",
+    "features": [
+      "Fischgerichte",
+      "Mediterran",
+      "Direkt am Hafen"
+    ],
+    "url": "https://fischerstueble.at/",
+    "source": "https://www.bodensee-vorarlberg.com/en/fischerstueble",
     "lastVerified": "2026-03-23"
   },
   {
@@ -203,6 +304,40 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "hafenlounge_romanshorn",
+    "name": "Hafenlounge Romanshorn",
+    "country": "CH",
+    "location": "Romanshorn, Hafen",
+    "lat": 47.5655,
+    "lng": 9.3795,
+    "price": "CHF €€",
+    "features": [
+      "Strandbar",
+      "Cocktails",
+      "Hafenblick"
+    ],
+    "url": "https://www.moleromanshorn.ch/",
+    "source": "https://www.moleromanshorn.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "hafenmauer_ludwigshafen",
+    "name": "Hafenmauer 1826",
+    "country": "DE",
+    "location": "Ludwigshafen, Seepromenade",
+    "lat": 47.8131,
+    "lng": 9.0658,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Seeterrasse",
+      "Cocktails"
+    ],
+    "url": "https://www.hafenmauer-ludwigshafen.de/",
+    "source": "https://www.hafenmauer-ludwigshafen.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "hafenmeisterei_konstanz",
     "name": "Hafenmeisterei",
     "country": "DE",
@@ -236,6 +371,40 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "haus_am_see_nonnenhorn",
+    "name": "Haus am See",
+    "country": "DE",
+    "location": "Nonnenhorn",
+    "lat": 47.5734,
+    "lng": 9.6115,
+    "price": "€€€",
+    "features": [
+      "Gourmet",
+      "Regionale Küche",
+      "Direkt am See"
+    ],
+    "url": "https://hausamsee-nonnenhorn.de/",
+    "source": "https://hausamsee-nonnenhorn.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "heimathafen_gaienhofen",
+    "name": "Heimathafen Gaienhofen",
+    "country": "DE",
+    "location": "Gaienhofen, Uferanlage",
+    "lat": 47.6876,
+    "lng": 9.0009,
+    "price": "€€",
+    "features": [
+      "Bar",
+      "Cocktails",
+      "Direkt am See"
+    ],
+    "url": "https://heimathafen-gaienhofen.de/",
+    "source": "https://heimathafen-gaienhofen.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "heinzler_immenstaad",
     "name": "Heinzler am See",
     "country": "DE",
@@ -250,6 +419,23 @@
     ],
     "url": "https://www.heinzleramsee.de/de/home",
     "source": "https://www.heinzleramsee.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "keller_werft_ueberlingen",
+    "name": "Keller-Werft",
+    "country": "DE",
+    "location": "Überlingen, Ufer",
+    "lat": 47.7667,
+    "lng": 9.1712,
+    "price": "€€-€€€",
+    "features": [
+      "Italienisch",
+      "Seeterrasse",
+      "Direkt am Ufer"
+    ],
+    "url": "https://keller-werft.de/gastronomie/",
+    "source": "https://keller-werft.de/gastronomie/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -321,6 +507,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "pavillon_am_see_rorschach",
+    "name": "Pavillon am See",
+    "country": "CH",
+    "location": "Rorschach, Seeufer",
+    "lat": 47.4774,
+    "lng": 9.4901,
+    "price": "CHF €€",
+    "features": [
+      "Schweizer Küche",
+      "Seeterrasse",
+      "Direkt am See"
+    ],
+    "url": "https://www.stadthof-rorschach.ch/",
+    "source": "https://www.stadthof-rorschach.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "pier69_bregenz",
     "name": "Pier 69",
     "country": "AT",
@@ -335,6 +538,40 @@
     ],
     "url": "https://www.pier69.at/",
     "source": "https://www.pier69.at/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "plaetzle_am_see_hemmenhofen",
+    "name": "Plätzle am See 2.0",
+    "country": "DE",
+    "location": "Hemmenhofen, Höri",
+    "lat": 47.6938,
+    "lng": 8.9889,
+    "price": "€",
+    "features": [
+      "Café/Bistro",
+      "Seeblick",
+      "Direkt am Ufer"
+    ],
+    "url": "https://www.splaetzleamsee.de/",
+    "source": "https://www.splaetzleamsee.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "alte_faehre_lochau",
+    "name": "Restaurant Alte Fähre",
+    "country": "AT",
+    "location": "Lochau, Hafen",
+    "lat": 47.5293,
+    "lng": 9.7412,
+    "price": "€€",
+    "features": [
+      "Österreichisch",
+      "Sonnenterrasse",
+      "Direkt am Hafen"
+    ],
+    "url": "https://www.alte-faehre-lochau.at/",
+    "source": "https://www.alte-faehre-lochau.at/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -355,6 +592,22 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "schwedenschanze_fussach",
+    "name": "Restaurant Schwedenschanze",
+    "country": "AT",
+    "location": "Fussach, Marina",
+    "lat": 47.4896,
+    "lng": 9.6395,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Direkt an der Marina"
+    ],
+    "url": "https://www.restaurant-schwedenschanze.at/",
+    "source": "https://www.restaurant-schwedenschanze.at/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "seegarten_allensbach",
     "name": "Restaurant Seegarten",
     "country": "DE",
@@ -369,6 +622,55 @@
     ],
     "url": "https://www.seegarten-restaurant.de/",
     "source": "https://www.seegarten-restaurant.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "seegarten_arbon",
+    "name": "Restaurant Seegarten Arbon",
+    "country": "CH",
+    "location": "Arbon, Hafen",
+    "lat": 47.5163,
+    "lng": 9.4319,
+    "price": "CHF €€",
+    "features": [
+      "Fischgerichte",
+      "Seeterrasse"
+    ],
+    "url": "https://www.seegarten-arbon.ch/",
+    "source": "https://www.seegarten-arbon.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "seegarten_ermatingen",
+    "name": "Restaurant Seegarten Ermatingen",
+    "country": "CH",
+    "location": "Ermatingen, Untersee",
+    "lat": 47.669,
+    "lng": 9.085,
+    "price": "CHF €€",
+    "features": [
+      "Fischgerichte",
+      "Seegärtli",
+      "Direkt am See"
+    ],
+    "url": "https://www.seegarten-ermatingen.ch",
+    "source": "https://www.seegarten-ermatingen.ch",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "seegarten_radolfzell",
+    "name": "Restaurant Seegarten Radolfzell",
+    "country": "DE",
+    "location": "Radolfzell, Mettnau",
+    "lat": 47.7389,
+    "lng": 8.9579,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Seeterrasse"
+    ],
+    "url": "https://www.seegarten-radolfzell.de/",
+    "source": "https://www.seegarten-radolfzell.de/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -405,6 +707,73 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "seehoernle_gaienhofen",
+    "name": "Restaurant Seehörnle",
+    "country": "DE",
+    "location": "Gaienhofen-Horn, Höri",
+    "lat": 47.6926,
+    "lng": 8.9733,
+    "price": "€€",
+    "features": [
+      "Bio-Küche",
+      "Sonnenterrasse",
+      "Direkt am See"
+    ],
+    "url": "https://www.seehoernle.de/de/gastronomie",
+    "source": "https://www.seehoernle.de/de/gastronomie",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "strandbad_steckborn",
+    "name": "Restaurant Strandbad Steckborn",
+    "country": "CH",
+    "location": "Steckborn, Strandbad",
+    "lat": 47.6656,
+    "lng": 8.9812,
+    "price": "CHF €",
+    "features": [
+      "Strandbar",
+      "Direkt am See"
+    ],
+    "url": "https://www.strandbad-steckborn.ch/",
+    "source": "https://www.strandbad-steckborn.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "silo5_bottighofen",
+    "name": "SILO 5",
+    "country": "CH",
+    "location": "Bottighofen, Hafen",
+    "lat": 47.6442,
+    "lng": 9.2103,
+    "price": "CHF €€",
+    "features": [
+      "Burger",
+      "Saisonale Küche",
+      "Direkt am Hafen"
+    ],
+    "url": "http://www.silo5.ch/",
+    "source": "http://www.silo5.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "schloss_montfort_langenargen",
+    "name": "Schloss Montfort",
+    "country": "DE",
+    "location": "Langenargen, Halbinsel",
+    "lat": 47.5979,
+    "lng": 9.5349,
+    "price": "€€-€€€",
+    "features": [
+      "Gehobene Küche",
+      "Seeterrasse",
+      "Historisches Schloss"
+    ],
+    "url": "https://www.schloss-montfort.de/",
+    "source": "https://www.schloss-montfort.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "schlosshotel_wasserburg",
     "name": "SchlossHotel Wasserburg",
     "country": "DE",
@@ -418,6 +787,40 @@
     ],
     "url": "https://www.schloss-hotel-wasserburg.de/",
     "source": "https://www.schloss-hotel-wasserburg.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "schuppen13_langenargen",
+    "name": "Schuppen 13",
+    "country": "DE",
+    "location": "Langenargen, Yachthafen",
+    "lat": 47.5893,
+    "lng": 9.553,
+    "price": "€€€",
+    "features": [
+      "Mediterran",
+      "Fischgerichte",
+      "Am Yachthafen"
+    ],
+    "url": "https://www.schuppen13.de/",
+    "source": "https://www.schuppen13.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "feldbach_steckborn",
+    "name": "See & Park Hotel Feldbach Restaurant",
+    "country": "CH",
+    "location": "Steckborn, Hafen",
+    "lat": 47.6648,
+    "lng": 8.9767,
+    "price": "CHF €€-€€€",
+    "features": [
+      "Gehobene Küche",
+      "Seeterrasse",
+      "Historisches Kloster"
+    ],
+    "url": "https://hotel-feldbach.ch/",
+    "source": "https://hotel-feldbach.ch/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -455,6 +858,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "glashaus_hoechst",
+    "name": "Seerestaurant Glashaus",
+    "country": "AT",
+    "location": "Höchst, Rheindelta",
+    "lat": 47.4842,
+    "lng": 9.5923,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Seeterrasse",
+      "Seeblick"
+    ],
+    "url": "https://www.seerestaurant-glashaus.at/",
+    "source": "https://www.seerestaurant-glashaus.at/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "rheinspitz_altenrhein",
     "name": "Seerestaurant Rheinspitz",
     "country": "CH",
@@ -469,6 +889,23 @@
     ],
     "url": "https://www.rheinspitz.com/",
     "source": "https://www.rheinspitz.com/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "seerestaurant_rorschach",
+    "name": "Seerestaurant Rorschach",
+    "country": "CH",
+    "location": "Rorschach, Yachthafen",
+    "lat": 47.4776,
+    "lng": 9.4892,
+    "price": "CHF €€-€€€",
+    "features": [
+      "Fischgerichte",
+      "Panorama",
+      "Am Yachthafen"
+    ],
+    "url": "https://www.seerestaurantrorschach.ch/",
+    "source": "https://www.seerestaurantrorschach.ch/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -523,6 +960,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "tinos_mole3_lindau",
+    "name": "Tino's Mole 3",
+    "country": "DE",
+    "location": "Lindau, Seglerhafen",
+    "lat": 47.5451,
+    "lng": 9.6841,
+    "price": "€€",
+    "features": [
+      "Mediterran",
+      "Fischgerichte",
+      "Direkt am Seglerhafen"
+    ],
+    "url": "https://tinos-mole3.de/",
+    "source": "https://tinos-mole3.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "tressbrueder_fn",
     "name": "TressBrüder Museumsrestaurant",
     "country": "DE",
@@ -556,6 +1010,74 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "uferpark57_ueberlingen",
+    "name": "Uferpark 57",
+    "country": "DE",
+    "location": "Überlingen, Uferpark",
+    "lat": 47.7635,
+    "lng": 9.1665,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Panoramafenster",
+      "Seeblick"
+    ],
+    "url": "https://www.uferpark57.de/",
+    "source": "https://www.uferpark57.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "vinogreth_ueberlingen",
+    "name": "Vinogreth",
+    "country": "DE",
+    "location": "Überlingen, Hafen",
+    "lat": 47.7681,
+    "lng": 9.1625,
+    "price": "€€",
+    "features": [
+      "Tapas",
+      "Dinnele",
+      "Hafenterrasse"
+    ],
+    "url": "https://www.bodensee.de/erleben/restaurants-bodensee/vinogreth",
+    "source": "https://www.bodensee.de/erleben/restaurants-bodensee/vinogreth",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "werft1919_kressbronn",
+    "name": "Werft1919",
+    "country": "DE",
+    "location": "Kressbronn, Bodan-Werft",
+    "lat": 47.5875,
+    "lng": 9.5905,
+    "price": "€€",
+    "features": [
+      "Schwäbisches Soulfood",
+      "Seebühne",
+      "Direkt am See"
+    ],
+    "url": "https://werft1919.com/",
+    "source": "https://werft1919.com/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "wirtshaus_am_see_bregenz",
+    "name": "Wirtshaus am See",
+    "country": "AT",
+    "location": "Bregenz, Seepromenade",
+    "lat": 47.5037,
+    "lng": 9.7413,
+    "price": "€€",
+    "features": [
+      "Österreichisch",
+      "Seeterrasse",
+      "Direkt am See"
+    ],
+    "url": "https://www.wirtshausamsee.at/",
+    "source": "https://www.wirtshausamsee.at/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "winzerstube",
     "name": "Wirtshaus zur Winzerstube",
     "country": "DE",
@@ -577,6 +1099,23 @@
     "candidateSource": null,
     "phone": "",
     "hours": ""
+  },
+  {
+    "id": "ermarina_ermatingen",
+    "name": "erMarina",
+    "country": "CH",
+    "location": "Ermatingen, Hafen",
+    "lat": 47.6688,
+    "lng": 9.0868,
+    "price": "CHF €€",
+    "features": [
+      "Eventschiff",
+      "Seeblick",
+      "Restaurant auf dem Wasser"
+    ],
+    "url": "https://ermarina.ch/",
+    "source": "https://ermarina.ch/",
+    "lastVerified": "2026-03-23"
   },
   {
     "id": "mole_romanshorn",
