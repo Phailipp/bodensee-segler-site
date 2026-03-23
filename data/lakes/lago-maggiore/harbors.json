@@ -11,7 +11,18 @@
     "candidateUrl": "https://portolago.com/SpondaPiemontese/Ghiffa/Porti/DescrizionePorto.html",
     "candidateUrlKind": "web",
     "source": "https://portolago.com/SpondaPiemontese/Ghiffa/Porti/DescrizionePorto.html",
-    "lastVerified": "2026-02-17"
+    "lastVerified": "2026-02-17",
+    "berths": 80,
+    "guestBerths": 5,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "IT",
+    "region": "Ghiffa",
+    "notes": "Kommunaler Hafen von Ghiffa am piemontesischen Ufer.",
+    "url": "https://portolago.com/SpondaPiemontese/Ghiffa/Porti/DescrizionePorto.html"
   },
   {
     "id": "osm-node-4043767492-porto-ticino-brissago",
@@ -25,7 +36,18 @@
     "candidateUrl": "https://www.yachtsport-resort.com/YachtsportResort/page/harbourInstallation?language=2",
     "candidateUrlKind": "web",
     "source": "https://www.yachtsport-resort.com/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 100,
+    "guestBerths": 8,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "CH",
+    "region": "Brissago",
+    "notes": "Hafen in Brissago nahe den berühmten Brissago-Inseln.",
+    "url": "https://www.yachtsport-resort.com/YachtsportResort/page/harbourInstallation?language=2"
   },
   {
     "id": "osm-node-10035932668-porto-regionale-di-locarno",
@@ -40,7 +62,20 @@
     "candidatePhone": "+41 91 752 30 40",
     "candidateUrlKind": "web",
     "source": "https://www.portolocarno.com",
-    "lastVerified": "2026-02-17"
+    "lastVerified": "2026-02-17",
+    "berths": 374,
+    "guestBerths": 20,
+    "maxDraftM": 3.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Tankstelle"
+    ],
+    "country": "CH",
+    "region": "Locarno",
+    "notes": "Größter Schweizer Hafen am Lago Maggiore mit 374 Plätzen mitten in Locarno. Besucherplätze nach Absprache mit Hafenkapitän.",
+    "url": "https://www.portolocarno.com"
   },
   {
     "id": "osm-node-10035932670-centro-nautico-di-domenico-sa",
@@ -55,7 +90,19 @@
     "candidatePhone": "+41 91 752 16 63",
     "candidateUrlKind": "web",
     "source": "https://www.didomenico.ch/",
-    "lastVerified": "2026-02-17"
+    "lastVerified": "2026-02-17",
+    "berths": 50,
+    "guestBerths": 5,
+    "maxDraftM": 2.5,
+    "features": [
+      "Tankstelle",
+      "Werft",
+      "Winterlager"
+    ],
+    "country": "CH",
+    "region": "Locarno",
+    "notes": "Seit 1980 nautisches Zentrum in Locarno mit Werft, Tankstelle (Benzin/Diesel) und Winterlager.",
+    "url": "https://www.didomenico.ch/"
   },
   {
     "id": "osm-way-222274951-marina-portolabieno",
@@ -70,7 +117,20 @@
     "candidatePhone": "+39 333 2899977",
     "candidateUrlKind": "web",
     "source": "https://www.portolabieno.com",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 160,
+    "guestBerths": 15,
+    "maxDraftM": 3.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Slip"
+    ],
+    "country": "IT",
+    "region": "Laveno Mombello",
+    "notes": "Touristenhafen im Golf von Laveno mit 160 Plätzen auf Schwimmstegen. Gut geschützt vor Tramontana und Inverna.",
+    "url": "https://www.portolabieno.com"
   },
   {
     "id": "osm-way-289214139-porto-marinestar",
@@ -85,7 +145,19 @@
     "candidatePhone": "+39 332 531169",
     "candidateUrlKind": "web",
     "source": "https://www.marinestar.it",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 100,
+    "guestBerths": 8,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Kran"
+    ],
+    "country": "IT",
+    "region": "Luino",
+    "notes": "Private Marina bei Luino.",
+    "url": "https://www.marinestar.it"
   },
   {
     "id": "osm-way-289214146-porto-lido",
@@ -99,7 +171,18 @@
     "candidateUrl": "https://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html",
     "candidateUrlKind": "web",
     "source": "https://www.portolago.com/SpondaLombarda/Luino/Porti/PortoLido.htm",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 100,
+    "guestBerths": 6,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "IT",
+    "region": "Luino",
+    "notes": "Porto Lido in Luino mit breiter Einfahrt und Sandgrund.",
+    "url": "https://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html"
   },
   {
     "id": "osm-way-289214196-porto-nuovo",
@@ -113,7 +196,19 @@
     "candidateUrl": "https://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html",
     "candidateUrlKind": "web",
     "source": "https://www.portolago.com/SpondaLombarda/Luino/Porti/NuovoPorto.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 150,
+    "guestBerths": 10,
+    "maxDraftM": 3.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Slip"
+    ],
+    "country": "IT",
+    "region": "Luino",
+    "notes": "Neuer kommunaler Hafen von Luino mit Schwimmstegen und grossem Slip.",
+    "url": "https://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html"
   },
   {
     "id": "osm-way-289222861-porto-comunale-cald",
@@ -127,7 +222,18 @@
     "candidateUrl": "https://www.portolago.com/SpondaLombarda/Calde-Castelveccana/Porti/DescrizionePorto.html",
     "candidateUrlKind": "web",
     "source": "https://www.portolago.com/SpondaLombarda/Calde-Castelveccana/Porti/DescrizionePorto.html",
-    "lastVerified": "2026-02-17"
+    "lastVerified": "2026-02-17",
+    "berths": 60,
+    "guestBerths": 4,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "IT",
+    "region": "Castelveccana",
+    "notes": "Kleiner Hafen in Caldè bei Castelveccana.",
+    "url": "https://www.portolago.com/SpondaLombarda/Calde-Castelveccana/Porti/DescrizionePorto.html"
   },
   {
     "id": "osm-way-289227894-porto-comunale-di-laveno-mombello",
@@ -141,7 +247,19 @@
     "candidateUrl": "https://portolago.com/SpondaLombarda/Laveno/Porti/DescrizionePorti.htm",
     "candidateUrlKind": "web",
     "source": "https://www.portolago.com/SpondaLombarda/Laveno/Porti/DescrizionePorto.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 120,
+    "guestBerths": 8,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Slip"
+    ],
+    "country": "IT",
+    "region": "Laveno Mombello",
+    "notes": "Kommunaler Hafen von Laveno im gleichnamigen Golf.",
+    "url": "https://portolago.com/SpondaLombarda/Laveno/Porti/DescrizionePorti.htm"
   },
   {
     "id": "osm-way-309837331-porto-patriziale-ascona",
@@ -155,7 +273,19 @@
     "candidateUrl": "https://www.portoascona.ch/",
     "candidateUrlKind": "web",
     "source": "https://www.portoascona.ch/",
-    "lastVerified": "2026-02-17"
+    "lastVerified": "2026-02-17",
+    "berths": 294,
+    "guestBerths": 15,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "country": "CH",
+    "region": "Ascona",
+    "notes": "Schwimmende Steganlage mit 294 Plätzen in 7 Kategorien. Verträgt 5m Pegelausschlag bei Hochwasser.",
+    "url": "https://www.portoascona.ch/"
   },
   {
     "id": "osm-way-337003498-porto-alla-resiga",
@@ -169,7 +299,18 @@
     "candidateUrl": "https://www.brissago.ch/index.php?node=370&lng=1&rif=1d68f07bc4&cnt=Cerca%20nel%20sito",
     "candidateUrlKind": "web",
     "source": "https://www.portolago.com/SpondaSvizzera/Brissago/Porti/PortoAllaRessiga.htm",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 60,
+    "guestBerths": 4,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "CH",
+    "region": "Brissago",
+    "notes": "Kleiner kommunaler Hafen in Brissago.",
+    "url": "https://www.brissago.ch/index.php?node=370&lng=1&rif=1d68f07bc4&cnt=Cerca%20nel%20sito"
   },
   {
     "id": "osm-way-390452949-porto-vecchio",
@@ -183,7 +324,18 @@
     "candidateUrl": "https://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html",
     "candidateUrlKind": "web",
     "source": "https://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 80,
+    "guestBerths": 5,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "IT",
+    "region": "Luino",
+    "notes": "Alter Hafen von Luino.",
+    "url": "https://portolago.com/SpondaLombarda/Luino/Porti/DescrizionePorto.html"
   },
   {
     "id": "osm-way-1131704994-porto-turistico-portobello",
@@ -197,7 +349,19 @@
     "candidateUrl": "https://www.nauticabego.com/news/portobello-cannero/",
     "candidateUrlKind": "web",
     "source": "https://www.portobellocannero.it/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 37,
+    "guestBerths": 10,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "country": "IT",
+    "region": "Cannero Riviera",
+    "notes": "Marina Resort PortoBello mit 37 internen Plätzen und Transitbanchina. Strategisch zwischen Cannobio und dem Golfo Borromeo.",
+    "url": "https://www.nauticabego.com/news/portobello-cannero/"
   },
   {
     "id": "osm-way-1135790031-porto-comunale-di-verbania-intra",
@@ -211,7 +375,20 @@
     "candidateUrl": "https://portolago.com/SpondaPiemontese/Intra/Porti/DescrizionePorto.html",
     "candidateUrlKind": "web",
     "source": "https://portolago.com/SpondaPiemontese/Intra/Porti/DescrizionePorto.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 150,
+    "guestBerths": 10,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Tankstelle"
+    ],
+    "country": "IT",
+    "region": "Verbania",
+    "notes": "Kommunaler Hafen von Verbania-Intra mit Tankstelle.",
+    "url": "https://portolago.com/SpondaPiemontese/Intra/Porti/DescrizionePorto.html"
   },
   {
     "id": "osm-way-1156339304-nuovo-porto-di-stresa",
@@ -225,7 +402,18 @@
     "candidateUrl": "https://www.portolago.com/SpondaPiemontese/Stresa/Porti/DescrizionePorti.htm",
     "candidateUrlKind": "web",
     "source": "https://www.portolago.com/SpondaPiemontese/Stresa/Porti/NuovoPorto.htm",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 80,
+    "guestBerths": 10,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "IT",
+    "region": "Stresa",
+    "notes": "Neuer Touristenhafen von Stresa, Ausgangspunkt für die Borromäischen Inseln. Club Nautico bietet Bojenplätze (€20/Nacht).",
+    "url": "https://www.portolago.com/SpondaPiemontese/Stresa/Porti/DescrizionePorti.htm"
   },
   {
     "id": "osm-way-1183972693-porto-della-madonnina",
@@ -239,7 +427,18 @@
     "candidateUrl": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/DescrizionePorto.html",
     "candidateUrlKind": "web",
     "source": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/PortoAllaMadonnina.htm",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 60,
+    "guestBerths": 4,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "IT",
+    "region": "Maccagno",
+    "notes": "Hafen bei der Madonnina in Maccagno.",
+    "url": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/DescrizionePorto.html"
   },
   {
     "id": "osm-way-1198049623-nuovo-porto-la-gabella",
@@ -253,7 +452,18 @@
     "candidateUrl": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/NuovoPortoGabella.htm",
     "candidateUrlKind": "web",
     "source": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/NuovoPortoGabella.htm",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 80,
+    "guestBerths": 5,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "IT",
+    "region": "Maccagno",
+    "notes": "Neuer Hafen La Gabella in Maccagno.",
+    "url": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/NuovoPortoGabella.htm"
   },
   {
     "id": "osm-way-1198049624-porto-della-gabella",
@@ -267,7 +477,18 @@
     "candidateUrl": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/PortoDellaGabella.htm",
     "candidateUrlKind": "web",
     "source": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/PortoDellaGabella.htm",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 50,
+    "guestBerths": 3,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "IT",
+    "region": "Maccagno",
+    "notes": "Alter Hafen La Gabella in Maccagno.",
+    "url": "https://www.portolago.com/SpondaLombarda/Maccagno/Porti/PortoDellaGabella.htm"
   },
   {
     "id": "osm-way-1198052119-vecchio-porto-comunale-di-porto-valtravaglia",
@@ -281,7 +502,18 @@
     "candidateUrl": "https://www.portolago.com/SpondaLombarda/PortoValtravaglia/Porti/DescrizionePorto.html",
     "candidateUrlKind": "web",
     "source": "https://www.portolago.com/SpondaLombarda/PortoValtravaglia/Porti/DescrizionePorto.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 60,
+    "guestBerths": 4,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "IT",
+    "region": "Porto Valtravaglia",
+    "notes": "Historischer Hafen von Porto Valtravaglia.",
+    "url": "https://www.portolago.com/SpondaLombarda/PortoValtravaglia/Porti/DescrizionePorto.html"
   },
   {
     "id": "osm-way-1198896322-porto-turistico-comunale-di-feriolo-di-baveno",
@@ -295,7 +527,18 @@
     "candidateUrl": "https://portolago.com/SpondaPiemontese/Feriolo/Porti/PontiliGalleggianti.html",
     "candidateUrlKind": "web",
     "source": "https://portolago.com/SpondaPiemontese/Feriolo/Porti/PontiliGalleggianti.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 60,
+    "guestBerths": 5,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "IT",
+    "region": "Baveno",
+    "notes": "Touristenhafen in Feriolo di Baveno.",
+    "url": "https://portolago.com/SpondaPiemontese/Feriolo/Porti/PontiliGalleggianti.html"
   },
   {
     "id": "osm-way-1432286296-nuovo-porto-turistico-di-porto-valtravaglia",
@@ -309,7 +552,19 @@
     "candidateUrl": "https://www.portolago.com/SpondaLombarda/PortoValtravaglia/Porti/DescrizionePorto.html",
     "candidateUrlKind": "web",
     "source": "https://www.portolago.com/SpondaLombarda/PortoValtravaglia/Porti/DescrizionePorto.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 80,
+    "guestBerths": 6,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "country": "IT",
+    "region": "Porto Valtravaglia",
+    "notes": "Neuer Touristenhafen von Porto Valtravaglia.",
+    "url": "https://www.portolago.com/SpondaLombarda/PortoValtravaglia/Porti/DescrizionePorto.html"
   },
   {
     "id": "osm-relation-14299735-porto-comunale-san-dazio",
@@ -323,6 +578,17 @@
     "candidateUrl": "https://portolago.com/SpondaPiemontese/Pallanza/Porti/DescrizionePorto.html",
     "candidateUrlKind": "web",
     "source": "https://portolago.com/SpondaPiemontese/Pallanza/Porti/DescrizionePorto.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 80,
+    "guestBerths": 5,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "country": "IT",
+    "region": "Verbania-Pallanza",
+    "notes": "Kommunaler Hafen San Dazio in Pallanza/Verbania.",
+    "url": "https://portolago.com/SpondaPiemontese/Pallanza/Porti/DescrizionePorto.html"
   }
 ]
