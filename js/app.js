@@ -106,14 +106,23 @@ function applyLakeBranding() {
   const ogDesc = document.querySelector('meta[property="og:description"]');
   if (ogDesc) ogDesc.setAttribute('content', descTpl.replace('Interaktive Karte, Filter und Detailinfos.', ''));
 
-  // Hero image per lake
+  // Hero image per lake — set immediately, no flash
   const hero = document.querySelector('.hero');
   if (hero) {
-    const img = new Image();
-    img.src = `assets/hero-${lakeId}.jpg`;
-    img.onload = () => {
-      hero.style.backgroundImage = `linear-gradient(180deg, rgba(12,25,41,0.3) 0%, rgba(12,25,41,0.8) 100%), url('assets/hero-${lakeId}.jpg')`;
+    const heroPositions = {
+      'bodensee': 'center 40%',
+      'genfersee': 'center 50%',
+      'lago-maggiore': 'center 50%',
+      'thunersee': 'center 40%',
+      'vierwaldstaettersee': 'center 50%',
+      'zuerichsee': 'center 35%',
+      'zugersee': 'center 50%'
     };
+    const pos = heroPositions[lakeId] || 'center 50%';
+    hero.style.backgroundImage = `linear-gradient(180deg, rgba(12,25,41,0.3) 0%, rgba(12,25,41,0.8) 100%), url('assets/hero-${lakeId}.jpg')`;
+    hero.style.backgroundPosition = `center, ${pos}`;
+    hero.style.backgroundSize = 'auto, cover';
+    hero.style.backgroundRepeat = 'no-repeat, no-repeat';
   }
 
   // Logo already handled by selector, but keep it safe
@@ -1028,8 +1037,10 @@ function initLakeSelector() {
   if (label && current) label.textContent = current.name;
   if (logo && current?.name) logo.textContent = current.name;
 
-  // Mobile backdrop
+  // Mobile bottom-sheet: portal menu + backdrop to document.body
+  // (nav has will-change:transform which breaks position:fixed children)
   let backdrop = document.getElementById('lakeSelectorBackdrop');
+  let mobileSheet = document.getElementById('lakeSelectorSheet');
   if (!backdrop) {
     backdrop = document.createElement('div');
     backdrop.id = 'lakeSelectorBackdrop';
@@ -1037,9 +1048,48 @@ function initLakeSelector() {
     document.body.appendChild(backdrop);
     backdrop.addEventListener('click', () => close());
   }
+  if (!mobileSheet) {
+    mobileSheet = document.createElement('ul');
+    mobileSheet.id = 'lakeSelectorSheet';
+    mobileSheet.className = 'lake-selector-sheet';
+    mobileSheet.setAttribute('role', 'listbox');
+    document.body.appendChild(mobileSheet);
+  }
 
-  const open = () => { wrapper.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); backdrop.classList.add('active'); };
-  const close = () => { wrapper.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); backdrop.classList.remove('active'); };
+  const isMobile = () => window.innerWidth <= 768;
+
+  const syncSheet = () => {
+    mobileSheet.innerHTML = menu.innerHTML;
+    mobileSheet.querySelectorAll('li').forEach(li => li.setAttribute('tabindex', '-1'));
+    mobileSheet.addEventListener('click', (e) => {
+      const li = e.target.closest('li[data-lake]');
+      if (!li) return;
+      const id = li.dataset.lake;
+      close();
+      const pref = localStorage.getItem('bs_lang');
+      const u = new URL(window.location.href);
+      u.searchParams.set('lake', id);
+      if (pref) u.searchParams.set('lang', pref);
+      u.hash = '';
+      window.location.href = u.toString();
+    }, { once: true });
+  };
+
+  const open = () => {
+    wrapper.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+    if (isMobile()) {
+      syncSheet();
+      backdrop.classList.add('active');
+      mobileSheet.classList.add('active');
+    }
+  };
+  const close = () => {
+    wrapper.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+    backdrop.classList.remove('active');
+    mobileSheet.classList.remove('active');
+  };
   const isOpen = () => wrapper.classList.contains('open');
 
   btn.addEventListener('click', (e) => {
