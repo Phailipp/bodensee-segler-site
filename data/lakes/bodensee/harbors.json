@@ -112,7 +112,7 @@
       "Strom",
       "Sanitär"
     ],
-    "notes": "",
+    "notes": "Stadthafen Bregenz mit guter Anbindung an die Bregenzer Innenstadt und Festspielbühne.",
     "url": "https://www.bsc.or.at/",
     "source": "Bregenzer Segel-Club",
     "lastVerified": "2026-02-03",
@@ -144,7 +144,7 @@
       "Strom",
       "Sanitär"
     ],
-    "notes": "",
+    "notes": "Traditionsreicher Seglerhafen auf der Lindauer Insel mit Kran und Winterlagerplätzen.",
     "url": "https://www.lsc.de/",
     "source": "https://www.lsc.de/",
     "lastVerified": "2026-02-10",
@@ -176,7 +176,7 @@
       "Strom",
       "Wasser"
     ],
-    "notes": "",
+    "notes": "Zentraler Hafen am Überlinger See mit Restaurant und guter Wasserversorgung.",
     "url": "https://www.ueberlingen.de/sportboothafen-ost",
     "source": "https://www.ueberlingen.de/sportboothafen-ost",
     "lastVerified": "2026-02-10",
@@ -207,7 +207,7 @@
       "WLAN",
       "Strom"
     ],
-    "notes": "",
+    "notes": "Schweizer Hafen gegenüber Konstanz mit WLAN und Stromanschluss.",
     "url": "https://www.kreuzlingen.ch/erlebnis/haefen",
     "source": "Stadt Kreuzlingen – Häfen",
     "lastVerified": "2026-02-03",
@@ -238,7 +238,7 @@
       "Slipanlage",
       "Winterlager"
     ],
-    "notes": "",
+    "notes": "Grosser Hafen mit Slipanlage und Winterlager; gute Ausgangslage für den Obersee.",
     "url": "https://www.hafen-arbon.ch/",
     "source": "Hafen Arbon",
     "lastVerified": "2026-02-03",
@@ -268,7 +268,19 @@
     "candidatePhone": "+49 171 1764328",
     "candidateUrlKind": "web",
     "source": "https://www.tsg-wassersport.de/",
-    "lastVerified": "2026-02-17"
+    "lastVerified": "2026-02-17",
+    "berths": 139,
+    "guestBerths": 6,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran",
+      "Slip",
+      "Gastronomie"
+    ],
+    "notes": "Kanalartiges Hafenbecken mit Schwimmstegen; Dauerlieger ausgebucht, 6 Mooring-Gastplätze vorhanden."
   },
   {
     "id": "osm-node-1400960446-yacht-club-lindau",
@@ -282,7 +294,14 @@
     "candidateUrl": "https://yacht-club-lindau.de/",
     "candidateUrlKind": "web",
     "source": "https://yacht-club-lindau.de/",
-    "lastVerified": "2026-02-17"
+    "lastVerified": "2026-02-17",
+    "berths": 45,
+    "guestBerths": 5,
+    "maxDraftM": 1.5,
+    "features": [
+      "Sanitär"
+    ],
+    "notes": "Kleiner Clubhafen nahe der Lindauer Insel; Gastliegeplätze an Dalben."
   },
   {
     "id": "osm-node-1734986804-hafen-am-rheinspitz",
@@ -296,7 +315,18 @@
     "candidateUrl": "https://www.rheinunternehmen.ch/index.php?id=34",
     "candidateUrlKind": "web",
     "source": "https://www.rheinunternehmen.ch/index.php?id=34",
-    "lastVerified": "2026-02-17"
+    "lastVerified": "2026-02-17",
+    "berths": 180,
+    "guestBerths": 20,
+    "maxDraftM": 2.5,
+    "features": [
+      "Sanitär",
+      "Tankstelle",
+      "Slip",
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Marina am Alten Rhein mit Blauem-Anker-Zertifikat, Fäkalienabsaugung und Kinderspielplatz."
   },
   {
     "id": "osm-node-1784645818-dsmc-deutsch-schweizerischer-motorboot-club",
@@ -311,7 +341,16 @@
     "candidatePhone": "+49 7531 26658",
     "candidateUrlKind": "web",
     "source": "https://www.dsmc.de",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 60,
+    "guestBerths": 4,
+    "maxDraftM": 1.5,
+    "features": [
+      "Sanitär",
+      "Strom",
+      "Winterlager"
+    ],
+    "notes": "Motorboot-Clubhafen in Konstanz mit Clubrestaurant und Seeterrasse."
   },
   {
     "id": "osm-node-2135894087-wassersportclub-montfort",
@@ -326,7 +365,16 @@
     "candidatePhone": "+49 7543 912541",
     "candidateUrlKind": "web",
     "source": "https://www.wscm-ev.de/",
-    "lastVerified": "2026-02-18"
+    "lastVerified": "2026-02-18",
+    "berths": 50,
+    "guestBerths": 5,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Kleiner Vereinshafen in Kressbronn in ruhiger Lage."
   },
   {
     "id": "osm-node-2136074828-yachthafen-wassersport-gemeinschaft-konstanz-egg",
@@ -341,7 +389,16 @@
     "candidatePhone": "+49 7531 55273",
     "candidateUrlKind": "web",
     "source": "https://www.wg-egg.de/",
-    "lastVerified": "2026-02-18"
+    "lastVerified": "2026-02-18",
+    "berths": 84,
+    "guestBerths": 5,
+    "maxDraftM": 1.5,
+    "features": [
+      "Sanitär",
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Vereinshafen im Konstanzer Ortsteil Egg zwischen Fähre Staad und Insel Mainau; Blauer-Anker-Zertifikat."
   },
   {
     "id": "osm-node-2364829496-alter-hafen-am-grethaus",
@@ -355,7 +412,14 @@
     "candidateUrl": "https://www.skipperguide.de/wiki/Ludwigshafen/Bodensee#Alter_Hafen_am_Grethaus",
     "candidateUrlKind": "web",
     "source": "https://www.skipperguide.de/wiki/Ludwigshafen/Bodensee#Alter_Hafen_am_Grethaus",
-    "lastVerified": "2026-02-18"
+    "lastVerified": "2026-02-18",
+    "berths": 40,
+    "guestBerths": 5,
+    "maxDraftM": 1.8,
+    "features": [
+      "Sanitär"
+    ],
+    "notes": "Kleiner BSB-Hafen in Ludwigshafen am Überlinger See mit begrenzter Infrastruktur."
   },
   {
     "id": "osm-node-2463692272-hafen-feldbach-steckborn",
@@ -369,7 +433,18 @@
     "candidateUrl": "https://www.steckborn.ch/index.php?id=67",
     "candidateUrlKind": "web",
     "source": "https://www.steckborn.ch/index.php?id=67",
-    "lastVerified": "2026-02-18"
+    "lastVerified": "2026-02-18",
+    "berths": 273,
+    "guestBerths": 20,
+    "maxDraftM": 2.0,
+    "features": [
+      "Kran",
+      "Slip",
+      "Sanitär",
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Gut ausgestatteter Hafen am Untersee mit 8t-Kran, Takelmast und Blauem-Anker-Zertifikat."
   },
   {
     "id": "osm-way-32645361-lochau-osthafen",
@@ -384,7 +459,15 @@
     "candidatePhone": "+43 5574 42168 212",
     "candidateUrlKind": "web",
     "source": "https://gemeinde.lochau.at/hafen.html",
-    "lastVerified": "2026-02-18"
+    "lastVerified": "2026-02-18",
+    "berths": 80,
+    "guestBerths": 5,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Sanitär"
+    ],
+    "notes": "Kleiner Hafen östlich von Lochau am österreichischen Ufer; gut geschützt vor Westwind."
   },
   {
     "id": "osm-way-37978752-gemeindehafen-bottighofen",
@@ -399,7 +482,16 @@
     "candidatePhone": "+41 71 6884168",
     "candidateUrlKind": "web",
     "source": "https://www.svb-bottighofen.ch/",
-    "lastVerified": "2026-02-18"
+    "lastVerified": "2026-02-18",
+    "berths": 120,
+    "guestBerths": 8,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Gemeindehafen zwischen Kreuzlingen und Münsterlingen am Schweizer Südufer; Blauer-Anker-Zertifikat."
   },
   {
     "id": "osm-way-48531302-yachthafen-radolfzell",
@@ -414,7 +506,18 @@
     "candidatePhone": "+49 7732 988081",
     "candidateUrlKind": "web",
     "source": "https://www.ycra.de/",
-    "lastVerified": "2026-02-18"
+    "lastVerified": "2026-02-18",
+    "berths": 400,
+    "guestBerths": 20,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran",
+      "Winterlager"
+    ],
+    "notes": "Grosser städtischer Yachthafen am Untersee mit guter Infrastruktur; Radolfzeller Altstadt fussläufig erreichbar."
   },
   {
     "id": "osm-way-76032579-hafen-am-rohrspitz",
@@ -429,7 +532,17 @@
     "candidatePhone": "+43 5578 75708",
     "candidateUrlKind": "web",
     "source": "https://www.salzmann.at/hafen/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 190,
+    "guestBerths": 15,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Tankstelle"
+    ],
+    "notes": "Privathafen der Familie Salzmann im Rheindelta-Naturschutzgebiet mit Camping und Seerestaurant."
   },
   {
     "id": "osm-way-82470103-marina-rheinhof",
@@ -444,7 +557,19 @@
     "candidatePhone": "+41 71 8555555",
     "candidateUrlKind": "web",
     "source": "https://www.marinarheinhof.ch/",
-    "lastVerified": "2026-02-18"
+    "lastVerified": "2026-02-18",
+    "berths": 250,
+    "guestBerths": 15,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran",
+      "Winterlager",
+      "Gastronomie"
+    ],
+    "notes": "Grosse Werft- und Hafenanlage mit Restaurant am Schweizer Ufer bei Steinach; gute Winterlager-Kapazitäten."
   },
   {
     "id": "osm-way-83200835-bregenzer-sporthafen",
@@ -459,7 +584,16 @@
     "candidatePhone": "+43 5574 410 1165",
     "candidateUrlKind": "web",
     "source": "https://www.hafen-bregenz.at/inhalt/at/41.htm",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 150,
+    "guestBerths": 10,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Sporthafen in der Bregenzer Bucht mit Blick auf die Festspielbühne; beliebter Ausgangspunkt für Obersee-Törns."
   },
   {
     "id": "osm-way-83200836-hafen-bregenz",
@@ -474,7 +608,17 @@
     "candidatePhone": "+43 5574 79160; +43 664 4762273",
     "candidateUrlKind": "web",
     "source": "https://www.hafen-bregenz.at/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 200,
+    "guestBerths": 15,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Tankstelle"
+    ],
+    "notes": "Grosser Hafen direkt an der Bregenzer Seepromenade; zentrale Lage mit Tankstelle und guter Anbindung."
   },
   {
     "id": "osm-way-83200839-lochau-westhafen",
@@ -489,7 +633,15 @@
     "candidatePhone": "+43 5574 42168 212",
     "candidateUrlKind": "web",
     "source": "https://gemeinde.lochau.at/hafen.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 100,
+    "guestBerths": 6,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Sanitär"
+    ],
+    "notes": "Westlicher Hafen in Lochau nahe der deutschen Grenze; ruhige Lage am Fusse des Pfänders."
   },
   {
     "id": "osm-way-92873407-bodensee-yacht-club-überlingen-bycü",
@@ -504,7 +656,18 @@
     "candidatePhone": "+49 7551 9459606",
     "candidateUrlKind": "web",
     "source": "https://www.bycue.de/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 120,
+    "guestBerths": 8,
+    "maxDraftM": 1.5,
+    "features": [
+      "Kran",
+      "Slip",
+      "Sanitär",
+      "Strom",
+      "Gastronomie"
+    ],
+    "notes": "Reiner Segelboothafen, ältester Segelsportverein in Baden-Württemberg; max. 3 Nächte Gastlieger."
   },
   {
     "id": "osm-way-92873411-sportboothafen-ost",
@@ -519,7 +682,17 @@
     "candidatePhone": "+49 7551 915510",
     "candidateUrlKind": "web",
     "source": "https://www.ueberlingen.de/haefen",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 356,
+    "guestBerths": 15,
+    "maxDraftM": 1.9,
+    "features": [
+      "Kran",
+      "Slip",
+      "Strom",
+      "Sanitär"
+    ],
+    "notes": "Städtischer Hafen in Überlingen mit 9t-Kran und 130 Trockenliegeplätzen; max. 1 Nacht in Hauptsaison."
   },
   {
     "id": "osm-way-93183658-städtischer-seglerhafen-waschplätzle",
@@ -534,7 +707,17 @@
     "candidatePhone": "+49 7532 5655",
     "candidateUrlKind": "web",
     "source": "https://www.skipperguide.de/wiki/Meersburg",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 174,
+    "guestBerths": 15,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "WLAN"
+    ],
+    "notes": "Idyllischer Seglerhafen unterhalb der Meersburger Weinberge; Heimat der Bodensee-Yachtschule."
   },
   {
     "id": "osm-way-96625284-gemeindehafen-romanshorn",
@@ -549,7 +732,18 @@
     "candidatePhone": "+41 58 346 84 10",
     "candidateUrlKind": "web",
     "source": "https://www.romanshorn.ch/verwaltung/anlagen-und-betriebe/hafen.html/135",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 350,
+    "guestBerths": 30,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran",
+      "Slip"
+    ],
+    "notes": "Grosser Gemeindehafen beim Bahnhof Romanshorn mit 12t-Kran; Fährterminal nach Friedrichshafen in direkter Nähe."
   },
   {
     "id": "osm-way-96681044-sbs-jachthafen-romanshorn",
@@ -564,7 +758,17 @@
     "candidatePhone": "+41 71 463 62 21",
     "candidateUrlKind": "web",
     "source": "https://www.sscro.com/hafen/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 180,
+    "guestBerths": 15,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran"
+    ],
+    "notes": "Vereinshafen der Seglergemeinschaft SBS am Romanshorner Hafenbecken; eigener Kran und Winterlagerplätze."
   },
   {
     "id": "osm-way-105299710-yachthafen-schloss-kirchberg",
@@ -578,7 +782,20 @@
     "candidateUrl": "https://www.sunwind.ch/de/ysk/index.html",
     "candidateUrlKind": "web",
     "source": "https://www.sunwind.ch/de/ysk/index.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 300,
+    "guestBerths": 12,
+    "maxDraftM": 2.0,
+    "features": [
+      "Kran",
+      "Slip",
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Winterlager",
+      "Gastronomie"
+    ],
+    "notes": "Großer moderner Naturhafen mit 20t-Kran, Werft und Zubehörshop am Fuße des Schlosses."
   },
   {
     "id": "osm-way-105299711-yachthafen-schloss-helmsdorf",
@@ -592,7 +809,17 @@
     "candidateUrl": "https://www.schlosshelmsdorf.de/de/segeln/",
     "candidateUrlKind": "web",
     "source": "https://www.schlosshelmsdorf.de/de/segeln/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 220,
+    "guestBerths": 10,
+    "maxDraftM": 1.5,
+    "features": [
+      "Kran",
+      "Slip",
+      "Strom",
+      "Sanitär"
+    ],
+    "notes": "Campingplatz-Hafen mit 5t-Kran; Einfahrtstiefe bei NW nur ca. 0,9 m, regelmäßig ausgebaggert."
   },
   {
     "id": "osm-way-105299712-yci-yachtclub-immenstaad",
@@ -607,7 +834,16 @@
     "candidatePhone": "+49 7545 6021",
     "candidateUrlKind": "web",
     "source": "https://www.ycimmenstaad.de/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 100,
+    "guestBerths": 8,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Vereinshafen direkt an der Schiffsanlegestelle mitten im Ort; Hafeneinfahrt 2020 ausgebaggert."
   },
   {
     "id": "osm-way-123257314-konstanzer-yacht-club",
@@ -622,7 +858,17 @@
     "candidatePhone": "+49 7531 959813",
     "candidateUrlKind": "web",
     "source": "https://www.konstanzer-yacht-club.de/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 113,
+    "guestBerths": 4,
+    "maxDraftM": 1.4,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Gastronomie"
+    ],
+    "notes": "Einer der drei ältesten Segelvereine am Bodensee (gegr. 1909); Clubhaus in historischer Villa Prym."
   },
   {
     "id": "osm-way-127209320-martin-hafen",
@@ -636,7 +882,18 @@
     "candidateUrl": "https://motoryachtclub-radolfzell.de/hafen/martin-hafen",
     "candidateUrlKind": "web",
     "source": "https://motoryachtclub-radolfzell.de/hafen/martin-hafen",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 260,
+    "guestBerths": 10,
+    "maxDraftM": 2.0,
+    "features": [
+      "Kran",
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Winterlager"
+    ],
+    "notes": "Privathafen auf der Mettnau im Markelfinger Winkel mit 15t-Kran; betrieben vom MYCR."
   },
   {
     "id": "osm-way-127349025-hafen-bregenz-marina",
@@ -651,7 +908,16 @@
     "candidatePhone": "+43 5574 79160; +43 664 4762273",
     "candidateUrlKind": "web",
     "source": "https://www.hafen-bregenz.at/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 120,
+    "guestBerths": 10,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Marina im Bregenzer Hafengebiet mit modernen Schwimmstegen; gute Ausgangslage für das Vorarlberger Ufer."
   },
   {
     "id": "osm-way-127418867-bootshafen-seegarten-kreuzlingen",
@@ -665,7 +931,18 @@
     "candidateUrl": "https://www.svk-kreuzlingen.ch/Startseite/",
     "candidateUrlKind": "web",
     "source": "https://www.svk-kreuzlingen.ch/Startseite/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 423,
+    "guestBerths": 8,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran",
+      "Fäkalienabsaugung"
+    ],
+    "notes": "Grösster Hafen am Schweizer Bodenseeufer mit 14t-Kran, Blauer-Anker-Umweltzeichen; Gäste an 8 Bojen und Kopfstegen."
   },
   {
     "id": "osm-way-127418885-gemeindehafen-höchst-fischerinsel",
@@ -680,7 +957,15 @@
     "candidatePhone": "+43 664 2221956",
     "candidateUrlKind": "web",
     "source": "https://www.wassersportfreunde-fischerinsel.at",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 200,
+    "guestBerths": 5,
+    "maxDraftM": 1.7,
+    "features": [
+      "Kran",
+      "Sanitär"
+    ],
+    "notes": "Romantisch im Naturschutzgebiet Rheindelta gelegen; wenig Infrastruktur wegen exponierter Lage."
   },
   {
     "id": "osm-way-127496891-wassersportverein-friedrichshafen-fischbach-e-v",
@@ -695,7 +980,17 @@
     "candidatePhone": "+49 7544 7425990",
     "candidateUrlKind": "web",
     "source": "https://www.wvfischbach.de/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 98,
+    "guestBerths": 6,
+    "maxDraftM": 1.2,
+    "features": [
+      "Strom",
+      "Sanitär",
+      "Kran",
+      "Slip"
+    ],
+    "notes": "Kleiner Vereinshafen mit 5t-Kran, nur Boote bis 3 m Breite; Einfahrt versandet leicht."
   },
   {
     "id": "osm-way-127496900-württembergischer-yacht-club",
@@ -709,7 +1004,18 @@
     "candidateUrl": "https://www.wyc-fn.de/",
     "candidateUrlKind": "web",
     "source": "https://www.wyc-fn.de/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 520,
+    "guestBerths": 60,
+    "maxDraftM": 3.2,
+    "features": [
+      "Kran",
+      "Winterlager",
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Einer der grössten Seglervereine am Bodensee in Friedrichshafen; 8t-Kran und umfangreiche Winterlager-Infrastruktur."
   },
   {
     "id": "osm-way-127496901-bmk-yachthafen-langenargen",
@@ -724,7 +1030,20 @@
     "candidatePhone": "+49 174 3489296",
     "candidateUrlKind": "web",
     "source": "https://www.bmk-yachthafen.de/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 450,
+    "guestBerths": 25,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran",
+      "Slip",
+      "Winterlager",
+      "Gastronomie"
+    ],
+    "notes": "Grosser Vereinshafen des BMK Langenargen mit Werft und Restaurant; einer der bestausgestatteten Häfen am Nordufer."
   },
   {
     "id": "osm-way-127496902-ultramarin-die-meichle-mohr-marina",
@@ -739,7 +1058,22 @@
     "candidatePhone": "+49 7543 96600",
     "candidateUrlKind": "web",
     "source": "https://www.ultramarin.com/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 1200,
+    "guestBerths": 50,
+    "maxDraftM": 3.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "WLAN",
+      "Sanitär",
+      "Kran",
+      "Slip",
+      "Tankstelle",
+      "Winterlager",
+      "Gastronomie"
+    ],
+    "notes": "Grösste Marina am Bodensee in Kressbronn mit über 1200 Liegeplätzen, 50t-Kran, Werft, Tankstelle und umfangreicher Gastronomie."
   },
   {
     "id": "osm-way-127497728-yachthafen-haltnau-yacht-club-meersburg",
@@ -754,7 +1088,17 @@
     "candidatePhone": "+49 7532 9002",
     "candidateUrlKind": "web",
     "source": "https://www.yachtclub-meersburg.de/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 80,
+    "guestBerths": 4,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Kran",
+      "Slip",
+      "Fäkalienabsaugung"
+    ],
+    "notes": "Idyllischer Vereinshafen inmitten von Weinbergen; 6t-Kran, Slipanlage auch für Nichtmitglieder nutzbar."
   },
   {
     "id": "osm-way-127502094-seglerhafen-staad",
@@ -768,7 +1112,16 @@
     "candidateUrl": "https://www.segler-verein-staad.de/",
     "candidateUrlKind": "web",
     "source": "https://www.segler-verein-staad.de/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 60,
+    "guestBerths": 4,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Sanitär",
+      "Slip"
+    ],
+    "notes": "Vereinshafen des SVS seit 1960, allseitig geschützt aber Schwell durch Fährverkehr; Clubhaus auf der Mole."
   },
   {
     "id": "osm-way-127502095-sportboothafen-staad",
@@ -782,7 +1135,20 @@
     "candidateUrl": "https://www.shs-staad.de/",
     "candidateUrlKind": "web",
     "source": "https://www.shs-staad.de/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 108,
+    "guestBerths": 10,
+    "maxDraftM": 2.1,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran",
+      "Slip",
+      "Tankstelle",
+      "Winterlager"
+    ],
+    "notes": "Moderner Gemeinschaftshafen (SHS) von 5 Vereinen seit 2006; Hafentiefe 1,25–2,65 m bei Pegel 3,0 m, max. 3 Tage Gastliegedauer."
   },
   {
     "id": "osm-way-127506121-sportboothafen-uhldingen",
@@ -797,7 +1163,16 @@
     "candidatePhone": "+49 7556 6668",
     "candidateUrlKind": "web",
     "source": "https://www.segelclub-unteruhldingen.de/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 212,
+    "guestBerths": 10,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Grosser, gut geschützter Gemeindehafen in zentraler Ortslage; auch für grössere Yachten geeignet."
   },
   {
     "id": "osm-way-128382838-bodan-werft-freizeit-und-hafen",
@@ -811,7 +1186,19 @@
     "candidateUrl": "https://www.bodan-fuh.com/",
     "candidateUrlKind": "web",
     "source": "https://www.bodan-fuh.com/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 150,
+    "guestBerths": 10,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran",
+      "Winterlager",
+      "Fäkalienabsaugung"
+    ],
+    "notes": "Historische Werftanlage (gegr. 1919) in Kressbronn mit 35t-Kran – stärkster am Bodensee; 300 Trockenliegeplätze."
   },
   {
     "id": "osm-way-128382839-gemeindehafen-langenargen",
@@ -826,7 +1213,17 @@
     "candidatePhone": "+49 7543 9618331",
     "candidateUrlKind": "web",
     "source": "https://www.langenargen-tourismus.de/urlaubsthemen/erlebnis-wasser/haefen/gemeindehafen-langenargen.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 85,
+    "guestBerths": 6,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Fäkalienabsaugung"
+    ],
+    "notes": "Historischer Sport- und Fischerhafen zentral am Schloss Montfort; für kleinere Yachten, Einfahrt neigt zur Versandung."
   },
   {
     "id": "osm-way-179054565-gemeindehafen-moos",
@@ -841,7 +1238,16 @@
     "candidatePhone": "+49 7732 52180",
     "candidateUrlKind": "web",
     "source": "https://www.scmb-moos.de/index.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 207,
+    "guestBerths": 8,
+    "maxDraftM": 1.3,
+    "features": [
+      "Strom",
+      "Sanitär",
+      "Kran"
+    ],
+    "notes": "Alter Kanal (nur kleine Boote) und neuer Hafen am Untersee; max. Tiefgang neuer Hafen 1,30 m."
   },
   {
     "id": "osm-way-179231645-hafen-wäschbruck-radolfzell",
@@ -856,7 +1262,18 @@
     "candidatePhone": "+49 7732 3458",
     "candidateUrlKind": "web",
     "source": "https://www.wwra.de/hafen/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 165,
+    "guestBerths": 10,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran",
+      "Fäkalienabsaugung"
+    ],
+    "notes": "Gut ausgestatteter Vereinshafen; Radolfzeller Innenstadt in wenigen Gehminuten erreichbar."
   },
   {
     "id": "osm-way-207942788-camping-luxburg",
@@ -871,7 +1288,14 @@
     "candidatePhone": "+41 79 567 16 28",
     "candidateUrlKind": "web",
     "source": "https://camping-luxburg.ch/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 30,
+    "guestBerths": 5,
+    "maxDraftM": 1.2,
+    "features": [
+      "Sanitär"
+    ],
+    "notes": "Kleine Steganlage am Campingplatz Luxburg in Bodman mit Badeplatz; minimale Hafeninfrastruktur."
   },
   {
     "id": "osm-way-572101356-yachthafen-ludwigshafen",
@@ -886,7 +1310,17 @@
     "candidatePhone": "+49 7773 920740",
     "candidateUrlKind": "web",
     "source": "https://www.ylb.de/ylb/index.php",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 150,
+    "guestBerths": 10,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran"
+    ],
+    "notes": "Yachthafen am Überlinger See in Ludwigshafen; ruhige Lage mit Blick auf die Bodanrück-Halbinsel."
   },
   {
     "id": "osm-way-937387060-hafen-rohner",
@@ -901,7 +1335,14 @@
     "candidatePhone": "+43 5578 75320",
     "candidateUrlKind": "web",
     "source": "https://hafen-rohner.at/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 200,
+    "guestBerths": 0,
+    "maxDraftM": 1.8,
+    "features": [
+      "Sanitär"
+    ],
+    "notes": "Privater Yachthafen in Fussach am Rheindelta ohne Gästeplätze; Zufahrt über 2 sm lange Fahrrinne."
   },
   {
     "id": "osm-way-937387065-motorboot-segelsportverein-schwedenschanze",
@@ -916,7 +1357,19 @@
     "candidatePhone": "+43 5578 726580",
     "candidateUrlKind": "web",
     "source": "https://www.mbsv.at/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 300,
+    "guestBerths": 20,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser",
+      "WLAN",
+      "Sanitär",
+      "Tankstelle",
+      "Fäkalienabsaugung"
+    ],
+    "notes": "Grosser Hafen im Rheindelta mit einziger Seetankstelle am österreichischen Ufer; kostenlose Duschen und WLAN."
   },
   {
     "id": "osm-way-937387067-yacht-club-rheindelta-hörnle",
@@ -930,7 +1383,15 @@
     "candidateUrl": "https://www.ycrhd.com",
     "candidateUrlKind": "web",
     "source": "https://www.ycrhd.com",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 50,
+    "guestBerths": 5,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Sanitär"
+    ],
+    "notes": "Kleiner Vereinshafen in Fussach; Gastliegeplatz-Reservierung über Pompomela-App, Grillstelle und Strandbad nebenan."
   },
   {
     "id": "osm-way-1307842120-yachthafen-wallhausen",
@@ -945,7 +1406,21 @@
     "candidatePhone": "+49 7533 6848",
     "candidateUrlKind": "web",
     "source": "https://www.yachthafen-wallhausen.de/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 300,
+    "guestBerths": 15,
+    "maxDraftM": 3.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "WLAN",
+      "Sanitär",
+      "Kran",
+      "Slip",
+      "Tankstelle",
+      "Winterlager"
+    ],
+    "notes": "Grosser, gut geschützter Hafen am Überlinger See mit Werft (15t-Kran), Seetankstelle und Restaurant."
   },
   {
     "id": "osm-way-1307842121-steganlage-sv-dingelsdorf",
@@ -960,7 +1435,16 @@
     "candidatePhone": "+49 7533 3801",
     "candidateUrlKind": "web",
     "source": "https://www.sv-dingelsdorf.de/text/262/de/wassersport.html?",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 120,
+    "guestBerths": 10,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Sanitär",
+      "Fäkalienabsaugung"
+    ],
+    "notes": "Schwimmsteganlage des SV Dingelsdorf am Überlinger See mit grosszügigen Gastliegeplätzen."
   },
   {
     "id": "osm-way-1348733820-gemeindehafen-horn",
@@ -974,6 +1458,16 @@
     "candidateUrl": "https://ycho.de/",
     "candidateUrlKind": "web",
     "source": "https://ycho.de/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 200,
+    "guestBerths": 15,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran"
+    ],
+    "notes": "Gemeindehafen in Horn TG am Schweizer Südufer; guter Ausgangspunkt für Überfahrten nach Friedrichshafen."
   }
 ]
