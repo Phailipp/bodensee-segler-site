@@ -17,6 +17,40 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "bangkok_am_see_fn",
+    "name": "Bangkok am See",
+    "country": "DE",
+    "location": "Friedrichshafen, Seestr.",
+    "lat": 47.6504,
+    "lng": 9.4773,
+    "price": "€€",
+    "features": [
+      "Thai-Küche",
+      "Sushi",
+      "Direkt am See"
+    ],
+    "url": "https://www.bangkok-fn.de/",
+    "source": "https://www.bangkok-fn.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "blue_marina_gohren",
+    "name": "Blue Marina",
+    "country": "DE",
+    "location": "Kressbronn-Gohren, Hafen",
+    "lat": 47.5878,
+    "lng": 9.559,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Seeterrasse",
+      "Direkt am Hafen"
+    ],
+    "url": "https://www.blue-marina.com",
+    "source": "https://www.blue-marina.com",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "fischhaus_konstanz",
     "name": "Fischhaus am Fährhafen",
     "country": "DE",
@@ -30,6 +64,74 @@
     ],
     "url": "https://www.fischhaus-konstanz.de/",
     "source": "https://www.fischhaus-konstanz.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "gasthaus_schiff_moos",
+    "name": "Gasthaus Schiff",
+    "country": "DE",
+    "location": "Moos, Hafen",
+    "lat": 47.7264,
+    "lng": 8.9401,
+    "price": "€€",
+    "features": [
+      "Fischgerichte",
+      "Regionalküche",
+      "Seeterrasse"
+    ],
+    "url": "https://schiff-moos.de/",
+    "source": "https://schiff-moos.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "seeschau_dingelsdorf",
+    "name": "Gasthaus Seeschau",
+    "country": "DE",
+    "location": "Dingelsdorf",
+    "lat": 47.7036,
+    "lng": 9.1372,
+    "price": "€€",
+    "features": [
+      "Regionalküche",
+      "Gartenterrasse",
+      "Direkt am See"
+    ],
+    "url": "https://www.gasthaus-seeschau.de/",
+    "source": "https://www.gasthaus-seeschau.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "fliesshorn_birnau",
+    "name": "Gaststätte am Fließhorn",
+    "country": "DE",
+    "location": "Birnau-Maurach, Fließhorn",
+    "lat": 47.7378,
+    "lng": 9.2089,
+    "price": "€€",
+    "features": [
+      "Thai-Küche",
+      "Seeterrasse",
+      "Seeblick"
+    ],
+    "url": "https://www.gaststaette-fliesshorn.de/",
+    "source": "https://www.gaststaette-fliesshorn.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "grillhaus_schussen_fn",
+    "name": "Grillhaus Schussen",
+    "country": "DE",
+    "location": "Friedrichshafen, Hinterer Hafen",
+    "lat": 47.6502,
+    "lng": 9.4821,
+    "price": "€€",
+    "features": [
+      "Grillgerichte",
+      "Direkt am Hafen",
+      "Auf Fährschiff"
+    ],
+    "url": "https://www.grillhaus-schussen.de/",
+    "source": "https://www.grillhaus-schussen.de/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -100,6 +202,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "heinzler_immenstaad",
+    "name": "Heinzler am See",
+    "country": "DE",
+    "location": "Immenstaad",
+    "lat": 47.6641,
+    "lng": 9.3671,
+    "price": "€€€",
+    "features": [
+      "Gourmet",
+      "Seeterrasse",
+      "Weinhotel"
+    ],
+    "url": "https://www.heinzleramsee.de/de/home",
+    "source": "https://www.heinzleramsee.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "mole_radolfzell",
     "name": "MOLE Radolfzell",
     "country": "DE",
@@ -117,6 +236,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "mediterra_uhldingen",
+    "name": "Mediterra",
+    "country": "DE",
+    "location": "Uhldingen, Hafen",
+    "lat": 47.7229,
+    "lng": 9.228,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Direkt am Hafen",
+      "Pizza"
+    ],
+    "url": "https://www.mediterra-bodensee.com/",
+    "source": "https://www.mediterra-bodensee.com/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "pier69_bregenz",
     "name": "Pier 69",
     "country": "AT",
@@ -131,6 +267,40 @@
     ],
     "url": "https://www.pier69.at/",
     "source": "https://www.pier69.at/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "restaurant_hafen_romanshorn",
+    "name": "Restaurant Hafen",
+    "country": "CH",
+    "location": "Romanshorn, Hafen",
+    "lat": 47.5651,
+    "lng": 9.3808,
+    "price": "CHF €€",
+    "features": [
+      "Fischgerichte",
+      "Schweizer Küche",
+      "Hafenblick"
+    ],
+    "url": "https://restaurant-hafen.ch",
+    "source": "https://restaurant-hafen.ch",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "seegarten_allensbach",
+    "name": "Restaurant Seegarten",
+    "country": "DE",
+    "location": "Allensbach",
+    "lat": 47.7161,
+    "lng": 9.0737,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Seeterrasse",
+      "Seeblick"
+    ],
+    "url": "https://www.seegarten-restaurant.de/",
+    "source": "https://www.seegarten-restaurant.de/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -199,6 +369,23 @@
     ],
     "url": "https://www.steghaus-hagnau.de/",
     "source": "https://www.steghaus-hagnau.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "loechnerhaus_bodman",
+    "name": "Strandhotel Löchnerhaus",
+    "country": "DE",
+    "location": "Bodman",
+    "lat": 47.8099,
+    "lng": 9.0468,
+    "price": "€€-€€€",
+    "features": [
+      "Gehobene Küche",
+      "Seeterrasse",
+      "Seeblick"
+    ],
+    "url": "https://www.loechnerhaus.de/",
+    "source": "https://www.loechnerhaus.de/",
     "lastVerified": "2026-03-23"
   },
   {
