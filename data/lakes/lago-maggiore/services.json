@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "tankstelle_locarno",
+    "name": "Tankstelle Di Domenico Locarno",
+    "country": "CH",
+    "type": "fuel",
+    "details": "Benzin & Diesel · Centro Nautico Di Domenico",
+    "lat": 46.1559,
+    "lng": 8.8038,
+    "url": "https://www.didomenico.ch/",
+    "source": "https://www.didomenico.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "slip_locarno",
+    "name": "Slip Porto Regionale Locarno",
+    "country": "CH",
+    "type": "slip",
+    "details": "Öffentliche Sliprampe am Hafen Locarno",
+    "lat": 46.1663,
+    "lng": 8.8045,
+    "url": "https://www.portolocarno.com",
+    "source": "https://www.portolocarno.com",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "tankstelle_verbania",
+    "name": "Tankstelle Verbania-Intra",
+    "country": "IT",
+    "type": "fuel",
+    "details": "Benzin & Diesel · im Hafen Verbania-Intra",
+    "lat": 45.934,
+    "lng": 8.574,
+    "url": "https://portolago.com/",
+    "source": "https://portolago.com/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "kran_portolabieno",
+    "name": "Kran Marina Portolabieno",
+    "country": "IT",
+    "type": "crane",
+    "details": "Kran für Ein-/Auswassern · Marina Portolabieno Laveno",
+    "lat": 45.9125,
+    "lng": 8.6156,
+    "url": "https://www.portolabieno.com/",
+    "source": "https://www.portolabieno.com/",
+    "lastVerified": "2026-03-23"
+  }
+]

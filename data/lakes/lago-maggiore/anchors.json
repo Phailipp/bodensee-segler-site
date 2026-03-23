@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "maggia_delta",
+    "name": "Maggia-Delta",
+    "country": "CH",
+    "region": "Locarno/Ascona",
+    "lat": 46.167,
+    "lng": 8.787,
+    "depthMinM": 1,
+    "depthMaxM": 4,
+    "ground": "Sand",
+    "protection": "S/SW",
+    "overnight": false,
+    "notes": "Idyllischster Ankerplatz am Lago Maggiore mit flachem Sandgrund. Vorsicht vor Berufsschifffahrt und Pegelstand beachten.",
+    "url": "https://bootfahren-lago-maggiore.de/revierfuehrer/ankern/",
+    "source": "bootfahren-lago-maggiore.de – Ankern",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "cannobio_camping",
+    "name": "Vor Camping Cannobio",
+    "country": "IT",
+    "region": "Cannobio",
+    "lat": 46.066,
+    "lng": 8.697,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Schlamm/Sand",
+    "protection": "W",
+    "overnight": true,
+    "notes": "Ankerplatz vor dem Campingplatz Cannobio. Pegelstand beachten, kann bei Niedrigwasser flach werden.",
+    "url": "https://bootfahren-lago-maggiore.de/revierfuehrer/ankern/",
+    "source": "bootfahren-lago-maggiore.de – Ankern",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "castelli_cannero",
+    "name": "Bei den Castelli di Cannero",
+    "country": "IT",
+    "region": "Cannero Riviera",
+    "lat": 46.017,
+    "lng": 8.679,
+    "depthMinM": 5,
+    "depthMaxM": 15,
+    "ground": "Fels/Schlamm",
+    "protection": "Nur Schönwetter",
+    "overnight": false,
+    "notes": "Malerischer Ankerplatz bei den Burgruinen im See. Sehr tief — nur in Ufernähe möglich. Pegelstand beachten.",
+    "url": "https://bootfahren-lago-maggiore.de/revierfuehrer/ankern/",
+    "source": "bootfahren-lago-maggiore.de – Ankern",
+    "lastVerified": "2026-03-23"
+  }
+]

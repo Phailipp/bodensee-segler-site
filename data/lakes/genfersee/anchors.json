@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "coudree",
+    "name": "Vor Château de Coudrée",
+    "country": "FR",
+    "region": "Sciez, Petit Lac",
+    "lat": 46.335,
+    "lng": 6.362,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Sand/Schlamm",
+    "protection": "N/NE",
+    "overnight": false,
+    "notes": "Beliebter Ankerplatz vor dem Strand beim Château de Coudrée. Mässiger Ankergrund, mit Kette besser.",
+    "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
+    "source": "hisse-et-oh.com – Mouiller l'ancre sur le Léman",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "celigny",
+    "name": "Vor Céligny",
+    "country": "CH",
+    "region": "Céligny, Petit Lac",
+    "lat": 46.348,
+    "lng": 6.208,
+    "depthMinM": 5,
+    "depthMaxM": 10,
+    "ground": "Schlamm",
+    "protection": "S/SW",
+    "overnight": false,
+    "notes": "Ankerplatz vor der Genfer Enklave Céligny bei weniger als 10m Tiefe.",
+    "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
+    "source": "hisse-et-oh.com – Mouiller l'ancre sur le Léman",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "les_aberiaux",
+    "name": "Vor Les Abériaux",
+    "country": "CH",
+    "region": "Gland",
+    "lat": 46.391,
+    "lng": 6.257,
+    "depthMinM": 5,
+    "depthMaxM": 10,
+    "ground": "Schlamm",
+    "protection": "S",
+    "overnight": false,
+    "notes": "Ankerplatz vor Les Abériaux bei Gland, geschützt bei Nordwind.",
+    "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
+    "source": "hisse-et-oh.com – Mouiller l'ancre sur le Léman",
+    "lastVerified": "2026-03-23"
+  }
+]

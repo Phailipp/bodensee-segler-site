@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": "slip_spiez",
+    "name": "Slip Spiez",
+    "country": "CH",
+    "type": "slip",
+    "details": "Öffentliche Sliprampe im Hafen Spiez",
+    "lat": 46.686,
+    "lng": 7.685,
+    "url": "https://www.spiez.com/en/activities/on-the-water",
+    "source": "https://www.spiez.com/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "slip_thun",
+    "name": "Slip Thun",
+    "country": "CH",
+    "type": "slip",
+    "details": "Sliprampe am Seeufer Thun",
+    "lat": 46.752,
+    "lng": 7.631,
+    "url": "https://www.thun.ch/",
+    "source": "https://www.thun.ch/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "kran_spiez",
+    "name": "Kran Spiez Marina",
+    "country": "CH",
+    "type": "crane",
+    "details": "Kran für Ein-/Auswassern · Spiez Marina",
+    "lat": 46.686,
+    "lng": 7.686,
+    "url": "https://www.spiez.com/en/activities/on-the-water",
+    "source": "https://www.spiez.com/",
+    "lastVerified": "2026-03-23"
+  }
+]

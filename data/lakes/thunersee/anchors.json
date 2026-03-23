@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "spiez_bucht",
+    "name": "Bucht von Spiez",
+    "country": "CH",
+    "region": "Spiez",
+    "lat": 46.686,
+    "lng": 7.685,
+    "depthMinM": 3,
+    "depthMaxM": 10,
+    "ground": "Schlamm",
+    "protection": "N/NW",
+    "overnight": false,
+    "notes": "Geschützte Bucht vor Spiez. Max. 24h ankern ohne Bewilligung. Mindestabstand 25m zu Schilf. Gästebootsplätze in der Bucht vorhanden.",
+    "url": "https://www.spiez.com/en/activities/on-the-water/moorings-for-guest-boats",
+    "source": "Spiez Marketing AG – Gästebootsplätze",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "oberhofen",
+    "name": "Vor Oberhofen",
+    "country": "CH",
+    "region": "Oberhofen am Thunersee",
+    "lat": 46.729,
+    "lng": 7.668,
+    "depthMinM": 5,
+    "depthMaxM": 15,
+    "ground": "Schlamm",
+    "protection": "S",
+    "overnight": false,
+    "notes": "Ankerplatz vor dem Schloss Oberhofen mit Blick auf Eiger, Mönch und Jungfrau. Max. 24h ohne Bewilligung.",
+    "url": "https://www.police.be.ch/content/dam/police/dokumente/police-be-ch/d/seepolizei/vorschriften_seepolizei_de.pdf",
+    "source": "Seepolizei Bern – Vorschriften",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "faulensee",
+    "name": "Vor Faulensee",
+    "country": "CH",
+    "region": "Faulensee bei Spiez",
+    "lat": 46.69,
+    "lng": 7.712,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Sand/Schlamm",
+    "protection": "W/NW",
+    "overnight": false,
+    "notes": "Ruhiger Ankerplatz am Südufer östlich von Spiez. Max. 24h ohne Bewilligung, 25m Abstand zu Schilfzonen.",
+    "url": "https://www.police.be.ch/content/dam/police/dokumente/police-be-ch/d/seepolizei/vorschriften_seepolizei_de.pdf",
+    "source": "Seepolizei Bern – Vorschriften",
+    "lastVerified": "2026-03-23"
+  }
+]
