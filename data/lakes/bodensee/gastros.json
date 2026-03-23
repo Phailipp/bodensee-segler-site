@@ -34,6 +34,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "beachclub_fn",
+    "name": "Beach Club Friedrichshafen",
+    "country": "DE",
+    "location": "Friedrichshafen, Strand",
+    "lat": 47.6519,
+    "lng": 9.4713,
+    "price": "€€",
+    "features": [
+      "Strandbar",
+      "Cocktails",
+      "Direkt am See"
+    ],
+    "url": "https://www.beachclub-fn.de/",
+    "source": "https://www.beachclub-fn.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "blue_marina_gohren",
     "name": "Blue Marina",
     "country": "DE",
@@ -48,6 +65,23 @@
     ],
     "url": "https://www.blue-marina.com",
     "source": "https://www.blue-marina.com",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "da_salvatore_wasserburg",
+    "name": "Da Salvatore",
+    "country": "DE",
+    "location": "Wasserburg, Halbinsel",
+    "lat": 47.5648,
+    "lng": 9.637,
+    "price": "€€",
+    "features": [
+      "Italienisch",
+      "Fischgerichte",
+      "Seeblick"
+    ],
+    "url": "https://dasalvatore-wasserburg.de/",
+    "source": "https://dasalvatore-wasserburg.de/",
     "lastVerified": "2026-03-23"
   },
   {
@@ -219,6 +253,40 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "konzil_konstanz",
+    "name": "Konzil Konstanz",
+    "country": "DE",
+    "location": "Konstanz, Hafen",
+    "lat": 47.6598,
+    "lng": 9.1758,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Historisches Gebäude",
+      "Direkt am Hafen"
+    ],
+    "url": "https://www.konzil-konstanz.de/",
+    "source": "https://www.konzil-konstanz.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "lindauer_hof",
+    "name": "Lindauer Hof",
+    "country": "DE",
+    "location": "Lindau, Insel",
+    "lat": 47.5445,
+    "lng": 9.6856,
+    "price": "€€-€€€",
+    "features": [
+      "Gourmet",
+      "Panoramaterrasse",
+      "Hafenblick"
+    ],
+    "url": "https://www.lindauerhof.de/",
+    "source": "https://www.lindauerhof.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "mole_radolfzell",
     "name": "MOLE Radolfzell",
     "country": "DE",
@@ -321,6 +389,55 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "seehotel_muenz",
+    "name": "Restaurant Seehotel zur Münz",
+    "country": "DE",
+    "location": "Unteruhldingen",
+    "lat": 47.7233,
+    "lng": 9.2304,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Seeterrasse"
+    ],
+    "url": "https://www.seehotel-zur-muenz.de/",
+    "source": "https://www.seehotel-zur-muenz.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "schlosshotel_wasserburg",
+    "name": "SchlossHotel Wasserburg",
+    "country": "DE",
+    "location": "Wasserburg, Halbinsel",
+    "lat": 47.5652,
+    "lng": 9.6347,
+    "price": "€€-€€€",
+    "features": [
+      "Gehobene Küche",
+      "Seeblick"
+    ],
+    "url": "https://www.schloss-hotel-wasserburg.de/",
+    "source": "https://www.schloss-hotel-wasserburg.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "seeliebe_beach_sipplingen",
+    "name": "Seeliebe Beach Club",
+    "country": "DE",
+    "location": "Sipplingen",
+    "lat": 47.7942,
+    "lng": 9.1004,
+    "price": "€€",
+    "features": [
+      "Beach Club",
+      "Cocktails",
+      "Direkt am See"
+    ],
+    "url": "https://hotelseeliebe.de/en/beach-club/",
+    "source": "https://hotelseeliebe.de/en/beach-club/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "seerestaurant_adler",
     "name": "Seerestaurant Adler",
     "country": "DE",
@@ -355,6 +472,23 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "seerestaurant_salzmann",
+    "name": "Seerestaurant Salzmann",
+    "country": "AT",
+    "location": "Fussach, Rohrspitz",
+    "lat": 47.498,
+    "lng": 9.6298,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Direkt am Hafen",
+      "Seeterrasse"
+    ],
+    "url": "https://www.salzmann.at/",
+    "source": "https://www.salzmann.at/",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "steghaus_hagnau",
     "name": "Steghaus",
     "country": "DE",
@@ -386,6 +520,23 @@
     ],
     "url": "https://www.loechnerhaus.de/",
     "source": "https://www.loechnerhaus.de/",
+    "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "tressbrueder_fn",
+    "name": "TressBrüder Museumsrestaurant",
+    "country": "DE",
+    "location": "Friedrichshafen, Zeppelin Museum",
+    "lat": 47.6544,
+    "lng": 9.4785,
+    "price": "€€",
+    "features": [
+      "Bio-Küche",
+      "Schwäbisch",
+      "Panoramaterrasse"
+    ],
+    "url": "https://www.tressbrueder.de/bio-restaurants/bio-museumsrestaurant-in-friedrichshafen/",
+    "source": "https://www.tressbrueder.de/",
     "lastVerified": "2026-03-23"
   },
   {
