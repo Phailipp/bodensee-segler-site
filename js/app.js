@@ -1415,19 +1415,24 @@ function initMap() {
     mapEl.style.position = 'relative';
     mapEl.appendChild(hint);
 
-    mapEl.addEventListener('wheel', (e) => {
-      if (e.ctrlKey || e.metaKey) {
-        e.preventDefault();
-        if (e.deltaY < 0) state.map.zoomIn();
-        else if (e.deltaY > 0) state.map.zoomOut();
-        hint.style.opacity = '0';
-        clearTimeout(hintTimer);
-      } else {
-        hint.style.opacity = '1';
-        clearTimeout(hintTimer);
-        hintTimer = setTimeout(() => { hint.style.opacity = '0'; }, 1500);
-      }
+    // Must listen on document level to intercept browser's Ctrl+scroll
+    // page zoom before it happens — element-level preventDefault is too late
+    document.addEventListener('wheel', (e) => {
+      if (!(e.ctrlKey || e.metaKey)) return;
+      if (!mapEl.contains(e.target)) return;
+      e.preventDefault();
+      if (e.deltaY < 0) state.map.zoomIn();
+      else if (e.deltaY > 0) state.map.zoomOut();
+      hint.style.opacity = '0';
+      clearTimeout(hintTimer);
     }, { passive: false });
+
+    mapEl.addEventListener('wheel', (e) => {
+      if (e.ctrlKey || e.metaKey) return; // handled above
+      hint.style.opacity = '1';
+      clearTimeout(hintTimer);
+      hintTimer = setTimeout(() => { hint.style.opacity = '0'; }, 1500);
+    }, { passive: true });
   }
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
