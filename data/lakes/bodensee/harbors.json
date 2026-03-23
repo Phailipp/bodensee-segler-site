@@ -460,14 +460,17 @@
     "candidateUrlKind": "web",
     "source": "https://gemeinde.lochau.at/hafen.html",
     "lastVerified": "2026-02-18",
-    "berths": 80,
-    "guestBerths": 5,
-    "maxDraftM": 1.5,
+    "berths": 177,
+    "guestBerths": 10,
+    "maxDraftM": 2.5,
     "features": [
       "Strom",
-      "Sanitär"
+      "Wasser",
+      "Sanitär",
+      "Fäkalienabsaugung",
+      "Gastronomie"
     ],
-    "notes": "Kleiner Hafen östlich von Lochau am österreichischen Ufer; gut geschützt vor Westwind."
+    "notes": "Größerer der beiden Lochauer Gemeindehäfen mit 177 Wasserliegeplätzen. Bei starkem Föhn kann es im Hafen schaukelig werden; direkt an der Mole befindet sich das Restaurant Alte Fähre."
   },
   {
     "id": "osm-way-37978752-gemeindehafen-bottighofen",
@@ -483,15 +486,21 @@
     "candidateUrlKind": "web",
     "source": "https://www.svb-bottighofen.ch/",
     "lastVerified": "2026-02-18",
-    "berths": 120,
-    "guestBerths": 8,
-    "maxDraftM": 1.5,
+    "berths": 224,
+    "guestBerths": 10,
+    "maxDraftM": 2.5,
     "features": [
       "Strom",
       "Wasser",
-      "Sanitär"
+      "Sanitär",
+      "Kran",
+      "Slip",
+      "Tankstelle",
+      "Fäkalienabsaugung",
+      "WLAN",
+      "Gastronomie"
     ],
-    "notes": "Gemeindehafen zwischen Kreuzlingen und Münsterlingen am Schweizer Südufer; Blauer-Anker-Zertifikat."
+    "notes": "Gut geschützter Gemeindehafen seit 2007 mit 224 Plätzen, auch für breitere Yachten mit viel Tiefgang geeignet. Das Restaurant Silo 5 liegt direkt am Hafenbecken."
   },
   {
     "id": "osm-way-48531302-yachthafen-radolfzell",
@@ -507,17 +516,15 @@
     "candidateUrlKind": "web",
     "source": "https://www.ycra.de/",
     "lastVerified": "2026-02-18",
-    "berths": 400,
-    "guestBerths": 20,
-    "maxDraftM": 1.8,
+    "berths": 165,
+    "guestBerths": 10,
+    "maxDraftM": 2.0,
     "features": [
-      "Strom",
-      "Wasser",
       "Sanitär",
-      "Kran",
-      "Winterlager"
+      "Fäkalienabsaugung",
+      "Gastronomie"
     ],
-    "notes": "Grosser städtischer Yachthafen am Untersee mit guter Infrastruktur; Radolfzeller Altstadt fussläufig erreichbar."
+    "notes": "Vereinshafen des Wassersportclub Wäschbruck am Untersee mit 165 Liegeplätzen und ausreichender Wassertiefe auch bei Niedrigwasser. Die Radolfzeller Innenstadt ist fußläufig erreichbar."
   },
   {
     "id": "osm-way-76032579-hafen-am-rohrspitz",
@@ -558,18 +565,17 @@
     "candidateUrlKind": "web",
     "source": "https://www.marinarheinhof.ch/",
     "lastVerified": "2026-02-18",
-    "berths": 250,
+    "berths": 350,
     "guestBerths": 15,
-    "maxDraftM": 2.0,
+    "maxDraftM": 2.5,
     "features": [
       "Strom",
       "Wasser",
       "Sanitär",
       "Kran",
-      "Winterlager",
       "Gastronomie"
     ],
-    "notes": "Grosse Werft- und Hafenanlage mit Restaurant am Schweizer Ufer bei Steinach; gute Winterlager-Kapazitäten."
+    "notes": "Großer Vereinshafen nahe Altenrhein mit 350 Liegeplätzen in einem ehemaligen Kiesbaggerbecken. Die Zufahrt erfolgt über den Alten Rhein durch eine enge Hafeneinfahrt mit selbst zu bedienender Zugbrücke."
   },
   {
     "id": "osm-way-83200835-bregenzer-sporthafen",
@@ -585,15 +591,18 @@
     "candidateUrlKind": "web",
     "source": "https://www.hafen-bregenz.at/inhalt/at/41.htm",
     "lastVerified": "2026-03-22",
-    "berths": 150,
-    "guestBerths": 10,
-    "maxDraftM": 1.8,
+    "berths": 391,
+    "guestBerths": 30,
+    "maxDraftM": 4.0,
     "features": [
       "Strom",
       "Wasser",
-      "Sanitär"
+      "Sanitär",
+      "Slip",
+      "Fäkalienabsaugung",
+      "Winterlager"
     ],
-    "notes": "Sporthafen in der Bregenzer Bucht mit Blick auf die Festspielbühne; beliebter Ausgangspunkt für Obersee-Törns."
+    "notes": "Größter städtischer Hafen von Bregenz mit 391 Wasser- und 86 Trockenliegeplätzen, ruhig gelegen ca. 2,5 km außerhalb des Zentrums. Gästesteg mit Muringanlage für bis zu 30 Gastboote."
   },
   {
     "id": "osm-way-83200836-hafen-bregenz",
@@ -609,16 +618,16 @@
     "candidateUrlKind": "web",
     "source": "https://www.hafen-bregenz.at/",
     "lastVerified": "2026-03-22",
-    "berths": 200,
-    "guestBerths": 15,
-    "maxDraftM": 2.0,
+    "berths": 100,
+    "guestBerths": 10,
+    "maxDraftM": 2.5,
     "features": [
       "Strom",
       "Wasser",
       "Sanitär",
-      "Tankstelle"
+      "Gastronomie"
     ],
-    "notes": "Grosser Hafen direkt an der Bregenzer Seepromenade; zentrale Lage mit Tankstelle und guter Anbindung."
+    "notes": "Historischer Haupthafen von Bregenz in zentraler Lage nahe der Seepromenade und Festspielbühne. Dient auch als Anleger für die Bodensee-Schifffahrt."
   },
   {
     "id": "osm-way-83200839-lochau-westhafen",
@@ -634,14 +643,16 @@
     "candidateUrlKind": "web",
     "source": "https://gemeinde.lochau.at/hafen.html",
     "lastVerified": "2026-03-22",
-    "berths": 100,
-    "guestBerths": 6,
-    "maxDraftM": 1.5,
+    "berths": 96,
+    "guestBerths": 5,
+    "maxDraftM": 2.0,
     "features": [
       "Strom",
-      "Sanitär"
+      "Wasser",
+      "Sanitär",
+      "Gastronomie"
     ],
-    "notes": "Westlicher Hafen in Lochau nahe der deutschen Grenze; ruhige Lage am Fusse des Pfänders."
+    "notes": "Kleinerer der beiden Lochauer Gemeindehäfen mit 96 Wasserliegeplätzen, eher für kleinere Yachten geeignet. Auf der Mole zwischen Ost- und Westhafen befinden sich Hafenmeisterbüro und Sanitäranlagen."
   },
   {
     "id": "osm-way-92873407-bodensee-yacht-club-überlingen-bycü",
@@ -733,17 +744,17 @@
     "candidateUrlKind": "web",
     "source": "https://www.romanshorn.ch/verwaltung/anlagen-und-betriebe/hafen.html/135",
     "lastVerified": "2026-03-22",
-    "berths": 350,
-    "guestBerths": 30,
+    "berths": 322,
+    "guestBerths": 40,
     "maxDraftM": 2.5,
     "features": [
       "Strom",
       "Wasser",
       "Sanitär",
       "Kran",
-      "Slip"
+      "Gastronomie"
     ],
-    "notes": "Grosser Gemeindehafen beim Bahnhof Romanshorn mit 12t-Kran; Fährterminal nach Friedrichshafen in direkter Nähe."
+    "notes": "Großer Gemeindehafen in Romanshorn mit 322 Liegeplätzen im Bootshafen und weiteren 131 im Inselihafen. Gastlieger finden 40 Plätze an Mooringbojen im Nordwesten des Hafens."
   },
   {
     "id": "osm-way-96681044-sbs-jachthafen-romanshorn",
@@ -759,16 +770,19 @@
     "candidateUrlKind": "web",
     "source": "https://www.sscro.com/hafen/",
     "lastVerified": "2026-03-22",
-    "berths": 180,
-    "guestBerths": 15,
-    "maxDraftM": 2.0,
+    "berths": 350,
+    "guestBerths": 20,
+    "maxDraftM": 3.0,
     "features": [
       "Strom",
       "Wasser",
       "Sanitär",
-      "Kran"
+      "Kran",
+      "Slip",
+      "Fäkalienabsaugung",
+      "Winterlager"
     ],
-    "notes": "Vereinshafen der Seglergemeinschaft SBS am Romanshorner Hafenbecken; eigener Kran und Winterlagerplätze."
+    "notes": "Von der Schweizerischen Bodensee-Schifffahrt AG betriebener Yachthafen mit 350 Liegeplätzen und angrenzender Werft. Portalkrane bis 20 Tonnen sowie Takelmast stehen zur Verfügung."
   },
   {
     "id": "osm-way-105299710-yachthafen-schloss-kirchberg",
@@ -909,15 +923,16 @@
     "candidateUrlKind": "web",
     "source": "https://www.hafen-bregenz.at/",
     "lastVerified": "2026-03-22",
-    "berths": 120,
-    "guestBerths": 10,
-    "maxDraftM": 2.0,
+    "berths": 76,
+    "guestBerths": 24,
+    "maxDraftM": 4.0,
     "features": [
       "Strom",
       "Wasser",
-      "Sanitär"
+      "Sanitär",
+      "Gastronomie"
     ],
-    "notes": "Marina im Bregenzer Hafengebiet mit modernen Schwimmstegen; gute Ausgangslage für das Vorarlberger Ufer."
+    "notes": "Moderne Marina im östlichen Teil des Bregenzer Hafenbeckens mit 76 Dauer- und 24 Gastplätzen an Fingerstegen. Zentral gelegen mit direkter Anbindung an Bahn und Parkgarage."
   },
   {
     "id": "osm-way-127418867-bootshafen-seegarten-kreuzlingen",
@@ -1005,17 +1020,20 @@
     "candidateUrlKind": "web",
     "source": "https://www.wyc-fn.de/",
     "lastVerified": "2026-03-22",
-    "berths": 520,
-    "guestBerths": 60,
-    "maxDraftM": 3.2,
+    "berths": 270,
+    "guestBerths": 15,
+    "maxDraftM": 2.5,
     "features": [
-      "Kran",
-      "Winterlager",
       "Strom",
       "Wasser",
-      "Sanitär"
+      "Sanitär",
+      "Kran",
+      "Slip",
+      "Fäkalienabsaugung",
+      "Winterlager",
+      "Gastronomie"
     ],
-    "notes": "Einer der grössten Seglervereine am Bodensee in Friedrichshafen; 8t-Kran und umfangreiche Winterlager-Infrastruktur."
+    "notes": "Traditionsreicher Yacht-Club am Westende der Friedrichshafener Uferpromenade mit 270 Wasserliegeplätzen und Portalkran bis 4 Tonnen. Ganzjährig geöffnetes Clubhaus-Restaurant mit Terrasse."
   },
   {
     "id": "osm-way-127496901-bmk-yachthafen-langenargen",
@@ -1031,8 +1049,8 @@
     "candidateUrlKind": "web",
     "source": "https://www.bmk-yachthafen.de/",
     "lastVerified": "2026-03-22",
-    "berths": 450,
-    "guestBerths": 25,
+    "berths": 420,
+    "guestBerths": 30,
     "maxDraftM": 2.5,
     "features": [
       "Strom",
@@ -1040,10 +1058,11 @@
       "Sanitär",
       "Kran",
       "Slip",
+      "WLAN",
       "Winterlager",
       "Gastronomie"
     ],
-    "notes": "Grosser Vereinshafen des BMK Langenargen mit Werft und Restaurant; einer der bestausgestatteten Häfen am Nordufer."
+    "notes": "Idyllischer Naturhafen aus einer ehemaligen Kiesgrube mit ca. 420 Liegeplätzen und Krananlagen bis 25 Tonnen. Natürlicher Baumbestand am Ufer sorgt für ruhige Liegeplätze bei jeder Wetterlage."
   },
   {
     "id": "osm-way-127496902-ultramarin-die-meichle-mohr-marina",
@@ -1059,21 +1078,22 @@
     "candidateUrlKind": "web",
     "source": "https://www.ultramarin.com/",
     "lastVerified": "2026-03-22",
-    "berths": 1200,
+    "berths": 1400,
     "guestBerths": 50,
     "maxDraftM": 3.0,
     "features": [
       "Strom",
       "Wasser",
-      "WLAN",
       "Sanitär",
       "Kran",
       "Slip",
+      "WLAN",
       "Tankstelle",
       "Winterlager",
+      "Fäkalienabsaugung",
       "Gastronomie"
     ],
-    "notes": "Grösste Marina am Bodensee in Kressbronn mit über 1200 Liegeplätzen, 50t-Kran, Werft, Tankstelle und umfangreicher Gastronomie."
+    "notes": "Größtes Wassersportzentrum am Bodensee mit rund 1.400 Liegeplätzen auf 200.000 m² Hafenfläche in Kressbronn-Gohren. Umfassende Infrastruktur mit Werft, Segelschule, Yachtcharter, Fachmarkt und vier Restaurants."
   },
   {
     "id": "osm-way-127497728-yachthafen-haltnau-yacht-club-meersburg",
@@ -1311,16 +1331,16 @@
     "candidateUrlKind": "web",
     "source": "https://www.ylb.de/ylb/index.php",
     "lastVerified": "2026-03-22",
-    "berths": 150,
-    "guestBerths": 10,
-    "maxDraftM": 1.8,
+    "berths": 111,
+    "guestBerths": 8,
+    "maxDraftM": 2.2,
     "features": [
       "Strom",
       "Wasser",
       "Sanitär",
-      "Kran"
+      "Gastronomie"
     ],
-    "notes": "Yachthafen am Überlinger See in Ludwigshafen; ruhige Lage mit Blick auf die Bodanrück-Halbinsel."
+    "notes": "Vereinshafen des Yacht-Club Ludwigshafen am Überlinger See mit 111 Liegeplätzen an 3 Stegen. Ruhige Lage am Naturschutzgebiet SeeEnd, abseits der großen Segelrouten."
   },
   {
     "id": "osm-way-937387060-hafen-rohner",
@@ -1459,15 +1479,14 @@
     "candidateUrlKind": "web",
     "source": "https://ycho.de/",
     "lastVerified": "2026-03-22",
-    "berths": 200,
+    "berths": 300,
     "guestBerths": 15,
     "maxDraftM": 2.0,
     "features": [
-      "Strom",
-      "Wasser",
       "Sanitär",
-      "Kran"
+      "Fäkalienabsaugung",
+      "Gastronomie"
     ],
-    "notes": "Gemeindehafen in Horn TG am Schweizer Südufer; guter Ausgangspunkt für Überfahrten nach Friedrichshafen."
+    "notes": "Drei Hafenanlagen der Gemeinde Horn am Schweizer Bodenseeufer mit insgesamt rund 300 Bootsliegeplätzen. Guter Schutz bei allen Winden und zahlreiche Restaurants in unmittelbarer Nähe."
   }
 ]
