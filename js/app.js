@@ -111,7 +111,9 @@ function applyLakeBranding() {
   if (hero) {
     const img = new Image();
     img.src = `assets/hero-${lakeId}.jpg`;
-    img.onload = () => hero.style.setProperty('--hero-bg', `url('assets/hero-${lakeId}.jpg')`);
+    img.onload = () => {
+      hero.style.backgroundImage = `linear-gradient(180deg, rgba(12,25,41,0.3) 0%, rgba(12,25,41,0.8) 100%), url('assets/hero-${lakeId}.jpg')`;
+    };
   }
 
   // Logo already handled by selector, but keep it safe
@@ -1026,8 +1028,18 @@ function initLakeSelector() {
   if (label && current) label.textContent = current.name;
   if (logo && current?.name) logo.textContent = current.name;
 
-  const open = () => { wrapper.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); };
-  const close = () => { wrapper.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); };
+  // Mobile backdrop
+  let backdrop = document.getElementById('lakeSelectorBackdrop');
+  if (!backdrop) {
+    backdrop = document.createElement('div');
+    backdrop.id = 'lakeSelectorBackdrop';
+    backdrop.className = 'lake-selector-backdrop';
+    document.body.appendChild(backdrop);
+    backdrop.addEventListener('click', () => close());
+  }
+
+  const open = () => { wrapper.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); backdrop.classList.add('active'); };
+  const close = () => { wrapper.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); backdrop.classList.remove('active'); };
   const isOpen = () => wrapper.classList.contains('open');
 
   btn.addEventListener('click', (e) => {
