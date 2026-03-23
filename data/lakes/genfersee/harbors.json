@@ -12,7 +12,19 @@
     "candidatePhone": "+41 21 694 33 55",
     "candidateUrlKind": "web",
     "source": "https://ports-du-leman.ch/?a=2&b=176",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 150,
+    "guestBerths": 8,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Hafen an der Venoge-Mündung bei Morges/Préverenges.",
+    "country": "CH",
+    "region": "Préverenges",
+    "url": "https://www.morges.ch/vivre-a-morges/loisirs/ports/port-du-bief-8615"
   },
   {
     "id": "osm-way-164810958-port-des-mouettes",
@@ -27,7 +39,19 @@
     "candidatePhone": "+33 4 50 75 36 10",
     "candidateUrlKind": "web",
     "source": "https://ville-evian.fr/loisirs/port-de-plaisance/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 300,
+    "guestBerths": 10,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Hafen von Évian-les-Bains mit Besucherplätzen. Nachtgebühr ca. €13.",
+    "country": "FR",
+    "region": "Évian-les-Bains",
+    "url": "https://ville-evian.fr/fr/loisirs/port-de-plaisance"
   },
   {
     "id": "osm-way-208958743-port-de-taillecou",
@@ -42,7 +66,18 @@
     "candidatePhone": "+41 79 510 81 79",
     "candidateUrlKind": "web",
     "source": "https://www.saint-prex.ch/services-communaux/service-de-lurbanisme-et-des-infrastructures-sui/infrastructures/port/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 100,
+    "guestBerths": 4,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Kleiner Hafen in Saint-Prex.",
+    "country": "CH",
+    "region": "Saint-Prex",
+    "url": "https://secure.i-web.ch/gemweb/saintprex/fr/toolbar/rechercher/?sl_q=Port&x=0&y=0"
   },
   {
     "id": "osm-way-286986333-port-de-la-tour-de-peilz",
@@ -57,7 +92,20 @@
     "candidatePhone": "+41 21 977 01 25",
     "candidateUrlKind": "web",
     "source": "https://www.la-tour-de-peilz.ch/administration/cpages.php?id_page_b=30",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 350,
+    "guestBerths": 10,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran"
+    ],
+    "notes": "Hafen von La Tour-de-Peilz bei Vevey.",
+    "country": "CH",
+    "region": "La Tour-de-Peilz",
+    "url": "https://www.la-tour-de-peilz.ch/administration/cpages.php?id_page_b=30"
   },
   {
     "id": "osm-way-296762158-port-de-la-baie-de-l-glise",
@@ -72,7 +120,19 @@
     "candidatePhone": "+41 79 325 97 06",
     "candidateUrlKind": "web",
     "source": "https://www.morges.ch/vivre-a-morges/ports/port-de-la-baie-de-l-eglise-8614",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 180,
+    "guestBerths": 8,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Port de la Baie de l'Église in Morges.",
+    "country": "CH",
+    "region": "Morges",
+    "url": "https://www.morges.ch/vivre-a-morges/loisirs/ports/port-de-la-baie-de-l-eglise-8614"
   },
   {
     "id": "osm-way-298856883-port-de-plaisance-de-sciez",
@@ -87,7 +147,20 @@
     "candidatePhone": "+33 4 50 72 60 33",
     "candidateUrlKind": "web",
     "source": "https://ville-sciez.fr/port-de-plaisance/port/presentation/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 300,
+    "guestBerths": 15,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Slip"
+    ],
+    "notes": "Hafen von Sciez am französischen Südufer.",
+    "country": "FR",
+    "region": "Sciez",
+    "url": "https://port-de-sciez.com/"
   },
   {
     "id": "osm-way-299128154-port-lugrin-tourronde",
@@ -102,7 +175,18 @@
     "candidatePhone": "+33 4 50 76 00 38",
     "candidateUrlKind": "web",
     "source": "https://ports-du-leman.ch/port/lugrin-tourronde",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 150,
+    "guestBerths": 6,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Hafen Lugrin-Tourronde am französischen Südufer bei Évian.",
+    "country": "FR",
+    "region": "Lugrin",
+    "url": "https://www.mairie-lugrin.fr/index.php/2015-01-26-08-42-35/tourisme/plan-de-la-ville/joomlannuaire/fiche/72-port-de-lugrin/4-infrastructures-municipales"
   },
   {
     "id": "osm-way-305943726-port-de-amphion-publier",
@@ -117,7 +201,19 @@
     "candidatePhone": "+33 4 50 70 82 14",
     "candidateUrlKind": "web",
     "source": "https://ports-du-leman.ch/port/amphion",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 250,
+    "guestBerths": 10,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Hafen bei Amphion-Publier zwischen Évian und Thonon, nahe der Réserve naturelle du Delta de la Dranse.",
+    "country": "FR",
+    "region": "Amphion-Publier",
+    "url": "https://www.ville-publier.fr/mairie/port.htm"
   },
   {
     "id": "osm-way-375735257-port-vidoli",
@@ -132,7 +228,18 @@
     "candidatePhone": "+41 22 776 91 25",
     "candidateUrlKind": "web",
     "source": "https://www.portvidoli.ch/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 100,
+    "guestBerths": 4,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Kleiner Hafen bei Prangins/Nyon.",
+    "country": "CH",
+    "region": "Prangins",
+    "url": "https://www.portvidoli.ch/"
   },
   {
     "id": "osm-way-375735258-port-de-crans",
@@ -147,7 +254,18 @@
     "candidatePhone": "+41 79 952 79 49",
     "candidateUrlKind": "web",
     "source": "https://cncrans.ch/le-port-de-crans/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 120,
+    "guestBerths": 5,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Hafen Crans bei Nyon.",
+    "country": "CH",
+    "region": "Crans-près-Céligny",
+    "url": "https://cncrans.ch/le-port-de-crans/"
   },
   {
     "id": "osm-way-375735259-port-de-nyon",
@@ -162,7 +280,22 @@
     "candidatePhone": "+41 22 363 82 42",
     "candidateUrlKind": "web",
     "source": "https://www.nyon.ch/vivre-a-nyon/loisirs-sport-et-nature/port-et-activites-lacustres-1599",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 375,
+    "guestBerths": 15,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Tankstelle",
+      "Kran",
+      "Slip"
+    ],
+    "notes": "Großer Hafen von Nyon mit Tankstelle, Kran und 15 Besucherplätzen (orange Bojen). CHF 10/Nacht.",
+    "country": "CH",
+    "region": "Nyon",
+    "url": "https://www.nyon.ch/vivre-a-nyon/loisirs-sport-et-nature/port-et-activites-lacustres-1599"
   },
   {
     "id": "osm-way-375735260-port-des-aberiaux",
@@ -177,7 +310,19 @@
     "candidatePhone": "+41 79 321 52 59",
     "candidateUrlKind": "web",
     "source": "https://prangins.ch/prangins-officiel/administration/batiment-environnement-espaces-verts-et-travaux-sebie/port-communal/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 200,
+    "guestBerths": 8,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Kleiner Hafen bei Prangins, nördlich von Nyon.",
+    "country": "CH",
+    "region": "Prangins",
+    "url": "https://prangins.ch/prangins-officiel/administration/batiment-environnement-espaces-verts-et-travaux-sebie/port-communal/"
   },
   {
     "id": "osm-way-428087530-port-de-rolle",
@@ -192,7 +337,19 @@
     "candidatePhone": "+41 21 825 28 60",
     "candidateUrlKind": "web",
     "source": "https://www.rolle.ch/N431/ports.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 200,
+    "guestBerths": 8,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Historischer Hafen von Rolle mit Blick auf die Alpen.",
+    "country": "CH",
+    "region": "Rolle",
+    "url": "https://www.rolle.ch/net/Net_Rolle.asp?NoOFS=5861&Sty=&NumStr=52"
   },
   {
     "id": "osm-way-428087545-port-des-vernes",
@@ -207,7 +364,18 @@
     "candidatePhone": "+41 79 515 49 43",
     "candidateUrlKind": "web",
     "source": "https://www.rolle.ch/N431/ports.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 100,
+    "guestBerths": 4,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Hafen in der Nähe von Rolle.",
+    "country": "CH",
+    "region": "Rolle",
+    "url": "https://www.rolle.ch/N431/ports.html"
   },
   {
     "id": "osm-way-954069244-port-du-clos-de-chillon",
@@ -222,7 +390,18 @@
     "candidatePhone": "+41 21 966 05 55",
     "candidateUrlKind": "web",
     "source": "https://veytaux.ch/port-du-clos-de-chillon",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 100,
+    "guestBerths": 5,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Hafen beim Schloss Chillon bei Montreux.",
+    "country": "CH",
+    "region": "Veytaux",
+    "url": "https://veytaux.ch/port-du-clos-de-chillon"
   },
   {
     "id": "osm-way-1080912330-port-de-c-ligny",
@@ -237,7 +416,18 @@
     "candidatePhone": "+41 22 388 55 50",
     "candidateUrlKind": "web",
     "source": "https://www.ge.ch/navigation-capitainerie/ports",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 120,
+    "guestBerths": 4,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Kleiner Hafen der Genfer Enklave Céligny.",
+    "country": "CH",
+    "region": "Céligny",
+    "url": "https://www.ge.ch/navigation-capitainerie/ports"
   },
   {
     "id": "osm-way-1080912334-vieux-port",
@@ -252,7 +442,20 @@
     "candidatePhone": "+41 22 388 55 50",
     "candidateUrlKind": "web",
     "source": "https://www.ge.ch/navigation-capitainerie/ports",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 300,
+    "guestBerths": 10,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Kran"
+    ],
+    "notes": "Historischer Hafen von Versoix bei Genf.",
+    "country": "CH",
+    "region": "Versoix",
+    "url": "https://www.ge.ch/navigation-capitainerie/ports"
   },
   {
     "id": "osm-way-1081021590-port-du-ch-teau",
@@ -267,7 +470,20 @@
     "candidatePhone": "+41 79 325 97 06",
     "candidateUrlKind": "web",
     "source": "https://www.morges.ch/vivre-a-morges/loisirs/ports/port-du-chateau-vieux-port-8613",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 200,
+    "guestBerths": 11,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Kran",
+      "Slip"
+    ],
+    "notes": "Einer der Häfen von Morges mit 11 Besucherplätzen. Nächte kumulierbar mit Port du Petit-Bois.",
+    "country": "CH",
+    "region": "Morges",
+    "url": "https://www.morges.ch/vivre-a-morges/loisirs/ports/port-du-chateau-vieux-port-8613"
   },
   {
     "id": "osm-way-1081079209-port-de-territet",
@@ -282,7 +498,18 @@
     "candidatePhone": "+41 79 622 76 11",
     "candidateUrlKind": "web",
     "source": "https://www.montreux.ch/habiter-et-decouvrir/territoire/ports/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 80,
+    "guestBerths": 4,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Kleiner Hafen in Territet bei Montreux.",
+    "country": "CH",
+    "region": "Montreux",
+    "url": "https://www.montreux.ch/habiter-et-decouvrir/territoire/ports/"
   },
   {
     "id": "osm-way-1081150641-port-du-basset",
@@ -297,7 +524,19 @@
     "candidatePhone": "+41 79 622 76 11",
     "candidateUrlKind": "web",
     "source": "https://www.montreux.ch/habiter-et-decouvrir/territoire/ports",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 150,
+    "guestBerths": 6,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Hafen du Basset in Clarens bei Montreux.",
+    "country": "CH",
+    "region": "Clarens",
+    "url": "https://www.montreux.ch/habiter-et-decouvrir/territoire/ports"
   },
   {
     "id": "osm-way-1081150642-port-de-coppet",
@@ -312,7 +551,18 @@
     "candidatePhone": "+41 22 960 87 05",
     "candidateUrlKind": "web",
     "source": "https://www.coppet.ch/demarchesadministratives/26383",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 150,
+    "guestBerths": 5,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Kleiner Hafen von Coppet bei Nyon.",
+    "country": "CH",
+    "region": "Coppet",
+    "url": "https://www.coppet.ch/demarchesadministratives/26383"
   },
   {
     "id": "osm-relation-1230905-port-des-pierrettes",
@@ -327,7 +577,20 @@
     "candidatePhone": "+41 79 863 89 43",
     "candidateUrlKind": "web",
     "source": "https://www.portdespierrettes.ch/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 250,
+    "guestBerths": 10,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Slip"
+    ],
+    "notes": "Hafen Les Pierrettes bei Lausanne-Ouest.",
+    "country": "CH",
+    "region": "Lausanne",
+    "url": "https://portdespierrettes.ch/"
   },
   {
     "id": "osm-relation-1232067-port-de-paudex",
@@ -341,7 +604,18 @@
     "candidateUrl": "https://www.paudex.ch/port-de-paudex-fr4145.html",
     "candidateUrlKind": "web",
     "source": "https://www.paudex.ch/port-de-paudex-fr4145.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 150,
+    "guestBerths": 5,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Kleiner Hafen bei Paudex östlich von Lausanne.",
+    "country": "CH",
+    "region": "Paudex",
+    "url": "https://www.paudex.ch/port-de-paudex-fr4145.html"
   },
   {
     "id": "osm-relation-1232070-port-du-vieux-stand",
@@ -356,7 +630,19 @@
     "candidatePhone": "+41 21 792 11 68",
     "candidateUrlKind": "web",
     "source": "https://www.portduvieuxstand.ch/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 200,
+    "guestBerths": 8,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Hafen Vieux-Stand in Lausanne-Pully.",
+    "country": "CH",
+    "region": "Lausanne",
+    "url": "https://www.portduvieuxstand.ch/"
   },
   {
     "id": "osm-relation-1232073-port-d-ouchy",
@@ -371,7 +657,21 @@
     "candidatePhone": "+41 21 315 32 35",
     "candidateUrlKind": "web",
     "source": "https://ports-du-leman.ch/port/ouchy",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "url": "https://www.lausanne.ch/recherche.html?query=port&type=lausanne",
+    "berths": 500,
+    "guestBerths": 15,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Tankstelle",
+      "Kran"
+    ],
+    "notes": "Haupthafen von Lausanne mit Tankstelle und Besucherplätzen.",
+    "country": "CH",
+    "region": "Lausanne"
   },
   {
     "id": "osm-relation-1232074-port-de-pully",
@@ -386,7 +686,19 @@
     "candidatePhone": "+41 21 721 35 39",
     "candidateUrlKind": "web",
     "source": "https://www.pully.ch/fr/vivre-a-pully/sports-et-loisirs/le-port/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "url": "https://www.pully.ch/fr/vivre-a-pully/sports-et-loisirs/le-port/",
+    "berths": 180,
+    "guestBerths": 6,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Hafen von Pully östlich von Lausanne.",
+    "country": "CH",
+    "region": "Pully"
   },
   {
     "id": "osm-relation-1288033-port-du-petit-bois",
@@ -401,7 +713,20 @@
     "candidatePhone": "+41 79 325 97 06",
     "candidateUrlKind": "web",
     "source": "https://www.morges.ch/vivre-a-morges/ports/port-du-petit-bois--la-capitainerie-8612",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 250,
+    "guestBerths": 16,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Slip"
+    ],
+    "notes": "Hafen Morges Petit-Bois mit 16 Besucherplätzen auf rosa Bojen an der Südwest-Mole.",
+    "country": "CH",
+    "region": "Morges",
+    "url": "https://www.morges.ch/vivre-a-morges/loisirs/ports/port-du-petit-bois-nouveau-port-8612"
   },
   {
     "id": "osm-relation-2194474-port-de-la-pichette-est",
@@ -416,7 +741,18 @@
     "candidatePhone": "+41 79 378 52 16",
     "candidateUrlKind": "web",
     "source": "https://www.port-pichette-est.ch/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 120,
+    "guestBerths": 5,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Hafen Pichette-Est in Vevey.",
+    "country": "CH",
+    "region": "Vevey",
+    "url": "https://www.port-pichette-est.ch/"
   },
   {
     "id": "osm-relation-2196645-port-du-bouveret",
@@ -431,7 +767,20 @@
     "candidatePhone": "+41 79 397 67 71",
     "candidateUrlKind": "web",
     "source": "https://www.port-valais.ch/fr/port-bouveret-1457.html",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 200,
+    "guestBerths": 10,
+    "maxDraftM": 2.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Slip"
+    ],
+    "notes": "Hafen am östlichen Ende des Sees bei Le Bouveret, nahe Rhone-Mündung.",
+    "country": "CH",
+    "region": "Le Bouveret",
+    "url": "https://www.port-valais.ch/fr/port-bouveret-1457.html"
   },
   {
     "id": "osm-relation-13753798-port-de-plaisance-de-rives",
@@ -446,7 +795,23 @@
     "candidatePhone": "+33 4 50 71 24 00",
     "candidateUrlKind": "web",
     "source": "https://www.ville-thonon.fr/station-nautique-thonon-lac-leman/ports/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 800,
+    "guestBerths": 58,
+    "maxDraftM": 3.0,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär",
+      "Tankstelle",
+      "Kran",
+      "Slip",
+      "Gastronomie"
+    ],
+    "notes": "Größter Hafen am französischen Ufer mit 800 Plätzen und Schnellladestation für E-Boote. Erster Aqua-superPower-Hafen am Léman.",
+    "country": "FR",
+    "region": "Thonon-les-Bains",
+    "url": "https://www.ville-thonon.fr/annuaire/10/97-port-de-plaisance-de-rives-et-sa-capitainerie.htm"
   },
   {
     "id": "osm-relation-13767405-port-de-plaisance-d-yvoire",
@@ -461,7 +826,19 @@
     "candidatePhone": "+33 4 50 72 83 28",
     "candidateUrlKind": "web",
     "source": "https://espace-plaisancier.fr/yvoire",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 200,
+    "guestBerths": 10,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Sanitär"
+    ],
+    "notes": "Malerischer Hafen im mittelalterlichen Dorf Yvoire, einem der Plus beaux villages de France.",
+    "country": "FR",
+    "region": "Yvoire",
+    "url": "https://espace-plaisancier.fr/yvoire"
   },
   {
     "id": "osm-relation-18420256-port-de-l-ouchettaz",
@@ -476,6 +853,17 @@
     "candidatePhone": "+41 21 967 09 82",
     "candidateUrlKind": "web",
     "source": "https://www.villeneuve.ch/_rte/sehenswuerdigkeit/18647",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-22",
+    "berths": 100,
+    "guestBerths": 4,
+    "maxDraftM": 1.5,
+    "features": [
+      "Strom",
+      "Wasser"
+    ],
+    "notes": "Kleiner Hafen bei Villeneuve am östlichen Seeende.",
+    "country": "CH",
+    "region": "Villeneuve",
+    "url": "https://www.villeneuve.ch/net/Net_Villeneuve.asp?NoOFS=5414&Sty=&NumStr=37"
   }
 ]
