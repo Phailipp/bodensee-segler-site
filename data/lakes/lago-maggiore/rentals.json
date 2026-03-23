@@ -1,46 +1,54 @@
 [
   {
-    "id": "osm-node-9108921476-nautica-costantini",
+    "id": "nautica_costantini",
     "name": "Nautica Costantini",
-    "lat": 45.8809375,
-    "lng": 8.5988036,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 9108921476,
-    "candidateUrl": "https://www.nauticacostantini.it",
-    "candidatePhone": "+39 3484424051",
-    "candidateUrlKind": "web",
-    "source": "https://www.nauticacostantini.it",
-    "lastVerified": "2026-03-22"
+    "country": "IT",
+    "location": "Verbania",
+    "lat": 45.934,
+    "lng": 8.574,
+    "fleetSize": 10,
+    "priceFrom": "ab €80/Tag",
+    "features": [
+      "Motorboote",
+      "Segelboote"
+    ],
+    "url": "https://www.nauticacostantini.it/",
+    "source": "https://www.nauticacostantini.it/",
+    "lastVerified": "2026-03-23"
   },
   {
-    "id": "osm-node-10596448197-noleggi-casa-vela",
-    "name": "Noleggi Casa&Vela",
-    "lat": 45.9994373,
-    "lng": 8.6565451,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 10596448197,
-    "candidateUrl": "https://www.casaevela.com/noleggi-nautici/",
-    "candidateUrlKind": "web",
-    "source": "https://casaevela.com/en/nautical-rentals/",
-    "lastVerified": "2026-03-22"
+    "id": "didomenico_locarno",
+    "name": "Centro Nautico Di Domenico",
+    "country": "CH",
+    "location": "Locarno",
+    "lat": 46.1559,
+    "lng": 8.8038,
+    "fleetSize": 8,
+    "priceFrom": "ab CHF 100/Tag",
+    "features": [
+      "Motorboote",
+      "Werft",
+      "Tankstelle"
+    ],
+    "url": "https://www.didomenico.ch/",
+    "source": "https://www.didomenico.ch/",
+    "lastVerified": "2026-03-23"
   },
   {
-    "id": "osm-node-11121525566-nautica-bego",
+    "id": "nautica_bego",
     "name": "Nautica Bego",
-    "lat": 45.9294113,
-    "lng": 8.568709,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "node",
-    "candidateOsmId": 11121525566,
-    "candidateUrl": "https://www.nauticabego.com/",
-    "candidatePhone": "+39 0323 404544",
-    "candidateUrlKind": "web",
+    "country": "IT",
+    "location": "Cannero Riviera",
+    "lat": 46.0191,
+    "lng": 8.6833,
+    "fleetSize": 6,
+    "priceFrom": "ab €60/Tag",
+    "features": [
+      "Motorboote",
+      "Führerscheinfrei"
+    ],
+    "url": "https://www.nauticabego.com/",
     "source": "https://www.nauticabego.com/",
-    "lastVerified": "2026-03-22"
+    "lastVerified": "2026-03-23"
   }
 ]
