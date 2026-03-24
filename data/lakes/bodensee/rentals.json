@@ -337,42 +337,6 @@
     "phone": "+49 7531 959548"
   },
   {
-    "id": "osm-node-12947346548-kayakomat-sipplingen-naturbadestrand",
-    "name": "Kayakomat Sipplingen",
-    "country": "DE",
-    "location": "Sipplingen",
-    "lat": 47.7964938,
-    "lng": 9.0929193,
-    "fleetSize": 6,
-    "priceFrom": "ab €15/Std",
-    "features": [
-      "Kajaks",
-      "Selbstbedienung"
-    ],
-    "url": "https://www.kayakomat.com/de/location/669631f8e8d8b96f97c5a9e1",
-    "source": "https://www.kayakomat.com/",
-    "lastVerified": "2026-03-23",
-    "hours": "24/7"
-  },
-  {
-    "id": "osm-node-12957260931-kayakomat",
-    "name": "Kayakomat Hagnau",
-    "country": "DE",
-    "location": "Hagnau",
-    "lat": 47.6715352,
-    "lng": 9.3263993,
-    "fleetSize": 6,
-    "priceFrom": "ab €15/Std",
-    "features": [
-      "Kajaks",
-      "Selbstbedienung"
-    ],
-    "url": "https://www.kayakomat.com/",
-    "source": "https://www.kayakomat.com/",
-    "lastVerified": "2026-03-23",
-    "hours": "24/7"
-  },
-  {
     "id": "osm-node-13098142297-bootsvermietung-bregenz",
     "name": "Bootsvermietung Feurstein Bregenz",
     "country": "AT",
