@@ -49,5 +49,39 @@
     "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
     "source": "hisse-et-oh.com – Mouiller l'ancre sur le Léman",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "yvoire",
+    "name": "Vor Yvoire",
+    "country": "FR",
+    "region": "Yvoire, Petit Lac",
+    "lat": 46.371,
+    "lng": 6.312,
+    "depthMinM": 2,
+    "depthMaxM": 6,
+    "ground": "Sand/Schlamm",
+    "protection": "S/SW",
+    "overnight": false,
+    "notes": "Klassischer Ankerplatz vor dem mittelalterlichen Dorf Yvoire. An schönen Tagen sehr belebt. Fährverkehr beachten. Stimmungsvoller Abendanker mit Blick auf das Savoyer Bergpanorama.",
+    "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
+    "source": "hisse-et-oh.com – Mouiller l'ancre sur le Léman",
+    "lastVerified": "2026-03-24"
+  },
+  {
+    "id": "saint_prex",
+    "name": "Vor Saint-Prex",
+    "country": "CH",
+    "region": "Saint-Prex, Waadt",
+    "lat": 46.477,
+    "lng": 6.454,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Schlamm",
+    "protection": "S",
+    "overnight": false,
+    "notes": "Beliebter Tagesanker vor der Halbinsel von Saint-Prex auf der Nordseite des Genfersees. Gut zugänglich für Boote aus Morges oder Genf.",
+    "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
+    "source": "hisse-et-oh.com – Mouiller l'ancre sur le Léman",
+    "lastVerified": "2026-03-24"
   }
 ]

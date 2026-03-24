@@ -9,11 +9,15 @@ Prüft:
   4. URL-Erreichbarkeit (HTTP HEAD-Request, optional mit --check-urls)
   5. lastVerified + source vorhanden (verifiziert-Status)
   6. Duplikate (gleiche ID in mehreren Seen)
+  7. Koordinaten im Wasser (Overpass-API, optional mit --check-water)
+     Nur für anchors: Punkt muss in natural=water oder waterway liegen.
 
 Aufruf:
-  python3 scripts/validate.py               # alle Seen, ohne URL-Check
-  python3 scripts/validate.py --check-urls  # inkl. HTTP-Check (langsam)
-  python3 scripts/validate.py --lake bodensee --check-urls
+  python3 scripts/validate.py                        # alle Seen, ohne URL/Wasser-Check
+  python3 scripts/validate.py --check-urls           # inkl. HTTP-Check
+  python3 scripts/validate.py --check-water          # inkl. Overpass-Wasser-Check (anchors)
+  python3 scripts/validate.py --check-water --check-urls  # alles
+  python3 scripts/validate.py --lake bodensee --check-water
 """
 
 import argparse
@@ -22,6 +26,7 @@ import sys
 import time
 import urllib.request
 import urllib.error
+import urllib.parse
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -114,6 +119,66 @@ def check_urls_parallel(items: list[dict], label: str) -> list[str]:
     return errors
 
 
+# ── Lokaler Wasser-Check via GeoJSON-Polygon ──────────────────────────────────
+# Nutzt outline.geojson (per See), erzeugt von scripts/fetch_lake_polygons.py.
+# Ray-Casting Point-in-Polygon, keine API-Aufrufe.
+
+def _load_lake_polygon(lake: str, data_dir: Path) -> list[list[float]] | None:
+    """Lädt outline.geojson für einen See. Returns [[lng, lat], ...] oder None."""
+    p = data_dir / lake / "outline.geojson"
+    if not p.exists():
+        return None
+    try:
+        geojson = json.loads(p.read_text(encoding="utf-8"))
+        coords = geojson["geometry"]["coordinates"][0]
+        return coords  # [[lng, lat], ...]
+    except Exception:
+        return None
+
+
+def _point_in_polygon(lat: float, lng: float, polygon: list[list[float]]) -> bool:
+    """
+    Ray-Casting Algorithmus: True wenn (lat, lng) innerhalb des Polygons liegt.
+    polygon: [[lng, lat], ...] (GeoJSON-Format)
+    """
+    x, y = lng, lat
+    n = len(polygon)
+    inside = False
+    j = n - 1
+    for i in range(n):
+        xi, yi = polygon[i]
+        xj, yj = polygon[j]
+        if ((yi > y) != (yj > y)) and (x < (xj - xi) * (y - yi) / (yj - yi + 1e-15) + xi):
+            inside = not inside
+        j = i
+    return inside
+
+
+def check_water_local(entries: list[dict], lake: str, data_dir: Path) -> list[str]:
+    """
+    Prüft Koordinaten lokal gegen das GeoJSON-Polygon des Sees.
+    Returns Fehlermeldungen.
+    """
+    polygon = _load_lake_polygon(lake, data_dir)
+    if polygon is None:
+        return [f"WARN outline.geojson nicht vorhanden → Wasser-Check übersprungen "
+                f"(Hinweis: python3 scripts/fetch_lake_polygons.py --lake {lake})"]
+
+    errors = []
+    for it in entries:
+        lat = it.get("lat")
+        lng = it.get("lng")
+        if lat is None or lng is None:
+            continue
+        eid = it.get("id", "?")
+        if not _point_in_polygon(lat, lng, polygon):
+            errors.append(
+                f"{eid}: Koordinaten NICHT im Wasser! lat={lat} lng={lng} "
+                f"(liegt ausserhalb outline.geojson)"
+            )
+    return errors
+
+
 # ── Koordinaten-Check ─────────────────────────────────────────────────────────
 def check_coords(entry: dict, bbox: tuple, lake: str) -> list[str]:
     errors = []
@@ -190,7 +255,7 @@ def check_global_duplicates(data_dir: Path) -> list[str]:
 
 
 # ── Hauptlogik ────────────────────────────────────────────────────────────────
-def validate_lake(lake: str, data_dir: Path, check_urls: bool) -> dict:
+def validate_lake(lake: str, data_dir: Path, check_urls: bool, check_water: bool) -> dict:
     bbox = BBOXES.get(lake)
     if not bbox:
         print(f"{YEL}⚠  Kein Bounding Box für '{lake}' – übersprungen{RESET}")
@@ -226,6 +291,16 @@ def validate_lake(lake: str, data_dir: Path, check_urls: bool) -> dict:
             url_errors = check_urls_parallel(entries, f"{lake}/{ftype}")
             file_errors += url_errors
 
+        # Wasser-Check: nur für anchors (lokal via outline.geojson)
+        if check_water and ftype == "anchors" and entries:
+            water_results = check_water_local(entries, lake, data_dir)
+            for msg in water_results:
+                if msg.startswith("WARN "):
+                    warn(msg[5:])
+                    total_warnings += 1
+                else:
+                    file_errors.append(msg)
+
         if file_errors:
             print(f"\n  {BOLD}{ftype}.json{RESET} ({len(entries)} Einträge, {len(file_errors)} Fehler):")
             for e in file_errors:
@@ -241,6 +316,7 @@ def main():
     ap = argparse.ArgumentParser(description="Validiert alle Seen-Daten")
     ap.add_argument("--lake", help="Nur diesen See prüfen (z.B. bodensee)")
     ap.add_argument("--check-urls", action="store_true", help="HTTP-Erreichbarkeit aller URLs prüfen (langsam)")
+    ap.add_argument("--check-water", action="store_true", help="Overpass-API: Ankerplätze müssen im Wasser liegen")
     ap.add_argument("--data-dir", default="data/lakes", help="Pfad zum lakes-Verzeichnis")
     args = ap.parse_args()
 
@@ -254,6 +330,8 @@ def main():
     print(f"{BOLD}=== validate.py ==={RESET}")
     if args.check_urls:
         print(f"{YEL}URL-Check aktiviert (kann mehrere Minuten dauern){RESET}")
+    if args.check_water:
+        print(f"{YEL}Wasser-Check aktiviert (Overpass API, für Ankerplätze){RESET}")
 
     # Global duplicate check
     print(f"\n{BOLD}── Globale Duplikat-Prüfung ──{RESET}")
@@ -267,7 +345,7 @@ def main():
     # Per-lake validation
     results = []
     for lake in lakes:
-        r = validate_lake(lake, data_dir, args.check_urls)
+        r = validate_lake(lake, data_dir, args.check_urls, args.check_water)
         results.append(r)
 
     # Summary

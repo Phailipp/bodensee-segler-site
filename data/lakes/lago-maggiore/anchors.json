@@ -49,5 +49,39 @@
     "url": "https://bootfahren-lago-maggiore.de/revierfuehrer/ankern/",
     "source": "bootfahren-lago-maggiore.de – Ankern",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "brissago_inseln",
+    "name": "Bei den Isole di Brissago",
+    "country": "CH",
+    "region": "Brissago, Tessin",
+    "lat": 46.124,
+    "lng": 8.719,
+    "depthMinM": 3,
+    "depthMaxM": 10,
+    "ground": "Schlamm/Sand",
+    "protection": "W",
+    "overnight": false,
+    "notes": "Ankerplatz bei den Brissago-Inseln (botanischer Garten, Tagesausflug empfohlen). Auf Sportbootzone und Fahrrinnen der Linienboote achten. Südlich der Inseln flacheres Wasser.",
+    "url": "https://bootfahren-lago-maggiore.de/revierfuehrer/ankern/",
+    "source": "bootfahren-lago-maggiore.de – Ankern",
+    "lastVerified": "2026-03-24"
+  },
+  {
+    "id": "luino",
+    "name": "Vor Luino",
+    "country": "IT",
+    "region": "Luino, Lombardei",
+    "lat": 46.001,
+    "lng": 8.706,
+    "depthMinM": 4,
+    "depthMaxM": 12,
+    "ground": "Schlamm",
+    "protection": "W/NW",
+    "overnight": false,
+    "notes": "Ankermöglichkeit vor dem Hafen Luino, Mittwochs bekannter Markt. Nördlich des Hafens ankern, Zufahrt freihalten. Bei Tramontano (Nordwind) unruhig.",
+    "url": "https://bootfahren-lago-maggiore.de/revierfuehrer/ankern/",
+    "source": "bootfahren-lago-maggiore.de – Ankern",
+    "lastVerified": "2026-03-24"
   }
 ]
