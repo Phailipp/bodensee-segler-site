@@ -35,8 +35,8 @@
     - Lago Maggiore: lat 45.86–46.26, lng 8.45–9.05
     - Thunersee: lat 46.62–46.76, lng 7.55–7.82
     - Vierwaldstättersee: lat 46.86–47.20, lng 8.17–8.70
-    - Zürichsee: lat 47.17–47.40, lng 8.40–8.80
-    - Zugersee: lat 47.05–47.18, lng 8.43–8.58
+    - Zürichsee: lat 47.17–47.40, lng 8.40–8.90 (inkl. Obersee bis Schmerikon)
+    - Zugersee: lat 47.05–47.20, lng 8.43–8.58
 
 ## Projekt-Struktur
 
