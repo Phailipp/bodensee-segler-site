@@ -964,32 +964,6 @@
     "url": "https://www.hafen-bregenz.at/"
   },
   {
-    "id": "osm-way-127418867-bootshafen-seegarten-kreuzlingen",
-    "name": "Bootshafen Seegarten Kreuzlingen",
-    "lat": 47.648023,
-    "lng": 9.1941994,
-    "candidateSource": "osm",
-    "candidateFoundAt": "2026-02-11",
-    "candidateOsmType": "way",
-    "candidateOsmId": 127418867,
-    "candidateUrl": "https://www.svk-kreuzlingen.ch/Startseite/",
-    "candidateUrlKind": "web",
-    "source": "https://www.svk-kreuzlingen.ch/Startseite/",
-    "lastVerified": "2026-03-22",
-    "berths": 423,
-    "guestBerths": 8,
-    "maxDraftM": 1.5,
-    "features": [
-      "Strom",
-      "Wasser",
-      "Sanitär",
-      "Kran",
-      "Fäkalienabsaugung"
-    ],
-    "notes": "Grösster Hafen am Schweizer Bodenseeufer mit 14t-Kran, Blauer-Anker-Umweltzeichen; Gäste an 8 Bojen und Kopfstegen.",
-    "url": "https://www.svk-kreuzlingen.ch/Startseite/"
-  },
-  {
     "id": "osm-way-127418885-gemeindehafen-höchst-fischerinsel",
     "name": "Gemeindehafen Höchst Fischerinsel",
     "lat": 47.4884935,
