@@ -106,5 +106,89 @@
     "candidateSource": null,
     "phone": "+41 41 710 53 83",
     "hours": "Di–So 10:00–22:00"
+  },
+  {
+    "id": "bacco_arth",
+    "name": "Bacco Arth",
+    "country": "CH",
+    "location": "Arth, Zugersee Südufer",
+    "lat": 47.0636,
+    "lng": 8.5218,
+    "price": "CHF €€",
+    "berthing": "Bootssteg in unmittelbarer Nähe",
+    "features": [
+      "Direkt am See",
+      "Seeterrasse (100 Plätze)",
+      "Bootsanleger nebenan",
+      "Italienische Küche"
+    ],
+    "url": "https://baccoarth.ch/",
+    "source": "https://baccoarth.ch/about-us/",
+    "lastVerified": "2026-03-26",
+    "phone": "+41 41 855 13 51",
+    "hours": "Mo, Mi–Fr 11:30–14:00 & 17:30–23:00; Sa–So 11:30–23:30; Di Ruhetag"
+  },
+  {
+    "id": "baumgaertli_immensee",
+    "name": "Restaurant Baumgärtli",
+    "country": "CH",
+    "location": "Immensee, Zugersee Südufer",
+    "lat": 47.1052,
+    "lng": 8.4755,
+    "price": "CHF €€",
+    "berthing": "",
+    "features": [
+      "Direkt am See",
+      "Seeterrasse",
+      "Fischgerichte",
+      "Gartenwirtschaft"
+    ],
+    "url": "https://schwyz-tourismus.ch/gastronomiebetrieb/restaurant-baumgaertli",
+    "source": "https://schwyz-tourismus.ch/gastronomiebetrieb/restaurant-baumgaertli",
+    "lastVerified": "2026-03-26",
+    "phone": "+41 41 852 04 44",
+    "hours": "Di–Fr 11:00–21:00; Sa–So 10:00–21:00; Mo Ruhetag"
+  },
+  {
+    "id": "sternen_walchwil",
+    "name": "Sternen Walchwil",
+    "country": "CH",
+    "location": "Walchwil, Zugersee Ostufer",
+    "lat": 47.0992,
+    "lng": 8.5162,
+    "price": "CHF €€€",
+    "berthing": "Schiffsanlegestelle nebenan",
+    "features": [
+      "Direkt am See",
+      "Seeterrasse",
+      "Schiffsanlegestelle nebenan",
+      "Michelin-gelistet"
+    ],
+    "url": "https://sternenwalchwil.com/",
+    "source": "https://sternenwalchwil.com/",
+    "lastVerified": "2026-03-26",
+    "phone": "+41 41 759 01 01",
+    "hours": "Mi–Sa 11:30–14:30 & 18:00–22:30; So–Di Ruhetag"
+  },
+  {
+    "id": "villa_villette_cham",
+    "name": "Villa Villette",
+    "country": "CH",
+    "location": "Cham, Zugersee Westufer",
+    "lat": 47.1820,
+    "lng": 8.4620,
+    "price": "CHF €€",
+    "berthing": "",
+    "features": [
+      "Parkanlage am See",
+      "Seesicht",
+      "Historische Villa",
+      "Regionale Küche"
+    ],
+    "url": "https://villavillette.ch/",
+    "source": "https://villavillette.ch/",
+    "lastVerified": "2026-03-26",
+    "phone": "+41 41 780 55 36",
+    "hours": "Mi–Sa 11:30–14:00 & 17:00–22:00; So 10:00–17:00; Mo–Di Ruhetag"
   }
 ]
