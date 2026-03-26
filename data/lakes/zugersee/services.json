@@ -22,5 +22,17 @@
     "url": "https://zg.ch/de/mobilitaet-reisen/schifffahrt/schiffszulassung",
     "source": "https://zg.ch/de/mobilitaet-reisen/schifffahrt/",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "tankstelle_zug",
+    "name": "Seetankstelle Zug",
+    "country": "CH",
+    "type": "fuel",
+    "details": "Schwimmende Tankstelle · Bleifrei 95 · W.A.R. Bootbau & Boothandel AG · Landsgemeindeplatz · geöffnet 31. März – 21. Oktober",
+    "lat": 47.168,
+    "lng": 8.515,
+    "url": "https://www.war.ch/",
+    "source": "marktindex.ch – Bootstankstelle Zug; war.ch",
+    "lastVerified": "2026-03-26"
   }
 ]
