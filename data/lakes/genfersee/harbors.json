@@ -171,7 +171,7 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 299128154,
-    "candidateUrl": "https://www.mairie-lugrin.fr/",
+    "candidateUrl": "https://ports-du-leman.ch/port/lugrin-tourronde",
     "candidatePhone": "+33 4 50 76 00 38",
     "candidateUrlKind": "web",
     "source": "https://ports-du-leman.ch/port/lugrin-tourronde",
@@ -186,7 +186,7 @@
     "notes": "Hafen Lugrin-Tourronde am französischen Südufer bei Évian.",
     "country": "FR",
     "region": "Lugrin",
-    "url": "https://www.mairie-lugrin.fr/"
+    "url": "https://ports-du-leman.ch/port/lugrin-tourronde"
   },
   {
     "id": "osm-way-305943726-port-de-amphion-publier",
@@ -791,7 +791,7 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "relation",
     "candidateOsmId": 13753798,
-    "candidateUrl": "https://www.ville-thonon.fr/",
+    "candidateUrl": "https://www.ville-thonon.fr/mes-demarches/demarches-portuaires/port/",
     "candidatePhone": "+33 4 50 71 24 00",
     "candidateUrlKind": "web",
     "source": "https://www.ville-thonon.fr/station-nautique-thonon-lac-leman/ports/",
@@ -811,7 +811,7 @@
     "notes": "Größter Hafen am französischen Ufer mit 800 Plätzen und Schnellladestation für E-Boote. Erster Aqua-superPower-Hafen am Léman.",
     "country": "FR",
     "region": "Thonon-les-Bains",
-    "url": "https://www.ville-thonon.fr/"
+    "url": "https://www.ville-thonon.fr/mes-demarches/demarches-portuaires/port/"
   },
   {
     "id": "osm-relation-13767405-port-de-plaisance-d-yvoire",
@@ -849,7 +849,7 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "relation",
     "candidateOsmId": 18420256,
-    "candidateUrl": "https://www.villeneuve.ch/",
+    "candidateUrl": "https://www.villeneuve.ch/_rte/sehenswuerdigkeit/18647",
     "candidatePhone": "+41 21 967 09 82",
     "candidateUrlKind": "web",
     "source": "https://www.villeneuve.ch/_rte/sehenswuerdigkeit/18647",
@@ -864,6 +864,6 @@
     "notes": "Kleiner Hafen bei Villeneuve am östlichen Seeende.",
     "country": "CH",
     "region": "Villeneuve",
-    "url": "https://www.villeneuve.ch/"
+    "url": "https://www.villeneuve.ch/_rte/sehenswuerdigkeit/18647"
   }
 ]

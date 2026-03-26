@@ -49,7 +49,7 @@
       "Strom"
     ],
     "notes": "Gastliegeplätze mit Strom und Wasser; in der Saison früh anfragen.",
-    "url": "https://www.wyc-fn.de/",
+    "url": "https://www.wyc-fn.de/hafen",
     "source": "Württembergischer Yacht-Club (Hafen)",
     "lastVerified": "2026-02-10",
     "candidateUrl": null,
@@ -601,10 +601,10 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 83200835,
-    "candidateUrl": "https://www.hafen-bregenz.at/",
+    "candidateUrl": "https://www.bregenz.gv.at/leben/sport/staedtische-sportanlagen/hafenanlagen/sporthafen",
     "candidatePhone": "+43 5574 410 1165",
     "candidateUrlKind": "web",
-    "source": "https://www.hafen-bregenz.at/",
+    "source": "https://www.bregenz.gv.at/leben/sport/staedtische-sportanlagen/hafenanlagen/sporthafen",
     "lastVerified": "2026-03-22",
     "berths": 391,
     "guestBerths": 30,
@@ -618,7 +618,7 @@
       "Winterlager"
     ],
     "notes": "Größter städtischer Hafen von Bregenz mit 391 Wasser- und 86 Trockenliegeplätzen, ruhig gelegen ca. 2,5 km außerhalb des Zentrums. Gästesteg mit Muringanlage für bis zu 30 Gastboote.",
-    "url": "https://www.hafen-bregenz.at/"
+    "url": "https://www.bregenz.gv.at/leben/sport/staedtische-sportanlagen/hafenanlagen/sporthafen"
   },
   {
     "id": "osm-way-83200836-hafen-bregenz",
@@ -629,10 +629,10 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 83200836,
-    "candidateUrl": "https://www.hafen-bregenz.at/",
+    "candidateUrl": "https://www.bregenz.gv.at/leben/sport/staedtische-sportanlagen/hafenanlagen/sporthafen",
     "candidatePhone": "+43 5574 79160; +43 664 4762273",
     "candidateUrlKind": "web",
-    "source": "https://www.hafen-bregenz.at/",
+    "source": "https://www.bregenz.gv.at/leben/sport/staedtische-sportanlagen/hafenanlagen/sporthafen",
     "lastVerified": "2026-03-22",
     "berths": 100,
     "guestBerths": 10,
@@ -644,7 +644,7 @@
       "Gastronomie"
     ],
     "notes": "Historischer Haupthafen von Bregenz in zentraler Lage nahe der Seepromenade und Festspielbühne. Dient auch als Anleger für die Bodensee-Schifffahrt.",
-    "url": "https://www.hafen-bregenz.at/"
+    "url": "https://www.bregenz.gv.at/leben/sport/staedtische-sportanlagen/hafenanlagen/sporthafen"
   },
   {
     "id": "osm-way-83200839-lochau-westhafen",
@@ -816,9 +816,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 105299710,
-    "candidateUrl": "https://www.sunwind.ch/",
+    "candidateUrl": "https://www.sunwind.ch/liegeplaetze-winterlager-schloss-kirchberg",
     "candidateUrlKind": "web",
-    "source": "https://www.sunwind.ch/",
+    "source": "https://www.sunwind.ch/liegeplaetze-winterlager-schloss-kirchberg",
     "lastVerified": "2026-03-22",
     "berths": 300,
     "guestBerths": 12,
@@ -833,7 +833,7 @@
       "Gastronomie"
     ],
     "notes": "Großer moderner Naturhafen mit 20t-Kran, Werft und Zubehörshop am Fuße des Schlosses.",
-    "url": "https://www.sunwind.ch/"
+    "url": "https://www.sunwind.ch/liegeplaetze-winterlager-schloss-kirchberg"
   },
   {
     "id": "osm-way-105299711-yachthafen-schloss-helmsdorf",
@@ -946,10 +946,10 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 127349025,
-    "candidateUrl": "https://www.hafen-bregenz.at/",
+    "candidateUrl": "https://www.bregenz.gv.at/leben/sport/staedtische-sportanlagen/hafenanlagen/sporthafen",
     "candidatePhone": "+43 5574 79160; +43 664 4762273",
     "candidateUrlKind": "web",
-    "source": "https://www.hafen-bregenz.at/",
+    "source": "https://www.bregenz.gv.at/leben/sport/staedtische-sportanlagen/hafenanlagen/sporthafen",
     "lastVerified": "2026-03-22",
     "berths": 76,
     "guestBerths": 24,
@@ -961,7 +961,7 @@
       "Gastronomie"
     ],
     "notes": "Moderne Marina im östlichen Teil des Bregenzer Hafenbeckens mit 76 Dauer- und 24 Gastplätzen an Fingerstegen. Zentral gelegen mit direkter Anbindung an Bahn und Parkgarage.",
-    "url": "https://www.hafen-bregenz.at/"
+    "url": "https://www.bregenz.gv.at/leben/sport/staedtische-sportanlagen/hafenanlagen/sporthafen"
   },
   {
     "id": "osm-way-127418867-bootshafen-seegarten-kreuzlingen",
@@ -1048,9 +1048,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 127496900,
-    "candidateUrl": "https://www.wyc-fn.de/",
+    "candidateUrl": "https://www.wyc-fn.de/hafen",
     "candidateUrlKind": "web",
-    "source": "https://www.wyc-fn.de/",
+    "source": "https://www.wyc-fn.de/hafen",
     "lastVerified": "2026-03-22",
     "berths": 270,
     "guestBerths": 15,
@@ -1066,7 +1066,7 @@
       "Gastronomie"
     ],
     "notes": "Traditionsreicher Yacht-Club am Westende der Friedrichshafener Uferpromenade mit 270 Wasserliegeplätzen und Portalkran bis 4 Tonnen. Ganzjährig geöffnetes Clubhaus-Restaurant mit Terrasse.",
-    "url": "https://www.wyc-fn.de/"
+    "url": "https://www.wyc-fn.de/hafen"
   },
   {
     "id": "osm-way-127496901-bmk-yachthafen-langenargen",
@@ -1295,10 +1295,10 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 179054565,
-    "candidateUrl": "https://www.scmb-moos.de/",
+    "candidateUrl": "https://scmb-moos.de/",
     "candidatePhone": "+49 7732 52180",
     "candidateUrlKind": "web",
-    "source": "https://www.scmb-moos.de/",
+    "source": "https://scmb-moos.de/",
     "lastVerified": "2026-03-22",
     "berths": 207,
     "guestBerths": 8,
@@ -1309,7 +1309,7 @@
       "Kran"
     ],
     "notes": "Alter Kanal (nur kleine Boote) und neuer Hafen am Untersee; max. Tiefgang neuer Hafen 1,30 m.",
-    "url": "https://www.scmb-moos.de/"
+    "url": "https://scmb-moos.de/"
   },
   {
     "id": "osm-way-179231645-hafen-wäschbruck-radolfzell",
@@ -1371,10 +1371,10 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 572101356,
-    "candidateUrl": "https://www.ylb.de/",
+    "candidateUrl": "https://www.ylb.de/hafen",
     "candidatePhone": "+49 7773 920740",
     "candidateUrlKind": "web",
-    "source": "https://www.ylb.de/",
+    "source": "https://www.ylb.de/hafen",
     "lastVerified": "2026-03-22",
     "berths": 111,
     "guestBerths": 8,
@@ -1386,7 +1386,7 @@
       "Gastronomie"
     ],
     "notes": "Vereinshafen des Yacht-Club Ludwigshafen am Überlinger See mit 111 Liegeplätzen an 3 Stegen. Ruhige Lage am Naturschutzgebiet SeeEnd, abseits der großen Segelrouten.",
-    "url": "https://www.ylb.de/"
+    "url": "https://www.ylb.de/hafen"
   },
   {
     "id": "osm-way-937387060-hafen-rohner",
@@ -1502,10 +1502,10 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 1307842121,
-    "candidateUrl": "https://www.sv-dingelsdorf.de/",
+    "candidateUrl": "https://sv-dingelsdorf.de/wassersport/",
     "candidatePhone": "+49 7533 3801",
     "candidateUrlKind": "web",
-    "source": "https://www.sv-dingelsdorf.de/",
+    "source": "https://sv-dingelsdorf.de/wassersport/",
     "lastVerified": "2026-03-22",
     "berths": 120,
     "guestBerths": 10,
@@ -1516,7 +1516,7 @@
       "Fäkalienabsaugung"
     ],
     "notes": "Schwimmsteganlage des SV Dingelsdorf am Überlinger See mit grosszügigen Gastliegeplätzen.",
-    "url": "https://www.sv-dingelsdorf.de/"
+    "url": "https://sv-dingelsdorf.de/wassersport/"
   },
   {
     "id": "osm-way-1348733820-gemeindehafen-horn",
