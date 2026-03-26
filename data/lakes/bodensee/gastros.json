@@ -6,7 +6,7 @@
     "location": "Arbon, Kursschiffhafen",
     "lat": 47.5159,
     "lng": 9.4309,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Internationale Küche",
       "Direkt am Hafen",
@@ -23,7 +23,7 @@
     "location": "Horn, Hafen",
     "lat": 47.4891,
     "lng": 9.4632,
-    "price": "CHF €€€",
+    "price": "€€€",
     "features": [
       "Gourmet",
       "Seeterrasse",
@@ -142,7 +142,7 @@
     "location": "Kreuzlingen, Seeufer",
     "lat": 47.6505,
     "lng": 9.1843,
-    "price": "CHF €€-€€€",
+    "price": "€€-€€€",
     "features": [
       "Fischgerichte",
       "Biergarten",
@@ -276,7 +276,7 @@
     "location": "Arbon, Hafen",
     "lat": 47.5166,
     "lng": 9.4328,
-    "price": "CHF €",
+    "price": "€",
     "features": [
       "Hafenbar",
       "Fischgerichte",
@@ -310,7 +310,7 @@
     "location": "Romanshorn, Hafen",
     "lat": 47.5655,
     "lng": 9.3795,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Strandbar",
       "Cocktails",
@@ -513,7 +513,7 @@
     "location": "Rorschach, Seeufer",
     "lat": 47.4774,
     "lng": 9.4901,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Schweizer Küche",
       "Seeterrasse",
@@ -581,7 +581,7 @@
     "location": "Romanshorn, Hafen",
     "lat": 47.5651,
     "lng": 9.3808,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Fischgerichte",
       "Schweizer Küche",
@@ -631,7 +631,7 @@
     "location": "Arbon, Hafen",
     "lat": 47.5163,
     "lng": 9.4319,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Fischgerichte",
       "Seeterrasse"
@@ -647,7 +647,7 @@
     "location": "Ermatingen, Untersee",
     "lat": 47.669,
     "lng": 9.085,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Fischgerichte",
       "Seegärtli",
@@ -730,7 +730,7 @@
     "location": "Steckborn, Strandbad",
     "lat": 47.6656,
     "lng": 8.9812,
-    "price": "CHF €",
+    "price": "€",
     "features": [
       "Strandbar",
       "Direkt am See"
@@ -746,7 +746,7 @@
     "location": "Bottighofen, Hafen",
     "lat": 47.6442,
     "lng": 9.2103,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Burger",
       "Saisonale Küche",
@@ -813,7 +813,7 @@
     "location": "Steckborn, Hafen",
     "lat": 47.6648,
     "lng": 8.9767,
-    "price": "CHF €€-€€€",
+    "price": "€€-€€€",
     "features": [
       "Gehobene Küche",
       "Seeterrasse",
@@ -881,7 +881,7 @@
     "location": "Altenrhein, Hafen Rheinspitz",
     "lat": 47.4994,
     "lng": 9.5586,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Saisonale Küche",
       "Seeterrasse",
@@ -898,7 +898,7 @@
     "location": "Rorschach, Yachthafen",
     "lat": 47.4776,
     "lng": 9.4892,
-    "price": "CHF €€-€€€",
+    "price": "€€-€€€",
     "features": [
       "Fischgerichte",
       "Panorama",
@@ -1107,7 +1107,7 @@
     "location": "Ermatingen, Hafen",
     "lat": 47.6688,
     "lng": 9.0868,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Eventschiff",
       "Seeblick",
@@ -1124,7 +1124,7 @@
     "location": "Romanshorn, Hafen",
     "lat": 47.5656,
     "lng": 9.3791,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Fischgerichte",
       "Pizza",

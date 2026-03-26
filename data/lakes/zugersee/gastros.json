@@ -6,7 +6,7 @@
     "location": "Zug, Hafen",
     "lat": 47.1728,
     "lng": 8.5046,
-    "price": "CHF €€",
+    "price": "€€",
     "berthing": "",
     "features": [
       "Direkt am Hafen",
@@ -28,7 +28,7 @@
     "location": "Zug, Seepromenade",
     "lat": 47.1714,
     "lng": 8.5109,
-    "price": "CHF €€",
+    "price": "€€",
     "berthing": "",
     "features": [
       "Bar & Restaurant",
@@ -50,7 +50,7 @@
     "location": "Zug, Altstadt/See",
     "lat": 47.1747,
     "lng": 8.5061,
-    "price": "CHF €€€",
+    "price": "€€€",
     "berthing": "",
     "features": [
       "Gourmet-Restaurant",
@@ -72,7 +72,7 @@
     "location": "Immensee, Zugersee Südufer",
     "lat": 47.1006,
     "lng": 8.4664,
-    "price": "CHF €€",
+    "price": "€€",
     "berthing": "Eigener Bootsanleger",
     "features": [
       "Direkt am See",
@@ -92,7 +92,7 @@
     "location": "Zug, See",
     "lat": 47.1732,
     "lng": 8.5064,
-    "price": "CHF €€",
+    "price": "€€",
     "berthing": "",
     "features": [
       "Restaurant",
@@ -114,7 +114,7 @@
     "location": "Arth, Zugersee Südufer",
     "lat": 47.0636,
     "lng": 8.5218,
-    "price": "CHF €€",
+    "price": "€€",
     "berthing": "Bootssteg in unmittelbarer Nähe",
     "features": [
       "Direkt am See",
@@ -135,7 +135,7 @@
     "location": "Immensee, Zugersee Südufer",
     "lat": 47.1052,
     "lng": 8.4755,
-    "price": "CHF €€",
+    "price": "€€",
     "berthing": "",
     "features": [
       "Direkt am See",
@@ -156,7 +156,7 @@
     "location": "Walchwil, Zugersee Ostufer",
     "lat": 47.0992,
     "lng": 8.5162,
-    "price": "CHF €€€",
+    "price": "€€€",
     "berthing": "Schiffsanlegestelle nebenan",
     "features": [
       "Direkt am See",
@@ -175,9 +175,9 @@
     "name": "Villa Villette",
     "country": "CH",
     "location": "Cham, Zugersee Westufer",
-    "lat": 47.1820,
-    "lng": 8.4620,
-    "price": "CHF €€",
+    "lat": 47.182,
+    "lng": 8.462,
+    "price": "€€",
     "berthing": "",
     "features": [
       "Parkanlage am See",

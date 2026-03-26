@@ -6,7 +6,7 @@
     "location": "Zürich, Zürihorn",
     "lat": 47.3546,
     "lng": 8.5514,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Fischgerichte",
       "Seeterrasse",
@@ -23,7 +23,7 @@
     "location": "Rapperswil, Hafen",
     "lat": 47.2262,
     "lng": 8.8188,
-    "price": "CHF €€-€€€",
+    "price": "€€-€€€",
     "features": [
       "Italienisch",
       "Seeterrasse",
@@ -40,7 +40,7 @@
     "location": "Rapperswil",
     "lat": 47.2259,
     "lng": 8.8181,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Schweizer Küche",
       "Seeterrasse"
@@ -56,7 +56,7 @@
     "location": "Pfäffikon SZ, Hafen",
     "lat": 47.2035,
     "lng": 8.7847,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Fischgerichte",
       "Seeterrasse",
@@ -73,7 +73,7 @@
     "location": "Wädenswil",
     "lat": 47.2336,
     "lng": 8.6706,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Regionale Küche",
       "Seeblick"
@@ -89,7 +89,7 @@
     "location": "Stäfa",
     "lat": 47.2414,
     "lng": 8.7263,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Grill/Kebab",
       "Seeterrasse",
@@ -106,7 +106,7 @@
     "location": "Meilen",
     "lat": 47.2701,
     "lng": 8.6407,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Schweizer Küche",
       "Seeterrasse"
@@ -122,7 +122,7 @@
     "location": "Thalwil",
     "lat": 47.2915,
     "lng": 8.6357,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Italienisch",
       "Seeterrasse",
@@ -139,7 +139,7 @@
     "location": "Au/Wädenswil",
     "lat": 47.2408,
     "lng": 8.6512,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Regionale Küche",
       "Seeterrasse",
@@ -156,7 +156,7 @@
     "location": "Küsnacht",
     "lat": 47.3194,
     "lng": 8.5826,
-    "price": "CHF €€-€€€",
+    "price": "€€-€€€",
     "features": [
       "Gehobene Küche",
       "Seeterrasse"

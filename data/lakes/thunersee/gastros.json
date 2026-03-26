@@ -5,8 +5,8 @@
     "country": "CH",
     "location": "Thun, Seepromenade",
     "lat": 46.7412,
-    "lng": 7.6280,
-    "price": "CHF €€",
+    "lng": 7.628,
+    "price": "€€",
     "berthing": "",
     "features": [
       "Seeterrasse",
@@ -28,7 +28,7 @@
     "location": "Thun, Strandbad",
     "lat": 46.7397,
     "lng": 7.6315,
-    "price": "CHF €",
+    "price": "€",
     "berthing": "",
     "features": [
       "Seebad",
@@ -50,7 +50,7 @@
     "location": "Merligen",
     "lat": 46.6677,
     "lng": 7.7189,
-    "price": "CHF €€€",
+    "price": "€€€",
     "berthing": "",
     "features": [
       "Seerestaurant",
@@ -73,7 +73,7 @@
     "location": "Beatenberg / Beatus",
     "lat": 46.6963,
     "lng": 7.7375,
-    "price": "CHF €€€",
+    "price": "€€€",
     "berthing": "",
     "features": [
       "Hotel-Restaurant",
@@ -96,7 +96,7 @@
     "location": "Faulensee bei Spiez",
     "lat": 46.682,
     "lng": 7.717,
-    "price": "CHF €€€",
+    "price": "€€€",
     "berthing": "",
     "features": [
       "Seerestaurant",
@@ -116,7 +116,7 @@
     "location": "Thun, Seepromenade",
     "lat": 46.754,
     "lng": 7.624,
-    "price": "CHF €€",
+    "price": "€€",
     "berthing": "",
     "features": [
       "Restaurant",
@@ -136,7 +136,7 @@
     "location": "Hünibach / Hilterfingen",
     "lat": 46.735,
     "lng": 7.681,
-    "price": "CHF €",
+    "price": "€",
     "berthing": "Mit Schiff erreichbar (Station Hünibach)",
     "features": [
       "Direkt am See",
@@ -155,7 +155,7 @@
     "location": "Beatenbucht, Nordseite Thunersee",
     "lat": 46.697,
     "lng": 7.752,
-    "price": "CHF €€",
+    "price": "€€",
     "berthing": "Neben Schiff- und Busstation",
     "features": [
       "Seerestaurant",
@@ -175,7 +175,7 @@
     "location": "Thun, Seepromenade",
     "lat": 46.7406,
     "lng": 7.6273,
-    "price": "CHF €€",
+    "price": "€€",
     "berthing": "",
     "features": [
       "Restaurant & Bar",

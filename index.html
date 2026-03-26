@@ -254,6 +254,12 @@
         <div class="filter-label" data-i18n="filter.search.gastro">Suche</div>
         <input id="gastroSearch" class="filter-input" data-i18n-placeholder="filter.search.gastro" placeholder="Restaurant oder Ort…" />
       </div>
+      <div class="filter-field" style="justify-content: flex-end;">
+        <label class="filter-toggle-label" style="display:flex;align-items:center;gap:8px;cursor:pointer;padding:12px 0;">
+          <input type="checkbox" id="gastroWithBerthing" style="width:18px;height:18px;accent-color:var(--navy);flex-shrink:0;">
+          <span class="filter-label" style="margin:0" data-i18n="filter.withBerthing">Nur mit Anleger</span>
+        </label>
+      </div>
     </div>
 
     <div class="anchor-list" id="gastroList"></div>
@@ -446,7 +452,7 @@
         <button class="modal-close" id="modalClose" data-i18n="modal.close">Schließen</button>
       </div>
       <div class="modal-body" id="modalBody"></div>
-      <div class="modal-footnote" id="modalFootnote">Hinweis: Diese Infos sind ein Startpunkt. Vor Ort gelten Regeln, Karten und Betreiberangaben. Verantwortung bleibt beim Skipper.</div>
+      <div class="modal-footnote" id="modalFootnote" data-i18n="modal.footnote">Hinweis: Diese Infos sind ein Startpunkt. Vor Ort gelten Regeln, Karten und Betreiberangaben. Verantwortung bleibt beim Skipper.</div>
     </div>
   </div>
 

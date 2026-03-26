@@ -6,7 +6,7 @@
     "location": "Lausanne-Ouchy",
     "lat": 46.5076,
     "lng": 6.6275,
-    "price": "CHF €€€",
+    "price": "€€€",
     "features": [
       "Gourmet",
       "Seeterrasse",
@@ -23,7 +23,7 @@
     "location": "Lausanne-Ouchy, Hafen",
     "lat": 46.5064,
     "lng": 6.6241,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Bar/Restaurant",
       "Seeterrasse",
@@ -40,7 +40,7 @@
     "location": "Nyon, Hafen",
     "lat": 46.3788,
     "lng": 6.2401,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Saisonale Küche",
       "Hafenblick"
@@ -56,7 +56,7 @@
     "location": "Vevey",
     "lat": 46.4603,
     "lng": 6.8435,
-    "price": "CHF €€€",
+    "price": "€€€",
     "features": [
       "Gourmet",
       "Seeterrasse",
@@ -73,7 +73,7 @@
     "location": "Vevey",
     "lat": 46.4614,
     "lng": 6.8443,
-    "price": "CHF €€€",
+    "price": "€€€",
     "features": [
       "Sternegastronomie",
       "Seeblick"
@@ -89,7 +89,7 @@
     "location": "Lausanne-Ouchy",
     "lat": 46.5068,
     "lng": 6.629,
-    "price": "CHF €€-€€€",
+    "price": "€€-€€€",
     "features": [
       "Französische Küche",
       "Seeterrasse"
@@ -138,7 +138,7 @@
     "location": "Morges, Hafen",
     "lat": 46.5068,
     "lng": 6.4983,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Regionale Küche",
       "Hafenblick"
@@ -154,7 +154,7 @@
     "location": "Rolle, Hafen",
     "lat": 46.4524,
     "lng": 6.336,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Regionale Küche",
       "Seeterrasse",
