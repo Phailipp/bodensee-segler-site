@@ -171,7 +171,7 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 299128154,
-    "candidateUrl": "https://www.mairie-lugrin.fr/index.php/2015-01-26-08-42-35/tourisme/plan-de-la-ville/joomlannuaire/fiche/72-port-de-lugrin/4-infrastructures-municipales",
+    "candidateUrl": "https://ports-du-leman.ch/port/lugrin-tourronde",
     "candidatePhone": "+33 4 50 76 00 38",
     "candidateUrlKind": "web",
     "source": "https://ports-du-leman.ch/",
@@ -791,7 +791,7 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "relation",
     "candidateOsmId": 13753798,
-    "candidateUrl": "https://www.ville-thonon.fr/annuaire/10/97-port-de-plaisance-de-rives-et-sa-capitainerie.htm",
+    "candidateUrl": "https://www.ville-thonon.fr/mes-demarches/demarches-portuaires/port/",
     "candidatePhone": "+33 4 50 71 24 00",
     "candidateUrlKind": "web",
     "source": "https://www.ville-thonon.fr/",
@@ -811,7 +811,7 @@
     "notes": "Größter Hafen am französischen Ufer mit 800 Plätzen und Schnellladestation für E-Boote. Erster Aqua-superPower-Hafen am Léman.",
     "country": "FR",
     "region": "Thonon-les-Bains",
-    "url": "https://www.thononlesbains.com/en/equipement/marina-of-rives-thonon-les-bains/"
+    "url": "https://www.ville-thonon.fr/mes-demarches/demarches-portuaires/port/"
   },
   {
     "id": "osm-relation-13767405-port-de-plaisance-d-yvoire",
@@ -849,7 +849,7 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "relation",
     "candidateOsmId": 18420256,
-    "candidateUrl": "https://www.villeneuve.ch/net/Net_Villeneuve.asp?NoOFS=5414&Sty=&NumStr=37",
+    "candidateUrl": "https://www.villeneuve.ch/_rte/sehenswuerdigkeit/18647",
     "candidatePhone": "+41 21 967 09 82",
     "candidateUrlKind": "web",
     "source": "https://www.villeneuve.ch/",
@@ -864,6 +864,6 @@
     "notes": "Kleiner Hafen bei Villeneuve am östlichen Seeende.",
     "country": "CH",
     "region": "Villeneuve",
-    "url": "https://www.villeneuve.ch/port/18647"
+    "url": "https://www.villeneuve.ch/_rte/sehenswuerdigkeit/18647"
   }
 ]

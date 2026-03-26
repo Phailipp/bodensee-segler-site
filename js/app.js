@@ -1826,7 +1826,8 @@ async function main() {
 
   // renderAll() was called earlier via setLang() before the map existed → re-render now
   // so markers actually appear on initial load without requiring a filter click.
-  renderAll();
+  // Deferred: give the browser a layout pass so Leaflet knows the container size.
+  setTimeout(renderAll, 0);
 
   renderLakeLinks();
   // Deep link open
