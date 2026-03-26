@@ -1,0 +1,71 @@
+{
+  "guide": {
+    "title": {
+      "de": "Der Bodensee, kurz erklärt",
+      "en": "Lake Constance, in brief"
+    },
+    "subtitle": {
+      "de": "Damit du schneller aufs Wasser kommst: die wichtigsten Muster, Entscheidungen und Eigenheiten in einem klaren Überblick.",
+      "en": "Get on the water faster: the key patterns, decisions, and caveats in a calm overview."
+    },
+    "cards": [
+      {
+        "title": {"de": "Navigation und Realität", "en": "Navigation vs. reality"},
+        "text": {"de": "Der Bodensee wirkt klein, verhält sich aber wie ein echtes Binnenmeer: lokale Winddreher, kurze Welle und viel Verkehr. Plane mit Reserve und halte Ausweichhäfen im Kopf.", "en": "It looks small but behaves like a real inland sea: local wind shifts, short waves, and busy traffic. Plan with margin and keep alternatives in mind."}
+      },
+      {
+        "title": {"de": "Ankern ist kein Standard", "en": "Anchoring is not the default"},
+        "text": {"de": "Viele Bereiche sind sensibel oder eingeschränkt. Ein guter Ankerplatz ist nicht nur Tiefe, sondern auch Abstand, Schutz, Grund und die Frage, ob Übernachten praktisch und erlaubt ist.", "en": "Many areas are sensitive or restricted. A good spot is not just depth: think shelter, seabed, distance, and whether overnighting is practical and allowed."}
+      },
+      {
+        "title": {"de": "Grenzen und Zuständigkeiten", "en": "Borders and jurisdictions"},
+        "text": {"de": "Am See treffen DE, CH und AT aufeinander. Regeln, Funk, Hafenordnungen und Gebühren sind nicht überall gleich. Prüfe im Zweifel die offiziellen Seiten, bevor du dich darauf verlässt.", "en": "DE, CH, and AT meet on the lake. Rules, radio, marina regulations, and fees can differ. When it matters, verify via official sources."}
+      }
+    ],
+    "how": {
+      "p1": {"de": "Erst Karte: verschaffe dir ein Gefühl für Distanzen, Häfen und Alternativen. Dann filtere in den Listen nach Land und Tiefgang. Wenn du einen Eintrag öffnest, siehst du Details, Hinweise und die Quelle, sofern vorhanden.", "en": "Start with the map for distances and alternatives. Then filter the lists by country and draft. Open any entry to see details, notes, and sources when available."},
+      "p2": {"de": "Die Idee ist nicht Vollständigkeit um jeden Preis, sondern ein ruhiger, verlässlicher Startpunkt. Wenn dir etwas fehlt oder nicht stimmt, melde es gern über GitHub.", "en": "The goal is not completeness at all costs, but a calm and useful starting point. If something is missing or wrong, report it via GitHub."}
+    }
+  },
+  "safety": {
+    "title": {"de": "Wetter, Warnsystem, Entscheidungen", "en": "Weather, warning system, decisions"},
+    "subtitle": {"de": "Am Bodensee passieren die meisten schlechten Tage nicht wegen fehlender Segeltechnik, sondern wegen Timing. Diese Basics helfen beim Entscheiden.", "en": "Most bad days on the lake are not about sailing skills, but timing. These basics help decision-making."},
+    "cards": [
+      {
+        "title": {"de": "Starkwindwarnung", "en": "Strong wind warning"},
+        "text": {"de": "40 orange Blitze pro Minute: Gefahr von Böen 25 bis 33 kn. Spätestens jetzt Kurs und Plan anpassen.", "en": "40 orange flashes per minute: risk of gusts 25–33 kn. Adjust plan and course now."}
+      },
+      {
+        "title": {"de": "Sturmwarnung", "en": "Storm warning"},
+        "text": {"de": "90 orange Blitze pro Minute: Gefahr von Wind ab 34 kn. Schutz suchen, früh reduzieren, nicht diskutieren.", "en": "90 orange flashes per minute: risk of winds 34 kn and above. Seek shelter, reduce early, no debate."}
+      },
+      {
+        "title": {"de": "Traffic und Fähren", "en": "Traffic and ferries"},
+        "text": {"de": "Rund um Häfen, Querungen und Uferlinien ist viel Verkehr. Plane Ansteuerungen defensiv und rechne mit Kursänderungen anderer.", "en": "Around harbors, crossings, and shorelines traffic is busy. Plan defensively and expect others to change course."}
+      }
+    ],
+    "sources": {"de": "Die Werte zur Sturmwarnung (40 und 90 Blitze pro Minute) sind offiziell beschrieben. Links findest du unten in der Quellenliste.", "en": "The storm warning values (40 and 90 flashes per minute) are described officially. Links are in the sources section."}
+  },
+  "faq": [
+    {
+      "q": {"de": "Kann ich überall ankern?", "en": "Can I anchor anywhere?"},
+      "a": {"de": "Nein. Es gibt Schutzgebiete, Verkehrsräume und lokale Regeln. Nutze die Ankerplatz-Liste als Startpunkt und prüfe vor Ort die offiziellen Hinweise.", "en": "No. There are protected areas, traffic lanes, and local rules. Use the list as a starting point and verify official notices on site."}
+    },
+    {
+      "q": {"de": "Sind die Tiefenangaben garantiert?", "en": "Are depth values guaranteed?"},
+      "a": {"de": "Nein. Wasserstände ändern sich, und Daten können veralten. Wenn ein Eintrag kritisch ist, plane konservativ und verifiziere mit aktuellen Karten.", "en": "No. Levels change and data can go stale. If it is critical, plan conservatively and verify with up-to-date charts and local information."}
+    },
+    {
+      "q": {"de": "Wie aktuell sind die Daten?", "en": "How current is the data?"},
+      "a": {"de": "Wo möglich führen wir eine Quelle und ein last verified Datum. Wenn beides fehlt, behandle den Eintrag als Hinweis, nicht als Zusage.", "en": "Where possible we include a source and a last-verified date. If missing, treat it as a hint, not a promise."}
+    },
+    {
+      "q": {"de": "Kann ich beitragen?", "en": "Can I contribute?"},
+      "a": {"de": "Ja. Am schnellsten über GitHub: Issue schreiben oder direkt einen kleinen Fix vorschlagen. Je konkreter Quelle und Datum, desto besser.", "en": "Yes. The fastest way is via GitHub: open the repo, file an issue, or propose a small fix. Sources and dates help a lot."}
+    }
+  ],
+  "faq_disclaimer": {
+    "title": {"de": "Daten und Haftung", "en": "Data and responsibility"},
+    "text": {"de": "Diese Seite ersetzt keine amtlichen Karten, Hafenordnungen oder Sicherheitsinfos. Sie ist eine kuratierte Übersicht für Planung und Inspiration. Verantwortung bleibt beim Skipper.", "en": "This site does not replace official charts, marina rules, or safety information. It is a curated overview for planning and inspiration. Responsibility stays with the skipper."}
+  }
+}

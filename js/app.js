@@ -144,6 +144,70 @@ function applyLakeBranding() {
   if (footerLogo) footerLogo.innerHTML = `${escapeHtml(name)}<span>.</span>`;
 }
 
+function renderLakeContent(content) {
+  const lang = state.lang || 'de';
+  const tx = obj => (obj && obj[lang]) ? obj[lang] : (obj && obj['de']) ? obj['de'] : '';
+
+  // Guide
+  const guideTitle = document.getElementById('guideTitle');
+  const guideSubtitle = document.getElementById('guideSubtitle');
+  const guideContent = document.getElementById('guideContent');
+  const guideSec = document.getElementById('guide');
+
+  if (content?.guide && guideContent) {
+    if (guideTitle) guideTitle.textContent = tx(content.guide.title) || t('guide.title');
+    if (guideSubtitle) guideSubtitle.textContent = tx(content.guide.subtitle);
+    const cards = (content.guide.cards || []).map(c =>
+      `<div class="value-card"><h3>${escapeHtml(tx(c.title))}</h3><p>${escapeHtml(tx(c.text))}</p></div>`
+    ).join('');
+    const how = content.guide.how
+      ? `<div class="prose"><p>${escapeHtml(tx(content.guide.how.p1))}</p><p>${escapeHtml(tx(content.guide.how.p2))}</p></div>`
+      : '';
+    guideContent.innerHTML = `<div class="value-grid">${cards}</div>${how}`;
+    if (guideSec) guideSec.style.display = '';
+  } else if (guideSec) {
+    guideSec.style.display = 'none';
+  }
+
+  // Safety
+  const safetyTitle = document.getElementById('safetyTitle');
+  const safetySubtitle = document.getElementById('safetySubtitle');
+  const safetyContent = document.getElementById('safetyContent');
+  const safetySec = document.getElementById('safety');
+
+  if (content?.safety && safetyContent) {
+    if (safetyTitle) safetyTitle.textContent = tx(content.safety.title) || t('safety.title');
+    if (safetySubtitle) safetySubtitle.textContent = tx(content.safety.subtitle);
+    const cards = (content.safety.cards || []).map(c =>
+      `<div class="value-card"><h3>${escapeHtml(tx(c.title))}</h3><p>${escapeHtml(tx(c.text))}</p></div>`
+    ).join('');
+    const sources = content.safety.sources
+      ? `<div class="prose"><p>${escapeHtml(tx(content.safety.sources))}</p></div>`
+      : '';
+    safetyContent.innerHTML = `<div class="value-grid">${cards}</div>${sources}`;
+    if (safetySec) safetySec.style.display = '';
+  } else if (safetySec) {
+    safetySec.style.display = 'none';
+  }
+
+  // FAQ
+  const faqContent = document.getElementById('faqContent');
+  const faqSec = document.getElementById('faq');
+
+  if (content?.faq?.length && faqContent) {
+    const items = content.faq.map(item =>
+      `<div class="faq-item"><h3>${escapeHtml(tx(item.q))}</h3><p>${escapeHtml(tx(item.a))}</p></div>`
+    ).join('');
+    const disclaimer = content.faq_disclaimer
+      ? `<div class="prose"><h3>${escapeHtml(tx(content.faq_disclaimer.title))}</h3><p>${escapeHtml(tx(content.faq_disclaimer.text))}</p></div>`
+      : `<div class="prose"><h3>${escapeHtml(t('faq.disclaimer.title'))}</h3><p>${escapeHtml(t('faq.disclaimer.text'))}</p></div>`;
+    faqContent.innerHTML = `<div class="faq-grid">${items}</div>${disclaimer}`;
+    if (faqSec) faqSec.style.display = '';
+  } else if (faqSec) {
+    faqSec.style.display = 'none';
+  }
+}
+
 function toast(msg, ms = 1800) {
   const el = document.getElementById('toast');
   if (!el) return;
@@ -1894,13 +1958,14 @@ async function main() {
 
   // Data (per lake)
   const base = `./data/lakes/${lake.id}`;
-  const [harbors, anchors, rentals, gastros, services, layersCfg] = await Promise.all([
+  const [harbors, anchors, rentals, gastros, services, layersCfg, lakeContent] = await Promise.all([
     loadJSON(`${base}/harbors.json`).catch(() => []),
     loadJSON(`${base}/anchors.json`).catch(() => []),
     loadJSON(`${base}/rentals.json`).catch(() => []),
     loadJSON(`${base}/gastros.json`).catch(() => []),
     loadJSON(`${base}/services.json`).catch(() => []),
-    loadJSON(`${base}/layers.json`).catch(() => [])
+    loadJSON(`${base}/layers.json`).catch(() => []),
+    loadJSON(`${base}/content.json`).catch(() => null)
   ]);
 
   state.data.harbors = harbors;
@@ -1944,6 +2009,7 @@ async function main() {
   setTimeout(renderAll, 0);
 
   renderLakeLinks();
+  renderLakeContent(lakeContent);
   // Deep link open
   handleDeepLinkOpen();
 
