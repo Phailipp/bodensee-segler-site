@@ -1,0 +1,113 @@
+{
+  "guide": {
+    "title": {"de": "Der Genfersee, kurz erklärt", "en": "Lac Léman, in brief"},
+    "subtitle": {
+      "de": "Westeuropas grösster See segelt sich nicht wie ein Hausgewässer — kurze Welle, Grenzrecht und Bise machen den Unterschied.",
+      "en": "Western Europe's largest lake doesn't sail like home waters — short steep chop, cross-border rules, and the Bise make the difference."
+    },
+    "cards": [
+      {
+        "title": {"de": "Charakter: gross, aber kein Meer", "en": "Character: large, but not the sea"},
+        "text": {
+          "de": "582 km², 72 km lang — trotzdem baut sich Welle hier schnell und steil auf, besonders bei Bise aus NE oder Vaudaire/Rebat aus SW. Die CGN-Dampfer fahren regelmässig quer: Ausweichpflicht kennen und früh handeln.",
+          "en": "582 km², 72 km long — yet waves build fast and steep, especially with the Bise from NE or the Vaudaire/Rebat from SW. CGN ferries cross the lake regularly: know the right-of-way rules and act early."
+        }
+      },
+      {
+        "title": {"de": "Ankern: viel geregelt, wenig frei", "en": "Anchoring: heavily regulated, little freedom"},
+        "text": {
+          "de": "Schilf- und Fischreservate sowie Schutzgebiete schränken die Ankermöglichkeiten stark ein. Vor dem Fallen des Ankers immer Karte und lokale Beschilderung prüfen — das gilt für die Schweizer wie für die französische Seite.",
+          "en": "Reed beds, fish reserves and protected zones leave few freely anchorable areas. Always check charts and local signage before anchoring — this applies equally on the Swiss and French sides of the lake."
+        }
+      },
+      {
+        "title": {"de": "Zwei Länder, ein Reglement", "en": "Two countries, one rulebook"},
+        "text": {
+          "de": "Das Règlement de la navigation sur le Léman gilt auf dem ganzen See — ein bilateraler Vertrag zwischen der Schweiz und Frankreich. Trotzdem gelten für Zulassung und Führerschein unterschiedliche nationale Anforderungen je nach Heimathafen.",
+          "en": "The Règlement de la navigation sur le Léman applies across the whole lake — a bilateral CH-FR treaty. Nevertheless, registration and licence requirements differ by nationality and which side of the lake your home port is on."
+        }
+      }
+    ],
+    "how": {
+      "p1": {
+        "de": "Nutze die Kartendarstellung, um Schutzgebiete und Häfen in Relation zu deiner Route zu sehen. Die Distanzen täuschen: Genf nach Montreux sind 65 km offenes Wasser, und Wetterfenster können sich am Mittag in einer Stunde schliessen.",
+        "en": "Use the map view to see protected zones and harbours in relation to your route. Distances deceive: Geneva to Montreux is 65 km of open water, and afternoon weather windows can close within an hour."
+      },
+      "p2": {
+        "de": "Météo France und MeteoSwiss geben Warnungen heraus — beide Apps vor der Ausfahrt öffnen. Bei der Ansteuerung grösserer Häfen wie Lausanne-Ouchy oder Genf rechne mit Fährbetrieb und halte ausreichend Abstand.",
+        "en": "Météo France and MeteoSwiss both issue warnings for the lake — open both apps before you leave. When approaching larger harbours like Lausanne-Ouchy or Geneva, expect ferry traffic and maintain ample clearance."
+      }
+    }
+  },
+  "safety": {
+    "title": {"de": "Wetter, Warnsystem, Entscheidungen", "en": "Weather, warning system, decisions"},
+    "subtitle": {
+      "de": "Kein Blitzsignal, dafür schnelle Böen: Der Léman braucht frühes Entscheiden und die richtigen Quellen.",
+      "en": "No storm signal lights, but fast squalls: Lac Léman demands early decisions and the right information sources."
+    },
+    "cards": [
+      {
+        "title": {"de": "Vaudaire und Rebat: die unterschätzte Gefahr", "en": "Vaudaire and Rebat: the underestimated hazard"},
+        "text": {
+          "de": "Diese S/SW-Winde kommen besonders im Sommer als Böenstaffeln aus dem Rhonetal — oft nachmittags, oft über 6 Bft, oft innerhalb von 20 Minuten. Wer um 14 Uhr noch schön segelt, kann um 15 Uhr in gefährlichem Quergang stecken.",
+          "en": "These S/SW winds arrive especially in summer as squall trains out of the Rhône valley — often in the afternoon, often above 6 Bft, often within 20 minutes. What looks like perfect sailing at 2 pm can turn dangerous by 3 pm."
+        }
+      },
+      {
+        "title": {"de": "Kein Signalanlagen-System — aktive Wetterverfolgung ist Pflicht", "en": "No storm signal lights — active weather monitoring is mandatory"},
+        "text": {
+          "de": "Am Léman gibt es keine Blinkleuchten-Sturmwarnung wie am Bodensee. Warnungen kommen über MeteoSwiss und Météo France. Vor Ausfahrt beide prüfen, unterwegs per Funk oder App aktuell bleiben.",
+          "en": "Lac Léman has no shore-based storm signal light system like the Bodensee. Warnings come via MeteoSwiss and Météo France. Check both before departure and monitor actively while underway."
+        }
+      },
+      {
+        "title": {"de": "CGN-Fähren und Uferverkehr", "en": "CGN ferries and inshore traffic"},
+        "text": {
+          "de": "Die grossen CGN-Dampfer haben Vorrang und wenig Manövrierspielraum. Querungen und Hafeneinfahrten immer mit einem Auge auf den Fahrplan — Strecken wie Lausanne–Évian oder Genf–Yvoire werden dicht befahren.",
+          "en": "The large CGN steamers have right of way and little room to manoeuvre. Cross and enter harbours with the timetable in mind — routes like Lausanne–Évian or Geneva–Yvoire are heavily used."
+        }
+      }
+    ],
+    "sources": {
+      "de": "MeteoSwiss (meteoswiss.admin.ch) und Météo France (meteofrance.com) sind die offiziellen Quellen für Seewarnungen auf dem Léman. Warnungen per App vor jeder Ausfahrt checken.",
+      "en": "MeteoSwiss (meteoswiss.admin.ch) and Météo France (meteofrance.com) are the official warning sources for Lac Léman. Check warnings via app before every departure."
+    }
+  },
+  "faq": [
+    {
+      "q": {"de": "Was ist die Bise, und wann ist sie gefährlich?", "en": "What is the Bise, and when is it dangerous?"},
+      "a": {
+        "de": "Die Bise ist ein kalter Nordostwind, typisch in Winter und Frühjahr. Sie kann mehrere Tage anhalten und Stärken über 6 Bft erreichen — mit kurzer, steiler Welle, die das Segeln schnell anstrengend macht.",
+        "en": "The Bise is a cold north-easterly wind, typical in winter and spring. It can persist for several days and reach above 6 Bft — with short, steep waves that make sailing tiring fast."
+      }
+    },
+    {
+      "q": {"de": "Gilt mein Schweizer Bootsausweis auch auf der französischen Seite?", "en": "Is my Swiss boat registration valid on the French side?"},
+      "a": {
+        "de": "Das Règlement de la navigation sur le Léman gilt auf dem ganzen See, aber Frankreich kann eigene nationale Anforderungen für Führerschein und Zulassung verlangen. Vor der ersten Grenzüberquerung bei der kantonalen Schifffahrtsbehörde nachfragen.",
+        "en": "The Règlement applies lake-wide, but France can enforce its own national requirements for licences and registration. Check with the cantonal shipping authority before your first cross-border trip."
+      }
+    },
+    {
+      "q": {"de": "Wie weit muss ich vom Ufer entfernt bleiben?", "en": "How far from shore must I stay?"},
+      "a": {
+        "de": "Das allgemeine Tempolimit von 10 km/h gilt innerhalb von 300 m vom Ufer — Einschränkungen betreffen auch Ankern und Manövrieren. Ausnahmen wie Wasserskigebiete sind lokal beschildert.",
+        "en": "The general 10 km/h speed limit applies within 300 m of shore — restrictions also affect anchoring and manoeuvring. Exceptions like water-ski zones are posted locally."
+      }
+    },
+    {
+      "q": {"de": "Kann ich am Léman über Nacht ankern?", "en": "Can I anchor overnight on Lac Léman?"},
+      "a": {
+        "de": "In vielen Bereichen nicht — Schutzgebiete, Schilfzonen und Fischereiverbote decken grosse Teile der Uferlinie ab. Wenige freie Ankerbuchten gibt es, aber die Auswahl ist eng.",
+        "en": "In many areas no — protected zones, reed beds and fishing reserves cover large stretches of shoreline. A few free anchorages exist, but the choice is limited."
+      }
+    }
+  ],
+  "faq_disclaimer": {
+    "title": {"de": "Daten und Haftung", "en": "Data and responsibility"},
+    "text": {
+      "de": "Diese Seite ersetzt keine amtlichen Karten, Hafenordnungen oder Sicherheitsinfos. Sie ist eine kuratierte Übersicht für Planung und Inspiration. Verantwortung bleibt beim Skipper.",
+      "en": "This site does not replace official charts, marina rules, or safety information. It is a curated overview for planning and inspiration. Responsibility stays with the skipper."
+    }
+  }
+}
