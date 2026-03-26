@@ -257,7 +257,7 @@ nav.scrolled { background: rgba(12,25,41,0.95); backdrop-filter: blur(10px); pad
 }
 
 /* Sections */
-section { padding: 120px 48px; }
+section { padding: 80px 48px; }
 
 .section-header { text-align: center; margin-bottom: 40px; }
 
@@ -404,41 +404,55 @@ section { padding: 120px 48px; }
 
 .harbor-card {
   background: var(--navy-light);
-  border-radius: 4px;
+  border-radius: 8px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
-}
-
-.harbor-card:hover { transform: translateY(-8px); box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
-
-.harbor-image {
-  height: 200px;
-  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.harbor-image svg { width: 48px; height: 48px; color: var(--gold); opacity: 0.3; }
-
-.harbor-country {
+.harbor-card::before {
+  content: '';
   position: absolute;
-  top: 16px;
-  right: 16px;
-  padding: 6px 12px;
-  background: rgba(0,0,0,0.4);
-  backdrop-filter: blur(4px);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(201,169,98,0.3);
+}
+
+.harbor-card[data-country="DE"]::before { background: #3a7bd5; }
+.harbor-card[data-country="CH"]::before { background: #e63946; }
+.harbor-card[data-country="AT"]::before { background: #e63946; }
+.harbor-card[data-country="FR"]::before { background: #2563eb; }
+.harbor-card[data-country="IT"]::before { background: #16a34a; }
+
+.harbor-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,0.3); }
+
+.harbor-content { padding: 24px; }
+
+.harbor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.harbor-country-badge {
+  padding: 4px 10px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
   font-size: 0.6875rem;
   letter-spacing: 0.1em;
-  border-radius: 2px;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 12px;
+  margin-top: 2px;
 }
 
-.harbor-content { padding: 28px; }
-
 .harbor-name { font-family: 'Playfair Display', serif; font-size: 1.375rem; margin-bottom: 4px; }
-.harbor-location { color: var(--text-light); font-size: 0.875rem; margin-bottom: 20px; }
+.harbor-location { color: var(--text-light); font-size: 0.875rem; margin-bottom: 0; }
 
 .harbor-stats { display: flex; gap: 32px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); }
 
@@ -502,7 +516,7 @@ section { padding: 120px 48px; }
 .service-item {
   background: var(--navy);
   border: 1px solid rgba(255,255,255,0.10);
-  padding: 40px;
+  padding: 24px;
   transition: background 0.3s ease, border-color 0.3s ease;
 }
 .service-item:hover {
@@ -1321,3 +1335,31 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
   color: var(--navy);
   font-weight: 500;
 }
+
+/* Scroll-to-top FAB */
+.scroll-top-btn {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 44px;
+  height: 44px;
+  background: var(--navy-light);
+  border: 1px solid rgba(201,169,98,0.35);
+  color: var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+}
+.scroll-top-btn.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.scroll-top-btn:hover { background: var(--navy); border-color: var(--gold); }

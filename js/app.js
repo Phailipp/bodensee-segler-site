@@ -728,14 +728,15 @@ function cardHarbor(h) {
   const prem = h.premium ? ' premium' : '';
   const badge = h.premium ? '<span class="premium-badge">Premium</span>' : '';
   return `
-    <div class="harbor-card${prem}" data-open="harbor" data-id="${h.id}">
-      <div class="harbor-image">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 20 L12 4 L22 20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
-        <span class="harbor-country">${formatCountry(h.country)}</span>
-      </div>
+    <div class="harbor-card${prem}" data-open="harbor" data-id="${h.id}" data-country="${escapeHtml(h.country || '')}">
       <div class="harbor-content">
-        <h3 class="harbor-name">${escapeHtml(h.name)}${badge}</h3>
-        <p class="harbor-location">${escapeHtml(h.region || '')}</p>
+        <div class="harbor-header">
+          <div>
+            <h3 class="harbor-name">${escapeHtml(h.name)}${badge}</h3>
+            <p class="harbor-location">${escapeHtml(h.region || '')}</p>
+          </div>
+          <span class="harbor-country-badge">${formatCountry(h.country)}</span>
+        </div>
         <div class="harbor-stats">
           <div class="stat"><div class="stat-value">${h.berths ?? '—'}</div><div class="stat-label">${t('stats.berths')}</div></div>
           <div class="stat"><div class="stat-value">${h.guestBerths ?? '—'}</div><div class="stat-label">${t('stats.guest')}</div></div>
@@ -750,7 +751,11 @@ function cardHarbor(h) {
 }
 
 function rowAnchor(a) {
-  const overnightTag = a.overnight ? `<span class="anchor-tag overnight">${t('filter.overnight.yes')}</span>` : `<span class="anchor-tag">${t('filter.overnight.no')}</span>`;
+  const overnightLabel = t('filter.overnight');
+  const overnightVal = a.overnight ? t('filter.overnight.yes') : t('filter.overnight.no');
+  const overnightTag = a.overnight
+    ? `<span class="anchor-tag overnight">${overnightLabel}: ${overnightVal}</span>`
+    : `<span class="anchor-tag">${overnightLabel}: ${overnightVal}</span>`;
   return `
     <div class="anchor-item" data-open="anchor" data-id="${a.id}">
       <div>
@@ -773,14 +778,15 @@ function cardRental(r) {
   const prem = r.premium ? ' premium' : '';
   const badge = r.premium ? '<span class="premium-badge">Premium</span>' : '';
   return `
-    <div class="harbor-card${prem}" data-open="rental" data-id="${r.id}">
-      <div class="harbor-image" style="background: linear-gradient(135deg, #1a2d42 0%, #2d1a42 100%);">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 20 L12 4 L22 20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
-        <span class="harbor-country">${formatCountry(r.country)}</span>
-      </div>
+    <div class="harbor-card${prem}" data-open="rental" data-id="${r.id}" data-country="${escapeHtml(r.country || '')}">
       <div class="harbor-content">
-        <h3 class="harbor-name">${escapeHtml(r.name)}${badge}</h3>
-        <p class="harbor-location">${escapeHtml(r.location || '')}</p>
+        <div class="harbor-header">
+          <div>
+            <h3 class="harbor-name">${escapeHtml(r.name)}${badge}</h3>
+            <p class="harbor-location">${escapeHtml(r.location || '')}</p>
+          </div>
+          <span class="harbor-country-badge">${formatCountry(r.country)}</span>
+        </div>
         <div class="harbor-stats">
           <div class="stat"><div class="stat-value">${r.fleetSize ?? '—'}</div><div class="stat-label">${t('rentals.stats.boats')}</div></div>
           <div class="stat"><div class="stat-value">${escapeHtml(r.priceFrom || '—')}</div><div class="stat-label">${t('stats.price')}</div></div>
@@ -1950,3 +1956,15 @@ async function main() {
 main().catch(err => {
   console.error('App init failed:', err);
 });
+
+// Scroll-to-top FAB
+(function() {
+  const btn = document.getElementById('scrollTopBtn');
+  if (!btn) return;
+  window.addEventListener('scroll', () => {
+    btn.classList.toggle('visible', window.scrollY > 400);
+  }, { passive: true });
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
