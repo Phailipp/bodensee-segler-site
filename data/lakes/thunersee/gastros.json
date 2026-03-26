@@ -90,6 +90,85 @@
     "hours": "täglich"
   },
   {
+    "id": "hecht_faulensee",
+    "name": "Seerestaurant Hecht",
+    "country": "CH",
+    "location": "Faulensee bei Spiez",
+    "lat": 46.682,
+    "lng": 7.717,
+    "price": "CHF €€€",
+    "berthing": "",
+    "features": [
+      "Seerestaurant",
+      "Fischgerichte",
+      "Seeterrasse"
+    ],
+    "url": "https://www.hecht-faulensee.ch/",
+    "source": "hecht-faulensee.ch",
+    "lastVerified": "2026-03-26",
+    "phone": "+41 33 654 14 25",
+    "hours": ""
+  },
+  {
+    "id": "dampfschiff_thun",
+    "name": "Dampfschiff",
+    "country": "CH",
+    "location": "Thun, Seepromenade",
+    "lat": 46.754,
+    "lng": 7.624,
+    "price": "CHF €€",
+    "berthing": "",
+    "features": [
+      "Restaurant",
+      "Seeterrasse",
+      "Mediterrane Küche"
+    ],
+    "url": "https://www.dampfschiff-thun.ch/",
+    "source": "dampfschiff-thun.ch",
+    "lastVerified": "2026-03-26",
+    "phone": "",
+    "hours": ""
+  },
+  {
+    "id": "buvette_huenibach",
+    "name": "Buvette am See",
+    "country": "CH",
+    "location": "Hünibach / Hilterfingen",
+    "lat": 46.735,
+    "lng": 7.681,
+    "price": "CHF €",
+    "berthing": "Mit Schiff erreichbar (Station Hünibach)",
+    "features": [
+      "Direkt am See",
+      "Per Boot erreichbar"
+    ],
+    "url": "https://www.buvetteamsee.ch/",
+    "source": "buvetteamsee.ch",
+    "lastVerified": "2026-03-26",
+    "phone": "",
+    "hours": ""
+  },
+  {
+    "id": "beatenbucht_restaurant",
+    "name": "Seerestaurant Beatenbucht",
+    "country": "CH",
+    "location": "Beatenbucht, Nordseite Thunersee",
+    "lat": 46.697,
+    "lng": 7.752,
+    "price": "CHF €€",
+    "berthing": "Neben Schiff- und Busstation",
+    "features": [
+      "Seerestaurant",
+      "Schiffstation direkt daneben",
+      "Terrasse"
+    ],
+    "url": "https://huettenzauber.ch/en/niederhorn/beatenbucht/",
+    "source": "huettenzauber.ch – Niederhorn Beatenbucht",
+    "lastVerified": "2026-03-26",
+    "phone": "",
+    "hours": ""
+  },
+  {
     "id": "alpha_thun",
     "name": "Alpha",
     "country": "CH",
