@@ -36,6 +36,18 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "tankstelle_stresa_taroni",
+    "name": "Tankstelle Cantiere Taroni Stresa",
+    "country": "IT",
+    "type": "fuel",
+    "details": "Benzin, Diesel & Gemisch · Cantiere Nautico Taroni, Stresa-Carciano · Mo/Di/Do–So 09:00–12:30 & 14:00–18:30, Mi geschlossen",
+    "lat": 45.890,
+    "lng": 8.522,
+    "url": "http://www.cantierenauticotaroni.com/rifornimento.html",
+    "source": "cantierenauticotaroni.com; portolago.com",
+    "lastVerified": "2026-03-26"
+  },
+  {
     "id": "kran_portolabieno",
     "name": "Kran Marina Portolabieno",
     "country": "IT",
