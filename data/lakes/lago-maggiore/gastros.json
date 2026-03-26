@@ -165,5 +165,82 @@
     "url": "https://www.piccololago.it/",
     "source": "https://www.piccololago.it/",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "vistaqua_feriolo",
+    "name": "Vistaqua Osteria sul Lago",
+    "country": "IT",
+    "location": "Feriolo di Baveno",
+    "lat": 45.9294,
+    "lng": 8.4811,
+    "price": "€€",
+    "features": [
+      "Seeterrasse",
+      "Direkt am Wasser",
+      "Fischgerichte",
+      "Anleger"
+    ],
+    "berthing": "Anleger im Hafen Feriolo (Cantiere del Verbano) in unmittelbarer Nähe",
+    "url": "http://www.ristorantevistaqua.it/",
+    "source": "ristorantevistaqua.it",
+    "lastVerified": "2026-03-26"
+  },
+  {
+    "id": "ristorante_del_lago_cannobio",
+    "name": "Ristorante del Lago – Hotel Del Lago",
+    "country": "IT",
+    "location": "Cannobio",
+    "lat": 46.0551,
+    "lng": 8.6820,
+    "price": "€€",
+    "features": [
+      "Seeterrasse",
+      "Direkt am Wasser",
+      "Fischgerichte",
+      "Anleger"
+    ],
+    "berthing": "Öffentlicher Steg in Cannobio ca. 200 m entfernt",
+    "url": "https://www.hoteldellagocannobio.it/ristorante-cannobio.html",
+    "source": "hoteldellagocannobio.it",
+    "lastVerified": "2026-03-26"
+  },
+  {
+    "id": "camin_colmegna_luino",
+    "name": "Ristorante Camin Hotel Colmegna",
+    "country": "IT",
+    "location": "Colmegna / Luino",
+    "lat": 46.0048,
+    "lng": 8.7318,
+    "price": "€€€",
+    "features": [
+      "Seeterrasse",
+      "Direkt am Wasser",
+      "Gourmet",
+      "Anleger",
+      "Fischgerichte"
+    ],
+    "berthing": "Kleiner Steg direkt am Hotel",
+    "url": "https://www.caminhotelluino.com/en/restaurant-on-the-lake-maggiore/",
+    "source": "caminhotelluino.com",
+    "lastVerified": "2026-03-26"
+  },
+  {
+    "id": "molo54_feriolo",
+    "name": "Molo 54 – Boat Restaurant",
+    "country": "IT",
+    "location": "Feriolo di Baveno",
+    "lat": 45.9178,
+    "lng": 8.5035,
+    "price": "€€",
+    "features": [
+      "Direkt am Wasser",
+      "Fischgerichte",
+      "Anleger",
+      "Seeterrasse"
+    ],
+    "berthing": "Restaurant im Hafen Feriolo, Festmachplätze vorhanden",
+    "url": "https://www.molo54.it/",
+    "source": "molo54.it",
+    "lastVerified": "2026-03-26"
   }
 ]
