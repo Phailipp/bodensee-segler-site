@@ -157,5 +157,53 @@
     "maxBeamM": null,
     "amenities": [],
     "guestPolicy": "Gastplätze auf Anfrage"
+  },
+  {
+    "id": "kibag_marina_arth",
+    "name": "KIBAG Marina Arth",
+    "country": "CH",
+    "region": "Arth",
+    "lat": 47.0682,
+    "lng": 8.5245,
+    "berths": 175,
+    "guestBerths": 10,
+    "maxDraftM": 2.5,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Kran (7 t)",
+      "Tankstelle",
+      "Sanitär",
+      "Slipanlage",
+      "Werkstatt",
+      "Winterlager"
+    ],
+    "notes": "Vollservice-Marina am Südende des Zugersees, ganzjährig geöffnet. Dalben-, Bojen- und Fingerstegplätze. 7-t-Kran und Hydraulik-Bootstransporter. Gastliegeplätze buchbar via Boatpark-App.",
+    "url": "https://www.kibagmarina.ch/de/standorte/marina_arth.html",
+    "source": "kibagmarina.ch; ADAC Skipper-Portal",
+    "lastVerified": "2026-03-26",
+    "guestPolicy": "Gastliegeplätze buchbar via Boatpark-App"
+  },
+  {
+    "id": "yci_immensee",
+    "name": "Yacht Club Immensee (YCI)",
+    "country": "CH",
+    "region": "Immensee",
+    "lat": 47.0935,
+    "lng": 8.4653,
+    "berths": 42,
+    "guestBerths": 0,
+    "maxDraftM": 1.8,
+    "features": [
+      "Bojenfeld (32 Plätze)",
+      "Trockenplätze (10)",
+      "Sliprampe",
+      "Steg"
+    ],
+    "notes": "Vereinsgeführtes Bojenfeld am Südostufer, am Fusse der Rigi. 32 Bojenplätze und 10 Trockenplätze für Jollen. Mitgliedschaft bei Zuteilung obligatorisch, Warteliste 1–3 Jahre.",
+    "url": "https://www.yci.ch/",
+    "source": "yci.ch",
+    "lastVerified": "2026-03-26",
+    "guestPolicy": "Keine Gastliegeplätze, nur Vereinsmitglieder"
   }
 ]
