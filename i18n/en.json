@@ -39,6 +39,7 @@
   "filter.search.anchor": "Anchorage or location…",
   "filter.search.rental": "Rental or location…",
   "filter.search.gastro": "Restaurant or location…",
+  "filter.withBerthing": "With mooring only",
   "filter.type": "Type",
   "service.type.fuel": "Fuel",
   "service.type.crane": "Crane",
@@ -194,5 +195,19 @@
   "modal.k.restrictions": "Notes/Restrictions",
   "map.layers.zones": "Zones",
   "map.layers.location": "My location",
-  "modal.actions.book": "Book now"
+  "modal.actions.book": "Book now",
+  "modal.footnote": "Note: This info is a starting point. On-site rules, charts, and operator details take precedence. Responsibility stays with the skipper.",
+  "zones.title": "Zones",
+  "zones.desc": "Official protected-area layers (CH, DE, AT) incl. Natura 2000. Currently active:",
+  "zones.colors": "Colors (legend):",
+  "zones.links": "Details and links:",
+  "zones.toast.noLayers": "Zones: no layers configured",
+  "zones.toast.loading": "Zones: loading…",
+  "zones.toast.unreachable": "Zones: services unreachable",
+  "zones.toast.active": "Zones: active",
+  "zones.toast.someDown": "some services down",
+  "zones.toast.stillLoading": "still loading…",
+  "backlog.candidates": "Candidates",
+  "backlog.missingCandidate": "No candidate",
+  "backlog.missingCandidateUrl": "Missing candidate URL"
 }

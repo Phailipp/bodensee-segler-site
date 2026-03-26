@@ -6,7 +6,7 @@
     "location": "Kastanienbaum, Luzern",
     "lat": 47.0196,
     "lng": 8.3344,
-    "price": "CHF €€-€€€",
+    "price": "€€-€€€",
     "features": [
       "Regionale Küche",
       "Seeterrasse",
@@ -23,7 +23,7 @@
     "location": "Luzern, Seeufer",
     "lat": 47.0448,
     "lng": 8.3167,
-    "price": "CHF €€€",
+    "price": "€€€",
     "features": [
       "Grill",
       "Seeterrasse",
@@ -40,7 +40,7 @@
     "location": "Weggis",
     "lat": 47.0335,
     "lng": 8.4326,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Pizza/Pasta",
       "Seeterrasse",
@@ -57,7 +57,7 @@
     "location": "Beckenried",
     "lat": 46.9659,
     "lng": 8.4664,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Regionale Küche",
       "Seeblick",
@@ -74,7 +74,7 @@
     "location": "Brunnen",
     "lat": 46.9979,
     "lng": 8.6103,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Schweizer Küche",
       "Seeterrasse"
@@ -90,7 +90,7 @@
     "location": "Luzern, Grand Casino",
     "lat": 47.0477,
     "lng": 8.3124,
-    "price": "CHF €€",
+    "price": "€€",
     "features": [
       "Mediterran",
       "Direkt am See"
@@ -106,7 +106,7 @@
     "location": "Weggis",
     "lat": 47.0342,
     "lng": 8.4359,
-    "price": "CHF €€-€€€",
+    "price": "€€-€€€",
     "features": [
       "Mediterran",
       "Fischgerichte",
@@ -123,7 +123,7 @@
     "location": "Vitznau",
     "lat": 47.0107,
     "lng": 8.4858,
-    "price": "CHF €€-€€€",
+    "price": "€€-€€€",
     "features": [
       "Fischgerichte",
       "Seeterrasse",
@@ -140,7 +140,7 @@
     "location": "Hergiswil",
     "lat": 46.9913,
     "lng": 8.3079,
-    "price": "CHF €€€",
+    "price": "€€€",
     "features": [
       "Gourmet",
       "Seeterrasse",
@@ -157,7 +157,7 @@
     "location": "Luzern, Seeufer",
     "lat": 47.0445,
     "lng": 8.3175,
-    "price": "CHF €",
+    "price": "€",
     "features": [
       "Bistro",
       "Direkt am See"

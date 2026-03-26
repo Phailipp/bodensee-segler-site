@@ -50,5 +50,45 @@
     "url": "https://www.nauticabego.com/",
     "source": "https://www.nauticabego.com/",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "feriolo_boat_service",
+    "name": "Boat Service Feriolo",
+    "country": "IT",
+    "location": "Feriolo di Baveno",
+    "lat": 45.913,
+    "lng": 8.521,
+    "fleetSize": 5,
+    "priceFrom": "ab €89/halber Tag",
+    "features": [
+      "Motorboote",
+      "Führerscheinfrei",
+      "bis 7 Personen"
+    ],
+    "url": "https://www.boatserviceferiolo.com",
+    "source": "boatserviceferiolo.com",
+    "lastVerified": "2026-03-26",
+    "phone": "+39 329 691 4217",
+    "hours": "Saison"
+  },
+  {
+    "id": "living_lake_ghiffa",
+    "name": "Living Lake",
+    "country": "IT",
+    "location": "Ghiffa",
+    "lat": 45.975,
+    "lng": 8.617,
+    "fleetSize": 4,
+    "priceFrom": "ab €140/halber Tag",
+    "features": [
+      "Motorboote",
+      "Führerscheinfrei",
+      "Tages- & Mehrtagestouren"
+    ],
+    "url": "https://livinglake.it",
+    "source": "livinglake.it",
+    "lastVerified": "2026-03-26",
+    "phone": "+39 329 569 2378",
+    "hours": "Saison"
   }
 ]

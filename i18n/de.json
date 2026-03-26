@@ -39,6 +39,7 @@
   "filter.search.anchor": "Ankerplatz oder Ort…",
   "filter.search.rental": "Vermieter oder Ort…",
   "filter.search.gastro": "Restaurant oder Ort…",
+  "filter.withBerthing": "Nur mit Anleger",
   "filter.type": "Typ",
   "service.type.fuel": "Tankstelle",
   "service.type.crane": "Kran",
@@ -194,5 +195,19 @@
   "modal.k.restrictions": "Hinweise/Einschränkungen",
   "map.layers.zones": "Zonen",
   "map.layers.location": "Standort",
-  "modal.actions.book": "Jetzt buchen"
+  "modal.actions.book": "Jetzt buchen",
+  "modal.footnote": "Hinweis: Diese Infos sind ein Startpunkt. Vor Ort gelten Regeln, Karten und Betreiberangaben. Verantwortung bleibt beim Skipper.",
+  "zones.title": "Zonen",
+  "zones.desc": "Amtliche Schutzgebiets-Layer (CH, DE, AT) inkl. Natura 2000. Aktuell aktiv:",
+  "zones.colors": "Farben (Legende):",
+  "zones.links": "Details und Links:",
+  "zones.toast.noLayers": "Zonen: keine Layer konfiguriert",
+  "zones.toast.loading": "Zonen: lädt…",
+  "zones.toast.unreachable": "Zonen: Dienste nicht erreichbar",
+  "zones.toast.active": "Zonen: aktiv",
+  "zones.toast.someDown": "einige Dienste down",
+  "zones.toast.stillLoading": "lädt noch…",
+  "backlog.candidates": "Kandidaten",
+  "backlog.missingCandidate": "Ohne Kandidat",
+  "backlog.missingCandidateUrl": "Ohne Kandidat-URL"
 }

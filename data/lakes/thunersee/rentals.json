@@ -57,22 +57,48 @@
     "lat": 46.679,
     "lng": 7.706,
     "fleetSize": 10,
-    "priceFrom": "auf Anfrage",
+    "priceFrom": "ab CHF 25/Std. (SUP)",
     "features": [
       "SUP",
       "Pedalo",
       "Kanu",
       "Motorboot",
-      "Ohne Führerschein"
+      "Sealander",
+      "Ohne Führerschein",
+      "One-Way-Miete möglich"
     ],
     "url": "https://www.spiez.com/destinationdata-details/poi/bootsvermietung-faulensee",
-    "source": "Spiez Tourismus – Bootsvermietung Faulensee",
-    "lastVerified": "2026-03-23",
+    "source": "https://www.spiez.com/en/destinationdata-details/poi/bootsvermietung-tourismusbuero-faulensee",
+    "lastVerified": "2026-03-26",
     "candidateUrl": null,
     "candidateFoundAt": null,
     "candidateSource": null,
-    "phone": "",
+    "phone": "+41 33 654 32 64",
     "email": "",
-    "hours": "Saison"
+    "hours": "Mai–Oktober; Hochsaison tägl. 11:00–18:30"
+  },
+  {
+    "id": "mountainsurf_interlaken",
+    "name": "Mountainsurf Interlaken",
+    "country": "CH",
+    "location": "Neuhaus bei Interlaken",
+    "lat": 46.6791,
+    "lng": 7.8167,
+    "fleetSize": 3,
+    "priceFrom": "ab CHF 95/Std.",
+    "features": [
+      "Motorboote",
+      "SUP",
+      "Kajak",
+      "Pedalo",
+      "Ohne Führerschein",
+      "Wakeboarding & Tubing"
+    ],
+    "url": "https://mountainsurf.ch/en/",
+    "source": "https://mountainsurf.ch/en/motorboot-vermietung-interlaken/",
+    "lastVerified": "2026-03-26",
+    "phone": "+41 79 789 57 32",
+    "email": "",
+    "hours": "Saison (Mai–Oktober)"
   }
 ]

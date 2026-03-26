@@ -30,7 +30,8 @@ const state = {
     q: ''
   },
   filtersGastros: {
-    q: ''
+    q: '',
+    withBerthing: false
   },
   filtersServices: {
     type: 'ALL'
@@ -359,8 +360,10 @@ function applyFilters(list, type) {
     return q ? list.filter(x => matchesQuery(x, q)) : list;
   }
   if (type === 'gastros') {
-    const q = state.filtersGastros.q;
-    return q ? list.filter(x => matchesQuery(x, q)) : list;
+    let out = list;
+    if (state.filtersGastros.q) out = out.filter(x => matchesQuery(x, state.filtersGastros.q));
+    if (state.filtersGastros.withBerthing) out = out.filter(x => (x.berthing || '').trim());
+    return out;
   }
   if (type === 'services') {
     const t = state.filtersServices.type;
@@ -462,6 +465,8 @@ function syncFilterInputsFromState() {
   // Gastros
   const gq = $('#gastroSearch');
   if (gq) gq.value = state.filtersGastros.q;
+  const gBerthing = $('#gastroWithBerthing');
+  if (gBerthing) gBerthing.checked = state.filtersGastros.withBerthing;
 
   // Services
   const stype = $('#serviceType');
@@ -547,7 +552,7 @@ function applyQuickFilter(key) {
     state.filtersHarbors = { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' };
     state.filtersAnchors = { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' };
     state.filtersRentals = { q: '' };
-    state.filtersGastros = { q: '' };
+    state.filtersGastros = { q: '', withBerthing: false };
     state.filtersServices = { type: 'ALL' };
     state.mapLayers.harbors = true;
     state.mapLayers.anchors = true;
@@ -699,12 +704,14 @@ function setUpFilterBars() {
 
   // Gastros
   const gq = $('#gastroSearch');
-  if (gq) {
-    gq.addEventListener('input', () => {
-      state.filtersGastros.q = gq.value.trim();
-      renderAll();
-    });
-  }
+  const gBerthing = $('#gastroWithBerthing');
+  const onGastroChange = () => {
+    if (gq) state.filtersGastros.q = gq.value.trim();
+    if (gBerthing) state.filtersGastros.withBerthing = gBerthing.checked;
+    renderAll();
+  };
+  if (gq) gq.addEventListener('input', onGastroChange);
+  if (gBerthing) gBerthing.addEventListener('change', onGastroChange);
 
   // Services
   const stype = $('#serviceType');
@@ -800,7 +807,7 @@ function rowGastro(g) {
       </div>
       <div class="anchor-meta">
         <div class="stat"><div class="stat-value">${escapeHtml(g.price || '—')}</div><div class="stat-label">${t('stats.price')}</div></div>
-        <div class="stat"><div class="stat-value">${escapeHtml(g.berthing || '—')}</div><div class="stat-label">${t('stats.berthing')}</div></div>
+        ${g.berthing ? `<div class="stat"><div class="stat-value" style="font-size:0.9rem">${escapeHtml(g.berthing)}</div><div class="stat-label">${t('stats.berthing')}</div></div>` : ''}
       </div>
     </div>
   `;
@@ -893,9 +900,9 @@ function renderBacklog() {
     return `
       <div class="backlog-block">
         <div class="backlog-title">${escapeHtml(s.label)}</div>
-        <div class="coverage-note">Candidates: ${withCandidate.length} · Missing candidate: ${withoutCandidate.length}</div>
+        <div class="coverage-note">${escapeHtml(t('backlog.candidates'))}: ${withCandidate.length} · ${escapeHtml(t('backlog.missingCandidate'))}: ${withoutCandidate.length}</div>
         ${lines1 ? `<ul class="backlog-list">${lines1}</ul>` : ''}
-        ${lines2 ? `<div class="coverage-note" style="margin-top:10px">Missing candidate URL</div><ul class="backlog-list">${lines2}</ul>` : ''}
+        ${lines2 ? `<div class="coverage-note" style="margin-top:10px">${escapeHtml(t('backlog.missingCandidateUrl'))}</div><ul class="backlog-list">${lines2}</ul>` : ''}
       </div>
     `;
   }).join('');
@@ -1426,11 +1433,11 @@ function initZonesInfo() {
 
     box.innerHTML = `
       <button class="zi-close" type="button" aria-label="Close">x</button>
-      <div class="zi-title">Zonen</div>
-      <div>Amtliche Schutzgebiets Layer (CH, DE, AT) inkl. Natura 2000. Aktuell aktiv: ${escapeHtml(label || '—')}.</div>
-      <div class="zi-sub">Farben (Key):</div>
+      <div class="zi-title">${escapeHtml(t('zones.title'))}</div>
+      <div>${escapeHtml(t('zones.desc'))} ${escapeHtml(label || '—')}.</div>
+      <div class="zi-sub">${escapeHtml(t('zones.colors'))}</div>
       ${legendItems || ''}
-      <div style="margin-top:8px">Details und Links: <a href="#sources">Quellen</a></div>
+      <div style="margin-top:8px">${escapeHtml(t('zones.links'))} <a href="#sources">${escapeHtml(t('nav.sources'))}</a></div>
     `;
     box.hidden = false;
     const c = box.querySelector('.zi-close');
@@ -1696,7 +1703,7 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
   if (state.mapLayers.zones) {
     const layers = (state.data.layers || []).filter(x => (x.kind === 'wms' && x.wmsBaseUrl && x.wmsLayers) || (x.kind === 'geojson' && x.path));
     if (!layers.length) {
-      toast('Zonen: keine Layer konfiguriert');
+      toast(t('zones.toast.noLayers'));
       return;
     }
 
@@ -1711,7 +1718,7 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       // ignore
     }
 
-    toast('Zonen: lädt…');
+    toast(t('zones.toast.loading'));
 
     function wmsFeatureInfoUrl(layer, latlng) {
       try {
@@ -1848,7 +1855,7 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       state.zoneLayer = kept[0] || null;
 
       if (!kept.length) {
-        toast('Zonen: Dienste nicht erreichbar');
+        toast(t('zones.toast.unreachable'));
         return;
       }
 
@@ -1858,8 +1865,8 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
         ok.some(s => s.startsWith('AT:')) ? 'AT' : null
       ].filter(Boolean).join('+');
 
-      const extra = err.length ? ' (einige Dienste down)' : (pending.length ? ' (lädt noch…)': '');
-      toast('Zonen: aktiv (' + (label || 'WMS') + ')' + extra);
+      const extra = err.length ? ' (' + t('zones.toast.someDown') + ')' : (pending.length ? ' (' + t('zones.toast.stillLoading') + ')': '');
+      toast(t('zones.toast.active') + ' (' + (label || 'WMS') + ')' + extra);
     }, 1600);
 
   }
