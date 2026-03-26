@@ -49,7 +49,7 @@
       "Strom"
     ],
     "notes": "Gastliegeplätze mit Strom und Wasser; in der Saison früh anfragen.",
-    "url": "https://www.wyc-fn.de/hafen-jollengelaende",
+    "url": "https://www.wyc-fn.de/",
     "source": "Württembergischer Yacht-Club (Hafen)",
     "lastVerified": "2026-02-10",
     "candidateUrl": null,
@@ -601,10 +601,10 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 83200835,
-    "candidateUrl": "https://www.hafen-bregenz.at/inhalt/at/41.htm",
+    "candidateUrl": "https://www.hafen-bregenz.at/",
     "candidatePhone": "+43 5574 410 1165",
     "candidateUrlKind": "web",
-    "source": "https://www.hafen-bregenz.at/inhalt/at/41.htm",
+    "source": "https://www.hafen-bregenz.at/",
     "lastVerified": "2026-03-22",
     "berths": 391,
     "guestBerths": 30,
@@ -618,7 +618,7 @@
       "Winterlager"
     ],
     "notes": "Größter städtischer Hafen von Bregenz mit 391 Wasser- und 86 Trockenliegeplätzen, ruhig gelegen ca. 2,5 km außerhalb des Zentrums. Gästesteg mit Muringanlage für bis zu 30 Gastboote.",
-    "url": "https://www.hafen-bregenz.at/inhalt/at/41.htm"
+    "url": "https://www.hafen-bregenz.at/"
   },
   {
     "id": "osm-way-83200836-hafen-bregenz",
@@ -816,9 +816,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 105299710,
-    "candidateUrl": "https://www.sunwind.ch/de/ysk/index.html",
+    "candidateUrl": "https://www.sunwind.ch/",
     "candidateUrlKind": "web",
-    "source": "https://www.sunwind.ch/de/ysk/index.html",
+    "source": "https://www.sunwind.ch/",
     "lastVerified": "2026-03-22",
     "berths": 300,
     "guestBerths": 12,
@@ -833,7 +833,7 @@
       "Gastronomie"
     ],
     "notes": "Großer moderner Naturhafen mit 20t-Kran, Werft und Zubehörshop am Fuße des Schlosses.",
-    "url": "https://www.sunwind.ch/de/ysk/index.html"
+    "url": "https://www.sunwind.ch/"
   },
   {
     "id": "osm-way-105299711-yachthafen-schloss-helmsdorf",
@@ -972,9 +972,9 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 127418867,
-    "candidateUrl": "https://www.svk-kreuzlingen.ch/Startseite/",
+    "candidateUrl": "https://www.svk-kreuzlingen.ch/",
     "candidateUrlKind": "web",
-    "source": "https://www.svk-kreuzlingen.ch/Startseite/",
+    "source": "https://www.svk-kreuzlingen.ch/",
     "lastVerified": "2026-03-22",
     "berths": 423,
     "guestBerths": 8,
@@ -987,7 +987,7 @@
       "Fäkalienabsaugung"
     ],
     "notes": "Grösster Hafen am Schweizer Bodenseeufer mit 14t-Kran, Blauer-Anker-Umweltzeichen; Gäste an 8 Bojen und Kopfstegen.",
-    "url": "https://www.svk-kreuzlingen.ch/Startseite/"
+    "url": "https://www.svk-kreuzlingen.ch/"
   },
   {
     "id": "osm-way-127418885-gemeindehafen-höchst-fischerinsel",
@@ -1295,10 +1295,10 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 179054565,
-    "candidateUrl": "https://www.scmb-moos.de/index.html",
+    "candidateUrl": "https://www.scmb-moos.de/",
     "candidatePhone": "+49 7732 52180",
     "candidateUrlKind": "web",
-    "source": "https://www.scmb-moos.de/index.html",
+    "source": "https://www.scmb-moos.de/",
     "lastVerified": "2026-03-22",
     "berths": 207,
     "guestBerths": 8,
@@ -1309,7 +1309,7 @@
       "Kran"
     ],
     "notes": "Alter Kanal (nur kleine Boote) und neuer Hafen am Untersee; max. Tiefgang neuer Hafen 1,30 m.",
-    "url": "https://www.scmb-moos.de/index.html"
+    "url": "https://www.scmb-moos.de/"
   },
   {
     "id": "osm-way-179231645-hafen-wäschbruck-radolfzell",
@@ -1371,10 +1371,10 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 572101356,
-    "candidateUrl": "https://www.ylb.de/ylb/index.php",
+    "candidateUrl": "https://www.ylb.de/",
     "candidatePhone": "+49 7773 920740",
     "candidateUrlKind": "web",
-    "source": "https://www.ylb.de/ylb/index.php",
+    "source": "https://www.ylb.de/",
     "lastVerified": "2026-03-22",
     "berths": 111,
     "guestBerths": 8,
@@ -1386,7 +1386,7 @@
       "Gastronomie"
     ],
     "notes": "Vereinshafen des Yacht-Club Ludwigshafen am Überlinger See mit 111 Liegeplätzen an 3 Stegen. Ruhige Lage am Naturschutzgebiet SeeEnd, abseits der großen Segelrouten.",
-    "url": "https://www.ylb.de/ylb/index.php"
+    "url": "https://www.ylb.de/"
   },
   {
     "id": "osm-way-937387060-hafen-rohner",
@@ -1502,10 +1502,10 @@
     "candidateFoundAt": "2026-02-11",
     "candidateOsmType": "way",
     "candidateOsmId": 1307842121,
-    "candidateUrl": "https://www.sv-dingelsdorf.de/text/262/de/wassersport.html?",
+    "candidateUrl": "https://www.sv-dingelsdorf.de/",
     "candidatePhone": "+49 7533 3801",
     "candidateUrlKind": "web",
-    "source": "https://www.sv-dingelsdorf.de/text/262/de/wassersport.html?",
+    "source": "https://www.sv-dingelsdorf.de/",
     "lastVerified": "2026-03-22",
     "berths": 120,
     "guestBerths": 10,
@@ -1516,7 +1516,7 @@
       "Fäkalienabsaugung"
     ],
     "notes": "Schwimmsteganlage des SV Dingelsdorf am Überlinger See mit grosszügigen Gastliegeplätzen.",
-    "url": "https://www.sv-dingelsdorf.de/text/262/de/wassersport.html?"
+    "url": "https://www.sv-dingelsdorf.de/"
   },
   {
     "id": "osm-way-1348733820-gemeindehafen-horn",
