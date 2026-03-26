@@ -26,6 +26,9 @@ const state = {
     overnight: 'ANY',
     minDepth: ''
   },
+  filtersRentals: {
+    q: ''
+  },
   map: null,
   markers: { harbors: [], anchors: [], rentals: [], gastros: [] },
   markerClusters: { harbors: null, anchors: null, rentals: null, gastros: null },
@@ -128,6 +131,10 @@ function applyLakeBranding() {
   // Logo already handled by selector, but keep it safe
   const logo = document.getElementById('lakeLogo');
   if (logo) logo.textContent = name;
+
+  // Footer
+  const footerLogo = document.querySelector('.footer-logo');
+  if (footerLogo) footerLogo.innerHTML = `${escapeHtml(name)}<span>.</span>`;
 }
 
 function toast(msg, ms = 1800) {
@@ -341,6 +348,10 @@ function candidateHint(item) {
 }
 
 function applyFilters(list, type) {
+  if (type === 'rentals') {
+    const q = state.filtersRentals.q;
+    return q ? list.filter(x => matchesQuery(x, q)) : list;
+  }
   if (type !== 'anchors' && type !== 'harbors') return list;
   const f = type === 'anchors' ? state.filtersAnchors : state.filtersHarbors;
   let out = list;
@@ -429,6 +440,10 @@ function syncFilterInputsFromState() {
   if (acountry) acountry.value = state.filtersAnchors.country;
   if (aovernight) aovernight.value = state.filtersAnchors.overnight;
   if (aminDepth) aminDepth.value = state.filtersAnchors.minDepth;
+
+  // Rentals
+  const rq = $('#rentalSearch');
+  if (rq) rq.value = state.filtersRentals.q;
 }
 
 // Quick filter chips — Google Maps style category toggles
@@ -509,6 +524,7 @@ function applyQuickFilter(key) {
   if (state.activePreset === key) {
     state.filtersHarbors = { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' };
     state.filtersAnchors = { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' };
+    state.filtersRentals = { q: '' };
     state.mapLayers.harbors = true;
     state.mapLayers.anchors = true;
     state.mapLayers.gastros = true;
@@ -574,6 +590,25 @@ function initQuickFilters() {
   });
 }
 
+function updateCountryOptions() {
+  const allLabel = t('filter.any') || 'Alle';
+
+  const buildSelect = (sel, countries, currentVal) => {
+    const el = $(sel);
+    if (!el) return;
+    const validVal = countries.includes(currentVal) ? currentVal : 'ALL';
+    el.innerHTML = `<option value="ALL">${escapeHtml(allLabel)}</option>` +
+      countries.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
+    el.value = validVal;
+  };
+
+  const harborCountries = [...new Set(state.data.harbors.map(h => (h.country || '').toUpperCase()).filter(Boolean))].sort();
+  const anchorCountries = [...new Set(state.data.anchors.map(a => (a.country || '').toUpperCase()).filter(Boolean))].sort();
+
+  buildSelect('#harborCountry', harborCountries, state.filtersHarbors.country);
+  buildSelect('#anchorCountry', anchorCountries, state.filtersAnchors.country);
+}
+
 function setUpFilterBars() {
   // Harbors
   const hq = $('#harborSearch');
@@ -615,6 +650,15 @@ function setUpFilterBars() {
     aovernight.addEventListener(evt, onAnchorChange);
     aminDepth.addEventListener(evt, onAnchorChange);
   });
+
+  // Rentals
+  const rq = $('#rentalSearch');
+  if (rq) {
+    rq.addEventListener('input', () => {
+      state.filtersRentals.q = rq.value.trim();
+      renderAll();
+    });
+  }
 }
 
 function cardHarbor(h) {
@@ -1815,6 +1859,7 @@ async function main() {
   safeInit(initNav, 'initNav');
   safeInit(initLakeSelector, 'initLakeSelector');
   safeInit(initModal, 'initModal');
+  safeInit(updateCountryOptions, 'updateCountryOptions');
   safeInit(setUpFilterBars, 'setUpFilterBars');
   safeInit(initQuickFilters, 'initQuickFilters');
   safeInit(loadLayerPrefs, 'loadLayerPrefs');
