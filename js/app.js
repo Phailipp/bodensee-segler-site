@@ -29,6 +29,12 @@ const state = {
   filtersRentals: {
     q: ''
   },
+  filtersGastros: {
+    q: ''
+  },
+  filtersServices: {
+    type: 'ALL'
+  },
   map: null,
   markers: { harbors: [], anchors: [], rentals: [], gastros: [] },
   markerClusters: { harbors: null, anchors: null, rentals: null, gastros: null },
@@ -352,6 +358,14 @@ function applyFilters(list, type) {
     const q = state.filtersRentals.q;
     return q ? list.filter(x => matchesQuery(x, q)) : list;
   }
+  if (type === 'gastros') {
+    const q = state.filtersGastros.q;
+    return q ? list.filter(x => matchesQuery(x, q)) : list;
+  }
+  if (type === 'services') {
+    const t = state.filtersServices.type;
+    return t === 'ALL' ? list : list.filter(x => (x.type || '') === t);
+  }
   if (type !== 'anchors' && type !== 'harbors') return list;
   const f = type === 'anchors' ? state.filtersAnchors : state.filtersHarbors;
   let out = list;
@@ -444,6 +458,14 @@ function syncFilterInputsFromState() {
   // Rentals
   const rq = $('#rentalSearch');
   if (rq) rq.value = state.filtersRentals.q;
+
+  // Gastros
+  const gq = $('#gastroSearch');
+  if (gq) gq.value = state.filtersGastros.q;
+
+  // Services
+  const stype = $('#serviceType');
+  if (stype) stype.value = state.filtersServices.type;
 }
 
 // Quick filter chips — Google Maps style category toggles
@@ -525,6 +547,8 @@ function applyQuickFilter(key) {
     state.filtersHarbors = { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' };
     state.filtersAnchors = { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' };
     state.filtersRentals = { q: '' };
+    state.filtersGastros = { q: '' };
+    state.filtersServices = { type: 'ALL' };
     state.mapLayers.harbors = true;
     state.mapLayers.anchors = true;
     state.mapLayers.gastros = true;
@@ -588,6 +612,19 @@ function initQuickFilters() {
     if (!btn) return;
     applyQuickFilter(btn.dataset.qf);
   });
+}
+
+function updateServiceTypeOptions() {
+  const stype = $('#serviceType');
+  if (!stype) return;
+  const allLabel = t('filter.any') || 'Alle';
+  const types = [...new Set(state.data.services.map(s => s.type).filter(Boolean))].sort();
+  const typeLabels = { fuel: t('service.type.fuel') || 'Tankstelle', crane: t('service.type.crane') || 'Kran', slip: t('service.type.slip') || 'Slip', repair: t('service.type.repair') || 'Werft' };
+  const currentVal = state.filtersServices.type;
+  const validVal = types.includes(currentVal) ? currentVal : 'ALL';
+  stype.innerHTML = `<option value="ALL">${escapeHtml(allLabel)}</option>` +
+    types.map(tp => `<option value="${escapeHtml(tp)}">${escapeHtml(typeLabels[tp] || tp)}</option>`).join('');
+  stype.value = validVal;
 }
 
 function updateCountryOptions() {
@@ -656,6 +693,24 @@ function setUpFilterBars() {
   if (rq) {
     rq.addEventListener('input', () => {
       state.filtersRentals.q = rq.value.trim();
+      renderAll();
+    });
+  }
+
+  // Gastros
+  const gq = $('#gastroSearch');
+  if (gq) {
+    gq.addEventListener('input', () => {
+      state.filtersGastros.q = gq.value.trim();
+      renderAll();
+    });
+  }
+
+  // Services
+  const stype = $('#serviceType');
+  if (stype) {
+    stype.addEventListener('change', () => {
+      state.filtersServices.type = stype.value;
       renderAll();
     });
   }
@@ -1860,6 +1915,7 @@ async function main() {
   safeInit(initLakeSelector, 'initLakeSelector');
   safeInit(initModal, 'initModal');
   safeInit(updateCountryOptions, 'updateCountryOptions');
+  safeInit(updateServiceTypeOptions, 'updateServiceTypeOptions');
   safeInit(setUpFilterBars, 'setUpFilterBars');
   safeInit(initQuickFilters, 'initQuickFilters');
   safeInit(loadLayerPrefs, 'loadLayerPrefs');

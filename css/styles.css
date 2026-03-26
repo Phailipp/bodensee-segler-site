@@ -356,6 +356,13 @@ section { padding: 120px 48px; }
 }
 
 .anchor-section .filter-label { color: rgba(12,25,41,0.65); }
+.anchor-section .filter-input,
+.anchor-section .filter-select {
+  border-color: rgba(12,25,41,0.18);
+  background: rgba(12,25,41,0.06);
+  color: var(--navy);
+}
+.anchor-section .filter-input::placeholder { color: rgba(12,25,41,0.4); }
 
 .filter-input, .filter-select {
   width: 100%;

@@ -249,6 +249,13 @@
       <p class="section-subtitle" data-i18n="gastro.subtitle">Wo Genuss und kurzer Weg vom Steg zusammenkommen.</p>
     </div>
 
+    <div class="filter-bar" aria-label="Gastro filters" style="margin-bottom: 18px;">
+      <div class="filter-field">
+        <div class="filter-label" data-i18n="filter.search.gastro">Suche</div>
+        <input id="gastroSearch" class="filter-input" data-i18n-placeholder="filter.search.gastro" placeholder="Restaurant oder Ort…" />
+      </div>
+    </div>
+
     <div class="anchor-list" id="gastroList"></div>
   </section>
 
@@ -257,6 +264,15 @@
       <div class="section-label" data-i18n="service.label">Infrastruktur</div>
       <h2 class="section-title" data-i18n="service.title">Service am See</h2>
       <p class="section-subtitle" data-i18n="service.subtitle">Slip, Tankstellen, Werften – das Nötige, sauber zusammengefasst.</p>
+    </div>
+
+    <div class="filter-bar" aria-label="Service filters" style="margin-bottom: 18px;">
+      <div class="filter-field">
+        <div class="filter-label" data-i18n="filter.type">Typ</div>
+        <select id="serviceType" class="filter-select" aria-label="Service type">
+          <option value="ALL" data-i18n-option="filter.any">Alle</option>
+        </select>
+      </div>
     </div>
 
     <div class="service-grid" id="serviceGrid"></div>
