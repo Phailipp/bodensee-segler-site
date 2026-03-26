@@ -1,0 +1,98 @@
+{
+  "guide": {
+    "title": {"de": "Der Zürichsee, kurz erklärt", "en": "Zürichsee, in brief"},
+    "subtitle": {
+      "de": "40 km langer Pendlersee mit intensivem Freizeitverkehr, verlässlichen Sommerwinden und strengen Schutzvorschriften.",
+      "en": "40 km of busy commuter lake with intense leisure traffic, reliable summer winds, and strict environmental rules."
+    },
+    "cards": [
+      {
+        "title": {"de": "Wind & Wetter", "en": "Wind & Weather"},
+        "text": {
+          "de": "Im Sommer baut sich nachmittags regelmässig ein NW/W-Wind auf – gut zum Segeln, aber der Verkehr zwingt zur Aufmerksamkeit. Der Föhn aus Süden kommt schnell und böig; an der MeteoSwiss-App hängt hier mehr als Komfort. Die Bise (NO) tritt vor allem im Frühjahr auf und kann tagelang anhalten.",
+          "en": "Summer afternoons reliably bring NW/W winds — great for sailing but traffic demands constant awareness. Föhn from the south arrives fast and gusty; checking MeteoSwiss is non-negotiable. The Bise (NE) dominates in spring and can persist for days."
+        }
+      },
+      {
+        "title": {"de": "Verkehr & Fahrregeln", "en": "Traffic & Rules"},
+        "text": {
+          "de": "ZSG-Linienschiffe haben Vorfahrt und halten ihre Kurse konsequent. An Wochenenden drängen sich Ruderboote, SUPs, Motorboote und Segler auf engem Raum – besonders zwischen Zürich und Meilen ist die Dichte hoch. Innerhalb von 300 m zum Ufer gilt Tempo 10 km/h.",
+          "en": "ZSG scheduled ferries hold their course — give way early and clearly. On weekends the stretch between Zurich and Meilen sees extreme density of rowing boats, SUPs, motorboats, and sailors. Speed limit 10 km/h within 300 m of shore."
+        }
+      },
+      {
+        "title": {"de": "Ankern & Übernachten", "en": "Anchoring & Overnight"},
+        "text": {
+          "de": "Ankern ist in weiten Teilen des Sees eingeschränkt; Schilf- und Unterwasserschutzzonen sind konsequent markiert. Übernachten auf Anker erfordert eine Bewilligung – ohne diese besser einen der Gästestege nutzen. Wer zu nah an Schutzzonen ankert, riskiert eine empfindliche Busse.",
+          "en": "Anchoring is restricted across large parts of the lake; reed bed and underwater protection zones are strictly marked. Overnight anchoring requires a permit — use a guest berth instead if in doubt. Anchoring near protected zones carries real fines."
+        }
+      }
+    ],
+    "how": {
+      "p1": {
+        "de": "Ein Törn auf dem Zürichsee startet sinnvoll in Zürich-Wollishofen oder Küsnacht und führt den Obersee hoch bis Rapperswil. Der Obersee ab Rapperswil ist ruhiger und bietet schöne Ankerbuchten bei Schmerikon – hier atmet der See noch etwas freier.",
+        "en": "A good Zürichsee passage starts from Zürich-Wollishofen or Küsnacht and heads up-lake toward Rapperswil. Beyond Rapperswil, the Obersee is noticeably quieter with pleasant anchorages near Schmerikon — the lake breathes a little easier up there."
+      },
+      "p2": {
+        "de": "Wer an einem Sommerwochenende segelt, plant am besten früh morgens oder nach 18 Uhr – dann ist der Verkehr moderat. Immer die MeteoSwiss-Kurzfristprognose prüfen; ein aufziehender Föhn lässt am Südende zuerst die Wasseroberfläche kräuseln, dann kommt er.",
+        "en": "Sailing on a summer weekend? Go early morning or after 18:00 — traffic is manageable then. Always check MeteoSwiss short-range forecasts; incoming Föhn first shows itself as a distinctive surface ripple at the southern end, then hits."
+      }
+    }
+  },
+  "safety": {
+    "title": {"de": "Wetter, Warnsystem, Entscheidungen", "en": "Weather, warning system, decisions"},
+    "subtitle": {
+      "de": "Der Zürichsee hat keine Sturmwarnleuchten. Wettervorbereitung und Selbstverantwortung sind Pflicht.",
+      "en": "The Zürichsee has no storm warning lights. Weather preparation and personal responsibility are mandatory."
+    },
+    "cards": [
+      {
+        "title": {"de": "Föhn", "en": "Föhn"},
+        "text": {
+          "de": "Der Föhn kommt am Südende des Sees zuerst an – oft mit kaum einer Minute Vorwarnung. Böen von 40–50 km/h sind keine Seltenheit. Wer Föhnlage in der MeteoSwiss-Prognose sieht, bleibt am Steg oder hat mindestens ein gerefftes Segel.",
+          "en": "Föhn hits the southern end of the lake first — sometimes with less than a minute of warning. Gusts of 40–50 km/h are routine. If MeteoSwiss shows Föhn conditions, stay docked or at minimum have a reef in."
+        }
+      },
+      {
+        "title": {"de": "Gewitterentwicklung", "en": "Thunderstorm Development"},
+        "text": {
+          "de": "Thermische Gewitter bauen sich im Sommer schnell über den umliegenden Hügeln auf. MeteoSwiss-Warnungen täglich vor dem Ablegen prüfen und tagsüber im Blick behalten. Bei Gewitterwarnung sofort anlanden.",
+          "en": "Thermal thunderstorms build quickly over the surrounding hills in summer. Check MeteoSwiss warnings before departure and monitor throughout the day. At the first thunderstorm warning, head for shore immediately."
+        }
+      },
+      {
+        "title": {"de": "Verkehrssicherheit", "en": "Traffic Safety"},
+        "text": {
+          "de": "Der Zürichsee ist einer der meistbefahrenen Binnenseen Europas. Ausreichend Abstand zu Fähren und Kursschiffdampfern halten – diese können nicht ausweichen. In der Dunkelheit und bei Nebel sind Positionslichter und ein wachsames Auge unerlässlich.",
+          "en": "The Zürichsee is one of Europe's busiest inland lakes. Keep well clear of ferries and scheduled vessels — they cannot manoeuvre around you. At night and in fog, proper navigation lights and a sharp lookout are essential."
+        }
+      }
+    ],
+    "sources": {
+      "de": "Offizielle Wetterinfos: MeteoSwiss (meteoswiss.admin.ch, App «MeteoSwiss»). Schifffahrtsregeln: Kanton Zürich, Schifffahrtsamt.",
+      "en": "Official weather: MeteoSwiss (meteoswiss.admin.ch, 'MeteoSwiss' app). Navigation regulations: Canton Zurich, Schifffahrtsamt."
+    }
+  },
+  "faq": [
+    {
+      "q": {"de": "Gibt es Sturmwarnleuchten am Zürichsee?", "en": "Are there storm warning lights on the Zürichsee?"},
+      "a": {"de": "Nein. Am Zürichsee gibt es keine Sturmwarnleuchten. Wetterinformationen ausschliesslich über MeteoSwiss beziehen – die App ermöglicht stündliche Prognosen und Warnungen.", "en": "No. There are no storm warning lights on the Zürichsee. Use MeteoSwiss exclusively for weather information — the app provides hourly forecasts and push warnings."}
+    },
+    {
+      "q": {"de": "Darf ich am Zürichsee über Nacht ankern?", "en": "Can I anchor overnight on the Zürichsee?"},
+      "a": {"de": "Nur mit Bewilligung des zuständigen Kantons. In der Praxis ist dies aufwendig; die meisten Segler nutzen die vorhandenen Gästestege, die über die Saison gut verfügbar sind.", "en": "Only with a permit from the relevant canton. In practice this is cumbersome; most sailors use the guest berths available throughout the lake, which are well-distributed seasonally."}
+    },
+    {
+      "q": {"de": "Wie verhalte ich mich gegenüber ZSG-Schiffen?", "en": "How do I handle ZSG ferry traffic?"},
+      "a": {"de": "Linienschiffe haben Vorfahrt. Frühzeitig und eindeutig ausweichen, nie auf «die weichen schon aus» setzen. Fähren fahren strikten Fahrplan und können bei Kurs kaum verzögern.", "en": "Scheduled vessels have right of way. Manoeuvre early and clearly — never assume they'll avoid you. Ferries run strict timetables and have very limited ability to alter course."}
+    },
+    {
+      "q": {"de": "Welche Führerscheine brauche ich auf dem Zürichsee?", "en": "What licences do I need on the Zürichsee?"},
+      "a": {"de": "Für Segelboote unter 15 m² Segelfläche und Motorboote unter 6 kW ist kein Ausweis erforderlich. Darüber hinaus gilt das Schweizer Bootsführerpatent A (Binnenwasser).", "en": "No licence is required for sailing boats under 15 m² sail area or motorboats under 6 kW. Above those limits, the Swiss inland waterway patent (Patent A) applies."}
+    }
+  ],
+  "faq_disclaimer": {
+    "title": {"de": "Daten und Haftung", "en": "Data and responsibility"},
+    "text": {"de": "Diese Seite ersetzt keine amtlichen Karten, Hafenordnungen oder Sicherheitsinfos. Sie ist eine kuratierte Übersicht für Planung und Inspiration. Verantwortung bleibt beim Skipper.", "en": "This site does not replace official charts, marina rules, or safety information. It is a curated overview for planning and inspiration. Responsibility stays with the skipper."}
+  }
+}

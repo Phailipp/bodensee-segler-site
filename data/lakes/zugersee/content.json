@@ -1,0 +1,98 @@
+{
+  "guide": {
+    "title": {"de": "Der Zugersee, kurz erklärt", "en": "Zugersee, in brief"},
+    "subtitle": {
+      "de": "Kompakter, verhältnismässig ruhiger Zentralschweizer See – gut für Einsteiger, aber bei NW-Wind überraschend lebhaft.",
+      "en": "Compact, comparatively sheltered Central Swiss lake — good for beginners, but surprisingly lively in NW winds."
+    },
+    "cards": [
+      {
+        "title": {"de": "Windverhältnisse", "en": "Wind Conditions"},
+        "text": {
+          "de": "NW- und SW-Winde dominieren und können über dem flachen Wasser des Zugersees rasch eine kurze, steile Welle aufbauen. Trotz der kompakten Grösse ist bei Starkwind kein Zuckerschlecken – die geringe Tiefe sorgt für schnellen Wellenaufbau. Morgens ist der See meistens ruhig.",
+          "en": "NW and SW winds dominate and can quickly build short, steep chop. Despite the lake's small size, strong winds are no pushover — the modest depth produces fast wave build-up. Mornings are usually calm."
+        }
+      },
+      {
+        "title": {"de": "Reviercharakter", "en": "Sailing Character"},
+        "text": {
+          "de": "Der Zugersee ist mit 38 km² überschaubar und infrastrukturell gut erschlossen. Zwischen Zug im Norden und Arth im Süden gibt es mehrere Häfen und Anlegestellen. Für Tagestrips und Segelkurse gut geeignet – kein langer Weg und immer ein Hafen in Sichtweite.",
+          "en": "At 38 km² the Zugersee is manageable and well-served by infrastructure. Between Zug in the north and Arth in the south there are several harbours and landing points. Well-suited for day trips and sailing courses — no long passages and always a harbour in sight."
+        }
+      },
+      {
+        "title": {"de": "Ankern & Regeln", "en": "Anchoring & Rules"},
+        "text": {
+          "de": "Ankern ist möglich, aber in Schutzzonen eingeschränkt. Kurze Übernachtungen auf Anker sind in einigen Bereichen toleriert – Vorsicht und Diskretion sind angebracht, und die aktuellen Vorschriften des Kantons Zug sollten vorab geprüft werden. Tempo 10 km/h innerhalb von 300 m zum Ufer gilt auch hier.",
+          "en": "Anchoring is possible but restricted in protected zones. Short overnight stays at anchor are tolerated in some areas — discretion and caution apply, and current Canton Zug regulations should be checked beforehand. The 10 km/h limit within 300 m of shore applies here too."
+        }
+      }
+    ],
+    "how": {
+      "p1": {
+        "de": "Der Zugersee lässt sich in einem Halbtag umrunden – oder man geniesst mehrere Schläge über den See und zurück. Die Stadt Zug am Nordende bietet die beste Infrastruktur; der südliche Seearm Richtung Arth ist ruhiger und weniger befahren.",
+        "en": "The Zugersee can be circumnavigated in half a day — or enjoy multiple tacks across the lake. The town of Zug at the northern end has the best infrastructure; the southern arm toward Arth is quieter and less trafficked."
+      },
+      "p2": {
+        "de": "Für Segelkurse und erste Erfahrungen auf dem Binnensee ist der Zugersee eine gute Wahl. Bei Windstärke 3–4 segelt er sich angenehm; bei 5+ fordert die kurze Welle auch geübte Segler. MeteoSwiss vor dem Ablegen ist auch hier unerlässlich.",
+        "en": "For sailing courses and first experiences on inland water the Zugersee is a solid choice. In force 3–4 it sails pleasantly; in force 5+ the short chop challenges even experienced sailors. MeteoSwiss before departure is non-negotiable here too."
+      }
+    }
+  },
+  "safety": {
+    "title": {"de": "Wetter, Warnsystem, Entscheidungen", "en": "Weather, warning system, decisions"},
+    "subtitle": {
+      "de": "Klein bedeutet nicht ungefährlich. Keine Sturmwarnleuchten – MeteoSwiss und gesunder Menschenverstand sind der Schutz.",
+      "en": "Small does not mean safe. No storm warning lights — MeteoSwiss and good judgment are your protection."
+    },
+    "cards": [
+      {
+        "title": {"de": "Schneller Wellenaufbau", "en": "Rapid Wave Build-up"},
+        "text": {
+          "de": "Bei NW-Wind über den vollen Fetch des Sees baut sich die Welle rasch auf – kurz, steil, unangenehm. Wer das zum ersten Mal erlebt, wird überrascht sein. In diesen Bedingungen frühzeitig reagieren und das Segel reffen; Kentern durch Übersegelung ist auch auf kleinen Seen möglich.",
+          "en": "With NW wind across the full fetch of the lake, wave build-up is rapid — short, steep, uncomfortable. First-timers are often caught off guard. React early: reef in time, and remember that capsize through overcanvassing is just as possible on small lakes."
+        }
+      },
+      {
+        "title": {"de": "Föhn am Zugersee", "en": "Föhn on the Zugersee"},
+        "text": {
+          "de": "Der Föhn erreicht den Zugersee, ist aber deutlich abgeschwächter als auf dem Vierwaldstättersee. Trotzdem: Böen über 30 km/h sind bei Föhnlage möglich. MeteoSwiss-Föhnwarnungen für Zentralschweiz beachten; bei aktivem Föhn auf dem Vierwaldstättersee Vorsicht auch hier.",
+          "en": "Föhn reaches the Zugersee but is considerably weaker than on the Vierwaldstättersee. Still: gusts above 30 km/h are possible in Föhn conditions. Check MeteoSwiss Föhn warnings for Central Switzerland; if active Föhn is reported on the Vierwaldstättersee, exercise caution here too."
+        }
+      },
+      {
+        "title": {"de": "Keine Warnleuchten – MeteoSwiss nutzen", "en": "No Warning Lights — Use MeteoSwiss"},
+        "text": {
+          "de": "Am Zugersee gibt es kein Sturmwarnleuchten-System. Die MeteoSwiss-App mit Standort-Warnungen für die Region Zug/Zentralschweiz einrichten und vor jedem Ablegen prüfen. Bei Gewitterwarnung gilt: sofort anlanden, nicht abwarten.",
+          "en": "There is no storm warning light system on the Zugersee. Set up the MeteoSwiss app with location warnings for the Zug/Central Switzerland region and check before every departure. At any thunderstorm warning: go ashore immediately, do not wait it out."
+        }
+      }
+    ],
+    "sources": {
+      "de": "Wetterwarnungen: MeteoSwiss (meteoswiss.admin.ch). Schifffahrtsregeln: Kanton Zug, Amt für öffentlichen Verkehr und Binnenschifffahrt.",
+      "en": "Weather warnings: MeteoSwiss (meteoswiss.admin.ch). Navigation rules: Canton Zug, Amt für öffentlichen Verkehr und Binnenschifffahrt."
+    }
+  },
+  "faq": [
+    {
+      "q": {"de": "Ist der Zugersee für Segelanfänger geeignet?", "en": "Is the Zugersee suitable for sailing beginners?"},
+      "a": {"de": "Ja, mit Einschränkungen. Bei moderatem Wind und stabiler Wetterlage gut geeignet – überschaubar, kurze Wege zum Ufer. Bei Windstärke 4+ und kurzer Welle steigen die Anforderungen deutlich. Immer mit einem erfahrenen Skipper oder nach einem Kurs antreten.", "en": "Yes, with caveats. In moderate wind and stable conditions it's a good lake — manageable size, short distances to shore. In force 4+ with short chop the demands increase quickly. Always go out with an experienced skipper or after completing a course."}
+    },
+    {
+      "q": {"de": "Gibt es Sturmwarnleuchten am Zugersee?", "en": "Are there storm warning lights on the Zugersee?"},
+      "a": {"de": "Nein. Am Zugersee gibt es kein Sturmwarnleuchten-System. Die einzige Quelle für offizielle Wetterwarnungen ist MeteoSwiss – App herunterladen, Warnregion Zug aktivieren.", "en": "No. There is no storm warning light system on the Zugersee. The only source of official warnings is MeteoSwiss — download the app and activate the Zug warning region."}
+    },
+    {
+      "q": {"de": "Welche Fahrgastschiffe verkehren auf dem Zugersee?", "en": "What passenger vessels operate on the Zugersee?"},
+      "a": {"de": "Zugersee Schifffahrt betreibt Linien- und Ausflugsschiffe zwischen Zug, Walchwil und Arth-Goldau. Frequenz ist moderat; Vorfahrtsregeln trotzdem einhalten und Schiffen frühzeitig ausweichen.", "en": "Zugersee Schifffahrt operates scheduled and excursion services between Zug, Walchwil, and Arth-Goldau. Frequency is moderate; right-of-way rules still apply and early, clear avoidance is the right habit."}
+    },
+    {
+      "q": {"de": "Wie lange dauert ein Törn rund um den Zugersee?", "en": "How long does a trip around the Zugersee take?"},
+      "a": {"de": "Unter Motor etwa 2–3 Stunden für die Umrundung. Segelnd je nach Wind zwischen 3 und 6 Stunden. Als entspannter Tagestörn mit Pausen in Walchwil oder Arth gut machbar.", "en": "Under motor, about 2–3 hours for a full circumnavigation. Under sail, 3–6 hours depending on conditions. A relaxed day trip with stops in Walchwil or Arth is very doable."}
+    }
+  ],
+  "faq_disclaimer": {
+    "title": {"de": "Daten und Haftung", "en": "Data and responsibility"},
+    "text": {"de": "Diese Seite ersetzt keine amtlichen Karten, Hafenordnungen oder Sicherheitsinfos. Sie ist eine kuratierte Übersicht für Planung und Inspiration. Verantwortung bleibt beim Skipper.", "en": "This site does not replace official charts, marina rules, or safety information. It is a curated overview for planning and inspiration. Responsibility stays with the skipper."}
+  }
+}

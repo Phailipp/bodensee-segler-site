@@ -1,0 +1,98 @@
+{
+  "guide": {
+    "title": {"de": "Der Thunersee, kurz erklärt", "en": "Thunersee, in brief"},
+    "subtitle": {
+      "de": "18 km Alpensee mit Eiger-Kulisse, schnell aufbauenden Nachmittagswinden und kurzen Wegen zu gutem Liegeplatz.",
+      "en": "18 km of alpine lake beneath the Eiger, with fast-building afternoon winds and short distances to good berths."
+    },
+    "cards": [
+      {
+        "title": {"de": "Alpenwinde & Thermik", "en": "Alpine Winds & Thermals"},
+        "text": {
+          "de": "Nachmittags baut sich regelmässig ein frischer W/SW-Wind auf – thermisch gesteuert und oft in einer Stunde von null auf Windstärke 4–5. Der Föhn kommt aus SE das Aare-Tal herunter und kann, wenn er richtig anzieht, sehr böig sein. Morgens ist der See oft spiegelglatt.",
+          "en": "Afternoons reliably bring a fresh W/SW wind — thermally driven and often building from nothing to force 4–5 within an hour. Föhn descends from the SE down the Aare valley and, when it really sets in, can be sharply gusty. Mornings are often mirror-calm."
+        }
+      },
+      {
+        "title": {"de": "Kompakte Grösse & Orientierung", "en": "Compact Size & Orientation"},
+        "text": {
+          "de": "Der Thunersee ist mit 18 km Länge überschaubar – kein Punkt liegt mehr als 30 Minuten vom nächsten Hafen entfernt. Das macht ihn bei aufziehendem Schlechtwetter angenehm: Anlanden ist immer schnell möglich. Die Gebirgskulisse im Osten (Eiger, Mönch, Jungfrau) ist nicht nur schön, sondern auch als Wetterindikator nützlich.",
+          "en": "At 18 km long the Thunersee is manageable — no point is more than 30 minutes from the nearest harbour. That makes it forgiving when weather builds: getting ashore is always quick. The eastern mountain backdrop (Eiger, Mönch, Jungfrau) isn't just scenic — it's a useful weather indicator."
+        }
+      },
+      {
+        "title": {"de": "Ankern & Schutzzonen", "en": "Anchoring & Protected Zones"},
+        "text": {
+          "de": "Das Kanderdelta im Westen ist Naturschutzgebiet – Ankern verboten. Im übrigen See ist Ankern möglich, Übernachten auf Anker erfordert eine Bewilligung des SVSA Bern. Die Gästestege in Thun, Spiez und Interlaken-West erleichtern die Tourenplanung erheblich.",
+          "en": "The Kander delta in the west is a nature reserve — anchoring is prohibited there. Anchoring is possible elsewhere on the lake, but overnight stays require a permit from SVSA Bern. Guest berths in Thun, Spiez, and Interlaken-West greatly simplify multi-day planning."
+        }
+      }
+    ],
+    "how": {
+      "p1": {
+        "de": "Der Klassiker: Morgens in Thun ablegen und mit dem thermischen Nachmittagswind ostwärts nach Interlaken-West segeln. Die Bergkulisse öffnet sich mit jedem Kilometer – die Jungfraugruppe kommt immer näher. Rückfahrt am nächsten Morgen in der Windstille.",
+        "en": "The classic trip: depart Thun in the morning and sail east to Interlaken-West on the afternoon thermal wind. The mountain panorama opens up with every kilometre — the Jungfrau group gets progressively more impressive. Return the next morning in the calm."
+      },
+      "p2": {
+        "de": "Spiez eignet sich als Halbweg-Etappenziel; der Hafen ist gut geschützt und die Altstadt einen Besuch wert. Bei Windstärke 5+ an einem klaren Nachmittag im Juli oder August ist der Thunersee ein erfreulich sportlicher See.",
+        "en": "Spiez works well as a midway stop; the harbour is well-sheltered and the old town worth an hour. In force 5+ on a clear July or August afternoon, the Thunersee turns into a genuinely sporty lake."
+      }
+    }
+  },
+  "safety": {
+    "title": {"de": "Wetter, Warnsystem, Entscheidungen", "en": "Weather, warning system, decisions"},
+    "subtitle": {
+      "de": "Kein Sturmwarnleuchten-System. Die Berge bauen Wetter schnell auf – und verbergen es manchmal, bis es nah ist.",
+      "en": "No storm warning lights. The mountains build weather rapidly and sometimes hide it until it's close."
+    },
+    "cards": [
+      {
+        "title": {"de": "Gewittermonitoring", "en": "Thunderstorm Monitoring"},
+        "text": {
+          "de": "Sommernachmittags-Gewitter entwickeln sich über dem Jungfraumassiv und dem Simmental und können den See in 20–30 Minuten erreichen. MeteoSwiss-Warnungen täglich prüfen; Cumulus-Aufwärtsbewegung über den Bergen im Westen/SW früh beobachten. Bei Warnstufe orange sofort anlanden.",
+          "en": "Summer afternoon thunderstorms develop over the Jungfrau massif and Simmental and can reach the lake in 20–30 minutes. Check MeteoSwiss warnings daily; watch for strong cumulus development over the western and SW ridges early in the afternoon. At orange warning level, head for shore immediately."
+        }
+      },
+      {
+        "title": {"de": "Föhn vom Aare-Tal", "en": "Föhn down the Aare Valley"},
+        "text": {
+          "de": "Bei Föhnlage strömt Südwind das Aare-Tal herein und trifft den Ostbereich des Sees besonders stark. Charakteristisch ist klare Sicht, warme Luft und dann plötzliche Böen. MeteoSwiss-Föhnmeldungen für Kanton Bern prüfen – diese erscheinen meist Stunden vorher.",
+          "en": "In Föhn conditions, southerly air channels down the Aare valley and hits the eastern end of the lake hardest. Characteristic signs are exceptional clarity, warm air, then sudden gusts. Check MeteoSwiss Föhn reports for Canton Bern — these typically appear hours before onset."
+        }
+      },
+      {
+        "title": {"de": "Visuelles Wettermonitoring", "en": "Visual Weather Monitoring"},
+        "text": {
+          "de": "Der Thunersee-Segler hat freie Sicht auf die Berge. Verändert sich die Quellbewölkung über Eiger/Mönch schnell, ist Vorsicht geboten. Schleierwolken hoch über den Gipfeln können Föhn ankündigen. Diese Zeichen ernst nehmen und frühzeitig anlanden.",
+          "en": "The Thunersee sailor has clear sightlines to the mountains. Rapidly changing cumulus over the Eiger/Mönch is a warning sign. High cirrus streaming over the summits can signal incoming Föhn. Take these signs seriously and get to shore early."
+        }
+      }
+    ],
+    "sources": {
+      "de": "Wetterwarnungen: MeteoSwiss (meteoswiss.admin.ch). Schifffahrtsregeln: Kanton Bern, SVSA (Strassenverkehrs- und Schifffahrtsamt).",
+      "en": "Weather warnings: MeteoSwiss (meteoswiss.admin.ch). Navigation rules: Canton Bern, SVSA (Strassenverkehrs- und Schifffahrtsamt)."
+    }
+  },
+  "faq": [
+    {
+      "q": {"de": "Wann ist die beste Segelzeit auf dem Thunersee?", "en": "When is the best sailing season on the Thunersee?"},
+      "a": {"de": "Juni bis September. Juli und August bieten die zuverlässigsten Thermik-Winde nachmittags. Im Frühling und Herbst ist der See ruhiger, aber Wetter und Wind weniger vorhersehbar.", "en": "June through September. July and August offer the most reliable thermal afternoon winds. Spring and autumn are quieter but weather and wind are less predictable."}
+    },
+    {
+      "q": {"de": "Kann ich auf dem Thunersee über Nacht ankern?", "en": "Can I anchor overnight on the Thunersee?"},
+      "a": {"de": "Mit Bewilligung des SVSA Bern ja, in zugelassenen Bereichen. Das Kanderdelta und andere Schutzgebiete sind ausgeschlossen. In der Praxis nutzen die meisten Segler die Gästestege in Thun, Spiez oder Interlaken.", "en": "Yes, with a permit from SVSA Bern, in designated areas. The Kander delta and other protected zones are excluded. In practice, most sailors use the guest berths in Thun, Spiez, or Interlaken."}
+    },
+    {
+      "q": {"de": "Wie ist der Fährverkehr auf dem Thunersee?", "en": "What is the ferry traffic like on the Thunersee?"},
+      "a": {"de": "BLS-Schiffe fahren regelmässig zwischen Thun, Spiez und Interlaken-West. Frequenz ist moderat – nicht annähernd so intensiv wie auf dem Zürichsee. Trotzdem Vorfahrtsregeln beachten und früh ausweichen.", "en": "BLS ferries run regularly between Thun, Spiez, and Interlaken-West. Frequency is moderate — nothing like the Zürichsee. That said, right-of-way rules apply and early, clear manoeuvres are the right approach."}
+    },
+    {
+      "q": {"de": "Ist der Thunersee für Segeleinsteiger geeignet?", "en": "Is the Thunersee suitable for beginner sailors?"},
+      "a": {"de": "Bedingt. Morgens und bei stabilem Wetter ist er ein angenehmer, überschaubarer See. Nachmittags können die Thermikwinde schnell auf Stärke 4–5 ansteigen – das ist für Einsteiger anspruchsvoll. Immer mit aktuellem MeteoSwiss-Wetterbericht segeln.", "en": "Conditionally yes. Mornings and stable weather make it a pleasant, manageable lake. Afternoon thermals can rapidly reach force 4–5 — that's challenging for beginners. Always sail with a current MeteoSwiss forecast in hand."}
+    }
+  ],
+  "faq_disclaimer": {
+    "title": {"de": "Daten und Haftung", "en": "Data and responsibility"},
+    "text": {"de": "Diese Seite ersetzt keine amtlichen Karten, Hafenordnungen oder Sicherheitsinfos. Sie ist eine kuratierte Übersicht für Planung und Inspiration. Verantwortung bleibt beim Skipper.", "en": "This site does not replace official charts, marina rules, or safety information. It is a curated overview for planning and inspiration. Responsibility stays with the skipper."}
+  }
+}
