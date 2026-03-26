@@ -1,13 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <circle cx="16" cy="16" r="16" fill="#0c1929"/>
-  <g fill="none" stroke="#c9a962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Ring -->
-    <circle cx="16" cy="7" r="2.5"/>
-    <!-- Stock (crossbar) -->
-    <line x1="10" y1="11" x2="22" y2="11"/>
-    <!-- Shank -->
-    <line x1="16" y1="9.5" x2="16" y2="24"/>
-    <!-- Crown + flukes -->
-    <path d="M9 19 Q8 25 13 25.5 L16 24 L19 25.5 Q24 25 23 19"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Navy circle -->
+  <circle cx="50" cy="50" r="50" fill="#0d1b2e"/>
+
+  <!-- Mast -->
+  <line x1="43" y1="17" x2="43" y2="56" stroke="#c9a962" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Main sail: mast top → boom-end → mast-base -->
+  <polygon points="45,19 45,55 69,55" fill="#c9a962"/>
+  <!-- Hull (elongated boat shape) -->
+  <path d="M28,56 Q50,61 72,56 L69,55 Q50,59 31,55 Z" fill="#c9a962"/>
+  <!-- Boom dark separator -->
+  <line x1="28" y1="56" x2="72" y2="56" stroke="#0d1b2e" stroke-width="1.5"/>
+
+  <!-- Waterline -->
+  <line x1="16" y1="62" x2="84" y2="62" stroke="#c9a962" stroke-width="1.1" opacity="0.6"/>
+
+  <!-- Reflection: filled wavy shapes fading downward -->
+  <path d="M31,63 Q40,61 50,63 Q60,65 69,63 Q66,69 59,71 Q54,73 50,73 Q46,73 41,71 Q34,69 31,63 Z" fill="#c9a962" opacity="0.65"/>
+  <path d="M37,74 Q43,72 50,74 Q57,76 63,74 Q60,80 55,81 Q52,82 50,82 Q48,82 45,81 Q40,80 37,74 Z" fill="#c9a962" opacity="0.42"/>
+  <path d="M42,83 Q46,81 50,83 Q54,85 58,83 Q55,88 50,89 Q45,88 42,83 Z" fill="#c9a962" opacity="0.22"/>
+  <ellipse cx="50" cy="91" rx="2.5" ry="1.5" fill="#c9a962" opacity="0.1"/>
 </svg>
