@@ -66,6 +66,26 @@
     "hours": "Di–Sa 08:00–24:00"
   },
   {
+    "id": "schluessel_immensee",
+    "name": "Seerestaurant Schlüssel da Andrea",
+    "country": "CH",
+    "location": "Immensee, Zugersee Südufer",
+    "lat": 47.1006,
+    "lng": 8.4664,
+    "price": "CHF €€",
+    "berthing": "Eigener Bootsanleger",
+    "features": [
+      "Direkt am See",
+      "Bootsanleger",
+      "Seeterrasse"
+    ],
+    "url": "https://www.restaurantschluesselamsee.ch/",
+    "source": "restaurantschluesselamsee.ch – Schwyz Tourismus",
+    "lastVerified": "2026-03-26",
+    "phone": "+41 41 250 44 55",
+    "hours": "Mi–So geöffnet"
+  },
+  {
     "id": "podium_41",
     "name": "Podium 41",
     "country": "CH",
