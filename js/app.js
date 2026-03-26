@@ -1824,6 +1824,10 @@ async function main() {
   safeInit(initLocationLayer, 'initLocationLayer');
   safeInit(initShareSection, 'initShareSection');
 
+  // renderAll() was called earlier via setLang() before the map existed → re-render now
+  // so markers actually appear on initial load without requiring a filter click.
+  renderAll();
+
   renderLakeLinks();
   // Deep link open
   handleDeepLinkOpen();
