@@ -157,5 +157,49 @@
     "maxBeamM": null,
     "amenities": [],
     "guestPolicy": "Vereinsmitglieder"
+  },
+  {
+    "id": "hafen_huenegg_hilterfingen",
+    "name": "Hafen Hünegg AG",
+    "country": "CH",
+    "region": "Hilterfingen",
+    "lat": 46.7368,
+    "lng": 7.6552,
+    "berths": 80,
+    "guestBerths": 5,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Segelschule",
+      "Sanitär"
+    ],
+    "notes": "AG-geführter Hafen, primär für Aktionäre. 5 Gastliegeplätze vorhanden, Vergabe mit Priorität für Gemeindeeinwohner. Hauptstützpunkt der Segelschule Thunersee.",
+    "url": "https://www.hilterfingen.ch/verwaltung/bauverwaltung/liegenschaften/bootsplaetze/",
+    "source": "Gemeinde Hilterfingen – Bootsplätze",
+    "lastVerified": "2026-03-26",
+    "guestPolicy": "5 Gastplätze, Priorität für Gemeindeeinwohner"
+  },
+  {
+    "id": "hafen_leissigen",
+    "name": "Hafen Leissigen",
+    "country": "CH",
+    "region": "Leissigen",
+    "lat": 46.6557,
+    "lng": 7.7695,
+    "berths": 28,
+    "guestBerths": 1,
+    "maxDraftM": 1.5,
+    "features": [
+      "Gastliegeplatz",
+      "Kran (Bootswerft Wilke)",
+      "Wasser",
+      "Sanitär (Strandbad)"
+    ],
+    "notes": "Gemeindeeigener Hafen mit 28 Plätzen, zwischen Strandbad und ehemaliger BLS-Schiffländte. 1 Gastliegeplatz CHF 15/Nacht, Reservierung beim Hafenmeister (+41 78 640 59 49). Kran bei Bootswerft Wilke AG.",
+    "url": "https://www.leissigen.ch/freizeit/bootshafen",
+    "source": "Gemeinde Leissigen – Bootshafen",
+    "lastVerified": "2026-03-26",
+    "guestPolicy": "1 Gastliegeplatz, CHF 15/Nacht, Reservierung beim Hafenmeister"
   }
 ]

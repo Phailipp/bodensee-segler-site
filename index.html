@@ -303,98 +303,19 @@
   <section id="guide" class="guide-section">
     <div class="section-header">
       <div class="section-label" data-i18n="guide.label">Revierwissen</div>
-      <h2 class="section-title" data-i18n="guide.title">Der Bodensee, kurz erklärt</h2>
-      <p class="section-subtitle" data-i18n="guide.subtitle">Damit du schneller aufs Wasser kommst: die wichtigsten Regeln, Muster und Entscheidungen in einem klaren Überblick.</p>
+      <h2 class="section-title" id="guideTitle"></h2>
+      <p class="section-subtitle" id="guideSubtitle"></p>
     </div>
-
-    <div class="value-grid" aria-label="Guide highlights">
-      <div class="value-card">
-        <h3 data-i18n="guide.card1.title">Navigation und Realität</h3>
-        <p data-i18n="guide.card1.text">Der Bodensee wirkt klein, verhält sich aber wie ein echtes Binnenmeer: lokale Winddreher, kurze Welle und viel Verkehr. Plane mit Reserve und halte Ausweichhäfen im Kopf.</p>
-      </div>
-      <div class="value-card">
-        <h3 data-i18n="guide.card2.title">Ankern ist kein Standard</h3>
-        <p data-i18n="guide.card2.text">Viele Bereiche sind sensibel oder eingeschränkt. Ein guter Ankerplatz ist nicht nur Tiefe, sondern auch Abstand, Schutz, Grund und die Frage, ob Übernachten praktisch und erlaubt ist.</p>
-      </div>
-      <div class="value-card">
-        <h3 data-i18n="guide.card3.title">Grenzen und Zuständigkeiten</h3>
-        <p data-i18n="guide.card3.text">Am See treffen DE, CH und AT aufeinander. Regeln, Funk, Hafenordnungen und Gebühren sind nicht überall gleich. Prüfe im Zweifel die offiziellen Seiten, bevor du dich darauf verlässt.</p>
-      </div>
-    </div>
-
-    <div class="prose" aria-label="How to use">
-      <h3 data-i18n="guide.how.title">So nutzt du die Seite</h3>
-      <p data-i18n="guide.how.p1">Erst Karte: verschaffe dir ein Gefühl für Distanzen, Häfen und Alternativen. Dann filtere in den Listen nach Land und Tiefgang. Wenn du einen Eintrag öffnest, siehst du Details, Hinweise und die Quelle, sofern vorhanden.</p>
-      <p data-i18n="guide.how.p2">Die Idee ist nicht Vollständigkeit um jeden Preis, sondern ein ruhiger, verlässlicher Startpunkt. Wenn dir etwas fehlt oder nicht stimmt, melde es gern über GitHub.</p>
-
-      <div class="callout">
-        <div class="callout-title" data-i18n="guide.callout.title">Schnellstart</div>
-        <p data-i18n="guide.callout.text">Wenn du heute noch aufs Wasser willst: nutze den kuratierten Artikel und teile einzelne Spots als Link (öffnet direkt das passende Detailfenster).</p>
-        <p><a class="action-btn" href="./artikel/hafen-heute-abend/" data-i18n="guide.callout.cta">Hafen heute Abend</a></p>
-      </div>
-    </div>
+    <div id="guideContent"></div>
   </section>
 
   <section id="safety" class="guide-section">
     <div class="section-header">
       <div class="section-label" data-i18n="safety.label">Sicherheit</div>
-      <h2 class="section-title" data-i18n="safety.title">Wetter, Warnsystem, Entscheidungen</h2>
-      <p class="section-subtitle" data-i18n="safety.subtitle">Am Bodensee passieren die meisten schlechten Tage nicht wegen „fehlender Segeltechnik“, sondern wegen Timing. Diese Basics helfen beim Entscheiden.</p>
+      <h2 class="section-title" id="safetyTitle"></h2>
+      <p class="section-subtitle" id="safetySubtitle"></p>
     </div>
-
-    <div class="value-grid" aria-label="Safety highlights">
-      <div class="value-card">
-        <h3 data-i18n="safety.card1.title">Starkwindwarnung</h3>
-        <p data-i18n="safety.card1.text">40 orange Blitze pro Minute: Gefahr von Böen 25 bis 33 kn. Spätestens jetzt Kurs und Plan anpassen.</p>
-      </div>
-      <div class="value-card">
-        <h3 data-i18n="safety.card2.title">Sturmwarnung</h3>
-        <p data-i18n="safety.card2.text">90 orange Blitze pro Minute: Gefahr von Wind ab 34 kn. Schutz suchen, früh reduzieren, nicht diskutieren.</p>
-      </div>
-      <div class="value-card">
-        <h3 data-i18n="safety.card3.title">Traffic und Fähren</h3>
-        <p data-i18n="safety.card3.text">Rund um Häfen, Querungen und Uferlinien ist viel Verkehr. Plane Ansteuerungen defensiv und rechne mit Kursänderungen anderer.</p>
-      </div>
-    </div>
-
-    <div class="prose" aria-label="Decision checklists">
-      <h3 data-i18n="safety.checklists.title">Checklisten</h3>
-
-      <h4 data-i18n="safety.checklists.before.title">Vor dem Ablegen (2 Minuten)</h4>
-      <ul>
-        <li data-i18n="safety.checklists.before.i1">Sturmwarnleuchten gecheckt (oder App/Quelle) und Wetterlage verstanden.</li>
-        <li data-i18n="safety.checklists.before.i2">Plan A und Plan B Hafen im Kopf (mit Ansteuerung).</li>
-        <li data-i18n="safety.checklists.before.i3">Reffplan: wann wird gerefft, wer macht was.</li>
-        <li data-i18n="safety.checklists.before.i4">Crew Briefing: Manöver, Verhalten bei Böen, wer steuert, wer schaut.</li>
-        <li data-i18n="safety.checklists.before.i5">Motor check: Start, Kühlung, genug Sprit für Rückweg/Manöver.</li>
-      </ul>
-
-      <h4 data-i18n="safety.checklists.strong.title">Bei Starkwindwarnung (40 Blitze/Minute)</h4>
-      <ul>
-        <li data-i18n="safety.checklists.strong.i1">Segelfläche reduzieren, bevor es unangenehm wird.</li>
-        <li data-i18n="safety.checklists.strong.i2">Abstand zu Lee-Ufer und Engstellen vergrößern.</li>
-        <li data-i18n="safety.checklists.strong.i3">Hafenoptionen priorisieren und Kurs so wählen, dass ein Abbruch leicht ist.</li>
-      </ul>
-
-      <h4 data-i18n="safety.checklists.storm.title">Bei Sturmwarnung (90 Blitze/Minute)</h4>
-      <ul>
-        <li data-i18n="safety.checklists.storm.i1">Nicht „noch schnell rüber“: früh Schutz suchen.</li>
-        <li data-i18n="safety.checklists.storm.i2">Crew sichern, klare Rollen, Manöver vereinfachen.</li>
-        <li data-i18n="safety.checklists.storm.i3">Wenn unsicher: Motor, Kurs stabil, Situation entschärfen.</li>
-      </ul>
-
-      <h4 data-i18n="safety.checklists.anchor.title">Wenn du ankern willst</h4>
-      <ul>
-        <li data-i18n="safety.checklists.anchor.i1">Nur bei passenden Bedingungen: Schutz, Tiefe, Grund, Abstand, Verkehr.</li>
-        <li data-i18n="safety.checklists.anchor.i2">Konservativ planen: mehr Kette/Leine, mehr Reserve, früher abbrechen.</li>
-        <li data-i18n="safety.checklists.anchor.i3">Regeln/Schutzgebiete vor Ort verifizieren (Quellen unten).</li>
-      </ul>
-    </div>
-
-    <div class="prose" aria-label="Safety sources">
-      <h3 data-i18n="safety.sources.title">Quellen</h3>
-      <p data-i18n="safety.sources.text">Die Werte zur Sturmwarnung (40 und 90 Blitze pro Minute) sind offiziell beschrieben. Links findest du unten in der Quellenliste.</p>
-    </div>
+    <div id="safetyContent"></div>
   </section>
 
   <section id="faq" class="faq-section">
@@ -403,30 +324,7 @@
       <h2 class="section-title" data-i18n="faq.title">FAQ</h2>
       <p class="section-subtitle" data-i18n="faq.subtitle">Kurze, ehrliche Antworten auf die Fragen, die am See immer wieder auftauchen.</p>
     </div>
-
-    <div class="faq-grid" aria-label="Frequently asked questions">
-      <div class="faq-item">
-        <h3 data-i18n="faq.q1">Kann ich überall ankern?</h3>
-        <p data-i18n="faq.a1">Nein. Es gibt Schutzgebiete, Verkehrsräume und lokale Regeln. Nutze die Ankerplatz-Liste als Startpunkt und prüfe vor Ort die offiziellen Hinweise und Beschilderung.</p>
-      </div>
-      <div class="faq-item">
-        <h3 data-i18n="faq.q2">Sind die Tiefenangaben garantiert?</h3>
-        <p data-i18n="faq.a2">Nein. Wasserstände ändern sich, und Daten können veralten. Wenn ein Eintrag kritisch ist, plane konservativ und verifiziere mit aktuellen Karten und lokalen Infos.</p>
-      </div>
-      <div class="faq-item">
-        <h3 data-i18n="faq.q3">Wie aktuell sind die Daten?</h3>
-        <p data-i18n="faq.a3">Wo möglich führen wir eine Quelle und ein last verified Datum. Wenn beides fehlt, behandle den Eintrag als Hinweis, nicht als Zusage.</p>
-      </div>
-      <div class="faq-item">
-        <h3 data-i18n="faq.q4">Kann ich beitragen?</h3>
-        <p data-i18n="faq.a4">Ja. Am schnellsten über GitHub: Link öffnen, Issue schreiben oder direkt einen kleinen Fix vorschlagen. Je konkreter Quelle und Datum, desto besser.</p>
-      </div>
-    </div>
-
-    <div class="prose" aria-label="Data disclaimer">
-      <h3 data-i18n="faq.disclaimer.title">Daten und Haftung</h3>
-      <p data-i18n="faq.disclaimer.text">Diese Seite ersetzt keine amtlichen Karten, Hafenordnungen oder Sicherheitsinfos. Sie ist eine kuratierte Übersicht für Planung und Inspiration. Verantwortung bleibt beim Skipper.</p>
-    </div>
+    <div id="faqContent"></div>
   </section>
 
   <footer>

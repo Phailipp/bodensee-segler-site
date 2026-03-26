@@ -1,0 +1,98 @@
+{
+  "guide": {
+    "title": {"de": "Der Vierwaldstättersee, kurz erklärt", "en": "Lake Lucerne, in brief"},
+    "subtitle": {
+      "de": "Komplexer Alpensee mit mehreren Armen, dramatischer Kulisse und dem mächtigsten Föhn der Schweizer Binnenseen.",
+      "en": "A multi-arm alpine lake of dramatic scenery and the most powerful Föhn conditions of any Swiss inland lake."
+    },
+    "cards": [
+      {
+        "title": {"de": "Topographie & Arme", "en": "Topography & Arms"},
+        "text": {
+          "de": "Der Vierwaldstättersee besteht aus mehreren Armen – Urnersee, Küssnachtersee, Alpnachersee, Vitznauerbecken. Jeder Arm hat sein eigenes Windregime; was auf dem Luzerner Becken gilt, kann im Urnersee völlig anders sein. Segelreviere und gefährliche Engpässe liegen nah beieinander.",
+          "en": "The Vierwaldstättersee consists of several distinct arms — Urnersee, Küssnachtersee, Alpnachersee, Vitznauerbecken. Each arm has its own wind regime; conditions on the Lucerne basin can be completely different from those in the Urnersee. Sailing grounds and dangerous bottlenecks sit close together."
+        }
+      },
+      {
+        "title": {"de": "Föhn im Urnersee", "en": "Föhn on the Urnersee"},
+        "text": {
+          "de": "Das Reusstal kanalisiert den Föhn direkt in den Urnersee – dieser Arm ist das gefährlichste Segelrevier der Schweiz bei Föhnlage. Böen über 50 Knoten sind dokumentiert; der Wind setzt ohne lange Vorwarnung ein. Wer Föhn in der Prognose sieht, bleibt aus dem Urnersee heraus.",
+          "en": "The Reuss valley funnels Föhn directly into the Urnersee — this arm is the most dangerous sailing stretch in Switzerland under Föhn conditions. Gusts above 50 knots have been recorded; onset is rapid with little warning. If Föhn is forecast, stay out of the Urnersee."
+        }
+      },
+      {
+        "title": {"de": "Fährverkehr & Touristik", "en": "Ferry Traffic & Tourism"},
+        "text": {
+          "de": "SGV-Linienschiffe und historische Raddampfer verkehren auf allen Armen mit hoher Frequenz – besonders im Sommer. Der Raum zwischen Luzern und Vitznau ist eng und touristisch sehr frequentiert. Schiffsanlegestellen als Ausweichmanöver zu nutzen ist verboten.",
+          "en": "SGV scheduled ferries and historic paddle steamers run at high frequency across all arms — especially in summer. The stretch between Lucerne and Vitznau is tight and extremely busy with tourism traffic. Using ferry landing stages for evasive manoeuvres is prohibited."
+        }
+      }
+    ],
+    "how": {
+      "p1": {
+        "de": "Ein klassischer Vierwaldstättersee-Törn startet in Luzern, nutzt den Westwind im Vitznauerbecken und endet in Brunnen oder Flüelen. Der Urnersee ist seglerisch spektakulär – steile Felswände, tiefe Buchten – aber nur bei stabiler Wetterlage anzugehen.",
+        "en": "A classic Vierwaldstättersee passage starts in Lucerne, uses westerly winds across the Vitznau basin, and finishes in Brunnen or Flüelen. The Urnersee is spectacular — sheer rock faces, deep coves — but only approach it in confirmed stable conditions."
+      },
+      "p2": {
+        "de": "Wer wenig Zeit hat, segelt das Luzerner Becken und den Küssnachtersee – beide weniger föhngefährdet und mit guter Infrastruktur. Gästestege gibt es in Brunnen, Flüelen, Beckenried und Alpnachstad.",
+        "en": "Short on time? Sail the Lucerne basin and Küssnachtersee — both less Föhn-exposed and with solid infrastructure. Guest berths are available in Brunnen, Flüelen, Beckenried, and Alpnachstad."
+      }
+    }
+  },
+  "safety": {
+    "title": {"de": "Wetter, Warnsystem, Entscheidungen", "en": "Weather, warning system, decisions"},
+    "subtitle": {
+      "de": "Kein See in der Schweiz verzeiht Föhn-Leichtsinn weniger als der Urnersee. Keine Sturmwarnleuchten – MeteoSwiss ist die einzige Frühwarnung.",
+      "en": "No Swiss lake is less forgiving of Föhn complacency than the Urnersee. No storm warning lights exist — MeteoSwiss is your only early warning."
+    },
+    "cards": [
+      {
+        "title": {"de": "Föhn-Protokoll", "en": "Föhn Protocol"},
+        "text": {
+          "de": "Bei Föhnlage in der MeteoSwiss-Prognose – auch «mässig» – den Urnersee meiden. Der Wind setzt im Reusstal an und erreicht den See innerhalb von Minuten mit voller Stärke. Wer auf dem Wasser Föhnzeichen sieht (klare Luft aus Süden, fallende Cumulus-Basis), sofort anlanden.",
+          "en": "With any Föhn in the MeteoSwiss forecast — even 'moderate' — avoid the Urnersee. Wind builds in the Reuss valley and reaches the lake at full strength within minutes. If you see Föhn signs on the water (clearing from the south, dropping cloud base), head for shore immediately."
+        }
+      },
+      {
+        "title": {"de": "Wettermonitoring ohne Warnleuchten", "en": "Weather Monitoring Without Warning Lights"},
+        "text": {
+          "de": "Am Vierwaldstättersee gibt es keine Sturmwarnleuchten. Die MeteoSwiss-App mit aktivierten Push-Warnungen ist Pflicht. Zusätzlich lohnt sich das Beobachten der Bergkuppen: Föhn-Wallwolken über den Alpen südlich des Sees sind ein zuverlässiges Frühzeichen.",
+          "en": "There are no storm warning lights on the Vierwaldstättersee. The MeteoSwiss app with push notifications enabled is mandatory. Also watch the southern ridgelines: Föhn wall clouds building over the Alps to the south are a reliable early indicator."
+        }
+      },
+      {
+        "title": {"de": "Notliegeplätze kennen", "en": "Know Your Emergency Berths"},
+        "text": {
+          "de": "Durch die verzweigte Topographie gibt es an fast jedem Arm einen Notliegeplatz in Reichweite. Diese im Voraus identifizieren: Beckenried, Gersau, Seelisberg-Treib, Bauen und Sisikon sind Optionen im kritischen Urnersee-Bereich.",
+          "en": "The branching topography means there's nearly always an emergency landing point within reach. Identify them beforehand: Beckenried, Gersau, Seelisberg-Treib, Bauen, and Sisikon are options in the critical Urnersee zone."
+        }
+      }
+    ],
+    "sources": {
+      "de": "Wetterwarnungen: MeteoSwiss (meteoswiss.admin.ch). Schifffahrtsregeln: Kantone Luzern, Uri, Nidwalden, Obwalden, Schwyz – koordiniert durch das Strassenverkehrs- und Schifffahrtsamt (SVSA).",
+      "en": "Weather warnings: MeteoSwiss (meteoswiss.admin.ch). Navigation rules: Cantons Lucerne, Uri, Nidwalden, Obwalden, Schwyz — coordinated through the SVSA."
+    }
+  },
+  "faq": [
+    {
+      "q": {"de": "Wie gefährlich ist der Urnersee bei Föhn wirklich?", "en": "How dangerous is the Urnersee in Föhn conditions really?"},
+      "a": {"de": "Sehr. Das Reusstal wirkt wie eine Düse und verstärkt den Föhn erheblich. Böen über 50 Knoten mit nahezu senkrechtem Wellenaufbau in kurzer Zeit – das ist bei Föhnlage kein Revier für normale Freizeitsegler.", "en": "Very. The Reuss valley acts as a nozzle and massively amplifies the Föhn. Gusts above 50 knots with steep, short chop developing fast — under Föhn conditions this is not a lake for recreational sailors."}
+    },
+    {
+      "q": {"de": "Kann ich mit einem Mietboot alle Arme befahren?", "en": "Can I sail all arms with a charter boat?"},
+      "a": {"de": "Ja, grundsätzlich. Manche Verleiher schränken den Urnersee bei bestimmten Wetterverhältnissen vertraglich aus. Immer die Versicherungsbedingungen prüfen und bei Föhnlage die Einschränkungen des Verleihers respektieren.", "en": "Generally yes. Some charter operators contractually exclude the Urnersee under certain weather conditions. Always check the insurance terms and respect any restrictions your charter operator sets for Föhn conditions."}
+    },
+    {
+      "q": {"de": "Gibt es Sturmwarnleuchten am See?", "en": "Are there storm warning lights on the lake?"},
+      "a": {"de": "Nein. Der Vierwaldstättersee hat kein Sturmwarnleuchten-System. Einzige verlässliche Quelle ist MeteoSwiss mit den offiziellen Unwetterwarnungen und der stündlichen Wetterprognose.", "en": "No. The Vierwaldstättersee has no storm warning light system. The only reliable source is MeteoSwiss with its official severe weather warnings and hourly forecasts."}
+    },
+    {
+      "q": {"de": "Welche Kantone haben Hoheit über den See?", "en": "Which cantons have jurisdiction over the lake?"},
+      "a": {"de": "Fünf Kantone teilen sich den See: Luzern, Uri, Nidwalden, Obwalden und Schwyz. Schifffahrtsvorschriften sind harmonisiert, aber für lokale Besonderheiten die SVSA-Unterlagen des jeweiligen Kantons konsultieren.", "en": "Five cantons share the lake: Lucerne, Uri, Nidwalden, Obwalden, and Schwyz. Navigation rules are harmonised, but for local specifics consult the SVSA documentation for each canton."}
+    }
+  ],
+  "faq_disclaimer": {
+    "title": {"de": "Daten und Haftung", "en": "Data and responsibility"},
+    "text": {"de": "Diese Seite ersetzt keine amtlichen Karten, Hafenordnungen oder Sicherheitsinfos. Sie ist eine kuratierte Übersicht für Planung und Inspiration. Verantwortung bleibt beim Skipper.", "en": "This site does not replace official charts, marina rules, or safety information. It is a curated overview for planning and inspiration. Responsibility stays with the skipper."}
+  }
+}

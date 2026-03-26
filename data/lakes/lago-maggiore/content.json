@@ -1,0 +1,113 @@
+{
+  "guide": {
+    "title": {"de": "Der Lago Maggiore, kurz erklärt", "en": "Lago Maggiore, in brief"},
+    "subtitle": {
+      "de": "65 km Alpensee mit zwei Rechtssystemen, heftigen Nachmittagsgewittern und dichtem Touristenbootbetrieb rund um die Borromäischen Inseln.",
+      "en": "65 km of Alpine lake with two legal systems, violent afternoon thunderstorms, and heavy tourist boat traffic around the Borromean Islands."
+    },
+    "cards": [
+      {
+        "title": {"de": "Charakter: Alpen treffen Mittelmeer", "en": "Character: Alps meet Mediterranean"},
+        "text": {
+          "de": "Der Lago Maggiore ist schmal und lang — Wind kanalisiert sich stark entlang der Längsachse. Morgens kommt der Tramontana aus Norden, nachmittags dreht der Verbano/Inverna aus Süden auf. Die kurze Flaute dazwischen täuscht über das, was kommt.",
+          "en": "Lago Maggiore is narrow and long — wind channels strongly along the main axis. The Tramontana blows from the north in the morning; the Verbano/Inverna picks up from the south in the afternoon. The brief lull between them is deceptive."
+        }
+      },
+      {
+        "title": {"de": "Ankern: auf der italienischen Seite komplex", "en": "Anchoring: complex on the Italian side"},
+        "text": {
+          "de": "Nördlich von Brissago gilt Schweizer Recht — Übernachten ist mit Einschränkungen möglich. Südlich gilt italienisches Seerecht: Ankerbeschränkungen, Fährgassen und Schutzzonen rund um die Borromäischen Inseln machen Übernachten aufwändig. Lokale Hinweise immer beachten.",
+          "en": "North of Brissago, Swiss law applies — overnight anchoring is possible with restrictions. South of the border, Italian maritime law applies: anchoring restrictions, ferry lanes and protection zones around the Borromean Islands make overnight stays complex. Always check local notices."
+        }
+      },
+      {
+        "title": {"de": "Zwei Länder, zwei Regelwerke", "en": "Two countries, two rule sets"},
+        "text": {
+          "de": "Die Grenze verläuft bei Brissago. Nördlich gilt kantonales Tessiner Recht, südlich das Codice della Navigazione Interna. Tempolimits und Zulassungsanforderungen unterscheiden sich — Fahrtgebiet prüfen, bevor man die Grenze überquert.",
+          "en": "The border runs at Brissago. North is Canton Ticino law, south is the Italian Codice della Navigazione Interna. Speed limits and registration requirements differ — check your cruising area before crossing the border."
+        }
+      }
+    ],
+    "how": {
+      "p1": {
+        "de": "Früh auslaufen lohnt sich: Tramontana-Fenster am Morgen sind oft besser als alles, was der Nachmittag bietet. Wer die Borromäischen Inseln besuchen will, plant einen frühen Anmarsch — Ausflugsboote machen die engen Gewässer dort ab 10 Uhr unruhig.",
+        "en": "Early starts pay off: morning Tramontana windows are often better than anything the afternoon brings. If visiting the Borromean Islands, plan an early approach — tourist boats make those narrow waters congested from 10 am onwards."
+      },
+      "p2": {
+        "de": "Die Navigazione Laghi-Fähren fahren nach festen Fahrplänen und haben Vorrang. Für Wetter: MeteoSwiss für den Nordteil, ARPA Piemonte für den Südteil — beide vor der Ausfahrt checken.",
+        "en": "Navigazione Laghi ferries run to fixed timetables and have right of way. For weather: MeteoSwiss covers the northern part, ARPA Piemonte covers the southern Italian part — check both before departure."
+      }
+    }
+  },
+  "safety": {
+    "title": {"de": "Wetter, Warnsystem, Entscheidungen", "en": "Weather, warning system, decisions"},
+    "subtitle": {
+      "de": "Sommergewitter bauen sich schnell über den Alpen auf — wer das Wetter nicht aktiv verfolgt, wird überrascht.",
+      "en": "Summer thunderstorms build fast over the Alps — sailors who don't actively monitor the weather will be caught out."
+    },
+    "cards": [
+      {
+        "title": {"de": "Gewittergefahr im Sommer", "en": "Thunderstorm risk in summer"},
+        "text": {
+          "de": "Das grösste Risiko am Lago Maggiore sind Nachmittagsgewitter, die in 30–60 Minuten aus schönem Wetter entstehen können. Böen über 50 kn sind dokumentiert. Spätestens um 13 Uhr Wetterentwicklung bewerten und Schutzhafen in Reichweite halten.",
+          "en": "The greatest hazard on Lago Maggiore is afternoon thunderstorms that can develop from clear skies in 30–60 minutes. Gusts above 50 knots are documented. Assess weather development by 1 pm at the latest and keep a harbour of refuge within reach."
+        }
+      },
+      {
+        "title": {"de": "Kein Blinkleuchten-System — zwei Wetterdienste nutzen", "en": "No storm signal lights — use two weather services"},
+        "text": {
+          "de": "Am Lago Maggiore gibt es kein automatisches Sturmwarn-Lichtsystem. Im Schweizer Teil warnt MeteoSwiss, im italienischen Teil ARPA Piemonte. Beide Quellen vor Ausfahrt checken — nur eine reicht nicht.",
+          "en": "Lago Maggiore has no automatic storm signal light system. In the Swiss part, MeteoSwiss issues warnings; in the Italian part, ARPA Piemonte. Check both sources before departure — relying on just one is not enough."
+        }
+      },
+      {
+        "title": {"de": "Tramontana: morgens stark, schnell aufbauend", "en": "Tramontana: strong in the morning, builds fast"},
+        "text": {
+          "de": "Der Tramontana (Nordwind aus den Alpen) kann früh am Morgen bereits erhebliche Stärken erreichen — besonders im Frühjahr. Er kanalisiert durch die Längsachse des Sees und erzeugt kurze, steile Welle im Nordteil. Bei prognostiziertem Tramontana früh auslaufen oder abwarten.",
+          "en": "The Tramontana (north wind from the Alps) can already be strong early in the morning — especially in spring. It channels along the lake's long axis and builds short, steep waves in the northern section. When Tramontana is forecast, either leave very early or wait it out."
+        }
+      }
+    ],
+    "sources": {
+      "de": "MeteoSwiss (meteoswiss.admin.ch) für den Tessiner Nordteil; ARPA Piemonte (arpa.piemonte.it) für den italienischen Südteil. Beide Dienste vor jeder Ausfahrt konsultieren.",
+      "en": "MeteoSwiss (meteoswiss.admin.ch) for the Swiss northern part; ARPA Piemonte (arpa.piemonte.it) for the Italian southern part. Consult both services before every departure."
+    }
+  },
+  "faq": [
+    {
+      "q": {"de": "Darf ich mit meinem Schweizer Boot in den italienischen Teil fahren?", "en": "Can I sail my Swiss-registered boat into the Italian part?"},
+      "a": {
+        "de": "Grundsätzlich ja, aber das Boot muss den italienischen Anforderungen für ausländische Fahrzeuge entsprechen. Pflichtausrüstung, Zulassungsdokumente und Führerschein für den Grenzübertritt prüfen — insbesondere für Fahrzeuge über 10 PS.",
+        "en": "In principle yes, but the boat must meet Italian requirements for foreign vessels. Check mandatory equipment, registration documents and licence requirements for the border crossing — especially for boats over 10 hp."
+      }
+    },
+    {
+      "q": {"de": "Kann ich bei den Borromäischen Inseln ankern?", "en": "Can I anchor near the Borromean Islands?"},
+      "a": {
+        "de": "Praktisch kaum: Das Gebiet ist durch Fährgassen, Schutzzonen und dichten Ausflugsbootverkehr stark eingeschränkt. Übernachten ist dort faktisch nicht möglich. Stresa oder Baveno als Basishäfen wählen.",
+        "en": "Practically very limited: the area is heavily restricted by ferry lanes, protected zones and dense tourist boat traffic. Overnight stays are effectively impossible there. Use Stresa or Baveno as base harbours instead."
+      }
+    },
+    {
+      "q": {"de": "Wann ist die beste Segelzeit am Lago Maggiore?", "en": "What is the best sailing season on Lago Maggiore?"},
+      "a": {
+        "de": "Mai bis Juni und September bieten die zuverlässigsten Bedingungen: angenehme Temperaturen, stabilere Tramontana-Fenster am Morgen, weniger Gewitterrisiko als im Hochsommer. Juli und August sind touristisch voll und gewitterträchtig — früh auslaufen, früh zurück.",
+        "en": "May–June and September offer the most reliable conditions: pleasant temperatures, more stable morning Tramontana windows, and less thunderstorm risk than high summer. July and August are crowded and thunderstorm-prone — go early, return early."
+      }
+    },
+    {
+      "q": {"de": "Wie tief ist der See — muss ich mit Grundberührung rechnen?", "en": "How deep is the lake — should I worry about grounding?"},
+      "a": {
+        "de": "Die Seemitte erreicht bis 370 m Tiefe — Grundberührung in der offenen Wasserfläche ist kein Thema. Kritisch sind Hafeneinfahrten, Flachwasserbereiche in den Buchten und das Nordufer bei Ascona/Brissago. Aktuelle Karte nutzen und Einfahrtstiefen verifizieren.",
+        "en": "The lake reaches 370 m in the middle — grounding in open water is not an issue. Critical areas are harbour approaches, shallow bays and the northern shoreline near Ascona/Brissago. Use a current chart and verify entrance depths."
+      }
+    }
+  ],
+  "faq_disclaimer": {
+    "title": {"de": "Daten und Haftung", "en": "Data and responsibility"},
+    "text": {
+      "de": "Diese Seite ersetzt keine amtlichen Karten, Hafenordnungen oder Sicherheitsinfos. Sie ist eine kuratierte Übersicht für Planung und Inspiration. Verantwortung bleibt beim Skipper.",
+      "en": "This site does not replace official charts, marina rules, or safety information. It is a curated overview for planning and inspiration. Responsibility stays with the skipper."
+    }
+  }
+}

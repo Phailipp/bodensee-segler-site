@@ -58,5 +58,44 @@
     "url": "https://www.portolabieno.com/",
     "source": "https://www.portolabieno.com/",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "nautica_bego_verbania_fuel",
+    "name": "Nautica Bego – Tankstelle",
+    "country": "IT",
+    "location": "Verbania (Pallanza)",
+    "type": "fuel",
+    "details": "Benzin und Wasser direkt am See. EC- und Kreditkarte. Autorisierter Händler für Volvo Penta, Suzuki, Yamaha, SeaDoo.",
+    "lat": 45.9291,
+    "lng": 8.5688,
+    "url": "https://www.nauticabego.com/",
+    "source": "nauticabego.com",
+    "lastVerified": "2026-03-26"
+  },
+  {
+    "id": "cantiere_del_verbano_feriolo",
+    "name": "Cantiere del Verbano",
+    "country": "IT",
+    "location": "Feriolo di Baveno",
+    "type": "slip",
+    "details": "Familiengeführte Werft seit 1979. Hallenplätze für Winterlagerung, Liegeplätze am Steg und Boje, Kranliftung, Antifouling, Reparaturen. Kurzzeitlieger willkommen.",
+    "lat": 45.9190,
+    "lng": 8.4906,
+    "url": "https://cantieredelverbano.com/",
+    "source": "cantieredelverbano.com",
+    "lastVerified": "2026-03-26"
+  },
+  {
+    "id": "yacht_service_sangiano",
+    "name": "Yacht Service Lago Maggiore",
+    "country": "IT",
+    "location": "Sangiano",
+    "type": "repair",
+    "details": "GFK- und Holzrümpfe, Teakdeck, Osmosebehandlung, Komplettrefits, Bordsysteme. Professionelle Bootsbauer-Ausbildung.",
+    "lat": 45.8774,
+    "lng": 8.6298,
+    "url": "https://www.yacht-service-lago-maggiore.it/",
+    "source": "yacht-service-lago-maggiore.it",
+    "lastVerified": "2026-03-26"
   }
 ]
