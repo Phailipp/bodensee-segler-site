@@ -408,24 +408,7 @@ section { padding: 80px 48px; }
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
-  position: relative;
 }
-
-.harbor-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: rgba(201,169,98,0.3);
-}
-
-.harbor-card[data-country="DE"]::before { background: #3a7bd5; }
-.harbor-card[data-country="CH"]::before { background: #e63946; }
-.harbor-card[data-country="AT"]::before { background: #e63946; }
-.harbor-card[data-country="FR"]::before { background: #2563eb; }
-.harbor-card[data-country="IT"]::before { background: #16a34a; }
 
 .harbor-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,0.3); }
 
