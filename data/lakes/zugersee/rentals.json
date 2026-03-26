@@ -1,5 +1,26 @@
 [
   {
+    "id": "point65_kayak_immensee",
+    "name": "Point65 Kajak & SUP",
+    "country": "CH",
+    "location": "Immensee (Schifflände)",
+    "lat": 47.100,
+    "lng": 8.466,
+    "fleetSize": 6,
+    "priceFrom": "ab CHF 40/2h",
+    "features": [
+      "Kajak",
+      "Tourenkajak",
+      "Führerscheinfrei"
+    ],
+    "url": "https://www.point65.ch/kajakvermietung.html",
+    "source": "point65.ch – Kajakvermietung Zugersee",
+    "lastVerified": "2026-03-26",
+    "phone": "",
+    "email": "",
+    "hours": "Mi–So 08:00–17:00, Saison, nur bei schönem Wetter"
+  },
+  {
     "id": "harbor_bootsvermietung_zug",
     "name": "Harbor Bootsvermietung Zug",
     "country": "CH",
