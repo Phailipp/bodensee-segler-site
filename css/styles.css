@@ -148,6 +148,8 @@ nav.scrolled { background: rgba(12,25,41,0.95); backdrop-filter: blur(10px); pad
 
 .logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; }
 .logo span { color: var(--gold); }
+.logo-title { display: flex; align-items: center; gap: 8px; }
+.logo-anchor { width: 28px; height: 28px; flex-shrink: 0; }
 
 .nav-links { display: flex; gap: 40px; list-style: none; }
 

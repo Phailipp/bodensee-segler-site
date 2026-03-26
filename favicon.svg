@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <circle cx="16" cy="16" r="16" fill="#0c1929"/>
+  <g fill="none" stroke="#c9a962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Ring -->
+    <circle cx="16" cy="7" r="2.5"/>
+    <!-- Stock (crossbar) -->
+    <line x1="10" y1="11" x2="22" y2="11"/>
+    <!-- Shank -->
+    <line x1="16" y1="9.5" x2="16" y2="24"/>
+    <!-- Crown + flukes -->
+    <path d="M9 19 Q8 25 13 25.5 L16 24 L19 25.5 Q24 25 23 19"/>
+  </g>
+</svg>
