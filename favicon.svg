@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Navy circle background -->
+  <!-- Navy circle -->
   <circle cx="50" cy="50" r="50" fill="#0d1b2e"/>
 
   <!-- Mast -->
-  <line x1="44" y1="20" x2="44" y2="57" stroke="#c9a962" stroke-width="2.2" stroke-linecap="round"/>
-  <!-- Main sail triangle: mast-top → boom-end → mast-base -->
-  <polygon points="44,22 44,55 68,55" fill="#c9a962"/>
-  <!-- Hull ellipse -->
-  <ellipse cx="50" cy="57.5" rx="18" ry="3.5" fill="#c9a962"/>
-  <!-- Boom/deck line (dark separator) -->
-  <line x1="44" y1="55" x2="68" y2="55" stroke="#0d1b2e" stroke-width="1.2"/>
+  <line x1="43" y1="17" x2="43" y2="56" stroke="#c9a962" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Main sail: mast top → boom-end → mast-base -->
+  <polygon points="45,19 45,55 69,55" fill="#c9a962"/>
+  <!-- Hull (elongated boat shape) -->
+  <path d="M28,56 Q50,61 72,56 L69,55 Q50,59 31,55 Z" fill="#c9a962"/>
+  <!-- Boom dark separator -->
+  <line x1="28" y1="56" x2="72" y2="56" stroke="#0d1b2e" stroke-width="1.5"/>
 
   <!-- Waterline -->
-  <line x1="20" y1="61" x2="80" y2="61" stroke="#c9a962" stroke-width="1.2" opacity="0.65"/>
+  <line x1="16" y1="62" x2="84" y2="62" stroke="#c9a962" stroke-width="1.1" opacity="0.6"/>
 
-  <!-- Water reflection wavy lines -->
-  <path d="M34,65 Q38,63 42,65 Q46,67 50,65 Q54,63 58,65 Q62,67 66,65" fill="none" stroke="#c9a962" stroke-width="1.4" opacity="0.55"/>
-  <path d="M38,70 Q42,68 46,70 Q50,72 54,70 Q58,68 62,70" fill="none" stroke="#c9a962" stroke-width="1.1" opacity="0.38"/>
-  <path d="M41,75 Q45,73 49,75 Q53,77 57,75" fill="none" stroke="#c9a962" stroke-width="0.9" opacity="0.22"/>
-  <path d="M44,80 Q47,78.5 50,80 Q53,81.5 56,80" fill="none" stroke="#c9a962" stroke-width="0.7" opacity="0.12"/>
+  <!-- Reflection: filled wavy shapes fading downward -->
+  <path d="M31,63 Q40,61 50,63 Q60,65 69,63 Q66,69 59,71 Q54,73 50,73 Q46,73 41,71 Q34,69 31,63 Z" fill="#c9a962" opacity="0.65"/>
+  <path d="M37,74 Q43,72 50,74 Q57,76 63,74 Q60,80 55,81 Q52,82 50,82 Q48,82 45,81 Q40,80 37,74 Z" fill="#c9a962" opacity="0.42"/>
+  <path d="M42,83 Q46,81 50,83 Q54,85 58,83 Q55,88 50,89 Q45,88 42,83 Z" fill="#c9a962" opacity="0.22"/>
+  <ellipse cx="50" cy="91" rx="2.5" ry="1.5" fill="#c9a962" opacity="0.1"/>
 </svg>
