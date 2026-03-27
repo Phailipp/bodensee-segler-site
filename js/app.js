@@ -122,10 +122,10 @@ function applyLakeBranding() {
     const heroPositions = {
       'bodensee': 'center 45%',
       'genfersee': 'center 50%',
-      'lago-maggiore': 'center 45%',
+      'lago-maggiore': 'center 50%',
       'thunersee': 'center 40%',
-      'vierwaldstaettersee': 'center 30%',
-      'zuerichsee': 'center 60%',
+      'vierwaldstaettersee': 'center 50%',
+      'zuerichsee': 'center 50%',
       'zugersee': 'center 55%'
     };
     const pos = heroPositions[lakeId] || 'center 50%';
