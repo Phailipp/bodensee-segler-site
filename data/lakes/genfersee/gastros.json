@@ -149,23 +149,6 @@
     "lastVerified": "2026-03-27"
   },
   {
-    "id": "restaurant_du_port_thonon",
-    "name": "Brasserie du Port",
-    "country": "FR",
-    "location": "Thonon-les-Bains, Hafen",
-    "lat": 46.3708,
-    "lng": 6.4814,
-    "price": "€€",
-    "features": [
-      "Französische Küche",
-      "Hafenterrasse",
-      "Direkt am Hafen"
-    ],
-    "url": "https://www.thonon-les-bains.fr/cadre-de-vie/port-de-plaisance/",
-    "source": "Ville de Thonon-les-Bains – Port de plaisance",
-    "lastVerified": "2026-03-27"
-  },
-  {
     "id": "hotel_du_port_rolle",
     "name": "Le Resto Rolle",
     "country": "CH",
@@ -183,22 +166,6 @@
     "lastVerified": "2026-03-23"
   },
   {
-    "id": "evian_restaurant_port",
-    "name": "Café du Port Évian",
-    "country": "FR",
-    "location": "Évian-les-Bains, Hafen",
-    "lat": 46.4025,
-    "lng": 6.6048,
-    "price": "€€",
-    "features": [
-      "Französische Küche",
-      "Direkt am Hafen"
-    ],
-    "url": "https://ville-evian.fr/",
-    "source": "https://ville-evian.fr/",
-    "lastVerified": "2026-03-23"
-  },
-  {
     "id": "auberge_onde_stsaphorin",
     "name": "Auberge de l'Onde",
     "country": "CH",
@@ -213,23 +180,6 @@
     ],
     "url": "https://www.aubergedelonde.ch/",
     "source": "https://www.aubergedelonde.ch/",
-    "lastVerified": "2026-03-27"
-  },
-  {
-    "id": "restaurant_port_coppet",
-    "name": "Restaurant du Port de Coppet",
-    "country": "CH",
-    "location": "Coppet, Hafen",
-    "lat": 46.313,
-    "lng": 6.194,
-    "price": "€€",
-    "features": [
-      "Französisch-Schweizer Küche",
-      "Hafenterrasse",
-      "Direkt am See"
-    ],
-    "url": "https://www.coppet-tourisme.ch/",
-    "source": "Coppet Tourisme",
     "lastVerified": "2026-03-27"
   }
 ]

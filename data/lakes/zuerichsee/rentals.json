@@ -138,24 +138,5 @@
     "url": "https://www.segelschule-zuerichsee.ch/",
     "source": "https://www.segelschule-zuerichsee.ch/",
     "lastVerified": "2026-03-27"
-  },
-  {
-    "id": "bootsvermietung_staefa",
-    "name": "Bootsvermietung Stäfa",
-    "country": "CH",
-    "location": "Stäfa",
-    "lat": 47.242,
-    "lng": 8.726,
-    "fleetSize": 5,
-    "priceFrom": "ab CHF 30/Std",
-    "features": [
-      "Motorboote",
-      "Elektrische Boote",
-      "SUP",
-      "Führerscheinfrei"
-    ],
-    "url": "https://www.staefa.ch/",
-    "source": "Gemeinde Stäfa Tourismus",
-    "lastVerified": "2026-03-27"
   }
 ]
