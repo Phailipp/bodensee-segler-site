@@ -113,5 +113,40 @@
     "holding": "",
     "swell": "",
     "restrictions": "Fahrrinne freihalten. 25m Abstand zu Schilfzonen. Kurzankern bevorzugt."
+  },
+  {
+    "id": "zs_meilen_bucht",
+    "name": "Bucht vor Meilen",
+    "country": "CH",
+    "region": "Meilen, Zürichsee Ostufer",
+    "lat": 47.271,
+    "lng": 8.6448,
+    "depthMinM": 4,
+    "depthMaxM": 10,
+    "ground": "Schlamm",
+    "protection": "W",
+    "overnight": false,
+    "notes": "Beliebter Tagesanker gegenüber Herrliberg am Ostufer. Ruhig bei Westwind, bei Föhn ungemütlich. 25m Abstand zu Schilfzonen einhalten.",
+    "url": "https://www.skipperguide.de/wiki/Z%C3%BCrichsee",
+    "source": "SkipperGuide – Zürichsee",
+    "lastVerified": "2026-03-27",
+    "restrictions": "Schilfzonen und Naturschutzgebiete beachten."
+  },
+  {
+    "id": "zs_staefa_bucht",
+    "name": "Bucht vor Stäfa",
+    "country": "CH",
+    "region": "Stäfa, Zürichsee Ostufer",
+    "lat": 47.2415,
+    "lng": 8.7263,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Schlamm/Sand",
+    "protection": "W/NW",
+    "overnight": false,
+    "notes": "Ruhiger Ankerplatz am Ostufer vor Stäfa. Weniger frequentiert als die Inseln. Gut erreichbar von Rapperswil oder Zürich.",
+    "url": "https://www.skipperguide.de/wiki/Z%C3%BCrichsee",
+    "source": "SkipperGuide – Zürichsee",
+    "lastVerified": "2026-03-27"
   }
 ]

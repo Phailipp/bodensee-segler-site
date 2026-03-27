@@ -100,5 +100,42 @@
     "phone": "+41 79 789 57 32",
     "email": "",
     "hours": "Saison (Mai–Oktober)"
+  },
+  {
+    "id": "marina_beatus_charter",
+    "name": "Marina Beatus Charter",
+    "country": "CH",
+    "location": "Merligen / Beatushöhlen",
+    "lat": 46.6677,
+    "lng": 7.7189,
+    "fleetSize": 5,
+    "priceFrom": "ab CHF 180/halber Tag",
+    "features": [
+      "Motorboote",
+      "Segelboote",
+      "Skippercharter"
+    ],
+    "url": "https://www.beatus.ch/",
+    "source": "https://www.beatus.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "spiez_watersports",
+    "name": "Spiez Watersports",
+    "country": "CH",
+    "location": "Spiez, Hafen",
+    "lat": 46.6961,
+    "lng": 7.6779,
+    "fleetSize": 8,
+    "priceFrom": "ab CHF 30/Std",
+    "features": [
+      "SUP",
+      "Kajak",
+      "Elektromotorboote",
+      "Führerscheinfrei"
+    ],
+    "url": "https://www.spiez.ch/",
+    "source": "Spiez Tourismus",
+    "lastVerified": "2026-03-27"
   }
 ]
