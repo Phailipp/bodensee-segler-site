@@ -683,6 +683,54 @@ footer { padding: 80px 48px; text-align: center; border-top: 1px solid rgba(255,
 }
 .modal-claim a:hover { opacity: 1; }
 
+.modal-photos {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin-bottom: 16px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.modal-photos img {
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+.modal-video {
+  margin: 16px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 16/9;
+}
+.modal-video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.modal-contact-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  background: rgba(201,169,98,0.08);
+  border: 1px solid rgba(201,169,98,0.25);
+  border-radius: 8px;
+}
+.modal-contact-block span {
+  font-size: 0.875rem;
+  color: rgba(255,255,255,0.9);
+}
+.modal-contact-block a {
+  color: var(--gold);
+  text-decoration: none;
+}
+.modal-contact-block a:hover { text-decoration: underline; }
+
 .nav-premium {
   color: var(--gold) !important;
   font-weight: 600;
