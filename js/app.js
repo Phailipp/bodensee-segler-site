@@ -2034,3 +2034,12 @@ main().catch(err => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 })();
+
+// Logo-Title als Zurück-nach-oben-Button
+(function() {
+  const logoTitle = document.querySelector('.logo-title');
+  if (!logoTitle) return;
+  logoTitle.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
