@@ -313,10 +313,13 @@
       "Motorboote",
       "Tretboote"
     ],
-    "url": "https://bootsvermietung-friedrichshafen.de/",
-    "source": "https://bootsvermietung-friedrichshafen.de/",
-    "lastVerified": "2026-03-23",
-    "phone": "+497532446372"
+    "url": "",
+    "source": "",
+    "lastVerified": "",
+    "phone": "+497532446372",
+    "candidateUrl": "https://bootsvermietung-friedrichshafen.de/",
+    "candidateFoundAt": "2026-03-23",
+    "candidateSource": "OSM node 8673029452 – URL gehört zu anderem Betrieb in Friedrichshafen, nicht zu Hagnau"
   },
   {
     "id": "osm-node-8889638963-la-canoa",

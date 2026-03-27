@@ -3,14 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bodensee Segler</title>
-  <meta name="description" content="Kuratiert und klar: Häfen, Ankerplätze, Vermietung, Gastro und Service am Bodensee. Interaktive Karte, Filter und Detailinfos." />
-  <meta property="og:title" content="Bodensee Segler" />
-  <meta property="og:description" content="Kuratiert und klar: Häfen, Ankerplätze, Vermietung, Gastro und Service am Bodensee." />
+  <title>Bodensee Segler | Häfen, Ankerplätze & Bootsvermietung</title>
+  <meta name="description" content="Kuratiert und klar: Häfen, Ankerplätze, Bootsvermietung, Gastro und Service am Bodensee. Interaktive Karte mit verifizierten Daten für Segler und Motorbootfahrer." />
+  <meta name="keywords" content="Bodensee Häfen, Ankerplätze Bodensee, Bootsvermietung Bodensee, Segeln Bodensee, Bodensee Segler, Yachthäfen Bodensee, Charter Bodensee" />
+  <link rel="canonical" href="https://phailipp.github.io/bodensee-segler-site/" id="canonicalUrl" />
+  <link rel="alternate" hreflang="de" href="https://phailipp.github.io/bodensee-segler-site/" />
+  <link rel="alternate" hreflang="en" href="https://phailipp.github.io/bodensee-segler-site/?lang=en" />
+  <link rel="alternate" hreflang="x-default" href="https://phailipp.github.io/bodensee-segler-site/" />
+  <meta property="og:title" content="Bodensee Segler | Häfen, Ankerplätze & Bootsvermietung" />
+  <meta property="og:description" content="Kuratiert und klar: Häfen, Ankerplätze, Bootsvermietung, Gastro und Service am Bodensee. Interaktive Karte mit verifizierten Daten." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://phailipp.github.io/bodensee-segler-site/" />
   <meta property="og:image" content="img/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bodensee Segler | Häfen, Ankerplätze & Bootsvermietung" />
+  <meta name="twitter:description" content="Kuratiert und klar: Häfen, Ankerplätze, Bootsvermietung, Gastro und Service am Bodensee." />
+  <meta name="twitter:image" content="img/og-image.png" />
 
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -26,19 +36,68 @@
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script src="https://unpkg.com/leaflet-gesture-handling"></script>
   <script defer data-domain="phailipp.github.io/bodensee-segler-site" src="https://plausible.io/js/script.js"></script>
-  <script type="application/ld+json">
+  <script type="application/ld+json" id="schemaOrgData">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Bodensee Segler",
-    "url": "https://phailipp.github.io/bodensee-segler-site/",
-    "description": "Kuratiert und klar: Häfen, Ankerplätze, Vermietung, Gastro und Service an Schweizer Seen. Interaktive Karte mit verifizierten Daten.",
-    "inLanguage": ["de", "en"],
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://phailipp.github.io/bodensee-segler-site/?lake={lake}#karte",
-      "query-input": "required name=lake"
-    }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://phailipp.github.io/bodensee-segler-site/#website",
+        "name": "Bodensee Segler",
+        "url": "https://phailipp.github.io/bodensee-segler-site/",
+        "description": "Kuratiert und klar: Häfen, Ankerplätze, Bootsvermietung, Gastro und Service am Bodensee und weiteren Alpenseen. Interaktive Karte mit verifizierten Daten.",
+        "inLanguage": ["de", "en"],
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://phailipp.github.io/bodensee-segler-site/?lake={lake}#karte",
+          "query-input": "required name=lake"
+        }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://phailipp.github.io/bodensee-segler-site/#app",
+        "name": "Bodensee Segler",
+        "applicationCategory": "TravelApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR"
+        },
+        "featureList": "Interaktive Karte, Häfen-Filter, Ankerplatz-Suche, Bootsvermietung, Gastronomie am Wasser"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://phailipp.github.io/bodensee-segler-site/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Darf man am Bodensee ankern?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, Ankern ist am Bodensee grundsätzlich erlaubt, jedoch gelten die Bodensee-Schifffahrtsordnung (BSO) und lokale Naturschutzbestimmungen. Maximale Ankerdauer beträgt in der Regel 24 Stunden. Naturschutzgebiete und Schilfzonen sind zu meiden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Welche Papiere brauche ich zum Segeln am Bodensee?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Für Segelboote bis 11,99 m Länge ist kein Führerschein vorgeschrieben. Ab 12 m Länge oder bei Motorbooten über 4,4 kW (6 PS) ist der Bodensee-Schifferpatent oder ein anerkannter Führerschein erforderlich."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wie viele Häfen gibt es am Bodensee?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Am Bodensee gibt es über 50 Yachthäfen und Marinas in Deutschland, Österreich und der Schweiz. Die größten liegen in Konstanz, Friedrichshafen, Bregenz, Lindau und Romanshorn."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>

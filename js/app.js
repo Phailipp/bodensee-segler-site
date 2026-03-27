@@ -104,17 +104,25 @@ function applyLakeBranding() {
   const lakeId = state.lakeId || 'bodensee';
 
   // Title + OG
-  const title = `${name} Segler`;
+  const title = `${name} Segler | Häfen, Ankerplätze & Bootsvermietung`;
   document.title = title;
   const ogTitle = document.querySelector('meta[property="og:title"]');
   if (ogTitle) ogTitle.setAttribute('content', title);
+  const twTitle = document.querySelector('meta[name="twitter:title"]');
+  if (twTitle) twTitle.setAttribute('content', title);
 
   // Description: keep template, swap lake name
-  const descTpl = `Kuratiert und klar: Häfen, Ankerplätze, Vermietung, Gastro und Service am ${name}. Interaktive Karte, Filter und Detailinfos.`;
+  const descTpl = `Kuratiert und klar: Häfen, Ankerplätze, Bootsvermietung, Gastro und Service am ${name}. Interaktive Karte mit verifizierten Daten für Segler und Motorbootfahrer.`;
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) metaDesc.setAttribute('content', descTpl);
   const ogDesc = document.querySelector('meta[property="og:description"]');
-  if (ogDesc) ogDesc.setAttribute('content', descTpl.replace('Interaktive Karte, Filter und Detailinfos.', ''));
+  if (ogDesc) ogDesc.setAttribute('content', descTpl);
+  const twDesc = document.querySelector('meta[name="twitter:description"]');
+  if (twDesc) twDesc.setAttribute('content', descTpl);
+
+  // Keywords meta
+  const keywords = document.querySelector('meta[name="keywords"]');
+  if (keywords) keywords.setAttribute('content', `${name} Häfen, Ankerplätze ${name}, Bootsvermietung ${name}, Segeln ${name}, ${name} Segler, Yachthäfen ${name}, Charter ${name}`);
 
   // Hero image per lake — set immediately, no flash
   const hero = document.querySelector('.hero');
@@ -142,6 +150,26 @@ function applyLakeBranding() {
   // Footer
   const footerLogo = document.querySelector('.footer-logo');
   if (footerLogo) footerLogo.innerHTML = `${escapeHtml(name)}<span>.</span>`;
+
+  // Update JSON-LD structured data
+  try {
+    const schemaEl = document.getElementById('schemaOrgData');
+    if (schemaEl) {
+      const schema = JSON.parse(schemaEl.textContent);
+      const baseUrl = 'https://phailipp.github.io/bodensee-segler-site/';
+      const lakeUrl = lakeId === 'bodensee' ? baseUrl : `${baseUrl}?lake=${lakeId}`;
+      const websiteNode = schema['@graph']?.find(n => n['@type'] === 'WebSite');
+      if (websiteNode) {
+        websiteNode.name = `${name} Segler`;
+        websiteNode.description = descTpl;
+      }
+      const appNode = schema['@graph']?.find(n => n['@type'] === 'WebApplication');
+      if (appNode) {
+        appNode.name = `${name} Segler`;
+      }
+      schemaEl.textContent = JSON.stringify(schema);
+    }
+  } catch {}
 }
 
 function renderLakeContent(content) {
