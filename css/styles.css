@@ -793,12 +793,26 @@ footer { padding: 80px 48px; padding-bottom: max(80px, calc(48px + env(safe-area
 }
 
 @media (max-width: 768px) {
-  nav {
-    padding: 14px 16px;
+  nav,
+  nav.scrolled {
+    padding: 10px 16px;
     padding-left: max(16px, env(safe-area-inset-left));
     padding-right: max(16px, env(safe-area-inset-right));
-    gap: 10px;
+    gap: 8px;
   }
+
+  /* Logo + lake selector side by side on mobile to keep nav single-row */
+  .logo-stack {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* Smaller logo icon on mobile */
+  .logo-anchor { width: 36px; height: 36px; }
+
+  /* Hide text in logo-title on mobile — lake-selector-btn already shows the lake name */
+  .logo-title span { display: none; }
 
   .menu-btn { display: inline-flex; }
 
@@ -806,7 +820,7 @@ footer { padding: 80px 48px; padding-bottom: max(80px, calc(48px + env(safe-area
   .nav-links {
     display: flex;
     position: fixed;
-    top: 70px;
+    top: 58px;
     left: 12px;
     right: 12px;
     flex-direction: column;
@@ -842,13 +856,14 @@ footer { padding: 80px 48px; padding-bottom: max(80px, calc(48px + env(safe-area
   /* Hero + map feel less "huge" on mobile */
   .hero { min-height: 560px; }
   .hero::before { height: 120px; }
-  .hero-compact { min-height: 260px; padding: 64px 0 28px; }
+  .hero-compact { min-height: 260px; padding: 80px 0 28px; }
   .hero p { margin-bottom: 22px; }
 
   .map-section { height: 70vh; min-height: 480px; }
 
-  /* Reduce section top/bottom padding on mobile */
-  section { padding: 56px 16px; }
+  /* Sections: scroll-margin so fixed nav doesn't cover heading on anchor jump */
+  section { padding: 64px 16px; scroll-margin-top: 62px; }
+  .quick-filters { scroll-margin-top: 62px; }
 
   .quick-filters { padding: 10px 16px; }
 
@@ -1028,7 +1043,7 @@ footer { padding: 80px 48px; padding-bottom: max(80px, calc(48px + env(safe-area
 
 
 @media (max-width: 900px) {
-  #karte { scroll-margin-top: 76px; }
+  #karte { scroll-margin-top: 62px; }
   .map-section .leaflet-top { top: 76px; }
 }
 
