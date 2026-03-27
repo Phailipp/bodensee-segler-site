@@ -14,6 +14,12 @@ button, a, input, select, label, [role="button"] { touch-action: manipulation; }
   --off-white: #f8f9fa;
   --text-light: rgba(255,255,255,0.7);
 
+  /* Map marker colors */
+  --marker-anchor: #4ade80;
+  --marker-rental: #f472b6;
+  --marker-gastro: #fb923c;
+  --marker-service: #60a5fa;
+
   /* Layering (avoid Safari/Leaflet stacking bugs) */
   --z-map: 0;
   --z-map-ui: 200;
@@ -478,6 +484,7 @@ section { padding: 80px 48px; }
 }
 
 .anchor-item:last-child { border-bottom: none; }
+@media (hover: hover) { .anchor-item:hover { background: rgba(12,25,41,0.04); margin: 0 -16px; padding-left: 16px; padding-right: 16px; border-radius: 4px; } }
 
 .anchor-name { font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 4px; color: var(--navy); }
 
@@ -542,17 +549,17 @@ section { padding: 80px 48px; }
 
 /* Newsletter Section */
 .newsletter-section {
-  background: linear-gradient(135deg, rgba(212,180,114,0.12) 0%, rgba(212,180,114,0.04) 100%);
-  border-top: 1px solid rgba(212,180,114,0.3);
-  border-bottom: 1px solid rgba(212,180,114,0.15);
+  background: linear-gradient(135deg, rgba(201,169,98,0.12) 0%, rgba(201,169,98,0.04) 100%);
+  border-top: 1px solid rgba(201,169,98,0.3);
+  border-bottom: 1px solid rgba(201,169,98,0.15);
   padding: 80px 48px;
   text-align: center;
 }
 .newsletter-inner { max-width: 520px; margin: 0 auto; }
 .newsletter-label {
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--gold);
   margin-bottom: 12px;
@@ -597,7 +604,7 @@ footer { padding: 48px 48px; padding-bottom: max(48px, calc(32px + env(safe-area
   cursor: pointer;
   white-space: nowrap;
 }
-.newsletter-form button:hover { background: #d4b472; }
+.newsletter-form button:hover { background: var(--gold-light); }
 .newsletter-note { color: var(--gold); font-size: 0.875rem; margin-top: 8px; }
 
 /* Map */
@@ -666,9 +673,10 @@ footer { padding: 48px 48px; padding-bottom: max(48px, calc(32px + env(safe-area
 }
 .legend-marker { width: 12px; height: 12px; border-radius: 50%; }
 .legend-marker.harbor { background: var(--gold); }
-.legend-marker.anchor { background: #4ade80; }
-.legend-marker.rental { background: #f472b6; }
-.legend-marker.gastro { background: #fb923c; }
+.legend-marker.anchor { background: var(--marker-anchor); }
+.legend-marker.rental { background: var(--marker-rental); }
+.legend-marker.gastro { background: var(--marker-gastro); }
+.legend-marker.service { background: var(--marker-service); }
 
 /* Modal */
 .modal-backdrop {
@@ -920,6 +928,7 @@ footer { padding: 48px 48px; padding-bottom: max(48px, calc(32px + env(safe-area
   .filter-input, .filter-select { min-height: 48px; font-size: 1rem; }
 
   .harbors-grid { grid-template-columns: 1fr; }
+  .service-grid { grid-template-columns: 1fr; }
 
   .anchor-item { grid-template-columns: 1fr; gap: 18px; }
   .anchor-meta { justify-content: flex-start; text-align: left; }

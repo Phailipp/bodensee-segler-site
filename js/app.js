@@ -574,7 +574,9 @@ function syncFilterInputsFromState() {
 }
 
 // Quick filter chips — Google Maps style category toggles
-const QF_COLORS = { harbors: 'var(--gold)', anchors: '#4ade80', gastros: '#fb923c', rentals: '#f472b6' };
+// Colors mirror the CSS variables defined in :root (--marker-*)
+function getCssVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+const QF_COLORS = { harbors: 'var(--gold)', anchors: 'var(--marker-anchor)', gastros: 'var(--marker-gastro)', rentals: 'var(--marker-rental)' };
 
 function buildQuickFilters() {
   const chips = [];
@@ -1801,9 +1803,9 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
   if (rentalGroup) { rentalGroup.addTo(state.map); state.markerClusters.rentals = rentalGroup; }
   if (gastroGroup) { gastroGroup.addTo(state.map); state.markerClusters.gastros = gastroGroup; }
 
-  const anchorIcon = makeIcon('#4ade80', 14);
-  const rentalIcon = makeIcon('#f472b6', 14);
-  const gastroIcon = makeIcon('#fb923c', 14);
+  const anchorIcon = makeIcon(getCssVar('--marker-anchor'), 14);
+  const rentalIcon = makeIcon(getCssVar('--marker-rental'), 14);
+  const gastroIcon = makeIcon(getCssVar('--marker-gastro'), 14);
 
   harbors.forEach(h => {
     const popup = `
