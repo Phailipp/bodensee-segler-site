@@ -492,6 +492,30 @@ section { padding: 80px 48px; }
 .anchor-meta .stat-label { color: var(--navy-light); }
 
 /* Service */
+/* Service type chip filter */
+.service-type-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto 28px;
+  padding: 0 24px;
+}
+.service-chip {
+  padding: 8px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(201,169,98,0.35);
+  background: rgba(201,169,98,0.08);
+  font-size: 0.8125rem;
+  color: var(--gold-light);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  font-family: inherit;
+}
+.service-chip:hover { border-color: var(--gold); color: var(--gold); background: rgba(201,169,98,0.14); }
+.service-chip.active { background: var(--gold); color: var(--navy); border-color: var(--gold); font-weight: 600; }
+
 .service-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

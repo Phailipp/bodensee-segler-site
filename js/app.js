@@ -570,9 +570,7 @@ function syncFilterInputsFromState() {
   const gBerthing = $('#gastroWithBerthing');
   if (gBerthing) gBerthing.checked = state.filtersGastros.withBerthing;
 
-  // Services
-  const stype = $('#serviceType');
-  if (stype) stype.value = state.filtersServices.type;
+  // Services – chips re-rendered by updateServiceTypeOptions()
 }
 
 // Quick filter chips — Google Maps style category toggles
@@ -722,16 +720,23 @@ function initQuickFilters() {
 }
 
 function updateServiceTypeOptions() {
-  const stype = $('#serviceType');
-  if (!stype) return;
+  const row = $('#serviceTypeChips');
+  if (!row) return;
   const allLabel = t('filter.any') || 'Alle';
   const types = [...new Set(state.data.services.map(s => s.type).filter(Boolean))].sort();
-  const typeLabels = { fuel: t('service.type.fuel') || 'Tankstelle', crane: t('service.type.crane') || 'Kran', slip: t('service.type.slip') || 'Slip', repair: t('service.type.repair') || 'Werft' };
-  const currentVal = state.filtersServices.type;
-  const validVal = types.includes(currentVal) ? currentVal : 'ALL';
-  stype.innerHTML = `<option value="ALL">${escapeHtml(allLabel)}</option>` +
-    types.map(tp => `<option value="${escapeHtml(tp)}">${escapeHtml(typeLabels[tp] || tp)}</option>`).join('');
-  stype.value = validVal;
+  const typeLabels = {
+    fuel: t('service.type.fuel') || 'Tankstelle',
+    crane: t('service.type.crane') || 'Kran',
+    slip: t('service.type.slip') || 'Slip',
+    repair: t('service.type.repair') || 'Werft',
+    yard: t('service.type.yard') || 'Werft'
+  };
+  const current = types.includes(state.filtersServices.type) ? state.filtersServices.type : 'ALL';
+  if (current !== state.filtersServices.type) state.filtersServices.type = 'ALL';
+  const chips = [{ val: 'ALL', label: allLabel }, ...types.map(tp => ({ val: tp, label: typeLabels[tp] || tp }))];
+  row.innerHTML = chips.map(c =>
+    `<button class="service-chip${c.val === current ? ' active' : ''}" data-val="${escapeHtml(c.val)}">${escapeHtml(c.label)}</button>`
+  ).join('');
 }
 
 function updateCountryOptions() {
@@ -815,11 +820,14 @@ function setUpFilterBars() {
   if (gq) gq.addEventListener('input', onGastroChange);
   if (gBerthing) gBerthing.addEventListener('change', onGastroChange);
 
-  // Services
-  const stype = $('#serviceType');
-  if (stype) {
-    stype.addEventListener('change', () => {
-      state.filtersServices.type = stype.value;
+  // Services – chip-based type filter
+  const chipRow = $('#serviceTypeChips');
+  if (chipRow) {
+    chipRow.addEventListener('click', e => {
+      const chip = e.target.closest('.service-chip');
+      if (!chip) return;
+      state.filtersServices.type = chip.dataset.val;
+      updateServiceTypeOptions();
       renderAll();
     });
   }
@@ -1061,6 +1069,7 @@ function renderAll() {
 
   updateChipsForHarbors();
   updateChipsForAnchors();
+  updateServiceTypeOptions();
 
   wireCardClicks();
 
