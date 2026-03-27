@@ -4,9 +4,33 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Premium-Eintrag – Bodensee Segler</title>
-  <meta name="description" content="Ihr Hafen, Ihre Bootsvermietung oder Ihr Restaurant auf der Bodensee-Segler-Karte. Premium-Eintrag mit erweiterten Details." />
+  <meta name="description" content="Ihr Hafen, Ihre Bootsvermietung oder Ihr Restaurant auf der Segler-Karte. Premium-Eintrag mit erweiterten Details, Fotos und Top-Platzierung." />
   <link rel="stylesheet" href="./css/styles.css" />
   <link rel="canonical" href="https://phailipp.github.io/bodensee-segler-site/premium.html" />
+  <style>
+    .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin: 40px 0; }
+    .pricing-card { padding: 32px 24px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.03); display: flex; flex-direction: column; }
+    .pricing-card.featured { border-color: var(--gold); background: rgba(201,169,98,0.06); position: relative; }
+    .pricing-card.featured::after { content: 'Beliebt'; position: absolute; top: -12px; right: 24px; background: var(--gold); color: var(--navy); font-size: 0.75rem; font-weight: 700; padding: 4px 12px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .pricing-name { font-size: 1.25rem; font-weight: 700; color: var(--white); margin-bottom: 4px; }
+    .pricing-for { font-size: 0.8125rem; color: rgba(255,255,255,0.5); margin-bottom: 16px; }
+    .pricing-price { font-size: 2rem; font-weight: 700; color: var(--gold); margin-bottom: 4px; }
+    .pricing-price span { font-size: 0.875rem; font-weight: 400; color: rgba(255,255,255,0.5); }
+    .pricing-period { font-size: 0.8125rem; color: rgba(255,255,255,0.4); margin-bottom: 24px; }
+    .pricing-features { list-style: none; margin: 0; padding: 0; flex: 1; }
+    .pricing-features li { padding: 8px 0; font-size: 0.875rem; color: rgba(255,255,255,0.8); border-bottom: 1px solid rgba(255,255,255,0.05); display: flex; gap: 8px; align-items: baseline; }
+    .pricing-features li::before { content: '✓'; color: var(--gold); font-weight: 700; flex-shrink: 0; }
+    .pricing-cta { display: block; text-align: center; margin-top: 24px; padding: 14px; border-radius: 8px; font-weight: 600; text-decoration: none; font-size: 0.9375rem; transition: background 0.15s, color 0.15s; }
+    .pricing-cta.primary { background: var(--gold); color: var(--navy); }
+    .pricing-cta.primary:hover { background: #d4b472; }
+    .pricing-cta.secondary { border: 1px solid rgba(201,169,98,0.4); color: var(--gold); }
+    .pricing-cta.secondary:hover { background: rgba(201,169,98,0.1); }
+    .how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; margin: 32px 0; }
+    .how-step { text-align: center; }
+    .how-num { width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--gold); color: var(--gold); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; margin-bottom: 12px; }
+    .how-step h3 { color: var(--white); font-size: 1rem; margin-bottom: 6px; }
+    .how-step p { color: rgba(255,255,255,0.6); font-size: 0.875rem; }
+  </style>
 </head>
 <body>
   <nav class="scrolled">
@@ -19,70 +43,97 @@
   <section class="guide-section" style="padding-top:120px">
     <div class="section-header">
       <div class="section-label">FÜR BETREIBER</div>
-      <h1 class="section-title">Premium-Eintrag</h1>
-      <p class="section-subtitle">Ihr Hafen, Ihre Vermietung oder Ihr Restaurant – prominent auf der Karte.</p>
+      <h1 class="section-title">Ihr Eintrag. Sichtbar für jeden Segler.</h1>
+      <p class="section-subtitle">Hunderte Segler nutzen die Karte, um Häfen, Vermietungen und Restaurants zu finden. Zeigen Sie, was Ihr Betrieb bietet.</p>
     </div>
 
-    <div class="prose" style="max-width:900px;margin:0 auto">
+    <div style="max-width:960px;margin:0 auto;padding:0 24px">
 
-      <h2>Warum Premium?</h2>
-      <p>Bodensee Segler zeigt Seglern kuratierte, verifizierte Daten auf einer interaktiven Karte. Ein Premium-Eintrag hebt Ihren Betrieb hervor und liefert potenziellen Gästen alle Infos auf einen Blick.</p>
+      <!-- Pricing -->
+      <div class="pricing-grid">
 
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;margin:32px 0">
-        <div style="padding:24px;border:1px solid rgba(201,169,98,0.3);border-radius:8px;background:rgba(0,0,0,0.2)">
-          <h3 style="color:var(--gold);margin-bottom:8px">Gratis-Eintrag</h3>
-          <p style="color:rgba(255,255,255,0.7);font-size:0.9rem">Name, Position auf der Karte, Basis-Infos (Liegeplätze, Tiefgang). Für immer kostenlos.</p>
-        </div>
-        <div style="padding:24px;border:1px solid var(--gold);border-radius:8px;background:rgba(201,169,98,0.08)">
-          <h3 style="color:var(--gold);margin-bottom:8px">Premium-Eintrag</h3>
-          <ul style="color:rgba(255,255,255,0.8);font-size:0.9rem;margin-left:16px">
-            <li>Gold-Hervorhebung auf Karte und in Listen</li>
-            <li>Erweiterte Details: Öffnungszeiten, Preise, Kontakt</li>
+        <div class="pricing-card">
+          <div class="pricing-name">Plus</div>
+          <div class="pricing-for">Für Betriebe, die gefunden werden wollen</div>
+          <div class="pricing-price">CHF 29 <span>/Monat</span></div>
+          <div class="pricing-period">CHF 290/Jahr (2 Monate gratis)</div>
+          <ul class="pricing-features">
+            <li>Gold-Hervorhebung auf Karte und Listen</li>
+            <li>Fotos (bis 5 Bilder)</li>
+            <li>Kontaktdaten prominent sichtbar</li>
             <li>Direkt-Link zu Ihrer Website</li>
-            <li>Buchungsbutton (optional)</li>
-            <li>Eigene Detailseite mit SEO</li>
+            <li>Öffnungszeiten und Preisangaben</li>
+            <li>Premium-Badge für Vertrauen</li>
           </ul>
+          <a class="pricing-cta secondary" href="mailto:premium@bodensee-segler.ch?subject=Plus-Eintrag%20Anfrage">Anfragen</a>
+        </div>
+
+        <div class="pricing-card featured">
+          <div class="pricing-name">Premium</div>
+          <div class="pricing-for">Für Betriebe, die herausstechen wollen</div>
+          <div class="pricing-price">CHF 69 <span>/Monat</span></div>
+          <div class="pricing-period">CHF 690/Jahr (2 Monate gratis)</div>
+          <ul class="pricing-features">
+            <li>Alles aus Plus</li>
+            <li>Top-Platzierung in der Kategorie</li>
+            <li>Grösserer, auffälliger Karten-Pin</li>
+            <li>Buchungsbutton für Direktbuchungen</li>
+            <li>Monatliche Aufruf-Statistik</li>
+            <li>Keine Werbung auf Ihrem Eintrag</li>
+          </ul>
+          <a class="pricing-cta primary" href="mailto:premium@bodensee-segler.ch?subject=Premium-Eintrag%20Anfrage">Jetzt anfragen</a>
+        </div>
+
+        <div class="pricing-card">
+          <div class="pricing-name">Exklusiv</div>
+          <div class="pricing-for">Für den führenden Betrieb am See</div>
+          <div class="pricing-price">CHF 149 <span>/Monat</span></div>
+          <div class="pricing-period">CHF 1'490/Jahr (2 Monate gratis)</div>
+          <ul class="pricing-features">
+            <li>Alles aus Premium</li>
+            <li>Feature auf der Startseite</li>
+            <li>Sichtbarkeit über alle Seen hinweg</li>
+            <li>Eigene Detailseite mit SEO</li>
+            <li>Video-Einbindung (virtueller Rundgang)</li>
+            <li>Prioritäts-Support, persönlicher Ansprechpartner</li>
+          </ul>
+          <a class="pricing-cta secondary" href="mailto:premium@bodensee-segler.ch?subject=Exklusiv-Eintrag%20Anfrage">Kontakt aufnehmen</a>
+        </div>
+
+      </div>
+
+      <!-- How it works -->
+      <h2 style="text-align:center;margin-top:64px;color:var(--white)">So funktioniert's</h2>
+      <div class="how-grid">
+        <div class="how-step">
+          <div class="how-num">1</div>
+          <h3>Anfragen</h3>
+          <p>Schreiben Sie uns mit Ihrem Betriebsnamen und See. Kein Papierkram.</p>
+        </div>
+        <div class="how-step">
+          <div class="how-num">2</div>
+          <h3>Eintrag einrichten</h3>
+          <p>Wir richten Ihren erweiterten Eintrag ein — mit Ihren Fotos, Texten und Kontaktdaten.</p>
+        </div>
+        <div class="how-step">
+          <div class="how-num">3</div>
+          <h3>Sichtbar sein</h3>
+          <p>Ihr Betrieb wird von Seglern gefunden, die aktiv nach Häfen und Services suchen.</p>
         </div>
       </div>
 
-      <h2>Was kostet es?</h2>
-      <table style="width:100%;border-collapse:collapse;margin:16px 0">
-        <thead>
-          <tr style="border-bottom:1px solid rgba(255,255,255,0.2)">
-            <th style="text-align:left;padding:12px 0;color:var(--gold)">Kategorie</th>
-            <th style="text-align:right;padding:12px 0;color:var(--gold)">Pro Jahr</th>
-          </tr>
-        </thead>
-        <tbody style="color:rgba(255,255,255,0.8)">
-          <tr style="border-bottom:1px solid rgba(255,255,255,0.08)">
-            <td style="padding:12px 0">Hafen / Marina</td>
-            <td style="text-align:right;padding:12px 0">CHF 120.–</td>
-          </tr>
-          <tr style="border-bottom:1px solid rgba(255,255,255,0.08)">
-            <td style="padding:12px 0">Bootsvermietung</td>
-            <td style="text-align:right;padding:12px 0">CHF 90.–</td>
-          </tr>
-          <tr style="border-bottom:1px solid rgba(255,255,255,0.08)">
-            <td style="padding:12px 0">Restaurant / Gastro</td>
-            <td style="text-align:right;padding:12px 0">CHF 60.–</td>
-          </tr>
-          <tr>
-            <td style="padding:12px 0">Werft / Service</td>
-            <td style="text-align:right;padding:12px 0">CHF 90.–</td>
-          </tr>
-        </tbody>
-      </table>
+      <!-- Trust -->
+      <div style="margin:64px 0 32px;padding:32px;border:1px solid rgba(255,255,255,0.08);border-radius:12px;text-align:center">
+        <p style="color:rgba(255,255,255,0.6);font-size:0.9375rem;max-width:600px;margin:0 auto">Noch unsicher? Jeder Gratis-Eintrag bleibt für immer kostenlos. Premium ist für Betriebe, die aktiv Segler ansprechen wollen — keine Pflicht, kein Lock-in.</p>
+      </div>
 
-      <h2>Interesse?</h2>
-      <p>Schreiben Sie uns eine kurze Mail mit Ihrem Betriebsnamen und See. Wir melden uns innerhalb von 48 Stunden.</p>
-
-      <p style="margin:24px 0">
+      <p style="text-align:center;margin:32px 0">
         <a class="hero-cta" href="mailto:premium@bodensee-segler.ch?subject=Premium-Eintrag%20Anfrage">Mail schreiben</a>
       </p>
 
-      <p style="color:rgba(255,255,255,0.5);font-size:0.85rem">Oder via GitHub Issue: <a href="https://github.com/Phailipp/bodensee-segler-site/issues/new?title=Premium-Eintrag%20Anfrage&body=Betrieb:%20%0ASee:%20%0AWebsite:%20" target="_blank" rel="noreferrer" style="color:var(--gold)">Issue erstellen</a></p>
+      <p style="text-align:center;color:rgba(255,255,255,0.4);font-size:0.8125rem">Oder via <a href="https://github.com/Phailipp/bodensee-segler-site/issues/new?title=Premium-Eintrag%20Anfrage&body=Betrieb:%20%0ASee:%20%0AWebsite:%20" target="_blank" rel="noreferrer" style="color:var(--gold)">GitHub Issue</a></p>
 
-      <p style="margin-top:32px"><a class="action-btn" href="./">Zurück zur Karte</a></p>
+      <p style="text-align:center;margin-top:32px"><a class="action-btn" href="./" style="text-decoration:none">Zurück zur Karte</a></p>
     </div>
   </section>
 </body>
