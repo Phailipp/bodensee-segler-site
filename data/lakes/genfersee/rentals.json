@@ -140,5 +140,27 @@
     "url": "https://www.evian-nautic.com/",
     "source": "https://www.evian-nautic.com/",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "les_corsaires_geneve",
+    "name": "Les Corsaires",
+    "country": "CH",
+    "location": "Genève, Quai Gustave-Ador",
+    "lat": 46.207,
+    "lng": 6.158,
+    "fleetSize": 55,
+    "priceFrom": "ab CHF 40/Std",
+    "features": [
+      "Motorboote",
+      "Segelboote",
+      "Mit & ohne Führerschein",
+      "Elektrische Boote",
+      "Vereinsmitgliedschaft möglich"
+    ],
+    "url": "https://www.les-corsaires.ch/",
+    "source": "https://www.les-corsaires.ch/",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 22 735 43 00",
+    "hours": "Apr–Okt tägl."
   }
 ]
