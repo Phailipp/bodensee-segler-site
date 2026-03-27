@@ -40,7 +40,7 @@ Der komplette Git-Workflow ist automatisiert. So gehst du vor:
   - Bei groesseren Aenderungen: ALLE Eintraege des betroffenen Sees komplett validieren, nicht nur Stichprobe
 - Bounding Boxes (aus lakes.json bzw. bekannt):
   - Bodensee: lat 47.47-47.83, lng 8.93-9.76
-  - Genfersee: lat 46.30-46.55, lng 6.05-7.00
+  - Genfersee: lat 46.17-46.55, lng 6.05-7.00
   - Lago Maggiore: lat 45.86-46.26, lng 8.45-9.05
   - Thunersee: lat 46.62-46.76, lng 7.55-7.82
   - Vierwaldstaettersee: lat 46.86-47.20, lng 8.17-8.70

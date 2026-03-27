@@ -127,5 +127,33 @@
     "url": "https://www.segelmacher-zuerich.ch/",
     "source": "segelmacher-zuerich.ch",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "zs_werft_huber_horgen",
+    "name": "Bootswerft Huber GmbH",
+    "country": "CH",
+    "type": "yard",
+    "details": "Reparatur, Service & Winterlager seit 1974 · Swiss Quali-Werft · Aaweiherstrasse 4, 8810 Horgen",
+    "lat": 47.261,
+    "lng": 8.599,
+    "url": "https://www.bootswerft-huber.ch/",
+    "source": "https://www.bootswerft-huber.ch/",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 44 725 30 60",
+    "hours": "Mo–Fr 07:30–17:00"
+  },
+  {
+    "id": "zs_werft_faul_horgen",
+    "name": "Yachtwerft Faul AG",
+    "country": "CH",
+    "type": "yard",
+    "details": "Werft seit 1896 · Reparatur, Winterlager, Kran · Seestrasse 5, 8810 Horgen",
+    "lat": 47.257,
+    "lng": 8.597,
+    "url": "https://www.yachtwerft-faul.ch/",
+    "source": "https://www.yachtwerft-faul.ch/",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 44 727 90 00",
+    "hours": "Mo–Fr 07:30–17:00"
   }
 ]
