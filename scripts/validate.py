@@ -154,6 +154,42 @@ def _point_in_polygon(lat: float, lng: float, polygon: list[list[float]]) -> boo
     return inside
 
 
+def _dist_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
+    """Haversine-Abstand in km."""
+    import math
+    R = 6371.0
+    dlat = math.radians(lat2 - lat1)
+    dlng = math.radians(lng2 - lng1)
+    a = math.sin(dlat/2)**2 + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlng/2)**2
+    return R * 2 * math.asin(math.sqrt(a))
+
+
+def check_shore_proximity(entries: list[dict], lake: str, data_dir: Path,
+                          max_km: float = 1.5) -> list[str]:
+    """
+    Prüft ob Ufer-Einträge (Häfen, Gastros, Services, Rentals) nahe am Seeufer liegen.
+    Findet den nächsten Polygon-Vertex und prüft ob Abstand <= max_km.
+    """
+    polygon = _load_lake_polygon(lake, data_dir)
+    if polygon is None:
+        return []
+    errors = []
+    for it in entries:
+        lat = it.get("lat")
+        lng = it.get("lng")
+        if lat is None or lng is None:
+            continue
+        # Nächsten Polygon-Punkt finden
+        min_dist = min(_dist_km(lat, lng, v[1], v[0]) for v in polygon)
+        if min_dist > max_km:
+            eid = it.get("id", "?")
+            errors.append(
+                f"{eid}: {min_dist:.1f}km vom Seeufer entfernt "
+                f"(lat={lat} lng={lng}) – falscher Ort?"
+            )
+    return errors
+
+
 def check_water_local(entries: list[dict], lake: str, data_dir: Path) -> list[str]:
     """
     Prüft Koordinaten lokal gegen das GeoJSON-Polygon des Sees.
@@ -291,7 +327,13 @@ def validate_lake(lake: str, data_dir: Path, check_urls: bool, check_water: bool
             url_errors = check_urls_parallel(entries, f"{lake}/{ftype}")
             file_errors += url_errors
 
-        # Wasser-Check: nur für anchors (lokal via outline.geojson)
+        # Ufer-Nähe-Check für Häfen/Gastros/Services/Rentals (als Warnung)
+        if check_water and ftype != "anchors" and entries:
+            for msg in check_shore_proximity(entries, lake, data_dir):
+                warn(msg)
+                total_warnings += 1
+
+        # Wasser-Check: nur für anchors (Boote ankern im Wasser, nicht am Ufer)
         if check_water and ftype == "anchors" and entries:
             water_results = check_water_local(entries, lake, data_dir)
             for msg in water_results:
