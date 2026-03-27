@@ -109,5 +109,48 @@
     "url": "https://www.beatus.ch/",
     "source": "https://www.beatus.ch/",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "mietboot_gehri_faulensee",
+    "name": "Mietboot.ch – Motorbootvermietung",
+    "country": "CH",
+    "location": "Faulensee bei Spiez",
+    "lat": 46.679,
+    "lng": 7.653,
+    "fleetSize": 1,
+    "priceFrom": "ab CHF 210/Buchung",
+    "features": [
+      "Motorboot (Parker 660 Pilothouse)",
+      "Führerscheinpflichtig (Kat. A)",
+      "Wakeboarding & Wasserski",
+      "Heizbare Kajüte"
+    ],
+    "url": "https://mietboot.ch/",
+    "source": "mietboot.ch",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 79 310 23 40",
+    "hours": "Saison (ganzjährig bei Verfügbarkeit)"
+  },
+  {
+    "id": "absolut_outdoor_gwatt",
+    "name": "Absolut Outdoor & Events GmbH",
+    "country": "CH",
+    "location": "Gwatt bei Thun (Deltapark)",
+    "lat": 46.723,
+    "lng": 7.623,
+    "fleetSize": 20,
+    "priceFrom": "ab CHF 30/Std (SUP)",
+    "features": [
+      "SUP (Single, Tandem, Big SUP)",
+      "Kajak (1- & 2-Person)",
+      "Kanu & Ruderboot",
+      "Motorboote (führerscheinfrei)",
+      "One-Way-Miete möglich (Kanuweg)"
+    ],
+    "url": "https://www.absolutoutdoor.ch/",
+    "source": "absolutoutdoor.ch – Thunersee.ch",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 33 655 03 91",
+    "hours": "Juni–Oktober (Saisonstart Anfang Juni)"
   }
 ]

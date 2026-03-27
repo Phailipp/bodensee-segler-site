@@ -214,5 +214,72 @@
     "url": "https://www.seebad-zug.ch/",
     "source": "https://www.seebad-zug.ch/",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "restaurant_schiff_zug",
+    "name": "Restaurant Schiff",
+    "country": "CH",
+    "location": "Zug, Altstadt Seepromenade",
+    "lat": 47.166,
+    "lng": 8.515,
+    "price": "€€",
+    "berthing": "Bar Dock am See",
+    "features": [
+      "Direkt am See",
+      "Seeterrasse",
+      "Bar Dock",
+      "Zuger Fischgerichte",
+      "Historisches Gebäude"
+    ],
+    "url": "https://restaurant-schiff.ch/",
+    "source": "restaurant-schiff.ch",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 41 711 00 55",
+    "hours": "Di–Sa 11:30–14:00 & 17:30–24:00"
+  },
+  {
+    "id": "wildenmann_buonas",
+    "name": "Gasthaus Wildenmann",
+    "country": "CH",
+    "location": "Buonas (Risch), Zugersee Ostufer",
+    "lat": 47.1423,
+    "lng": 8.4566,
+    "price": "€€€",
+    "berthing": "Anlegesteg möglich",
+    "features": [
+      "Direkt am See",
+      "Seeterrasse mit Baumgarten",
+      "Fischgerichte (Zugersee-Felchen)",
+      "Michelin-gelistet",
+      "16 GaultMillau-Punkte",
+      "Seit 1708"
+    ],
+    "url": "https://www.wildenmann-buonas.ch/",
+    "source": "wildenmann-buonas.ch",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 41 790 30 60",
+    "hours": "Di–Sa 11:30–14:00 & 18:00–22:00; So–Mo Ruhetag"
+  },
+  {
+    "id": "zunfthaus_kreuz_oberwil",
+    "name": "Zunfthaus Kreuz",
+    "country": "CH",
+    "location": "Oberwil b. Zug, Zugersee",
+    "lat": 47.1494,
+    "lng": 8.5076,
+    "price": "€€",
+    "berthing": "Eigene Bootsanlegestelle",
+    "features": [
+      "Direkt am See",
+      "Grossterrasse (~300 Plätze)",
+      "Eigene Bootsanlegestelle",
+      "Hausgemachte Pasta & Grill",
+      "Live-Musik & Events"
+    ],
+    "url": "https://www.zunfthauskreuz.ch/",
+    "source": "zunfthauskreuz.ch – Zug Tourismus",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 41 662 00 00",
+    "hours": "Mi–Fr 11:30–14:00 & 17:30–21:30; Sa–So 11:30–15:00 & 17:30–21:00"
   }
 ]
