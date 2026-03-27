@@ -120,7 +120,7 @@ function applyLakeBranding() {
   const hero = document.querySelector('.hero');
   if (hero) {
     const heroPositions = {
-      'bodensee': 'center 45%',
+      'bodensee': 'center 50%',
       'genfersee': 'center 50%',
       'lago-maggiore': 'center 50%',
       'thunersee': 'center 40%',
