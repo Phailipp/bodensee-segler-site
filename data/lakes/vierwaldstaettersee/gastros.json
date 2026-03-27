@@ -184,23 +184,6 @@
     "lastVerified": "2026-03-27"
   },
   {
-    "id": "seerestaurant_stansstad",
-    "name": "Seerestaurant Stansstad",
-    "country": "CH",
-    "location": "Stansstad, Alpnachersee",
-    "lat": 46.9802,
-    "lng": 8.3365,
-    "price": "€€",
-    "features": [
-      "Regionale Küche",
-      "Seeterrasse",
-      "Direkt am See"
-    ],
-    "url": "https://www.stansstad.ch/",
-    "source": "Gemeinde Stansstad Tourismus",
-    "lastVerified": "2026-03-27"
-  },
-  {
     "id": "seegarten_weggis",
     "name": "Restaurant Seegarten",
     "country": "CH",

@@ -4,7 +4,7 @@
     "name": "Point65 Kajak & SUP",
     "country": "CH",
     "location": "Immensee (Schifflände)",
-    "lat": 47.100,
+    "lat": 47.1,
     "lng": 8.466,
     "fleetSize": 6,
     "priceFrom": "ab CHF 40/2h",
@@ -49,7 +49,7 @@
     "name": "Rentalboats Zugersee",
     "country": "CH",
     "location": "Zug",
-    "lat": 47.170,
+    "lat": 47.17,
     "lng": 8.515,
     "fleetSize": 8,
     "priceFrom": "ab CHF stundenweise",
@@ -109,41 +109,5 @@
     "phone": "",
     "email": "",
     "hours": "Saison"
-  },
-  {
-    "id": "elektroboot_cham",
-    "name": "Elektroboote Cham",
-    "country": "CH",
-    "location": "Cham, Zugersee Westufer",
-    "lat": 47.182,
-    "lng": 8.463,
-    "fleetSize": 4,
-    "priceFrom": "ab CHF 35/Std",
-    "features": [
-      "Elektrische Boote",
-      "Führerscheinfrei",
-      "Familien geeignet"
-    ],
-    "url": "https://www.cham.ch/",
-    "source": "Gemeinde Cham Tourismus",
-    "lastVerified": "2026-03-27"
-  },
-  {
-    "id": "kayak_arth",
-    "name": "Kajak & SUP Arth",
-    "country": "CH",
-    "location": "Arth, Zugersee Südufer",
-    "lat": 47.065,
-    "lng": 8.523,
-    "fleetSize": 6,
-    "priceFrom": "ab CHF 20/Std",
-    "features": [
-      "Kajak",
-      "SUP",
-      "Führerscheinfrei"
-    ],
-    "url": "https://schwyz-tourismus.ch/",
-    "source": "Schwyz Tourismus",
-    "lastVerified": "2026-03-27"
   }
 ]
