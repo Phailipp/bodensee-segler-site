@@ -198,22 +198,5 @@
     "url": "https://www.seehuette-maennedorf.ch/",
     "source": "https://www.seehuette-maennedorf.ch/",
     "lastVerified": "2026-03-27"
-  },
-  {
-    "id": "restaurant_uetikon",
-    "name": "Restaurant am See Uetikon",
-    "country": "CH",
-    "location": "Uetikon am See",
-    "lat": 47.263,
-    "lng": 8.715,
-    "price": "€€",
-    "features": [
-      "Schweizer Küche",
-      "Seeterrasse",
-      "Direkt am See"
-    ],
-    "url": "https://www.uetikon.ch/",
-    "source": "Gemeinde Uetikon am See",
-    "lastVerified": "2026-03-27"
   }
 ]
