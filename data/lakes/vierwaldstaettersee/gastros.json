@@ -216,5 +216,78 @@
     "url": "https://www.seegarten-weggis.ch/",
     "source": "https://www.seegarten-weggis.ch/",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "quai2_brunnen",
+    "name": "Restaurant Quai 2",
+    "country": "CH",
+    "location": "Brunnen",
+    "lat": 47.0007,
+    "lng": 8.6074,
+    "price": "€",
+    "features": [
+      "Café/Bar",
+      "Seeterrasse",
+      "Direkt am See",
+      "Take-away"
+    ],
+    "url": "https://quai2.ch/",
+    "source": "https://quai2.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "roessli_beckenried",
+    "name": "Hotel Restaurant Rössli",
+    "country": "CH",
+    "location": "Beckenried",
+    "lat": 46.9648,
+    "lng": 8.4785,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Seeterrasse",
+      "Direkt an Schiffstation"
+    ],
+    "url": "https://roessli-beckenried.ch/",
+    "source": "https://roessli-beckenried.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "seerausch_beckenried",
+    "name": "Hotel Restaurant Seerausch",
+    "country": "CH",
+    "location": "Beckenried",
+    "lat": 46.9644,
+    "lng": 8.4775,
+    "price": "€€-€€€",
+    "features": [
+      "Grill (Buchenholz-Showküche)",
+      "Seeterrasse",
+      "Direkt am See",
+      "Bootsverleih"
+    ],
+    "url": "https://www.seerausch.ch/",
+    "source": "https://www.seerausch.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "schwybogen_seelisberg",
+    "name": "Seerestaurant Schwybogen",
+    "country": "CH",
+    "location": "Seelisberg",
+    "lat": 46.9700,
+    "lng": 8.5840,
+    "price": "€€",
+    "features": [
+      "Fischrestaurant",
+      "Bootsanlegestelle",
+      "Gartenterrasse",
+      "Nur per Boot/Fussweg erreichbar",
+      "Fischerei seit ~300 Jahren"
+    ],
+    "url": "https://schwybogen.ch/",
+    "source": "https://schwybogen.ch/",
+    "lastVerified": "2026-03-27",
+    "hours": "Ende April bis Ende September"
   }
 ]

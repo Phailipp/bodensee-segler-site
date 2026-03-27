@@ -84,5 +84,46 @@
     "lastVerified": "2026-03-27",
     "phone": "+41 33 654 90 54",
     "hours": "Mo–Fr 07:30–17:00"
+  },
+  {
+    "id": "werft_tauscheck_gwatt",
+    "name": "Tauscheck Bootswerft GmbH",
+    "country": "CH",
+    "type": "yard",
+    "details": "Reparatur, Service & Winterlager · Bootsverkauf · Fahrschule · Eisenbahnstrasse 62, 3645 Gwatt",
+    "lat": 46.692,
+    "lng": 7.632,
+    "url": "https://tauscheck-bootswerft.ch/",
+    "source": "https://tauscheck-bootswerft.ch/",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 33 335 25 10",
+    "hours": "Mo–Fr 07:30–17:15"
+  },
+  {
+    "id": "werft_blickenstorfer_thun",
+    "name": "Blickenstorfer Boote und Bootsmotoren",
+    "country": "CH",
+    "type": "yard",
+    "details": "Motorenreparatur, Elektrische & Elektronische Installationen, Bootsverkauf · Sonnmattweg 8, 3604 Thun",
+    "lat": 46.743,
+    "lng": 7.635,
+    "url": "https://www.blickenstorfer.com/",
+    "source": "https://www.blickenstorfer.com/",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 33 336 03 66",
+    "hours": "Mo–Fr 08:00–11:45 & 13:15–17:30"
+  },
+  {
+    "id": "werft_schenk_thun",
+    "name": "Schenk Bootbau GmbH",
+    "country": "CH",
+    "type": "yard",
+    "details": "Motorservice, Elektrik/Elektronik, Reparatur & Winterlager · Honda Marine-Händler · Gwattstrasse 42, 3604 Thun",
+    "lat": 46.692,
+    "lng": 7.631,
+    "url": "https://www.schenk-bootbau.ch/",
+    "source": "https://www.schenk-bootbau.ch/",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 33 335 11 77"
   }
 ]
