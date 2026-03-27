@@ -49,5 +49,41 @@
     "url": "https://www.police.be.ch/content/dam/police/dokumente/police-be-ch/d/seepolizei/vorschriften_seepolizei_de.pdf",
     "source": "Seepolizei Bern – Vorschriften",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "thun_beatenbucht",
+    "name": "Vor Beatenbucht / St. Beatenberg",
+    "country": "CH",
+    "region": "Beatenberg / Merligen",
+    "lat": 46.7085,
+    "lng": 7.7233,
+    "depthMinM": 4,
+    "depthMaxM": 12,
+    "ground": "Schlamm",
+    "protection": "N/NW",
+    "overnight": false,
+    "notes": "Schöner Ankerplatz am Nordufer des Thunersees bei den Beatushöhlen. Beeindruckende Kulisse, Bergpanorama. Besuch der Beatushöhlen per Dinghy möglich.",
+    "url": "https://www.police.be.ch/content/dam/police/dokumente/police-be-ch/d/seepolizei/vorschriften_seepolizei_de.pdf",
+    "source": "Seepolizei Bern – Vorschriften",
+    "lastVerified": "2026-03-27",
+    "restrictions": "Max. 24h ohne Bewilligung. 25m Abstand zu Uferpflanzen."
+  },
+  {
+    "id": "thun_gwatt_einfahrt",
+    "name": "Vor Gwatt / Thun West",
+    "country": "CH",
+    "region": "Gwatt / Thun",
+    "lat": 46.7155,
+    "lng": 7.622,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Schlamm/Sand",
+    "protection": "E/SE",
+    "overnight": false,
+    "notes": "Ankerplatz am westlichen Ende des Thunersees vor Gwatt. Gut geschützt bei Ostwind. Fahrrinne zum Thunkanal freihalten.",
+    "url": "https://www.police.be.ch/content/dam/police/dokumente/police-be-ch/d/seepolizei/vorschriften_seepolizei_de.pdf",
+    "source": "Seepolizei Bern – Vorschriften",
+    "lastVerified": "2026-03-27",
+    "restrictions": "Fahrrinne Thunkanal freihalten. Max. 24h ohne Bewilligung."
   }
 ]

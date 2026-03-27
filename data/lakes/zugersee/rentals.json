@@ -67,5 +67,47 @@
     "phone": "",
     "email": "",
     "hours": "Saison"
+  },
+  {
+    "id": "segelschule_zugersee",
+    "name": "Segelschule Zugersee",
+    "country": "CH",
+    "location": "Zug",
+    "lat": 47.168,
+    "lng": 8.515,
+    "fleetSize": 12,
+    "priceFrom": "ab CHF 180/Tag",
+    "features": [
+      "Segelyachten",
+      "Segelkurse",
+      "Bootsführerschein"
+    ],
+    "url": "https://www.segelschule-zugersee.ch/",
+    "source": "https://www.segelschule-zugersee.ch/",
+    "lastVerified": "2026-03-27",
+    "phone": "",
+    "email": "",
+    "hours": "Saison Mai–Oktober"
+  },
+  {
+    "id": "war_boothandel_zug",
+    "name": "W.A.R. Bootbau & Bootshandel",
+    "country": "CH",
+    "location": "Zug, Landsgemeindeplatz",
+    "lat": 47.168,
+    "lng": 8.515,
+    "fleetSize": 5,
+    "priceFrom": "auf Anfrage",
+    "features": [
+      "Motorboote",
+      "Führerscheinfrei",
+      "Elektroboote"
+    ],
+    "url": "https://www.war.ch/",
+    "source": "https://www.war.ch/",
+    "lastVerified": "2026-03-27",
+    "phone": "",
+    "email": "",
+    "hours": "Saison"
   }
 ]

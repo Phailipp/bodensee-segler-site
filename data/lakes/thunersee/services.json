@@ -34,5 +34,41 @@
     "url": "https://www.spiez.com/en/activities/on-the-water",
     "source": "https://www.spiez.com/",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "tank_neuhaus",
+    "name": "Seetankstelle Neuhaus",
+    "country": "CH",
+    "type": "fuel",
+    "details": "Tankstelle für Motorboote am östlichen Ende des Thunersees · Bleifrei & Diesel · Saison Apr–Okt",
+    "lat": 46.677,
+    "lng": 7.808,
+    "url": "https://www.interlaken.ch/de/erleben/aktivitaeten/wassersport/motorbootfahren",
+    "source": "Interlaken Tourismus – Wassersport",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "kran_leissigen",
+    "name": "Kran Bootswerft Wilke Leissigen",
+    "country": "CH",
+    "type": "crane",
+    "details": "Kran für Ein-/Auswassern · Bootswerft Wilke AG · bei Hafen Leissigen",
+    "lat": 46.6557,
+    "lng": 7.7695,
+    "url": "https://www.leissigen.ch/freizeit/bootshafen",
+    "source": "Gemeinde Leissigen – Bootshafen",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "slip_hilterfingen",
+    "name": "Slipanlage Hilterfingen",
+    "country": "CH",
+    "type": "slip",
+    "details": "Sliprampe bei Hafen Hünegg · saisonal · Voranmeldung empfohlen",
+    "lat": 46.7368,
+    "lng": 7.6552,
+    "url": "https://www.hilterfingen.ch/verwaltung/bauverwaltung/liegenschaften/bootsplaetze/",
+    "source": "Gemeinde Hilterfingen",
+    "lastVerified": "2026-03-27"
   }
 ]

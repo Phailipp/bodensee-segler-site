@@ -151,6 +151,12 @@ function applyLakeBranding() {
   const footerLogo = document.querySelector('.footer-logo');
   if (footerLogo) footerLogo.innerHTML = `${escapeHtml(name)}<span>.</span>`;
 
+  // Premium links: carry current lake as ?lake= param so premium.html knows where to go back
+  const premiumParam = lakeId === 'bodensee' ? './premium.html' : `./premium.html?lake=${lakeId}`;
+  document.querySelectorAll('a[href*="premium.html"]').forEach(a => {
+    a.href = premiumParam;
+  });
+
   // Update JSON-LD structured data
   try {
     const schemaEl = document.getElementById('schemaOrgData');
@@ -1221,8 +1227,9 @@ function openModal(type, item) {
   const issueUrl = `https://github.com/Phailipp/bodensee-segler-site/issues/new?title=${issueTitle}&body=${issueBody}`;
   actions.push(`<a class="action-btn" href="${issueUrl}" target="_blank" rel="noreferrer">${t('modal.actions.report')}</a>`);
 
+  const premiumHref = (state.lakeId && state.lakeId !== 'bodensee') ? `./premium.html?lake=${state.lakeId}` : './premium.html';
   const claimCTA = !item.premium
-    ? `<div class="modal-claim"><a href="./premium.html" target="_blank" rel="noreferrer">${t('modal.claim')}</a></div>`
+    ? `<div class="modal-claim"><a href="${premiumHref}" target="_blank" rel="noreferrer">${t('modal.claim')}</a></div>`
     : '';
 
   // Premium photo gallery
