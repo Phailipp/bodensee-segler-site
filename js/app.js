@@ -2078,3 +2078,24 @@ main().catch(err => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 })();
+
+// Newsletter form handler
+(function() {
+  const form = document.getElementById('newsletterForm');
+  const note = document.getElementById('newsletterNote');
+  if (!form || !note) return;
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const email = form.querySelector('input[name="email"]').value;
+    if (!email) return;
+    try {
+      await fetch(form.action, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ email, lake: state.lakeId || 'unknown' })
+      });
+    } catch {}
+    form.style.display = 'none';
+    note.style.display = '';
+  });
+})();

@@ -329,6 +329,15 @@
   </section>
 
   <footer>
+    <div class="footer-newsletter">
+      <h3 data-i18n="footer.newsletter.title">Saisonstart nicht verpassen</h3>
+      <p data-i18n="footer.newsletter.text">Neue Häfen, Ankerplätze und Tipps — einmal im Monat, kein Spam.</p>
+      <form class="newsletter-form" id="newsletterForm" action="https://formspree.io/f/newsletter" method="POST">
+        <input type="email" name="email" placeholder="name@example.com" required aria-label="E-Mail">
+        <button type="submit" data-i18n="footer.newsletter.btn">Eintragen</button>
+      </form>
+      <p class="newsletter-note" id="newsletterNote" style="display:none" data-i18n="footer.newsletter.thanks">Danke! Du hörst von uns.</p>
+    </div>
     <div class="footer-logo">Bodensee<span>.</span></div>
     <p class="footer-text" data-i18n="footer.disclaimer">Daten ohne Gewähr · Mit Liebe zum Segeln</p>
     <div class="footer-links">
