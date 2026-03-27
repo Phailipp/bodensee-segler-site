@@ -387,16 +387,20 @@
     <div id="faqContent"></div>
   </section>
 
-  <footer>
-    <div class="footer-newsletter">
-      <h3 data-i18n="footer.newsletter.title">Saisonstart nicht verpassen</h3>
-      <p data-i18n="footer.newsletter.text">Neue Häfen, Ankerplätze und Tipps — einmal im Monat, kein Spam.</p>
+  <section id="newsletter" class="newsletter-section">
+    <div class="newsletter-inner">
+      <div class="newsletter-label" data-i18n="newsletter.label">Immer aktuell</div>
+      <h2 class="newsletter-title" data-i18n="footer.newsletter.title">Saisonstart nicht verpassen</h2>
+      <p class="newsletter-sub" data-i18n="footer.newsletter.text">Neue Häfen, Ankerplätze und Tipps — einmal im Monat, kein Spam.</p>
       <form class="newsletter-form" id="newsletterForm" action="https://formspree.io/f/newsletter" method="POST">
         <input type="email" name="email" placeholder="name@example.com" required aria-label="E-Mail">
         <button type="submit" data-i18n="footer.newsletter.btn">Eintragen</button>
       </form>
       <p class="newsletter-note" id="newsletterNote" style="display:none" data-i18n="footer.newsletter.thanks">Danke! Du hörst von uns.</p>
     </div>
+  </section>
+
+  <footer>
     <div class="footer-logo">Bodensee<span>.</span></div>
     <p class="footer-text" data-i18n="footer.disclaimer">Daten ohne Gewähr · Mit Liebe zum Segeln</p>
     <div class="footer-links">
