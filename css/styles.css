@@ -153,6 +153,7 @@ nav.scrolled { background: rgba(12,25,41,0.95); backdrop-filter: blur(10px); pad
 
 .logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--white); text-decoration: none; }
 .logo span { color: var(--gold); }
+.logo #lakeLogo + span { letter-spacing: 0; margin-left: -0.05em; }
 .logo-title { display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
 .logo-anchor { width: 44px; height: 44px; flex-shrink: 0; }
 
@@ -568,7 +569,7 @@ section { padding: 80px 48px; }
 /* Footer */
 footer { padding: 48px 48px; padding-bottom: max(48px, calc(32px + env(safe-area-inset-bottom))); text-align: center; border-top: 1px solid rgba(255,255,255,0.1); }
 .footer-logo { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 16px; }
-.footer-logo span { color: var(--gold); }
+.footer-logo span { color: var(--gold); margin-left: -0.05em; }
 .footer-text { color: var(--text-light); font-size: 0.8125rem; }
 
 .footer-links { margin-top: 14px; display: flex; gap: 18px; justify-content: center; }
