@@ -506,9 +506,9 @@
     "lat": 46.5065151,
     "lng": 6.6236521,
     "candidatePhone": "+41 21 315 32 35",
-    "source": "Ports du Léman – Port d'Ouchy",
+    "source": "Ville de Lausanne – Port d'Ouchy",
     "lastVerified": "2026-03-27",
-    "url": "https://ports-du-leman.ch/port/ouchy",
+    "url": "https://www.lausanne.ch/vie-pratique/economie-et-commerces/ports-et-rives-du-lac/infrastructures-portuaires/port-ouchy-et-vieux-port-ouchy.html",
     "berths": 500,
     "guestBerths": 15,
     "maxDraftM": 2.5,
@@ -660,7 +660,7 @@
     "lat": 46.3965312,
     "lng": 6.9200214,
     "candidatePhone": "+41 21 967 09 82",
-    "source": "Ports du Léman – Port de l'Ouchettaz / Villeneuve",
+    "source": "Commune de Villeneuve – Port de l'Ouchettaz",
     "lastVerified": "2026-03-27",
     "berths": 100,
     "guestBerths": 4,
@@ -672,6 +672,6 @@
     "notes": "Kleiner Hafen bei Villeneuve am östlichen Seeende.",
     "country": "CH",
     "region": "Villeneuve",
-    "url": "https://ports-du-leman.ch/port/villeneuve"
+    "url": "https://www.villeneuve.ch/port"
   }
 ]

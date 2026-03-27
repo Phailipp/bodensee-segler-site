@@ -226,7 +226,7 @@
     "name": "Porto alla Resiga",
     "lat": 46.1224313,
     "lng": 8.7139108,
-    "source": "PortoLago – Porto alla Resiga Brissago",
+    "source": "Comune di Brissago – Porti comunali",
     "lastVerified": "2026-03-27",
     "berths": 60,
     "guestBerths": 4,
@@ -238,7 +238,7 @@
     "country": "CH",
     "region": "Brissago",
     "notes": "Kleiner kommunaler Hafen in Brissago.",
-    "url": "https://www.portolago.com/SpondaSvizzera/Brissago/Porti/PortoAllaRessiga.htm"
+    "url": "https://www.brissago.ch/servizi-cittadino/porti-comunali/"
   },
   {
     "id": "osm-way-390452949-porto-vecchio",
