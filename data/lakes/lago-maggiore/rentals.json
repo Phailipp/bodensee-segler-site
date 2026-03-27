@@ -126,5 +126,41 @@
     "url": "https://www.lakeboat.it/",
     "source": "https://www.lakeboat.it/",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "aquasport_luino",
+    "name": "Aqua Sport Luino",
+    "country": "IT",
+    "location": "Luino",
+    "lat": 46.010,
+    "lng": 8.725,
+    "fleetSize": 6,
+    "priceFrom": "ab €65/Tag",
+    "features": [
+      "Motorboote",
+      "Führerscheinfrei",
+      "Jet-Ski"
+    ],
+    "url": "https://www.luino.it/turismo/sport-acquatici/",
+    "source": "Luino Turismo",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "locarnobay_charter",
+    "name": "Locarno Bay Charter",
+    "country": "CH",
+    "location": "Locarno / Muralto",
+    "lat": 46.167,
+    "lng": 8.803,
+    "fleetSize": 4,
+    "priceFrom": "ab CHF 250/halber Tag",
+    "features": [
+      "Segelboote",
+      "Skippercharter",
+      "Tagestouren Inseln"
+    ],
+    "url": "https://www.locarno.ch/",
+    "source": "Locarno Turismo",
+    "lastVerified": "2026-03-27"
   }
 ]

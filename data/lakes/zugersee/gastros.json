@@ -190,5 +190,41 @@
     "lastVerified": "2026-03-26",
     "phone": "+41 41 780 55 36",
     "hours": "Mi–Sa 11:30–14:00 & 17:00–22:00; So 10:00–17:00; Mo–Di Ruhetag"
+  },
+  {
+    "id": "gasthof_risch",
+    "name": "Gasthof Risch",
+    "country": "CH",
+    "location": "Risch, Zugersee Ostufer",
+    "lat": 47.142,
+    "lng": 8.471,
+    "price": "€€",
+    "berthing": "Steg in Risch nebenan",
+    "features": [
+      "Direkt am See",
+      "Seeterrasse",
+      "Regionale Küche"
+    ],
+    "url": "https://www.gasthof-risch.ch/",
+    "source": "https://www.gasthof-risch.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "seebad_zug_restaurant",
+    "name": "Restaurant Seebad Zug",
+    "country": "CH",
+    "location": "Zug, Seebad",
+    "lat": 47.166,
+    "lng": 8.505,
+    "price": "€",
+    "berthing": "",
+    "features": [
+      "Bistro",
+      "Direkt am See",
+      "Seebad"
+    ],
+    "url": "https://www.seebad-zug.ch/",
+    "source": "https://www.seebad-zug.ch/",
+    "lastVerified": "2026-03-27"
   }
 ]
