@@ -45,6 +45,8 @@
   "service.type.crane": "Crane",
   "service.type.slip": "Slip",
   "service.type.repair": "Yard",
+  "service.type.yard": "Yard",
+  "service.type.rigg": "Rigger/Sailmaker",
   "filter.country": "Country",
   "filter.any": "All",
   "filter.overnight": "Overnight",

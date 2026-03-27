@@ -45,6 +45,8 @@
   "service.type.crane": "Kran",
   "service.type.slip": "Slip",
   "service.type.repair": "Werft",
+  "service.type.yard": "Werft",
+  "service.type.rigg": "Segelmacher",
   "filter.country": "Land",
   "filter.any": "Alle",
   "filter.overnight": "Übernachten",

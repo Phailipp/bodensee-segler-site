@@ -729,7 +729,8 @@ function updateServiceTypeOptions() {
     crane: t('service.type.crane') || 'Kran',
     slip: t('service.type.slip') || 'Slip',
     repair: t('service.type.repair') || 'Werft',
-    yard: t('service.type.yard') || 'Werft'
+    yard: t('service.type.yard') || 'Werft',
+    rigg: t('service.type.rigg') || 'Segelmacher'
   };
   const current = types.includes(state.filtersServices.type) ? state.filtersServices.type : 'ALL';
   if (current !== state.filtersServices.type) state.filtersServices.type = 'ALL';
