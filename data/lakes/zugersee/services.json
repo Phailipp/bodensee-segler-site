@@ -58,5 +58,17 @@
     "url": "https://zg.ch/de/mobilitaet-reisen/schifffahrt/schiffszulassung",
     "source": "Kanton Zug – Schifffahrt",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "repair_zug_nauti",
+    "name": "Nautik Center Zug",
+    "country": "CH",
+    "type": "repair",
+    "details": "Motorservice, GFK-Reparaturen, Winterlager · Zug",
+    "lat": 47.1728,
+    "lng": 8.5046,
+    "url": "https://www.nautik-center.ch/",
+    "source": "nautik-center.ch",
+    "lastVerified": "2026-03-27"
   }
 ]
