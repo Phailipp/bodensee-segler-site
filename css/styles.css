@@ -158,8 +158,8 @@ nav {
 nav.scrolled { background: rgba(12,25,41,0.95); backdrop-filter: blur(10px); padding: 16px 48px; }
 
 .logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--white); text-decoration: none; }
-.logo span { color: var(--gold); }
-.logo #lakeLogo + span { letter-spacing: 0; margin-left: -0.05em; }
+#lakeLogo { color: var(--gold); }
+#lakeLogo::after { content: '.'; color: var(--gold); }
 .logo-title { display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
 .logo-anchor { width: 44px; height: 44px; flex-shrink: 0; }
 
@@ -576,7 +576,7 @@ section { padding: 80px 48px; }
 /* Footer */
 footer { padding: 48px 48px; padding-bottom: max(48px, calc(32px + env(safe-area-inset-bottom))); text-align: center; border-top: 1px solid rgba(255,255,255,0.1); }
 .footer-logo { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 16px; }
-.footer-logo span { color: var(--gold); margin-left: -0.05em; }
+.footer-logo::after { content: '.'; color: var(--gold); }
 .footer-text { color: var(--text-light); font-size: 0.8125rem; }
 
 .footer-links { margin-top: 14px; display: flex; gap: 18px; justify-content: center; }
@@ -868,6 +868,7 @@ footer { padding: 48px 48px; padding-bottom: max(48px, calc(32px + env(safe-area
 
   /* Hide text in logo-title on mobile — lake-selector-btn already shows the lake name */
   .logo-title span { display: none; }
+  #lakeLogo::after { display: none; }
 
   .menu-btn { display: inline-flex; }
 
@@ -957,6 +958,17 @@ footer { padding: 48px 48px; padding-bottom: max(48px, calc(32px + env(safe-area
   .newsletter-form { flex-direction: column; align-items: stretch; }
   .newsletter-form input { width: 100%; }
   .newsletter-form button { width: 100%; padding: 14px 20px; }
+
+  /* Coverage grid: collapse to single column on mobile */
+  .coverage-grid { grid-template-columns: 1fr; }
+
+  /* Footer */
+  footer { padding: 40px 20px; }
+  .footer-logo { font-size: 1.5rem; }
+  .footer-links { flex-wrap: wrap; gap: 12px; justify-content: center; }
+
+  /* Service type chips: reduce padding */
+  .service-type-chips { padding: 0 16px; }
 
   /* Scroll-to-top button: bigger hit area */
   .scroll-top-btn { width: 48px; height: 48px; }

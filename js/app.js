@@ -149,7 +149,7 @@ function applyLakeBranding() {
 
   // Footer
   const footerLogo = document.querySelector('.footer-logo');
-  if (footerLogo) footerLogo.innerHTML = `${escapeHtml(name)}<span>.</span>`;
+  if (footerLogo) footerLogo.textContent = name;
 
   // Premium links: carry current lake as ?lake= param so premium.html knows where to go back
   const premiumParam = lakeId === 'bodensee' ? './premium.html' : `./premium.html?lake=${lakeId}`;
