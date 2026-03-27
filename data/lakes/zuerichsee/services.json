@@ -103,5 +103,29 @@
     "email": "",
     "hours": "",
     "prices": ""
+  },
+  {
+    "id": "zs_slip_rapperswil",
+    "name": "Slip Rapperswil",
+    "country": "CH",
+    "type": "slip",
+    "details": "Öffentliche Sliprampe im Hafen Rapperswil · bis ca. 8m Bootslänge",
+    "lat": 47.226,
+    "lng": 8.818,
+    "url": "https://www.rapperswil-jona.ch/",
+    "source": "Stadt Rapperswil-Jona – Hafenverwaltung",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "zs_segelmacher_zuerich",
+    "name": "Segelmacher Zürich",
+    "country": "CH",
+    "type": "rigg",
+    "details": "Segel & Rigg, Reparaturen, Sprayhood · Zürich Seebecken",
+    "lat": 47.346,
+    "lng": 8.540,
+    "url": "https://www.segelmacher-zuerich.ch/",
+    "source": "segelmacher-zuerich.ch",
+    "lastVerified": "2026-03-27"
   }
 ]
