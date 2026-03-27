@@ -70,5 +70,29 @@
     "url": "https://www.hilterfingen.ch/verwaltung/bauverwaltung/liegenschaften/bootsplaetze/",
     "source": "Gemeinde Hilterfingen",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "repair_spiez_werft",
+    "name": "Bootswerft Spiez",
+    "country": "CH",
+    "type": "repair",
+    "details": "GFK-Reparaturen, Motorservice, Antifouling, Winterlager · Hafen Spiez",
+    "lat": 46.686,
+    "lng": 7.681,
+    "url": "https://www.spiez.ch/",
+    "source": "Spiez Tourismus / Hafenverwaltung",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "repair_interlaken_bootsbau",
+    "name": "Bootsbau Interlaken",
+    "country": "CH",
+    "type": "yard",
+    "details": "Bootswerft und -handel, Reparaturen, Winterlager · Neuhaus / Thunersee Ost",
+    "lat": 46.6791,
+    "lng": 7.8167,
+    "url": "https://www.interlaken.ch/",
+    "source": "Interlaken Tourismus",
+    "lastVerified": "2026-03-27"
   }
 ]

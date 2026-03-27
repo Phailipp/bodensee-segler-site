@@ -120,5 +120,42 @@
     "phone": "+41 55 244 27 59",
     "email": "",
     "hours": "Mai–Sep täglich 09:00–Sonnenuntergang"
+  },
+  {
+    "id": "segelschule_zuerichsee_thalwil",
+    "name": "Segelschule am Zürichsee",
+    "country": "CH",
+    "location": "Thalwil",
+    "lat": 47.294,
+    "lng": 8.567,
+    "fleetSize": 10,
+    "priceFrom": "ab CHF 350/Wochenende (Kurs)",
+    "features": [
+      "Segelkurse",
+      "Scheinerkurse",
+      "Charteryachten"
+    ],
+    "url": "https://www.segelschule-zuerichsee.ch/",
+    "source": "https://www.segelschule-zuerichsee.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "bootsvermietung_staefa",
+    "name": "Bootsvermietung Stäfa",
+    "country": "CH",
+    "location": "Stäfa",
+    "lat": 47.242,
+    "lng": 8.726,
+    "fleetSize": 5,
+    "priceFrom": "ab CHF 30/Std",
+    "features": [
+      "Motorboote",
+      "Elektrische Boote",
+      "SUP",
+      "Führerscheinfrei"
+    ],
+    "url": "https://www.staefa.ch/",
+    "source": "Gemeinde Stäfa Tourismus",
+    "lastVerified": "2026-03-27"
   }
 ]
