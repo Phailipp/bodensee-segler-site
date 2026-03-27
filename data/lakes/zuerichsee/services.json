@@ -55,5 +55,53 @@
     "email": "",
     "hours": "",
     "prices": ""
+  },
+  {
+    "id": "zs_slip_wollishofen",
+    "name": "Slipanlage Wollishofen",
+    "country": "CH",
+    "type": "slip",
+    "details": "Städtische Sliprampe im Hafen Wollishofen · kostenlos nutzbar · ganzjährig",
+    "lat": 47.3396,
+    "lng": 8.5398,
+    "url": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/gewaesser/hafenverwaltung/gaesteplaetze.html",
+    "source": "Stadt Zürich – Hafenverwaltung",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 44 482 99 44",
+    "email": "",
+    "hours": "",
+    "prices": "kostenlos"
+  },
+  {
+    "id": "zs_slip_tiefenbrunnen",
+    "name": "Slipanlage Tiefenbrunnen",
+    "country": "CH",
+    "type": "slip",
+    "details": "Städtische Sliprampe im Hafen Tiefenbrunnen · ganzjährig zugänglich",
+    "lat": 47.345,
+    "lng": 8.5625,
+    "url": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/gewaesser/hafenverwaltung/gaesteplaetze.html",
+    "source": "Stadt Zürich – Hafenverwaltung",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 44 251 42 30",
+    "email": "",
+    "hours": "",
+    "prices": "kostenlos"
+  },
+  {
+    "id": "zs_tank_wollishofen",
+    "name": "Tanksäule Hafen Wollishofen",
+    "country": "CH",
+    "type": "fuel",
+    "details": "Diesel & Benzin · im Hafen Wollishofen · Zugang mit Tankkarte oder bar",
+    "lat": 47.3398,
+    "lng": 8.54,
+    "url": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/gewaesser/hafenverwaltung/gaesteplaetze.html",
+    "source": "Stadt Zürich – Hafenverwaltung",
+    "lastVerified": "2026-03-27",
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "prices": ""
   }
 ]

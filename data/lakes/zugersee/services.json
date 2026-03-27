@@ -34,5 +34,29 @@
     "url": "https://www.war.ch/",
     "source": "marktindex.ch – Bootstankstelle Zug; war.ch",
     "lastVerified": "2026-03-26"
+  },
+  {
+    "id": "werft_walchwil",
+    "name": "Bootswerft Walchwil",
+    "country": "CH",
+    "type": "yard",
+    "details": "Reparatur, Winterlager, Ein-/Auswassern · Kran vorhanden · Südufer Zugersee",
+    "lat": 47.094,
+    "lng": 8.51,
+    "url": "https://www.bootswerft-walchwil.ch/",
+    "source": "https://www.bootswerft-walchwil.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "slip_immensee",
+    "name": "Sliprampe Immensee",
+    "country": "CH",
+    "type": "slip",
+    "details": "Sliprampe am Südostufer des Zugersees in Immensee · öffentlich zugänglich",
+    "lat": 47.0935,
+    "lng": 8.4655,
+    "url": "https://zg.ch/de/mobilitaet-reisen/schifffahrt/schiffszulassung",
+    "source": "Kanton Zug – Schifffahrt",
+    "lastVerified": "2026-03-27"
   }
 ]
