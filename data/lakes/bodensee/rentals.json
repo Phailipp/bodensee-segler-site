@@ -169,13 +169,10 @@
       "SUP"
     ],
     "url": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
-    "source": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
-    "lastVerified": "2026-03-23",
+    "source": "echt-bodensee.de – Bootsvermietung Fluck",
+    "lastVerified": "2026-03-27",
     "phone": "+49 7541 21746",
-    "hours": "Mo-Fr 11:00-20:00; Sa,So 10:00-19:00",
-    "candidateUrl": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
-    "candidateFoundAt": "2026-03-23",
-    "candidateSource": "OSM – Aggregator-URL (echt-bodensee.de), kein direkter Betreiber-Link"
+    "hours": "Mo-Fr 11:00-20:00; Sa,So 10:00-19:00"
   },
   {
     "id": "osm-node-4865580144-wassersport-schattmaier",
@@ -302,6 +299,26 @@
     "url": "https://www.diepaddler.de/",
     "source": "https://www.diepaddler.de/",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "osm-node-8673029452-bootsvermietung-hagnau",
+    "name": "Hagnauer Bootsvermietung",
+    "country": "DE",
+    "location": "Hagnau",
+    "lat": 47.6730614,
+    "lng": 9.3194526,
+    "fleetSize": 8,
+    "priceFrom": "ab €60/Std",
+    "features": [
+      "Motorboote (führerscheinfrei)",
+      "100PS Sportboote",
+      "Tretboote & SUP"
+    ],
+    "url": "https://hagnauer-bootsvermietung.de/",
+    "source": "https://hagnauer-bootsvermietung.de/",
+    "lastVerified": "2026-03-27",
+    "phone": "+49 7532 446372",
+    "hours": "tägl. 10:00-18/20 Uhr (West-/Osthafen)"
   },
   {
     "id": "osm-node-8889638963-la-canoa",
@@ -463,13 +480,11 @@
       "Tretboote",
       "SUP"
     ],
-    "url": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
-    "source": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
-    "lastVerified": "2026-03-23",
-    "hours": "Apr-Okt: 11:00-19:00",
-    "candidateUrl": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
-    "candidateFoundAt": "2026-03-23",
-    "candidateSource": "OSM – Aggregator-URL (echt-bodensee.de), kein direkter Betreiber-Link"
+    "url": "https://www.konstanz-info.com/attraktionen/marc-fluck-bootsvermietung-im-gondele-hafen-565b77e4a1",
+    "source": "konstanz-info.com – Marc Fluck Gondelehafen",
+    "lastVerified": "2026-03-27",
+    "phone": "+49 7531 21881",
+    "hours": "Apr-Okt: 11:00-17:30"
   },
   {
     "id": "osm-way-1346181337-bootsvermietung-wasserburg",

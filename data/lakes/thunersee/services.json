@@ -12,6 +12,18 @@
     "lastVerified": "2026-03-23"
   },
   {
+    "id": "slip_thun",
+    "name": "Slip Thun",
+    "country": "CH",
+    "type": "slip",
+    "details": "Sliprampe am Seeufer Thun",
+    "lat": 46.752,
+    "lng": 7.631,
+    "url": "https://www.thun.ch/sport/53393",
+    "source": "Stadt Thun – Bootsplätze & Slipanlagen",
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "kran_spiez",
     "name": "Kran Spiez Marina",
     "country": "CH",
@@ -22,6 +34,18 @@
     "url": "https://www.spiez.com/en/activities/on-the-water",
     "source": "https://www.spiez.com/",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "tank_neuhaus",
+    "name": "Seetankstelle Neuhaus",
+    "country": "CH",
+    "type": "fuel",
+    "details": "Tankstelle für Motorboote am östlichen Ende des Thunersees · Bleifrei & Diesel · Saison Apr–Okt",
+    "lat": 46.677,
+    "lng": 7.808,
+    "url": "https://www.interlaken.ch/erlebnisse/seen-wasserfaelle/wasseraktivitaeten/boot-pedalo",
+    "source": "Interlaken Tourismus – Wassersport",
+    "lastVerified": "2026-03-27"
   },
   {
     "id": "kran_leissigen",
@@ -46,5 +70,19 @@
     "url": "https://www.hilterfingen.ch/verwaltung/bauverwaltung/liegenschaften/bootsplaetze/",
     "source": "Gemeinde Hilterfingen",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "werft_berger_spiez",
+    "name": "Bootswerft Berger Spiez",
+    "country": "CH",
+    "type": "yard",
+    "details": "Reparatur, Service & Winterlager · Mo–Fr 07:30–17:00 · Industriestrasse 34, 3700 Spiez",
+    "lat": 46.6845,
+    "lng": 7.6832,
+    "url": "https://www.bootswerft-berger.ch/",
+    "source": "https://www.bootswerft-berger.ch/",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 33 654 90 54",
+    "hours": "Mo–Fr 07:30–17:00"
   }
 ]

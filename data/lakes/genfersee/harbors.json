@@ -38,7 +38,7 @@
     "candidateUrl": "https://ville-evian.fr/fr/loisirs/port-de-plaisance",
     "candidatePhone": "+33 4 50 75 36 10",
     "candidateUrlKind": "web",
-    "source": "https://ville-evian.fr/loisirs/port-de-plaisance/",
+    "source": "Ports du Léman – Port des Mouettes Évian",
     "lastVerified": "2026-03-22",
     "berths": 300,
     "guestBerths": 10,
@@ -51,7 +51,7 @@
     "notes": "Hafen von Évian-les-Bains mit Besucherplätzen. Nachtgebühr ca. €13.",
     "country": "FR",
     "region": "Évian-les-Bains",
-    "url": "https://ville-evian.fr/fr/loisirs/port-de-plaisance"
+    "url": "https://ports-du-leman.ch/port/mouettes"
   },
   {
     "id": "osm-way-208958743-port-de-taillecou",

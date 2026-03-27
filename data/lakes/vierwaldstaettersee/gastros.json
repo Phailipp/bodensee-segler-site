@@ -184,6 +184,23 @@
     "lastVerified": "2026-03-27"
   },
   {
+    "id": "seerestaurant_stansstad",
+    "name": "AIOLA al Porto",
+    "country": "CH",
+    "location": "Stansstad, Harissenbucht",
+    "lat": 46.9802,
+    "lng": 8.3365,
+    "price": "€€",
+    "features": [
+      "Mediterrane Küche",
+      "Seeterrasse",
+      "Hafen mit 20 Liegeplätzen"
+    ],
+    "url": "https://www.al-porto.ch/",
+    "source": "https://www.al-porto.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
     "id": "seegarten_weggis",
     "name": "Restaurant Seegarten",
     "country": "CH",
