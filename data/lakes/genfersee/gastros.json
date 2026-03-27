@@ -197,5 +197,39 @@
     "url": "https://ville-evian.fr/",
     "source": "https://ville-evian.fr/",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "auberge_onde_stsaphorin",
+    "name": "Auberge de l'Onde",
+    "country": "CH",
+    "location": "Saint-Saphorin, Lavaux",
+    "lat": 46.478,
+    "lng": 6.793,
+    "price": "€€€",
+    "features": [
+      "Traditionelle Waadtländer Küche",
+      "Seeterrasse",
+      "UNESCO-Weinberge Lavaux"
+    ],
+    "url": "https://www.aubergedelonde.ch/",
+    "source": "https://www.aubergedelonde.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "restaurant_port_coppet",
+    "name": "Restaurant du Port de Coppet",
+    "country": "CH",
+    "location": "Coppet, Hafen",
+    "lat": 46.313,
+    "lng": 6.194,
+    "price": "€€",
+    "features": [
+      "Französisch-Schweizer Küche",
+      "Hafenterrasse",
+      "Direkt am See"
+    ],
+    "url": "https://www.coppet-tourisme.ch/",
+    "source": "Coppet Tourisme",
+    "lastVerified": "2026-03-27"
   }
 ]
