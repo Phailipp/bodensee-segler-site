@@ -2098,6 +2098,25 @@ main().catch(err => {
   });
 })();
 
+// Measure actual nav height and expose as --nav-h CSS variable.
+// The hero padding-top uses this so content never sits behind the nav,
+// regardless of what the nav height ends up being on any device.
+(function() {
+  const nav = document.querySelector('nav');
+  const hero = document.querySelector('.hero');
+  if (!nav || !hero) return;
+  function syncNavHeight() {
+    const h = nav.getBoundingClientRect().height;
+    document.documentElement.style.setProperty('--nav-h', h + 'px');
+  }
+  syncNavHeight();
+  // Re-sync if fonts or layout shift after load
+  window.addEventListener('resize', syncNavHeight, { passive: true });
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(syncNavHeight);
+  }
+})();
+
 // Logo-Title als Zurück-nach-oben-Button
 (function() {
   const logoTitle = document.querySelector('.logo-title');
