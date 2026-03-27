@@ -418,6 +418,10 @@ function candidateHint(item) {
   return '';
 }
 
+function sortPremiumFirst(list) {
+  return [...list].sort((a, b) => (b.premium ? 1 : 0) - (a.premium ? 1 : 0));
+}
+
 function applyFilters(list, type) {
   if (type === 'rentals') {
     const q = state.filtersRentals.q;
@@ -1001,20 +1005,20 @@ function coverageItem(label, c) {
 function renderAll() {
   const vFilter = state.showUnverified ? (x => true) : isVerified;
 
-  // Harbors
-  const harbors = applyFilters(state.data.harbors, 'harbors').filter(vFilter);
+  // Harbors (premium first)
+  const harbors = sortPremiumFirst(applyFilters(state.data.harbors, 'harbors').filter(vFilter));
   $('#harborsGrid').innerHTML = harbors.length ? harbors.map(cardHarbor).join('') : emptyState();
 
   // Anchors
   const anchors = applyFilters(state.data.anchors, 'anchors').filter(vFilter);
   $('#anchorsList').innerHTML = anchors.length ? anchors.map(rowAnchor).join('') : emptyState(true);
 
-  // Rentals
-  const rentals = applyFilters(state.data.rentals, 'rentals').filter(vFilter);
+  // Rentals (premium first)
+  const rentals = sortPremiumFirst(applyFilters(state.data.rentals, 'rentals').filter(vFilter));
   $('#rentalsGrid').innerHTML = rentals.length ? rentals.map(cardRental).join('') : emptyState();
 
-  // Gastro
-  const gastros = applyFilters(state.data.gastros, 'gastros').filter(vFilter);
+  // Gastro (premium first)
+  const gastros = sortPremiumFirst(applyFilters(state.data.gastros, 'gastros').filter(vFilter));
   $('#gastroList').innerHTML = gastros.length ? gastros.map(rowGastro).join('') : emptyState(true);
 
   // Service
@@ -1193,8 +1197,33 @@ function openModal(type, item) {
     ? `<div class="modal-claim"><a href="./premium.html" target="_blank" rel="noreferrer">${t('modal.claim')}</a></div>`
     : '';
 
+  // Premium photo gallery
+  const photos = (item.photos || []).filter(Boolean);
+  const photoGallery = photos.length
+    ? `<div class="modal-photos">${photos.map((p, i) => `<img src="${escapeHtml(p)}" alt="${escapeHtml(item.name)} ${i+1}" loading="lazy">`).join('')}</div>`
+    : '';
+
+  // Premium video embed
+  const videoEmbed = item.videoUrl
+    ? `<div class="modal-video"><iframe src="${escapeHtml(item.videoUrl)}" allowfullscreen loading="lazy"></iframe></div>`
+    : '';
+
+  // Premium contact block
+  const contactFields = [
+    item.phone ? `<a href="tel:${escapeHtml(item.phone)}">${escapeHtml(item.phone)}</a>` : '',
+    item.email ? `<a href="mailto:${escapeHtml(item.email)}">${escapeHtml(item.email)}</a>` : '',
+    item.vhf ? `VHF ${escapeHtml(item.vhf)}` : '',
+    item.hours ? escapeHtml(item.hours) : '',
+  ].filter(Boolean);
+  const premiumContact = item.premium && contactFields.length
+    ? `<div class="modal-contact-block">${contactFields.map(f => `<span>${f}</span>`).join('')}</div>`
+    : '';
+
   body.innerHTML = `
+    ${photoGallery}
+    ${premiumContact}
     <div class="modal-grid">${rows.join('')}</div>
+    ${videoEmbed}
     <div class="modal-actions">${actions.join('')}</div>
     ${claimCTA}
   `;
@@ -1716,6 +1745,7 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
   }
 
   const harborIcon = makeIcon('#c9a962', 16);
+  const harborIconPremium = makeIcon('#c9a962', 22);
   const harborGroup = makeClusterGroup();
   const anchorGroup = makeClusterGroup();
   const rentalGroup = makeClusterGroup();
@@ -1735,7 +1765,7 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       <div class="popup-name">${escapeHtml(h.name)}</div>
       <div class="popup-location">${escapeHtml(h.region || '')}</div>
     `;
-    const m = L.marker([h.lat, h.lng], { icon: harborIcon }).bindPopup(popup, { maxWidth: 280 });
+    const m = L.marker([h.lat, h.lng], { icon: h.premium ? harborIconPremium : harborIcon }).bindPopup(popup, { maxWidth: 280 });
     if (harborGroup) harborGroup.addLayer(m); else m.addTo(state.map);
     m.on('click', () => openModal('harbor', h));
     state.markers.harbors.push(m);
