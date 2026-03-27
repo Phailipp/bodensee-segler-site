@@ -97,5 +97,41 @@
     "url": "https://www.yacht-service-lago-maggiore.it/",
     "source": "yacht-service-lago-maggiore.it",
     "lastVerified": "2026-03-26"
+  },
+  {
+    "id": "slip_cannobio",
+    "name": "Slipanlage Porto Cannobio",
+    "country": "IT",
+    "type": "slip",
+    "details": "Öffentliche Sliprampe im Hafen Cannobio · Saison Apr–Okt",
+    "lat": 46.0649,
+    "lng": 8.7058,
+    "url": "http://www.portocannobio.it/",
+    "source": "bootfahren-lago-maggiore.de – Revierfuehrer",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "tankstelle_luino",
+    "name": "Tankstelle Porto Luino",
+    "country": "IT",
+    "type": "fuel",
+    "details": "Diesel & Benzin · im Hafen Luino · Mittwochs Markttag",
+    "lat": 46.0099,
+    "lng": 8.7249,
+    "url": "https://bootfahren-lago-maggiore.de/revierfuehrer/",
+    "source": "bootfahren-lago-maggiore.de – Revierfuehrer Häfen",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "slip_verbania",
+    "name": "Slipanlage Verbania-Pallanza",
+    "country": "IT",
+    "type": "slip",
+    "details": "Sliprampe am Hafen Verbania-Pallanza · Kran vorhanden",
+    "lat": 45.9291,
+    "lng": 8.5688,
+    "url": "https://portolago.com/",
+    "source": "portolago.com",
+    "lastVerified": "2026-03-27"
   }
 ]

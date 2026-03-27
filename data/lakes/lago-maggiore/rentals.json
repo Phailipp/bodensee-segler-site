@@ -90,5 +90,41 @@
     "lastVerified": "2026-03-26",
     "phone": "+39 329 569 2378",
     "hours": "Saison"
+  },
+  {
+    "id": "ascona_boats",
+    "name": "Ascona Boats",
+    "country": "CH",
+    "location": "Ascona",
+    "lat": 46.154,
+    "lng": 8.773,
+    "fleetSize": 8,
+    "priceFrom": "ab CHF 120/Tag",
+    "features": [
+      "Motorboote",
+      "Führerscheinfrei",
+      "Elektrische Boote"
+    ],
+    "url": "https://www.ascona-boats.ch/",
+    "source": "https://www.ascona-boats.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "lakeboat_stresa",
+    "name": "Lake Boat Stresa",
+    "country": "IT",
+    "location": "Stresa",
+    "lat": 45.887,
+    "lng": 8.534,
+    "fleetSize": 10,
+    "priceFrom": "ab €80/Tag",
+    "features": [
+      "Motorboote",
+      "Führerscheinfrei",
+      "Isole Borromee Touren"
+    ],
+    "url": "https://www.lakeboat.it/",
+    "source": "https://www.lakeboat.it/",
+    "lastVerified": "2026-03-27"
   }
 ]

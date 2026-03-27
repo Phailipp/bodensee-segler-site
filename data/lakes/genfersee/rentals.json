@@ -85,5 +85,60 @@
     "url": "https://lagalere.ch/",
     "source": "https://lagalere.ch/",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "ecole_voile_lausanne",
+    "name": "École de Voile de Lausanne (EVL)",
+    "country": "CH",
+    "location": "Lausanne-Vidy",
+    "lat": 46.5043,
+    "lng": 6.6161,
+    "fleetSize": 25,
+    "priceFrom": "ab CHF 45/Std (Kursboote)",
+    "features": [
+      "Segelkurse",
+      "Charterboote",
+      "Optimist bis Jacht"
+    ],
+    "url": "https://www.ecoledevoilelausanne.ch/",
+    "source": "https://www.ecoledevoilelausanne.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "leman_sailing_nyon",
+    "name": "Leman Sailing",
+    "country": "CH",
+    "location": "Nyon",
+    "lat": 46.383,
+    "lng": 6.238,
+    "fleetSize": 6,
+    "priceFrom": "ab CHF 350/Tag",
+    "features": [
+      "Segelchartern",
+      "Skippercharter",
+      "Tagestouren"
+    ],
+    "url": "https://www.lemansailing.com/",
+    "source": "https://www.lemansailing.com/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "evian_nautic_club",
+    "name": "Évian Nautic Club",
+    "country": "FR",
+    "location": "Évian-les-Bains",
+    "lat": 46.401,
+    "lng": 6.588,
+    "fleetSize": 12,
+    "priceFrom": "ab €35/Std",
+    "features": [
+      "Motorboote",
+      "SUP",
+      "Kajak",
+      "Führerscheinfrei"
+    ],
+    "url": "https://www.evian-nautic.com/",
+    "source": "https://www.evian-nautic.com/",
+    "lastVerified": "2026-03-27"
   }
 ]

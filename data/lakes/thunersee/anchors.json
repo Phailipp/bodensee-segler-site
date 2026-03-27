@@ -85,5 +85,39 @@
     "source": "Seepolizei Bern – Vorschriften",
     "lastVerified": "2026-03-27",
     "restrictions": "Fahrrinne Thunkanal freihalten. Max. 24h ohne Bewilligung."
+  },
+  {
+    "id": "thun_leissigen",
+    "name": "Bucht vor Leissigen",
+    "country": "CH",
+    "region": "Leissigen, Südost-Ufer",
+    "lat": 46.6618,
+    "lng": 7.7512,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Schlamm/Sand",
+    "protection": "NW",
+    "overnight": true,
+    "notes": "Ruhiger Ankerplatz vor dem kleinen Dorf Leissigen am Südostufer. Guter Ankergrund, gut geschützt bei Nordwestwind (Talwind). Landgang möglich.",
+    "url": "https://www.thunersee.ch/",
+    "source": "Thunersee Tourismus",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "thun_hilterfingen",
+    "name": "Vor Hilterfingen",
+    "country": "CH",
+    "region": "Hilterfingen, Nordufer",
+    "lat": 46.7313,
+    "lng": 7.6931,
+    "depthMinM": 4,
+    "depthMaxM": 10,
+    "ground": "Schlamm",
+    "protection": "S/SW",
+    "overnight": false,
+    "notes": "Beliebter Tagesanker vor dem Schloss Hünegg bei Hilterfingen. Gut zugänglich, ruhig bei Südwind. Schöner Blick auf das Schloss.",
+    "url": "https://www.thunersee.ch/",
+    "source": "Thunersee Tourismus",
+    "lastVerified": "2026-03-27"
   }
 ]
