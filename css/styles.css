@@ -842,13 +842,14 @@ footer { padding: 80px 48px; padding-bottom: max(80px, calc(48px + env(safe-area
   /* Hero + map feel less "huge" on mobile */
   .hero { min-height: 560px; }
   .hero::before { height: 120px; }
-  .hero-compact { min-height: 260px; padding: 64px 0 28px; }
+  .hero-compact { min-height: 260px; padding: 80px 0 28px; }
   .hero p { margin-bottom: 22px; }
 
   .map-section { height: 70vh; min-height: 480px; }
 
-  /* Reduce section top/bottom padding on mobile */
-  section { padding: 56px 16px; }
+  /* Sections: scroll-margin so fixed nav doesn't cover heading on anchor jump */
+  section { padding: 64px 16px; scroll-margin-top: 72px; }
+  .quick-filters { scroll-margin-top: 72px; }
 
   .quick-filters { padding: 10px 16px; }
 
