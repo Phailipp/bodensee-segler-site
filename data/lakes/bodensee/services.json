@@ -112,5 +112,53 @@
     "email": "",
     "hours": "",
     "prices": ""
+  },
+  {
+    "id": "tankstelle_bregenz",
+    "name": "Tankstelle Hafen Bregenz",
+    "country": "AT",
+    "type": "fuel",
+    "details": "Diesel & Benzin · Hafen Bregenz · Saisonbetrieb",
+    "lat": 47.503,
+    "lng": 9.741,
+    "url": "https://www.bregenz.gv.at/stadtinfo/sport-und-freizeit/bodensee/hafen-bregenz.html",
+    "source": "Stadt Bregenz – Hafen",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "slip_arbon",
+    "name": "Slip Arbon",
+    "country": "CH",
+    "type": "slip",
+    "details": "Öffentliche Sliprampe im Hafen Arbon · bis ca. 7m",
+    "lat": 47.5145,
+    "lng": 9.4318,
+    "url": "https://www.arbon.ch/",
+    "source": "Hafen Arbon / Stadt Arbon",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "kran_uberlingen",
+    "name": "Kran Hafen Überlingen",
+    "country": "DE",
+    "type": "crane",
+    "details": "Kran für Ein-/Auswassern im Hafen Überlingen · Anfrage beim Hafenmeister",
+    "lat": 47.769,
+    "lng": 9.153,
+    "url": "https://www.ueberlingen.de/",
+    "source": "Stadt Überlingen – Hafenmeister",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "werft_bregenz",
+    "name": "Werft & Motorenservice Bregenz",
+    "country": "AT",
+    "type": "yard",
+    "details": "Bootsreparatur, Motorservice, Winterlager · Hafen Bregenz",
+    "lat": 47.505,
+    "lng": 9.742,
+    "url": "https://www.motorbootclub-bregenz.at/",
+    "source": "Motorbootclub Bregenz",
+    "lastVerified": "2026-03-27"
   }
 ]

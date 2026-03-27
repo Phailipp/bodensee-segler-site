@@ -121,5 +121,42 @@
     "phone": "",
     "email": "",
     "hours": "Saison"
+  },
+  {
+    "id": "luzern_charter",
+    "name": "Luzern Charter",
+    "country": "CH",
+    "location": "Luzern, Reuss/See",
+    "lat": 47.0512,
+    "lng": 8.3051,
+    "fleetSize": 6,
+    "priceFrom": "ab CHF 350/Tag",
+    "features": [
+      "Segelyachten",
+      "Motorboote",
+      "Tageschartern"
+    ],
+    "url": "https://www.luzerncharter.ch/",
+    "source": "https://www.luzerncharter.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "weggis_bootsvermietung",
+    "name": "Bootsvermietung Weggis",
+    "country": "CH",
+    "location": "Weggis",
+    "lat": 47.0335,
+    "lng": 8.4326,
+    "fleetSize": 8,
+    "priceFrom": "ab CHF 40/Std",
+    "features": [
+      "Motorboote",
+      "Elektrische Boote",
+      "SUP",
+      "Führerscheinfrei"
+    ],
+    "url": "https://www.weggis.ch/",
+    "source": "Weggis Tourismus",
+    "lastVerified": "2026-03-27"
   }
 ]
