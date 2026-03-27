@@ -13,9 +13,11 @@
       "Strom",
       "Wasser",
       "WLAN",
-      "Sanitär"
+      "Sanitär",
+      "Kran",
+      "Slip"
     ],
-    "notes": "Guter Ausgangspunkt für den Seerhein und kurze Schläge in den Obersee. In der Saison früh anfragen.",
+    "notes": "Grösster Yachthafen am Bodensee. Guter Ausgangspunkt für den Seerhein und Überfahrten Richtung Meersburg/Mainau. Konstanzer Altstadt und Gastronomie direkt erreichbar. In der Hochsaison früh anfragen.",
     "url": "https://www.konstanzer-yacht-club.de/hafen/",
     "source": "Konstanzer Yacht Club (Hafen)",
     "lastVerified": "2026-02-03",
@@ -24,14 +26,24 @@
     "candidateFoundAt": null,
     "candidateSource": null,
     "vhf": "",
-    "phone": "",
-    "email": "",
-    "hours": "",
-    "prices": "",
-    "maxLengthM": null,
-    "maxBeamM": null,
-    "amenities": [],
-    "guestPolicy": ""
+    "phone": "+49 7531 21858",
+    "email": "hafen@konstanzer-yacht-club.de",
+    "hours": "April–Oktober, Hafenmeister 08:00–20:00",
+    "prices": "Gastlieger ab €25/Nacht (inkl. Strom/Wasser)",
+    "maxLengthM": 15,
+    "maxBeamM": 4.5,
+    "amenities": [
+      "Strom",
+      "Frischwasser",
+      "Duschen/WC",
+      "WLAN",
+      "Kran (bis 8t)",
+      "Slipanlage",
+      "Tankstelle in der Nähe",
+      "Restaurants fussläufig",
+      "Altstadt 5 min"
+    ],
+    "guestPolicy": "Gastliegeplätze nach Verfügbarkeit, in der Hochsaison (Juli/August) vorher anrufen. Anmeldung beim Hafenmeister."
   },
   {
     "id": "wyc",
