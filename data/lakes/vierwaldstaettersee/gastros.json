@@ -165,5 +165,56 @@
     "url": "https://www.luzern-isst.ch/am-wasser",
     "source": "https://www.luzern-isst.ch/am-wasser",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "gasthof_treib",
+    "name": "Gasthof Treib",
+    "country": "CH",
+    "location": "Treib / Seelisberg, Urnersee",
+    "lat": 46.9693,
+    "lng": 8.5637,
+    "price": "€€",
+    "features": [
+      "Historisches Gasthaus (seit 1352)",
+      "Nur per Boot erreichbar",
+      "Schweizer Küche"
+    ],
+    "url": "https://www.gasthof-treib.ch/",
+    "source": "https://www.gasthof-treib.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "seerestaurant_stansstad",
+    "name": "Seerestaurant Stansstad",
+    "country": "CH",
+    "location": "Stansstad, Alpnachersee",
+    "lat": 46.9802,
+    "lng": 8.3365,
+    "price": "€€",
+    "features": [
+      "Regionale Küche",
+      "Seeterrasse",
+      "Direkt am See"
+    ],
+    "url": "https://www.stansstad.ch/",
+    "source": "Gemeinde Stansstad Tourismus",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "seegarten_weggis",
+    "name": "Restaurant Seegarten",
+    "country": "CH",
+    "location": "Weggis",
+    "lat": 47.022,
+    "lng": 8.438,
+    "price": "€€",
+    "features": [
+      "Fischgerichte",
+      "Seeterrasse",
+      "Direkt am Hafen"
+    ],
+    "url": "https://www.seegarten-weggis.ch/",
+    "source": "https://www.seegarten-weggis.ch/",
+    "lastVerified": "2026-03-27"
   }
 ]

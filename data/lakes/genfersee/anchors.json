@@ -100,5 +100,41 @@
     "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
     "source": "hisse-et-oh.com – Mouiller l'ancre sur le Léman",
     "lastVerified": "2026-03-24"
+  },
+  {
+    "id": "vevey_bucht",
+    "name": "Vor Vevey",
+    "country": "CH",
+    "region": "Vevey, Grand Lac",
+    "lat": 46.461,
+    "lng": 6.843,
+    "depthMinM": 4,
+    "depthMaxM": 12,
+    "ground": "Schlamm",
+    "protection": "S/SW",
+    "overnight": false,
+    "notes": "Ankerplatz vor Vevey mit Blick auf die Weinberge des UNESCO-Welterbes Lavaux. Landgang per Dinghy in den Hafen Vevey möglich. Auf Linienschiffe (CGN) achten.",
+    "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
+    "source": "hisse-et-oh.com – Mouiller l'ancre sur le Léman",
+    "lastVerified": "2026-03-27",
+    "restrictions": "Fahrrinne CGN-Kursschiffe freihalten. Max. 24h."
+  },
+  {
+    "id": "rivaz_lavaux",
+    "name": "Vor Rivaz / Lavaux",
+    "country": "CH",
+    "region": "Rivaz, Grand Lac",
+    "lat": 46.497,
+    "lng": 6.787,
+    "depthMinM": 4,
+    "depthMaxM": 10,
+    "ground": "Schlamm/Kies",
+    "protection": "S",
+    "overnight": false,
+    "notes": "Ruhiger Ankerplatz unter den Lavaux-Weinbergen (UNESCO-Welterbe). Einzigartige Kulisse mit Rebterrassen direkt am Wasser. Gut geschützt bei Nordwind.",
+    "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
+    "source": "hisse-et-oh.com – Mouiller l'ancre sur le Léman",
+    "lastVerified": "2026-03-27",
+    "restrictions": "Naturschutzzone Lavaux beachten. Fahrrinne freihalten."
   }
 ]
