@@ -119,5 +119,41 @@
     "url": "https://www.boatdriver.ch/infos/besondere-kantonale-regeln/besondere-regeln-auf-dem-zugersee",
     "source": "boatdriver.ch – Zugersee",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "zugersee_cham_west",
+    "name": "Bucht Cham West",
+    "country": "CH",
+    "region": "Cham, Zugersee Westufer",
+    "lat": 47.178,
+    "lng": 8.455,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Schlamm",
+    "protection": "E",
+    "overnight": false,
+    "notes": "Ankermöglichkeit am Westufer bei Cham. Ruhiger Tagesanker, wenig frequentiert. Gut erreichbar von Zug oder Cham.",
+    "url": "https://www.boatdriver.ch/infos/besondere-kantonale-regeln/besondere-regeln-auf-dem-zugersee",
+    "source": "boatdriver.ch – Zugersee",
+    "lastVerified": "2026-03-27",
+    "restrictions": "Uferzone 30m einhalten."
+  },
+  {
+    "id": "zugersee_arth_sued",
+    "name": "Vor Arth Süd",
+    "country": "CH",
+    "region": "Arth, Zugersee Südufer",
+    "lat": 47.058,
+    "lng": 8.520,
+    "depthMinM": 4,
+    "depthMaxM": 12,
+    "ground": "Schlamm",
+    "protection": "N/NW",
+    "overnight": false,
+    "notes": "Ankerplatz am südlichsten Bereich des Zugersees vor Arth. Bei ruhigem Wetter günstig. Bei Nordwind (Bise) gut geschützt.",
+    "url": "https://www.boatdriver.ch/infos/besondere-kantonale-regeln/besondere-regeln-auf-dem-zugersee",
+    "source": "boatdriver.ch – Zugersee",
+    "lastVerified": "2026-03-27",
+    "restrictions": "Uferzone 30m einhalten. Max. 24h."
   }
 ]
