@@ -205,5 +205,62 @@
     "source": "yci.ch",
     "lastVerified": "2026-03-26",
     "guestPolicy": "Keine Gastliegeplätze, nur Vereinsmitglieder"
+  },
+  {
+    "id": "hafen_risch",
+    "name": "Bootshafen Risch",
+    "country": "CH",
+    "region": "Risch",
+    "lat": 47.136,
+    "lng": 8.474,
+    "berths": 60,
+    "guestBerths": 2,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Wasser",
+      "Natürliche Lage"
+    ],
+    "notes": "Kleiner Gemeindehafen in Risch am Westufer des Zugersees. Ruhige, naturnahe Umgebung. Gastplätze nach Verfügbarkeit.",
+    "url": "https://www.risch.ch/",
+    "source": "Gemeinde Risch",
+    "lastVerified": "2026-03-27",
+    "vhf": "",
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "prices": "",
+    "maxLengthM": null,
+    "maxBeamM": null,
+    "amenities": [],
+    "guestPolicy": "Gastplätze auf Anfrage"
+  },
+  {
+    "id": "hafen_buonas",
+    "name": "Hafen Buonas",
+    "country": "CH",
+    "region": "Risch-Buonas",
+    "lat": 47.1002,
+    "lng": 8.4895,
+    "berths": 45,
+    "guestBerths": 1,
+    "maxDraftM": 1.8,
+    "features": [
+      "Strom",
+      "Ruhige Bucht"
+    ],
+    "notes": "Kleiner Hafen in der idyllischen Halbinsel Buonas am Zugersee. Malerische Lage, begrenzte Kapazität.",
+    "url": "https://www.risch.ch/",
+    "source": "Gemeinde Risch – Buonas",
+    "lastVerified": "2026-03-27",
+    "vhf": "",
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "prices": "",
+    "maxLengthM": null,
+    "maxBeamM": null,
+    "amenities": [],
+    "guestPolicy": "1 Gastliegeplatz auf Anfrage"
   }
 ]
