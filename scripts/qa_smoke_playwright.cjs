@@ -26,6 +26,8 @@ async function run(url, viewport) {
     await page.waitForSelector('#modalBackdrop.open', { timeout: 10000 });
 
     // Regression guard: modal must be above fixed nav (Safari/Leaflet stacking issues)
+    // Note: on mobile the modal dialog itself fills (10,10), so we accept any element that
+    // is inside the modal backdrop (not inside the nav).
     const topHit = await page.evaluate(() => {
       const el = document.elementFromPoint(10, 10);
       const nav = document.querySelector('nav');
@@ -33,12 +35,13 @@ async function run(url, viewport) {
       return {
         id: el ? el.id : null,
         inNav: nav && el ? nav.contains(el) : false,
+        inBackdrop: backdrop && el ? backdrop.contains(el) || el === backdrop : false,
         navZ: nav ? getComputedStyle(nav).zIndex : null,
         backdropZ: backdrop ? getComputedStyle(backdrop).zIndex : null
       };
     });
     if (topHit.inNav) throw new Error(`Nav is above modal (navZ=${topHit.navZ}, backdropZ=${topHit.backdropZ})`);
-    if (topHit.id !== 'modalBackdrop') throw new Error('Expected modal backdrop to be on top at (10,10)');
+    if (!topHit.inBackdrop) throw new Error(`Element at (10,10) is outside modal backdrop (id="${topHit.id}")`);
 
     // close via Escape
     await page.keyboard.press('Escape');
