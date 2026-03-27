@@ -34,11 +34,37 @@
 </head>
 <body>
   <nav class="scrolled">
-    <div class="logo">Bodensee<span>.</span></div>
+    <a class="logo" id="premiumBackLogo" href="./" style="text-decoration:none; cursor:pointer;">Bodensee<span>.</span></a>
     <div class="nav-tools" aria-label="Tools">
-      <a class="pill-switch" href="./" style="text-decoration:none">Zur Karte</a>
+      <a class="pill-switch" id="premiumBackBtn" href="./" style="text-decoration:none">← Zur Karte</a>
     </div>
   </nav>
+
+  <script>
+    (function() {
+      const LAKE_NAMES = {
+        'bodensee': 'Bodensee', 'genfersee': 'Genfersee', 'lago-maggiore': 'Lago Maggiore',
+        'thunersee': 'Thunersee', 'vierwaldstaettersee': 'Vierwaldstättersee',
+        'zuerichsee': 'Zürichsee', 'zugersee': 'Zugersee'
+      };
+      const params = new URLSearchParams(location.search);
+      const lakeId = params.get('lake') || 'bodensee';
+      const lakeName = LAKE_NAMES[lakeId] || 'Bodensee';
+      const backUrl = lakeId === 'bodensee' ? './' : `./?lake=${lakeId}`;
+
+      const logo = document.getElementById('premiumBackLogo');
+      if (logo) { logo.href = backUrl; logo.innerHTML = `${lakeName}<span>.</span>`; }
+
+      const btn = document.getElementById('premiumBackBtn');
+      if (btn) { btn.href = backUrl; btn.textContent = `← ${lakeName}`; }
+
+      // Bottom back button (rendered later in DOM — patch on DOMContentLoaded)
+      document.addEventListener('DOMContentLoaded', () => {
+        const bottom = document.getElementById('premiumBackBottom');
+        if (bottom) bottom.href = backUrl;
+      });
+    })();
+  </script>
 
   <section class="guide-section" style="padding-top:120px">
     <div class="section-header">
@@ -133,7 +159,7 @@
 
       <p style="text-align:center;color:rgba(255,255,255,0.4);font-size:0.8125rem">Oder via <a href="https://github.com/Phailipp/bodensee-segler-site/issues/new?title=Premium-Eintrag%20Anfrage&body=Betrieb:%20%0ASee:%20%0AWebsite:%20" target="_blank" rel="noreferrer" style="color:var(--gold)">GitHub Issue</a></p>
 
-      <p style="text-align:center;margin-top:32px"><a class="action-btn" href="./" style="text-decoration:none">Zurück zur Karte</a></p>
+      <p style="text-align:center;margin-top:32px"><a class="action-btn" id="premiumBackBottom" href="./" style="text-decoration:none">Zurück zur Karte</a></p>
     </div>
   </section>
 </body>
