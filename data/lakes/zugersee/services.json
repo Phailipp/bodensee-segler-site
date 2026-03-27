@@ -70,5 +70,29 @@
     "url": "https://www.nautik-center.ch/",
     "source": "nautik-center.ch",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "slip_risch",
+    "name": "Slipanlage Risch-Rotkreuz",
+    "country": "CH",
+    "type": "slip",
+    "details": "Sliprampe am Ostufer des Zugersees bei Risch · saisonal",
+    "lat": 47.142,
+    "lng": 8.471,
+    "url": "https://zg.ch/de/mobilitaet-reisen/schifffahrt/schiffszulassung",
+    "source": "Kanton Zug – Schifffahrt",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "tank_risch",
+    "name": "Tankstelle Marina Risch",
+    "country": "CH",
+    "type": "fuel",
+    "details": "Diesel & Benzin · Marina Risch am Zugersee Ostufer",
+    "lat": 47.143,
+    "lng": 8.472,
+    "url": "https://www.risch.ch/",
+    "source": "Gemeinde Risch",
+    "lastVerified": "2026-03-27"
   }
 ]

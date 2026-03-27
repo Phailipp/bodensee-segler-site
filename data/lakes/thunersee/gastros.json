@@ -189,5 +189,41 @@
     "candidateSource": null,
     "phone": "+41 33 223 73 47",
     "hours": "Mo–Sa 07:00–22:00"
+  },
+  {
+    "id": "seehus_spiez",
+    "name": "Seehüs Spiez",
+    "country": "CH",
+    "location": "Spiez, Hafen",
+    "lat": 46.693,
+    "lng": 7.676,
+    "price": "€€",
+    "berthing": "Hafen Spiez direkt nebenan",
+    "features": [
+      "Seerestaurant",
+      "Seeterrasse",
+      "Direkt am Hafen"
+    ],
+    "url": "https://www.seehus-spiez.ch/",
+    "source": "https://www.seehus-spiez.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "badehaus_neuhaus",
+    "name": "Restaurant Badehaus Neuhaus",
+    "country": "CH",
+    "location": "Neuhaus, Thunersee Ostende",
+    "lat": 46.674,
+    "lng": 7.808,
+    "price": "€€",
+    "berthing": "Anlegesteg Neuhaus direkt",
+    "features": [
+      "Seerestaurant",
+      "Seeterrasse",
+      "Direkt am See"
+    ],
+    "url": "https://www.badehaus-neuhaus.ch/",
+    "source": "https://www.badehaus-neuhaus.ch/",
+    "lastVerified": "2026-03-27"
   }
 ]
