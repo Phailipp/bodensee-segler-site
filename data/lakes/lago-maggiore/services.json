@@ -133,5 +133,61 @@
     "url": "https://portolago.com/",
     "source": "portolago.com",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "tankstelle_passionelago_tenero",
+    "name": "Passione Lago – Tankstelle Tenero",
+    "country": "CH",
+    "location": "Tenero-Contra",
+    "type": "fuel",
+    "details": "Benzin · 24h Automat · Via Brere/Campofelice · Reparaturen, Restaurierungen, Winterlager, Vermietung · Boesch-Händler",
+    "lat": 46.1668,
+    "lng": 8.8560,
+    "url": "https://dealers.boesch.swiss/de/servizio-motoscafi-boesch/",
+    "phone": "+41 91 745 16 35",
+    "source": "dealers.boesch.swiss (via passionelago.ch); bootfahren-lago-maggiore.de – Seetankstellen",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "tankstelle_donato_calde",
+    "name": "Tankstelle Cantiere Nautico Donato",
+    "country": "IT",
+    "location": "Caldè (Castelveccana)",
+    "type": "fuel",
+    "details": "Benzin (kein Diesel) · Piazza Lago 2 · Mo–So 09:00–12:30 & 14:00–18:30 (Saisonbetrieb) · Schwimmsteg · Werft, Winterlager, Bootschule, MerCruiser/Mercury-Händler",
+    "lat": 45.9469,
+    "lng": 8.6607,
+    "url": "https://cantierenauticodonato.it/en/fuel-service/",
+    "phone": "+39 0332 520202",
+    "source": "cantierenauticodonato.it; bootfahren-lago-maggiore.de – Seetankstellen",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "werft_punta_molino_porto_valtravaglia",
+    "name": "Cantiere Nautico Punta Molino",
+    "country": "IT",
+    "location": "Porto Valtravaglia",
+    "type": "yard",
+    "details": "Werft, Winterlager, Kranlift, Wartung & Reparatur · Via Angelo Lucchini 3 · Di–So 09:00–12:00 & 14:00–19:00, Mo geschlossen (Jul/Aug täglich)",
+    "lat": 45.9606,
+    "lng": 8.6755,
+    "url": "https://cantierepuntamolino.com/",
+    "phone": "+39 0332 547640",
+    "source": "cantierepuntamolino.com; bootfahren-lago-maggiore.de – Werften Italien",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "werft_hammer_riazzino",
+    "name": "Hammer Cantiere Nautico",
+    "country": "CH",
+    "location": "Riazzino",
+    "type": "yard",
+    "details": "Moderne Werft seit 2006 · ca. 175 Winterlagerplätze · Kranlift · Reparaturen, Antifouling · Verkauf: Absolute, Axopar, Beneteau, Nimbus u.a. · Via Campagna 21",
+    "lat": 46.1690,
+    "lng": 8.9010,
+    "url": "https://hammerr.com/",
+    "phone": "+41 91 752 36 93",
+    "source": "hammerr.com; bootfahren-lago-maggiore.de – Werften Schweiz",
+    "lastVerified": "2026-03-27"
   }
 ]
