@@ -120,18 +120,18 @@ function applyLakeBranding() {
   const hero = document.querySelector('.hero');
   if (hero) {
     const heroPositions = {
-      'bodensee': 'center 40%',
+      'bodensee': 'center 45%',
       'genfersee': 'center 50%',
-      'lago-maggiore': 'center 50%',
+      'lago-maggiore': 'center 35%',
       'thunersee': 'center 40%',
-      'vierwaldstaettersee': 'center 50%',
-      'zuerichsee': 'center 35%',
+      'vierwaldstaettersee': 'center 30%',
+      'zuerichsee': 'center 60%',
       'zugersee': 'center 50%'
     };
     const pos = heroPositions[lakeId] || 'center 50%';
     hero.style.backgroundImage = `linear-gradient(180deg, rgba(12,25,41,0.3) 0%, rgba(12,25,41,0.8) 100%), url('assets/hero-${lakeId}.jpg')`;
     hero.style.backgroundPosition = `center, ${pos}`;
-    hero.style.backgroundSize = 'auto, cover';
+    hero.style.backgroundSize = 'cover, cover';
     hero.style.backgroundRepeat = 'no-repeat, no-repeat';
   }
 
