@@ -119,5 +119,39 @@
     "url": "https://www.thunersee.ch/",
     "source": "Thunersee Tourismus",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "thun_einigen",
+    "name": "Bucht Einigen",
+    "country": "CH",
+    "region": "Einigen, Westufer Thunersee",
+    "lat": 46.703,
+    "lng": 7.635,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Schlamm",
+    "protection": "E",
+    "overnight": false,
+    "notes": "Ruhiger Tagesanker am Westufer zwischen Gwatt und Spiez. Wenig frequentiert, guter Ankergrund. Bei Ost- bis Nordostwind gut geschützt.",
+    "url": "https://www.thunersee.ch/",
+    "source": "Thunersee Tourismus",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "thun_niederried",
+    "name": "Bucht vor Niederried",
+    "country": "CH",
+    "region": "Niederried, Ostufer Thunersee",
+    "lat": 46.718,
+    "lng": 7.757,
+    "depthMinM": 3,
+    "depthMaxM": 10,
+    "ground": "Schlamm/Sand",
+    "protection": "W",
+    "overnight": false,
+    "notes": "Ankermöglichkeit am Ostufer zwischen Merligen und Faulensee. Ruhig bei Westwind, schöner Blick auf die Berner Alpen.",
+    "url": "https://www.thunersee.ch/",
+    "source": "Thunersee Tourismus",
+    "lastVerified": "2026-03-27"
   }
 ]

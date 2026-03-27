@@ -148,5 +148,39 @@
     "url": "https://www.skipperguide.de/wiki/Z%C3%BCrichsee",
     "source": "SkipperGuide – Zürichsee",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "zs_erlenbach",
+    "name": "Bucht vor Erlenbach",
+    "country": "CH",
+    "region": "Erlenbach ZH, Westufer",
+    "lat": 47.306,
+    "lng": 8.591,
+    "depthMinM": 4,
+    "depthMaxM": 12,
+    "ground": "Schlamm",
+    "protection": "E",
+    "overnight": false,
+    "notes": "Tagesanker vor Erlenbach am Westufer zwischen Thalwil und Meilen. Ruhig bei Ostwind. 25m Abstand zu Schilfzonen einhalten.",
+    "url": "https://www.skipperguide.de/wiki/Z%C3%BCrichsee",
+    "source": "SkipperGuide – Zürichsee",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "zs_wollerau",
+    "name": "Bucht vor Wollerau",
+    "country": "CH",
+    "region": "Wollerau / Freienbach, Ostufer",
+    "lat": 47.193,
+    "lng": 8.753,
+    "depthMinM": 3,
+    "depthMaxM": 10,
+    "ground": "Schlamm",
+    "protection": "W/NW",
+    "overnight": false,
+    "notes": "Ankerplatz südlich von Pfäffikon vor Wollerau/Freienbach. Wenig überlaufen, guter Ankergrund. Untiefe beim Südufer beachten.",
+    "url": "https://www.skipperguide.de/wiki/Z%C3%BCrichsee",
+    "source": "SkipperGuide – Zürichsee",
+    "lastVerified": "2026-03-27"
   }
 ]
