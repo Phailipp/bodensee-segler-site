@@ -112,5 +112,29 @@
     "email": "",
     "hours": "",
     "prices": ""
+  },
+  {
+    "id": "vws_tank_fluelen",
+    "name": "Tankstelle Flüelen",
+    "country": "CH",
+    "type": "fuel",
+    "details": "Diesel & Benzin im Hafen Flüelen · Südende Vierwaldstättersee",
+    "lat": 46.906,
+    "lng": 8.628,
+    "url": "https://www.fluelen.ch/",
+    "source": "Hafen Flüelen / Gemeinde",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "vws_slip_vitznau",
+    "name": "Slipanlage Vitznau",
+    "country": "CH",
+    "type": "slip",
+    "details": "Öffentliche Sliprampe Hafen Vitznau · saisonal",
+    "lat": 47.013,
+    "lng": 8.475,
+    "url": "https://www.vitznau.ch/",
+    "source": "Gemeinde Vitznau",
+    "lastVerified": "2026-03-27"
   }
 ]

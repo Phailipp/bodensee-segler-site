@@ -136,5 +136,39 @@
     "source": "hisse-et-oh.com – Mouiller l'ancre sur le Léman",
     "lastVerified": "2026-03-27",
     "restrictions": "Naturschutzzone Lavaux beachten. Fahrrinne freihalten."
+  },
+  {
+    "id": "lutry_bucht",
+    "name": "Vor Lutry",
+    "country": "CH",
+    "region": "Lutry, Vaud",
+    "lat": 46.503,
+    "lng": 6.685,
+    "depthMinM": 4,
+    "depthMaxM": 12,
+    "ground": "Schlamm",
+    "protection": "NW",
+    "overnight": false,
+    "notes": "Ankermöglichkeit vor dem Weinbaustädtchen Lutry östlich von Lausanne. Lavaux-Kulisse, ruhig bei Nordwestwind (Cers). Landgang möglich.",
+    "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
+    "source": "hisse-et-oh.com – Léman anchorages",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "thonon_rives",
+    "name": "Vor Thonon-les-Bains",
+    "country": "FR",
+    "region": "Thonon-les-Bains, Haute-Savoie",
+    "lat": 46.373,
+    "lng": 6.466,
+    "depthMinM": 3,
+    "depthMaxM": 10,
+    "ground": "Sand/Schlamm",
+    "protection": "SW",
+    "overnight": false,
+    "notes": "Ankerplatz östlich des Hafens Thonon-les-Bains. Gut zugänglich, windgeschützt bei Südwestwind. Kurzer Dinghy-Transfer zum Hafen.",
+    "url": "https://www.thonon-les-bains.fr/cadre-de-vie/port-de-plaisance/",
+    "source": "Port de Plaisance Thonon-les-Bains",
+    "lastVerified": "2026-03-27"
   }
 ]

@@ -164,5 +164,39 @@
     "url": "https://sonneamsee.ch/",
     "source": "https://sonneamsee.ch/",
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "restaurant_hecht_horgen",
+    "name": "Restaurant Hecht am See",
+    "country": "CH",
+    "location": "Horgen",
+    "lat": 47.249,
+    "lng": 8.608,
+    "price": "€€",
+    "features": [
+      "Schweizer Küche",
+      "Seeterrasse",
+      "Direkt am See"
+    ],
+    "url": "https://www.hecht-horgen.ch/",
+    "source": "https://www.hecht-horgen.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "seehütte_männedorf",
+    "name": "Seehütte Männedorf",
+    "country": "CH",
+    "location": "Männedorf",
+    "lat": 47.257,
+    "lng": 8.703,
+    "price": "€€",
+    "features": [
+      "Grillrestaurant",
+      "Seeterrasse",
+      "Direkt am See"
+    ],
+    "url": "https://www.seehuette-maennedorf.ch/",
+    "source": "https://www.seehuette-maennedorf.ch/",
+    "lastVerified": "2026-03-27"
   }
 ]
