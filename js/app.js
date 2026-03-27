@@ -1189,9 +1189,14 @@ function openModal(type, item) {
   const issueUrl = `https://github.com/Phailipp/bodensee-segler-site/issues/new?title=${issueTitle}&body=${issueBody}`;
   actions.push(`<a class="action-btn" href="${issueUrl}" target="_blank" rel="noreferrer">${t('modal.actions.report')}</a>`);
 
+  const claimCTA = !item.premium
+    ? `<div class="modal-claim"><a href="./premium.html" target="_blank" rel="noreferrer">${t('modal.claim')}</a></div>`
+    : '';
+
   body.innerHTML = `
     <div class="modal-grid">${rows.join('')}</div>
     <div class="modal-actions">${actions.join('')}</div>
+    ${claimCTA}
   `;
 
   backdrop.classList.add('open');
