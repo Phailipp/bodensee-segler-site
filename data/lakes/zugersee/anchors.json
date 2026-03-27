@@ -49,5 +49,41 @@
     "url": "https://www.boatdriver.ch/infos/besondere-kantonale-regeln/besondere-regeln-auf-dem-zugersee",
     "source": "boatdriver.ch – Besondere Regeln Zugersee",
     "lastVerified": "2026-03-24"
+  },
+  {
+    "id": "walchwil_bucht",
+    "name": "Vor Walchwil",
+    "country": "CH",
+    "region": "Walchwil",
+    "lat": 47.0928,
+    "lng": 8.509,
+    "depthMinM": 4,
+    "depthMaxM": 12,
+    "ground": "Schlamm",
+    "protection": "N/NW",
+    "overnight": false,
+    "notes": "Ruhiger Ankerplatz am Südufer bei Walchwil, unterhalb des Zugerbergs. Naturnahe Umgebung, wenig Schiffsverkehr. Uferzone beachten.",
+    "url": "https://www.boatdriver.ch/infos/besondere-kantonale-regeln/besondere-regeln-auf-dem-zugersee",
+    "source": "boatdriver.ch – Besondere Regeln Zugersee",
+    "lastVerified": "2026-03-27",
+    "restrictions": "25m Abstand zu Schilfzonen und Ufervegetation. Max. 24h."
+  },
+  {
+    "id": "zug_nord_bucht",
+    "name": "Bucht nördlich Zug",
+    "country": "CH",
+    "region": "Zug Nord",
+    "lat": 47.185,
+    "lng": 8.505,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Schlamm",
+    "protection": "S",
+    "overnight": false,
+    "notes": "Ankerplatz im nördlichen Bereich des Zugersees. Stadtblick auf Zug, gute Zugänglichkeit per Dinghy. Uferzone und Schifffahrtsregeln des Kantons Zug beachten.",
+    "url": "https://www.boatdriver.ch/infos/besondere-kantonale-regeln/besondere-regeln-auf-dem-zugersee",
+    "source": "boatdriver.ch – Besondere Regeln Zugersee",
+    "lastVerified": "2026-03-27",
+    "restrictions": "Uferzone 30m einhalten. Max. 24h."
   }
 ]
