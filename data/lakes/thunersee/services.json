@@ -12,18 +12,6 @@
     "lastVerified": "2026-03-23"
   },
   {
-    "id": "slip_thun",
-    "name": "Slip Thun",
-    "country": "CH",
-    "type": "slip",
-    "details": "Sliprampe am Seeufer Thun",
-    "lat": 46.752,
-    "lng": 7.631,
-    "url": "https://www.thun.ch/",
-    "source": "https://www.thun.ch/",
-    "lastVerified": "2026-03-23"
-  },
-  {
     "id": "kran_spiez",
     "name": "Kran Spiez Marina",
     "country": "CH",
@@ -34,18 +22,6 @@
     "url": "https://www.spiez.com/en/activities/on-the-water",
     "source": "https://www.spiez.com/",
     "lastVerified": "2026-03-23"
-  },
-  {
-    "id": "tank_neuhaus",
-    "name": "Seetankstelle Neuhaus",
-    "country": "CH",
-    "type": "fuel",
-    "details": "Tankstelle für Motorboote am östlichen Ende des Thunersees · Bleifrei & Diesel · Saison Apr–Okt",
-    "lat": 46.677,
-    "lng": 7.808,
-    "url": "https://www.interlaken.ch/de/erleben/aktivitaeten/wassersport/motorbootfahren",
-    "source": "Interlaken Tourismus – Wassersport",
-    "lastVerified": "2026-03-27"
   },
   {
     "id": "kran_leissigen",
@@ -69,30 +45,6 @@
     "lng": 7.6552,
     "url": "https://www.hilterfingen.ch/verwaltung/bauverwaltung/liegenschaften/bootsplaetze/",
     "source": "Gemeinde Hilterfingen",
-    "lastVerified": "2026-03-27"
-  },
-  {
-    "id": "repair_spiez_werft",
-    "name": "Bootswerft Spiez",
-    "country": "CH",
-    "type": "repair",
-    "details": "GFK-Reparaturen, Motorservice, Antifouling, Winterlager · Hafen Spiez",
-    "lat": 46.686,
-    "lng": 7.681,
-    "url": "https://www.spiez.ch/",
-    "source": "Spiez Tourismus / Hafenverwaltung",
-    "lastVerified": "2026-03-27"
-  },
-  {
-    "id": "repair_interlaken_bootsbau",
-    "name": "Bootsbau Interlaken",
-    "country": "CH",
-    "type": "yard",
-    "details": "Bootswerft und -handel, Reparaturen, Winterlager · Neuhaus / Thunersee Ost",
-    "lat": 46.6791,
-    "lng": 7.8167,
-    "url": "https://www.interlaken.ch/",
-    "source": "Interlaken Tourismus",
     "lastVerified": "2026-03-27"
   }
 ]
