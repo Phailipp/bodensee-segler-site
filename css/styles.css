@@ -98,7 +98,7 @@ body {
 
 .hero-cta:hover { background: var(--gold); color: var(--navy); }
 
-.hero-compact { height: auto; min-height: 340px; padding: 100px 0 48px; }
+.hero-compact { height: auto; min-height: 340px; padding: max(100px, calc(var(--nav-h, 96px) + 16px)) 0 48px; }
 .hero-compact .hero-content { padding: 0 24px; }
 .hero-compact .scroll-indicator { display: none; }
 
@@ -856,14 +856,14 @@ footer { padding: 80px 48px; padding-bottom: max(80px, calc(48px + env(safe-area
   /* Hero + map feel less "huge" on mobile */
   .hero { min-height: 560px; }
   .hero::before { height: 120px; }
-  .hero-compact { min-height: 260px; padding: 80px 0 28px; }
+  .hero-compact { min-height: 260px; padding: max(80px, calc(var(--nav-h, 112px) + 12px)) 0 28px; }
   .hero p { margin-bottom: 22px; }
 
   .map-section { height: 70vh; min-height: 480px; }
 
   /* Sections: scroll-margin so fixed nav doesn't cover heading on anchor jump */
-  section { padding: 64px 16px; scroll-margin-top: 62px; }
-  .quick-filters { scroll-margin-top: 62px; }
+  section { padding: 64px 16px; scroll-margin-top: max(62px, var(--nav-h, 62px)); }
+  .quick-filters { scroll-margin-top: max(62px, var(--nav-h, 62px)); }
 
   .quick-filters { padding: 10px 16px; }
 
