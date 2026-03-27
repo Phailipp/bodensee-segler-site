@@ -168,9 +168,9 @@
       "Tretboote",
       "SUP"
     ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
+    "url": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
+    "source": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
+    "lastVerified": "2026-03-23",
     "phone": "+49 7541 21746",
     "hours": "Mo-Fr 11:00-20:00; Sa,So 10:00-19:00",
     "candidateUrl": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
@@ -302,27 +302,6 @@
     "url": "https://www.diepaddler.de/",
     "source": "https://www.diepaddler.de/",
     "lastVerified": "2026-03-23"
-  },
-  {
-    "id": "osm-node-8673029452-bootsvermietung-hagnau",
-    "name": "Bootsvermietung Hagnau",
-    "country": "DE",
-    "location": "Hagnau",
-    "lat": 47.6730614,
-    "lng": 9.3194526,
-    "fleetSize": 6,
-    "priceFrom": "ab €15/Std",
-    "features": [
-      "Motorboote",
-      "Tretboote"
-    ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
-    "phone": "+497532446372",
-    "candidateUrl": "https://bootsvermietung-friedrichshafen.de/",
-    "candidateFoundAt": "2026-03-23",
-    "candidateSource": "OSM node 8673029452 – URL gehört zu anderem Betrieb in Friedrichshafen, nicht zu Hagnau"
   },
   {
     "id": "osm-node-8889638963-la-canoa",
@@ -484,9 +463,9 @@
       "Tretboote",
       "SUP"
     ],
-    "url": "",
-    "source": "",
-    "lastVerified": "",
+    "url": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
+    "source": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
+    "lastVerified": "2026-03-23",
     "hours": "Apr-Okt: 11:00-19:00",
     "candidateUrl": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
     "candidateFoundAt": "2026-03-23",
