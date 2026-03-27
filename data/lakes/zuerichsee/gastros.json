@@ -198,5 +198,60 @@
     "url": "https://www.seehuette-maennedorf.ch/",
     "source": "https://www.seehuette-maennedorf.ch/",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "lo_horgen",
+    "name": "Seerestaurant L'O",
+    "country": "CH",
+    "location": "Horgen",
+    "lat": 47.2588,
+    "lng": 8.5986,
+    "price": "€€-€€€",
+    "features": [
+      "Mediterrane Küche",
+      "Fischgerichte",
+      "Seeterrasse",
+      "Charcoal-Grill",
+      "Bootssteg"
+    ],
+    "url": "https://www.lo-horgen.ch/",
+    "source": "https://www.lo-horgen.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "meilibach_au",
+    "name": "Seerestaurant Meilibach",
+    "country": "CH",
+    "location": "Au ZH / Wädenswil",
+    "lat": 47.2194,
+    "lng": 8.6667,
+    "price": "€",
+    "features": [
+      "Fischgerichte",
+      "Seeterrasse",
+      "Familienrestaurant",
+      "Kindermenü"
+    ],
+    "url": "https://www.restaurant-meilibach.ch/",
+    "source": "https://www.restaurant-meilibach.ch/",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "tracht_rueschlikon",
+    "name": "Tracht – Ein Haus am See",
+    "country": "CH",
+    "location": "Rüschlikon",
+    "lat": 47.3024,
+    "lng": 8.5477,
+    "price": "€€-€€€",
+    "features": [
+      "Moderne Schweizer Küche",
+      "Seeterrasse",
+      "Wassertaxi-Service",
+      "Privaträume"
+    ],
+    "url": "https://einhausamsee.ch/",
+    "source": "https://einhausamsee.ch/",
+    "lastVerified": "2026-03-27"
   }
 ]
