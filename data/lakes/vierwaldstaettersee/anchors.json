@@ -159,5 +159,41 @@
     "holding": "",
     "swell": "",
     "restrictions": "Bei Föhn nicht ankern. Fahrrinne Kursschiffe freihalten."
+  },
+  {
+    "id": "vws_weggis",
+    "name": "Bucht Weggis",
+    "country": "CH",
+    "region": "Weggis, Vierwaldstättersee",
+    "lat": 47.033,
+    "lng": 8.434,
+    "depthMinM": 4,
+    "depthMaxM": 15,
+    "ground": "Schlamm",
+    "protection": "S/SW",
+    "overnight": false,
+    "notes": "Beliebter Ankerplatz in der Bucht von Weggis, dem wärmsten Ort der Zentralschweiz. Gut geschützt bei Südwestwind. Schöner Blick auf Rigi und Pilatus.",
+    "url": "https://www.weggis.ch/",
+    "source": "Weggis Tourismus",
+    "lastVerified": "2026-03-27",
+    "restrictions": "Badezonen freihalten. Schifffahr Weggis-Vitznau beachten."
+  },
+  {
+    "id": "vws_fluelen",
+    "name": "Vor Flüelen (Urnersee)",
+    "country": "CH",
+    "region": "Flüelen, Urnersee Süd",
+    "lat": 46.910,
+    "lng": 8.625,
+    "depthMinM": 5,
+    "depthMaxM": 30,
+    "ground": "Schlamm",
+    "protection": "N",
+    "overnight": true,
+    "notes": "Ankerplatz am südlichen Ende des Urnersees vor Flüelen. Gut geschützt bei Nordwind. Bei Föhn starke Böen möglich — dann sofort verlassen. Eintritt in den Urner Reusskanal verboten.",
+    "url": "https://www.fluelen.ch/",
+    "source": "Gemeinde Flüelen / ESYS Revierführer",
+    "lastVerified": "2026-03-27",
+    "restrictions": "Bei Föhn sofort verlassen. Reusskanal-Sperrbereich freihalten."
   }
 ]
