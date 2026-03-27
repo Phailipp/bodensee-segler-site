@@ -137,5 +137,39 @@
     "source": "bootfahren-lago-maggiore.de – Ankern",
     "lastVerified": "2026-03-27",
     "restrictions": "Fahrrinnen der Fähren freihalten. Ankerzone auf erlaubte Bereiche beschränkt."
+  },
+  {
+    "id": "ghiffa_bucht",
+    "name": "Bucht bei Ghiffa",
+    "country": "IT",
+    "region": "Ghiffa, Westufer",
+    "lat": 45.970,
+    "lng": 8.620,
+    "depthMinM": 4,
+    "depthMaxM": 15,
+    "ground": "Schlamm",
+    "protection": "E/NE",
+    "overnight": false,
+    "notes": "Ruhiger Ankerplatz am Westufer zwischen Verbania und Cannero. Gut geschützt bei Ostwind. Traumhafter Blick über den See. Per Dinghy nach Ghiffa erreichbar.",
+    "url": "https://bootfahren-lago-maggiore.de/revierfuehrer/ankern/",
+    "source": "bootfahren-lago-maggiore.de – Ankern",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "pallanza_bucht",
+    "name": "Bucht Verbania-Pallanza",
+    "country": "IT",
+    "region": "Verbania, Westbucht",
+    "lat": 45.935,
+    "lng": 8.555,
+    "depthMinM": 5,
+    "depthMaxM": 20,
+    "ground": "Schlamm/Sand",
+    "protection": "E",
+    "overnight": false,
+    "notes": "Ankermöglichkeit in der Bucht westlich von Verbania-Pallanza. Gut zugänglich, ruhig bei Ostwind. Landgang über Marina Pallanza möglich.",
+    "url": "https://bootfahren-lago-maggiore.de/revierfuehrer/ankern/",
+    "source": "bootfahren-lago-maggiore.de – Ankern",
+    "lastVerified": "2026-03-27"
   }
 ]
