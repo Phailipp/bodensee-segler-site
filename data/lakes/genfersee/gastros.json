@@ -132,20 +132,19 @@
     "lastVerified": "2026-03-23"
   },
   {
-    "id": "la_rouvenaz_montreux",
-    "name": "Restaurant La Rouvenaz",
+    "id": "cafe_de_la_gare_morges",
+    "name": "Restaurant Le Léman",
     "country": "CH",
-    "location": "Montreux, Hafen",
-    "lat": 46.4335,
-    "lng": 6.9107,
-    "price": "€€€",
+    "location": "Morges, Hafen",
+    "lat": 46.5068,
+    "lng": 6.4983,
+    "price": "€€",
     "features": [
       "Fischgerichte",
-      "Seeterrasse",
-      "Direkt am See"
+      "Seeterrasse am Hafen"
     ],
-    "url": "https://www.rouvenaz.ch/restaurant/",
-    "source": "https://www.rouvenaz.ch/",
+    "url": "https://restaurant-leleman.ch/",
+    "source": "https://restaurant-leleman.ch/",
     "lastVerified": "2026-03-27"
   },
   {
@@ -164,22 +163,5 @@
     "url": "https://leresto-rolle.com/en/",
     "source": "https://leresto-rolle.com/",
     "lastVerified": "2026-03-23"
-  },
-  {
-    "id": "auberge_onde_stsaphorin",
-    "name": "Auberge de l'Onde",
-    "country": "CH",
-    "location": "Saint-Saphorin, Lavaux",
-    "lat": 46.478,
-    "lng": 6.793,
-    "price": "€€€",
-    "features": [
-      "Traditionelle Waadtländer Küche",
-      "Seeterrasse",
-      "UNESCO-Weinberge Lavaux"
-    ],
-    "url": "https://www.aubergedelonde.ch/",
-    "source": "https://www.aubergedelonde.ch/",
-    "lastVerified": "2026-03-27"
   }
 ]

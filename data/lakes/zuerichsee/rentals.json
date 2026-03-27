@@ -122,21 +122,43 @@
     "hours": "Mai–Sep täglich 09:00–Sonnenuntergang"
   },
   {
-    "id": "segelschule_zuerichsee_thalwil",
-    "name": "Segelschule am Zürichsee",
+    "id": "sms_zuerichsee",
+    "name": "SMS Zürichsee",
     "country": "CH",
-    "location": "Thalwil",
-    "lat": 47.294,
-    "lng": 8.567,
+    "location": "Zürich-Wollishofen",
+    "lat": 47.3422,
+    "lng": 8.5287,
     "fleetSize": 10,
-    "priceFrom": "ab CHF 350/Wochenende (Kurs)",
+    "priceFrom": "auf Anfrage",
     "features": [
-      "Segelkurse",
-      "Scheinerkurse",
-      "Charteryachten"
+      "Motorboote",
+      "Segelyachten",
+      "Charter & Kurzmiete"
     ],
-    "url": "https://www.segelschule-zuerichsee.ch/",
-    "source": "https://www.segelschule-zuerichsee.ch/",
-    "lastVerified": "2026-03-27"
+    "url": "https://www.sms-zuerichsee.ch/",
+    "source": "https://www.sms-zuerichsee.ch/",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 44 480 08 77",
+    "hours": "tägl. 07:00–21:00, Saison"
+  },
+  {
+    "id": "globesailing_zuerich",
+    "name": "Globesailing Zürich",
+    "country": "CH",
+    "location": "Zürich, Enge",
+    "lat": 47.3585,
+    "lng": 8.5375,
+    "fleetSize": 6,
+    "priceFrom": "ab CHF 160/Tag",
+    "features": [
+      "Segelyachten (Yngling, J70)",
+      "Charter ohne Skipper",
+      "Segelkurse"
+    ],
+    "url": "https://www.globesailing.ch/",
+    "source": "https://www.globesailing.ch/",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 44 480 28 40",
+    "hours": "Saison (April–Oktober)"
   }
 ]
