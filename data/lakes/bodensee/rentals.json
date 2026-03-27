@@ -168,11 +168,14 @@
       "Tretboote",
       "SUP"
     ],
-    "url": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
-    "source": "https://www.echt-bodensee.de/",
-    "lastVerified": "2026-03-23",
+    "url": "",
+    "source": "",
+    "lastVerified": "",
     "phone": "+49 7541 21746",
-    "hours": "Mo-Fr 11:00-20:00; Sa,So 10:00-19:00"
+    "hours": "Mo-Fr 11:00-20:00; Sa,So 10:00-19:00",
+    "candidateUrl": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
+    "candidateFoundAt": "2026-03-23",
+    "candidateSource": "OSM – Aggregator-URL (echt-bodensee.de), kein direkter Betreiber-Link"
   },
   {
     "id": "osm-node-4865580144-wassersport-schattmaier",
@@ -481,10 +484,13 @@
       "Tretboote",
       "SUP"
     ],
-    "url": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
-    "source": "https://www.echt-bodensee.de/",
-    "lastVerified": "2026-03-23",
-    "hours": "Apr-Okt: 11:00-19:00"
+    "url": "",
+    "source": "",
+    "lastVerified": "",
+    "hours": "Apr-Okt: 11:00-19:00",
+    "candidateUrl": "https://www.echt-bodensee.de/attraktion/bootsvermietung-fluck-346b8c496d",
+    "candidateFoundAt": "2026-03-23",
+    "candidateSource": "OSM – Aggregator-URL (echt-bodensee.de), kein direkter Betreiber-Link"
   },
   {
     "id": "osm-way-1346181337-bootsvermietung-wasserburg",

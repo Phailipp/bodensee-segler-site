@@ -19,12 +19,12 @@
   {
     "id": "frogs_rafting",
     "name": "Frogs Rafting",
-    "country": "CH",
+    "country": "FR",
     "location": "Thonon-les-Bains",
     "lat": 46.373,
     "lng": 6.477,
     "fleetSize": 15,
-    "priceFrom": "ab CHF 40/Person",
+    "priceFrom": "ab €40/Person",
     "features": [
       "Rafting",
       "Kajak",
