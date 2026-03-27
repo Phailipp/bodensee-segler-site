@@ -85,5 +85,39 @@
     "source": "boatdriver.ch – Besondere Regeln Zugersee",
     "lastVerified": "2026-03-27",
     "restrictions": "Uferzone 30m einhalten. Max. 24h."
+  },
+  {
+    "id": "zugersee_steinhausen",
+    "name": "Bucht bei Steinhausen",
+    "country": "CH",
+    "region": "Steinhausen, Westufer",
+    "lat": 47.188,
+    "lng": 8.483,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Schlamm",
+    "protection": "E",
+    "overnight": false,
+    "notes": "Ruhiger Tagesanker am Westufer bei Steinhausen. Weniger frequentiert als die Zugbucht. 30m Abstand zum Ufer einhalten.",
+    "url": "https://www.boatdriver.ch/infos/besondere-kantonale-regeln/besondere-regeln-auf-dem-zugersee",
+    "source": "boatdriver.ch – Zugersee",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "zugersee_immensee",
+    "name": "Vor Immensee",
+    "country": "CH",
+    "region": "Immensee, Südostufer",
+    "lat": 47.095,
+    "lng": 8.465,
+    "depthMinM": 4,
+    "depthMaxM": 10,
+    "ground": "Schlamm",
+    "protection": "N/NW",
+    "overnight": false,
+    "notes": "Ankermöglichkeit südlich von Risch-Rotkreuz vor Immensee. Gut geschützt bei Nordwind. Ruhige Lage abseits des Hauptverkehrs.",
+    "url": "https://www.boatdriver.ch/infos/besondere-kantonale-regeln/besondere-regeln-auf-dem-zugersee",
+    "source": "boatdriver.ch – Zugersee",
+    "lastVerified": "2026-03-27"
   }
 ]

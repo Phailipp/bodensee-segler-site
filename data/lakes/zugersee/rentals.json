@@ -109,5 +109,41 @@
     "phone": "",
     "email": "",
     "hours": "Saison"
+  },
+  {
+    "id": "elektroboot_cham",
+    "name": "Elektroboote Cham",
+    "country": "CH",
+    "location": "Cham, Zugersee Westufer",
+    "lat": 47.182,
+    "lng": 8.463,
+    "fleetSize": 4,
+    "priceFrom": "ab CHF 35/Std",
+    "features": [
+      "Elektrische Boote",
+      "Führerscheinfrei",
+      "Familien geeignet"
+    ],
+    "url": "https://www.cham.ch/",
+    "source": "Gemeinde Cham Tourismus",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "kayak_arth",
+    "name": "Kajak & SUP Arth",
+    "country": "CH",
+    "location": "Arth, Zugersee Südufer",
+    "lat": 47.065,
+    "lng": 8.523,
+    "fleetSize": 6,
+    "priceFrom": "ab CHF 20/Std",
+    "features": [
+      "Kajak",
+      "SUP",
+      "Führerscheinfrei"
+    ],
+    "url": "https://schwyz-tourismus.ch/",
+    "source": "Schwyz Tourismus",
+    "lastVerified": "2026-03-27"
   }
 ]
