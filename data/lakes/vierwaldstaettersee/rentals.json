@@ -158,5 +158,43 @@
     "url": "https://www.weggis.ch/",
     "source": "Weggis Tourismus",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "bootsvermietung_brunnen",
+    "name": "Bootsvermietung Brunnen",
+    "country": "CH",
+    "location": "Brunnen / Schwyz",
+    "lat": 46.993,
+    "lng": 8.608,
+    "fleetSize": 6,
+    "priceFrom": "ab CHF 45/Std",
+    "features": [
+      "Motorboote",
+      "SUP",
+      "Kajak",
+      "Führerscheinfrei"
+    ],
+    "url": "https://www.brunnen.ch/",
+    "source": "Brunnen Tourismus",
+    "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "wasserparadies_vitznau",
+    "name": "Wasserparadies Vitznau",
+    "country": "CH",
+    "location": "Vitznau",
+    "lat": 47.013,
+    "lng": 8.476,
+    "fleetSize": 5,
+    "priceFrom": "ab CHF 35/Std",
+    "features": [
+      "Motorboote",
+      "SUP",
+      "Elektrische Boote",
+      "Führerscheinfrei"
+    ],
+    "url": "https://www.vitznau.ch/",
+    "source": "Vitznau Tourismus",
+    "lastVerified": "2026-03-27"
   }
 ]
