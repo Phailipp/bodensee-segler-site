@@ -847,6 +847,105 @@ footer { padding: 48px 48px; padding-bottom: max(48px, calc(32px + env(safe-area
   .modal { max-height: calc(100vh - 16px); max-height: calc(100dvh - 16px); }
 }
 
+/* ── Nav Mehr dropdown ─────────────────────────────────────────── */
+.nav-mehr-item { position: relative; }
+
+.nav-mehr-btn {
+  background: none;
+  border: none;
+  color: var(--white);
+  font-size: 0.8125rem;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.nav-mehr-btn::after {
+  content: '▾';
+  font-size: 0.65rem;
+  opacity: 0.7;
+}
+.nav-mehr-btn:hover { opacity: 1; color: var(--gold); }
+
+.nav-mehr-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  min-width: 160px;
+  background: rgba(12,25,41,0.97);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 6px 0;
+  list-style: none;
+  z-index: 200;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+.nav-mehr-menu.open { display: block; }
+.nav-mehr-menu a {
+  display: block;
+  padding: 9px 18px;
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  transition: background 0.15s, color 0.15s;
+}
+.nav-mehr-menu a:hover { background: rgba(201,169,98,0.1); color: var(--gold); }
+
+/* ── Gastplatz-Filter Chips ────────────────────────────────────── */
+.gf-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.gf-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1.5px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.04);
+  color: rgba(255,255,255,0.75);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+.gf-chip:hover {
+  border-color: rgba(201,169,98,0.5);
+  color: var(--white);
+}
+.gf-chip.active {
+  border-color: var(--gold);
+  background: rgba(201,169,98,0.15);
+  color: var(--gold);
+}
+
+/* ── Modal guest-info badges ───────────────────────────────────── */
+.gf-badge-row { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.modal-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+.badge-yes { background: rgba(129,199,132,0.18); color: #81c784; border: 1px solid rgba(129,199,132,0.3); }
+.badge-no { background: rgba(229,115,115,0.15); color: #ef9a9a; border: 1px solid rgba(229,115,115,0.25); }
+.badge-info { background: rgba(201,169,98,0.12); color: var(--gold-light); border: 1px solid rgba(201,169,98,0.25); }
+
 @media (max-width: 768px) {
   nav,
   nav.scrolled {
@@ -908,6 +1007,27 @@ footer { padding: 48px 48px; padding-bottom: max(48px, calc(32px + env(safe-area
 
   .lang-toggle { gap: 6px; }
   .lang-toggle button { padding: 7px 9px; font-size: 0.72rem; }
+
+  /* Nav Mehr: in mobile drawer, show as plain links not dropdown */
+  .nav-mehr-btn { font-size: 0.9rem; padding: 10px 4px; display: block; color: rgba(255,255,255,0.6); }
+  .nav-mehr-btn::after { content: none; }
+  .nav-mehr-menu {
+    display: block;
+    position: static;
+    background: none;
+    border: none;
+    padding: 0 0 0 12px;
+    box-shadow: none;
+    backdrop-filter: none;
+    border-left: 2px solid rgba(201,169,98,0.2);
+    margin-top: 4px;
+  }
+  .nav-mehr-menu a { font-size: 0.88rem; padding: 8px 4px; }
+  .nav-mehr-btn[aria-expanded] { color: rgba(255,255,255,0.8); }
+
+  /* gf-chips: scrollable strip on mobile */
+  .gf-chips { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 4px; }
+  .gf-chip { flex-shrink: 0; }
 
   /* Hero + map feel less "huge" on mobile */
   .hero { min-height: 560px; }

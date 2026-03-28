@@ -28,7 +28,9 @@
     "maxLengthM": null,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": "13 Gastplätze via Boatpark-App buchbar"
+    "guestPolicy": "13 Gastplätze via Boatpark-App buchbar",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "TWINT", "Kreditkarte"]
   },
   {
     "id": "hergiswil",
@@ -61,7 +63,9 @@
     "maxLengthM": null,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": "13 Gastplätze via Boatpark-App"
+    "guestPolicy": "13 Gastplätze via Boatpark-App",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "TWINT", "Kreditkarte"]
   },
   {
     "id": "marina_fallenbach",
@@ -94,7 +98,9 @@
     "maxLengthM": null,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": "10–13 Gastplätze via Boatpark-App"
+    "guestPolicy": "10–13 Gastplätze via Boatpark-App",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "TWINT", "Kreditkarte"]
   },
   {
     "id": "rutenen_beckenried",
