@@ -84,6 +84,173 @@
           "overnight": null
         }
       ]
+    },
+    {
+      "id": "th_grand_tour_4d",
+      "name": "Thunersee Grand Tour",
+      "nameDe": "Thunersee Grand Tour: Alle Häfen in 4 Tagen",
+      "nameEn": "Lake Thun Grand Tour: All Harbours in 4 Days",
+      "days": 4,
+      "difficulty": "moderate",
+      "theme": ["landscape", "culture", "adventure"],
+      "totalDistanceNM": 32.5,
+      "description": "Der grosse Thunersee-Rundkurs besucht alle wichtigen Häfen an Nord- und Südufer und verbindet Schlosskultur, Bergpanorama und malerische Dörfer. Von Thun ostwärts am Nordufer entlang nach Neuhaus/Interlaken, dann westlich zurück am Südufer via Leissigen und Spiez.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "thun_lachen",
+          "to": "hafen_huenegg_hilterfingen",
+          "distanceNM": 3.2,
+          "estimatedHoursSail": 1.2,
+          "estimatedHoursMotor": 0.6,
+          "highlights": ["Schloss Hünegg (Historismus-Museum)", "Schloss Oberhofen auf halbem Weg", "Entspannter Einstieg mit Bergblick"],
+          "warnings": ["Flachwasserzone zwischen Thun und Hilterfingen"],
+          "overnight": {
+            "harbor": "hafen_huenegg_hilterfingen",
+            "notes": "5 Gastliegeplätze, Segelschule Thunersee als Anlaufstelle"
+          }
+        },
+        {
+          "day": 2,
+          "from": "hafen_huenegg_hilterfingen",
+          "to": "hafen_gunten",
+          "distanceNM": 4.2,
+          "estimatedHoursSail": 1.5,
+          "estimatedHoursMotor": 0.8,
+          "highlights": ["Gunten malerisches Dorf am Nordufer", "Schloss Ralligen auf dem Hügel", "Klassisches Bergpanorama Eiger – Mönch – Jungfrau"],
+          "warnings": ["Thermische Nachmittagsböen aus dem Lütschinental möglich"],
+          "overnight": null
+        },
+        {
+          "day": 2,
+          "from": "hafen_gunten",
+          "to": "hafen_merligen",
+          "distanceNM": 4.3,
+          "estimatedHoursSail": 1.5,
+          "estimatedHoursMotor": 0.9,
+          "highlights": ["Beatushöhlen direkt am Seeufer", "Beatenbucht Schiffstation", "Enge, beeindruckende Sektion des Sees"],
+          "warnings": [],
+          "overnight": {
+            "harbor": "hafen_merligen",
+            "notes": "2 Gastliegeplätze auf Anfrage, ruhige Lage nahe Beatushöhlen"
+          }
+        },
+        {
+          "day": 3,
+          "from": "hafen_merligen",
+          "to": "neuhaus_interlaken",
+          "distanceNM": 5.5,
+          "estimatedHoursSail": 2.0,
+          "estimatedHoursMotor": 1.0,
+          "highlights": ["Panorama Eiger–Mönch–Jungfrau aus dem Wasser", "Ostende des Sees bei Neuhaus", "Nähe zu Interlaken (Ausflug empfohlen)"],
+          "warnings": ["Flachwasser am Ostende, auf Tiefe achten (max. 1.5 m)"],
+          "overnight": {
+            "harbor": "neuhaus_interlaken",
+            "notes": "Segelclub Neuhaus-Interlaken, Mitglieder-freundlich; Gastmöglichkeit auf Anfrage"
+          }
+        },
+        {
+          "day": 4,
+          "from": "neuhaus_interlaken",
+          "to": "hafen_leissigen",
+          "distanceNM": 5.0,
+          "estimatedHoursSail": 1.8,
+          "estimatedHoursMotor": 1.0,
+          "highlights": ["Überfahrt zum Südufer", "Leissigen idyllisches Bergdorf", "Kran bei Bootswerft Wilke"],
+          "warnings": ["Morgenwind kann aus dem Lütschinental stark wehen"],
+          "overnight": null
+        },
+        {
+          "day": 4,
+          "from": "hafen_leissigen",
+          "to": "spiez",
+          "distanceNM": 4.8,
+          "estimatedHoursSail": 1.8,
+          "estimatedHoursMotor": 1.0,
+          "highlights": ["Spiez Schloss und Weinberge", "Geschützte Bucht von Spiez", "Mittags-Stopp im Seehüs Spiez"],
+          "warnings": [],
+          "overnight": null
+        },
+        {
+          "day": 4,
+          "from": "spiez",
+          "to": "thun_lachen",
+          "distanceNM": 5.5,
+          "estimatedHoursSail": 2.0,
+          "estimatedHoursMotor": 1.1,
+          "highlights": ["Rückfahrt am Südufer", "Schloss Schadau bei der Einfahrt Thun"],
+          "warnings": ["Nachmittagsthermik auf dem offenen Westsee"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "th_gastro_1d",
+      "name": "Thunersee Genuss-Törn",
+      "nameDe": "Thunersee Genuss-Törn: Seerestaurants am Nord- und Südufer",
+      "nameEn": "Lake Thun Gastronomy Trail",
+      "days": 1,
+      "difficulty": "easy",
+      "theme": ["gastronomy", "landscape"],
+      "totalDistanceNM": 23.5,
+      "description": "Ein Tag, vier Seerestaurants: Von Thun ostwärts am Nordufer entlang – Buvette am See in Hünibach, Seerestaurant Beatenbucht – dann Überfahrt und Rückfahrt am Südufer via Seerestaurant Hecht in Faulensee und Seehüs Spiez. Kulinarische Highlights unmittelbar am Wasser, alle per Boot erreichbar.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "thun_lachen",
+          "to": "hafen_huenegg_hilterfingen",
+          "distanceNM": 3.2,
+          "estimatedHoursSail": 1.2,
+          "estimatedHoursMotor": 0.6,
+          "highlights": ["Kurzstopp: Buvette am See Hünibach (direkt am Wasser, per Boot erreichbar)", "Morgentörn mit ruhigem See"],
+          "warnings": [],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "hafen_huenegg_hilterfingen",
+          "to": "hafen_merligen",
+          "distanceNM": 7.5,
+          "estimatedHoursSail": 2.5,
+          "estimatedHoursMotor": 1.5,
+          "highlights": ["Seerestaurant Beatenbucht (Schiffstation, Terrasse)", "Mittagsrast bei den Beatushöhlen", "Panoramablick auf den Westteil des Sees"],
+          "warnings": ["Beatushöhlen beliebt – Anleger kann voll sein"],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "hafen_merligen",
+          "to": "hafen_leissigen",
+          "distanceNM": 2.5,
+          "estimatedHoursSail": 1.0,
+          "estimatedHoursMotor": 0.5,
+          "highlights": ["Überfahrt zum Südufer", "Seerestaurant Hecht in Faulensee (nahe Leissigen, Fischgerichte)"],
+          "warnings": [],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "hafen_leissigen",
+          "to": "spiez",
+          "distanceNM": 4.8,
+          "estimatedHoursSail": 1.8,
+          "estimatedHoursMotor": 1.0,
+          "highlights": ["Seehüs Spiez direkt am Hafen (Abendessen, Seeterrasse)", "Spiez Schloss als Kulisse"],
+          "warnings": [],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "spiez",
+          "to": "thun_lachen",
+          "distanceNM": 5.5,
+          "estimatedHoursSail": 2.0,
+          "estimatedHoursMotor": 1.1,
+          "highlights": ["Abendtörn zurück nach Thun", "Restaurant Holiday oder Dampfschiff für Absacker am Zielhafen"],
+          "warnings": ["Abendthermik möglich"],
+          "overnight": null
+        }
+      ]
     }
   ]
 }

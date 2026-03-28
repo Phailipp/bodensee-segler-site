@@ -84,6 +84,170 @@
           "overnight": null
         }
       ]
+    },
+    {
+      "id": "zg_gastro_1d",
+      "name": "Zugersee Gourmet-Runde",
+      "nameDe": "Zugersee Gourmet-Runde: Felchen & Seerestaurants",
+      "nameEn": "Lake Zug Gourmet Circuit",
+      "days": 1,
+      "difficulty": "easy",
+      "theme": ["gastronomy", "landscape"],
+      "totalDistanceNM": 20,
+      "description": "Eine kulinarische Entdeckungsfahrt rund um den Zugersee: Von Zug am Westufer entlang zu den besten Seerestaurants – Gasthof Risch, Gasthaus Wildenmann in Buonas (Zugersee-Felchen, Michelin-gelistet), Seerestaurant Schlüssel in Immensee, Bacco Arth – und zurück über das Ostufer mit dem Sternen Walchwil. Alle Restaurants haben Bootsanleger oder liegen unmittelbar am Wasser.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "bhg_zug",
+          "to": "hafen_risch",
+          "distanceNM": 4.5,
+          "estimatedHoursSail": 1.8,
+          "estimatedHoursMotor": 0.9,
+          "highlights": ["Gasthof Risch (Seeterrasse, Steg nebenan)", "Ruhiges Westufer", "Blick auf Rigi und Zugerpilatus"],
+          "warnings": [],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "hafen_risch",
+          "to": "hafen_buonas",
+          "distanceNM": 2.5,
+          "estimatedHoursSail": 1.0,
+          "estimatedHoursMotor": 0.5,
+          "highlights": ["Gasthaus Wildenmann Buonas (Zugersee-Felchen, Michelin, seit 1708)", "Idyllische Halbinsel Buonas", "Anlegesteg möglich"],
+          "warnings": ["Wildenmann: Di–Sa, Reservierung dringend empfohlen"],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "hafen_buonas",
+          "to": "kibag_marina_arth",
+          "distanceNM": 4.0,
+          "estimatedHoursSail": 1.5,
+          "estimatedHoursMotor": 0.8,
+          "highlights": ["Seerestaurant Schlüssel da Andrea, Immensee (eigener Bootsanleger)", "Bacco Arth (100-Platz-Terrasse, Bootssteg nebenan)", "Panorama Rigi-Südseite"],
+          "warnings": ["Schlüssel: Mi–So; Bacco: Di Ruhetag"],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "kibag_marina_arth",
+          "to": "bootswerft_walchwil",
+          "distanceNM": 3.0,
+          "estimatedHoursSail": 1.2,
+          "estimatedHoursMotor": 0.6,
+          "highlights": ["Sternen Walchwil (Michelin-gelistet, Schiffsanlegestelle nebenan)", "Kurze Kaffeepause oder Abendessen"],
+          "warnings": ["Sternen: Mi–Sa, Reservierung empfohlen"],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "bootswerft_walchwil",
+          "to": "bhg_zug",
+          "distanceNM": 6.0,
+          "estimatedHoursSail": 2.2,
+          "estimatedHoursMotor": 1.2,
+          "highlights": ["Nordfahrt am Ostufer entlang", "Zunfthaus Kreuz Oberwil (Bootsanlegestelle, ~300-Platz-Terrasse) optional", "Abschluss: Restaurant Schiff Zug (Zuger Fischgerichte, Bar Dock)"],
+          "warnings": ["Zunfthaus: Mi–So"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "zg_extended_3d",
+      "name": "Zugersee Entdecker-Törn",
+      "nameDe": "Zugersee Entdecker-Törn: Alle Häfen in 3 Etappen",
+      "nameEn": "Lake Zug Explorer: All Harbours in 3 Stages",
+      "days": 3,
+      "difficulty": "moderate",
+      "theme": ["landscape", "culture", "adventure"],
+      "totalDistanceNM": 30.8,
+      "description": "Der vollständige Zugersee-Törn in drei gemächlichen Etappen: alle bedeutenden Häfen, beide Seeufer und die kontrastreiche Landschaft von der Zuger Altstadt bis zur Rigi-Südseite. Ideal für ein langes Wochenende mit Zeit zum Entdecken.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "bhg_zug",
+          "to": "hafen_cham",
+          "distanceNM": 4.8,
+          "estimatedHoursSail": 1.8,
+          "estimatedHoursMotor": 1.0,
+          "highlights": ["Cham Halbinsel und Naturufer", "Villa Villette (historische Parkanlage am See)", "Ruhige Bucht von Cham"],
+          "warnings": ["Flachwasser-Zone um Cham-Halbinsel beachten"],
+          "overnight": {
+            "harbor": "hafen_cham",
+            "notes": "224 Liegeplätze über 5 Organisationen; Gastliegeplatz auf Anfrage bei HBK Cham"
+          }
+        },
+        {
+          "day": 2,
+          "from": "hafen_cham",
+          "to": "hafen_risch",
+          "distanceNM": 5.5,
+          "estimatedHoursSail": 2.0,
+          "estimatedHoursMotor": 1.1,
+          "highlights": ["Risch Natururfer", "Gasthof Risch (Seeterrasse, regionale Küche)", "Blick auf die Zuger Altstadt vom Wasser"],
+          "warnings": [],
+          "overnight": null
+        },
+        {
+          "day": 2,
+          "from": "hafen_risch",
+          "to": "hafen_buonas",
+          "distanceNM": 2.5,
+          "estimatedHoursSail": 1.0,
+          "estimatedHoursMotor": 0.5,
+          "highlights": ["Buonas idyllische Halbinsel", "Gasthaus Wildenmann (Zugersee-Felchen, seit 1708)"],
+          "warnings": [],
+          "overnight": {
+            "harbor": "hafen_buonas",
+            "notes": "1 Gastliegeplatz auf Anfrage; sehr ruhige Lage; frühzeitig anfragen"
+          }
+        },
+        {
+          "day": 3,
+          "from": "hafen_buonas",
+          "to": "kibag_marina_arth",
+          "distanceNM": 4.0,
+          "estimatedHoursSail": 1.5,
+          "estimatedHoursMotor": 0.8,
+          "highlights": ["Seerestaurant Schlüssel Immensee (Bootsanleger)", "Bacco Arth (Seeterrasse)", "Rigi-Ausblick vom Südende"],
+          "warnings": ["Arth: Böen aus dem Gotthardgebiet möglich"],
+          "overnight": null
+        },
+        {
+          "day": 3,
+          "from": "kibag_marina_arth",
+          "to": "bootswerft_walchwil",
+          "distanceNM": 3.0,
+          "estimatedHoursSail": 1.2,
+          "estimatedHoursMotor": 0.6,
+          "highlights": ["Sternen Walchwil (Michelin, Schiffsanlegestelle)", "Malerisches Dorf Walchwil am Ostufer"],
+          "warnings": [],
+          "overnight": null
+        },
+        {
+          "day": 3,
+          "from": "bootswerft_walchwil",
+          "to": "ycz_boeschenrot",
+          "distanceNM": 5.5,
+          "estimatedHoursSail": 2.0,
+          "estimatedHoursMotor": 1.1,
+          "highlights": ["Zunfthaus Kreuz Oberwil (Bootsanlegestelle, grosszügige Terrasse)", "Blick auf die Zuger Altstadt", "YCZ Böschenrot als elegante Ankunft"],
+          "warnings": ["Hohe Saison: Zunfthaus reservieren"],
+          "overnight": null
+        },
+        {
+          "day": 3,
+          "from": "ycz_boeschenrot",
+          "to": "bhg_zug",
+          "distanceNM": 5.5,
+          "estimatedHoursSail": 2.0,
+          "estimatedHoursMotor": 1.1,
+          "highlights": ["Einfahrt Zug mit Stadtpanorama und Altstadt", "Restaurant Schiff am Zielhafen (Zuger Fischgerichte)"],
+          "warnings": [],
+          "overnight": null
+        }
+      ]
     }
   ]
 }
