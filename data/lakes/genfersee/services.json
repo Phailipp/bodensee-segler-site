@@ -128,6 +128,19 @@
     "prices": ""
   },
   {
+    "id": "gs_werft_nyon",
+    "name": "Chantier Naval de Nyon SA",
+    "country": "CH",
+    "type": "yard",
+    "details": "Bootswerft & Winterlager · Reparaturen, GFK, Motorservice · Rue de Rive 5, 1260 Nyon",
+    "lat": 46.3795,
+    "lng": 6.2385,
+    "url": "https://bootbauer.ch/fr/association/chantiers-navals/addressData/chantier-naval-de-nyon-sa",
+    "source": "bootbauer.ch – Chantier Naval de Nyon SA; search.ch",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 22 361 42 15"
+  },
+  {
     "id": "gs_tank_thonon",
     "name": "Tankstelle Port de Thonon",
     "country": "FR",
