@@ -1,0 +1,63 @@
+{
+  "seeId": "zugersee",
+  "unit": "nm",
+  "matrix": {
+    "bhg_zug": {
+      "scz_steghalde": 0.6,
+      "hafen_cham": 2.8,
+      "hafen_risch": 4.3,
+      "hafen_buonas": 5.8,
+      "bootswerft_walchwil": 5.6,
+      "ycz_boeschenrot": 3.4,
+      "yci_immensee": 9.0,
+      "kibag_marina_arth": 8.2
+    },
+    "scz_steghalde": {
+      "bhg_zug": 0.6,
+      "hafen_cham": 3.3,
+      "ycz_boeschenrot": 2.9
+    },
+    "hafen_cham": {
+      "bhg_zug": 2.8,
+      "scz_steghalde": 3.3,
+      "hafen_risch": 3.3,
+      "hafen_buonas": 4.3
+    },
+    "hafen_risch": {
+      "hafen_cham": 3.3,
+      "bhg_zug": 4.3,
+      "hafen_buonas": 2.1,
+      "yci_immensee": 3.4
+    },
+    "hafen_buonas": {
+      "hafen_risch": 2.1,
+      "hafen_cham": 4.3,
+      "bhg_zug": 5.8,
+      "kibag_marina_arth": 3.1,
+      "yci_immensee": 1.5
+    },
+    "ycz_boeschenrot": {
+      "bhg_zug": 3.4,
+      "scz_steghalde": 2.9,
+      "bootswerft_walchwil": 3.8,
+      "kibag_marina_arth": 6.2
+    },
+    "bootswerft_walchwil": {
+      "bhg_zug": 5.6,
+      "ycz_boeschenrot": 3.8,
+      "kibag_marina_arth": 3.0
+    },
+    "kibag_marina_arth": {
+      "bhg_zug": 8.2,
+      "bootswerft_walchwil": 3.0,
+      "yci_immensee": 3.7,
+      "hafen_buonas": 3.1
+    },
+    "yci_immensee": {
+      "kibag_marina_arth": 3.7,
+      "hafen_buonas": 1.5,
+      "hafen_risch": 3.4,
+      "bhg_zug": 9.0
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "seeId": "zuerichsee",
+  "unit": "nm",
+  "matrix": {
+    "wollishofen": {
+      "tiefenbrunnen": 1.3,
+      "hafen_meilen": 7.6,
+      "hafen_maennedorf": 8.9,
+      "hafen_richterswil": 13.7,
+      "rietliau_waedenswil": 10.2,
+      "sc_staefa": 12.5,
+      "yc_rapperswil": 17.8,
+      "hensa_altendorf": 20.8
+    },
+    "tiefenbrunnen": {
+      "wollishofen": 1.3,
+      "hafen_meilen": 7.6,
+      "hafen_maennedorf": 6.3,
+      "yc_rapperswil": 17.0
+    },
+    "hafen_meilen": {
+      "wollishofen": 7.6,
+      "tiefenbrunnen": 7.6,
+      "hafen_maennedorf": 1.3,
+      "sc_staefa": 4.6,
+      "yc_rapperswil": 10.2
+    },
+    "hafen_maennedorf": {
+      "tiefenbrunnen": 6.3,
+      "hafen_meilen": 1.3,
+      "sc_staefa": 3.4,
+      "yc_rapperswil": 11.3
+    },
+    "sc_staefa": {
+      "hafen_meilen": 4.6,
+      "hafen_maennedorf": 3.4,
+      "yc_rapperswil": 6.5
+    },
+    "hafen_richterswil": {
+      "wollishofen": 13.7,
+      "rietliau_waedenswil": 2.7,
+      "yc_rapperswil": 6.5
+    },
+    "rietliau_waedenswil": {
+      "wollishofen": 10.2,
+      "hafen_richterswil": 2.7,
+      "yc_rapperswil": 9.1
+    },
+    "yc_rapperswil": {
+      "wollishofen": 17.8,
+      "tiefenbrunnen": 17.0,
+      "hafen_maennedorf": 11.3,
+      "sc_staefa": 6.5,
+      "hafen_richterswil": 6.5,
+      "hensa_altendorf": 3.0
+    },
+    "hensa_altendorf": {
+      "yc_rapperswil": 3.0,
+      "wollishofen": 20.8
+    }
+  }
+}

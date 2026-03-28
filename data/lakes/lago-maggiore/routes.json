@@ -1,0 +1,130 @@
+{
+  "seeId": "lago-maggiore",
+  "routeTemplates": [
+    {
+      "id": "lm_locarno_2d",
+      "name": "Locarno–Brissago–Ascona Runde",
+      "nameDe": "Locarno – Brissago – Ascona Runde",
+      "nameEn": "Locarno – Brissago – Ascona Loop",
+      "days": 2,
+      "difficulty": "easy",
+      "theme": ["scenery", "islands", "towns", "guestBerths"],
+      "totalDistanceNM": 18,
+      "description": "Der klassische Schweizer Lago-Maggiore-Törn: Locarno – Brissago (UNESCO-Inseln) – Ascona – Locarno. Mediterrane Atmosphäre, türkisblaues Wasser, historische Orte.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "osm-node-10035932668-porto-regionale-di-locarno",
+          "to": "osm-node-4043767492-porto-ticino-brissago",
+          "distanceNM": 5.9,
+          "estimatedHoursSail": 2.5,
+          "estimatedHoursMotor": 1.0,
+          "highlights": ["Isole di Brissago (UNESCO-Botanischer Garten)", "Blick auf den Gambarogno", "Schweizer-Italienische Grenze"],
+          "warnings": ["Tramontana-Böen aus Norden möglich", "Motorbootzone um Brissago-Inseln beachten"],
+          "overnight": {
+            "harbor": "osm-node-4043767492-porto-ticino-brissago",
+            "notes": "8 Gastplätze, nahe den berühmten Brissago-Inseln"
+          }
+        },
+        {
+          "day": 2,
+          "from": "osm-node-4043767492-porto-ticino-brissago",
+          "to": "osm-node-10035932668-porto-regionale-di-locarno",
+          "distanceNM": 5.9,
+          "estimatedHoursSail": 2.0,
+          "estimatedHoursMotor": 1.0,
+          "highlights": ["Ascona Lungolago", "Piazza des Bourbons", "Einfahrt Locarno"],
+          "warnings": ["Bootsverkehr bei Ascona dicht an Wochenenden"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "lm_grand_tour_3d",
+      "name": "Grosse Lago-Runde",
+      "nameDe": "Grosse Lago-Runde: Ascona – Cannobio – Stresa – Verbania",
+      "nameEn": "Grand Lago Tour: Ascona – Cannero – Stresa – Verbania",
+      "days": 3,
+      "difficulty": "moderate",
+      "theme": ["adventure", "international", "islands", "scenery"],
+      "totalDistanceNM": 50,
+      "description": "Die internationale Grossrunde: Ascona – Cannobio – Stresa (Borromäische Inseln) – Verbania – zurück nach Ascona. Drei Länder (CH/IT), historische Villen, spektakuläre Inseln.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "osm-way-309837331-porto-patriziale-ascona",
+          "to": "osm-way-1131704994-porto-turistico-portobello",
+          "distanceNM": 11.6,
+          "estimatedHoursSail": 3.5,
+          "estimatedHoursMotor": 2.0,
+          "highlights": ["Grenzübergang Schweiz/Italien", "Cannero Riviera", "Cannero-Burgruinen auf Inselchen", "Porto PortoBello"],
+          "warnings": ["Grenzübertritt: Bootsausweis und Reisepass mitführen", "Tramontana-Böen im oberen Seenabschnitt"],
+          "overnight": {
+            "harbor": "osm-way-1131704994-porto-turistico-portobello",
+            "notes": "10 Transitplätze PortoBello, zwischen Cannobio und Golfo Borromeo"
+          }
+        },
+        {
+          "day": 2,
+          "from": "osm-way-1131704994-porto-turistico-portobello",
+          "to": "osm-way-1156339304-nuovo-porto-di-stresa",
+          "distanceNM": 9.8,
+          "estimatedHoursSail": 3.0,
+          "estimatedHoursMotor": 1.8,
+          "highlights": ["Verbania Intra mit Tankstelle", "Borromäische Inseln (Isola Bella, Isola Madre, Pescatori)", "Stresa Belle-Époque-Hotels"],
+          "warnings": ["Hohe Fährdichte bei Borromäischen Inseln", "Anlegestellen Isola Bella nur kurz"],
+          "overnight": {
+            "harbor": "osm-way-1156339304-nuovo-porto-di-stresa",
+            "notes": "10 Gastplätze, Ausgangspunkt für Borromäische Inseln, €20/Nacht"
+          }
+        },
+        {
+          "day": 3,
+          "from": "osm-way-1156339304-nuovo-porto-di-stresa",
+          "to": "osm-way-309837331-porto-patriziale-ascona",
+          "distanceNM": 28.9,
+          "estimatedHoursSail": 8.0,
+          "estimatedHoursMotor": 5.0,
+          "highlights": ["Verbania Pallanza mit Villa Taranto", "Ghiffa", "Cannero", "Grenzrückkehr Schweiz", "Einfahrt Ascona"],
+          "warnings": ["Langer Tag – früh starten", "Tramontana-Vorhersage prüfen"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "lm_brissago_islands_1d",
+      "name": "Brissago-Inseln Tagesausflug",
+      "nameDe": "Ascona – Brissago Inseln – Ascona",
+      "nameEn": "Ascona – Brissago Islands Day Trip",
+      "days": 1,
+      "difficulty": "easy",
+      "theme": ["daytrip", "islands", "nature"],
+      "totalDistanceNM": 10,
+      "description": "Entspannter Tagesausflug zu den Brissago-Inseln (Isole di Brissago): Ascona – Brissago – Inselbesuch – zurück nach Ascona.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "osm-way-309837331-porto-patriziale-ascona",
+          "to": "osm-node-4043767492-porto-ticino-brissago",
+          "distanceNM": 4.6,
+          "estimatedHoursSail": 2.0,
+          "estimatedHoursMotor": 0.8,
+          "highlights": ["Isole di Brissago – Botanischer Garten", "Blick nach Italien", "Kristallklares Wasser"],
+          "warnings": ["Motorbootzone um die Inseln streng einhalten", "Anlegeplätze auf den Inseln begrenzt (Fähre)"],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "osm-node-4043767492-porto-ticino-brissago",
+          "to": "osm-way-309837331-porto-patriziale-ascona",
+          "distanceNM": 4.6,
+          "estimatedHoursSail": 1.5,
+          "estimatedHoursMotor": 0.8,
+          "highlights": ["Abendstimmung über dem See", "Ascona Piazza Grande"],
+          "warnings": [],
+          "overnight": null
+        }
+      ]
+    }
+  ]
+}

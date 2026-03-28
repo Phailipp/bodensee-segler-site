@@ -1,0 +1,63 @@
+{
+  "seeId": "thunersee",
+  "unit": "nm",
+  "matrix": {
+    "thun_lachen": {
+      "tyc_thun": 0.8,
+      "hafen_huenegg_hilterfingen": 1.5,
+      "oberhofen": 2.4,
+      "hafen_gunten": 4.3,
+      "spiez": 5.2,
+      "hafen_merligen": 8.3,
+      "hafen_leissigen": 8.3,
+      "neuhaus_interlaken": 13.0
+    },
+    "tyc_thun": {
+      "thun_lachen": 0.8,
+      "hafen_huenegg_hilterfingen": 1.3,
+      "oberhofen": 2.2
+    },
+    "hafen_huenegg_hilterfingen": {
+      "thun_lachen": 1.5,
+      "oberhofen": 1.0,
+      "hafen_gunten": 3.0,
+      "spiez": 4.8
+    },
+    "oberhofen": {
+      "thun_lachen": 2.4,
+      "hafen_huenegg_hilterfingen": 1.0,
+      "hafen_gunten": 1.9,
+      "spiez": 4.3
+    },
+    "hafen_gunten": {
+      "oberhofen": 1.9,
+      "hafen_merligen": 3.5,
+      "spiez": 4.6,
+      "thun_lachen": 4.3
+    },
+    "spiez": {
+      "thun_lachen": 5.2,
+      "oberhofen": 4.3,
+      "hafen_merligen": 4.2,
+      "hafen_leissigen": 5.2,
+      "neuhaus_interlaken": 7.8
+    },
+    "hafen_merligen": {
+      "hafen_gunten": 3.5,
+      "spiez": 4.2,
+      "hafen_leissigen": 3.3,
+      "neuhaus_interlaken": 4.9
+    },
+    "hafen_leissigen": {
+      "spiez": 5.2,
+      "hafen_merligen": 3.3,
+      "neuhaus_interlaken": 2.6
+    },
+    "neuhaus_interlaken": {
+      "hafen_leissigen": 2.6,
+      "hafen_merligen": 4.9,
+      "spiez": 7.8,
+      "thun_lachen": 13.0
+    }
+  }
+}
