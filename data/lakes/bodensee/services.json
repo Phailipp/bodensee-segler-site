@@ -142,5 +142,32 @@
     "url": "https://www.motorbootclub-bregenz.at/",
     "source": "Motorbootclub Bregenz",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "tankstelle_mizu_konstanz",
+    "name": "MIZU Seetankstelle Konstanz",
+    "country": "DE",
+    "type": "fuel",
+    "details": "Benzin & Diesel · Seerhein am Pulverturm · Kiosk (Getränke, Eis) · Geschlossen bei schlechtem Wetter · Rheinsteig, 78462 Konstanz",
+    "lat": 47.668,
+    "lng": 9.182,
+    "url": "https://mizu-marine.de/en/start-new/",
+    "source": "my-sea.com – MIZU Seetankstelle; portmaps.com",
+    "lastVerified": "2026-03-28",
+    "phone": "+49 7731 9067-0",
+    "email": "info@mizu-marine.de"
+  },
+  {
+    "id": "tankstelle_ultramarin_kressbronn",
+    "name": "Seetankstelle Ultramarin Kressbronn",
+    "country": "DE",
+    "type": "fuel",
+    "details": "HVO-Diesel (synthetisch) & Nautic E10 · Hafenostseite vor Blue Marina Restaurant · EC/Kreditkarte & Ultramarin-Kundenkarte · Außerhalb Öffnungszeiten Kartenzahlung (max. €150/Vorgang) · Im Wassersportzentrum 10, 88079 Kressbronn-Gohren",
+    "lat": 47.589,
+    "lng": 9.596,
+    "url": "https://www.ultramarin.com/hafen/tankzeiten/",
+    "source": "ultramarin.com; my-sea.com – Ultramarin Seetankstelle",
+    "lastVerified": "2026-03-28",
+    "phone": "+49 7543 96600"
   }
 ]
