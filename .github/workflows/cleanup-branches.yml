@@ -2,17 +2,7 @@ name: Cleanup old branches
 
 on:
   workflow_dispatch:
-    inputs:
-      dry_run:
-        description: 'Nur anzeigen, nicht loeschen'
-        required: false
-        default: 'false'
-        type: choice
-        options:
-          - 'true'
-          - 'false'
   schedule:
-    # Jeden Sonntag um 03:00 UTC
     - cron: '0 3 * * 0'
 
 permissions:
@@ -22,62 +12,61 @@ jobs:
   cleanup:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - name: Delete stale branches
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
         run: |
-          echo "Fetching remote branches..."
-          git fetch --prune
-
-          DEFAULT_BRANCH=$(gh repo view --json defaultBranchRef -q '.defaultBranchRef.name')
-          echo "Default branch: $DEFAULT_BRANCH"
-
-          PROTECTED_BRANCHES=$(gh pr list --state open --json headRefName -q '.[].headRefName')
-          echo "Branches with open PRs (protected):"
-          echo "$PROTECTED_BRANCHES"
-
-          REMOTE_BRANCHES=$(git branch -r --format='%(refname:short)' | sed 's|origin/||' | grep -v "^HEAD$" | grep -v "^${DEFAULT_BRANCH}$")
-
+          set +e
+          
+          echo "Fetching branch list via API..."
+          
+          # Get all branches except main
+          BRANCHES=$(gh api repos/${{ github.repository }}/branches --paginate --jq '.[].name' | grep -v '^main$')
+          
+          # Get branches with open PRs
+          PR_BRANCHES=$(gh pr list --repo ${{ github.repository }} --state open --json headRefName --jq '.[].headRefName')
+          
+          echo "Protected (open PR): $PR_BRANCHES"
+          echo "---"
+          
           DELETED=0
           SKIPPED=0
-
-          for BRANCH in $REMOTE_BRANCHES; do
-            if echo "$PROTECTED_BRANCHES" | grep -qx "$BRANCH"; then
+          
+          for BRANCH in $BRANCHES; do
+            # Skip if branch has open PR
+            if echo "$PR_BRANCHES" | grep -qx "$BRANCH"; then
               echo "SKIP (open PR): $BRANCH"
               SKIPPED=$((SKIPPED + 1))
               continue
             fi
-
-            LAST_COMMIT_DATE=$(git log -1 --format='%ci' "origin/$BRANCH" 2>/dev/null)
-            if [ -z "$LAST_COMMIT_DATE" ]; then
-              echo "SKIP (no commit date): $BRANCH"
+            
+            # Get last commit date via API
+            COMMIT_DATE=$(gh api "repos/${{ github.repository }}/commits?sha=$BRANCH&per_page=1" --jq '.[0].commit.committer.date' 2>/dev/null || echo "")
+            
+            if [ -z "$COMMIT_DATE" ]; then
+              echo "SKIP (no date): $BRANCH"
               SKIPPED=$((SKIPPED + 1))
               continue
             fi
-
-            LAST_COMMIT_EPOCH=$(date -d "$LAST_COMMIT_DATE" +%s)
+            
+            # Calculate age in days
+            COMMIT_EPOCH=$(date -d "$COMMIT_DATE" +%s 2>/dev/null || echo "0")
             NOW_EPOCH=$(date +%s)
-            AGE_DAYS=$(( (NOW_EPOCH - LAST_COMMIT_EPOCH) / 86400 ))
-
+            AGE_DAYS=$(( (NOW_EPOCH - COMMIT_EPOCH) / 86400 ))
+            
             if [ "$AGE_DAYS" -lt 7 ]; then
-              echo "SKIP (only ${AGE_DAYS}d old): $BRANCH"
+              echo "SKIP (${AGE_DAYS}d old): $BRANCH"
               SKIPPED=$((SKIPPED + 1))
               continue
             fi
-
-            if [ "$DRY_RUN" = "true" ]; then
-              echo "DRY RUN - would delete: $BRANCH (${AGE_DAYS}d old)"
+            
+            echo "DELETE: $BRANCH (${AGE_DAYS}d old)"
+            if gh api -X DELETE "repos/${{ github.repository }}/git/refs/heads/$BRANCH" 2>/dev/null; then
+              DELETED=$((DELETED + 1))
             else
-              echo "DELETE: $BRANCH (${AGE_DAYS}d old)"
-              gh api -X DELETE "repos/${{ github.repository }}/git/refs/heads/$BRANCH" 2>/dev/null && DELETED=$((DELETED + 1)) || echo "  Failed to delete $BRANCH"
+              echo "  Failed: $BRANCH"
             fi
           done
-
+          
           echo ""
           echo "Done. Deleted: $DELETED, Skipped: $SKIPPED"
