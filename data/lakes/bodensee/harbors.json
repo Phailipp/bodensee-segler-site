@@ -40,7 +40,9 @@
       "Restaurants fussläufig",
       "Altstadt 5 min"
     ],
-    "guestPolicy": "Gastliegeplätze nach Verfügbarkeit, in der Hochsaison (Juli/August) vorher anrufen. Anmeldung beim Hafenmeister."
+    "guestPolicy": "Gastliegeplätze nach Verfügbarkeit, in der Hochsaison (Juli/August) vorher anrufen. Anmeldung beim Hafenmeister.",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "EC-Karte", "Kreditkarte"]
   },
   {
     "id": "wyc",
@@ -69,7 +71,9 @@
     "maxLengthM": null,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": ""
+    "guestPolicy": "",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "EC-Karte"]
   },
   {
     "id": "romanshorn",
@@ -98,7 +102,9 @@
     "maxLengthM": null,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": ""
+    "guestPolicy": "",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "TWINT", "Kreditkarte"]
   },
   {
     "id": "bregenz_sc",
@@ -127,7 +133,9 @@
     "maxLengthM": null,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": ""
+    "guestPolicy": "",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "Kreditkarte"]
   },
   {
     "id": "lindau_sc",
@@ -156,7 +164,9 @@
     "maxLengthM": null,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": ""
+    "guestPolicy": "",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "EC-Karte"]
   },
   {
     "id": "ueberlingen",
@@ -185,7 +195,9 @@
     "maxLengthM": null,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": ""
+    "guestPolicy": "",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "EC-Karte", "Kreditkarte"]
   },
   {
     "id": "kreuzlingen",
@@ -213,7 +225,9 @@
     "maxLengthM": null,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": ""
+    "guestPolicy": "",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "TWINT"]
   },
   {
     "id": "arbon",
@@ -241,7 +255,9 @@
     "maxLengthM": null,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": ""
+    "guestPolicy": "",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "TWINT"]
   },
   {
     "id": "osm-node-1314526554-segelhafen-tsg-lindau-zech",

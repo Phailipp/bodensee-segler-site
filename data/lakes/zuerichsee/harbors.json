@@ -28,7 +28,9 @@
     "maxLengthM": 15,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": "Gastliegeplätze tags max. 2–4h, nachts unbegrenzt"
+    "guestPolicy": "Gastliegeplätze tags max. 2–4h, nachts unbegrenzt",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "TWINT"]
   },
   {
     "id": "rietliau_waedenswil",
@@ -85,7 +87,9 @@
     "maxLengthM": null,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": "Gastplätze auf Anfrage"
+    "guestPolicy": "Gastplätze auf Anfrage",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "TWINT", "Kreditkarte"]
   },
   {
     "id": "hensa_altendorf",
@@ -144,7 +148,9 @@
     "maxLengthM": 15,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": "Tags max. 4h frei, danach CHF 25/Nacht"
+    "guestPolicy": "Tags max. 4h frei, danach CHF 25/Nacht",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "TWINT"]
   },
   {
     "id": "yc_rapperswil",
@@ -174,7 +180,9 @@
     "maxLengthM": null,
     "maxBeamM": null,
     "amenities": [],
-    "guestPolicy": "Gastplätze auf Anfrage"
+    "guestPolicy": "Gastplätze auf Anfrage",
+    "walkIn": true,
+    "paymentMethods": ["Bar", "TWINT"]
   },
   {
     "id": "sc_staefa",

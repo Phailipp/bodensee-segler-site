@@ -125,15 +125,20 @@
       <li><a href="#karte" data-i18n="nav.map">Karte</a></li>
       <li><a href="#haefen" data-i18n="nav.harbors">Häfen</a></li>
       <li><a href="#anker" data-i18n="nav.anchors">Ankerplätze</a></li>
-      <li><a href="#vermietung" data-i18n="nav.rentals">Vermietung</a></li>
       <li><a href="#gastro" data-i18n="nav.gastro">Gastro</a></li>
       <li><a href="#service" data-i18n="nav.service">Service</a></li>
       <li><a href="#regelwerk" data-i18n="nav.regelwerk">Regelwerk</a></li>
       <li><a href="#toernplaner" data-i18n="nav.toernplaner">Törnplaner</a></li>
-      <li><a href="#sources" data-i18n="nav.sources">Quellen</a></li>
-      <li><a href="#guide" data-i18n="nav.guide">Guide</a></li>
-      <li><a href="#safety" data-i18n="nav.safety">Sicherheit</a></li>
-      <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+      <li class="nav-mehr-item">
+        <button class="nav-mehr-btn" id="navMehrBtn" aria-haspopup="true" aria-expanded="false" data-i18n="nav.mehr">Mehr</button>
+        <ul class="nav-mehr-menu" id="navMehrMenu" role="menu">
+          <li role="none"><a href="#vermietung" role="menuitem" data-i18n="nav.rentals">Vermietung</a></li>
+          <li role="none"><a href="#sources" role="menuitem" data-i18n="nav.sources">Quellen</a></li>
+          <li role="none"><a href="#guide" role="menuitem" data-i18n="nav.guide">Guide</a></li>
+          <li role="none"><a href="#safety" role="menuitem" data-i18n="nav.safety">Sicherheit</a></li>
+          <li role="none"><a href="#faq" role="menuitem" data-i18n="nav.faq">FAQ</a></li>
+        </ul>
+      </li>
       <li><a href="./premium.html" class="nav-premium" data-i18n="nav.premium">Für Betreiber</a></li>
     </ul>
 
@@ -237,6 +242,14 @@
         <div class="filter-label" data-i18n="filter.minDraft">Min. Tiefgang (m)</div>
         <input id="harborMinDraft" class="filter-input" data-i18n-placeholder="filter.minDraft" placeholder="Min. Tiefgang (m)" inputmode="decimal" />
       </div>
+    </div>
+
+    <div class="gf-chips" id="guestFilterChips" aria-label="Gastplatz-Schnellfilter">
+      <button class="gf-chip" data-gf="guestBerths" data-i18n="gf.guestBerths">Gastplätze</button>
+      <button class="gf-chip" data-gf="walkIn" data-i18n="gf.walkIn">Walk-in</button>
+      <button class="gf-chip" data-gf="twint" data-i18n="gf.twint">TWINT</button>
+      <button class="gf-chip" data-gf="card" data-i18n="gf.card">Kreditkarte</button>
+      <button class="gf-chip" data-gf="vhf" data-i18n="gf.vhf">VHF</button>
     </div>
 
     <div class="filter-chiprow" id="harborChips"></div>

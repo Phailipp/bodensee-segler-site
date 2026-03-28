@@ -16,6 +16,6 @@ jobs:
       - name: Merge Claude PR automatically
         run: |
           echo "Auto-merging Claude PR #${{ github.event.pull_request.number }}"
-          gh pr merge ${{ github.event.pull_request.number }} --merge --repo ${{ github.repository }}
+          gh pr merge ${{ github.event.pull_request.number }} --merge --delete-branch --repo ${{ github.repository }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

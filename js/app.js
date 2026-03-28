@@ -18,7 +18,10 @@ const state = {
     q: '',
     country: 'ALL',
     minDraft: '',
-    minGuestBerths: ''
+    minGuestBerths: '',
+    walkIn: false,
+    paymentMethod: '',
+    vhf: false
   },
   filtersAnchors: {
     q: '',
@@ -509,6 +512,9 @@ function applyFilters(list, type) {
       const g = Number(String(f.minGuestBerths).replace(',', '.'));
       if (!Number.isNaN(g)) out = out.filter(x => (x.guestBerths ?? 0) >= g);
     }
+    if (f.walkIn) out = out.filter(x => x.walkIn === true);
+    if (f.paymentMethod) out = out.filter(x => (x.paymentMethods || []).includes(f.paymentMethod));
+    if (f.vhf) out = out.filter(x => !!(x.vhf && String(x.vhf).trim()));
   }
 
   return out;
@@ -659,7 +665,7 @@ function applyQuickFilter(key) {
 
   // Toggle: clicking same chip again deactivates
   if (state.activePreset === key) {
-    state.filtersHarbors = { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' };
+    state.filtersHarbors = { q: '', country: 'ALL', minDraft: '', minGuestBerths: '', walkIn: false, paymentMethod: '', vhf: false };
     state.filtersAnchors = { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' };
     state.filtersRentals = { q: '' };
     state.filtersGastros = { q: '', withBerthing: false };
@@ -670,13 +676,14 @@ function applyQuickFilter(key) {
     state.mapLayers.rentals = true;
     state.activePreset = null;
     syncQuickFilterUI();
+    syncGuestFilterUI();
     syncFilterInputsFromState();
     renderAll();
     return;
   }
 
   // Reset filters first
-  state.filtersHarbors = { q: '', country: 'ALL', minDraft: '', minGuestBerths: '' };
+  state.filtersHarbors = { q: '', country: 'ALL', minDraft: '', minGuestBerths: '', walkIn: false, paymentMethod: '', vhf: false };
   state.filtersAnchors = { q: '', country: 'ALL', overnight: 'ANY', minDepth: '' };
 
   // Apply chip-specific filter if any
@@ -727,6 +734,47 @@ function initQuickFilters() {
     if (!btn) return;
     applyQuickFilter(btn.dataset.qf);
   });
+}
+
+function syncGuestFilterUI() {
+  const f = state.filtersHarbors;
+  $$('#guestFilterChips .gf-chip').forEach(btn => {
+    const key = btn.dataset.gf;
+    let active = false;
+    if (key === 'guestBerths') active = f.minGuestBerths === '1';
+    else if (key === 'walkIn') active = f.walkIn === true;
+    else if (key === 'twint') active = f.paymentMethod === 'TWINT';
+    else if (key === 'card') active = f.paymentMethod === 'Kreditkarte';
+    else if (key === 'vhf') active = f.vhf === true;
+    btn.classList.toggle('active', active);
+    btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+  });
+}
+
+function initGuestFilters() {
+  const wrap = $('#guestFilterChips');
+  if (!wrap) return;
+  wrap.addEventListener('click', (e) => {
+    const btn = e.target?.closest?.('.gf-chip[data-gf]');
+    if (!btn) return;
+    const key = btn.dataset.gf;
+    const f = state.filtersHarbors;
+    if (key === 'guestBerths') {
+      f.minGuestBerths = f.minGuestBerths === '1' ? '' : '1';
+    } else if (key === 'walkIn') {
+      f.walkIn = !f.walkIn;
+    } else if (key === 'twint') {
+      f.paymentMethod = f.paymentMethod === 'TWINT' ? '' : 'TWINT';
+    } else if (key === 'card') {
+      f.paymentMethod = f.paymentMethod === 'Kreditkarte' ? '' : 'Kreditkarte';
+    } else if (key === 'vhf') {
+      f.vhf = !f.vhf;
+    }
+    syncGuestFilterUI();
+    syncFilterInputsFromState();
+    renderAll();
+  });
+  syncGuestFilterUI();
 }
 
 function updateServiceTypeOptions() {
@@ -1198,6 +1246,17 @@ function openModal(type, item) {
     if (item.maxBeamM != null) rows.push(kv(t('modal.k.maxBeam'), `${item.maxBeamM}m`));
     if (item.amenities?.length) rows.push(kv(t('modal.k.amenities'), item.amenities.join(' · ')));
     if (item.guestPolicy) rows.push(kv(t('modal.k.guestPolicy'), item.guestPolicy));
+
+    // Guest berth info block
+    if ((item.guestBerths || 0) > 0 && (item.walkIn != null || item.paymentMethods?.length)) {
+      const badges = [];
+      if (item.walkIn === true) badges.push(`<span class="modal-badge badge-yes">${t('gf.walkIn')}</span>`);
+      if (item.walkIn === false) badges.push(`<span class="modal-badge badge-no">${t('gf.noWalkIn')}</span>`);
+      if (item.paymentMethods?.length) badges.push(`<span class="modal-badge badge-info">${item.paymentMethods.join(' · ')}</span>`);
+      if (badges.length) {
+        rows.push(`<div class="kv"><div class="k">${escapeHtml(t('gf.guestInfo'))}</div><div class="v gf-badge-row">${badges.join('')}</div></div>`);
+      }
+    }
   }
 
   if (type === 'anchor') {
@@ -1500,8 +1559,30 @@ function initNav() {
     });
   });
 
+  // "Mehr" dropdown toggle
+  const mehrBtn = $('#navMehrBtn');
+  const mehrMenu = $('#navMehrMenu');
+  if (mehrBtn && mehrMenu) {
+    mehrBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const open = mehrMenu.classList.toggle('open');
+      mehrBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    mehrMenu.addEventListener('click', () => {
+      mehrMenu.classList.remove('open');
+      mehrBtn.setAttribute('aria-expanded', 'false');
+    });
+  }
+
   // close menu on outside click
   document.addEventListener('click', (e) => {
+    // close Mehr dropdown
+    if (mehrMenu && mehrMenu.classList.contains('open')) {
+      if (!mehrMenu.contains(e.target) && e.target !== mehrBtn) {
+        mehrMenu.classList.remove('open');
+        if (mehrBtn) mehrBtn.setAttribute('aria-expanded', 'false');
+      }
+    }
     if (!document.body.classList.contains('nav-open')) return;
     const nav = $('#mobileNav');
     if (!nav) return;
@@ -1800,6 +1881,7 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
   }
 
   const harborIcon = makeIcon('#c9a962', 16);
+  const harborIconGuest = makeIcon('#e8c84a', 18);
   const harborIconPremium = makeIcon('#c9a962', 22);
   const harborGroup = makeClusterGroup();
   const anchorGroup = makeClusterGroup();
@@ -1820,7 +1902,8 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
       <div class="popup-name">${escapeHtml(h.name)}</div>
       <div class="popup-location">${escapeHtml(h.region || '')}</div>
     `;
-    const m = L.marker([h.lat, h.lng], { icon: h.premium ? harborIconPremium : harborIcon }).bindPopup(popup, { maxWidth: 280 });
+    const icon = h.premium ? harborIconPremium : ((h.guestBerths || 0) >= 1 ? harborIconGuest : harborIcon);
+    const m = L.marker([h.lat, h.lng], { icon }).bindPopup(popup, { maxWidth: 280 });
     if (harborGroup) harborGroup.addLayer(m); else m.addTo(state.map);
     m.on('click', () => openModal('harbor', h));
     state.markers.harbors.push(m);
@@ -2372,6 +2455,7 @@ async function main() {
   safeInit(updateServiceTypeOptions, 'updateServiceTypeOptions');
   safeInit(setUpFilterBars, 'setUpFilterBars');
   safeInit(initQuickFilters, 'initQuickFilters');
+  safeInit(initGuestFilters, 'initGuestFilters');
   safeInit(loadLayerPrefs, 'loadLayerPrefs');
   safeInit(initMap, 'initMap');
   safeInit(initLegendToggles, 'initLegendToggles');
