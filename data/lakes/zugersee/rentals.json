@@ -105,6 +105,29 @@
     "hours": "Saison"
   },
   {
+    "id": "andys_sup_zug",
+    "name": "Andy's SUP Kurse Zug",
+    "country": "CH",
+    "location": "Zug, Seeufer bei Brüggli",
+    "lat": 47.17671,
+    "lng": 8.49686,
+    "fleetSize": 50,
+    "priceFrom": "ab CHF 30/h",
+    "features": [
+      "SUP",
+      "Touringboard",
+      "Race-Board",
+      "Kurse",
+      "Führerscheinfrei"
+    ],
+    "url": "https://www.sup-kurse.ch/",
+    "source": "sup-kurse.ch; zug-tourismus.ch – Andy's SUP Station Zug",
+    "lastVerified": "2026-03-28",
+    "phone": "",
+    "email": "",
+    "hours": "Saison, nur bei schönem Wetter"
+  },
+  {
     "id": "pier1_zug_rental",
     "name": "Pier 1 Zug",
     "country": "CH",
