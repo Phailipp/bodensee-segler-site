@@ -99,9 +99,33 @@
     ],
     "url": "https://www.war.ch/",
     "source": "https://www.war.ch/",
-    "lastVerified": "2026-03-27",
-    "phone": "",
-    "email": "",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 41 375 60 90",
+    "email": "war@war.ch",
     "hours": "Saison"
+  },
+  {
+    "id": "pier1_zug_rental",
+    "name": "Pier 1 Zug",
+    "country": "CH",
+    "location": "Zug, Platzwehri am See",
+    "lat": 47.1673,
+    "lng": 8.5141,
+    "fleetSize": 6,
+    "priceFrom": "auf Anfrage",
+    "features": [
+      "Motorboote",
+      "SUP",
+      "Pedalos",
+      "Führerscheinfrei",
+      "Kiosk am See",
+      "Eigene Tankstelle"
+    ],
+    "url": "https://sites.google.com/view/pier1zug",
+    "source": "yellowpages.net – Pier 1 Zug",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 41 711 34 88",
+    "email": "pier1zug@gmail.com",
+    "hours": "Saison Mai–Okt"
   }
 ]
