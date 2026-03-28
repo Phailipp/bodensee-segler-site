@@ -4,24 +4,30 @@
     "name": "Tankstelle Di Domenico Locarno",
     "country": "CH",
     "type": "fuel",
-    "details": "Benzin & Diesel · Centro Nautico Di Domenico",
+    "details": "Benzin & Diesel · Centro Nautico Di Domenico · Viale G. Respini 21, 6600 Locarno",
     "lat": 46.1559,
     "lng": 8.8038,
     "url": "https://www.didomenico.ch/",
-    "source": "https://www.didomenico.ch/",
-    "lastVerified": "2026-03-23"
+    "source": "local.ch – Centro Nautico Di Domenico SA",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 91 752 16 63",
+    "email": "info@didomenico.ch",
+    "hours": "Mo–Fr 08:00–12:00, 13:30–18:00"
   },
   {
     "id": "slip_locarno",
     "name": "Slip Porto Regionale Locarno",
     "country": "CH",
     "type": "slip",
-    "details": "Öffentliche Sliprampe am Hafen Locarno",
+    "details": "Öffentliche Sliprampe (5m Breite) · Lungolago Motta, 6600 Locarno · Anfrage beim Hafenmeister",
     "lat": 46.1663,
     "lng": 8.8045,
     "url": "https://www.portolocarno.com",
-    "source": "https://www.portolocarno.com",
-    "lastVerified": "2026-03-23"
+    "source": "portolocarno.com – Regolamento scivolo",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 91 752 30 40",
+    "email": "info@portolocarno.com",
+    "hours": "tägl. 09:00–11:30, 14:00–16:30"
   },
   {
     "id": "tankstelle_verbania",
@@ -40,50 +46,56 @@
     "name": "Tankstelle Cantiere Taroni Stresa",
     "country": "IT",
     "type": "fuel",
-    "details": "Benzin, Diesel & Gemisch · Cantiere Nautico Taroni, Stresa-Carciano · Mo/Di/Do–So 09:00–12:30 & 14:00–18:30, Mi geschlossen",
+    "details": "Benzin, Diesel & Gemisch · Cantiere Nautico Taroni · Via Sempione Nord 42, Stresa-Carciano · Mo/Di/Do–So 09:00–12:30 & 14:00–18:30, Mi geschlossen",
     "lat": 45.890,
     "lng": 8.522,
     "url": "http://www.cantierenauticotaroni.com/rifornimento.html",
-    "source": "cantierenauticotaroni.com; portolago.com",
-    "lastVerified": "2026-03-26"
+    "source": "italiarecensioni.com; portolago.com – Cantiere Taroni",
+    "lastVerified": "2026-03-28",
+    "phone": "+39 0323 30037"
   },
   {
     "id": "kran_portolabieno",
     "name": "Kran Marina Portolabieno",
     "country": "IT",
     "type": "crane",
-    "details": "Kran für Ein-/Auswassern · Marina Portolabieno Laveno",
+    "details": "Kran für Ein-/Auswassern · ~160 Liegeplätze · Slip vorhanden · Viale De Angeli 1, 21014 Laveno Mombello",
     "lat": 45.9125,
     "lng": 8.6156,
     "url": "https://www.portolabieno.com/",
-    "source": "https://www.portolabieno.com/",
-    "lastVerified": "2026-03-23"
+    "source": "figaronautisme; portmaps.com – Portolabieno",
+    "lastVerified": "2026-03-28",
+    "phone": "+39 0332 666 900",
+    "email": "info@portolabieno.com"
   },
   {
     "id": "nautica_bego_verbania_fuel",
-    "name": "Nautica Bego – Tankstelle",
+    "name": "Nautica Bego – Tankstelle & Kran",
     "country": "IT",
-    "location": "Verbania (Pallanza)",
     "type": "fuel",
-    "details": "Benzin und Wasser direkt am See. EC- und Kreditkarte. Autorisierter Händler für Volvo Penta, Suzuki, Yamaha, SeaDoo.",
+    "details": "Benzin & Wasser am Pontile · 30t-Kran · Volvo Penta/Suzuki/Yamaha/SeaDoo-Händler · Via C.A. Dalla Chiesa 6, 28921 Verbania",
     "lat": 45.9291,
     "lng": 8.5688,
     "url": "https://www.nauticabego.com/",
     "source": "nauticabego.com",
-    "lastVerified": "2026-03-26"
+    "lastVerified": "2026-03-28",
+    "phone": "+39 0323 404544",
+    "email": "info@nauticabego.com"
   },
   {
     "id": "cantiere_del_verbano_feriolo",
     "name": "Cantiere del Verbano",
     "country": "IT",
-    "location": "Feriolo di Baveno",
-    "type": "slip",
-    "details": "Familiengeführte Werft seit 1979. Hallenplätze für Winterlagerung, Liegeplätze am Steg und Boje, Kranliftung, Antifouling, Reparaturen. Kurzzeitlieger willkommen.",
+    "type": "yard",
+    "details": "Familiengeführte Werft seit 1979 · Winterlager, Kran, Antifouling, Reparaturen · Kurzzeitlieger willkommen (min. €5/4h; bis 10m: €35/Nacht) · Strada Nazionale del Sempione 10/12, 28831 Feriolo di Baveno",
     "lat": 45.9190,
     "lng": 8.4906,
     "url": "https://cantieredelverbano.com/",
     "source": "cantieredelverbano.com",
-    "lastVerified": "2026-03-26"
+    "lastVerified": "2026-03-28",
+    "phone": "+39 0323 28280",
+    "email": "info@cantieredelverbano.com",
+    "hours": "Di–So 09:00–12:00, 14:00–18:30; Mo geschlossen"
   },
   {
     "id": "yacht_service_sangiano",
@@ -103,12 +115,13 @@
     "name": "Slipanlage Porto Cannobio",
     "country": "IT",
     "type": "slip",
-    "details": "Öffentliche Sliprampe im Hafen Cannobio · Saison Apr–Okt",
+    "details": "Öffentliche Sliprampe im Hafen Cannobio · Saison Apr–Okt · Betreiber: Comune di Cannobio",
     "lat": 46.0649,
     "lng": 8.7058,
     "url": "http://www.portocannobio.it/",
     "source": "bootfahren-lago-maggiore.de – Revierfuehrer",
-    "lastVerified": "2026-03-27"
+    "lastVerified": "2026-03-28",
+    "phone": "+39 0323 738210"
   },
   {
     "id": "tankstelle_luino",
