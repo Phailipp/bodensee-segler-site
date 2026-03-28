@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- PWA -->
+  <link rel="manifest" href="./manifest.json">
+  <meta name="theme-color" content="#0c1929">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Segelrevier">
   <title>Bodensee Segler | Häfen, Ankerplätze & Bootsvermietung</title>
   <meta name="description" content="Kuratiert und klar: Häfen, Ankerplätze, Bootsvermietung, Gastro und Service am Bodensee. Interaktive Karte mit verifizierten Daten für Segler und Motorbootfahrer." />
   <meta name="keywords" content="Bodensee Häfen, Ankerplätze Bodensee, Bootsvermietung Bodensee, Segeln Bodensee, Bodensee Segler, Yachthäfen Bodensee, Charter Bodensee" />
@@ -509,5 +516,13 @@
   </button>
 
   <script src="./js/app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js', { scope: './' })
+          .catch(err => console.warn('SW registration failed:', err));
+      });
+    }
+  </script>
 </body>
 </html>

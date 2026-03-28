@@ -1,0 +1,48 @@
+{
+  "name": "Segelrevier",
+  "short_name": "Segelrevier",
+  "description": "Häfen, Ankerplätze und Revierwissen für Segler und Bootfahrer — Bodensee, Genfersee, Lago Maggiore und weitere Alpenseen.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0c1929",
+  "background_color": "#0c1929",
+  "lang": "de",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["travel", "navigation", "sports"],
+  "shortcuts": [
+    {
+      "name": "Häfen",
+      "short_name": "Häfen",
+      "url": "./#haefen",
+      "description": "Häfen und Marinas"
+    },
+    {
+      "name": "Ankerplätze",
+      "short_name": "Ankern",
+      "url": "./#anker",
+      "description": "Ankerplätze finden"
+    },
+    {
+      "name": "Törnplaner",
+      "short_name": "Törns",
+      "url": "./#toernplaner",
+      "description": "Törnplanung und Routen"
+    }
+  ]
+}

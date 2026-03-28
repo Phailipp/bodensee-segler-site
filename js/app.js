@@ -162,6 +162,20 @@ function applyLakeBranding() {
   const footerLogo = document.querySelector('.footer-logo');
   if (footerLogo) footerLogo.textContent = name;
 
+  // Canonical URL per lake
+  const baseUrl = 'https://phailipp.github.io/bodensee-segler-site/';
+  const lakeUrl = lakeId === 'bodensee' ? baseUrl : `${baseUrl}?lake=${lakeId}`;
+  const canonical = document.getElementById('canonicalUrl');
+  if (canonical) canonical.setAttribute('href', lakeUrl);
+  const ogUrl = document.querySelector('meta[property="og:url"]');
+  if (ogUrl) ogUrl.setAttribute('content', lakeUrl);
+  const hreflangDe = document.querySelector('link[hreflang="de"]');
+  if (hreflangDe) hreflangDe.setAttribute('href', lakeUrl);
+  const hreflangEn = document.querySelector('link[hreflang="en"]');
+  if (hreflangEn) hreflangEn.setAttribute('href', lakeUrl.includes('?') ? `${lakeUrl}&lang=en` : `${lakeUrl}?lang=en`);
+  const hreflangDef = document.querySelector('link[hreflang="x-default"]');
+  if (hreflangDef) hreflangDef.setAttribute('href', lakeUrl);
+
   // Premium links: carry current lake as ?lake= param so premium.html knows where to go back
   const premiumParam = lakeId === 'bodensee' ? './premium.html' : `./premium.html?lake=${lakeId}`;
   document.querySelectorAll('a[href*="premium.html"]').forEach(a => {
@@ -179,11 +193,34 @@ function applyLakeBranding() {
       if (websiteNode) {
         websiteNode.name = `${name} Segler`;
         websiteNode.description = descTpl;
+        websiteNode.url = baseUrl;
       }
       const appNode = schema['@graph']?.find(n => n['@type'] === 'WebApplication');
       if (appNode) {
         appNode.name = `${name} Segler`;
+        appNode.url = lakeUrl;
       }
+
+      // TouristAttraction node per lake — remove old, add current
+      const graph = schema['@graph'].filter(n => n['@type'] !== 'TouristAttraction');
+      const meta = state.lakeMeta;
+      if (meta) {
+        graph.push({
+          '@type': 'TouristAttraction',
+          '@id': `${lakeUrl}#lake`,
+          'name': name,
+          'url': lakeUrl,
+          'description': descTpl,
+          'geo': meta.center ? {
+            '@type': 'GeoCoordinates',
+            'latitude': meta.center[0],
+            'longitude': meta.center[1]
+          } : undefined,
+          'touristType': ['Segler', 'Motorbootfahrer', 'Wassersportler'],
+          'availableLanguage': ['de', 'en', 'fr', 'it']
+        });
+      }
+      schema['@graph'] = graph;
       schemaEl.textContent = JSON.stringify(schema);
     }
   } catch {}
