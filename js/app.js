@@ -42,7 +42,7 @@ const state = {
   },
   toernplaner: {
     routes: null,
-    filters: { days: 1, difficulty: 'any', theme: 'any' }
+    filters: { days: 0, difficulty: 'any', theme: 'any' }
   },
   map: null,
   markers: { harbors: [], anchors: [], rentals: [], gastros: [] },
@@ -2262,9 +2262,10 @@ function renderToernplanerResults() {
 
   const { days, difficulty, theme } = state.toernplaner.filters;
   const filtered = routes.routeTemplates.filter(r => {
-    if (days > 1 && days < 5 && r.days !== days) return false;
-    if (days === 1 && r.days > 2) return false;
-    if (days === 5 && r.days < 4) return false;
+    if (days === 0) { /* any */ }
+    else if (days === 1 && r.days > 2) return false;
+    else if (days > 1 && days < 5 && r.days !== days) return false;
+    else if (days === 5 && r.days < 4) return false;
     if (difficulty !== 'any' && r.difficulty !== difficulty) return false;
     if (theme !== 'any' && !r.theme.includes(theme)) return false;
     return true;
