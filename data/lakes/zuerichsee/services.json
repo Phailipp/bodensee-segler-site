@@ -17,19 +17,17 @@
   },
   {
     "id": "zs_werft_hensa",
-    "name": "Hensa Bootswerft Wädenswil",
+    "name": "Hensa AG Bootswerft Altendorf",
     "country": "CH",
     "type": "yard",
-    "details": "Werkstatt & Infrastruktur · Reparatur & Wartung",
-    "lat": 47.23,
-    "lng": 8.668,
-    "url": "https://www.hensa.ch/",
-    "source": "https://www.hensa.ch/",
-    "lastVerified": "2026-03-23",
-    "phone": "",
-    "email": "",
-    "hours": "",
-    "prices": ""
+    "details": "Bootswerft & Avia-Seetankstelle (Bleifrei 95, 98, Diesel) · Winterlager, Reparatur, Hebeanlage · Frischwasser & Abwasserpumpe an Tankstelle · Hafen Rapperswil / Altendorf",
+    "lat": 47.207,
+    "lng": 8.843,
+    "url": "https://www.hensa.ch/en/boote-liegeplatz/bootsplatz/werkstatt-infrastruktur/infrastruktur",
+    "source": "hensa.ch – Werkstatt & Infrastruktur",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 55 220 67 22",
+    "hours": "Saison"
   },
   {
     "id": "zs_werft_kibag",
