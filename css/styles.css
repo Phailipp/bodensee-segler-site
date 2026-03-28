@@ -104,6 +104,35 @@ body {
 
 .hero-cta:hover { background: var(--gold); color: var(--navy); }
 
+/* ── USP chips in hero ─────────────────────────────────────────────────────── */
+.usp-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 20px;
+}
+
+.usp-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(201,169,98,0.35);
+  background: rgba(201,169,98,0.08);
+  color: rgba(255,255,255,0.82);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+.usp-chip:hover {
+  border-color: var(--gold);
+  background: rgba(201,169,98,0.18);
+  color: var(--gold);
+}
+.usp-icon { font-style: normal; font-size: 0.95em; }
+
 .hero-compact { height: auto; min-height: 340px; padding: max(100px, calc(var(--nav-h, 96px) + 16px)) 0 48px; }
 .hero-compact .hero-content { padding: 0 24px; }
 .hero-compact .scroll-indicator { display: none; }
@@ -293,6 +322,26 @@ section { padding: 80px 48px; }
   color: var(--text-light);
   font-weight: 300;
 }
+
+/* ── Weather bar ───────────────────────────────────────────────────────────── */
+.weather-bar {
+  padding: 8px 48px;
+  background: rgba(201,169,98,0.06);
+  border-bottom: 1px solid rgba(201,169,98,0.12);
+}
+.wb-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.7);
+  letter-spacing: 0.02em;
+}
+.wb-icon { font-size: 1.1rem; line-height: 1; }
+.wb-val { color: var(--white); font-weight: 500; }
+.wb-label { opacity: 0.6; margin-right: 3px; }
+.wb-sep { opacity: 0.3; }
+.wb-meta { margin-left: auto; opacity: 0.45; font-size: 0.75rem; }
 
 /* Quick filter chip bar (Google Maps style) */
 .quick-filters {
@@ -1042,6 +1091,10 @@ footer { padding: 48px 48px; padding-bottom: max(48px, calc(32px + env(safe-area
   .quick-filters { scroll-margin-top: max(62px, var(--nav-h, 62px)); }
 
   .quick-filters { padding: 10px 16px; }
+  .weather-bar { padding: 7px 16px; }
+  .wb-inner { gap: 8px; font-size: 0.75rem; }
+  .usp-chips { gap: 6px; }
+  .usp-chip { font-size: 0.72rem; padding: 5px 11px; }
 
   .filter-bar { grid-template-columns: 1fr; }
 

@@ -2434,6 +2434,51 @@ function renderToernplanerResults() {
   }).join('');
 }
 
+// ── Weather bar ────────────────────────────────────────────────────────────
+const WMO_ICONS = {
+  0:'☀️',1:'🌤',2:'⛅',3:'☁️',
+  45:'🌫',48:'🌫',
+  51:'🌦',53:'🌦',55:'🌧',61:'🌧',63:'🌧',65:'🌧',
+  71:'🌨',73:'🌨',75:'❄️',
+  77:'🌨',80:'🌦',81:'🌧',82:'⛈',
+  85:'🌨',86:'❄️',95:'⛈',96:'⛈',99:'⛈'
+};
+const WIND_DIRS = ['N','NNO','NO','ONO','O','OSO','SO','SSO','S','SSW','SW','WSW','W','WNW','NW','NNW'];
+
+function windDirLabel(deg) {
+  return WIND_DIRS[Math.round((deg % 360) / 22.5) % 16];
+}
+
+async function initWeather() {
+  const meta = state.lakeMeta;
+  if (!meta?.center) return;
+  const [lat, lng] = meta.center;
+  const bar = document.getElementById('weatherBar');
+  if (!bar) return;
+  try {
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat.toFixed(4)}&longitude=${lng.toFixed(4)}&current=temperature_2m,wind_speed_10m,wind_direction_10m,weather_code&wind_speed_unit=kmh&timezone=auto`;
+    const data = await fetch(url).then(r => r.json());
+    const c = data.current;
+    if (!c) return;
+    const icon = WMO_ICONS[c.weather_code] ?? '🌤';
+    const dir = windDirLabel(c.wind_direction_10m ?? 0);
+    const iconEl = document.getElementById('wbIcon');
+    const tempEl = document.getElementById('wbTemp');
+    const windEl = document.getElementById('wbWind');
+    const metaEl = document.getElementById('wbMeta');
+    if (iconEl) iconEl.textContent = icon;
+    if (tempEl) tempEl.textContent = `${Math.round(c.temperature_2m ?? 0)}°C`;
+    if (windEl) windEl.textContent = `${Math.round(c.wind_speed_10m ?? 0)} km/h ${dir}`;
+    if (metaEl) {
+      const d = new Date(c.time);
+      metaEl.textContent = `${d.getHours()}:${String(d.getMinutes()).padStart(2,'0')} Uhr`;
+    }
+    bar.removeAttribute('hidden');
+  } catch {
+    // Non-critical — silently skip if offline or API unreachable
+  }
+}
+
 async function main() {
   // Lakes
   const lakesIndex = await loadJSON('./data/lakes.json').catch(() => []);
@@ -2501,6 +2546,7 @@ async function main() {
   safeInit(initShareSection, 'initShareSection');
   safeInit(initRegelwerk, 'initRegelwerk');
   safeInit(initToernplaner, 'initToernplaner');
+  safeInit(initWeather, 'initWeather');
 
   // renderAll() was called earlier via setLang() before the map existed → re-render now
   // so markers actually appear on initial load without requiring a filter click.
