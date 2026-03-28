@@ -1,0 +1,56 @@
+{
+  "seeId": "genfersee",
+  "unit": "nm",
+  "matrix": {
+    "osm-relation-1232073-port-d-ouchy": {
+      "osm-node-9908963185-port-de-la-venoge": 4.5,
+      "osm-way-286986333-port-de-la-tour-de-peilz": 13.2,
+      "osm-way-164810958-port-des-mouettes": 8.2,
+      "osm-way-305943726-port-de-amphion-publier": 8.7,
+      "osm-relation-13753798-port-de-plaisance-de-rives": 12.8,
+      "osm-way-375735259-port-de-nyon": 22.9,
+      "osm-relation-13767405-port-de-plaisance-d-yvoire": 19.4
+    },
+    "osm-node-9908963185-port-de-la-venoge": {
+      "osm-relation-1232073-port-d-ouchy": 4.5,
+      "osm-way-286986333-port-de-la-tour-de-peilz": 17.6,
+      "osm-way-375735259-port-de-nyon": 11.8,
+      "osm-way-428087530-port-de-rolle": 11.8,
+      "osm-way-305943726-port-de-amphion-publier": 8.7
+    },
+    "osm-way-286986333-port-de-la-tour-de-peilz": {
+      "osm-relation-1232073-port-d-ouchy": 13.2,
+      "osm-node-9908963185-port-de-la-venoge": 17.6,
+      "osm-way-164810958-port-des-mouettes": 14.1,
+      "osm-way-299128154-port-lugrin-tourronde": 3.0
+    },
+    "osm-way-164810958-port-des-mouettes": {
+      "osm-relation-1232073-port-d-ouchy": 8.2,
+      "osm-way-286986333-port-de-la-tour-de-peilz": 14.1,
+      "osm-way-299128154-port-lugrin-tourronde": 3.0,
+      "osm-relation-13753798-port-de-plaisance-de-rives": 12.5
+    },
+    "osm-way-375735259-port-de-nyon": {
+      "osm-node-9908963185-port-de-la-venoge": 11.8,
+      "osm-relation-1232073-port-d-ouchy": 22.9,
+      "osm-way-428087530-port-de-rolle": 7.7,
+      "osm-way-298856883-port-de-plaisance-de-sciez": 8.6,
+      "osm-relation-13767405-port-de-plaisance-d-yvoire": 4.5
+    },
+    "osm-way-428087530-port-de-rolle": {
+      "osm-way-375735259-port-de-nyon": 7.7,
+      "osm-node-9908963185-port-de-la-venoge": 11.8
+    },
+    "osm-relation-13767405-port-de-plaisance-d-yvoire": {
+      "osm-way-375735259-port-de-nyon": 4.5,
+      "osm-relation-13753798-port-de-plaisance-de-rives": 8.4,
+      "osm-relation-1232073-port-d-ouchy": 19.4
+    },
+    "osm-relation-13753798-port-de-plaisance-de-rives": {
+      "osm-relation-1232073-port-d-ouchy": 12.8,
+      "osm-way-164810958-port-des-mouettes": 12.5,
+      "osm-relation-13767405-port-de-plaisance-d-yvoire": 8.4,
+      "osm-way-375735259-port-de-nyon": 14.3
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "seeId": "zugersee",
+  "routeTemplates": [
+    {
+      "id": "zg_full_circuit_1d",
+      "name": "Zugersee Runde",
+      "nameDe": "Zugersee Runde: Zug – Arth – Immensee – Zug",
+      "nameEn": "Lake Zug Full Circuit",
+      "days": 1,
+      "difficulty": "easy",
+      "theme": ["daytrip", "scenery", "towns"],
+      "totalDistanceNM": 21,
+      "description": "Die vollständige Runde des Zugersees: Zug – Walchwil – Arth (Südende) – Immensee – Risch – Cham – Zug. Kompakter See mit herrlichem Rigi- und Pilatus-Panorama.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "bhg_zug",
+          "to": "kibag_marina_arth",
+          "distanceNM": 8.2,
+          "estimatedHoursSail": 3.0,
+          "estimatedHoursMotor": 1.5,
+          "highlights": ["Walchwil malerisches Dorf", "Rigi-Südseite", "Arth-Goldau Naturschutzgebiet"],
+          "warnings": ["Böen aus dem Gotthardgebiet möglich", "Kleiner See: Wellen kurz und steil"],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "kibag_marina_arth",
+          "to": "yci_immensee",
+          "distanceNM": 3.7,
+          "estimatedHoursSail": 1.5,
+          "estimatedHoursMotor": 0.8,
+          "highlights": ["Rigi-Panorama", "Rigibahn-Aussicht"],
+          "warnings": [],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "yci_immensee",
+          "to": "bhg_zug",
+          "distanceNM": 9.0,
+          "estimatedHoursSail": 3.0,
+          "estimatedHoursMotor": 1.5,
+          "highlights": ["Risch Natururfer", "Cham Halbinsel", "Einfahrt Zug mit Stadtpanorama"],
+          "warnings": ["Flache Halbinsel Cham: Flachwasser halten"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "zg_overnight_2d",
+      "name": "Zugersee Nachtanker-Törn",
+      "nameDe": "Zugersee Ankertörn: Zug – Arth – Zug",
+      "nameEn": "Lake Zug Overnight Anchor Trip",
+      "days": 2,
+      "difficulty": "easy",
+      "theme": ["anchor", "weekend", "relaxed"],
+      "totalDistanceNM": 16.4,
+      "description": "Entspannter Wochenend-Törn mit Übernachtung in der KIBAG Marina Arth: Zug – Walchwil – Arth (Übernachtung) – Immensee – Buonas – Zug.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "bhg_zug",
+          "to": "kibag_marina_arth",
+          "distanceNM": 8.2,
+          "estimatedHoursSail": 3.0,
+          "estimatedHoursMotor": 1.5,
+          "highlights": ["Walchwil Dorf", "Rigi-Blick vom Wasser", "Arth am Fuss der Rigi"],
+          "warnings": ["Böen aus Süden beachten"],
+          "overnight": {
+            "harbor": "kibag_marina_arth",
+            "notes": "10 Gastplätze via Boatpark-App, 7t-Kran, Tankstelle"
+          }
+        },
+        {
+          "day": 2,
+          "from": "kibag_marina_arth",
+          "to": "bhg_zug",
+          "distanceNM": 8.2,
+          "estimatedHoursSail": 3.0,
+          "estimatedHoursMotor": 1.5,
+          "highlights": ["Morgenwindgenuss", "Buonas Halbinsel", "Zug Altstadt"],
+          "warnings": [],
+          "overnight": null
+        }
+      ]
+    }
+  ]
+}

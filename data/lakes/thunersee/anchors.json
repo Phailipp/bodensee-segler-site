@@ -153,5 +153,41 @@
     "url": "https://www.thunersee.ch/",
     "source": "Thunersee Tourismus",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "thun_gunten",
+    "name": "Vor Gunten",
+    "country": "CH",
+    "region": "Gunten, Nordufer Thunersee",
+    "lat": 46.7188,
+    "lng": 7.7096,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Schlamm",
+    "protection": "N/NW",
+    "overnight": false,
+    "notes": "Beliebter Tagesankerplatz am Nordufer nahe Gunten. Geschützt bei Nord- und Nordwestwind. Kurze Schaukelwellen bei Südwind (Föhn). Naturschutzgebiet Hilterfingen-Gunten – Schilfzonen meiden.",
+    "url": "https://www.thunersee.ch/",
+    "source": "Thunersee Tourismus; Skipperguide Thunersee",
+    "lastVerified": "2026-03-28",
+    "restrictions": "Schilf- und Naturschutzzone Gunten beachten. Max. 24h ankern."
+  },
+  {
+    "id": "thun_merligen",
+    "name": "Vor Merligen",
+    "country": "CH",
+    "region": "Merligen, Nordufer Thunersee",
+    "lat": 46.7097,
+    "lng": 7.7478,
+    "depthMinM": 4,
+    "depthMaxM": 12,
+    "ground": "Schlamm",
+    "protection": "N/NW",
+    "overnight": true,
+    "notes": "Gut geschützter Ankerplatz vor Merligen. Tiefes Wasser, guter Schlammgrund. Bei Föhn (Südwind) ungeschützt – sofort Hafen aufsuchen. Beliebter Übernachtungsanker mit Blick auf Beatenberg.",
+    "url": "https://www.thunersee.ch/",
+    "source": "Thunersee Tourismus; Skipperguide Thunersee",
+    "lastVerified": "2026-03-28",
+    "restrictions": "Naturschutzgebiet Beatebucht (östlich) beachten. Max. 24h ankern. Bei Föhn Anker sofort aufholen."
   }
 ]

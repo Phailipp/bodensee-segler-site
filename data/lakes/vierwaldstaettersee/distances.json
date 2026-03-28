@@ -1,0 +1,58 @@
+{
+  "seeId": "vierwaldstaettersee",
+  "unit": "nm",
+  "matrix": {
+    "tribschenhorn": {
+      "hergiswil": 5.0,
+      "stansstad": 6.2,
+      "vitznau": 8.6,
+      "marina_fallenbach": 14.0,
+      "rutenen_beckenried": 12.7,
+      "sisikon": 17.7,
+      "fluelen": 21.6
+    },
+    "hergiswil": {
+      "tribschenhorn": 5.0,
+      "stansstad": 1.2,
+      "vitznau": 9.8,
+      "marina_fallenbach": 15.0,
+      "rutenen_beckenried": 10.3
+    },
+    "stansstad": {
+      "tribschenhorn": 6.2,
+      "hergiswil": 1.2,
+      "rutenen_beckenried": 9.1,
+      "vitznau": 11.0
+    },
+    "vitznau": {
+      "tribschenhorn": 8.6,
+      "marina_fallenbach": 5.4,
+      "rutenen_beckenried": 5.6,
+      "fluelen": 13.4
+    },
+    "marina_fallenbach": {
+      "tribschenhorn": 14.0,
+      "vitznau": 5.4,
+      "sisikon": 4.3,
+      "fluelen": 8.0
+    },
+    "rutenen_beckenried": {
+      "tribschenhorn": 12.7,
+      "stansstad": 9.1,
+      "vitznau": 5.6,
+      "sisikon": 5.8,
+      "fluelen": 7.8
+    },
+    "sisikon": {
+      "marina_fallenbach": 4.3,
+      "fluelen": 3.9,
+      "rutenen_beckenried": 5.8
+    },
+    "fluelen": {
+      "sisikon": 3.9,
+      "marina_fallenbach": 8.0,
+      "vitznau": 13.4,
+      "tribschenhorn": 21.6
+    }
+  }
+}

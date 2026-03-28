@@ -1,15 +1,18 @@
 [
   {
     "id": "kran_arth",
-    "name": "Kran Marina Arth",
+    "name": "Kran KIBAG Marina Arth",
     "country": "CH",
     "type": "crane",
-    "details": "7t-Kran · KIBAG Marina Arth",
+    "details": "7t-Kran · Winterlager (175 Liegeplätze) · Reparatur, Antifouling, GFK, Teakdeck · Saison: ganzjährig · Zugerstrasse 73, 6415 Arth",
     "lat": 47.063,
     "lng": 8.527,
     "url": "https://www.kibagmarina.ch/de/standorte/marina_arth.html",
-    "source": "https://www.kibagmarina.ch/",
-    "lastVerified": "2026-03-23"
+    "source": "https://www.kibagmarina.ch/de/standorte/marina_arth.html",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 58 387 16 80",
+    "email": "marina.arth@kibag.ch",
+    "hours": "Mo–Fr 07:30–12:00 & 13:00–17:00"
   },
   {
     "id": "slip_zug",
@@ -25,15 +28,17 @@
   },
   {
     "id": "tankstelle_zug",
-    "name": "Seetankstelle Zug",
+    "name": "Seetankstelle Zug (W.A.R.)",
     "country": "CH",
     "type": "fuel",
-    "details": "Schwimmende Tankstelle · Bleifrei 95 · W.A.R. Bootbau & Boothandel AG · Landsgemeindeplatz · geöffnet 31. März – 21. Oktober",
+    "details": "Schwimmende Tankstelle · Bleifrei 95 · W.A.R. Bootbau & Boothandel AG · Landsgemeindeplatz · Saison 31. März–21. Oktober",
     "lat": 47.168,
     "lng": 8.515,
     "url": "https://www.war.ch/",
-    "source": "marktindex.ch – Bootstankstelle Zug; war.ch",
-    "lastVerified": "2026-03-26"
+    "source": "war.ch; marktindex.ch – Bootstankstelle Zug",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 41 375 60 90",
+    "email": "war@war.ch"
   },
   {
     "id": "werft_walchwil",
@@ -94,5 +99,33 @@
     "url": "https://www.risch.ch/",
     "source": "Gemeinde Risch",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "werft_hauser_baar",
+    "name": "Bootswerft Hauser AG",
+    "country": "CH",
+    "type": "yard",
+    "details": "Bootswerft & Segelschule · Reparatur an Holz-, Alu/Stahl- und GFK-Booten · Bordelektronik · Motorenservice · Bootsverkauf · Winterlager · Führerscheinschule (Segel & Motor) · Oberneuhofstrasse 13, 6340 Baar",
+    "lat": 47.192,
+    "lng": 8.524,
+    "url": "https://www.bootswerft-hauser.ch/",
+    "source": "bootswerft-hauser.ch; bootbauer.ch",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 41 761 71 44",
+    "email": "info@bootswerft-hauser.ch"
+  },
+  {
+    "id": "pier1_zug_fuel",
+    "name": "Pier 1 Zug – Tankstelle & Verleih",
+    "country": "CH",
+    "type": "fuel",
+    "details": "Schwimmende Tankstelle · Motorboote, SUP & Pedalo-Verleih · Kiosk · Platzwehri am See · Führerscheinfrei · Saison Mai–Okt",
+    "lat": 47.1673,
+    "lng": 8.5141,
+    "url": "https://sites.google.com/view/pier1zug",
+    "source": "yellowpages.net; sites.google.com/view/pier1zug",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 41 711 34 88",
+    "email": "pier1zug@gmail.com"
   }
 ]

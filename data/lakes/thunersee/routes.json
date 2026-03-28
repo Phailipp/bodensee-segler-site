@@ -1,0 +1,89 @@
+{
+  "seeId": "thunersee",
+  "routeTemplates": [
+    {
+      "id": "th_classic_2d",
+      "name": "Thunersee Klassiker",
+      "nameDe": "Thunersee Klassiker: Thun – Spiez – Neuhaus",
+      "nameEn": "Lake Thun Classic",
+      "days": 2,
+      "difficulty": "easy",
+      "theme": ["scenery", "mountains", "guestBerths"],
+      "totalDistanceNM": 24,
+      "description": "Der klassische Thunersee-Törn mit spektakulärer Alpenpanormakulisse: Thun – Spiez – Leissigen – Neuhaus/Interlaken – Merligen – Spiez – Thun.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "thun_lachen",
+          "to": "neuhaus_interlaken",
+          "distanceNM": 13.0,
+          "estimatedHoursSail": 4.5,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["Spiez Schloss am See", "Oberhofen Schloss", "Leissigen idyllisches Dorf", "Panorama Eiger Mönch Jungfrau"],
+          "warnings": ["Thermische Böen am Nachmittag (Glärnisch-Föhn)", "Flachwasser am Ostende bei Neuhaus"],
+          "overnight": {
+            "harbor": "neuhaus_interlaken",
+            "notes": "Segelclub Neuhaus-Interlaken, ruhige Lage am Ostende des Sees"
+          }
+        },
+        {
+          "day": 2,
+          "from": "neuhaus_interlaken",
+          "to": "thun_lachen",
+          "distanceNM": 13.0,
+          "estimatedHoursSail": 4.0,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["Beatushöhlen (Merligen)", "Gunten malerisches Dorf", "Rückfahrt mit Bergblick"],
+          "warnings": ["Morgenwind Richtung Ost kann stark sein"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "th_daytrip_1d",
+      "name": "Tagesausflug Thun–Merligen",
+      "nameDe": "Tagesausflug Thun – Faulensee – Merligen – Spiez",
+      "nameEn": "Day Trip Thun – Merligen – Spiez",
+      "days": 1,
+      "difficulty": "easy",
+      "theme": ["daytrip", "scenery", "mountains"],
+      "totalDistanceNM": 23,
+      "description": "Kompakter Tagesausflug am Südufer entlang: Thun – Hünegg/Hilterfingen – Oberhofen – Gunten – Merligen – Spiez – zurück nach Thun.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "thun_lachen",
+          "to": "hafen_merligen",
+          "distanceNM": 8.3,
+          "estimatedHoursSail": 3.0,
+          "estimatedHoursMotor": 1.5,
+          "highlights": ["Schloss Oberhofen", "Gunten mit malerischen Häusern", "Beatushöhlen bei Merligen"],
+          "warnings": ["Flachwasserzone bei Hilterfingen"],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "hafen_merligen",
+          "to": "spiez",
+          "distanceNM": 4.2,
+          "estimatedHoursSail": 1.5,
+          "estimatedHoursMotor": 0.8,
+          "highlights": ["Spiez Schloss und Weinberg", "Geschützte Bucht von Spiez"],
+          "warnings": [],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "spiez",
+          "to": "thun_lachen",
+          "distanceNM": 5.2,
+          "estimatedHoursSail": 1.5,
+          "estimatedHoursMotor": 1.0,
+          "highlights": ["Überfahrt zur Nordseite", "Einfahrt Thun-Lachen"],
+          "warnings": ["Nachmittagsthermik"],
+          "overnight": null
+        }
+      ]
+    }
+  ]
+}

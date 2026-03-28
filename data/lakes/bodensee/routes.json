@@ -1,0 +1,141 @@
+{
+  "seeId": "bodensee",
+  "routeTemplates": [
+    {
+      "id": "bs_classic_3d",
+      "name": "Bodensee Klassiker",
+      "nameDe": "Bodensee Klassiker: Konstanz – Lindau – Bregenz – Romanshorn",
+      "nameEn": "Lake Constance Classic",
+      "days": 3,
+      "difficulty": "easy",
+      "theme": ["towns", "international", "guestBerths", "scenery"],
+      "totalDistanceNM": 64,
+      "description": "Der klassische Drei-Länder-Törn: Konstanz – Meersburg – Friedrichshafen – Lindau – Bregenz – Romanshorn – Konstanz. Deutschland, Österreich und Schweiz an einem Wochenende.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "konstanz",
+          "to": "lindau_sc",
+          "distanceNM": 30.1,
+          "estimatedHoursSail": 8.0,
+          "estimatedHoursMotor": 5.5,
+          "highlights": ["Meersburg Altstadt und Burg", "Halbinsel Höri", "Friedrichshafen Zeppelin-Museum", "Lindau Inselhafen"],
+          "warnings": ["Langer erster Tag – früh starten", "IBN-Verkehrsregeln beachten (D/A/CH)", "Hochsaison: Gastplätze früh reservieren"],
+          "overnight": {
+            "harbor": "lindau_sc",
+            "notes": "30 Gastplätze LSC, Hafenmeister, direkt am historischen Inselhafen"
+          }
+        },
+        {
+          "day": 2,
+          "from": "lindau_sc",
+          "to": "romanshorn",
+          "distanceNM": 24.0,
+          "estimatedHoursSail": 7.0,
+          "estimatedHoursMotor": 4.5,
+          "highlights": ["Bregenz Festspielhaus am See", "Bregenzer Ach-Mündung", "Rheinmündung Hard", "Romanshorn Marina"],
+          "warnings": ["Bregenz–Romanshorn: Grosse Überfahrt, Westwind möglich", "Fähre Romanshorn–Friedrichshafen beachten"],
+          "overnight": {
+            "harbor": "romanshorn",
+            "notes": "40 Gastplätze, Tankstelle, gute Infrastruktur"
+          }
+        },
+        {
+          "day": 3,
+          "from": "romanshorn",
+          "to": "konstanz",
+          "distanceNM": 13.1,
+          "estimatedHoursSail": 4.5,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["Kreuzlingen-Schweizer Ufer", "Einfahrt Konstanz via Seerhein"],
+          "warnings": ["Strömung im Seerhein bei Niedrigwasser beachten"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "bs_untersee_1d",
+      "name": "Untersee-Runde",
+      "nameDe": "Untersee-Runde: Konstanz – Überlingen – Radolfzell",
+      "nameEn": "Lower Lake Loop: Konstanz – Überlingen – Radolfzell",
+      "days": 1,
+      "difficulty": "easy",
+      "theme": ["daytrip", "history", "towns"],
+      "totalDistanceNM": 34,
+      "description": "Tagesausflug in den idyllischen Untersee und Überlinger See: Konstanz – Kreuzlingen – Überlingen – Radolfzell und zurück.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "konstanz",
+          "to": "ueberlingen",
+          "distanceNM": 11.1,
+          "estimatedHoursSail": 3.5,
+          "estimatedHoursMotor": 2.0,
+          "highlights": ["Kreuzlingen Hafen", "Überlinger See Idylle", "Überlingen Altstadt und gotisches Münster"],
+          "warnings": ["Westwind Überlingen: kurze steile Wellen"],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "ueberlingen",
+          "to": "osm-way-48531302-yachthafen-radolfzell",
+          "distanceNM": 10.9,
+          "estimatedHoursSail": 3.5,
+          "estimatedHoursMotor": 2.0,
+          "highlights": ["Halbinsel Höri", "Radolfzell Münster"],
+          "warnings": ["Untiefen in Gnadeseebay beachten"],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "osm-way-48531302-yachthafen-radolfzell",
+          "to": "konstanz",
+          "distanceNM": 12.7,
+          "estimatedHoursSail": 4.0,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["Zollbrücke Radolfzell", "Abendeinfahrt Konstanz"],
+          "warnings": ["Späteinfahrt Konstanz: Beleuchtung sicherstellen"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "bs_obersee_2d",
+      "name": "Obersee-Törn",
+      "nameDe": "Obersee-Törn: Friedrichshafen – Lindau – Bregenz – Romanshorn",
+      "nameEn": "Upper Lake Tour: Friedrichshafen – Lindau – Bregenz – Romanshorn",
+      "days": 2,
+      "difficulty": "easy",
+      "theme": ["international", "towns", "weekend"],
+      "totalDistanceNM": 48,
+      "description": "Der östliche Obersee kompakt: Friedrichshafen – Lindau – Bregenz – Romanshorn. Drei Länder, zwei Tage.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "wyc",
+          "to": "bregenz_sc",
+          "distanceNM": 18.1,
+          "estimatedHoursSail": 5.5,
+          "estimatedHoursMotor": 3.5,
+          "highlights": ["Friedrichshafen Zeppelin-Museum", "Arbon Stadthafen", "Lindau Inselhafen", "Bregenz Festspielhaus"],
+          "warnings": ["Lindau–Bregenz: Tiefgang-Einschränkung im Bregenzer Hafen prüfen"],
+          "overnight": {
+            "harbor": "bregenz_sc",
+            "notes": "25 Gastplätze BSC, Clubrestaurant, Stadtanbindung"
+          }
+        },
+        {
+          "day": 2,
+          "from": "bregenz_sc",
+          "to": "wyc",
+          "distanceNM": 29.5,
+          "estimatedHoursSail": 8.0,
+          "estimatedHoursMotor": 5.0,
+          "highlights": ["Rheinmündung", "Arbon mit romanischem Kastell", "Rückkehr Friedrichshafen"],
+          "warnings": ["Langer Rückweg – Frühtörn empfohlen"],
+          "overnight": null
+        }
+      ]
+    }
+  ]
+}

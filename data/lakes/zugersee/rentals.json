@@ -99,9 +99,56 @@
     ],
     "url": "https://www.war.ch/",
     "source": "https://www.war.ch/",
-    "lastVerified": "2026-03-27",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 41 375 60 90",
+    "email": "war@war.ch",
+    "hours": "Saison"
+  },
+  {
+    "id": "andys_sup_zug",
+    "name": "Andy's SUP Kurse Zug",
+    "country": "CH",
+    "location": "Zug, Seeufer bei Brüggli",
+    "lat": 47.17671,
+    "lng": 8.49686,
+    "fleetSize": 50,
+    "priceFrom": "ab CHF 30/h",
+    "features": [
+      "SUP",
+      "Touringboard",
+      "Race-Board",
+      "Kurse",
+      "Führerscheinfrei"
+    ],
+    "url": "https://www.sup-kurse.ch/",
+    "source": "sup-kurse.ch; zug-tourismus.ch – Andy's SUP Station Zug",
+    "lastVerified": "2026-03-28",
     "phone": "",
     "email": "",
-    "hours": "Saison"
+    "hours": "Saison, nur bei schönem Wetter"
+  },
+  {
+    "id": "pier1_zug_rental",
+    "name": "Pier 1 Zug",
+    "country": "CH",
+    "location": "Zug, Platzwehri am See",
+    "lat": 47.1673,
+    "lng": 8.5141,
+    "fleetSize": 6,
+    "priceFrom": "auf Anfrage",
+    "features": [
+      "Motorboote",
+      "SUP",
+      "Pedalos",
+      "Führerscheinfrei",
+      "Kiosk am See",
+      "Eigene Tankstelle"
+    ],
+    "url": "https://sites.google.com/view/pier1zug",
+    "source": "yellowpages.net – Pier 1 Zug",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 41 711 34 88",
+    "email": "pier1zug@gmail.com",
+    "hours": "Saison Mai–Okt"
   }
 ]

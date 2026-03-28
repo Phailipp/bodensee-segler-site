@@ -171,5 +171,41 @@
     "url": "https://bootfahren-lago-maggiore.de/revierfuehrer/ankern/",
     "source": "bootfahren-lago-maggiore.de – Ankern",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "stresa_bucht",
+    "name": "Bucht vor Stresa",
+    "country": "IT",
+    "region": "Stresa, Westufer",
+    "lat": 45.885,
+    "lng": 8.524,
+    "depthMinM": 5,
+    "depthMaxM": 25,
+    "ground": "Schlamm/Sand",
+    "protection": "E/SE",
+    "overnight": false,
+    "notes": "Tagesanker vor dem Ortszentrum Stresa, südlich der Isole Borromee. Schöner Blick auf die Borromäischen Inseln und das Mottarone-Massiv. Bei Tramontina (Nordwind) Wellengang möglich.",
+    "url": "https://bootfahren-lago-maggiore.de/revierfuehrer/ankern/",
+    "source": "bootfahren-lago-maggiore.de – Ankern",
+    "lastVerified": "2026-03-28",
+    "restrictions": "Durchfahrt Isole Borromee: nur im gekennzeichneten Fahrwasser. Privatgelände der Borromäischen Inseln respektieren."
+  },
+  {
+    "id": "locarno_bucht",
+    "name": "Vor Locarno / Ascona (Maggia-Mündung)",
+    "country": "CH",
+    "region": "Locarno, Ticino",
+    "lat": 46.168,
+    "lng": 8.776,
+    "depthMinM": 3,
+    "depthMaxM": 8,
+    "ground": "Sand/Kies",
+    "protection": "N/NW",
+    "overnight": false,
+    "notes": "Flacher Ankerbereich nahe der Maggia-Mündung. Guter Sandboden. Warmste Stelle des Schweizer Teils des Sees. Achtung: Schwellenwellen durch Ausflugsschiffe aus Locarno.",
+    "url": "https://bootfahren-lago-maggiore.de/revierfuehrer/ankern/",
+    "source": "bootfahren-lago-maggiore.de – Ankern",
+    "lastVerified": "2026-03-28",
+    "restrictions": "Fahrrinne Locarno-Hafen freihalten. Max. 24h ankern (BSG/BSV). Uferzone 150m beachten."
   }
 ]

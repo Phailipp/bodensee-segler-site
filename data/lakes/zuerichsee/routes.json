@@ -1,0 +1,130 @@
+{
+  "seeId": "zuerichsee",
+  "routeTemplates": [
+    {
+      "id": "zh_classic_2d",
+      "name": "Zürichsee Klassiker",
+      "nameDe": "Zürichsee Klassiker",
+      "nameEn": "Lake Zurich Classic",
+      "days": 2,
+      "difficulty": "easy",
+      "theme": ["towns", "guestBerths", "scenery"],
+      "totalDistanceNM": 36,
+      "description": "Der Klassiker am Zürichsee: Wollishofen – Rapperswil (Rosenstadt) – zurück Westufer. Malerische Fahrt durch den See mit Stopp in der historischen Altstadt Rapperswil.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "wollishofen",
+          "to": "yc_rapperswil",
+          "distanceNM": 17.8,
+          "estimatedHoursSail": 5.5,
+          "estimatedHoursMotor": 3.0,
+          "highlights": ["Stadtsicht Zürich", "Männedorf-Halbinsel", "Rapperswil Altstadt und Schloss", "Linthebene-Panorama"],
+          "warnings": ["Föhn-Böen können stark sein", "Motorbootverkehr Zürichsee sehr dicht an Wochenenden", "Brücke Rapperswil Durchfahrtshöhe 4,5 m beachten"],
+          "overnight": {
+            "harbor": "yc_rapperswil",
+            "notes": "10 Gastplätze, Restaurant im Clubhaus, direkt am Schloss"
+          }
+        },
+        {
+          "day": 2,
+          "from": "yc_rapperswil",
+          "to": "wollishofen",
+          "distanceNM": 18.0,
+          "estimatedHoursSail": 5.5,
+          "estimatedHoursMotor": 3.0,
+          "highlights": ["Westufer mit Weinreben", "Wädenswil und Horgen", "Einfahrt Zürich"],
+          "warnings": ["Thermischer Wind am Nachmittag kann 4–5 Bft erreichen"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "zh_daytrip_1d",
+      "name": "Tagesausflug Zürich – Rapperswil",
+      "nameDe": "Tagesausflug Zürich – Rapperswil Ostufer",
+      "nameEn": "Day Trip Zürich – Rapperswil East Shore",
+      "days": 1,
+      "difficulty": "easy",
+      "theme": ["daytrip", "scenery"],
+      "totalDistanceNM": 38,
+      "description": "Tagesausflug entlang des Ostufers: Tiefenbrunnen – Küsnacht – Meilen – Männedorf – Rapperswil und zurück ans Westufer.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "tiefenbrunnen",
+          "to": "hafen_meilen",
+          "distanceNM": 7.6,
+          "estimatedHoursSail": 2.5,
+          "estimatedHoursMotor": 1.5,
+          "highlights": ["Uetliberg-Silhouette", "Goldküste"],
+          "warnings": ["Segeln unter Segelbot-Einschränkungen im Stadtgebiet"],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "hafen_meilen",
+          "to": "yc_rapperswil",
+          "distanceNM": 10.2,
+          "estimatedHoursSail": 3.5,
+          "estimatedHoursMotor": 2.0,
+          "highlights": ["Stäfa Weinorte", "Blick auf den Obersee"],
+          "warnings": ["Untiefe östlich Rapperswil beachten"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "zh_full_circuit_3d",
+      "name": "Volle Seerunde",
+      "nameDe": "Volle Seerunde inkl. Obersee",
+      "nameEn": "Full Lake Circuit including Obersee",
+      "days": 3,
+      "difficulty": "moderate",
+      "theme": ["adventure", "scenery", "guestBerths"],
+      "totalDistanceNM": 60,
+      "description": "Die vollständige Runde des Zürichsees einschliesslich Obersee bis Schmerikon/Altendorf: Wollishofen – Rapperswil – Obersee – Richterswil – Wollishofen.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "wollishofen",
+          "to": "yc_rapperswil",
+          "distanceNM": 17.8,
+          "estimatedHoursSail": 5.5,
+          "estimatedHoursMotor": 3.0,
+          "highlights": ["Zürich Seebecken", "Goldküste", "Rapperswil Schloss"],
+          "warnings": ["Föhn-Böen prüfen", "Wochendverkehr dicht"],
+          "overnight": {
+            "harbor": "yc_rapperswil",
+            "notes": "10 Gastplätze, gute Infrastruktur"
+          }
+        },
+        {
+          "day": 2,
+          "from": "yc_rapperswil",
+          "to": "hensa_altendorf",
+          "distanceNM": 3.0,
+          "estimatedHoursSail": 1.5,
+          "estimatedHoursMotor": 0.5,
+          "highlights": ["Obersee-Idylle", "Schilfrohrzonen", "Linthkanal-Mündung"],
+          "warnings": ["Flachwasser im Obersee – Tiefgang max. 1,5 m empfohlen", "Strömung bei Linthkanal beachten"],
+          "overnight": {
+            "harbor": "hensa_altendorf",
+            "notes": "3 Gastplätze, Vollservice-Werft, 20t-Kran"
+          }
+        },
+        {
+          "day": 3,
+          "from": "hensa_altendorf",
+          "to": "wollishofen",
+          "distanceNM": 22.0,
+          "estimatedHoursSail": 6.5,
+          "estimatedHoursMotor": 4.0,
+          "highlights": ["Westufer Weinberge", "Wädenswil", "Richterswil", "Thalwil", "Rückkehr nach Zürich"],
+          "warnings": ["Lange Etappe – früh starten", "Thermische Böen am Nachmittag"],
+          "overnight": null
+        }
+      ]
+    }
+  ]
+}

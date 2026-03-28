@@ -1,0 +1,175 @@
+{
+  "seeId": "vierwaldstaettersee",
+  "routeTemplates": [
+    {
+      "id": "vws_classic_3d",
+      "name": "Vierwaldstättersee Klassiker",
+      "nameDe": "Vierwaldstättersee Klassiker",
+      "nameEn": "Lake Lucerne Classic",
+      "days": 3,
+      "difficulty": "easy",
+      "theme": ["scenery", "towns", "guestBerths"],
+      "totalDistanceNM": 28,
+      "description": "Der klassische 3-Tages-Törn: Luzern – Vitznau – Brunnen – Flüelen – Luzern. Spektakuläre Bergkulisse, historische Orte am Urnersee, gute Gastplätze.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "tribschenhorn",
+          "to": "vitznau",
+          "distanceNM": 8.6,
+          "estimatedHoursSail": 3.0,
+          "estimatedHoursMotor": 1.5,
+          "highlights": ["Aussicht auf den Rigi", "Burg Gutenberg", "Querung des Gersauer Beckens"],
+          "warnings": ["Föhn-Gefahr aus Süd", "Fährverkehr Beckenried–Gersau beachten"],
+          "overnight": {
+            "harbor": "vitznau",
+            "notes": "4–6 Gastplätze CHF 25/Nacht, Buchung direkt beim Hafenmeister"
+          }
+        },
+        {
+          "day": 2,
+          "from": "vitznau",
+          "to": "fluelen",
+          "distanceNM": 13.4,
+          "estimatedHoursSail": 4.5,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["Rütli-Wiese (Geburtsort der Eidgenossenschaft)", "Schillerstein", "Urnersee-Kulisse"],
+          "warnings": ["Föhn-Böen im Urnersee sehr stark – Wetterlage im Voraus prüfen", "Engstelle Sisikon beachten"],
+          "overnight": {
+            "harbor": "fluelen",
+            "notes": "6 Gastplätze CHF 30/Nacht, nahe SGV-Schiffsstation"
+          }
+        },
+        {
+          "day": 3,
+          "from": "fluelen",
+          "to": "tribschenhorn",
+          "distanceNM": 6.4,
+          "estimatedHoursSail": 3.5,
+          "estimatedHoursMotor": 1.5,
+          "highlights": ["Querung des Gersauer Beckens", "Ankunft Luzern mit Kapellbrücke"],
+          "warnings": ["Belebter Motorbootverkehr bei Luzern", "Schiffsanlegestellen freihalten"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "vws_weekend_2d",
+      "name": "Wochenend-Törn Luzern–Brunnen",
+      "nameDe": "Wochenend-Törn Luzern–Brunnen",
+      "nameEn": "Weekend Trip Lucerne–Brunnen",
+      "days": 2,
+      "difficulty": "easy",
+      "theme": ["weekend", "scenery", "guestBerths"],
+      "totalDistanceNM": 28,
+      "description": "Entspannter 2-Tages-Törn für das Wochenende: Luzern – Vitznau – Brunnen (Übernachtung) – Beckenried – Luzern.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "tribschenhorn",
+          "to": "marina_fallenbach",
+          "distanceNM": 14.0,
+          "estimatedHoursSail": 4.5,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["Vitznau mit Rigi-Zahnradbahn", "Blick auf Fronalpstock", "Historisches Brunnen am Urnersee"],
+          "warnings": ["Föhn-Warnung beobachten", "Früh starten für guten Wind"],
+          "overnight": {
+            "harbor": "marina_fallenbach",
+            "notes": "10–13 Gastplätze CHF 25–40/Nacht via Boatpark-App, Werft vor Ort"
+          }
+        },
+        {
+          "day": 2,
+          "from": "marina_fallenbach",
+          "to": "tribschenhorn",
+          "distanceNM": 14.0,
+          "estimatedHoursSail": 4.0,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["Morgenwind auf dem Gersauer Becken", "Hergiswil Glasbläserei", "Einfahrt Luzern"],
+          "warnings": ["Nachmittagsthermik kann stark sein"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "vws_grand_tour_5d",
+      "name": "Grosse Runde – Alle vier Arme",
+      "nameDe": "Grosse Runde – Alle vier Arme",
+      "nameEn": "Grand Tour – All Four Arms",
+      "days": 5,
+      "difficulty": "moderate",
+      "theme": ["adventure", "scenery", "history"],
+      "totalDistanceNM": 60,
+      "description": "Die grosse Runde des Vierwaldstättersees: Alle vier Seearme erkunden – Luzerner Becken, Alpnachersee, Gersauer Becken und Urnersee.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "tribschenhorn",
+          "to": "stansstad",
+          "distanceNM": 6.2,
+          "estimatedHoursSail": 2.5,
+          "estimatedHoursMotor": 1.0,
+          "highlights": ["Lopperbucht", "Blick auf Pilatus", "Durchfahrt Alpnachersee"],
+          "warnings": ["Unter der Lopperbucht häufig Böen"],
+          "overnight": {
+            "harbor": "stansstad",
+            "notes": "6 Gastplätze CHF 20–25/Nacht, freie Sliprampe"
+          }
+        },
+        {
+          "day": 2,
+          "from": "stansstad",
+          "to": "rutenen_beckenried",
+          "distanceNM": 9.1,
+          "estimatedHoursSail": 3.5,
+          "estimatedHoursMotor": 1.5,
+          "highlights": ["Kehren um Hergiswil", "Weissenstein-Blick", "Beckenried Dorfkirche"],
+          "warnings": ["Fähre Beckenried–Gersau: Kurs freihalten"],
+          "overnight": {
+            "harbor": "rutenen_beckenried",
+            "notes": "Marina Rütenen, 5 Gastplätze, modernen Bootshallen"
+          }
+        },
+        {
+          "day": 3,
+          "from": "rutenen_beckenried",
+          "to": "fluelen",
+          "distanceNM": 7.8,
+          "estimatedHoursSail": 3.0,
+          "estimatedHoursMotor": 1.5,
+          "highlights": ["Rütli-Wiese", "Tells Kapelle", "Axenstrasse"],
+          "warnings": ["Föhn-Böen im Urnersee; bei Stärke 7+ anlanden"],
+          "overnight": {
+            "harbor": "fluelen",
+            "notes": "6 Gastplätze CHF 30/Nacht, Tankstelle vor Ort"
+          }
+        },
+        {
+          "day": 4,
+          "from": "fluelen",
+          "to": "vitznau",
+          "distanceNM": 12.5,
+          "estimatedHoursSail": 4.0,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["Sisikon Schynige Platte", "Morschach-Terrasse", "Rigi-Panorama"],
+          "warnings": ["Grosser Schiff-Begegnungsverkehr im Gersauer Becken"],
+          "overnight": {
+            "harbor": "vitznau",
+            "notes": "4–6 Gastplätze CHF 25/Nacht"
+          }
+        },
+        {
+          "day": 5,
+          "from": "vitznau",
+          "to": "tribschenhorn",
+          "distanceNM": 8.6,
+          "estimatedHoursSail": 3.0,
+          "estimatedHoursMotor": 1.5,
+          "highlights": ["Letzter Blick auf die Berge", "Kapellbrücke Luzern", "Stadtbummel"],
+          "warnings": ["Motorbootverkehr bei Luzern"],
+          "overnight": null
+        }
+      ]
+    }
+  ]
+}

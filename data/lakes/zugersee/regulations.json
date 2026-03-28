@@ -1,0 +1,111 @@
+{
+  "seeId": "zugersee",
+  "canton": "ZG",
+  "cantons": ["ZG"],
+  "lastUpdated": "2026-03-28",
+  "sources": [
+    {
+      "name": "Bundesgesetz über die Binnenschifffahrt (BSG)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1996/3169_3169_3169/de",
+      "type": "official"
+    },
+    {
+      "name": "Binnenschifffahrtsverordnung (BSV)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/1238_1238_1238/de",
+      "type": "official"
+    },
+    {
+      "name": "Schifffahrtskontrolle Kanton Zug",
+      "url": "https://www.zg.ch/behoerden/volkswirtschaftsdirektion/amt-fuer-oeffentlichen-verkehr/schifffahrt",
+      "type": "official"
+    }
+  ],
+  "license": {
+    "sailRequired": true,
+    "sailThresholdM2": 15,
+    "motorRequired": true,
+    "motorThresholdKW": 6,
+    "motorThresholdPS": 8,
+    "minAgeSail": 14,
+    "minAgeMotor": 18,
+    "foreignLicenseAccepted": true,
+    "foreignLicenseNotes": "ICC wird akzeptiert. EU/EWR-Bootsführerscheine werden anerkannt, sofern sie den ICC-Anforderungen entsprechen.",
+    "specialRules": "Kategorienausweis S ab 15 m² Segelfläche, Kategorienausweis A (bis 18 m) oder B (über 18 m) ab 6 kW. Zuständige Behörde ist die Schifffahrtskontrolle Kanton Zug."
+  },
+  "anchoring": {
+    "generallyAllowed": true,
+    "maxDurationHours": 24,
+    "overnightAllowed": true,
+    "overnightNotes": "Ankern über Nacht erlaubt. Maximaldauer 24 Stunden ohne Sonderbewilligung. Mindestabstand zu Schilfzonen (25 m) einhalten. Nicht in Schutzzonen und Naturschutzgebieten ankern.",
+    "minDistanceReedM": 25,
+    "restrictedZones": [
+      "Naturschutzgebiet Zugersee-Westufer",
+      "Schonzone bei Zug-Oberwil",
+      "Markierte Badezonen",
+      "Bereich Schiffsanlegestellen Zug"
+    ],
+    "source": "BSV Art. 48–50; Schifffahrtskontrolle Kanton Zug"
+  },
+  "speedLimits": {
+    "general": {
+      "maxKmh": 40,
+      "notes": "Allgemeine Höchstgeschwindigkeit auf dem Zugersee gemäß BSV."
+    },
+    "nearShore": {
+      "distanceM": 150,
+      "maxKmh": 10,
+      "notes": "Innerhalb von 150 m vom Ufer gilt 10 km/h (BSV)."
+    },
+    "zones": [
+      {
+        "name": "Häfen Zug / Cham / Walchwil",
+        "maxKmh": 5,
+        "notes": "Schrittgeschwindigkeit in Häfen und beim Anlegen."
+      },
+      {
+        "name": "Badezonen",
+        "maxKmh": 5,
+        "notes": "Keine Einfahrt in markierte Badezonen."
+      }
+    ]
+  },
+  "navigation": {
+    "nightNavigation": {
+      "allowed": true,
+      "lightingRequired": true,
+      "notes": "Nachtfahrt erlaubt mit vorgeschriebenen Navigationslichtern gemäß BSV."
+    },
+    "vhfRequired": false,
+    "vhfChannel": null,
+    "rightOfWay": "Kursschiffe haben Vorrang. Segelboote vor Motorbooten. Fahrrinnen und Anlegestellen der Linienschiffe freihalten.",
+    "specialRules": [
+      "Der Zugersee ist ein relativ kleiner, geschlossener See – in der engen Bucht bei Zug besondere Rücksicht auf anderen Verkehr nehmen.",
+      "Fischereizonen: Schonzonen der Zuger Fischerei beachten.",
+      "Trinkwasserschutz: Der Zugersee dient als Trinkwasserreservoir – strenge Umweltauflagen."
+    ]
+  },
+  "registration": {
+    "required": true,
+    "authority": "Schifffahrtskontrolle Kanton Zug",
+    "authorityUrl": "https://www.zg.ch/behoerden/volkswirtschaftsdirektion/amt-fuer-oeffentlichen-verkehr/schifffahrt",
+    "vignetteRequired": false,
+    "insuranceRequired": true,
+    "minInsuranceCHF": 2000000,
+    "notes": "Registrierung nach BSG ab 2.5 m Länge Pflicht. Zuständige Behörde ist die Schifffahrtskontrolle Kanton Zug."
+  },
+  "stormWarning": {
+    "provider": "MeteoSchweiz",
+    "warningUrl": "https://www.meteoswiss.admin.ch/",
+    "blinkPattern": "Sturmwarnmasten vorhanden. Standard-Blinkmuster: 40 Blinkzeichen/min = Sturmwarnung, 90 Blinkzeichen/min = Sturm.",
+    "notes": "Der Zugersee liegt in einer windgeschützten Lage, kann aber bei Föhn- und Gewittersituationen schnell gefährlich werden. MeteoSchweiz-App für aktuelle Warnungen nutzen."
+  },
+  "environment": {
+    "motorRestrictions": "Zweitaktmotoren: nur mit Direkteinspritzung-Katalysator zugelassen. Alte Vergaser-Zweitakter verboten. Elektroantrieb empfohlen.",
+    "wasteDisposal": "Fäkalienentsorgung an Land Pflicht. Einleiten von Bilgenwasser, Abwasser oder Chemikalien verboten. Der See ist Trinkwasserreservoir – absolute Sauberkeit Pflicht.",
+    "noGoZones": [
+      "Naturschutzgebiet Zugersee-Westufer (Lorzenspitz bis Buonas)",
+      "Naturschutzzone Seeufer Risch/Rotkreuz",
+      "Schutzzone Zugersee-Nordufer"
+    ]
+  }
+}

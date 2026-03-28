@@ -60,6 +60,19 @@
     "lastVerified": "2026-03-27"
   },
   {
+    "id": "werft_wilke_leissigen",
+    "name": "Wilke AG Bootswerft",
+    "country": "CH",
+    "type": "yard",
+    "details": "Bootsbau, Reparatur & Winterlager · Kanu-/SUP-Verleih · Kran vorhanden · Untere Ey 4, 3706 Leissigen",
+    "lat": 46.657,
+    "lng": 7.770,
+    "url": "http://www.wilke.ch/",
+    "source": "bootbauer.ch; wilke.ch",
+    "lastVerified": "2026-03-27",
+    "phone": "+41 33 847 17 70"
+  },
+  {
     "id": "slip_hilterfingen",
     "name": "Slipanlage Hilterfingen",
     "country": "CH",

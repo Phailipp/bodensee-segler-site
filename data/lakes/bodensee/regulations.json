@@ -1,0 +1,112 @@
+{
+  "seeId": "bodensee",
+  "canton": "TG",
+  "cantons": ["TG", "SG"],
+  "lastUpdated": "2026-03-28",
+  "sources": [
+    {
+      "name": "Bodensee-Schifffahrts-Ordnung (BSO)",
+      "url": "https://www.bodensee-schifffahrt.de/bso",
+      "type": "official"
+    },
+    {
+      "name": "IBKF – Internationale Bevollmächtigtenkonferenz für die Bodenseefischerei",
+      "url": "https://www.bodensee-schifffahrt.de",
+      "type": "official"
+    },
+    {
+      "name": "Amt für Verkehr Kanton Thurgau",
+      "url": "https://www.av.tg.ch/wasserfahrzeuge",
+      "type": "official"
+    }
+  ],
+  "license": {
+    "sailRequired": true,
+    "sailThresholdM2": 12,
+    "motorRequired": true,
+    "motorThresholdKW": 4.4,
+    "motorThresholdPS": 6,
+    "minAgeSail": 14,
+    "minAgeMotor": 18,
+    "foreignLicenseAccepted": true,
+    "foreignLicenseNotes": "ICC wird akzeptiert. Deutsche und österreichische Führerscheine (Sportbootführerschein See / Bodensee-Schifferpatent) gegenseitig anerkannt.",
+    "specialRules": "Bodensee unterliegt der BSO (Bodensee-Schifffahrts-Ordnung), nicht der schweizerischen BSG/BSV. Gemeinsame Zuständigkeit von CH, DE und AT. Kategorienausweis S ab 12 m² Segelfläche, Kategorienausweis A/B ab 4.4 kW."
+  },
+  "anchoring": {
+    "generallyAllowed": true,
+    "maxDurationHours": 24,
+    "overnightAllowed": true,
+    "overnightNotes": "Ankern über Nacht erlaubt, jedoch nicht in Schutzzonen, Naturschutzgebieten oder innerhalb von Hafeneinfahrten. Abstand zu anderen Fahrzeugen und Anlagen einhalten.",
+    "minDistanceReedM": 25,
+    "restrictedZones": [
+      "Naturschutzgebiete (z.B. Wollmatinger Ried, Rheindelta)",
+      "Markierte Badezonen",
+      "Fahrrinnen und Hafenzufahrten"
+    ],
+    "source": "BSO §§ 17, 21"
+  },
+  "speedLimits": {
+    "general": {
+      "maxKmh": 40,
+      "notes": "Allgemeine Höchstgeschwindigkeit auf dem Bodensee nach BSO."
+    },
+    "nearShore": {
+      "distanceM": 300,
+      "maxKmh": 10,
+      "notes": "Innerhalb von 300 m vom Ufer gilt 10 km/h (BSO). Ausnahmen für direkte Ein-/Ausfahrt zu Häfen und Anlegestellen."
+    },
+    "zones": [
+      {
+        "name": "Badezonen",
+        "maxKmh": 10,
+        "notes": "Keine Einfahrt in markierte Badezonen."
+      },
+      {
+        "name": "Häfen",
+        "maxKmh": 5,
+        "notes": "Schrittgeschwindigkeit in Häfen und engen Durchfahrten."
+      }
+    ]
+  },
+  "navigation": {
+    "nightNavigation": {
+      "allowed": true,
+      "lightingRequired": true,
+      "notes": "Nachtfahrt erlaubt mit vorgeschriebenen Navigationslichtern gemäß BSO. Ankerlichter bei vor Anker liegenden Fahrzeugen vorgeschrieben."
+    },
+    "vhfRequired": false,
+    "vhfChannel": 10,
+    "rightOfWay": "Kursschiffe (Linienfahrt) haben absoluten Vorrang. Segelboote vor Motorbooten. Beim Begegnen auf dem Bodensee: Steuerbordseite freihalten.",
+    "specialRules": [
+      "Internationales Gewässer: Regelungen von CH, DE und AT gelten jeweils in den Hoheitsgewässern.",
+      "UKW-Kanal 10 für Schifffahrtsinformationen und Notfall.",
+      "Fahrzeuge über 20 m Länge müssen UKW mitführen.",
+      "Aquaplaning (Wasserskifahren) nur in zugelassenen Zonen."
+    ]
+  },
+  "registration": {
+    "required": true,
+    "authority": "Schifffahrtsamt Bodensee / IBKF",
+    "authorityUrl": "https://www.av.tg.ch/wasserfahrzeuge",
+    "vignetteRequired": false,
+    "insuranceRequired": true,
+    "minInsuranceCHF": 2000000,
+    "notes": "BSO-Registrierung (Bodenseepatent) erforderlich. Fahrzeuge müssen am Bodensee registriert und mit Kennzeichen versehen sein."
+  },
+  "stormWarning": {
+    "provider": "MeteoSchweiz / DWD",
+    "warningUrl": "https://www.meteoswiss.admin.ch/",
+    "blinkPattern": "Blinksignale an Masten rund um den Bodensee: 40 Blinkzeichen/min = Sturmwarnung, 90 Blinkzeichen/min = Sturm. Signale sind von weitem sichtbar.",
+    "notes": "Sturmwarnmasten sind rund um den Bodensee verteilt. Bei Sturmwarnung (40/min) Hafen aufsuchen. Bei Sturmsignal (90/min) sofort Hafen anlaufen. Föhn-Warnungen besonders beachten."
+  },
+  "environment": {
+    "motorRestrictions": "Zweitaktmotoren: nur mit Direkteinspritzung oder Katalysator zugelassen. Ältere Zweitakter (Vergaser-Typ) seit 2000 verboten. Elektroantrieb empfohlen.",
+    "wasteDisposal": "Fäkalienentsorgung an Land Pflicht. Einleiten von Bilgenwasser, Öl und Abwasser verboten. Pump-out Stationen an größeren Häfen vorhanden.",
+    "noGoZones": [
+      "Naturschutzgebiet Wollmatinger Ried (D)",
+      "Naturschutzgebiet Rheindelta (AT)",
+      "Europaschutzgebiet Rohrspitz (AT)",
+      "Markierte Schutz- und Schongebiete nach BSO Anlage"
+    ]
+  }
+}

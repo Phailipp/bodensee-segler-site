@@ -1,0 +1,118 @@
+{
+  "seeId": "genfersee",
+  "canton": "VD",
+  "cantons": ["VD", "GE", "VS"],
+  "lastUpdated": "2026-03-28",
+  "sources": [
+    {
+      "name": "Bundesgesetz über die Binnenschifffahrt (BSG)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1996/3169_3169_3169/de",
+      "type": "official"
+    },
+    {
+      "name": "Binnenschifffahrtsverordnung (BSV)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/1238_1238_1238/de",
+      "type": "official"
+    },
+    {
+      "name": "Service de la navigation du canton de Vaud (SNav)",
+      "url": "https://www.vd.ch/themes/mobilite/bateaux-et-navigation/",
+      "type": "official"
+    },
+    {
+      "name": "Office cantonal des véhicules – Genève",
+      "url": "https://www.ge.ch/naviguer-lac-leman",
+      "type": "official"
+    }
+  ],
+  "license": {
+    "sailRequired": true,
+    "sailThresholdM2": 15,
+    "motorRequired": true,
+    "motorThresholdKW": 6,
+    "motorThresholdPS": 8,
+    "minAgeSail": 14,
+    "minAgeMotor": 18,
+    "foreignLicenseAccepted": true,
+    "foreignLicenseNotes": "ICC wird akzeptiert. Französische Bootsführerscheine (Permis bateau) werden auf Schweizer Seite grundsätzlich anerkannt. Für die französische Seite (Haute-Savoie) gelten französische Vorschriften.",
+    "specialRules": "Kategorienausweis S (Segel) ab 15 m² Segelfläche, Kategorienausweis A (bis 18 m) oder B (über 18 m) ab 6 kW. Auf der französischen Seeseite gelten die Règlements de navigation français."
+  },
+  "anchoring": {
+    "generallyAllowed": true,
+    "maxDurationHours": 24,
+    "overnightAllowed": true,
+    "overnightNotes": "Ankern über Nacht erlaubt. Nicht in Naturschutzgebieten, Fahrrinnen oder innerhalb von 25 m zu Schilfzonen. Auf der französischen Seite Abstand von 300 m zur Küste einhalten.",
+    "minDistanceReedM": 25,
+    "restrictedZones": [
+      "Fahrrinnen der CGN-Kursschiffe",
+      "Naturschutzgebiete (Les Grangettes VD, Pointe à la Bise GE)",
+      "Markierte Badezonen",
+      "Hafeneinfahrten"
+    ],
+    "source": "BSV Art. 48–50; kantonale Vorschriften VD/GE"
+  },
+  "speedLimits": {
+    "general": {
+      "maxKmh": 40,
+      "notes": "Allgemeine Höchstgeschwindigkeit auf dem Schweizer Teil des Genfersees (BSV)."
+    },
+    "nearShore": {
+      "distanceM": 150,
+      "maxKmh": 10,
+      "notes": "Innerhalb von 150 m vom Ufer gilt 10 km/h auf der Schweizer Seite (BSV). Auf der französischen Seite (Haute-Savoie) gilt 18 km/h innerhalb von 300 m vom Ufer."
+    },
+    "zones": [
+      {
+        "name": "Französische Seite (Haute-Savoie)",
+        "maxKmh": 18,
+        "distanceM": 300,
+        "notes": "Geschwindigkeitsbeschränkung auf der französischen Seeseite: 18 km/h innerhalb von 300 m vom Ufer."
+      },
+      {
+        "name": "Häfen und Anlegestellen",
+        "maxKmh": 5,
+        "notes": "Schrittgeschwindigkeit in Häfen."
+      }
+    ]
+  },
+  "navigation": {
+    "nightNavigation": {
+      "allowed": true,
+      "lightingRequired": true,
+      "notes": "Nachtfahrt erlaubt mit vorgeschriebenen Navigationslichtern. Ankerlichter bei vor Anker liegenden Fahrzeugen vorgeschrieben (BSV Art. 25)."
+    },
+    "vhfRequired": false,
+    "vhfChannel": 69,
+    "rightOfWay": "CGN-Kursschiffe haben absoluten Vorrang und müssen freie Durchfahrt erhalten. Segelboote vor Motorbooten. Fahrrinnen der Linienschiffe freihalten.",
+    "specialRules": [
+      "UKW-Kanal 69 'Radio Lac' für Schifffahrtsinformationen, Wetterberichte und Notfall auf dem Genfersee.",
+      "Frankreich-Schweiz: Grenzgewässer – auf der französischen Seite gelten die Règlements de police de la navigation intérieure français.",
+      "Beim Queren der Seeroute immer Ausschau nach CGN-Schiffen halten.",
+      "Mistral- und Bise-Warnungen: Lokale Windphänomene können sehr schnell entstehen."
+    ]
+  },
+  "registration": {
+    "required": true,
+    "authority": "Service de la navigation du canton de Vaud (SNav) / Office cantonal des véhicules GE",
+    "authorityUrl": "https://www.vd.ch/themes/mobilite/bateaux-et-navigation/",
+    "vignetteRequired": false,
+    "insuranceRequired": true,
+    "minInsuranceCHF": 2000000,
+    "notes": "Registrierung nach BSG ab 2.5 m Bootslänge Pflicht. Auf der französischen Seite Registrierung nach französischem Recht."
+  },
+  "stormWarning": {
+    "provider": "MeteoSwiss / Météo-France",
+    "warningUrl": "https://www.meteoswiss.admin.ch/",
+    "blinkPattern": "Sturmwarnmasten an ausgewählten Standorten rund um den Genfersee. Blinkmuster gemäß Schweizer Standard (40/min = Warnung, 90/min = Sturm).",
+    "notes": "Der Genfersee ist bekannt für plötzliche Stürme (Bise, Vaudaire). App MeteoSwiss und Radio Lac (VHF 69) für aktuelle Warnungen nutzen. Bei aufziehenden Gewitterwolken sofort Hafen anlaufen."
+  },
+  "environment": {
+    "motorRestrictions": "Zweitaktmotoren: nur mit Direkteinspritzung-Katalysator zugelassen. Alte Vergaser-Zweitakter verboten. Elektroboote werden gefördert.",
+    "wasteDisposal": "Fäkalienentsorgung an Land Pflicht. Einleiten von Bilgenwasser, Öl oder Chemikalien streng verboten. Pump-out Stationen an größeren Häfen (Lausanne, Genf, Morges, Nyon, Rolle).",
+    "noGoZones": [
+      "Naturschutzgebiet Les Grangettes (VD)",
+      "Naturschutzgebiet La Pointe à la Bise (GE)",
+      "Réserve naturelle de l'Estuaire de la Dranse (VS/F)"
+    ]
+  }
+}

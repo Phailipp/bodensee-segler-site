@@ -1,0 +1,119 @@
+{
+  "seeId": "vierwaldstaettersee",
+  "canton": "LU",
+  "cantons": ["LU", "NW", "OW", "UR", "SZ"],
+  "lastUpdated": "2026-03-28",
+  "sources": [
+    {
+      "name": "Bundesgesetz über die Binnenschifffahrt (BSG)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1996/3169_3169_3169/de",
+      "type": "official"
+    },
+    {
+      "name": "Binnenschifffahrtsverordnung (BSV)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/1238_1238_1238/de",
+      "type": "official"
+    },
+    {
+      "name": "Schifffahrtsamt Kanton Luzern",
+      "url": "https://www.luzern.ch/themen/mobilitaet/schifffahrt/",
+      "type": "official"
+    },
+    {
+      "name": "Kantonspolizei Uri – Seepolizei",
+      "url": "https://www.ur.ch/dienstleistungen/2843",
+      "type": "official"
+    }
+  ],
+  "license": {
+    "sailRequired": true,
+    "sailThresholdM2": 15,
+    "motorRequired": true,
+    "motorThresholdKW": 6,
+    "motorThresholdPS": 8,
+    "minAgeSail": 14,
+    "minAgeMotor": 18,
+    "foreignLicenseAccepted": true,
+    "foreignLicenseNotes": "ICC wird akzeptiert. EU/EWR-Bootsführerscheine werden anerkannt, sofern sie den ICC-Anforderungen entsprechen.",
+    "specialRules": "Kategorienausweis S ab 15 m² Segelfläche, Kategorienausweis A (bis 18 m) oder B (über 18 m) ab 6 kW. Der See liegt auf dem Gebiet von fünf Kantonen – Hauptzuständigkeit beim Schifffahrtsamt Kanton Luzern."
+  },
+  "anchoring": {
+    "generallyAllowed": true,
+    "maxDurationHours": 24,
+    "overnightAllowed": true,
+    "overnightNotes": "Ankern über Nacht erlaubt. Mindestabstand zu Schilfzonen einhalten. Nicht in Naturschutzgebieten, Fahrwasser oder Hafenbereichen ankern. Föhnwarnungen vor dem Ankern prüfen.",
+    "minDistanceReedM": 25,
+    "restrictedZones": [
+      "Naturschutzgebiet Nidwaldner Seeufer",
+      "Schonzone Urner Becken",
+      "Fahrrinnen der SGV-Kursschiffe",
+      "Markierte Badezonen (Luzern, Weggis, Brunnen)"
+    ],
+    "source": "BSV Art. 48–50; kantonale Vorschriften LU/NW/OW/UR/SZ"
+  },
+  "speedLimits": {
+    "general": {
+      "maxKmh": 40,
+      "notes": "Allgemeine Höchstgeschwindigkeit auf dem Vierwaldstättersee gemäß BSV."
+    },
+    "nearShore": {
+      "distanceM": 150,
+      "maxKmh": 10,
+      "notes": "Innerhalb von 150 m vom Ufer gilt 10 km/h (BSV). Gilt für alle Uferbereiche des Sees."
+    },
+    "zones": [
+      {
+        "name": "Stadtgebiet Luzern / Reussbucht",
+        "maxKmh": 10,
+        "notes": "Im Stadtbereich Luzern besondere Vorsicht, erhöhtes Verkehrsaufkommen durch Ausflugsschiffe."
+      },
+      {
+        "name": "Häfen",
+        "maxKmh": 5,
+        "notes": "Schrittgeschwindigkeit in Häfen und beim Anlegen."
+      }
+    ]
+  },
+  "navigation": {
+    "nightNavigation": {
+      "allowed": true,
+      "lightingRequired": true,
+      "notes": "Nachtfahrt erlaubt mit vorgeschriebenen Navigationslichtern gemäß BSV. Der Vierwaldstättersee hat viele enge Buchten und unregelmäßige Küstenlinien – besondere Vorsicht bei Nacht."
+    },
+    "vhfRequired": false,
+    "vhfChannel": null,
+    "rightOfWay": "SGV-Kursschiffe (Schifffahrtsgesellschaft des Vierwaldstättersees) haben absoluten Vorrang. Segelboote vor Motorbooten. Fahrrinnen und Anlegestellen der Linienschiffe freihalten.",
+    "specialRules": [
+      "Föhn-Warnungen: KRITISCH – Föhn kann auf dem Vierwaldstättersee innerhalb von Minuten extreme Stärke erreichen. Bei Föhnwarnung MUSS Hafen angelaufen werden.",
+      "Mehrkantonsee: Für spezifische Zonen können die Kantone LU, NW, OW, UR und SZ unterschiedliche Zusatzvorschriften erlassen.",
+      "SGV-Schiffe (Luzerner Seeschifffahrt) haben absoluten Vorrang auf allen Routen.",
+      "UKW nicht vorgeschrieben, aber für Notfälle und Wetterlage empfohlen.",
+      "Fischereizonen: Bestimmte Bereiche sind Schutzzonen – Regelungen der jeweiligen Kantone beachten."
+    ]
+  },
+  "registration": {
+    "required": true,
+    "authority": "Schifffahrtsamt Kanton Luzern (federführend)",
+    "authorityUrl": "https://www.luzern.ch/themen/mobilitaet/schifffahrt/",
+    "vignetteRequired": false,
+    "insuranceRequired": true,
+    "minInsuranceCHF": 2000000,
+    "notes": "Registrierung nach BSG ab 2.5 m Länge Pflicht. Federführende Behörde ist das Schifffahrtsamt Kanton Luzern. Boote können auch in den anderen Anrainerkantonen (NW, OW, UR, SZ) zugelassen werden."
+  },
+  "stormWarning": {
+    "provider": "MeteoSchweiz",
+    "warningUrl": "https://www.meteoswiss.admin.ch/",
+    "blinkPattern": "Sturmwarnmasten an mehreren Standorten. Standard-Blinkmuster: 40 Blinkzeichen/min = Sturmwarnung, 90 Blinkzeichen/min = Sturm.",
+    "notes": "KRITISCH: Föhn ist die größte Gefahr auf dem Vierwaldstättersee. Föhn entsteht sehr schnell und kann Windstärken über 12 Bft erreichen. MeteoSchweiz-App und lokale Warnungen kontinuierlich beobachten. Bei erwarteten Föhnwinden MUST der Hafen aufgesucht werden – Ankern nicht ausreichend sicher."
+  },
+  "environment": {
+    "motorRestrictions": "Zweitaktmotoren: nur mit Direkteinspritzung-Katalysator zugelassen. Elektromotoren werden vom Kanton Luzern gefördert. Treibstoff-Nachfüllung nur an zugelassenen Tankstellen.",
+    "wasteDisposal": "Fäkalienentsorgung an Land Pflicht. Einleiten von Bilgenwasser, Abwasser oder Chemikalien verboten. Pump-out Stationen an Häfen Luzern, Brunnen, Flüelen, Beckenried.",
+    "noGoZones": [
+      "Naturschutzgebiet Kernser See (OW)",
+      "Naturschutzgebiet Alpenquai Luzern",
+      "Schutzzonen Urner Becken / Flüelen",
+      "Naturschutzgebiet Nidwaldner Seeufer"
+    ]
+  }
+}
