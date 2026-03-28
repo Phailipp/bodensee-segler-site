@@ -206,5 +206,41 @@
     "source": "Hisse & Oh – Mouiller sur le Léman",
     "lastVerified": "2026-03-28",
     "restrictions": "Rhône-Einlauf und Strandbereich freihalten. Max. 24h ankern."
+  },
+  {
+    "id": "rolle_ile_harpe",
+    "name": "Vor Île de la Harpe (Rolle)",
+    "country": "CH",
+    "region": "Rolle, Waadt",
+    "lat": 46.463,
+    "lng": 6.340,
+    "depthMinM": 3,
+    "depthMaxM": 5,
+    "ground": "Sand/Schlamm",
+    "protection": "NE",
+    "overnight": true,
+    "notes": "Beliebter Ankerplätz zwischen der Île de la Harpe und dem Rollaer Seeufer. Die Corps-morts (Mooringleinen) wurden 2018 im Zuge der Hafenerweiterung entfernt – freies Ankern ist weiterhin erlaubt. Guter Schutz bei Bise (NE). Bei Vent (SW/W) ungeschützt. Schöner Blick auf den Jura.",
+    "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
+    "source": "Hisse & Oh – Mouiller sur le Léman; 24heures.ch – Île de la Harpe a perdu ses mouillages",
+    "lastVerified": "2026-03-28",
+    "restrictions": "UNESCO-Unterwasser-Archäologiezone: Anker nicht schleifen lassen. Mooring-Bojen wurden 2018 entfernt."
+  },
+  {
+    "id": "la_tour_de_peilz",
+    "name": "Vor La Tour-de-Peilz (Monts de Corsier)",
+    "country": "CH",
+    "region": "La Tour-de-Peilz, Riviera vaudoise",
+    "lat": 46.456,
+    "lng": 6.862,
+    "depthMinM": 6,
+    "depthMaxM": 10,
+    "ground": "Schlamm",
+    "protection": "N",
+    "overnight": true,
+    "notes": "Ankerplatz auf dem «Monts de Corsier»-Plateau, ca. 800m vor La Tour-de-Peilz. Von Seglern gut dokumentiert, rund 8m Tiefe. Gut geschützt bei Bise (N/NE), schwieriger bei Westwind – hohe und kurze Welle möglich. Dinghy-Landgang zum Hafen Tour-de-Peilz. Rhône-Wind (Vaudaire) aus SO beachten.",
+    "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
+    "source": "Hisse & Oh – Mouiller sur le Léman; PredictWind – Port de la Tour-de-Peilz",
+    "lastVerified": "2026-03-28",
+    "restrictions": "Fahrrinne CGN-Linienschiffe freihalten. Vaudaire-Wind aus SO kann plötzlich einsetzen."
   }
 ]
