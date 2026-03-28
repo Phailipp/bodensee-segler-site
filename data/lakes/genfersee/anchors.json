@@ -170,5 +170,41 @@
     "url": "https://ports-du-leman.ch/port/thonon",
     "source": "Ports du Léman – Port de Thonon",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "cully_lavaux",
+    "name": "Vor Cully (Lavaux)",
+    "country": "CH",
+    "region": "Cully, Nordostfer",
+    "lat": 46.493,
+    "lng": 6.735,
+    "depthMinM": 5,
+    "depthMaxM": 15,
+    "ground": "Schlamm",
+    "protection": "NW",
+    "overnight": false,
+    "notes": "Beliebter Tagesanker vor dem UNESCO-Welterbe-Weinbaugebiet Lavaux. Blick auf terrassierte Weinberge und die Voralpen. Gute Westschutzlage. Ausflugsschiffe CGN beachten. Dinghy-Landgang in Cully-Hafen.",
+    "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
+    "source": "Hisse & Oh – Mouiller sur le Léman; Ports du Léman",
+    "lastVerified": "2026-03-28",
+    "restrictions": "Fahrrinne CGN freihalten. Ankern vor dem Weinberg-Welterbegebiet maximal 24h."
+  },
+  {
+    "id": "saint_gingolph",
+    "name": "Vor Saint-Gingolph",
+    "country": "CH",
+    "region": "Saint-Gingolph, östliches Seeufer",
+    "lat": 46.393,
+    "lng": 6.802,
+    "depthMinM": 4,
+    "depthMaxM": 12,
+    "ground": "Kies/Sand",
+    "protection": "W/NW",
+    "overnight": false,
+    "notes": "Ankerplatz am östlichsten Ende des Schweizer Ufers bei Saint-Gingolph. Gut geschützt bei West- und Nordwestwind. Grenzort CH/FR. Starke Strömung aus dem Rhône-Zufluss bei Hochwasser. Tramontana aus dem Rhônetal beachten.",
+    "url": "https://www.hisse-et-oh.com/sailing/mouiller-lancre-point-point-point-sur-le-leman",
+    "source": "Hisse & Oh – Mouiller sur le Léman",
+    "lastVerified": "2026-03-28",
+    "restrictions": "Rhône-Einlauf und Strandbereich freihalten. Max. 24h ankern."
   }
 ]

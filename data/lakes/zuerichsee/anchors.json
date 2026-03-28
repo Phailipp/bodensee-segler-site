@@ -167,5 +167,41 @@
     "url": "https://www.skipperguide.de/wiki/Z%C3%BCrichsee",
     "source": "SkipperGuide – Zürichsee",
     "lastVerified": "2026-03-27"
+  },
+  {
+    "id": "zs_maennedorf_bucht",
+    "name": "Bucht vor Männedorf",
+    "country": "CH",
+    "region": "Männedorf, Ostufer (Zürichsee-Süd)",
+    "lat": 47.258,
+    "lng": 8.726,
+    "depthMinM": 3,
+    "depthMaxM": 10,
+    "ground": "Schlamm",
+    "protection": "NW",
+    "overnight": false,
+    "notes": "Ruhiger Ankerplatz vor dem Dorf Männedorf. Gut geschützt bei Nordwestwind. ZSG-Linienschiffe beachten. Beliebter Sommermittag-Anker für Crew-Schwimmen.",
+    "url": "https://www.skipperguide.de/wiki/Z%C3%BCrichsee",
+    "source": "SkipperGuide – Zürichsee",
+    "lastVerified": "2026-03-28",
+    "restrictions": "Fahrrinne ZSG freihalten. Schilf- und Uferzone 25m meiden. Max. 24h ankern."
+  },
+  {
+    "id": "zs_herrliberg_bucht",
+    "name": "Bucht vor Herrliberg",
+    "country": "CH",
+    "region": "Herrliberg, Ostufer (Goldküste)",
+    "lat": 47.272,
+    "lng": 8.644,
+    "depthMinM": 4,
+    "depthMaxM": 12,
+    "ground": "Schlamm",
+    "protection": "SW",
+    "overnight": false,
+    "notes": "Ankerplatz auf der Zürcher Goldküste vor Herrliberg. Schön bei Südwestwind, ungeschützt bei Bise (Nordost). Ruhige Lage abseits des Hauptverkehrs. Schöner Blick auf Albiskette.",
+    "url": "https://www.skipperguide.de/wiki/Z%C3%BCrichsee",
+    "source": "SkipperGuide – Zürichsee",
+    "lastVerified": "2026-03-28",
+    "restrictions": "Schilf- und Badezonen meiden. Max. 24h ankern."
   }
 ]
