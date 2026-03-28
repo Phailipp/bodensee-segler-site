@@ -241,5 +241,43 @@
     "source": "https://rouvenaz.ch/",
     "lastVerified": "2026-03-28",
     "phone": "+41 21 963 27 36"
+  },
+  {
+    "id": "bayview_geneve",
+    "name": "BAYVIEW by Michel Roth",
+    "country": "CH",
+    "location": "Genève, Quai Wilson",
+    "lat": 46.2115,
+    "lng": 6.1485,
+    "price": "€€€",
+    "features": [
+      "1 Michelin-Stern",
+      "Französische Küche",
+      "Seeblick & Mont-Blanc-Panorama",
+      "Hôtel Président Wilson"
+    ],
+    "url": "https://www.restaurantbayview.com/",
+    "source": "https://www.restaurantbayview.com/",
+    "lastVerified": "2026-03-28",
+    "phone": "+41 22 906 65 52",
+    "hours": "Di–Sa: Lunch 12:00–13:30, Dinner 19:00–21:30"
+  },
+  {
+    "id": "terrasse_petit_palais_montreux",
+    "name": "La Terrasse du Petit Palais",
+    "country": "CH",
+    "location": "Montreux, Fairmont Le Montreux Palace",
+    "lat": 46.4299,
+    "lng": 6.9111,
+    "price": "€€€",
+    "features": [
+      "Mediterrane Küche",
+      "Seeterrasse mit Alpenblick",
+      "Saisonale Küche",
+      "Fairmont Palace (seit 1906)"
+    ],
+    "url": "https://www.fairmont.com/en/hotels/montreux/fairmont-le-montreux-palace/dining/terrasse-du-petit-palais.restaurant.html",
+    "source": "https://www.fairmont.com/en/hotels/montreux/fairmont-le-montreux-palace/dining/",
+    "lastVerified": "2026-03-28"
   }
 ]
