@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://phailipp.github.io/bodensee-segler-site/</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://phailipp.github.io/bodensee-segler-site/</loc><lastmod>2026-03-28</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://phailipp.github.io/bodensee-segler-site/?lake=zuerichsee</loc><lastmod>2026-03-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://phailipp.github.io/bodensee-segler-site/?lake=vierwaldstaettersee</loc><lastmod>2026-03-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://phailipp.github.io/bodensee-segler-site/?lake=genfersee</loc><lastmod>2026-03-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://phailipp.github.io/bodensee-segler-site/?lake=thunersee</loc><lastmod>2026-03-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://phailipp.github.io/bodensee-segler-site/?lake=zugersee</loc><lastmod>2026-03-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://phailipp.github.io/bodensee-segler-site/?lake=lago-maggiore</loc><lastmod>2026-03-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://phailipp.github.io/bodensee-segler-site/artikel/hafen-heute-abend/</loc><lastmod>2026-03-22</lastmod></url>
   <url><loc>https://phailipp.github.io/bodensee-segler-site/artikel/beste-ankerplaetze-bodensee/</loc><lastmod>2026-03-22</lastmod></url>
   <url><loc>https://phailipp.github.io/bodensee-segler-site/premium.html</loc><lastmod>2026-03-22</lastmod></url>
