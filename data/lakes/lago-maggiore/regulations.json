@@ -1,0 +1,118 @@
+{
+  "seeId": "lago-maggiore",
+  "canton": "TI",
+  "cantons": ["TI"],
+  "lastUpdated": "2026-03-28",
+  "sources": [
+    {
+      "name": "Bundesgesetz über die Binnenschifffahrt (BSG)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1996/3169_3169_3169/de",
+      "type": "official"
+    },
+    {
+      "name": "Binnenschifffahrtsverordnung (BSV)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/1238_1238_1238/de",
+      "type": "official"
+    },
+    {
+      "name": "Sezione della mobilità – Cantone Ticino",
+      "url": "https://www4.ti.ch/dt/ge/sm/attivita/navigazione/",
+      "type": "official"
+    },
+    {
+      "name": "Codice della Nautica da Diporto – D.Lgs. 18 luglio 2005 n.171 (IT)",
+      "url": "https://www.mit.gov.it/normativa/decreto-legislativo-18-luglio-2005-n-171",
+      "type": "official"
+    }
+  ],
+  "license": {
+    "sailRequired": true,
+    "sailThresholdM2": 15,
+    "motorRequired": true,
+    "motorThresholdKW": 6,
+    "motorThresholdPS": 8,
+    "minAgeSail": 14,
+    "minAgeMotor": 18,
+    "foreignLicenseAccepted": true,
+    "foreignLicenseNotes": "ICC wird akzeptiert. Auf dem Schweizer Teil gelten CH-Vorschriften (BSG/BSV). Auf dem italienischen Teil (Verbania, Arona) gelten die Anforderungen des Codice della Nautica da Diporto.",
+    "specialRules": "Kategorienausweis S ab 15 m² Segelfläche, Kategorienausweis A/B ab 6 kW (Schweizer Teil). Auf italienischer Seite: Patente nautico ab 40.8 kW (55 PS) bzw. über 24 m Länge."
+  },
+  "anchoring": {
+    "generallyAllowed": true,
+    "maxDurationHours": 24,
+    "overnightAllowed": true,
+    "overnightNotes": "Ankern über Nacht erlaubt auf dem Schweizer Teil. Auf der italienischen Seite örtliche Regelungen beachten – in der Nähe von Hafenanlagen und Schutzgebieten kann Ankern eingeschränkt sein.",
+    "minDistanceReedM": 25,
+    "restrictedZones": [
+      "Isole Borromee (Schutzbereich um die Inseln)",
+      "Markierte Badezonen (CH und IT)",
+      "Naturschutzgebiete am Tessin-Ufer",
+      "Hafeneinfahrten und Schiffsrouten"
+    ],
+    "source": "BSV Art. 48–50 (CH-Teil); D.Lgs. n.171/2005 (IT-Teil)"
+  },
+  "speedLimits": {
+    "general": {
+      "maxKmh": 40,
+      "notes": "Allgemeine Höchstgeschwindigkeit auf dem Schweizer Teil (BSV). Auf dem italienischen Teil ebenfalls 40 km/h allgemein."
+    },
+    "nearShore": {
+      "distanceM": 150,
+      "maxKmh": 10,
+      "notes": "Innerhalb von 150 m vom Ufer gilt 10 km/h auf dem Schweizer Teil (BSV). Auf der italienischen Seite gilt 5 km/h innerhalb von 300 m vom Ufer."
+    },
+    "zones": [
+      {
+        "name": "Italienische Seite – Ufernähe",
+        "maxKmh": 5,
+        "distanceM": 300,
+        "notes": "Auf der italienischen Seeseite (Lombardia / Piemonte) gilt 5 km/h innerhalb von 300 m vom Ufer (D.Lgs. n.171/2005)."
+      },
+      {
+        "name": "Häfen und Anlegestellen",
+        "maxKmh": 5,
+        "notes": "Schrittgeschwindigkeit in Häfen und beim Anlegen."
+      }
+    ]
+  },
+  "navigation": {
+    "nightNavigation": {
+      "allowed": true,
+      "lightingRequired": true,
+      "notes": "Nachtfahrt erlaubt mit vorgeschriebenen Navigationslichtern gemäß BSV (CH) bzw. Codice della Nautica (IT). Grenzübertritt CH-IT beachten."
+    },
+    "vhfRequired": false,
+    "vhfChannel": null,
+    "rightOfWay": "Kursschiffe (Navigazione Lago Maggiore / SNL) haben Vorrang. Segelboote vor Motorbooten. Fahrrinnen der Linienschiffe freihalten.",
+    "specialRules": [
+      "Grenzgewässer CH-IT: Beim Überqueren der Staatsgrenze gelten die Vorschriften des jeweiligen Landes.",
+      "Zollbestimmungen beim Grenzübertritt per Boot beachten – Meldepflicht kann bestehen.",
+      "Traghetto-Fähren zwischen Intra und Laveno haben Vorrang.",
+      "Föhnwinde können auf dem Lago Maggiore sehr heftig sein – Warnungen beachten."
+    ]
+  },
+  "registration": {
+    "required": true,
+    "authority": "Sezione della mobilità – Cantone Ticino",
+    "authorityUrl": "https://www4.ti.ch/dt/ge/sm/attivita/navigazione/",
+    "vignetteRequired": false,
+    "insuranceRequired": true,
+    "minInsuranceCHF": 2000000,
+    "notes": "Registrierung nach BSG ab 2.5 m Länge auf dem Schweizer Teil Pflicht. Auf dem italienischen Teil Registrierung nach dem Codice della Nautica da Diporto."
+  },
+  "stormWarning": {
+    "provider": "MeteoSwiss / Meteo Italia",
+    "warningUrl": "https://www.meteoswiss.admin.ch/",
+    "blinkPattern": "Sturmwarnmasten an ausgewählten Standorten. Föhn und Tramontana können sehr schnell aufkommen.",
+    "notes": "Der Lago Maggiore ist besonders anfällig für schnell aufziehende Gewitter und Föhnstürme. App MeteoSwiss und lokale Wetterberichte konsultieren. Bei aufkommendem Wind sofort den nächsten Hafen anlaufen."
+  },
+  "environment": {
+    "motorRestrictions": "Zweitaktmotoren: nur mit Direkteinspritzung-Katalysator zugelassen (CH-Teil). Auf dem italienischen Teil Regelungen des D.Lgs. n.171/2005 beachten. Benzin-Direkteinspritzer und Viertakter bevorzugt.",
+    "wasteDisposal": "Fäkalienentsorgung an Land Pflicht (CH). Einleiten von Abwasser, Öl oder Chemikalien verboten. Pump-out Stationen an größeren Häfen (Locarno, Ascona, Brissago).",
+    "noGoZones": [
+      "Naturschutzgebiet Bolle di Magadino (TI) – kein Befahren",
+      "Schutzzone Isole di Brissago (TI)",
+      "Uferzonen mit ausgewiesenen Naturschutzgebieten (IT)"
+    ]
+  }
+}

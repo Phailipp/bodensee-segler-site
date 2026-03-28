@@ -1576,3 +1576,281 @@ footer { padding: 48px 48px; padding-bottom: max(48px, calc(32px + env(safe-area
     right: max(16px, env(safe-area-inset-right));
   }
 }
+
+/* ===== REGELWERK SECTION ===== */
+.regelwerk-section {
+  padding: 80px var(--section-px);
+  background: var(--bg-alt, #f8f9fb);
+}
+.regelwerk-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+.rw-tab {
+  padding: 9px 18px;
+  border: 1.5px solid var(--border, #dde3ec);
+  background: #fff;
+  border-radius: 22px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--text-muted, #6b7280);
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.rw-tab.active, .rw-tab[aria-selected="true"] {
+  background: var(--navy, #1a2b4b);
+  border-color: var(--navy, #1a2b4b);
+  color: #fff;
+}
+.rw-tab:hover:not(.active) {
+  border-color: var(--navy, #1a2b4b);
+  color: var(--navy, #1a2b4b);
+}
+.regelwerk-content {
+  min-height: 160px;
+}
+.regelwerk-loading {
+  color: var(--text-muted, #6b7280);
+  font-size: 0.9rem;
+  padding: 32px 0;
+}
+.rw-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.rw-card {
+  background: #fff;
+  border: 1.5px solid var(--border, #dde3ec);
+  border-radius: 12px;
+  padding: 20px 22px;
+}
+.rw-card-icon {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+.rw-card-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted, #6b7280);
+  margin-bottom: 6px;
+}
+.rw-card-value {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--navy, #1a2b4b);
+  line-height: 1.2;
+}
+.rw-card-note {
+  font-size: 0.8rem;
+  color: var(--text-muted, #6b7280);
+  margin-top: 6px;
+  line-height: 1.45;
+}
+.rw-detail-block {
+  background: #fff;
+  border: 1.5px solid var(--border, #dde3ec);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-top: 16px;
+}
+.rw-detail-block h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--navy, #1a2b4b);
+  margin: 0 0 10px;
+}
+.rw-detail-block p, .rw-detail-block li {
+  font-size: 0.88rem;
+  color: var(--text-muted, #6b7280);
+  line-height: 1.6;
+  margin: 0;
+}
+.rw-detail-block ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+.rw-detail-block li { margin-bottom: 4px; }
+.rw-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-left: 8px;
+}
+.rw-badge-yes { background: #dcfce7; color: #16a34a; }
+.rw-badge-no { background: #fee2e2; color: #dc2626; }
+.rw-badge-warn { background: #fef3c7; color: #d97706; }
+.regelwerk-sources {
+  margin-top: 18px;
+  font-size: 0.78rem;
+  color: var(--text-muted, #6b7280);
+}
+.regelwerk-sources a {
+  color: var(--navy, #1a2b4b);
+  text-decoration: underline;
+  margin: 0 6px;
+}
+@media (max-width: 600px) {
+  .rw-cards { grid-template-columns: 1fr; }
+  .regelwerk-tabs { gap: 6px; }
+  .rw-tab { padding: 7px 13px; font-size: 0.8rem; }
+}
+
+/* ===== TÖRNPLANER SECTION ===== */
+.toernplaner-section {
+  padding: 80px var(--section-px);
+  background: #fff;
+}
+.toernplaner-configurator {
+  background: var(--bg-alt, #f8f9fb);
+  border: 1.5px solid var(--border, #dde3ec);
+  border-radius: 14px;
+  padding: 24px 28px;
+  margin-bottom: 32px;
+}
+.config-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.config-step {}
+.config-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted, #6b7280);
+  margin-bottom: 10px;
+}
+.config-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.config-chip {
+  padding: 7px 16px;
+  border: 1.5px solid var(--border, #dde3ec);
+  background: #fff;
+  border-radius: 20px;
+  font-size: 0.84rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--text-muted, #6b7280);
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.config-chip.active {
+  background: var(--navy, #1a2b4b);
+  border-color: var(--navy, #1a2b4b);
+  color: #fff;
+}
+.config-chip:hover:not(.active) {
+  border-color: var(--navy, #1a2b4b);
+  color: var(--navy, #1a2b4b);
+}
+.toernplaner-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+.toernplaner-empty {
+  color: var(--text-muted, #6b7280);
+  font-size: 0.9rem;
+  padding: 24px 0;
+  grid-column: 1 / -1;
+}
+.toern-card {
+  background: #fff;
+  border: 1.5px solid var(--border, #dde3ec);
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.toern-card-header {
+  padding: 18px 20px 14px;
+  background: var(--navy, #1a2b4b);
+  color: #fff;
+}
+.toern-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+.toern-card-meta {
+  display: flex;
+  gap: 14px;
+  font-size: 0.78rem;
+  opacity: 0.82;
+  flex-wrap: wrap;
+}
+.toern-card-meta span { display: flex; align-items: center; gap: 4px; }
+.toern-card-body {
+  padding: 16px 20px;
+  flex: 1;
+}
+.toern-card-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted, #6b7280);
+  line-height: 1.55;
+  margin-bottom: 14px;
+}
+.toern-legs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.toern-leg {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.82rem;
+}
+.toern-leg-day {
+  min-width: 36px;
+  font-weight: 700;
+  color: var(--gold, #c9a227);
+  padding-top: 1px;
+}
+.toern-leg-info {
+  flex: 1;
+}
+.toern-leg-route {
+  font-weight: 500;
+  color: var(--navy, #1a2b4b);
+}
+.toern-leg-dist {
+  color: var(--text-muted, #6b7280);
+  font-size: 0.78rem;
+}
+.toern-card-footer {
+  padding: 12px 20px 16px;
+  border-top: 1px solid var(--border, #dde3ec);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.toern-tag {
+  padding: 3px 10px;
+  background: var(--bg-alt, #f8f9fb);
+  border-radius: 10px;
+  font-size: 0.74rem;
+  font-weight: 500;
+  color: var(--text-muted, #6b7280);
+}
+.diff-easy { color: #16a34a; }
+.diff-moderate { color: #d97706; }
+.diff-challenging { color: #dc2626; }
+@media (max-width: 640px) {
+  .toernplaner-configurator { padding: 16px; }
+  .toernplaner-results { grid-template-columns: 1fr; }
+  .config-chip { padding: 6px 12px; font-size: 0.8rem; }
+}

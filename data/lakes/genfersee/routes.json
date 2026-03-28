@@ -1,0 +1,158 @@
+{
+  "seeId": "genfersee",
+  "routeTemplates": [
+    {
+      "id": "ge_lavaux_2d",
+      "name": "Lavaux-Törn",
+      "nameDe": "Lavaux-Törn: Lausanne – Vevey",
+      "nameEn": "Lavaux Tour: Lausanne – Vevey",
+      "days": 2,
+      "difficulty": "easy",
+      "theme": ["scenery", "wine", "UNESCO"],
+      "totalDistanceNM": 45,
+      "description": "Klassischer Törn entlang der UNESCO-Weltkulturerbe Weinbergterrassen von Lavaux: Ouchy/Lausanne – La Tour-de-Peilz/Vevey – zurück über das Südufer.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "osm-relation-1232073-port-d-ouchy",
+          "to": "osm-way-286986333-port-de-la-tour-de-peilz",
+          "distanceNM": 13.2,
+          "estimatedHoursSail": 4.0,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["UNESCO-Weinberge Lavaux", "Château de Chillon (Seeansicht)", "Vevey Uferpromenade"],
+          "warnings": ["Bise kann rasch auf 5–6 Bft auffrischen", "Motorbootzone Lausanne-Mitte beachten"],
+          "overnight": {
+            "harbor": "osm-way-286986333-port-de-la-tour-de-peilz",
+            "notes": "10 Gastplätze, Kran, direkt an der Seepromenade Vevey"
+          }
+        },
+        {
+          "day": 2,
+          "from": "osm-way-286986333-port-de-la-tour-de-peilz",
+          "to": "osm-relation-1232073-port-d-ouchy",
+          "distanceNM": 13.2,
+          "estimatedHoursSail": 3.5,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["Rückfahrt mit Lavaux-Blick", "Frühmorgens oft idealer Segelwind (Vent)"],
+          "warnings": ["Fähre Lausanne–Évian beachten"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "ge_grand_tour_5d",
+      "name": "Grosse Seerunde",
+      "nameDe": "Grosse Seerunde: Genf – Montreux – Évian – Genf",
+      "nameEn": "Grand Tour: Geneva – Montreux – Évian – Geneva",
+      "days": 5,
+      "difficulty": "moderate",
+      "theme": ["adventure", "international", "towns"],
+      "totalDistanceNM": 93,
+      "description": "Die komplette Umrundung des Genfersees: Genf – Nyon – Lausanne – La Tour-de-Peilz/Montreux – Évian – Thonon – Genf. Internationales Flair, grosse Distanzen.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "osm-way-375735259-port-de-nyon",
+          "to": "osm-relation-1232073-port-d-ouchy",
+          "distanceNM": 22.9,
+          "estimatedHoursSail": 7.0,
+          "estimatedHoursMotor": 4.0,
+          "highlights": ["Nyon Altstadt und Château", "Rolle mit altem Hafen", "Morges Kathedrale", "Lausanne Olympiamuseum"],
+          "warnings": ["Langer erster Tag – früh starten", "Bise kann starke Wellen aufbauen"],
+          "overnight": {
+            "harbor": "osm-relation-1232073-port-d-ouchy",
+            "notes": "Grosser Hafen Ouchy/Lausanne, gute Gastinfrastruktur"
+          }
+        },
+        {
+          "day": 2,
+          "from": "osm-relation-1232073-port-d-ouchy",
+          "to": "osm-way-286986333-port-de-la-tour-de-peilz",
+          "distanceNM": 13.2,
+          "estimatedHoursSail": 4.0,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["Lavaux-Weinberge", "Château de Chillon", "Vevey Chaplin-Museum"],
+          "warnings": ["Bise-Böen ab Nachmittag"],
+          "overnight": {
+            "harbor": "osm-way-286986333-port-de-la-tour-de-peilz",
+            "notes": "10 Gastplätze La Tour-de-Peilz, nahe Vevey"
+          }
+        },
+        {
+          "day": 3,
+          "from": "osm-way-286986333-port-de-la-tour-de-peilz",
+          "to": "osm-way-164810958-port-des-mouettes",
+          "distanceNM": 14.1,
+          "estimatedHoursSail": 4.5,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["Grenzübergang CH/FR auf dem See", "Évian Kurorte und Mineralwasserquellen", "Fähre Lausanne–Évian"],
+          "warnings": ["Zollpflicht bei Frankreich-Einfahrt (Flaggenführung)", "Grossfähre quert mehrfach täglich"],
+          "overnight": {
+            "harbor": "osm-way-164810958-port-des-mouettes",
+            "notes": "Port des Mouettes Évian, 10 Gastplätze, ca. €13/Nacht"
+          }
+        },
+        {
+          "day": 4,
+          "from": "osm-way-164810958-port-des-mouettes",
+          "to": "osm-relation-13753798-port-de-plaisance-de-rives",
+          "distanceNM": 12.5,
+          "estimatedHoursSail": 4.0,
+          "estimatedHoursMotor": 2.0,
+          "highlights": ["Thonon-les-Bains Altstadt", "Réserve naturelle Delta de la Dranse"],
+          "warnings": ["Französische Häfen: VHF-Anmeldung empfohlen"],
+          "overnight": {
+            "harbor": "osm-relation-13753798-port-de-plaisance-de-rives",
+            "notes": "Port de Rives/Thonon, Südwestufer"
+          }
+        },
+        {
+          "day": 5,
+          "from": "osm-relation-13753798-port-de-plaisance-de-rives",
+          "to": "osm-way-375735259-port-de-nyon",
+          "distanceNM": 14.3,
+          "estimatedHoursSail": 4.5,
+          "estimatedHoursMotor": 2.5,
+          "highlights": ["Sciez", "Yvoire (mittelalterliches Dorf)", "Nyon Ankunft"],
+          "warnings": ["Wetterwechsel auf dem Grand Lac möglich – Vorhersage prüfen"],
+          "overnight": null
+        }
+      ]
+    },
+    {
+      "id": "ge_petit_lac_1d",
+      "name": "Petit Lac Tagesrunde",
+      "nameDe": "Petit Lac: Lausanne – Yvoire – Thonon",
+      "nameEn": "Petit Lac Day Trip: Lausanne – Yvoire – Thonon",
+      "days": 1,
+      "difficulty": "easy",
+      "theme": ["daytrip", "international", "history"],
+      "totalDistanceNM": 36,
+      "description": "Tagesausflug ins Petit Lac: Ouchy/Lausanne – Yvoire (Perle de la Savoie) – Thonon – zurück. Abwechslungsreiche Küstenlinie, mittelalterliches Yvoire.",
+      "legs": [
+        {
+          "day": 1,
+          "from": "osm-relation-1232073-port-d-ouchy",
+          "to": "osm-relation-13767405-port-de-plaisance-d-yvoire",
+          "distanceNM": 19.4,
+          "estimatedHoursSail": 6.0,
+          "estimatedHoursMotor": 3.5,
+          "highlights": ["Nyon-Überfahrt", "Yvoire mittelalterliches Dorf", "Jardins des Cinq Sens"],
+          "warnings": ["Bise-Böen auf Überfahrt", "Zollpflicht Frankreich"],
+          "overnight": null
+        },
+        {
+          "day": 1,
+          "from": "osm-relation-13767405-port-de-plaisance-d-yvoire",
+          "to": "osm-relation-1232073-port-d-ouchy",
+          "distanceNM": 19.4,
+          "estimatedHoursSail": 5.5,
+          "estimatedHoursMotor": 3.5,
+          "highlights": ["Rückfahrt mit Alpenpanorama Lausanne"],
+          "warnings": ["Spätabends auf dem See: Beleuchtung sicherstellen"],
+          "overnight": null
+        }
+      ]
+    }
+  ]
+}

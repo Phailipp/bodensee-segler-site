@@ -1,0 +1,112 @@
+{
+  "seeId": "thunersee",
+  "canton": "BE",
+  "cantons": ["BE"],
+  "lastUpdated": "2026-03-28",
+  "sources": [
+    {
+      "name": "Bundesgesetz über die Binnenschifffahrt (BSG)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1996/3169_3169_3169/de",
+      "type": "official"
+    },
+    {
+      "name": "Binnenschifffahrtsverordnung (BSV)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/1238_1238_1238/de",
+      "type": "official"
+    },
+    {
+      "name": "Seepolizei Bern – Kantonspolizei Bern",
+      "url": "https://www.police.be.ch/de/start/aufgaben-organisation/seepolizei.html",
+      "type": "official"
+    }
+  ],
+  "license": {
+    "sailRequired": true,
+    "sailThresholdM2": 15,
+    "motorRequired": true,
+    "motorThresholdKW": 6,
+    "motorThresholdPS": 8,
+    "minAgeSail": 14,
+    "minAgeMotor": 18,
+    "foreignLicenseAccepted": true,
+    "foreignLicenseNotes": "ICC wird akzeptiert. EU/EWR-Bootsführerscheine werden anerkannt, sofern sie den Anforderungen des ICC entsprechen.",
+    "specialRules": "Kategorienausweis S ab 15 m² Segelfläche, Kategorienausweis A (bis 18 m) oder B (über 18 m) ab 6 kW. Bernische Kantonsvorschriften ergänzen die BSV."
+  },
+  "anchoring": {
+    "generallyAllowed": true,
+    "maxDurationHours": 24,
+    "overnightAllowed": true,
+    "overnightNotes": "Ankern über Nacht erlaubt. Mindestabstand zur Uferlinie und zu Schilfzonen einhalten. Nicht in Schutzzonen und Naturschutzgebieten ankern.",
+    "minDistanceReedM": 25,
+    "restrictedZones": [
+      "Naturschutzgebiete entlang des Südufers",
+      "Bereich vor Hafen Thun",
+      "Markierte Badezonen",
+      "Einfahrt Aare/Kanderkanal"
+    ],
+    "source": "BSV Art. 48–50; kantonale Bern-Vorschriften"
+  },
+  "speedLimits": {
+    "general": {
+      "maxKmh": 40,
+      "notes": "Allgemeine Höchstgeschwindigkeit auf dem Thunersee gemäß BSV."
+    },
+    "nearShore": {
+      "distanceM": 150,
+      "maxKmh": 10,
+      "notes": "Innerhalb von 150 m vom Ufer gilt 10 km/h (BSV). Gilt für das gesamte Ufer des Thunersees."
+    },
+    "zones": [
+      {
+        "name": "Häfen und Anlegestellen",
+        "maxKmh": 5,
+        "notes": "Schrittgeschwindigkeit in Häfen (Thun, Spiez, Interlaken-West, Beatenbucht)."
+      },
+      {
+        "name": "Badezonen",
+        "maxKmh": 5,
+        "notes": "Keine Einfahrt in markierte Badezonen."
+      }
+    ]
+  },
+  "navigation": {
+    "nightNavigation": {
+      "allowed": true,
+      "lightingRequired": true,
+      "notes": "Nachtfahrt erlaubt mit vorgeschriebenen Navigationslichtern gemäß BSV. Besondere Vorsicht bei Nachtfahrt durch die engen Bereiche nahe Interlaken."
+    },
+    "vhfRequired": false,
+    "vhfChannel": null,
+    "rightOfWay": "BLS-Kursschiffe haben Vorrang. Segelboote vor Motorbooten. Fahrrinnen der Linienschiffe freihalten.",
+    "specialRules": [
+      "Föhn-Warnungen: Der Thunersee liegt im Föhnkanal und kann bei Föhn sehr gefährlich werden. Sturmwarnmasten beachten.",
+      "BLS-Schifffahrt (Berner Oberland): Schiffe der BLS AG haben absoluten Vorrang.",
+      "Einfahrt in den Thuner Stadtkanal nur für Boote bis max. Durchfahrtsmaß erlaubt.",
+      "Wasserstandsschwankungen möglich – aktuelle Pegelstände beachten."
+    ]
+  },
+  "registration": {
+    "required": true,
+    "authority": "Strassenverkehrs- und Schifffahrtsamt Kanton Bern (SVSA)",
+    "authorityUrl": "https://www.svsa.be.ch/de/start/schifffahrt.html",
+    "vignetteRequired": false,
+    "insuranceRequired": true,
+    "minInsuranceCHF": 2000000,
+    "notes": "Registrierung nach BSG ab 2.5 m Länge Pflicht. Zuständige Behörde ist das SVSA Bern."
+  },
+  "stormWarning": {
+    "provider": "MeteoSchweiz",
+    "warningUrl": "https://www.meteoswiss.admin.ch/",
+    "blinkPattern": "Sturmwarnmasten an mehreren Standorten rund um den Thunersee. Standard-Blinkmuster: 40 Blinkzeichen/min = Sturmwarnung, 90 Blinkzeichen/min = Sturm.",
+    "notes": "Der Thunersee ist besonders durch Föhn und schnell aufziehende Gewitter gefährdet. Föhnwarnungen der MeteoSchweiz sorgfältig verfolgen. Bei Föhn-Warnstufe 3 unbedingt Hafen anlaufen."
+  },
+  "environment": {
+    "motorRestrictions": "Zweitaktmotoren: nur mit Direkteinspritzung-Katalysator zugelassen. Alte Vergaser-Zweitakter verboten. Der Thunersee ist Trinkwasserreservoir – besonders strenge Umweltauflagen.",
+    "wasteDisposal": "Fäkalienentsorgung an Land Pflicht. Einleiten von Bilgenwasser, Abwasser oder Chemikalien verboten. Der See dient als Trinkwasserquelle – absolute Sauberkeit Pflicht.",
+    "noGoZones": [
+      "Naturschutzgebiet Gwattlischenmoos",
+      "Naturschutzgebiet Strättliger Allmend",
+      "Schutzzone Einmündung Kander"
+    ]
+  }
+}

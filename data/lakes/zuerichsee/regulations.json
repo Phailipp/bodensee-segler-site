@@ -1,0 +1,124 @@
+{
+  "seeId": "zuerichsee",
+  "canton": "ZH",
+  "cantons": ["ZH", "SZ", "SG"],
+  "lastUpdated": "2026-03-28",
+  "sources": [
+    {
+      "name": "Bundesgesetz über die Binnenschifffahrt (BSG)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1996/3169_3169_3169/de",
+      "type": "official"
+    },
+    {
+      "name": "Binnenschifffahrtsverordnung (BSV)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/1238_1238_1238/de",
+      "type": "official"
+    },
+    {
+      "name": "Schifffahrtskontrolle Kanton Zürich",
+      "url": "https://www.zh.ch/de/mobilitaet/schifffahrt.html",
+      "type": "official"
+    },
+    {
+      "name": "Kantonspolizei Zürich – Seepolizei",
+      "url": "https://www.kapo.zh.ch/de/ihre-anliegen/verkehrssicherheit/wasserfahrzeuge.html",
+      "type": "official"
+    }
+  ],
+  "license": {
+    "sailRequired": true,
+    "sailThresholdM2": 15,
+    "motorRequired": true,
+    "motorThresholdKW": 6,
+    "motorThresholdPS": 8,
+    "minAgeSail": 14,
+    "minAgeMotor": 18,
+    "foreignLicenseAccepted": true,
+    "foreignLicenseNotes": "ICC wird akzeptiert. EU/EWR-Bootsführerscheine werden anerkannt, sofern sie den ICC-Anforderungen entsprechen.",
+    "specialRules": "Kategorienausweis S ab 15 m² Segelfläche, Kategorienausweis A (bis 18 m) oder B (über 18 m) ab 6 kW. Federführende Behörde ist die Schifffahrtskontrolle Kanton Zürich. Obersee (bis Schmerikon) unterliegt denselben Vorschriften."
+  },
+  "anchoring": {
+    "generallyAllowed": true,
+    "maxDurationHours": 24,
+    "overnightAllowed": true,
+    "overnightNotes": "Ankern über Nacht erlaubt. Maximaldauer 24 Stunden. Mindestabstand zu Schilfzonen und Naturschutzgebieten einhalten. Nicht in Fahrrinnen oder Hafenbereichen ankern.",
+    "minDistanceReedM": 25,
+    "restrictedZones": [
+      "Naturschutzgebiet Katzensee (ZH)",
+      "Uferschutzzonen Zürichsee (diverse)",
+      "Obersee: Schutzzone Rapperswil-Jona Inseln",
+      "Fahrrinnen der ZSG-Kursschiffe",
+      "Markierte Badezonen"
+    ],
+    "source": "BSV Art. 48–50; kantonale Vorschriften ZH/SZ/SG"
+  },
+  "speedLimits": {
+    "general": {
+      "maxKmh": 40,
+      "notes": "Allgemeine Höchstgeschwindigkeit auf dem Zürichsee gemäß BSV."
+    },
+    "nearShore": {
+      "distanceM": 150,
+      "maxKmh": 10,
+      "notes": "Innerhalb von 150 m vom Ufer gilt 10 km/h (BSV). Gilt für den gesamten Zürichsee inkl. Obersee."
+    },
+    "zones": [
+      {
+        "name": "Zürichsee-Brücke Rapperswil / Seedamm",
+        "maxKmh": 10,
+        "notes": "Durchfahrt unter der Brücke: besondere Vorsicht, reduzierte Geschwindigkeit, Gegenverkehr beachten."
+      },
+      {
+        "name": "Häfen (Zürich, Küsnacht, Meilen, Männedorf, Rapperswil)",
+        "maxKmh": 5,
+        "notes": "Schrittgeschwindigkeit in Häfen und beim Anlegen."
+      },
+      {
+        "name": "Stadtgebiet Zürich / Seebecken",
+        "maxKmh": 10,
+        "notes": "Im Seebecken Zürich erhöhtes Verkehrsaufkommen durch Kursschiffe, Ausflugsboote und Ruderer."
+      }
+    ]
+  },
+  "navigation": {
+    "nightNavigation": {
+      "allowed": true,
+      "lightingRequired": true,
+      "notes": "Nachtfahrt erlaubt mit vorgeschriebenen Navigationslichtern gemäß BSV. Navigationslichter der ZSG-Kursschiffe kennen und Vorrang geben."
+    },
+    "vhfRequired": false,
+    "vhfChannel": null,
+    "rightOfWay": "ZSG-Kursschiffe (Zürichsee-Schifffahrtsgesellschaft) haben absoluten Vorrang. Segelboote vor Motorbooten. Ruderer und Schwimmer ebenfalls Vorrang geben.",
+    "specialRules": [
+      "Seedamm Rapperswil: Die Brücke teilt den See in Zürichsee (Untersee) und Obersee. Durchfahrt durch die Brückenöffnung nur für Schiffe mit ausreichendem Abstand; Gegenverkehr abwarten.",
+      "ZSG-Schiffe (Zürichsee-Schifffahrtsgesellschaft) fahren auf festen Routen – Fahrplan kennen.",
+      "Obersee bis Schmerikon: Gleiche Vorschriften wie Zürichsee, etwas ruhigerer Verkehr.",
+      "Fischereischutzzonen beachten – insbesondere in den Uferbereichen."
+    ]
+  },
+  "registration": {
+    "required": true,
+    "authority": "Schifffahrtskontrolle Kanton Zürich",
+    "authorityUrl": "https://www.zh.ch/de/mobilitaet/schifffahrt.html",
+    "vignetteRequired": false,
+    "insuranceRequired": true,
+    "minInsuranceCHF": 2000000,
+    "notes": "Registrierung nach BSG ab 2.5 m Länge Pflicht. Federführende Behörde ist die Schifffahrtskontrolle Kanton Zürich. Boote aus SZ oder SG werden beim jeweiligen Kanton registriert."
+  },
+  "stormWarning": {
+    "provider": "MeteoSchweiz",
+    "warningUrl": "https://www.meteoswiss.admin.ch/",
+    "blinkPattern": "Sturmwarnmasten an mehreren Standorten rund um den Zürichsee. Standard-Blinkmuster: 40 Blinkzeichen/min = Sturmwarnung, 90 Blinkzeichen/min = Sturm.",
+    "notes": "Sommergewitter können auf dem Zürichsee sehr schnell und heftig aufziehen. MeteoSchweiz-App und lokale Wetterdienste regelmäßig prüfen. Bei Gewitterwarnung sofort Hafen anlaufen."
+  },
+  "environment": {
+    "motorRestrictions": "Zweitaktmotoren: nur mit Direkteinspritzung-Katalysator zugelassen. Alte Vergaser-Zweitakter verboten. Elektroboote werden vom Kanton Zürich aktiv gefördert.",
+    "wasteDisposal": "Fäkalienentsorgung an Land Pflicht. Einleiten von Bilgenwasser, Abwasser oder Chemikalien verboten. Pump-out Stationen an Häfen Zürich (Mythenquai, Wollishofen), Küsnacht, Meilen, Rapperswil.",
+    "noGoZones": [
+      "Naturschutzgebiet Katzensee (ZH, Nordende)",
+      "Uferschutzzone Zürichhorn",
+      "Schutzzone Inseln bei Rapperswil (Lindenhügel, Ufnau)",
+      "Naturschutzgebiet Wädenswiler Bucht"
+    ]
+  }
+}

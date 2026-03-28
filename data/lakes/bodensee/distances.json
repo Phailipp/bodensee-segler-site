@@ -1,0 +1,71 @@
+{
+  "seeId": "bodensee",
+  "unit": "nm",
+  "matrix": {
+    "konstanz": {
+      "kreuzlingen": 1.4,
+      "osm-way-127497728-yachthafen-haltnau-yacht-club-meersburg": 6.1,
+      "ueberlingen": 11.1,
+      "wyc": 16.0,
+      "arbon": 23.3,
+      "romanshorn": 13.1,
+      "lindau_sc": 30.1,
+      "bregenz_sc": 34.5,
+      "osm-way-48531302-yachthafen-radolfzell": 12.7
+    },
+    "kreuzlingen": {
+      "konstanz": 1.4,
+      "ueberlingen": 9.7,
+      "romanshorn": 14.3
+    },
+    "osm-way-127497728-yachthafen-haltnau-yacht-club-meersburg": {
+      "konstanz": 6.1,
+      "ueberlingen": 8.2,
+      "wyc": 10.3
+    },
+    "ueberlingen": {
+      "konstanz": 11.1,
+      "kreuzlingen": 9.7,
+      "osm-way-127497728-yachthafen-haltnau-yacht-club-meersburg": 8.2,
+      "osm-way-48531302-yachthafen-radolfzell": 10.9
+    },
+    "wyc": {
+      "konstanz": 16.0,
+      "osm-way-127497728-yachthafen-haltnau-yacht-club-meersburg": 10.3,
+      "arbon": 11.0,
+      "romanshorn": 8.3,
+      "lindau_sc": 13.7,
+      "bregenz_sc": 18.1
+    },
+    "arbon": {
+      "wyc": 11.0,
+      "romanshorn": 4.8,
+      "lindau_sc": 13.4
+    },
+    "romanshorn": {
+      "konstanz": 13.1,
+      "kreuzlingen": 14.3,
+      "wyc": 8.3,
+      "arbon": 4.8,
+      "lindau_sc": 19.6,
+      "bregenz_sc": 19.6
+    },
+    "lindau_sc": {
+      "wyc": 13.7,
+      "arbon": 13.4,
+      "romanshorn": 19.6,
+      "bregenz_sc": 4.4,
+      "konstanz": 30.1
+    },
+    "bregenz_sc": {
+      "lindau_sc": 4.4,
+      "romanshorn": 19.6,
+      "wyc": 18.1,
+      "konstanz": 34.5
+    },
+    "osm-way-48531302-yachthafen-radolfzell": {
+      "konstanz": 12.7,
+      "ueberlingen": 10.9
+    }
+  }
+}

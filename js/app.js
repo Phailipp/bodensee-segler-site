@@ -36,6 +36,14 @@ const state = {
   filtersServices: {
     type: 'ALL'
   },
+  regelwerk: {
+    data: null,
+    activeTab: 'license'
+  },
+  toernplaner: {
+    routes: null,
+    filters: { days: 1, difficulty: 'any', theme: 'any' }
+  },
   map: null,
   markers: { harbors: [], anchors: [], rentals: [], gastros: [] },
   markerClusters: { harbors: null, anchors: null, rentals: null, gastros: null },
@@ -2024,6 +2032,287 @@ function redrawMarkers({ harbors, anchors, rentals, gastros }) {
   }
 }
 
+// ===== REGELWERK =====
+function initRegelwerk() {
+  const reg = state.regelwerk.data;
+  const contentEl = document.getElementById('regelwerkContent');
+  const sourcesEl = document.getElementById('regelwerkSources');
+  const sourcesListEl = document.getElementById('regelwerkSourcesList');
+  if (!contentEl) return;
+
+  if (!reg) {
+    contentEl.innerHTML = `<p class="regelwerk-loading">${t('regelwerk.noData')}</p>`;
+    return;
+  }
+
+  // Sources
+  if (reg.sources && reg.sources.length && sourcesEl && sourcesListEl) {
+    sourcesListEl.innerHTML = reg.sources.map(s =>
+      `<a href="${s.url}" target="_blank" rel="noreferrer">${s.name}</a>`
+    ).join('');
+    sourcesEl.style.display = '';
+  }
+
+  // Tab click handling
+  const tabBtns = document.querySelectorAll('.rw-tab');
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+      state.regelwerk.activeTab = btn.dataset.tab;
+      renderRegelwerkTab(reg);
+    });
+  });
+
+  renderRegelwerkTab(reg);
+}
+
+function renderRegelwerkTab(reg) {
+  const contentEl = document.getElementById('regelwerkContent');
+  if (!contentEl || !reg) return;
+  const tab = state.regelwerk.activeTab;
+
+  if (tab === 'license') {
+    const l = reg.license || {};
+    contentEl.innerHTML = `
+      <div class="rw-cards">
+        <div class="rw-card">
+          <div class="rw-card-icon">⛵</div>
+          <div class="rw-card-title">${t('regelwerk.sail.threshold')}</div>
+          <div class="rw-card-value">${l.sailThresholdM2 ?? '–'} m²</div>
+          <div class="rw-card-note">${l.sailRequired ? t('regelwerk.license.required') : t('regelwerk.license.notRequired')}</div>
+        </div>
+        <div class="rw-card">
+          <div class="rw-card-icon">🚤</div>
+          <div class="rw-card-title">${t('regelwerk.motor.threshold')}</div>
+          <div class="rw-card-value">${l.motorThresholdKW ?? '–'} kW${l.motorThresholdPS ? ' / ' + l.motorThresholdPS + ' PS' : ''}</div>
+          <div class="rw-card-note">${l.motorRequired ? t('regelwerk.license.required') : t('regelwerk.license.notRequired')}</div>
+        </div>
+        <div class="rw-card">
+          <div class="rw-card-icon">🎂</div>
+          <div class="rw-card-title">${t('regelwerk.minage')}</div>
+          <div class="rw-card-value">${l.minAgeSail ?? '–'} / ${l.minAgeMotor ?? '–'}</div>
+          <div class="rw-card-note">${t('regelwerk.minage.note')}</div>
+        </div>
+        <div class="rw-card">
+          <div class="rw-card-icon">🌍</div>
+          <div class="rw-card-title">${t('regelwerk.foreign')}</div>
+          <div class="rw-card-value">${l.foreignLicenseAccepted ? t('regelwerk.yes') : t('regelwerk.no')}</div>
+          <div class="rw-card-note">${l.foreignLicenseNotes || ''}</div>
+        </div>
+      </div>
+      ${l.specialRules ? `<div class="rw-detail-block"><h4>${t('regelwerk.specialRules')}</h4><p>${l.specialRules}</p></div>` : ''}
+    `;
+  } else if (tab === 'anchoring') {
+    const a = reg.anchoring || {};
+    contentEl.innerHTML = `
+      <div class="rw-cards">
+        <div class="rw-card">
+          <div class="rw-card-icon">⚓</div>
+          <div class="rw-card-title">${t('regelwerk.anchoring.allowed')}</div>
+          <div class="rw-card-value">${a.generallyAllowed ? t('regelwerk.yes') : t('regelwerk.no')}</div>
+          <div class="rw-card-note">${t('regelwerk.anchoring.max')} ${a.maxDurationHours ?? '24'}h</div>
+        </div>
+        <div class="rw-card">
+          <div class="rw-card-icon">🌙</div>
+          <div class="rw-card-title">${t('regelwerk.overnight')}</div>
+          <div class="rw-card-value">${a.overnightAllowed ? t('regelwerk.yes') : t('regelwerk.no')}</div>
+          <div class="rw-card-note">${a.overnightNotes || ''}</div>
+        </div>
+        <div class="rw-card">
+          <div class="rw-card-icon">🌿</div>
+          <div class="rw-card-title">${t('regelwerk.anchoring.reedDist')}</div>
+          <div class="rw-card-value">${a.minDistanceReedM ?? '25'} m</div>
+          <div class="rw-card-note">${t('regelwerk.anchoring.reedNote')}</div>
+        </div>
+      </div>
+      ${a.restrictedZones && a.restrictedZones.length ? `
+      <div class="rw-detail-block">
+        <h4>${t('regelwerk.anchoring.restricted')}</h4>
+        <ul>${a.restrictedZones.map(z => `<li>${z}</li>`).join('')}</ul>
+      </div>` : ''}
+      ${a.source ? `<div class="rw-detail-block"><h4>${t('regelwerk.source')}</h4><p>${a.source}</p></div>` : ''}
+    `;
+  } else if (tab === 'speed') {
+    const s = reg.speedLimits || {};
+    const gen = s.general || {};
+    const shore = s.nearShore || {};
+    contentEl.innerHTML = `
+      <div class="rw-cards">
+        <div class="rw-card">
+          <div class="rw-card-icon">💨</div>
+          <div class="rw-card-title">${t('regelwerk.speed.general')}</div>
+          <div class="rw-card-value">${gen.maxKmh ?? '40'} km/h</div>
+          <div class="rw-card-note">${gen.notes || ''}</div>
+        </div>
+        <div class="rw-card">
+          <div class="rw-card-icon">🏖️</div>
+          <div class="rw-card-title">${t('regelwerk.speed.nearShore')} (${shore.distanceM ?? '150'}m)</div>
+          <div class="rw-card-value">${shore.maxKmh ?? '10'} km/h</div>
+          <div class="rw-card-note">${shore.notes || ''}</div>
+        </div>
+      </div>
+      ${s.zones && s.zones.length ? `
+      <div class="rw-detail-block">
+        <h4>${t('regelwerk.speed.zones')}</h4>
+        <ul>${s.zones.map(z => `<li><strong>${z.name}:</strong> ${z.maxKmh} km/h${z.notes ? ' – ' + z.notes : ''}</li>`).join('')}</ul>
+      </div>` : ''}
+    `;
+  } else if (tab === 'navigation') {
+    const n = reg.navigation || {};
+    const night = n.nightNavigation || {};
+    contentEl.innerHTML = `
+      <div class="rw-cards">
+        <div class="rw-card">
+          <div class="rw-card-icon">🌃</div>
+          <div class="rw-card-title">${t('regelwerk.night')}</div>
+          <div class="rw-card-value">${night.allowed ? t('regelwerk.yes') : t('regelwerk.no')}</div>
+          <div class="rw-card-note">${night.notes || ''}</div>
+        </div>
+        ${n.vhfChannel ? `<div class="rw-card">
+          <div class="rw-card-icon">📻</div>
+          <div class="rw-card-title">VHF</div>
+          <div class="rw-card-value">${t('regelwerk.vhf.channel')} ${n.vhfChannel}</div>
+          <div class="rw-card-note">${n.vhfRequired ? t('regelwerk.license.required') : t('regelwerk.vhf.recommended')}</div>
+        </div>` : ''}
+      </div>
+      ${n.rightOfWay ? `<div class="rw-detail-block"><h4>${t('regelwerk.rightOfWay')}</h4><p>${n.rightOfWay}</p></div>` : ''}
+      ${n.specialRules && n.specialRules.length ? `
+      <div class="rw-detail-block">
+        <h4>${t('regelwerk.specialRules')}</h4>
+        <ul>${n.specialRules.map(r => `<li>${r}</li>`).join('')}</ul>
+      </div>` : ''}
+    `;
+  } else if (tab === 'registration') {
+    const r = reg.registration || {};
+    const sw = reg.stormWarning || {};
+    contentEl.innerHTML = `
+      <div class="rw-cards">
+        <div class="rw-card">
+          <div class="rw-card-icon">📋</div>
+          <div class="rw-card-title">${t('regelwerk.reg.required')}</div>
+          <div class="rw-card-value">${r.required ? t('regelwerk.yes') : t('regelwerk.no')}</div>
+          <div class="rw-card-note">${r.authority || ''}</div>
+        </div>
+        <div class="rw-card">
+          <div class="rw-card-icon">🛡️</div>
+          <div class="rw-card-title">${t('regelwerk.insurance')}</div>
+          <div class="rw-card-value">${r.insuranceRequired ? t('regelwerk.yes') : t('regelwerk.no')}</div>
+          <div class="rw-card-note">${r.minInsuranceCHF ? 'min. CHF ' + r.minInsuranceCHF.toLocaleString('de-CH') : ''}</div>
+        </div>
+        ${sw.blinkPattern ? `<div class="rw-card">
+          <div class="rw-card-icon">⚡</div>
+          <div class="rw-card-title">${t('regelwerk.storm')}</div>
+          <div class="rw-card-value">${sw.provider || 'MeteoSwiss'}</div>
+          <div class="rw-card-note">${sw.blinkPattern}</div>
+        </div>` : ''}
+      </div>
+      ${r.notes ? `<div class="rw-detail-block"><h4>${t('regelwerk.reg.notes')}</h4><p>${r.notes}</p></div>` : ''}
+      ${sw.notes ? `<div class="rw-detail-block"><h4>${t('regelwerk.storm.notes')}</h4><p>${sw.notes}</p></div>` : ''}
+    `;
+  } else if (tab === 'environment') {
+    const e = reg.environment || {};
+    contentEl.innerHTML = `
+      ${e.motorRestrictions ? `<div class="rw-detail-block"><h4>${t('regelwerk.env.motors')}</h4><p>${e.motorRestrictions}</p></div>` : ''}
+      ${e.wasteDisposal ? `<div class="rw-detail-block"><h4>${t('regelwerk.env.waste')}</h4><p>${e.wasteDisposal}</p></div>` : ''}
+      ${e.noGoZones && e.noGoZones.length ? `
+      <div class="rw-detail-block">
+        <h4>${t('regelwerk.env.nogo')}</h4>
+        <ul>${e.noGoZones.map(z => `<li>${z}</li>`).join('')}</ul>
+      </div>` : ''}
+    `;
+  }
+}
+
+// ===== TÖRNPLANER =====
+function initToernplaner() {
+  const resultsEl = document.getElementById('toernplanerResults');
+  if (!resultsEl) return;
+
+  // Wire up config chips
+  ['configDays', 'configDifficulty', 'configTheme'].forEach(groupId => {
+    const group = document.getElementById(groupId);
+    if (!group) return;
+    group.querySelectorAll('.config-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        group.querySelectorAll('.config-chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        const field = groupId === 'configDays' ? 'days'
+                    : groupId === 'configDifficulty' ? 'difficulty' : 'theme';
+        const val = chip.dataset.value;
+        state.toernplaner.filters[field] = field === 'days' ? parseInt(val, 10) : val;
+        renderToernplanerResults();
+      });
+    });
+  });
+
+  renderToernplanerResults();
+}
+
+function renderToernplanerResults() {
+  const resultsEl = document.getElementById('toernplanerResults');
+  if (!resultsEl) return;
+  const routes = state.toernplaner.routes;
+
+  if (!routes || !routes.routeTemplates || !routes.routeTemplates.length) {
+    resultsEl.innerHTML = `<div class="toernplaner-empty">${t('toernplaner.noRoutes')}</div>`;
+    return;
+  }
+
+  const { days, difficulty, theme } = state.toernplaner.filters;
+  const filtered = routes.routeTemplates.filter(r => {
+    if (days > 1 && days < 5 && r.days !== days) return false;
+    if (days === 1 && r.days > 2) return false;
+    if (days === 5 && r.days < 4) return false;
+    if (difficulty !== 'any' && r.difficulty !== difficulty) return false;
+    if (theme !== 'any' && !r.theme.includes(theme)) return false;
+    return true;
+  });
+
+  if (!filtered.length) {
+    resultsEl.innerHTML = `<div class="toernplaner-empty">${t('toernplaner.noMatch')}</div>`;
+    return;
+  }
+
+  const diffLabels = { easy: t('toernplaner.diff.easy'), moderate: t('toernplaner.diff.moderate'), challenging: t('toernplaner.diff.challenging') };
+  const themeLabels = { scenery: t('toernplaner.theme.scenery'), towns: t('toernplaner.theme.towns'), guestBerths: t('toernplaner.theme.guestBerths'), adventure: t('toernplaner.theme.adventure'), weekend: t('toernplaner.theme.weekend'), history: t('toernplaner.theme.history') };
+
+  resultsEl.innerHTML = filtered.map(route => {
+    const diffClass = `diff-${route.difficulty}`;
+    const legsHtml = (route.legs || []).map(leg => `
+      <div class="toern-leg">
+        <div class="toern-leg-day">${t('toernplaner.day')} ${leg.day}</div>
+        <div class="toern-leg-info">
+          <div class="toern-leg-route">${leg.from} → ${leg.to}</div>
+          <div class="toern-leg-dist">${leg.distanceNM} NM · ~${leg.estimatedHoursSail}h Segeln</div>
+        </div>
+      </div>
+    `).join('');
+
+    const tags = (route.theme || []).map(th => themeLabels[th] || th)
+      .map(th => `<span class="toern-tag">${th}</span>`).join('');
+
+    return `
+      <div class="toern-card">
+        <div class="toern-card-header">
+          <div class="toern-card-title">${route.nameDe || route.name}</div>
+          <div class="toern-card-meta">
+            <span>📅 ${route.days} ${route.days === 1 ? t('toernplaner.day') : t('toernplaner.days')}</span>
+            <span>⚓ ${route.totalDistanceNM} NM</span>
+            <span class="${diffClass}">${diffLabels[route.difficulty] || route.difficulty}</span>
+          </div>
+        </div>
+        <div class="toern-card-body">
+          <p class="toern-card-desc">${route.description}</p>
+          <div class="toern-legs">${legsHtml}</div>
+        </div>
+        ${tags ? `<div class="toern-card-footer">${tags}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
 async function main() {
   // Lakes
   const lakesIndex = await loadJSON('./data/lakes.json').catch(() => []);
@@ -2040,14 +2329,16 @@ async function main() {
 
   // Data (per lake)
   const base = `./data/lakes/${lake.id}`;
-  const [harbors, anchors, rentals, gastros, services, layersCfg, lakeContent] = await Promise.all([
+  const [harbors, anchors, rentals, gastros, services, layersCfg, lakeContent, regulations, routes] = await Promise.all([
     loadJSON(`${base}/harbors.json`).catch(() => []),
     loadJSON(`${base}/anchors.json`).catch(() => []),
     loadJSON(`${base}/rentals.json`).catch(() => []),
     loadJSON(`${base}/gastros.json`).catch(() => []),
     loadJSON(`${base}/services.json`).catch(() => []),
     loadJSON(`${base}/layers.json`).catch(() => []),
-    loadJSON(`${base}/content.json`).catch(() => null)
+    loadJSON(`${base}/content.json`).catch(() => null),
+    loadJSON(`${base}/regulations.json`).catch(() => null),
+    loadJSON(`${base}/routes.json`).catch(() => null)
   ]);
 
   state.data.harbors = harbors;
@@ -2056,6 +2347,8 @@ async function main() {
   state.data.gastros = gastros;
   state.data.services = services;
   state.data.layers = layersCfg;
+  state.regelwerk.data = regulations;
+  state.toernplaner.routes = routes;
 
   // Language + i18n FIRST (before UI init, so translations are always available)
   const urlLang = getUrlParam('lang');
@@ -2084,6 +2377,8 @@ async function main() {
   safeInit(initZonesInfo, 'initZonesInfo');
   safeInit(initLocationLayer, 'initLocationLayer');
   safeInit(initShareSection, 'initShareSection');
+  safeInit(initRegelwerk, 'initRegelwerk');
+  safeInit(initToernplaner, 'initToernplaner');
 
   // renderAll() was called earlier via setLang() before the map existed → re-render now
   // so markers actually appear on initial load without requiring a filter click.

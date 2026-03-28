@@ -128,6 +128,8 @@
       <li><a href="#vermietung" data-i18n="nav.rentals">Vermietung</a></li>
       <li><a href="#gastro" data-i18n="nav.gastro">Gastro</a></li>
       <li><a href="#service" data-i18n="nav.service">Service</a></li>
+      <li><a href="#regelwerk" data-i18n="nav.regelwerk">Regelwerk</a></li>
+      <li><a href="#toernplaner" data-i18n="nav.toernplaner">Törnplaner</a></li>
       <li><a href="#sources" data-i18n="nav.sources">Quellen</a></li>
       <li><a href="#guide" data-i18n="nav.guide">Guide</a></li>
       <li><a href="#safety" data-i18n="nav.safety">Sicherheit</a></li>
@@ -335,6 +337,79 @@
     <div class="service-type-chips" id="serviceTypeChips" role="group" aria-label="Service-Typ"></div>
 
     <div class="service-grid" id="serviceGrid"></div>
+  </section>
+
+  <!-- Regelwerk-Hub -->
+  <section id="regelwerk" class="regelwerk-section">
+    <div class="section-header">
+      <div class="section-label" data-i18n="regelwerk.label">Rechtliches</div>
+      <h2 class="section-title" data-i18n="regelwerk.title">Regelwerk am See</h2>
+      <p class="section-subtitle" data-i18n="regelwerk.subtitle">Führerschein, Ankern, Tempo, Navigation – alle wichtigen Regeln für deinen See auf einen Blick.</p>
+    </div>
+
+    <div class="regelwerk-tabs" id="regelwerkTabs" role="tablist">
+      <button class="rw-tab active" data-tab="license" role="tab" aria-selected="true" data-i18n="regelwerk.tab.license">Führerschein</button>
+      <button class="rw-tab" data-tab="anchoring" role="tab" aria-selected="false" data-i18n="regelwerk.tab.anchoring">Ankern</button>
+      <button class="rw-tab" data-tab="speed" role="tab" aria-selected="false" data-i18n="regelwerk.tab.speed">Tempo</button>
+      <button class="rw-tab" data-tab="navigation" role="tab" aria-selected="false" data-i18n="regelwerk.tab.navigation">Navigation</button>
+      <button class="rw-tab" data-tab="registration" role="tab" aria-selected="false" data-i18n="regelwerk.tab.registration">Zulassung</button>
+      <button class="rw-tab" data-tab="environment" role="tab" aria-selected="false" data-i18n="regelwerk.tab.environment">Umwelt</button>
+    </div>
+
+    <div id="regelwerkContent" class="regelwerk-content">
+      <div class="regelwerk-loading" data-i18n="regelwerk.loading">Lade Regelwerk…</div>
+    </div>
+
+    <div class="regelwerk-sources" id="regelwerkSources" style="display:none">
+      <span data-i18n="regelwerk.sources.label">Quellen:</span>
+      <span id="regelwerkSourcesList"></span>
+    </div>
+  </section>
+
+  <!-- Törnplaner -->
+  <section id="toernplaner" class="toernplaner-section">
+    <div class="section-header">
+      <div class="section-label" data-i18n="toernplaner.label">Törn-Inspiration</div>
+      <h2 class="section-title" data-i18n="toernplaner.title">Törnplaner</h2>
+      <p class="section-subtitle" data-i18n="toernplaner.subtitle">Passende Routen für deinen See, deine Tage und dein Boot — als Inspiration, nicht als Vorschrift.</p>
+    </div>
+
+    <div class="toernplaner-configurator" id="toernplanerConfig">
+      <div class="config-steps">
+        <div class="config-step">
+          <label class="config-label" data-i18n="toernplaner.config.days">Wieviele Tage?</label>
+          <div class="config-chips" id="configDays" role="group">
+            <button class="config-chip active" data-value="1">1 Tag</button>
+            <button class="config-chip" data-value="2">2 Tage</button>
+            <button class="config-chip" data-value="3">3 Tage</button>
+            <button class="config-chip" data-value="5">5+ Tage</button>
+          </div>
+        </div>
+        <div class="config-step">
+          <label class="config-label" data-i18n="toernplaner.config.difficulty">Erfahrung?</label>
+          <div class="config-chips" id="configDifficulty" role="group">
+            <button class="config-chip active" data-value="any" data-i18n="toernplaner.diff.any">Egal</button>
+            <button class="config-chip" data-value="easy" data-i18n="toernplaner.diff.easy">Einsteiger</button>
+            <button class="config-chip" data-value="moderate" data-i18n="toernplaner.diff.moderate">Fortgeschritten</button>
+            <button class="config-chip" data-value="challenging" data-i18n="toernplaner.diff.challenging">Erfahren</button>
+          </div>
+        </div>
+        <div class="config-step">
+          <label class="config-label" data-i18n="toernplaner.config.theme">Schwerpunkt?</label>
+          <div class="config-chips" id="configTheme" role="group">
+            <button class="config-chip active" data-value="any" data-i18n="toernplaner.theme.any">Egal</button>
+            <button class="config-chip" data-value="scenery" data-i18n="toernplaner.theme.scenery">Landschaft</button>
+            <button class="config-chip" data-value="towns" data-i18n="toernplaner.theme.towns">Orte &amp; Kultur</button>
+            <button class="config-chip" data-value="guestBerths" data-i18n="toernplaner.theme.guestBerths">Gastplätze</button>
+            <button class="config-chip" data-value="adventure" data-i18n="toernplaner.theme.adventure">Abenteuer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="toernplanerResults" class="toernplaner-results">
+      <div class="toernplaner-empty" data-i18n="toernplaner.noRoutes">Für diesen See sind noch keine Routen hinterlegt.</div>
+    </div>
   </section>
 
   <section id="sources" class="guide-section">

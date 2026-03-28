@@ -1,0 +1,70 @@
+{
+  "seeId": "lago-maggiore",
+  "unit": "nm",
+  "matrix": {
+    "osm-node-10035932668-porto-regionale-di-locarno": {
+      "osm-way-309837331-porto-patriziale-ascona": 1.6,
+      "osm-node-4043767492-porto-ticino-brissago": 5.9,
+      "osm-way-337003498-porto-alla-resiga": 6.0,
+      "osm-way-289214196-porto-nuovo": 13.6,
+      "osm-way-1131704994-porto-turistico-portobello": 17.0
+    },
+    "osm-way-309837331-porto-patriziale-ascona": {
+      "osm-node-10035932668-porto-regionale-di-locarno": 1.6,
+      "osm-node-4043767492-porto-ticino-brissago": 4.6,
+      "osm-way-337003498-porto-alla-resiga": 4.7,
+      "osm-way-1131704994-porto-turistico-portobello": 11.6,
+      "osm-way-1135790031-porto-comunale-di-verbania-intra": 20.5
+    },
+    "osm-node-4043767492-porto-ticino-brissago": {
+      "osm-node-10035932668-porto-regionale-di-locarno": 5.9,
+      "osm-way-309837331-porto-patriziale-ascona": 4.6,
+      "osm-way-337003498-porto-alla-resiga": 0.2,
+      "osm-way-1131704994-porto-turistico-portobello": 7.5
+    },
+    "osm-way-337003498-porto-alla-resiga": {
+      "osm-node-10035932668-porto-regionale-di-locarno": 6.0,
+      "osm-way-309837331-porto-patriziale-ascona": 4.7,
+      "osm-node-4043767492-porto-ticino-brissago": 0.2,
+      "osm-way-1131704994-porto-turistico-portobello": 7.5
+    },
+    "osm-way-1131704994-porto-turistico-portobello": {
+      "osm-way-309837331-porto-patriziale-ascona": 11.6,
+      "osm-node-4043767492-porto-ticino-brissago": 7.5,
+      "osm-way-1135790031-porto-comunale-di-verbania-intra": 8.9,
+      "osm-way-1156339304-nuovo-porto-di-stresa": 13.2
+    },
+    "osm-way-1135790031-porto-comunale-di-verbania-intra": {
+      "osm-way-1131704994-porto-turistico-portobello": 8.9,
+      "osm-way-309837331-porto-patriziale-ascona": 20.5,
+      "osm-way-1156339304-nuovo-porto-di-stresa": 4.3,
+      "osm-node-560849534-porto-communale": 3.0,
+      "osm-way-222274951-marina-portolabieno": 11.3
+    },
+    "osm-way-1156339304-nuovo-porto-di-stresa": {
+      "osm-way-1135790031-porto-comunale-di-verbania-intra": 4.3,
+      "osm-way-1131704994-porto-turistico-portobello": 13.2,
+      "osm-way-289227894-porto-comunale-di-laveno-mombello": 8.0
+    },
+    "osm-node-560849534-porto-communale": {
+      "osm-way-1135790031-porto-comunale-di-verbania-intra": 3.0,
+      "osm-way-222274951-marina-portolabieno": 3.5
+    },
+    "osm-way-222274951-marina-portolabieno": {
+      "osm-node-560849534-porto-communale": 3.5,
+      "osm-way-1135790031-porto-comunale-di-verbania-intra": 11.3,
+      "osm-way-289214196-porto-nuovo": 9.4,
+      "osm-way-289227894-porto-comunale-di-laveno-mombello": 0.3
+    },
+    "osm-way-289214196-porto-nuovo": {
+      "osm-way-222274951-marina-portolabieno": 9.4,
+      "osm-node-10035932668-porto-regionale-di-locarno": 13.6,
+      "osm-way-289227894-porto-comunale-di-laveno-mombello": 9.4
+    },
+    "osm-way-289227894-porto-comunale-di-laveno-mombello": {
+      "osm-way-222274951-marina-portolabieno": 0.3,
+      "osm-way-1156339304-nuovo-porto-di-stresa": 8.0,
+      "osm-way-289214196-porto-nuovo": 9.4
+    }
+  }
+}
